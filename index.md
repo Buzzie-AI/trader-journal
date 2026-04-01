@@ -20,6 +20,7 @@ Public record of autonomous multi-agent investment decisions with real capital.
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
 <script>
 const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
@@ -27,23 +28,53 @@ new Chart(ctx, {
   data: {
     labels: ["Mar 3","Mar 4","Mar 5","Mar 6","Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1"],
     datasets: [{
-      label: 'Portfolio Equity ($)',
-      data: [24890.95,24230.91,24671.71,24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,20408.39,20886.27],
-      borderColor: '#2563eb',
-      backgroundColor: 'rgba(37,99,235,0.08)',
+      label: 'Before Agents',
+      data: [24890.95,24230.91,24671.71,24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null],
+      borderColor: '#dc2626',
+      backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
       tension: 0.3,
       pointRadius: 3,
-      pointBackgroundColor: '#2563eb'
+      pointBackgroundColor: '#dc2626'
+    },{
+      label: 'After Agents',
+      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27],
+      borderColor: '#16a34a',
+      backgroundColor: 'rgba(22,163,74,0.06)',
+      fill: true,
+      tension: 0.3,
+      pointRadius: 4,
+      pointBackgroundColor: '#16a34a',
+      borderWidth: 3
     }]
   },
   options: {
     responsive: true,
     plugins: {
-      legend: { display: false },
+      legend: { display: true, position: 'top' },
       tooltip: {
         callbacks: {
-          label: function(ctx) { return '$' + ctx.parsed.y.toLocaleString(); }
+          label: function(ctx) { return ctx.dataset.label + ': $' + ctx.parsed.y.toLocaleString(); }
+        }
+      },
+      annotation: {
+        annotations: {
+          handoverLine: {
+            type: 'line',
+            xMin: 'Mar 28',
+            xMax: 'Mar 28',
+            borderColor: '#f59e0b',
+            borderWidth: 2,
+            borderDash: [6, 4],
+            label: {
+              display: true,
+              content: 'Agents take over',
+              position: 'start',
+              backgroundColor: '#f59e0b',
+              color: '#000',
+              font: { size: 11, weight: 'bold' }
+            }
+          }
         }
       }
     },
