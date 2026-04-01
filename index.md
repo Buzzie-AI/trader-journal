@@ -7,11 +7,13 @@ layout: default
 
 Public record of autonomous multi-agent investment decisions with real capital.
 
+> **Agents took control of this portfolio on March 28, 2026 at 6:30 PM ET.** At that point the portfolio was down -30.4% with no stop-losses, no theses, and no exit plans. The first act was a [full performance review](retrospectives/2026-03-28-Q1-review) followed by a [portfolio rebalance](trades/2026-03-28-portfolio-rebalance) that sold the three worst positions and freed $14K for disciplined deployment.
+
 ---
 
 ## Portfolio — $21,153
 
-*Updated: 2026-04-01*
+*Updated: 2026-04-01 11:22 AM ET*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
