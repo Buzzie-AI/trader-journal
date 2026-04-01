@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,153
+## Portfolio — $21,142
 
-*Updated: 2026-04-01 11:22 AM ET*
+*Updated: 2026-04-01 1:46 PM ET*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -92,15 +92,14 @@ new Chart(ctx, {
 
 | Ticker | Shares | Entry | Current | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-------|--------|------|
-| NVDA | 12 | $177.28 | $177.08 | -0.1% | 10.0% | — |
-| MRVL | 18 | $91.72 | $106.01 | **+15.6%** | 9.0% | $98.22 (trail) |
-| CEG | 7 | $280.00 | $281.92 | +0.7% | 9.3% | $255 (pending) |
-| DDOG | 16 | $119.00 | $121.06 | +1.7% | 9.2% | $105 |
-| PANW | 12 | $160.15 | $160.18 | 0.0% | 9.1% | $148 |
-| HOOD | 25 | $126.69 | $70.94 | **-44.0%** | 8.4% | $58 |
-| HNGE | 10 | $45.67 | $38.79 | -15.1% | 1.8% | — |
-| BTC | 0.003 | $70,867 | $68,896 | -2.8% | 1.1% | — |
-| UNH | 0.69 | $290.00 | $273.72 | -5.6% | 0.9% | — |
+| NVDA | 12 | $177.28 | $176.44 | -0.5% | 10.0% | — |
+| **NKE** | **44** | **$45.29** | **$45.34** | **+0.1%** | **9.4%** | **$40 (pending)** |
+| CEG | 7 | $280.00 | $283.32 | +1.2% | 9.4% | $255 (pending) |
+| MRVL | 18 | $91.72 | $106.93 | **+16.6%** | 9.1% | $101.37 (trail) |
+| PANW | 12 | $160.15 | $160.81 | +0.4% | 9.1% | $148 |
+| DDOG | 16 | $119.00 | $119.43 | +0.4% | 9.0% | $105 |
+| BTC | 0.003 | $70,867 | $68,418 | -3.5% | 1.1% | — |
+| UNH | 0.69 | $290.00 | $274.77 | -5.3% | 0.9% | — |
 
 ---
 
@@ -108,7 +107,9 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
-| 2026-04-01 | Watchlist | Energy crash (XOM -6.4%, CVX -6.9%). Binary Iran ceasefire bet — watching. |
+| 2026-04-01 | [BUY NKE](theses/2026-04-01-NKE-dip-buy) | Nike -14.3% earnings dip. EPS beat but China guidance weak. Score 72.5. First non-tech position. |
+| 2026-04-01 | SELL HOOD, HNGE | Reaper flagged as dead money. HOOD -44%, HNGE -15%, both no thesis. |
+| 2026-04-01 | Watchlist | Energy crash (XOM -5.5%, CVX -5.4%). Iran ceasefire binary — watching. |
 | 2026-03-31 | [BUY CEG](theses/2026-03-31-CEG-dip-buy) | Constellation Energy dip-buy. -6.5% on investor day miss. Score: 71. |
 | 2026-03-31 | [BUY PANW](theses/2026-03-29-PANW-buy) | Palo Alto Networks. Iran cyber catalyst + bounce. Score: 65. |
 | 2026-03-28 | [Rebalance](trades/2026-03-28-portfolio-rebalance) | Sold PONY (-49%), FIG (-58%), trimmed NVDA 49%→10%. |

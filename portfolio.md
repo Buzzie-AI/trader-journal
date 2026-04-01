@@ -5,17 +5,16 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-01*
+*Last updated: 2026-04-01 1:46 PM ET*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$21,153** |
-| Cash | $8,699 |
-| Invested | $12,454 |
-| Positions | 9 |
-| Day P&L | +$267 (+1.28%) |
+| **Portfolio Value** | **$21,142** |
+| Cash | $8,857 (41.9%) |
+| Invested | $12,286 (58.1%) |
+| Positions | 8 |
 
 ---
 
@@ -26,38 +25,60 @@ layout: default
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
 <script>
 const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["03-03","03-04","03-05","03-06","03-07","03-10","03-11","03-12","03-13","03-14","03-17","03-18","03-19","03-20","03-21","03-24","03-25","03-26","03-27","03-28","03-31","04-01"],
+    labels: ["Mar 3","Mar 4","Mar 5","Mar 6","Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1"],
     datasets: [{
-      label: 'Portfolio Equity ($)',
-      data: [24890.95,24230.91,24671.71,24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,20408.39,20886.27],
-      borderColor: '#2563eb',
-      backgroundColor: 'rgba(37,99,235,0.1)',
+      label: 'Before Agents',
+      data: [24890.95,24230.91,24671.71,24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null],
+      borderColor: '#dc2626',
+      backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
       tension: 0.3,
       pointRadius: 3,
-      pointBackgroundColor: '#2563eb'
+      pointBackgroundColor: '#dc2626'
+    },{
+      label: 'After Agents',
+      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27],
+      borderColor: '#16a34a',
+      backgroundColor: 'rgba(22,163,74,0.06)',
+      fill: true,
+      tension: 0.3,
+      pointRadius: 4,
+      pointBackgroundColor: '#16a34a',
+      borderWidth: 3
     }]
   },
   options: {
     responsive: true,
     plugins: {
-      legend: { display: false },
+      legend: { display: true, position: 'top' },
       tooltip: {
         callbacks: {
-          label: function(ctx) { return '$' + ctx.parsed.y.toLocaleString(); }
+          label: function(ctx) { return ctx.dataset.label + ': $' + ctx.parsed.y.toLocaleString(); }
+        }
+      },
+      annotation: {
+        annotations: {
+          handoverLine: {
+            type: 'line',
+            xMin: 'Mar 28',
+            xMax: 'Mar 28',
+            borderColor: '#f59e0b',
+            borderWidth: 2,
+            borderDash: [6, 4]
+          }
         }
       }
     },
     scales: {
       y: {
         ticks: { callback: function(v) { return '$' + (v/1000).toFixed(1) + 'k'; } },
-        min: 19000,
-        max: 26000
+        min: 19000, max: 26000
       }
     }
   }
@@ -66,7 +87,7 @@ new Chart(ctx, {
 
 | Period | Start | End | Change |
 |--------|-------|-----|--------|
-| 1 Month | $24,891 | $20,886 | **-16.1%** |
+| 1 Month | $24,891 | $21,142 | **-15.1%** |
 | Low | $20,408 (Mar 31) | | |
 | High | $24,891 (Mar 3) | | |
 
@@ -76,15 +97,14 @@ new Chart(ctx, {
 
 | Ticker | Shares | Entry | Current | P&L | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-----|-------|--------|------|
-| NVDA | 12 | $177.28 | $177.08 | -$2.49 | -0.1% | 10.0% | — |
-| MRVL | 18 | $91.72 | $106.01 | **+$257.19** | **+15.6%** | 9.0% | $98.22 (trail 6%) |
-| CEG | 7 | $280.00 | $281.92 | +$13.44 | +0.7% | 9.3% | $255 (pending) |
-| DDOG | 16 | $119.00 | $121.06 | +$32.96 | +1.7% | 9.2% | $105 |
-| PANW | 12 | $160.15 | $160.18 | +$0.36 | 0.0% | 9.1% | $148 |
-| HOOD | 25 | $126.69 | $70.94 | -$1,393.68 | **-44.0%** | 8.4% | $58 |
-| HNGE | 10 | $45.67 | $38.79 | -$68.80 | -15.1% | 1.8% | — |
-| BTCUSD | 0.003 | $70,867 | $68,896 | -$6.80 | -2.8% | 1.1% | — |
-| UNH | 0.69 | $290.00 | $273.72 | -$11.23 | -5.6% | 0.9% | — |
+| NVDA | 12 | $177.28 | $176.44 | -$10.11 | -0.5% | 10.0% | — |
+| NKE | 44 | $45.29 | $45.34 | +$2.12 | +0.1% | 9.4% | $40 (pending) |
+| CEG | 7 | $280.00 | $283.32 | +$23.24 | +1.2% | 9.4% | $255 (PDT blocked) |
+| MRVL | 18 | $91.72 | $106.93 | **+$273.66** | **+16.6%** | 9.1% | $101.37 (trail 6%) |
+| PANW | 12 | $160.15 | $160.81 | +$7.86 | +0.4% | 9.1% | $148 |
+| DDOG | 16 | $119.00 | $119.43 | +$6.88 | +0.4% | 9.0% | $105 |
+| BTC | 0.003 | $70,867 | $68,418 | -$8.45 | -3.5% | 1.1% | — |
+| UNH | 0.69 | $290.00 | $274.77 | -$10.50 | -5.3% | 0.9% | — |
 
 ---
 
@@ -92,12 +112,12 @@ new Chart(ctx, {
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| Tech (NVDA, DDOG, MRVL, PANW) | $7,892 | 37.3% |
-| Energy (CEG) | $1,973 | 9.3% |
-| Fintech (HOOD) | $1,774 | 8.4% |
+| Tech (NVDA, DDOG, MRVL, PANW) | $7,883 | 37.3% |
+| **Consumer (NKE)** | **$1,995** | **9.4%** |
+| Energy (CEG) | $1,983 | 9.4% |
 | Healthcare (UNH) | $189 | 0.9% |
-| Crypto (BTC) | $238 | 1.1% |
-| Cash | $8,699 | 41.1% |
+| Crypto (BTC) | $236 | 1.1% |
+| Cash | $8,857 | 41.9% |
 
 ---
 
@@ -105,8 +125,19 @@ new Chart(ctx, {
 
 | Type | Ticker | Qty | Trigger | TIF |
 |------|--------|-----|---------|-----|
-| Trailing Stop | MRVL | 18 | $98.22 (6% trail, HWM $104.49) | GTC |
+| Trailing Stop | MRVL | 18 | $101.37 (6% trail, HWM $107.84) | GTC |
 | Stop | DDOG | 16 | $105.00 | GTC |
 | Stop | PANW | 12 | $148.00 | GTC |
-| Stop | HOOD | 25 | $58.00 | GTC |
+| Stop | NKE | 44 | $40.00 (PENDING after fill) | — |
 | Stop | CEG | 7 | $255.00 (PENDING — PDT blocked) | — |
+
+---
+
+## Recently Closed
+
+| Ticker | Entry | Exit | Return | Reason |
+|--------|-------|------|--------|--------|
+| HOOD | $126.69 | ~$70.44 | -44.4% | Reaper: thesis broken, dead money |
+| HNGE | $45.67 | ~$38.83 | -15.0% | Reaper: no thesis, dead money |
+| PONY | $18.05 | $9.15 | -49.4% | Q1 rebalance |
+| FIG | $48.18 | $20.21 | -58.1% | Q1 rebalance |
