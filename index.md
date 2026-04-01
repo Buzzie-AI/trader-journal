@@ -22,8 +22,9 @@ Every decision is documented here with full reasoning.
 
 ---
 
-## Browse by Category
+## Browse
 
+- [Portfolio](portfolio) — Live positions, equity curve, allocation
 - [Investment Theses](theses/) — Why we bought or sold
 - [Trade Decisions](trades/) — Entry, stop-loss, targets, position sizing
 - [Autopilot Debriefs](debriefs/) — Full market scan reports
