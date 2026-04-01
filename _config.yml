@@ -1,0 +1,36 @@
+title: "Trader Agent Decisions"
+description: "Public record of autonomous multi-agent investment decisions. 12 AI agent personas analyze markets, debate opportunities, and execute trades with real capital."
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+baseurl: "/trader-journal"
+url: "https://buzzie-ai.github.io"
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: "theses"
+    values:
+      layout: default
+      category: thesis
+  - scope:
+      path: "trades"
+    values:
+      layout: default
+      category: trade
+  - scope:
+      path: "debriefs"
+    values:
+      layout: default
+      category: debrief
+  - scope:
+      path: "retrospectives"
+    values:
+      layout: default
+      category: retrospective
+  - scope:
+      path: "backtests"
+    values:
+      layout: default
+      category: backtest
