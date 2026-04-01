@@ -65,15 +65,7 @@ new Chart(ctx, {
             xMax: 'Mar 28',
             borderColor: '#f59e0b',
             borderWidth: 2,
-            borderDash: [6, 4],
-            label: {
-              display: true,
-              content: 'Agents take over',
-              position: 'start',
-              backgroundColor: '#f59e0b',
-              color: '#000',
-              font: { size: 11, weight: 'bold' }
-            }
+            borderDash: [6, 4]
           }
         }
       }
