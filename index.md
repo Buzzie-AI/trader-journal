@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,142
+## Portfolio — $20,970
 
-*Updated: 2026-04-01 1:46 PM ET*
+*Updated: 2026-04-03 10:13 AM ET*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -26,10 +26,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 3","Mar 4","Mar 5","Mar 6","Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1"],
+    labels: ["Mar 3","Mar 4","Mar 5","Mar 6","Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2"],
     datasets: [{
       label: 'Before Agents',
-      data: [24890.95,24230.91,24671.71,24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null],
+      data: [24890.95,24230.91,24671.71,24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27],
+      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,20970],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -82,24 +82,24 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,153** |
-| Cash | $8,699 (41%) |
-| Invested | $12,454 (59%) |
-| 1-Month | -16.1% |
-| Positions | 9 |
+| Equity | **$20,970** |
+| Cash | $10,681 → ~$8,981 after CCI |
+| Invested | $10,288 → ~$11,988 |
+| 1-Month | -15.7% |
+| Since Agents | **+2.3%** |
 
 ### Positions
 
 | Ticker | Shares | Entry | Current | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-------|--------|------|
-| NVDA | 12 | $177.28 | $176.44 | -0.5% | 10.0% | — |
-| **NKE** | **44** | **$45.29** | **$45.34** | **+0.1%** | **9.4%** | **$40 (pending)** |
-| CEG | 7 | $280.00 | $283.32 | +1.2% | 9.4% | $255 (pending) |
-| MRVL | 18 | $91.72 | $106.93 | **+16.6%** | 9.1% | $101.37 (trail) |
-| PANW | 12 | $160.15 | $160.81 | +0.4% | 9.1% | $148 |
-| DDOG | 16 | $119.00 | $119.43 | +0.4% | 9.0% | $105 |
-| BTC | 0.003 | $70,867 | $68,418 | -3.5% | 1.1% | — |
-| UNH | 0.69 | $290.00 | $274.77 | -5.3% | 0.9% | — |
+| NVDA | 12 | $177.28 | $177.31 | +0.0% | 10.1% | $160 |
+| NKE | 44 | $45.29 | $44.19 | -2.4% | 9.3% | $40 |
+| PANW | 12 | $160.15 | $163.27 | **+1.9%** | 9.3% | $148 |
+| DDOG | 16 | $119.00 | $120.36 | **+1.1%** | 9.2% | $105 |
+| CEG | 7 | $280.00 | $272.64 | -2.6% | 9.1% | $255 |
+| **CCI** | **20** | **$84.94** | **pending** | **—** | **~8.1%** | **$76.50** |
+| BTC | 0.003 | $70,867 | $66,697 | -5.9% | 1.1% | — |
+| UNH | 0.69 | $290.00 | $277.23 | -4.4% | 0.9% | — |
 
 ---
 
@@ -107,6 +107,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| 2026-04-03 | [BUY CCI](theses/2026-04-03-CCI-momentum-buy) | Crown Castle +4.85% on activist restructuring. Pure-play tower pivot, $7B debt cut, $1B buyback. First REIT position. |
 | 2026-04-01 | [BUY NKE](theses/2026-04-01-NKE-dip-buy) | Nike -14.3% earnings dip. EPS beat but China guidance weak. Score 72.5. First non-tech position. |
 | 2026-04-01 | SELL HOOD, HNGE | Reaper flagged as dead money. HOOD -44%, HNGE -15%, both no thesis. |
 | 2026-04-01 | Watchlist | Energy crash (XOM -5.5%, CVX -5.4%). Iran ceasefire binary — watching. |

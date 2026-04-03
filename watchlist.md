@@ -1,43 +1,51 @@
+---
+title: "Watchlist"
+---
+
 # Portfolio Watchlist
 
 ## Account Summary
 
-- Portfolio Value: ~$20,491
-- Cash: ~$2,161 (+ ~$13,900 from pending rebalance sells Monday)
-- Last Updated: 2026-03-29
+- Portfolio Value: ~$20,970
+- Cash: ~$10,681 (51%) → ~$8,981 after CCI fill
+- Last Updated: 2026-04-03 (Autopilot Run)
 
 ## Active Positions
 
-| Ticker | Shares | Entry | Current | P&L | Weight | Stop | Notes |
-|--------|--------|-------|---------|-----|--------|------|-------|
-| NVDA | 60 → 12 | $180.27 | $165.18 | -8.4% | 49% → 10% | — | Sell 48 pending Monday |
-| HOOD | 25 | $126.69 | $66.02 | -47.9% | 8% | $58 (GTC) | Stop active |
-| HNGE | 10 | $45.67 | $36.25 | -20.6% | 2% | — | Monitor |
-| BTCUSD | 0.003 | $70,867 | ~$66,700 | -5.9% | 1% | — | Small position |
-| UNH | 0.69 | $290.00 | $259.02 | -10.7% | <1% | — | Small position |
+| Ticker | Shares | Entry | Current | P&L | Weight | Stop | Thesis |
+|--------|--------|-------|---------|-----|--------|------|--------|
+| NVDA | 12 | $177.28 | $177.31 | +0.0% | 10.1% | $160 | Legacy |
+| NKE | 44 | $45.29 | $44.19 | -2.4% | 9.3% | $40 | [Dip-buy](theses/2026-04-01-NKE-dip-buy.md) |
+| PANW | 12 | $160.15 | $163.27 | +1.9% | 9.3% | $148 | [Autopilot](theses/2026-03-29-PANW-buy.md) |
+| DDOG | 16 | $119.00 | $120.36 | +1.1% | 9.2% | $105 | [Dip-buy](theses/2026-03-30-DDOG-dip-buy.md) |
+| CEG | 7 | $280.00 | $272.64 | -2.6% | 9.1% | $255 | [Dip-buy](theses/2026-03-31-CEG-dip-buy.md) |
+| CCI | 20 | $84.94 | $84.77 | PENDING | ~8.1% | $76.50 (pending) | [Momentum](theses/2026-04-03-CCI-momentum-buy.md) |
+| BTCUSD | 0.003 | $70,867 | $66,697 | -5.9% | 1.1% | — | Legacy |
+| UNH | 0.69 | $290.00 | $277.23 | -4.4% | 0.9% | — | Legacy |
 
-## Pending Orders (Execute Monday 2026-03-31)
+## Recently Closed
 
-| Action | Ticker | Qty | Type | Price | Status |
-|--------|--------|-----|------|-------|--------|
-| SELL | PONY | 420 | Market | — | Accepted |
-| SELL | FIG | 100 | Market | — | Accepted |
-| SELL | NVDA | 48 | Market | — | Accepted |
-| BUY | PANW | 13 | Limit | $155.00 | Accepted (autopilot) |
-| SELL | HOOD | 25 | Stop | $58.00 | Active (GTC) |
-
-**After Monday fills (estimated):**
-- Cash: ~$14,000 (after sells + PANW buy)
-- PANW: 13 shares @ ~$155 = $2,015 (9.8%) — NEEDS STOP at $140 after fill
+| Ticker | Entry | Exit | Return | Reason |
+|--------|-------|------|--------|--------|
+| MRVL | $91.72 | $101.34 | +10.5% | Trailing stop triggered |
+| HOOD | $126.69 | ~$70.44 | -44.4% | Reaper: thesis broken, dead money |
+| HNGE | $45.67 | ~$38.83 | -15.0% | Reaper: no thesis, dead money |
+| PONY | $18.05 | $9.15 | -49.4% | Q1 rebalance |
+| FIG | $48.18 | $20.21 | -58.1% | Q1 rebalance |
 
 ## Watchlist
 
-| Ticker | Added | Signal | Score | Notes | Status |
-|--------|-------|--------|-------|-------|--------|
-| PANW | 2026-03-28 | DIP → BOUNCE +4.96% | 65 | **BUY ordered** — 13 shares limit $155. Iran cyber catalyst + Anthropic leak = demand tailwind. Stop $140, target $175. | **Order placed** |
-| DDOG | 2026-03-28 | DIP -7.9% (3.3x vol) | 70 | Sector rotation selloff, zero bad news, 4 analyst BUYs $170-225. Entry $114-116. | Pending buy (after PANW fills) |
-| MU | 2026-03-29 | DIP -9.85% (1.6x vol) | — | FAILED gate: TurboQuant threat + hostile macro + no exhaustion. Revisit when TurboQuant impact clarified. | Watching |
-| META | 2026-03-28 | DIP -4% (continuing) | 65 | Legal verdict selloff. $375M fine = 0.19% revenue. Open-ended FTC risk. | Watching |
-| CAT | 2026-03-29 | DIP -4% (1.3x vol) | — | FAILED gate: drop lacks volume conviction. Data center thesis interesting. | Watching |
-| CRWD | 2026-03-28 | DIP -5.87% then BOUNCE | 63 | Double upgrade on Iran cyber. Peer to PANW. | Watching |
-| COIN | 2026-03-28 | DIP -7.05% (1.7x vol) | 61 | Crypto risk-off. | Watching |
+| Ticker | Signal | Notes | Status |
+|--------|--------|-------|--------|
+| BMY | DIP -3.47% (Apr 2) | Healthcare mega-cap, P/E 9.88, 4.14% div. Drop partly ex-div. Revisit at $55 or post-Q1 earnings (Apr 30). | Watching |
+| XOM | DIP -6.4% (2-day) | Energy crash, Iran ceasefire binary bet. $400B mega-cap. | Watching |
+| CVX | DIP -6.9% (2-day) | Energy peer to XOM. | Watching |
+| MU | DIP -30% from high | TurboQuant threat + macro. Revisit when clarity. | Watching |
+
+## Sage's Recommendations (Updated 2026-04-03)
+
+- **Tech: 28.7% of total portfolio** — Below 30% threshold (improved from 37%)
+- **Cash: 51% → ~43% after CCI fill** — Still high, room for 1-2 more positions
+- **New sector added:** Real estate/infrastructure (CCI)
+- **Priority sectors for next buy:** Healthcare, industrials, financials
+- **Portfolio now spans:** Tech, Consumer Disc, Energy (Nuclear), Real Estate, Healthcare (tiny), Crypto (tiny)
