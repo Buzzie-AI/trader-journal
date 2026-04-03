@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Mobile-friendly tables */
+table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  table { font-size: 0.8em; }
+  th, td { padding: 4px 6px; }
+}
+
+/* Chart container responsive */
+canvas {
+  max-width: 100%;
+  height: auto !important;
+}
