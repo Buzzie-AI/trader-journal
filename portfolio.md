@@ -5,16 +5,16 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-03 10:13 AM ET*
+*Last updated: 2026-04-06 10:15 AM ET*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$20,970** |
-| Cash | $10,681 (51.0%) → ~$8,981 after CCI fill |
-| Invested | $10,288 (49.0%) → ~$11,988 after CCI fill |
-| Positions | 6 stocks + BTC + UNH (CCI pending fill) |
+| **Portfolio Value** | **$20,942** |
+| Cash | $8,995 (42.9%) |
+| Invested | $11,947 (57.1%) |
+| Positions | 6 stocks + BTC + UNH |
 
 ---
 
@@ -87,8 +87,8 @@ new Chart(ctx, {
 
 | Period | Start | End | Change |
 |--------|-------|-----|--------|
-| 1 Month | $24,891 | $20,970 | **-15.7%** |
-| Since Agents (Mar 28) | $20,489 | $20,970 | **+2.3%** |
+| 1 Month | $24,891 | $20,942 | **-15.9%** |
+| Since Agents (Mar 28) | $20,489 | $20,942 | **+2.2%** |
 | Low | $20,408 (Mar 31) | | |
 | High | $24,891 (Mar 3) | | |
 
@@ -98,16 +98,16 @@ new Chart(ctx, {
 
 | Ticker | Shares | Entry | Current | P&L | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-----|-------|--------|------|
-| NVDA | 12 | $177.28 | $177.31 | +$0.29 | **+0.0%** | 10.1% | $160 |
-| PANW | 12 | $160.15 | $163.27 | +$37.44 | **+1.9%** | 9.3% | $148 |
-| NKE | 44 | $45.29 | $44.19 | -$48.26 | -2.4% | 9.3% | $40 |
-| DDOG | 16 | $119.00 | $120.36 | +$21.76 | **+1.1%** | 9.2% | $105 |
-| CEG | 7 | $280.00 | $272.64 | -$51.52 | -2.6% | 9.1% | $255 |
-| CCI | 20 | $84.94 | $84.77 | PENDING | PENDING | ~8.1% | $76.50 (pending) |
-| BTC | 0.003 | $70,867 | $66,697 | -$14.39 | -5.9% | 1.1% | — |
-| UNH | 0.69 | $290.00 | $277.23 | -$8.79 | -4.4% | 0.9% | — |
+| NVDA | 12 | $177.28 | $176.52 | -$9.21 | -0.4% | 10.1% | $160 |
+| NKE | 44 | $45.29 | $43.60 | -$74.22 | -3.7% | 9.2% | $40 |
+| CEG | 7 | $280.00 | $275.78 | -$29.54 | -1.5% | 9.2% | $255 |
+| PANW | 12 | $160.15 | $161.41 | +$15.12 | **+0.8%** | 9.2% | $148 |
+| DDOG | 16 | $119.00 | $116.31 | -$43.04 | -2.3% | 8.9% | $105 |
+| CCI | 20 | $84.31 | $87.21 | +$58.00 | **+3.4%** | 8.3% | $76.50 (pending) |
+| BTC | 0.003 | $70,867 | $69,361 | -$5.19 | -2.1% | 1.1% | — |
+| UNH | 0.69 | $290.00 | $282.24 | -$5.36 | -2.7% | 0.9% | — |
 
-**New trade (Apr 3):** BUY 20 CCI @ $84.94 limit — activist-backed tower REIT restructuring. [Thesis](/theses/2026-04-03-CCI-momentum-buy)
+**CCI filled Apr 3** at $84.31 (better than $84.94 limit). [Thesis](/theses/2026-04-03-CCI-momentum-buy)
 
 **Recently Closed:**
 
@@ -121,13 +121,13 @@ new Chart(ctx, {
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| Tech (NVDA, DDOG, PANW) | $6,013 | 28.7% |
-| Consumer (NKE) | $1,944 | 9.3% |
-| Energy (CEG) | $1,910 | 9.1% |
-| Real Estate (CCI) | ~$1,700 | ~8.1% (pending) |
-| Healthcare (UNH) | $191 | 0.9% |
-| Crypto (BTC) | $230 | 1.1% |
-| **Cash** | **~$8,981** | **~42.8%** |
+| Tech (NVDA, DDOG, PANW) | $5,916 | 28.2% |
+| Consumer (NKE) | $1,918 | 9.2% |
+| Energy (CEG) | $1,930 | 9.2% |
+| Real Estate (CCI) | $1,744 | 8.3% |
+| Healthcare (UNH) | $195 | 0.9% |
+| Crypto (BTC) | $239 | 1.1% |
+| **Cash** | **$8,995** | **42.9%** |
 
 ---
 
@@ -140,8 +140,7 @@ new Chart(ctx, {
 | Stop | CEG | 7 | $255.00 | GTC |
 | Stop | PANW | 12 | $148.00 | GTC |
 | Stop | DDOG | 16 | $105.00 | GTC |
-| Limit Buy | CCI | 20 | $84.94 | Day |
-| Stop (pending) | CCI | 20 | $76.50 (after buy fills) | — |
+| Stop (pending) | CCI | 20 | $76.50 (PDT blocked) | — |
 
 ---
 

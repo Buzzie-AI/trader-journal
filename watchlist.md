@@ -6,22 +6,22 @@ title: "Watchlist"
 
 ## Account Summary
 
-- Portfolio Value: ~$20,970
-- Cash: ~$10,681 (51%) → ~$8,981 after CCI fill
-- Last Updated: 2026-04-03 (Autopilot Run)
+- Portfolio Value: ~$20,942
+- Cash: ~$8,995 (42.9%)
+- Last Updated: 2026-04-06 10:15 AM ET (Autopilot Run)
 
 ## Active Positions
 
 | Ticker | Shares | Entry | Current | P&L | Weight | Stop | Thesis |
 |--------|--------|-------|---------|-----|--------|------|--------|
-| NVDA | 12 | $177.28 | $177.31 | +0.0% | 10.1% | $160 | Legacy |
-| NKE | 44 | $45.29 | $44.19 | -2.4% | 9.3% | $40 | [Dip-buy](theses/2026-04-01-NKE-dip-buy.md) |
-| PANW | 12 | $160.15 | $163.27 | +1.9% | 9.3% | $148 | [Autopilot](theses/2026-03-29-PANW-buy.md) |
-| DDOG | 16 | $119.00 | $120.36 | +1.1% | 9.2% | $105 | [Dip-buy](theses/2026-03-30-DDOG-dip-buy.md) |
-| CEG | 7 | $280.00 | $272.64 | -2.6% | 9.1% | $255 | [Dip-buy](theses/2026-03-31-CEG-dip-buy.md) |
-| CCI | 20 | $84.94 | $84.77 | PENDING | ~8.1% | $76.50 (pending) | [Momentum](theses/2026-04-03-CCI-momentum-buy.md) |
-| BTCUSD | 0.003 | $70,867 | $66,697 | -5.9% | 1.1% | — | Legacy |
-| UNH | 0.69 | $290.00 | $277.23 | -4.4% | 0.9% | — | Legacy |
+| NVDA | 12 | $177.28 | $176.52 | -0.4% | 10.1% | $160 | Legacy |
+| NKE | 44 | $45.29 | $43.60 | -3.7% | 9.2% | $40 | [Dip-buy](theses/2026-04-01-NKE-dip-buy.md) |
+| CEG | 7 | $280.00 | $275.78 | -1.5% | 9.2% | $255 | [Dip-buy](theses/2026-03-31-CEG-dip-buy.md) |
+| PANW | 12 | $160.15 | $161.41 | +0.8% | 9.2% | $148 | [Autopilot](theses/2026-03-29-PANW-buy.md) |
+| DDOG | 16 | $119.00 | $116.31 | -2.3% | 8.9% | $105 | [Dip-buy](theses/2026-03-30-DDOG-dip-buy.md) |
+| CCI | 20 | $84.31 | $87.21 | +3.4% | 8.3% | $76.50 (PENDING — PDT blocked) | [Momentum](theses/2026-04-03-CCI-momentum-buy.md) |
+| BTCUSD | 0.003 | $70,867 | $69,361 | -2.1% | 1.1% | — | Legacy |
+| UNH | 0.69 | $290.00 | $282.24 | -2.7% | 0.9% | — | Legacy |
 
 ## Recently Closed
 
@@ -37,15 +37,15 @@ title: "Watchlist"
 
 | Ticker | Signal | Notes | Status |
 |--------|--------|-------|--------|
-| BMY | DIP -3.47% (Apr 2) | Healthcare mega-cap, P/E 9.88, 4.14% div. Drop partly ex-div. Revisit at $55 or post-Q1 earnings (Apr 30). | Watching |
+| BMY | DIP -3.47% (Apr 2) | Healthcare mega-cap, P/E 9.88, 4.14% div. Ex-div explains ~1%. Q1 earnings Apr 30. | Watching |
 | XOM | DIP -6.4% (2-day) | Energy crash, Iran ceasefire binary bet. $400B mega-cap. | Watching |
 | CVX | DIP -6.9% (2-day) | Energy peer to XOM. | Watching |
 | MU | DIP -30% from high | TurboQuant threat + macro. Revisit when clarity. | Watching |
 
-## Sage's Recommendations (Updated 2026-04-03)
+## Sage's Recommendations (Updated 2026-04-06)
 
-- **Tech: 28.7% of total portfolio** — Below 30% threshold (improved from 37%)
-- **Cash: 51% → ~43% after CCI fill** — Still high, room for 1-2 more positions
-- **New sector added:** Real estate/infrastructure (CCI)
-- **Priority sectors for next buy:** Healthcare, industrials, financials
-- **Portfolio now spans:** Tech, Consumer Disc, Energy (Nuclear), Real Estate, Healthcare (tiny), Crypto (tiny)
+- **Tech: 28.2% of total portfolio** — Below 30% threshold
+- **Cash: 42.9%** — Room for 1 more ~$2,000 position
+- **Portfolio spans 6 sectors:** Tech, Consumer Disc, Real Estate, Energy (Nuclear), Healthcare (tiny), Crypto (tiny)
+- **Priority for next buy:** Healthcare, industrials, or financials
+- **Action needed:** Place CCI stop-loss at $76.50 when PDT clears
