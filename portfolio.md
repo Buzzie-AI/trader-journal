@@ -5,16 +5,16 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-06 10:15 AM ET*
+*Last updated: 2026-04-07 9:36 AM ET*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$20,942** |
-| Cash | $8,995 (42.9%) |
-| Invested | $11,947 (57.1%) |
-| Positions | 6 stocks + BTC + UNH |
+| **Portfolio Value** | **$20,864** |
+| Cash | $7,120 (34.1%) |
+| Invested | $13,744 (65.9%) |
+| Positions | 7 stocks + BTC + UNH |
 
 ---
 
@@ -31,10 +31,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 3","Mar 4","Mar 5","Mar 6","Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6"],
+    labels: ["Mar 3","Mar 4","Mar 5","Mar 6","Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7"],
     datasets: [{
       label: 'Before Agents',
-      data: [24890.95,24230.91,24671.71,24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null],
+      data: [24890.95,24230.91,24671.71,24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -43,7 +43,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20942],
+      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20959,20864],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -87,8 +87,8 @@ new Chart(ctx, {
 
 | Period | Start | End | Change |
 |--------|-------|-----|--------|
-| 1 Month | $24,891 | $20,942 | **-15.9%** |
-| Since Agents (Mar 28) | $20,489 | $20,942 | **+2.2%** |
+| 1 Month | $24,891 | $20,864 | **-16.2%** |
+| Since Agents (Mar 28) | $20,489 | $20,864 | **+1.8%** |
 | Low | $20,408 (Mar 31) | | |
 | High | $24,891 (Mar 3) | | |
 
@@ -98,16 +98,17 @@ new Chart(ctx, {
 
 | Ticker | Shares | Entry | Current | P&L | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-----|-------|--------|------|
-| NVDA | 12 | $177.28 | $176.52 | -$9.21 | -0.4% | 10.1% | $160 |
-| NKE | 44 | $45.29 | $43.60 | -$74.22 | -3.7% | 9.2% | $40 |
-| CEG | 7 | $280.00 | $275.78 | -$29.54 | -1.5% | 9.2% | $255 |
-| PANW | 12 | $160.15 | $161.41 | +$15.12 | **+0.8%** | 9.2% | $148 |
-| DDOG | 16 | $119.00 | $116.31 | -$43.04 | -2.3% | 8.9% | $105 |
-| CCI | 20 | $84.31 | $87.21 | +$58.00 | **+3.4%** | 8.3% | $76.50 (pending) |
-| BTC | 0.003 | $70,867 | $69,361 | -$5.19 | -2.1% | 1.1% | — |
-| UNH | 0.69 | $290.00 | $282.24 | -$5.36 | -2.7% | 0.9% | — |
+| NVDA | 12 | $177.28 | $176.02 | -$15.21 | -0.7% | 10.1% | $160 |
+| MU | 5 | $375.00 | $376.99 | +$9.95 | **+0.5%** | 9.0% | $340 (pending) |
+| PANW | 12 | $160.15 | $161.54 | +$16.68 | **+0.9%** | 9.3% | $148 |
+| NKE | 44 | $45.29 | $43.40 | -$83.24 | -4.2% | 9.2% | $40 |
+| CEG | 7 | $280.00 | $272.56 | -$52.08 | -2.7% | 9.1% | $255 |
+| DDOG | 16 | $119.00 | $115.00 | -$64.00 | -3.4% | 8.8% | $105 |
+| CCI | 20 | $84.31 | $85.60 | +$25.80 | **+1.5%** | 8.2% | $76.50 |
+| BTC | 0.003 | $70,867 | $68,418 | -$8.45 | -3.5% | 1.1% | — |
+| UNH | 0.69 | $290.00 | $306.12 | +$11.11 | **+5.6%** | 1.0% | — |
 
-**CCI filled Apr 3** at $84.31 (better than $84.94 limit). [Thesis](/theses/2026-04-03-CCI-momentum-buy)
+**MU filled Apr 7** at $375.00 (better than $378.47 limit). [Thesis](/theses/2026-04-06-MU-dip-buy)
 
 **Recently Closed:**
 
@@ -121,13 +122,13 @@ new Chart(ctx, {
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| Tech (NVDA, DDOG, PANW) | $5,916 | 28.2% |
-| Consumer (NKE) | $1,918 | 9.2% |
-| Energy (CEG) | $1,930 | 9.2% |
-| Real Estate (CCI) | $1,744 | 8.3% |
-| Healthcare (UNH) | $195 | 0.9% |
-| Crypto (BTC) | $239 | 1.1% |
-| **Cash** | **$8,995** | **42.9%** |
+| Tech (NVDA, PANW, DDOG, MU) | $7,775 | 37.3% |
+| Consumer (NKE) | $1,909 | 9.2% |
+| Energy (CEG) | $1,908 | 9.1% |
+| Real Estate (CCI) | $1,712 | 8.2% |
+| Healthcare (UNH) | $211 | 1.0% |
+| Crypto (BTC) | $236 | 1.1% |
+| **Cash** | **$7,120** | **34.1%** |
 
 ---
 
@@ -140,7 +141,8 @@ new Chart(ctx, {
 | Stop | CEG | 7 | $255.00 | GTC |
 | Stop | PANW | 12 | $148.00 | GTC |
 | Stop | DDOG | 16 | $105.00 | GTC |
-| Stop (pending) | CCI | 20 | $76.50 (PDT blocked) | — |
+| Stop | CCI | 20 | $76.50 | GTC |
+| Stop (pending) | MU | 5 | $340 (PDT — place tomorrow) | — |
 
 ---
 
