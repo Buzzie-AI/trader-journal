@@ -83,8 +83,8 @@ new Chart(ctx, {
 | | Value |
 |--|-------|
 | Equity | **$20,942** |
-| Cash | $8,995 (43%) |
-| Invested | $11,947 (57%) |
+| Cash | $8,995 → ~$7,103 after MU |
+| Invested | $11,947 → ~$13,839 |
 | 1-Month | -15.9% |
 | Since Agents | **+2.2%** |
 
@@ -98,6 +98,7 @@ new Chart(ctx, {
 | PANW | 12 | $160.15 | $161.41 | **+0.8%** | 9.2% | $148 |
 | DDOG | 16 | $119.00 | $116.31 | -2.3% | 8.9% | $105 |
 | CCI | 20 | $84.31 | $87.21 | **+3.4%** | 8.3% | $76.50 (pending) |
+| **MU** | **5** | **$378.47** | **pending** | **—** | **~9.0%** | **$340** |
 | BTC | 0.003 | $70,867 | $69,361 | -2.1% | 1.1% | — |
 | UNH | 0.69 | $290.00 | $282.24 | -2.7% | 0.9% | — |
 
@@ -107,6 +108,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| 2026-04-06 | [BUY MU](theses/2026-04-06-MU-dip-buy) | Micron -31% crash on TurboQuant fears. Forward P/E 6x, $24B/qtr rev, 26/29 analysts Buy. Score 81.5. |
 | 2026-04-03 | [BUY CCI](theses/2026-04-03-CCI-momentum-buy) | Crown Castle +4.85% on activist restructuring. Pure-play tower pivot, $7B debt cut, $1B buyback. First REIT position. |
 | 2026-04-01 | [BUY NKE](theses/2026-04-01-NKE-dip-buy) | Nike -14.3% earnings dip. EPS beat but China guidance weak. Score 72.5. First non-tech position. |
 | 2026-04-01 | SELL HOOD, HNGE | Reaper flagged as dead money. HOOD -44%, HNGE -15%, both no thesis. |

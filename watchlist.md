@@ -7,8 +7,8 @@ title: "Watchlist"
 ## Account Summary
 
 - Portfolio Value: ~$20,942
-- Cash: ~$8,995 (42.9%)
-- Last Updated: 2026-04-06 10:15 AM ET (Autopilot Run)
+- Cash: ~$8,995 → ~$7,103 after MU fill
+- Last Updated: 2026-04-06 (MU buy placed)
 
 ## Active Positions
 
@@ -20,6 +20,7 @@ title: "Watchlist"
 | PANW | 12 | $160.15 | $161.41 | +0.8% | 9.2% | $148 | [Autopilot](theses/2026-03-29-PANW-buy.md) |
 | DDOG | 16 | $119.00 | $116.31 | -2.3% | 8.9% | $105 | [Dip-buy](theses/2026-03-30-DDOG-dip-buy.md) |
 | CCI | 20 | $84.31 | $87.21 | +3.4% | 8.3% | $76.50 (PENDING — PDT blocked) | [Momentum](theses/2026-04-03-CCI-momentum-buy.md) |
+| MU | 5 | $378.47 | PENDING | — | ~9.0% | $340 (pending) | [Dip-buy](theses/2026-04-06-MU-dip-buy.md) |
 | BTCUSD | 0.003 | $70,867 | $69,361 | -2.1% | 1.1% | — | Legacy |
 | UNH | 0.69 | $290.00 | $282.24 | -2.7% | 0.9% | — | Legacy |
 
@@ -40,12 +41,11 @@ title: "Watchlist"
 | BMY | DIP -3.47% (Apr 2) | Healthcare mega-cap, P/E 9.88, 4.14% div. Ex-div explains ~1%. Q1 earnings Apr 30. | Watching |
 | XOM | DIP -6.4% (2-day) | Energy crash, Iran ceasefire binary bet. $400B mega-cap. | Watching |
 | CVX | DIP -6.9% (2-day) | Energy peer to XOM. | Watching |
-| MU | DIP -30% from high | TurboQuant threat + macro. Revisit when clarity. | Watching |
+| MU | BOUGHT | Dip-buy placed. Limit $378.47, stop $340, target $475. | Active |
 
 ## Sage's Recommendations (Updated 2026-04-06)
 
-- **Tech: 28.2% of total portfolio** — Below 30% threshold
-- **Cash: 42.9%** — Room for 1 more ~$2,000 position
-- **Portfolio spans 6 sectors:** Tech, Consumer Disc, Real Estate, Energy (Nuclear), Healthcare (tiny), Crypto (tiny)
-- **Priority for next buy:** Healthcare, industrials, or financials
-- **Action needed:** Place CCI stop-loss at $76.50 when PDT clears
+- **Tech: ~37.2% of total portfolio** — Below new 40% cap (raised from 30%)
+- **Cash: ~34% after MU fill** — Approaching balanced allocation
+- **Portfolio spans 6 sectors:** Tech (NVDA, PANW, DDOG, MU), Consumer Disc (NKE), Real Estate (CCI), Energy (CEG), Healthcare (UNH), Crypto (BTC)
+- **Action needed:** Place CCI stop at $76.50 and MU stop at $340 when orders fill
