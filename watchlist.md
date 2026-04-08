@@ -6,44 +6,53 @@ title: "Watchlist"
 
 ## Account Summary
 
-- Portfolio Value: ~$20,864
-- Cash: ~$7,120 (34.1%)
-- Last Updated: 2026-04-07 9:36 AM ET (Autopilot Run)
+- Portfolio Value: ~$21,549 (+2.7% today)
+- Cash: ~$7,120 (33.0%)
+- Last Updated: 2026-04-08 9:35 AM ET (Autopilot Run)
 
 ## Active Positions
 
 | Ticker | Shares | Entry | Current | P&L | Weight | Stop | Thesis |
 |--------|--------|-------|---------|-----|--------|------|--------|
-| NVDA | 12 | $177.28 | $176.02 | -0.7% | 10.1% | $160 | Legacy |
-| MU | 5 | $375.00 | $376.99 | +0.5% | 9.0% | $340 (PENDING — PDT) | [Dip-buy](theses/2026-04-06-MU-dip-buy.md) |
-| PANW | 12 | $160.15 | $161.54 | +0.9% | 9.3% | $148 | [Autopilot](theses/2026-03-29-PANW-buy.md) |
-| NKE | 44 | $45.29 | $43.40 | -4.2% | 9.2% | $40 | [Dip-buy](theses/2026-04-01-NKE-dip-buy.md) |
-| CEG | 7 | $280.00 | $272.56 | -2.7% | 9.1% | $255 | [Dip-buy](theses/2026-03-31-CEG-dip-buy.md) |
-| DDOG | 16 | $119.00 | $115.00 | -3.4% | 8.8% | $105 | [Dip-buy](theses/2026-03-30-DDOG-dip-buy.md) |
-| CCI | 20 | $84.31 | $85.60 | +1.5% | 8.2% | $76.50 | [Momentum](theses/2026-04-03-CCI-momentum-buy.md) |
-| BTCUSD | 0.003 | $70,867 | $68,418 | -3.5% | 1.1% | — | Legacy |
-| UNH | 0.69 | $290.00 | $306.12 | +5.6% | 1.0% | — | Legacy |
+| NVDA | 12 | $177.28 | $183.60 | **+3.6%** | 10.2% | $160 | Legacy |
+| PANW | 12 | $160.15 | $176.03 | **+9.9%** | 9.8% | **$165** (TIGHTENED — target hit) | [Autopilot](theses/2026-03-29-PANW-buy.md) |
+| MU | 5 | $375.00 | $409.94 | **+9.3%** | 9.5% | **$340** (PLACED) | [Dip-buy](theses/2026-04-06-MU-dip-buy.md) |
+| CEG | 7 | $280.00 | $286.14 | **+2.2%** | 9.3% | $255 | [Dip-buy](theses/2026-03-31-CEG-dip-buy.md) |
+| DDOG | 16 | $119.00 | $121.53 | **+2.1%** | 9.0% | $105 | [Dip-buy](theses/2026-03-30-DDOG-dip-buy.md) |
+| NKE | 44 | $45.29 | $43.64 | -3.6% | 8.9% | $40 | [Dip-buy](theses/2026-04-01-NKE-dip-buy.md) |
+| CCI | 20 | $84.31 | $85.16 | **+1.0%** | 7.9% | $76.50 | [Momentum](theses/2026-04-03-CCI-momentum-buy.md) |
+| BTCUSD | 0.003 | $70,867 | $72,272 | **+2.0%** | 1.2% | — | Legacy |
+| UNH | 0.69 | $290.00 | $312.09 | **+7.6%** | 1.0% | — | Legacy |
+
+**Open P&L: +$483** | **Win rate: 6/7 trades positive (86%)**
 
 ## Recently Closed
 
 | Ticker | Entry | Exit | Return | Reason |
 |--------|-------|------|--------|--------|
 | MRVL | $91.72 | $101.34 | +10.5% | Trailing stop triggered |
-| HOOD | $126.69 | ~$70.44 | -44.4% | Reaper: thesis broken |
-| HNGE | $45.67 | ~$38.83 | -15.0% | Reaper: no thesis |
 
-## Watchlist
+## Watchlist (Energy Crash — High Priority)
 
 | Ticker | Signal | Notes | Status |
 |--------|--------|-------|--------|
-| BMY | DIP -1.7% today | Healthcare mega-cap, P/E 9.88, 4.14% div. Q1 earnings Apr 30. | Watching |
-| XOM | Energy strength | +1.09% today, sector leading. $400B mega-cap. | Watching |
-| CVX | Energy strength | +1.75% today. Energy peer. | Watching |
+| **XOM** | **DIP -7.31% (today)** | Mega-cap energy crash on Iran ceasefire. Wait for WTI green day before entry. | **High priority** |
+| **CVX** | **DIP -6.14% (today)** | Energy peer to XOM. Same setup. | **High priority** |
+| COP | DIP -8.13% (today) | Mega-cap E&P. Higher oil-price beta than integrateds. | Watching |
+| OXY | DIP -10.58% (today) | Pure-play E&P. Highest beta. | Watching |
+| BMY | Healthcare value | P/E 9.88, 4.14% div. Q1 earnings Apr 30. | Watching |
+| MU | BOUGHT Apr 7 | Now +9.3% — moved to active positions | Active |
 
-## Sage's Recommendations (Updated 2026-04-07)
+## Energy Re-Entry Rule
 
-- **Tech: 37.3%** — Below 40% cap. No room for more tech until something exits.
-- **Cash: 34.1%** — Improved from 51%. Room for ~1 more ~$2K position.
-- **Sectors covered:** Tech (4), Consumer (1), Real Estate (1), Energy/Nuclear (1), Healthcare (micro), Crypto (micro)
-- **Priority for next buy:** Non-tech — healthcare, industrials, or energy
-- **Action needed:** Place MU stop at $340 tomorrow
+The Iran ceasefire crashed oil -16% (WTI ~$94). This is structural repricing, not overreaction.
+**Wait for:** A trading day where WTI is GREEN AND XOM/CVX are flat-or-up.
+**That's the unwind exhaustion signal.** Then enter on confirmation.
+
+## Sage's Recommendations (Updated 2026-04-08)
+
+- **Tech: 38.7%** — Just under 40% cap. NVDA winning, MU winning, PANW target hit.
+- **Cash: 33.0%** — Room for 1 more position. Reserved for energy entry when unwind completes.
+- **PANW target hit:** $176 vs $175 target. Stop tightened to $165 (locks in +3% gain). Consider partial trim if breaks $180.
+- **Sectors:** 6 active (Tech, Consumer Disc, Real Estate, Energy/Nuclear, Healthcare-tiny, Crypto-tiny)
+- **No new buys today** — energy crash is watchlist event, not buy signal.
