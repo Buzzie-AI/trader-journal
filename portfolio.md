@@ -5,15 +5,15 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-08 9:35 AM ET*
+*Last updated: 2026-04-09 11:34 AM ET*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$21,549** |
-| Cash | $7,120 (33.0%) |
-| Invested | $14,429 (67.0%) |
+| **Portfolio Value** | **$21,314** |
+| Cash | $7,120 (33.4%) |
+| Invested | $14,194 (66.6%) |
 | Positions | 7 stocks + BTC + UNH |
 
 ---
@@ -31,10 +31,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 6","Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8"],
+    labels: ["Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9"],
     datasets: [{
       label: 'Before Agents',
-      data: [24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null],
+      data: [23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -43,7 +43,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20959,20992,21549],
+      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20959,20992,21549,21314],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -87,8 +87,8 @@ new Chart(ctx, {
 
 | Period | Start | End | Change |
 |--------|-------|-----|--------|
-| 1 Month | $24,891 | $21,549 | **-13.4%** |
-| Since Agents (Mar 28) | $20,489 | $21,549 | **+5.2%** |
+| 1 Month | $24,891 | $21,314 | **-14.4%** |
+| Since Agents (Mar 28) | $20,489 | $21,314 | **+4.0%** |
 | Low | $20,408 (Mar 31) | | |
 | High | $24,891 (Mar 3) | | |
 
@@ -98,17 +98,17 @@ new Chart(ctx, {
 
 | Ticker | Shares | Entry | Current | P&L | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-----|-------|--------|------|
-| NVDA | 12 | $177.28 | $183.60 | +$75.81 | **+3.6%** | 10.2% | $160 |
-| PANW | 12 | $160.15 | $176.03 | +$190.56 | **+9.9%** | 9.8% | **$165 (TIGHTENED)** |
-| MU | 5 | $375.00 | $409.94 | +$174.70 | **+9.3%** | 9.5% | **$340 (PLACED)** |
-| CEG | 7 | $280.00 | $286.14 | +$42.98 | **+2.2%** | 9.3% | $255 |
-| DDOG | 16 | $119.00 | $121.53 | +$40.48 | **+2.1%** | 9.0% | $105 |
-| NKE | 44 | $45.29 | $43.64 | -$72.46 | -3.6% | 8.9% | $40 |
-| CCI | 20 | $84.31 | $85.16 | +$17.00 | **+1.0%** | 7.9% | $76.50 |
-| BTC | 0.003 | $70,867 | $72,272 | +$4.85 | **+2.0%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $312.09 | +$15.23 | **+7.6%** | 1.0% | — |
+| NVDA | 12 | $177.28 | $183.26 | +$71.73 | **+3.4%** | 10.3% | $160 |
+| MU | 5 | $375.00 | $407.00 | +$160.00 | **+8.5%** | 9.5% | $340 |
+| PANW | 12 | $160.15 | $167.66 | +$90.09 | **+4.7%** | 9.4% | **$165 (1.6% away)** |
+| CEG | 7 | $280.00 | $292.67 | +$88.66 | **+4.5%** | 9.6% | $255 |
+| CCI | 20 | $84.31 | $87.05 | +$54.80 | **+3.3%** | 8.2% | $76.50 |
+| DDOG | 16 | $119.00 | $112.05 | -$111.20 | **-5.8%** | 8.4% | $105 |
+| NKE | 44 | $45.29 | $43.39 | -$83.46 | -4.2% | 9.0% | $40 |
+| BTC | 0.003 | $70,867 | $71,398 | +$1.83 | +0.7% | 1.2% | — |
+| UNH | 0.69 | $290.00 | $306.32 | +$11.26 | **+5.6%** | 1.0% | — |
 
-**Open P&L: +$489** | **Win rate: 6/7 (86%)** | All stops in place. PANW target hit. Massive rally day.
+**Open P&L: +$284** | Win rate: 6/7 (86%) | CPI report tomorrow — CCI directly exposed, PANW stop in danger zone.
 
 **Recently Closed:**
 
@@ -122,13 +122,13 @@ new Chart(ctx, {
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| Tech (NVDA, PANW, DDOG, MU) | $8,310 | 38.6% |
-| Consumer (NKE) | $1,920 | 8.9% |
-| Energy/Nuclear (CEG) | $2,003 | 9.3% |
-| Real Estate (CCI) | $1,703 | 7.9% |
-| Healthcare (UNH) | $215 | 1.0% |
-| Crypto (BTC) | $249 | 1.2% |
-| **Cash** | **$7,120** | **33.0%** |
+| Tech (NVDA, PANW, DDOG, MU) | $8,039 | 37.7% |
+| Consumer (NKE) | $1,909 | 9.0% |
+| Energy/Nuclear (CEG) | $2,049 | 9.6% |
+| Real Estate (CCI) | $1,741 | 8.2% |
+| Healthcare (UNH) | $211 | 1.0% |
+| Crypto (BTC) | $246 | 1.2% |
+| **Cash** | **$7,120** | **33.4%** |
 
 ---
 

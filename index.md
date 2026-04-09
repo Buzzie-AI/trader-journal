@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,549
+## Portfolio — $21,314
 
-*Updated: 2026-04-08 9:35 AM ET*
+*Updated: 2026-04-09 11:34 AM ET*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -26,10 +26,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 6","Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8"],
+    labels: ["Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9"],
     datasets: [{
       label: 'Before Agents',
-      data: [24750.11,23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null],
+      data: [23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20959,20992,21549],
+      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20959,20992,21549,21314],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -82,25 +82,25 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,549** |
+| Equity | **$21,314** |
 | Cash | $7,120 (33%) |
-| Invested | $14,429 (67%) |
-| 1-Month | -13.4% |
-| Since Agents | **+5.2%** |
+| Invested | $14,194 (67%) |
+| 1-Month | -14.4% |
+| Since Agents | **+4.0%** |
 
 ### Positions
 
 | Ticker | Shares | Entry | Current | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-------|--------|------|
-| NVDA | 12 | $177.28 | $183.60 | **+3.6%** | 10.2% | $160 |
-| PANW | 12 | $160.15 | $176.03 | **+9.9%** | 9.8% | **$165** (tightened) |
-| MU | 5 | $375.00 | $409.94 | **+9.3%** | 9.5% | $340 |
-| CEG | 7 | $280.00 | $286.14 | **+2.2%** | 9.3% | $255 |
-| DDOG | 16 | $119.00 | $121.53 | **+2.1%** | 9.0% | $105 |
-| NKE | 44 | $45.29 | $43.64 | -3.6% | 8.9% | $40 |
-| CCI | 20 | $84.31 | $85.16 | **+1.0%** | 7.9% | $76.50 |
-| BTC | 0.003 | $70,867 | $72,272 | **+2.0%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $312.09 | **+7.6%** | 1.0% | — |
+| NVDA | 12 | $177.28 | $183.26 | **+3.4%** | 10.3% | $160 |
+| MU | 5 | $375.00 | $407.00 | **+8.5%** | 9.5% | $340 |
+| PANW | 12 | $160.15 | $167.66 | **+4.7%** | 9.4% | **$165** (1.6% away) |
+| CEG | 7 | $280.00 | $292.67 | **+4.5%** | 9.6% | $255 |
+| CCI | 20 | $84.31 | $87.05 | **+3.3%** | 8.2% | $76.50 |
+| DDOG | 16 | $119.00 | $112.05 | **-5.8%** | 8.4% | $105 |
+| NKE | 44 | $45.29 | $43.39 | -4.2% | 9.0% | $40 |
+| BTC | 0.003 | $70,867 | $71,398 | +0.7% | 1.2% | — |
+| UNH | 0.69 | $290.00 | $306.32 | **+5.6%** | 1.0% | — |
 
 ---
 
