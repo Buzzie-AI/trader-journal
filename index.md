@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,314
+## Portfolio — $21,227
 
-*Updated: 2026-04-09 11:34 AM ET*
+*Updated: 2026-04-10 10:20 AM ET*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -26,10 +26,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 7","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9"],
+    labels: ["Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10"],
     datasets: [{
       label: 'Before Agents',
-      data: [23803.58,24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null],
+      data: [24457.18,24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20959,20992,21549,21314],
+      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20959,20992,21342,21248,21227],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -82,25 +82,23 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,314** |
-| Cash | $7,120 (33%) |
-| Invested | $14,194 (67%) |
-| 1-Month | -14.4% |
-| Since Agents | **+4.0%** |
+| Equity | **$21,227** |
+| Cash | $10,779 (51%) |
+| Invested | $10,448 (49%) |
+| 1-Month | -13.4% |
+| Since Agents | **+3.6%** |
 
 ### Positions
 
 | Ticker | Shares | Entry | Current | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-------|--------|------|
-| NVDA | 12 | $177.28 | $183.26 | **+3.4%** | 10.3% | $160 |
-| MU | 5 | $375.00 | $407.00 | **+8.5%** | 9.5% | $340 |
-| PANW | 12 | $160.15 | $167.66 | **+4.7%** | 9.4% | **$165** (1.6% away) |
-| CEG | 7 | $280.00 | $292.67 | **+4.5%** | 9.6% | $255 |
-| CCI | 20 | $84.31 | $87.05 | **+3.3%** | 8.2% | $76.50 |
-| DDOG | 16 | $119.00 | $112.05 | **-5.8%** | 8.4% | $105 |
-| NKE | 44 | $45.29 | $43.39 | -4.2% | 9.0% | $40 |
-| BTC | 0.003 | $70,867 | $71,398 | +0.7% | 1.2% | — |
-| UNH | 0.69 | $290.00 | $306.32 | **+5.6%** | 1.0% | — |
+| MU | 5 | $375.00 | $420.33 | **+12.1%** | 9.9% | **$375** (breakeven) |
+| NVDA | 12 | $177.28 | $187.20 | **+5.6%** | 10.6% | $160 |
+| CEG | 7 | $280.00 | $287.28 | **+2.6%** | 9.5% | $255 |
+| CCI | 20 | $84.31 | $86.80 | **+2.9%** | 8.2% | $76.50 |
+| NKE | 44 | $45.29 | $43.02 | -5.0% | 8.9% | $40 |
+| BTC | 0.003 | $70,867 | $72,650 | +2.5% | 1.2% | — |
+| UNH | 0.69 | $290.00 | $309.43 | **+6.7%** | 1.0% | — |
 
 ---
 
@@ -108,6 +106,9 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| 2026-04-10 | DDOG stopped out | $105 stop triggered on CPI day SaaS crash. -11.8% loss. Stop saved $43 further. |
+| 2026-04-09 | PANW stopped out | $165 tightened stop triggered. +3.0% gain. Stop saved $132 further decline. |
+| 2026-04-10 | MU breakeven lock | Harvest moved MU stop from $340 to $375 (entry). First Harvest execution. |
 | 2026-04-06 | [BUY MU](theses/2026-04-06-MU-dip-buy) | Micron -31% crash on TurboQuant fears. Forward P/E 6x, $24B/qtr rev, 26/29 analysts Buy. Score 81.5. |
 | 2026-04-03 | [BUY CCI](theses/2026-04-03-CCI-momentum-buy) | Crown Castle +4.85% on activist restructuring. Pure-play tower pivot, $7B debt cut, $1B buyback. First REIT position. |
 | 2026-04-01 | [BUY NKE](theses/2026-04-01-NKE-dip-buy) | Nike -14.3% earnings dip. EPS beat but China guidance weak. Score 72.5. First non-tech position. |
