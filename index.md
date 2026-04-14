@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,107
+## Portfolio — $21,452
 
-*Updated: 2026-04-13 9:45 AM ET*
+*Updated: 2026-04-14 10:30 AM ET*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -26,10 +26,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 11","Mar 12","Mar 13","Mar 14","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14"],
     datasets: [{
       label: 'Before Agents',
-      data: [24512.53,24386.63,23710.33,23106.55,23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20959,20992,21342,21248,21214,21107],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21452],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -82,23 +82,24 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,107** |
-| Cash | $10,779 (51%) |
-| Invested | $10,328 (49%) |
+| Equity | **$21,452** |
+| Cash | $10,779 (50%) → ~$8,655 after BLK |
+| Invested | $10,673 (50%) → ~$12,797 |
 | 1-Month | -13.8% |
-| Since Agents | **+3.0%** |
+| Since Agents | **+4.7%** |
 
 ### Positions
 
 | Ticker | Shares | Entry | Current | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-------|--------|------|
-| MU | 5 | $375.00 | $412.69 | **+10.0%** | 9.8% | **$375** (breakeven) |
-| NVDA | 12 | $177.28 | $186.48 | **+5.2%** | 10.6% | $160 |
-| CEG | 7 | $280.00 | $286.38 | **+2.3%** | 9.5% | $255 |
-| CCI | 20 | $84.31 | $86.11 | **+2.1%** | 8.2% | $76.50 |
-| NKE | 44 | $45.29 | $42.17 | -6.9% | 8.8% | $40 |
-| BTC | 0.003 | $70,867 | $71,021 | +0.2% | 1.2% | — |
-| UNH | 0.69 | $290.00 | $303.90 | +4.8% | 1.0% | — |
+| MU | 5 | $375.00 | $440.38 | **+17.4%** | 10.3% | **$420** (Harvest) |
+| NVDA | 12 | $177.28 | $192.65 | **+8.7%** | 10.8% | **$178** (Harvest) |
+| CEG | 7 | $280.00 | $294.75 | **+5.3%** | 9.6% | $255 |
+| **BLK** | **2** | **$1062** | **pending** | **—** | **9.9%** | **$990 (pending)** |
+| CCI | 20 | $84.31 | $85.70 | +1.6% | 8.0% | $76.50 |
+| NKE | 44 | $45.29 | $43.32 | -4.4% | 8.9% | $40 |
+| BTC | 0.003 | $70,867 | $75,725 | **+6.9%** | 1.2% | — |
+| UNH | 0.69 | $290.00 | $318.03 | **+9.7%** | 1.0% | — |
 
 ---
 
@@ -106,6 +107,8 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| 2026-04-14 | [BUY BLK](theses/2026-04-14-BLK-momentum-buy) | BlackRock Q1 blowout: rev +27%, EPS +46%, AUM record $13.9T, inflows +55%. First Financials position. |
+| 2026-04-14 | Harvest tighten | MU stop $400→$420 (+12% locked). NVDA stop $160→$178 (breakeven lock). |
 | 2026-04-10 | DDOG stopped out | $105 stop triggered on CPI day SaaS crash. -11.8% loss. Stop saved $43 further. |
 | 2026-04-09 | PANW stopped out | $165 tightened stop triggered. +3.0% gain. Stop saved $132 further decline. |
 | 2026-04-10 | MU breakeven lock | Harvest moved MU stop from $340 to $375 (entry). First Harvest execution. |
