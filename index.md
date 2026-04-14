@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,452
+## Portfolio — $21,567
 
-*Updated: 2026-04-14 10:30 AM ET*
+*Updated: 2026-04-14 2:59 PM ET*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21452],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21567],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -82,24 +82,24 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,452** |
-| Cash | $10,779 (50%) → ~$8,655 after BLK |
-| Invested | $10,673 (50%) → ~$12,797 |
-| 1-Month | -13.8% |
-| Since Agents | **+4.7%** |
+| Equity | **$21,567** |
+| Cash | $8,663 (40%) |
+| Invested | $12,904 (60%) |
+| 1-Month | -13.4% |
+| Since Agents | **+5.3%** |
 
 ### Positions
 
 | Ticker | Shares | Entry | Current | P&L % | Weight | Stop |
 |--------|--------|-------|---------|-------|--------|------|
-| MU | 5 | $375.00 | $440.38 | **+17.4%** | 10.3% | **$420** (Harvest) |
-| NVDA | 12 | $177.28 | $192.65 | **+8.7%** | 10.8% | **$178** (Harvest) |
-| CEG | 7 | $280.00 | $294.75 | **+5.3%** | 9.6% | $255 |
-| **BLK** | **2** | **$1062** | **pending** | **—** | **9.9%** | **$990 (pending)** |
-| CCI | 20 | $84.31 | $85.70 | +1.6% | 8.0% | $76.50 |
-| NKE | 44 | $45.29 | $43.32 | -4.4% | 8.9% | $40 |
-| BTC | 0.003 | $70,867 | $75,725 | **+6.9%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $318.03 | **+9.7%** | 1.0% | — |
+| MU | 5 | $375.00 | $452.80 | **+20.7%** | 10.5% | **$438** (Harvest 2x) |
+| NVDA | 12 | $177.28 | $194.80 | **+9.9%** | 10.8% | **$185** (Harvest 2x) |
+| CEG | 7 | $280.00 | $295.88 | **+5.7%** | 9.6% | $255 |
+| BLK | 2 | $1057.92 | $1054.18 | -0.4% | 9.8% | $990 (PDT blocked) |
+| CCI | 20 | $84.31 | $86.04 | +2.1% | 8.0% | $76.50 |
+| NKE | 44 | $45.29 | $43.85 | -3.2% | 8.9% | $40 |
+| BTC | 0.003 | $70,867 | $74,128 | **+4.6%** | 1.2% | — |
+| UNH | 0.69 | $290.00 | $314.10 | **+8.3%** | 1.0% | — |
 
 ---
 
@@ -107,7 +107,8 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
-| 2026-04-14 | [BUY BLK](theses/2026-04-14-BLK-momentum-buy) | BlackRock Q1 blowout: rev +27%, EPS +46%, AUM record $13.9T, inflows +55%. First Financials position. |
+| 2026-04-14 PM | Harvest tighten (2nd time) | MU stop $420→$438 (locks +16.8%). NVDA stop $178→$185 (locks +4.4%). MU +20.7% total. |
+| 2026-04-14 | [BUY BLK](theses/2026-04-14-BLK-momentum-buy) | BlackRock Q1 blowout: rev +27%, EPS +46%, AUM record $13.9T, inflows +55%. First Financials position. Filled $1057.92. |
 | 2026-04-14 | Harvest tighten | MU stop $400→$420 (+12% locked). NVDA stop $160→$178 (breakeven lock). |
 | 2026-04-10 | DDOG stopped out | $105 stop triggered on CPI day SaaS crash. -11.8% loss. Stop saved $43 further. |
 | 2026-04-09 | PANW stopped out | $165 tightened stop triggered. +3.0% gain. Stop saved $132 further decline. |

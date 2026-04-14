@@ -6,22 +6,22 @@ title: "Watchlist"
 
 ## Account Summary
 
-- Portfolio Value: ~$21,452
-- Cash: ~$10,779 (50.2%) → ~$8,655 after BLK fill
-- Last Updated: 2026-04-14 10:30 AM ET (Autopilot Run)
+- Portfolio Value: ~$21,567
+- Cash: ~$8,663 (40.2%)
+- Last Updated: 2026-04-14 2:59 PM ET (Autopilot afternoon run)
 
 ## Active Positions
 
 | Ticker | Shares | Entry | Current | P&L | Weight | Stop | Thesis |
 |--------|--------|-------|---------|-----|--------|------|--------|
-| MU | 5 | $375.00 | $440.38 | **+17.4%** | 10.3% | **$420** (tightened from $400 — Harvest) | [Dip-buy](theses/2026-04-06-MU-dip-buy.md) |
-| NVDA | 12 | $177.28 | $192.65 | **+8.7%** | 10.8% | **$178** (breakeven lock — Harvest) | Legacy |
-| CEG | 7 | $280.00 | $294.75 | **+5.3%** | 9.6% | $255 | [Dip-buy](theses/2026-03-31-CEG-dip-buy.md) |
-| BLK | 2 | $1062 | $1060 (pending) | PENDING | 9.9% | $990 (pending) | [Momentum](theses/2026-04-14-BLK-momentum-buy.md) |
-| NKE | 44 | $45.29 | $43.32 | -4.4% | 8.9% | $40 | [Dip-buy](theses/2026-04-01-NKE-dip-buy.md) |
-| CCI | 20 | $84.31 | $85.70 | +1.6% | 8.0% | $76.50 | [Momentum](theses/2026-04-03-CCI-momentum-buy.md) |
-| BTCUSD | 0.003 | $70,867 | $75,725 | **+6.9%** | 1.2% | — | Legacy |
-| UNH | 0.69 | $290.00 | $318.03 | **+9.7%** | 1.0% | — | Legacy |
+| MU | 5 | $375.00 | $452.80 | **+20.7%** | 10.5% | **$438** (Harvest tightened 2x) | [Dip-buy](theses/2026-04-06-MU-dip-buy.md) |
+| NVDA | 12 | $177.28 | $194.80 | **+9.9%** | 10.8% | **$185** (Harvest tightened from breakeven) | Legacy |
+| BLK | 2 | $1057.92 | $1054.18 | -0.4% | 9.8% | $990 (pending — PDT blocked) | [Momentum](theses/2026-04-14-BLK-momentum-buy.md) |
+| CEG | 7 | $280.00 | $295.88 | **+5.7%** | 9.6% | $255 | [Dip-buy](theses/2026-03-31-CEG-dip-buy.md) |
+| NKE | 44 | $45.29 | $43.85 | -3.2% | 8.9% | $40 | [Dip-buy](theses/2026-04-01-NKE-dip-buy.md) |
+| CCI | 20 | $84.31 | $86.04 | +2.1% | 8.0% | $76.50 | [Momentum](theses/2026-04-03-CCI-momentum-buy.md) |
+| BTCUSD | 0.003 | $70,867 | $74,128 | **+4.6%** | 1.2% | — | Legacy |
+| UNH | 0.69 | $290.00 | $314.10 | **+8.3%** | 1.0% | — | Legacy |
 
 ## Recently Closed
 
@@ -33,34 +33,42 @@ title: "Watchlist"
 
 ## Watchlist
 
-### Bank Earnings Aftermath (Apr 14)
-| Ticker | Move | Status |
-|--------|------|--------|
-| WFC | -6.93% | EPS+rev miss + NII weakness — warranted decline. Watch for $75-78 base. |
-| JPM | -1.16% | Mild reaction. No setup. |
-| BAC | Reports Apr 15 | Watch tomorrow |
-| GS | Reports Apr 15 | Watch tomorrow |
+### Bank Earnings Week
+| Ticker | Status |
+|--------|--------|
+| WFC | -5.10% (recovered from -6.93%). Still down 7% on week. Watch for $75-78 base. |
+| JPM | -0.53% (mild reaction). No setup. |
+| C | **+3.22% today** — different from WFC. Watch for continuation. |
+| GS | **+2.35% today** — reports tomorrow. |
+| BAC | Flat today. Reports tomorrow. |
 
-### Energy (broad weakness today)
-| Ticker | Move | Status |
-|--------|------|--------|
-| OXY | -4.15% | Largest energy drop. Watch with XOM/CVX. |
-| COP | -3.30% | Sector wide |
-| XOM | -2.77% | Still pending re-entry rules (Sage) |
-| CVX | -2.47% | Same |
+### Energy (broad weakness)
+| Ticker | Status |
+|--------|--------|
+| XOM | Still on hold per Sage re-entry rules |
+| CVX | Same |
+| OXY | -4.15% morning — watch for base |
+| COP | -3.30% morning — watch |
+
+### Healthcare candidates
+| Ticker | Notes |
+|--------|-------|
+| ISRG | +2.04% today — strong but below threshold |
+| BMY | Q1 earnings Apr 30 |
+| CVS | Watching for pullback to $75 |
 
 ### Other
 | Ticker | Notes |
 |--------|-------|
-| BMY | Healthcare value. Q1 earnings Apr 30. |
-| CVS | CMS rate catalyst played out. Watching for pullback to $75. |
-| NET | SaaS bounce candidate (was -15% post-crash) |
+| ORCL | +4.26% today on tech rally. Tech = avoid per Sage. |
+| NET | SaaS bounce candidate |
 
-## Sage's Recommendations (Updated 2026-04-14)
+## Sage's Recommendations (Updated 2026-04-14 PM)
 
-- **Cash: 50.2% → ~40% after BLK fill** — Now better deployed but still room for 1 more position
-- **Tech: ~21%** (NVDA + MU) — Healthy
-- **Financials: 0% → 9.9%** with BLK — addresses key gap
-- **Sectors:** Tech, Energy/Nuclear, Consumer Disc, Real Estate, Financials, Healthcare (tiny), Crypto (tiny) — 7 sectors!
-- **Harvest actions today:** MU stop $400→$420 (+5%), NVDA stop $160→$178 (breakeven lock)
-- **Priority for next buy:** Healthcare or Industrials. Energy still on hold pending re-entry rules.
+- **Cash: 40.2%** — Healthy level, room for 1 more position
+- **Tech: 21.3%** (NVDA + MU) — both winning, don't chase more
+- **Financials: 9.8%** (BLK) — addressed today
+- **7 sectors** represented: Tech, Financials, Energy/Nuclear, Consumer Disc, Real Estate, Healthcare (tiny), Crypto (tiny)
+- **Priority for next buy:** Healthcare or Industrials — neither has setup today
+- **Harvest discipline:** MU and NVDA stops tightened TWICE today protecting +16.8% and +4.4% gains respectively
+- **BLK stop pending** — PDT blocked, retry tomorrow
