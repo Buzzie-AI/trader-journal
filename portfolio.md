@@ -5,17 +5,18 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-15 10:15 AM ET (intraday, post-CVS buy)*
+*Last updated: 2026-04-15 4:30 PM ET (EOD close)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$21,679** |
+| **Portfolio Value** | **$21,644** |
 | Cash | $6,616 (30.5%) |
-| Invested | $15,063 (69.5%) |
+| Invested | $15,028 (69.5%) |
 | Positions | 7 stocks + BTC + UNH fractional |
-| Today's trade | **CVS BUY** 27 sh @ $75.83 |
+| Today's trade | **CVS BUY** 27 sh @ $75.83 (AM); no action this EOD run |
+| CVS stop status | ⚠️ $72.75 PENDING — PDT same-day block, retry post-8 PM ET |
 
 ---
 
@@ -44,7 +45,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21679.12],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -95,21 +96,21 @@ new Chart(ctx, {
 
 ---
 
-## Current Positions
+## Current Positions (EOD close)
 
-| Ticker | Shares | Entry | Last | P&L | P&L % | Weight | Stop |
-|--------|--------|-------|------|-----|-------|--------|------|
-| MU | 5 | $375.00 | $452.21 | +$386.05 | **+20.6%** | 10.4% | **$438** (Harvest 2x) |
-| NVDA | 12 | $177.28 | $198.44 | +$253.92 | **+11.9%** | 11.0% | **$185** (Harvest 2x) |
-| BLK | 2 | $1057.92 | $1051.45 | -$12.94 | -0.6% | 9.7% | **$990** ✅ |
-| CEG | 7 | $280.00 | $296.29 | +$114.03 | **+5.8%** | 9.6% | $255 |
-| **CVS** | **27** | **$75.83** | **$75.35** | **-$12.96** | **-0.6%** | **9.4%** | **$72.75** (pending) |
-| NKE | 44 | $45.29 | $45.43 | +$6.16 | +0.3% | 9.2% | $40 |
-| CCI | 20 | $84.31 | $86.27 | +$39.20 | +2.3% | 8.0% | $76.50 |
-| BTC | 0.003 | $70,867 | $73,980 | +$10.74 | **+4.4%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $311.94 | +$15.13 | **+7.6%** | 1.0% | — |
+| Ticker | Shares | Entry | Close | P&L | P&L % | Weight | Stop |
+|--------|--------|-------|-------|-----|-------|--------|------|
+| MU | 5 | $375.00 | $453.43 | +$392.15 | **+20.9%** | 10.5% | **$438** (Harvest 2x) |
+| NVDA | 12 | $177.28 | $198.34 | +$252.69 | **+11.9%** | 11.0% | **$185** (Harvest 2x) |
+| BLK | 2 | $1057.92 | $1049.00 | -$17.84 | -0.8% | 9.7% | **$990** ✅ |
+| CEG | 7 | $280.00 | $294.99 | +$104.93 | **+5.4%** | 9.5% | $255 |
+| **CVS** | **27** | **$75.83** | **$74.99** | **-$16.43** | **-1.1%** | **9.4%** | **$72.75** ⚠️ pending |
+| NKE | 44 | $45.29 | $45.48 | +$8.50 | +0.4% | 9.2% | $40 |
+| CCI | 20 | $84.31 | $85.63 | +$26.40 | +1.6% | 7.9% | $76.50 |
+| BTC | 0.003 | $70,867 | $74,667 | +$13.11 | **+5.4%** | 1.2% | — |
+| UNH | 0.69 | $290.00 | $314.09 | +$16.28 | **+8.3%** | 1.0% | — |
 
-**Open P&L: +$799** | Today: CVS purchased at $75.83 (Oracle pre-positioned CMS pullback); Sage's healthcare mandate addressed.
+**Open P&L: +$779** | Day P&L: -$35 (flat). Tech-led rally offset by healthcare/industrial weakness. MU -2.6%, CVS -3.1%, NKE +2.9%.
 
 ---
 
@@ -117,13 +118,13 @@ new Chart(ctx, {
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| Tech (NVDA, MU) | $4,644 | 21.4% |
-| Financials (BLK) | $2,103 | 9.7% |
-| Utility/Nuclear (CEG) | $2,074 | 9.6% |
-| **Healthcare (CVS + UNH)** | **$2,249** | **10.4%** |
-| Consumer (NKE) | $1,999 | 9.2% |
-| Real Estate (CCI) | $1,724 | 8.0% |
-| Crypto (BTC) | $255 | 1.2% |
+| Tech (NVDA, MU) | $4,647 | 21.5% |
+| **Healthcare (CVS + UNH)** | **$2,247** | **10.4%** |
+| Financials (BLK) | $2,098 | 9.7% |
+| Utility/Nuclear (CEG) | $2,065 | 9.5% |
+| Consumer (NKE) | $2,001 | 9.2% |
+| Real Estate (CCI) | $1,713 | 7.9% |
+| Crypto (BTC) | $258 | 1.2% |
 | **Cash** | **$6,616** | **30.5%** |
 
 Seven sectors represented. No concentration over 22%. Healthcare added today via CVS.

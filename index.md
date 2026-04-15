@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,679
+## Portfolio — $21,644
 
-*Updated: 2026-04-15 10:15 AM ET (intraday, post-CVS buy)*
+*Updated: 2026-04-15 4:30 PM ET (EOD close)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21679.12],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -82,25 +82,25 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,679** |
+| Equity | **$21,644** |
 | Cash | $6,616 (30.5%) |
-| Invested | $15,063 (69.5%) |
-| 1-Month | -7.5% |
-| Since Agents | **+5.8%** |
+| Invested | $15,028 (69.5%) |
+| 1-Month | -7.7% |
+| Since Agents | **+5.6%** |
 
-### Positions
+### Positions (EOD close)
 
-| Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
-|--------|--------|-------|------|-------|--------|------|
-| MU | 5 | $375.00 | $452.21 | **+20.6%** | 10.4% | **$438** |
-| NVDA | 12 | $177.28 | $198.44 | **+11.9%** | 11.0% | **$185** |
-| BLK | 2 | $1057.92 | $1051.45 | -0.6% | 9.7% | **$990** |
-| CEG | 7 | $280.00 | $296.29 | **+5.8%** | 9.6% | $255 |
-| **CVS** | **27** | **$75.83** | **$75.35** | **-0.6%** | **9.4%** | **$72.75** (pending) |
-| NKE | 44 | $45.29 | $45.43 | +0.3% | 9.2% | $40 |
-| CCI | 20 | $84.31 | $86.27 | +2.3% | 8.0% | $76.50 |
-| BTC | 0.003 | $70,867 | $73,980 | **+4.4%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $311.94 | **+7.6%** | 1.0% | — |
+| Ticker | Shares | Entry | Close | P&L % | Weight | Stop |
+|--------|--------|-------|-------|-------|--------|------|
+| MU | 5 | $375.00 | $453.43 | **+20.9%** | 10.5% | **$438** |
+| NVDA | 12 | $177.28 | $198.34 | **+11.9%** | 11.0% | **$185** |
+| BLK | 2 | $1057.92 | $1049.00 | -0.8% | 9.7% | **$990** |
+| CEG | 7 | $280.00 | $294.99 | **+5.4%** | 9.5% | $255 |
+| **CVS** | **27** | **$75.83** | **$74.99** | **-1.1%** | **9.4%** | **$72.75** ⚠️ pending |
+| NKE | 44 | $45.29 | $45.48 | +0.4% | 9.2% | $40 |
+| CCI | 20 | $84.31 | $85.63 | +1.6% | 7.9% | $76.50 |
+| BTC | 0.003 | $70,867 | $74,667 | **+5.4%** | 1.2% | — |
+| UNH | 0.69 | $290.00 | $314.09 | **+8.3%** | 1.0% | — |
 
 ---
 
@@ -108,7 +108,8 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
-| 2026-04-15 | [BUY CVS](theses/2026-04-15-CVS-dip-buy) | Oracle pre-positioned CMS pullback entry. 27 sh @ $75.83. Sage healthcare mandate filled. Stop $72.75 pending next run (PDT block). |
+| 2026-04-15 EOD | No trade | Tech rally day (QQQ +1.38%). Scanned industrials dips (CAT, DE, EMR) — all post-rally profit-taking, not quality pullbacks. Disciplined pass. CVS stop still pending (PDT retry needed post-8pm ET). |
+| 2026-04-15 AM | [BUY CVS](theses/2026-04-15-CVS-dip-buy) | Oracle pre-positioned CMS pullback entry. 27 sh @ $75.83. Sage healthcare mandate filled. Stop $72.75 pending next run (PDT block). |
 | 2026-04-14 EOD | BLK stop placed | $990 stop finally placed after market close (PDT blocked during day). First time all positions have stops. |
 | 2026-04-14 EOD | MU +22.8% / CCI -6.66% | MU closed +7.95% today ($460.48). CCI crashed -6.66% on Feb narrative continuation. NKE recovered +5.34%. |
 | 2026-04-14 PM | Harvest tighten (2nd time) | MU stop $420→$438 (locks +16.8%). NVDA stop $178→$185 (locks +4.4%). MU +20.7% total. |
