@@ -5,16 +5,16 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-14 2:59 PM ET*
+*Last updated: 2026-04-14 8:57 PM ET (End of Day)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$21,567** |
-| Cash | $8,663 (40.2%) |
-| Invested | $12,904 (59.8%) |
-| Positions | 6 stocks + BTC + UNH |
+| **Portfolio Value** | **$21,583** |
+| Cash | $8,663 (40.1%) |
+| Invested | $12,920 (59.9%) |
+| Positions | 6 stocks + BTC + UNH (all stops active ✅) |
 
 ---
 
@@ -43,7 +43,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21567],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21583],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -87,8 +87,8 @@ new Chart(ctx, {
 
 | Period | Start | End | Change |
 |--------|-------|-----|--------|
-| 1 Month | $24,891 | $21,567 | **-13.4%** |
-| Since Agents (Mar 28) | $20,489 | $21,567 | **+5.3%** |
+| 1 Month | $24,891 | $21,583 | **-13.3%** |
+| Since Agents (Mar 28) | $20,489 | $21,583 | **+5.3%** |
 | Low | $20,408 (Mar 31) | | |
 | High | $24,891 (Mar 3) | | |
 
@@ -96,18 +96,18 @@ new Chart(ctx, {
 
 ## Current Positions
 
-| Ticker | Shares | Entry | Current | P&L | P&L % | Weight | Stop |
-|--------|--------|-------|---------|-----|-------|--------|------|
-| MU | 5 | $375.00 | $452.80 | +$389.00 | **+20.7%** | 10.5% | **$438** (Harvest 2x) |
-| NVDA | 12 | $177.28 | $194.80 | +$210.15 | **+9.9%** | 10.8% | **$185** (Harvest 2x) |
-| CEG | 7 | $280.00 | $295.88 | +$111.16 | **+5.7%** | 9.6% | $255 |
-| BLK | 2 | $1057.92 | $1054.18 | -$7.48 | -0.4% | 9.8% | $990 (PDT blocked) |
-| CCI | 20 | $84.31 | $86.04 | +$34.60 | **+2.1%** | 8.0% | $76.50 |
-| NKE | 44 | $45.29 | $43.85 | -$63.44 | -3.2% | 8.9% | $40 |
-| BTC | 0.003 | $70,867 | $74,128 | +$11.25 | **+4.6%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $314.10 | +$16.62 | **+8.3%** | 1.0% | — |
+| Ticker | Shares | Entry | Close | P&L | P&L % | Weight | Stop |
+|--------|--------|-------|-------|-----|-------|--------|------|
+| MU | 5 | $375.00 | $460.48 | +$427.40 | **+22.8%** | 10.7% | **$438** (Harvest 2x) |
+| NVDA | 12 | $177.28 | $195.83 | +$222.57 | **+10.5%** | 10.9% | **$185** (Harvest 2x) |
+| CEG | 7 | $280.00 | $297.19 | +$120.33 | **+6.1%** | 9.6% | $255 |
+| BLK | 2 | $1057.92 | $1049.21 | -$17.42 | -0.8% | 9.7% | **$990 ✅ (placed EOD)** |
+| NKE | 44 | $45.29 | $45.20 | -$3.82 | -0.2% | 9.2% | $40 |
+| CCI | 20 | $84.31 | $81.28 | -$60.60 | **-3.6%** ⚠️ | 7.5% | $76.50 |
+| BTC | 0.003 | $70,867 | $74,508 | +$12.56 | **+5.1%** | 1.2% | — |
+| UNH | 0.69 | $290.00 | $314.70 | +$17.03 | **+8.5%** | 1.0% | — |
 
-**Open P&L: +$701** | BLK filled at $1057.92 (better than $1062 limit). Harvest tightened MU & NVDA stops TWICE today.
+**Open P&L: +$718** | Day: +$255 (MU +$170, NKE +$101 recovery, CCI -$116 drop). First time this quarter all positions have active stops.
 
 **Recently Closed:**
 
@@ -123,14 +123,14 @@ new Chart(ctx, {
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| Tech (NVDA, MU) | $4,602 | 21.3% |
-| Financials (BLK) | $2,108 | 9.8% |
-| Energy/Nuclear (CEG) | $2,071 | 9.6% |
-| Consumer (NKE) | $1,929 | 8.9% |
-| Real Estate (CCI) | $1,721 | 8.0% |
-| Crypto (BTC) | $256 | 1.2% |
+| Tech (NVDA, MU) | $4,652 | 21.6% |
+| Financials (BLK) | $2,098 | 9.7% |
+| Energy/Nuclear (CEG) | $2,080 | 9.6% |
+| Consumer (NKE) | $1,989 | 9.2% |
+| Real Estate (CCI) | $1,626 | 7.5% ⚠️ |
+| Crypto (BTC) | $257 | 1.2% |
 | Healthcare (UNH) | $217 | 1.0% |
-| **Cash** | **$8,663** | **40.2%** |
+| **Cash** | **$8,663** | **40.1%** |
 
 ---
 
@@ -138,12 +138,12 @@ new Chart(ctx, {
 
 | Type | Ticker | Qty | Trigger | TIF |
 |------|--------|-----|---------|-----|
-| Stop | MU | 5 | **$438** (Harvest tightened 2x: $400→$420→$438) | GTC |
-| Stop | NVDA | 12 | **$185** (Harvest tightened 2x: $160→$178→$185) | GTC |
+| Stop | MU | 5 | **$438** (Harvest 2x: $400→$420→$438) | GTC |
+| Stop | NVDA | 12 | **$185** (Harvest 2x: $160→$178→$185) | GTC |
 | Stop | NKE | 44 | $40.00 | GTC |
 | Stop | CEG | 7 | $255.00 | GTC |
 | Stop | CCI | 20 | $76.50 | GTC |
-| Stop (pending) | BLK | 2 | $990.00 (PDT blocked — retry tomorrow) | — |
+| **Stop** | **BLK** | **2** | **$990.00 (placed EOD ✅)** | GTC |
 | Stop | MU | 5 | **$340.00** (PLACED Apr 8) | GTC |
 
 ---
