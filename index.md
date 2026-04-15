@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,583
+## Portfolio — $21,679
 
-*Updated: 2026-04-14 8:57 PM ET (Close)*
+*Updated: 2026-04-15 10:15 AM ET (intraday, post-CVS buy)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -26,10 +26,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21583],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21679.12],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -82,24 +82,25 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,583** |
-| Cash | $8,663 (40%) |
-| Invested | $12,920 (60%) |
-| 1-Month | -13.3% |
-| Since Agents | **+5.3%** |
+| Equity | **$21,679** |
+| Cash | $6,616 (30.5%) |
+| Invested | $15,063 (69.5%) |
+| 1-Month | -7.5% |
+| Since Agents | **+5.8%** |
 
-### Positions (All protected ✅)
+### Positions
 
-| Ticker | Shares | Entry | Close | P&L % | Weight | Stop |
-|--------|--------|-------|-------|-------|--------|------|
-| MU | 5 | $375.00 | $460.48 | **+22.8%** | 10.7% | **$438** |
-| NVDA | 12 | $177.28 | $195.83 | **+10.5%** | 10.9% | **$185** |
-| CEG | 7 | $280.00 | $297.19 | **+6.1%** | 9.6% | $255 |
-| BLK | 2 | $1057.92 | $1049.21 | -0.8% | 9.7% | **$990 ✅** |
-| NKE | 44 | $45.29 | $45.20 | -0.2% | 9.2% | $40 |
-| CCI | 20 | $84.31 | $81.28 | **-3.6%** ⚠️ | 7.5% | $76.50 |
-| BTC | 0.003 | $70,867 | $74,508 | **+5.1%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $314.70 | **+8.5%** | 1.0% | — |
+| Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
+|--------|--------|-------|------|-------|--------|------|
+| MU | 5 | $375.00 | $452.21 | **+20.6%** | 10.4% | **$438** |
+| NVDA | 12 | $177.28 | $198.44 | **+11.9%** | 11.0% | **$185** |
+| BLK | 2 | $1057.92 | $1051.45 | -0.6% | 9.7% | **$990** |
+| CEG | 7 | $280.00 | $296.29 | **+5.8%** | 9.6% | $255 |
+| **CVS** | **27** | **$75.83** | **$75.35** | **-0.6%** | **9.4%** | **$72.75** (pending) |
+| NKE | 44 | $45.29 | $45.43 | +0.3% | 9.2% | $40 |
+| CCI | 20 | $84.31 | $86.27 | +2.3% | 8.0% | $76.50 |
+| BTC | 0.003 | $70,867 | $73,980 | **+4.4%** | 1.2% | — |
+| UNH | 0.69 | $290.00 | $311.94 | **+7.6%** | 1.0% | — |
 
 ---
 
@@ -107,6 +108,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| 2026-04-15 | [BUY CVS](theses/2026-04-15-CVS-dip-buy) | Oracle pre-positioned CMS pullback entry. 27 sh @ $75.83. Sage healthcare mandate filled. Stop $72.75 pending next run (PDT block). |
 | 2026-04-14 EOD | BLK stop placed | $990 stop finally placed after market close (PDT blocked during day). First time all positions have stops. |
 | 2026-04-14 EOD | MU +22.8% / CCI -6.66% | MU closed +7.95% today ($460.48). CCI crashed -6.66% on Feb narrative continuation. NKE recovered +5.34%. |
 | 2026-04-14 PM | Harvest tighten (2nd time) | MU stop $420→$438 (locks +16.8%). NVDA stop $178→$185 (locks +4.4%). MU +20.7% total. |
