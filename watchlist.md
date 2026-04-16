@@ -5,7 +5,7 @@
 - Portfolio Value: ~$21,644
 - Cash: ~$6,616 (30.5%)
 - Last Updated: 2026-04-15 4:30 PM ET (EOD)
-- **6 of 7 equity positions stop-protected; CVS stop STILL pending (PDT block — retry after 8 PM ET)**
+- **All 7 equity positions stop-protected ✅** (CVS $72.75 placed 2026-04-16 10:02 AM ET)
 
 ## Active Positions (EOD Close)
 
@@ -16,7 +16,7 @@
 | BLK | 2 | $1057.92 | $1049.00 | -0.8% | 9.7% | $990 ✅ | [Momentum](theses/2026-04-14-BLK-momentum-buy.md) |
 | CEG | 7 | $280.00 | $294.99 | +5.4% | 9.5% | $255 | [Dip-buy](theses/2026-03-31-CEG-dip-buy.md) |
 | NKE | 44 | $45.29 | $45.48 | +0.4% | 9.2% | $40 | [Dip-buy](theses/2026-04-01-NKE-dip-buy.md) |
-| **CVS** | **27** | **$75.83** | **$74.99** | **-1.1%** | **9.4%** | **$72.75** (⚠️ PENDING) | [Dip-buy](theses/2026-04-15-CVS-dip-buy.md) |
+| **CVS** | **27** | **$75.83** | **$74.99** | **-1.1%** | **9.4%** | **$72.75** ✅ | [Dip-buy](theses/2026-04-15-CVS-dip-buy.md) |
 | CCI | 20 | $84.31 | $85.63 | +1.6% | 7.9% | $76.50 | [Momentum](theses/2026-04-03-CCI-momentum-buy.md) |
 | BTCUSD | 0.003 | $70,867 | $74,667 | +5.4% | 1.2% | — | Legacy |
 | UNH | 0.69 | $290.00 | $314.09 | +8.3% | 1.0% | — | Legacy |
