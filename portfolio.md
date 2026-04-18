@@ -5,18 +5,18 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-17 9:52 AM ET (intraday, post-NFLX buy)*
+*Last updated: 2026-04-17 10:00 PM ET (Friday EOD)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$21,821** |
+| **Portfolio Value** | **$21,855** |
 | Cash | $4,482 (20.5%) |
-| Invested | $17,339 (79.5%) |
+| Invested | $17,373 (79.5%) |
 | Positions | 8 stocks + BTC + UNH fractional |
 | Today's trade | BUY NFLX 22 sh @ $97 (post-earnings dip-buy) |
-| Stop coverage | ✅ **7 of 8 equity positions stop-protected; NFLX $93.50 pending (PDT block)** |
+| Stop coverage | ✅ **All 8 equity positions stop-protected** (NFLX $93.50 placed 9:59 PM) |
 
 ---
 
@@ -45,7 +45,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21821.45],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21855],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -89,8 +89,8 @@ new Chart(ctx, {
 
 | Period | Start | End | Change |
 |--------|-------|-----|--------|
-| 1 Month | $23,448 | $21,821 | **-6.9%** |
-| Since Agents (Mar 28) | $20,489 | $21,821 | **+6.5%** |
+| 1 Month | $23,448 | $21,855 | **-6.8%** |
+| Since Agents (Mar 28) | $20,489 | $21,855 | **+6.7%** |
 | Low | $20,408 (Mar 31) | | |
 | High | $23,448 (Mar 17) | | |
 
@@ -100,18 +100,18 @@ new Chart(ctx, {
 
 | Ticker | Shares | Entry | Last | P&L | P&L % | Weight | Stop |
 |--------|--------|-------|------|-----|-------|--------|------|
-| MU | 5 | $375.00 | $462.66 | +$438.30 | **+23.4%** | 10.6% | **$438** (Harvest 2x) |
-| NVDA | 12 | $177.28 | $200.60 | +$279.84 | **+13.2%** | 11.0% | **$185** (Harvest 2x) |
-| **NFLX** | **22** | **$97.00** | **$97.00** | **$0.00** | **0.0%** | **9.8%** | **$93.50 pending** |
-| BLK | 2 | $1057.92 | $1042.65 | -$30.54 | -1.4% | 9.6% | **$990** ✅ |
-| CEG | 7 | $280.00 | $297.99 | +$125.93 | **+6.4%** | 9.6% | $255 (⚠️ 1R at $305) |
-| CVS | 27 | $75.83 | $76.54 | +$19.17 | +0.9% | 9.5% | $72.75 ✅ |
-| NKE | 44 | $45.29 | $45.88 | +$25.96 | +1.3% | 9.3% | $40 |
-| CCI | 20 | $84.31 | $87.12 | +$56.20 | +3.3% | 8.0% | $76.50 |
-| BTC | 0.003 | $70,867 | $76,815 | +$17.85 | **+8.4%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $320.21 | +$20.84 | **+10.4%** | 1.0% | — |
+| MU | 5 | $375.00 | $452.70 | +$388.50 | **+20.7%** | 10.4% | **$438** (Harvest 2x) |
+| NVDA | 12 | $177.28 | $200.98 | +$284.40 | **+13.4%** | 11.0% | **$185** (Harvest 2x) |
+| NFLX | 22 | $97.00 | $97.29 | +$6.38 | **+0.3%** | 9.8% | $93.50 ✅ |
+| BLK | 2 | $1057.92 | $1,052 | -$11.84 | -0.6% | 9.6% | **$990** ✅ |
+| CEG | 7 | $280.00 | $296.10 | +$112.70 | **+5.7%** | 9.6% | $255 (⚠️ 1R at $305) |
+| CVS | 27 | $75.83 | $77.30 | +$39.69 | **+1.9%** | 9.5% | $72.75 ✅ |
+| NKE | 44 | $45.29 | $46.13 | +$36.96 | **+1.9%** | 9.3% | $40 |
+| CCI | 20 | $84.31 | $88.71 | +$88.00 | **+5.2%** | 8.0% | $76.50 |
+| BTC | 0.003 | $70,867 | $77,229 | +$19.09 | **+9.0%** | 1.2% | — |
+| UNH | 0.69 | $290.00 | $324.00 | +$23.46 | **+11.7%** | 1.0% | — |
 
-**Open P&L: +$953** | Today: BUY NFLX 22 @ $97 (post-earnings dip-buy). Broad rally: SPY +0.72%. Energy crashing on Iran ceasefire.
+**Open P&L: +$987** | Friday EOD: NFLX stop placed at 9:59 PM. All 8 positions protected for the weekend. Broad rally: SPY +0.9%.
 
 ---
 
@@ -144,7 +144,7 @@ Eight sectors represented. No concentration over 22%. Communication Services add
 | Stop | CVS | 27 | $72.75 | GTC | |
 | Stop | NKE | 44 | $40.00 | GTC | |
 | Stop | CCI | 20 | $76.50 | GTC | |
-| **Stop** | **NFLX** | **22** | **$93.50** | **GTC** | **PENDING — PDT same-day block, next run** |
+| Stop | NFLX | 22 | $93.50 | GTC | Placed 9:59 PM ET ✅ |
 
 ---
 

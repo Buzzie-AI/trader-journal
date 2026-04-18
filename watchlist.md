@@ -1,8 +1,3 @@
----
-title: Watchlist
-layout: default
----
-
 # Portfolio Watchlist
 
 ## Account Summary
