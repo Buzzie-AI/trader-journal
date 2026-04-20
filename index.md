@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,855
+## Portfolio — $21,755
 
-*Updated: 2026-04-17 10:00 PM ET (Friday EOD)*
+*Updated: 2026-04-20 09:53 AM ET (Monday open, intraday)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -26,10 +26,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21855],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21754.74],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -82,26 +82,27 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,855** |
-| Cash | $4,482 (20.5%) |
-| Invested | $17,373 (79.5%) |
-| 1-Month | -6.8% |
-| Since Agents | **+6.7%** |
+| Equity | **$21,755** |
+| Cash | $4,482 (20.6%) |
+| Invested | $17,273 (79.4%) |
+| Day P&L | **-0.54%** |
+| 1-Month | -7.2% |
+| Since Agents | **+6.2%** |
 
 ### Positions (Intraday)
 
-| Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
-|--------|--------|-------|------|-------|--------|------|
-| MU | 5 | $375.00 | $452.70 | **+20.7%** | 10.4% | **$438** |
-| NVDA | 12 | $177.28 | $200.98 | **+13.4%** | 11.0% | **$185** |
-| NFLX | 22 | $97.00 | $97.29 | **+0.3%** | 9.8% | $93.50 ✅ |
-| BLK | 2 | $1057.92 | $1,052 | -0.6% | 9.6% | **$990** |
-| CEG | 7 | $280.00 | $296.10 | **+5.7%** | 9.6% | $255 (⚠️ 1R $305) |
-| CVS | 27 | $75.83 | $77.30 | **+1.9%** | 9.5% | $72.75 ✅ |
-| NKE | 44 | $45.29 | $46.13 | **+1.9%** | 9.3% | $40 |
-| CCI | 20 | $84.31 | $88.71 | **+5.2%** | 8.0% | $76.50 |
-| BTC | 0.003 | $70,867 | $77,229 | **+9.0%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $324.00 | **+11.7%** | 1.0% | — |
+| Ticker | Shares | Entry | Last | P&L % | Today | Weight | Stop |
+|--------|--------|-------|------|-------|-------|--------|------|
+| MU | 5 | $375.00 | $451.93 | **+20.5%** | -0.69% | 10.4% | **$438** |
+| NVDA | 12 | $177.28 | $199.46 | **+12.5%** | -1.10% | 11.0% | **$185** |
+| NFLX | 22 | $97.00 | $95.88 | **-1.2%** | -1.47% | 9.7% | $93.50 ⚠️ -2.5% |
+| BLK | 2 | $1057.92 | $1,056.16 | -0.17% | +0.38% | 9.7% | **$990** |
+| CEG | 7 | $280.00 | $293.19 | **+4.7%** | -1.02% | 9.4% | $255 |
+| CVS | 27 | $75.83 | $76.86 | **+1.4%** | -0.57% | 9.5% | $72.75 ✅ |
+| NKE | 44 | $45.29 | $45.81 | **+1.1%** | -0.49% | 9.3% | $42.50 |
+| CCI | 20 | $84.31 | $88.68 | **+5.2%** | -0.03% | 8.2% | $80 |
+| BTC | 0.003 | $70,867 | $75,208 | **+6.1%** | +0.72% | 1.2% | — |
+| UNH | 0.69 | $290.00 | $323.22 | **+11.5%** | -0.43% | 1.0% | — |
 
 ---
 
@@ -109,6 +110,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| 2026-04-20 AM | No trade | Manual autopilot. No tickers passed Sentinel's $10B filter; no Mercury alerts; Oracle 4 days stale (refresh due). Flags: CVS earnings date unverified (Apr 30 vs May 6); Iran ceasefire binary tomorrow; NFLX stop tight. |
 | 2026-04-17 | [BUY NFLX](theses/2026-04-17-NFLX-dip-buy) | Post-earnings dip-buy. EPS +86% beat, -10% sell-the-news. 22 sh @ $97. Bracket order test: CONFIRMED BLOCKED on PDT. Communication Services (new sector). |
 | 2026-04-16 AM | CVS stop placed | $72.75 GTC. All 7 equity positions now stop-protected for the first time. No new trade — dips today (GE, ISRG, DE) all had earnings risk or falling-knife patterns. Disciplined pass. |
 | 2026-04-15 EOD | No trade | Tech rally day (QQQ +1.38%). Scanned industrials dips (CAT, DE, EMR) — all post-rally profit-taking, not quality pullbacks. Disciplined pass. CVS stop still pending (PDT retry needed post-8pm ET). |
