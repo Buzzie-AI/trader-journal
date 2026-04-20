@@ -5,18 +5,18 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-20 09:53 AM ET (Monday open, intraday)*
+*Last updated: 2026-04-20 4:30 PM ET (Monday EOD)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$21,755** |
-| Cash | $4,482 (20.6%) |
-| Invested | $17,273 (79.4%) |
-| Positions | 8 stocks + BTC + UNH fractional |
-| Today's Day P&L | **-$118 (-0.54%)** |
-| Stop coverage | ✅ **All 8 whole-share equity positions stop-protected** |
+| **Portfolio Value** | **$21,664** |
+| Cash | $4,520 (20.9%) |
+| Invested | $17,144 (79.1%) |
+| Positions | 9 stocks + BTC + UNH fractional |
+| Today's activity | BUY AEM 10 sh @ $215.20 (autopilot midday, gold M&A acquirer-dip) · MU stopped-out at $438 (+16.8% locked) |
+| Stop coverage | ⚠️ **9 of 9 equity positions stopped EXCEPT new AEM** (stop pending tomorrow per PDT same-day-block) |
 
 ---
 
@@ -45,7 +45,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21754.74],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -89,47 +89,48 @@ new Chart(ctx, {
 
 | Period | Start | End | Change |
 |--------|-------|-----|--------|
-| 1 Month | $23,448 | $21,755 | **-7.2%** |
-| Since Agents (Mar 28) | $20,489 | $21,755 | **+6.2%** |
+| 1 Month | $23,448 | $21,664 | **-7.6%** |
+| Since Agents (Mar 28) | $20,489 | $21,664 | **+5.7%** |
 | Low | $20,408 (Mar 31) | | |
 | High | $23,448 (Mar 17) | | |
 
 ---
 
-## Current Positions (Intraday)
+## Current Positions (EOD)
 
-| Ticker | Shares | Entry | Last | P&L | P&L % | Today | Weight | Stop |
-|--------|--------|-------|------|-----|-------|-------|--------|------|
-| MU | 5 | $375.00 | $451.93 | +$384.63 | **+20.5%** | -0.69% | 10.4% | **$438** (Harvest 2x) |
-| NVDA | 12 | $177.28 | $199.46 | +$266.07 | **+12.5%** | -1.10% | 11.0% | **$185** (Harvest 2x) |
-| NFLX | 22 | $97.00 | $95.88 | -$24.71 | **-1.2%** | -1.47% | 9.7% | $93.50 ⚠️ tight (-2.5%) |
-| BLK | 2 | $1057.92 | $1,056.16 | -$3.52 | -0.17% | +0.38% | 9.7% | $990 ✅ |
-| CEG | 7 | $280.00 | $293.19 | +$92.33 | **+4.7%** | -1.02% | 9.4% | $255 (pre-earn Apr 28 trim) |
-| CVS | 27 | $75.83 | $76.86 | +$27.85 | **+1.4%** | -0.57% | 9.5% | $72.75 ⚠️ earnings date TBD |
-| NKE | 44 | $45.29 | $45.81 | +$22.80 | **+1.1%** | -0.49% | 9.3% | $42.50 ✅ |
-| CCI | 20 | $84.31 | $88.68 | +$87.40 | **+5.2%** | -0.03% | 8.2% | $80 (tightened from $76.50) |
-| BTC | 0.003 | $70,867 | $75,208 | +$14.98 | **+6.1%** | +0.72% | 1.2% | — |
-| UNH | 0.69 | $290.00 | $323.22 | +$22.91 | **+11.5%** | -0.43% | 1.0% | — |
+| Ticker | Shares | Entry | Last | P&L | P&L % | Weight | Stop |
+|--------|--------|-------|------|-----|-------|--------|------|
+| NVDA | 12 | $177.28 | $202.00 | +$296.61 | **+13.9%** | 11.2% | **$185** (Harvest 2x) |
+| AEM 🆕 | 10 | $215.20 | $216.39 | +$11.87 | +0.6% | 10.0% | pending tomorrow |
+| NFLX | 22 | $97.00 | $94.64 | -$51.92 | **-2.4%** | 9.6% | **$93.50 (⚠️ 1.2% above)** |
+| BLK | 2 | $1,057.92 | $1,050 | -$15.84 | -0.7% | 9.7% | **$990** ✅ |
+| NKE | 44 | $45.29 | $46.50 | +$53.32 | **+2.7%** | 9.4% | $42.50 |
+| CVS | 27 | $75.83 | $76.58 | +$20.29 | **+1.0%** | 9.5% | $72.75 ✅ |
+| CEG | 7 | $280.00 | $288.92 | +$62.46 | **+3.2%** | 9.3% | $255 |
+| CCI | 20 | $84.31 | $87.56 | +$65.00 | **+3.9%** | 8.1% | $80 |
+| BTC | 0.003 | $70,867 | $76,240 | +$18.54 | **+7.6%** | 1.2% | — |
+| UNH | 0.69 | $290.00 | $324.59 | +$23.86 | **+11.9%** | 1.0% | — |
 
-**Open P&L: +$891** | Morning session, broader market slightly red (SPY -0.2%, QQQ -0.3%). Energy (XLE +1%) leads on Iran ceasefire expiry tomorrow.
+**Open P&L: +$484** | Today: MU closed at +20.7% (stopped out at $438), AEM bought as catalyst-buy. NFLX is the watchpoint — Reed Hastings exit + soft guidance, $1.14 above stop.
 
 ---
 
 ## Allocation
 
-| Category | Value | Weight | Note |
-|----------|-------|--------|------|
-| Tech (NVDA, MU) | $4,653 | 21.4% | |
-| **Communication (NFLX)** | **$2,109** | **9.7%** | Stop tight; watching |
-| Healthcare (CVS + UNH) | $2,298 | 10.6% | CVS earnings date unverified |
-| Financials (BLK) | $2,112 | 9.7% | |
-| Utility/Nuclear (CEG) | $2,052 | 9.4% | Pre-earnings Apr 28 trim fires |
-| Consumer (NKE) | $2,015 | 9.3% | |
-| Real Estate (CCI) | $1,774 | 8.2% | FOMC Apr 28 rate-sensitive |
-| Crypto (BTC) | $259 | 1.2% | |
-| **Cash** | **$4,482** | **20.6%** | Room to deploy; Sage prefers non-tech |
+| Category | Value | Weight |
+|----------|-------|--------|
+| Tech (NVDA) | $2,424 | 11.2% |
+| **Materials (AEM)** 🆕 | **$2,164** | **10.0%** |
+| Communication (NFLX) | $2,082 | 9.6% |
+| Financials (BLK) | $2,100 | 9.7% |
+| Consumer (NKE) | $2,046 | 9.4% |
+| Healthcare (CVS + UNH) | $2,291 | 10.6% |
+| Utility/Nuclear (CEG) | $2,022 | 9.3% |
+| Real Estate (CCI) | $1,751 | 8.1% |
+| Crypto (BTC) | $263 | 1.2% |
+| **Cash** | **$4,520** | **20.9%** |
 
-Eight sectors. Tech concentration (incl. comm) at 31.1% — Sage flag.
+Nine sectors represented. No concentration over 12%. **Materials added today via AEM** (gold M&A catalyst-buy).
 
 ---
 
@@ -137,14 +138,14 @@ Eight sectors. Tech concentration (incl. comm) at 31.1% — Sage flag.
 
 | Type | Ticker | Qty | Trigger | TIF | Notes |
 |------|--------|-----|---------|-----|-------|
-| Stop | MU | 5 | $438.00 | GTC | Harvest 2x advance |
 | Stop | NVDA | 12 | $185.00 | GTC | Harvest 2x advance |
-| Stop | BLK | 2 | $990.00 | GTC | Placed Apr 14 |
+| Stop | BLK | 2 | $990.00 | GTC | |
 | Stop | CEG | 7 | $255.00 | GTC | |
-| Stop | CVS | 27 | $72.75 | GTC | Placed Apr 16 |
-| Stop | NKE | 44 | $42.50 | GTC | Tightened |
-| Stop | CCI | 20 | $80.00 | GTC | Tightened from $76.50 |
-| Stop | NFLX | 22 | $93.50 | GTC | Placed Apr 18 |
+| Stop | CVS | 27 | $72.75 | GTC | |
+| Stop | NKE | 44 | $42.50 | GTC | |
+| Stop | CCI | 20 | $80.00 | GTC | |
+| Stop | NFLX | 22 | $93.50 | GTC | **⚠️ 1.2% above current $94.64** |
+| (pending) | **AEM** | **10** | **$200** | **GTC** | **To be placed tomorrow morning (PDT same-day block)** |
 
 ---
 
@@ -152,6 +153,7 @@ Eight sectors. Tech concentration (incl. comm) at 31.1% — Sage flag.
 
 | Ticker | Entry | Exit | Return | Reason |
 |--------|-------|------|--------|--------|
+| MU | $375.00 | ~$438 | **+$315 (+16.8%)** | Stop trigger after Samsung-strike Mercury alert (14d) |
 | PANW | $160.15 | $164.97 | **+$57.84 (+3.0%)** | Stop discipline WIN (11d) |
 | DDOG | $119.00 | $104.95 | **-$224.80 (-11.8%)** | Stop discipline LOSS CUT (11d) |
 | MRVL | $91.72 | $101.34 | **+$173 (+10.5%)** | Trailing stop WIN (3d) |

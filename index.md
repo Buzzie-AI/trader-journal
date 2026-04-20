@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,755
+## Portfolio — $21,664
 
-*Updated: 2026-04-20 09:53 AM ET (Monday open, intraday)*
+*Updated: 2026-04-20 4:30 PM ET (Monday EOD)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21754.74],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -82,27 +82,26 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,755** |
-| Cash | $4,482 (20.6%) |
-| Invested | $17,273 (79.4%) |
-| Day P&L | **-0.54%** |
-| 1-Month | -7.2% |
-| Since Agents | **+6.2%** |
+| Equity | **$21,664** |
+| Cash | $4,520 (20.9%) |
+| Invested | $17,144 (79.1%) |
+| Day P&L | -0.96% |
+| Since Agents | **+5.7%** |
 
-### Positions (Intraday)
+### Positions (EOD)
 
-| Ticker | Shares | Entry | Last | P&L % | Today | Weight | Stop |
-|--------|--------|-------|------|-------|-------|--------|------|
-| MU | 5 | $375.00 | $451.93 | **+20.5%** | -0.69% | 10.4% | **$438** |
-| NVDA | 12 | $177.28 | $199.46 | **+12.5%** | -1.10% | 11.0% | **$185** |
-| NFLX | 22 | $97.00 | $95.88 | **-1.2%** | -1.47% | 9.7% | $93.50 ⚠️ -2.5% |
-| BLK | 2 | $1057.92 | $1,056.16 | -0.17% | +0.38% | 9.7% | **$990** |
-| CEG | 7 | $280.00 | $293.19 | **+4.7%** | -1.02% | 9.4% | $255 |
-| CVS | 27 | $75.83 | $76.86 | **+1.4%** | -0.57% | 9.5% | $72.75 ✅ |
-| NKE | 44 | $45.29 | $45.81 | **+1.1%** | -0.49% | 9.3% | $42.50 |
-| CCI | 20 | $84.31 | $88.68 | **+5.2%** | -0.03% | 8.2% | $80 |
-| BTC | 0.003 | $70,867 | $75,208 | **+6.1%** | +0.72% | 1.2% | — |
-| UNH | 0.69 | $290.00 | $323.22 | **+11.5%** | -0.43% | 1.0% | — |
+| Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
+|--------|--------|-------|------|-------|--------|------|
+| NVDA | 12 | $177.28 | $202.00 | **+13.9%** | 11.2% | **$185** |
+| AEM 🆕 | 10 | $215.20 | $216.39 | +0.6% | 10.0% | pending tomorrow |
+| NFLX | 22 | $97.00 | $94.64 | **-2.4%** | 9.6% | **$93.50 (⚠️ 1.2% above stop)** |
+| BLK | 2 | $1,057.92 | $1,050 | -0.7% | 9.7% | **$990** |
+| NKE | 44 | $45.29 | $46.50 | **+2.7%** | 9.4% | $42.50 |
+| CVS | 27 | $75.83 | $76.58 | **+1.0%** | 9.5% | $72.75 ✅ |
+| CEG | 7 | $280.00 | $288.92 | **+3.2%** | 9.3% | $255 |
+| CCI | 20 | $84.31 | $87.56 | **+3.9%** | 8.1% | $80 |
+| BTC | 0.003 | $70,867 | $76,240 | **+7.6%** | 1.2% | — |
+| UNH | 0.69 | $290.00 | $324.59 | **+11.9%** | 1.0% | — |
 
 ---
 
@@ -110,7 +109,11 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
-| 2026-04-20 AM | No trade | Manual autopilot. No tickers passed Sentinel's $10B filter; no Mercury alerts; Oracle 4 days stale (refresh due). Flags: CVS earnings date unverified (Apr 30 vs May 6); Iran ceasefire binary tomorrow; NFLX stop tight. |
+| 2026-04-20 EOD | **AAPL CEO transition + AMZN-Anthropic $100B** | Post-close: Tim Cook → John Ternus (Sept 1) and Amazon $5B Anthropic investment + $100B AWS commitment over 10 yrs. Both queued for tomorrow's 9:23 AM autopilot. |
+| 2026-04-20 PM | NFLX RED thesis-break alert | Mercury caught soft guidance + Reed Hastings exit at 14:18. NFLX -2.7% today, $94.64 vs existing $93.50 stop = $1.14 cushion. Stop will catch naturally. |
+| 2026-04-20 midday | [BUY AEM](trades/2026-04-20-AEM-catalyst-buy) | First trade under new Mercury filter-only architecture. Agnico Eagle $3.8B Finland gold M&A acquirer-dip. 10 sh @ $215.20. Stop pending tomorrow (PDT). +0.6% intraday. |
+| 2026-04-20 AM | MU stop-out | Pre-existing $438 stop triggered (Samsung-strike rumor likely catalyst). MU was +20.7% locked at the trim — gain captured. |
+| 2026-04-20 | Architecture migration | Mercury became filter-only at 10:22 AM. Autopilot Phase 0.5 now owns all scoring + pipeline decisions. First end-to-end run executed AEM at 13:19 ET. |
 | 2026-04-17 | [BUY NFLX](theses/2026-04-17-NFLX-dip-buy) | Post-earnings dip-buy. EPS +86% beat, -10% sell-the-news. 22 sh @ $97. Bracket order test: CONFIRMED BLOCKED on PDT. Communication Services (new sector). |
 | 2026-04-16 AM | CVS stop placed | $72.75 GTC. All 7 equity positions now stop-protected for the first time. No new trade — dips today (GE, ISRG, DE) all had earnings risk or falling-knife patterns. Disciplined pass. |
 | 2026-04-15 EOD | No trade | Tech rally day (QQQ +1.38%). Scanned industrials dips (CAT, DE, EMR) — all post-rally profit-taking, not quality pullbacks. Disciplined pass. CVS stop still pending (PDT retry needed post-8pm ET). |
