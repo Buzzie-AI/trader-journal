@@ -31,6 +31,24 @@ Updated by eod_summary cron. **Day 1 of sleeve infrastructure successfully valid
 
 **This is a 🎯 milestone day.** First live run with sector-sleeve mechanics deployed in the morning captured **exactly the kind of catalyst the old monolithic system was systematically missing.**
 
+### After-Hours INTC Catalyst Stack (post-EOD update)
+
+Eleven INTC catalysts compounded throughout the day — the bull thesis hardened materially after the 4:00 PM close:
+
+1. **Q1 EPS $0.29 vs $0.01 est (29× beat)** + Sales $13.577B vs $12.424B (+9.3%)
+2. **Q2 guide $0.20 EPS vs $0.09 est (+more than DOUBLE)** + Sales $13.8-14.8B vs $13.07B
+3. CFO: TSLA chip fab deal details "still being worked between Lip-Bu and Elon" (minor caveat)
+4. CFO: INTC raising chip prices to reflect costs — pricing power signal
+5. CFO: less than $200M external foundry revenue Q1 (foundry pivot still early — important caveat)
+6. CEO Lip-Bu Tan: **demand continued to run AHEAD OF SUPPLY for ALL businesses in Q1**
+7. CEO: top priority = maximize factory output to meet demand
+8. CEO: **CPUs REGAINING POSITION as foundation of AI** (strategic positioning shift)
+9. Executive: **custom ASIC business has run rate of OVER $1 BILLION** (first concrete external-revenue datapoint)
+10. AMD + ARM rallying AH in sympathy with INTC (sector-wide validation)
+11. Trump administration's Intel stake **up 290% in less than a year** (government-aligned interests)
+
+Net post-AH: INTC closed regular session at **$76.19 (+13.82% from $66.94 entry, +$185 unrealized)**. After-bell catalysts position the stock for potential extension at Friday open. Sleeve infrastructure validated end-to-end on Day 1.
+
 ```
 SLEEVE STATE — END OF DAY
 ==========================
