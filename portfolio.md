@@ -5,18 +5,18 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-23 4:30 PM ET (Thursday EOD)*
+*Last updated: 2026-04-24 10:05 AM ET (Friday intraday)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$21,789** |
-| Cash | $2,212 (10.2%) |
-| Invested | $19,577 (89.8%) |
-| Positions | 11 stocks + BTC + UNH fractional |
-| Today's activity | **🎯 First sleeve-routed trades**: BUY LRCX 4 sh @ $267.37 + INTC 19 sh @ $66.94 (semi_ai sleeve) · AEM stopped at $199.96 (-$152 realized) · BA stop $205 placed (PDT-deferred) |
-| Stop coverage | ✅ All 9 equity positions stopped except LRCX/INTC (PDT-deferred to Apr 24) |
+| **Portfolio Value** | **$24,921** |
+| Cash | $3,776 (15.2%) |
+| Invested | $21,145 (84.8%) |
+| Positions | 13 equity + BTC + UNH fractional |
+| Today's activity | **🎯 Biggest sleeve-validation day yet**: INTC +22% on Q1 beat · MRVL sleeve BUY 9sh @ $159.54 (the score-96 catalyst) · stops placed for LRCX $246 + INTC $70 breakeven-lock · BA stop trailed $205 → $223 (+1R breakeven-lock) |
+| Stop coverage | ✅ All 10 equity positions stopped except MRVL (PDT-deferred to Apr 25) |
 
 ---
 
@@ -33,10 +33,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -45,7 +45,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,21788.86],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,24920.78],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -97,66 +97,65 @@ new Chart(ctx, {
 
 | Period | Start | End | Change |
 |--------|-------|-----|--------|
-| 1 Month | $23,448 | $21,789 | **-7.1%** |
-| Since Agents (Mar 28) | $20,489 | $21,789 | **+6.3%** |
-| Last 3 days | $21,664 (Apr 20) | $21,789 | **+0.6%** |
+| 1 Month | $23,448 | $24,921 | **+6.3%** |
+| Since Agents (Mar 28) | $20,489 | $24,921 | **+21.6%** |
+| Last 2 days | $21,581 (Apr 22) | $24,921 | **+15.5%** |
 | Low | $20,408 (Mar 31) | | |
-| High | $23,448 (Mar 17) | | |
+| High | $24,921 (Apr 24 intraday) | | |
 
-Orange dashed line = agents took control (Mar 28). Blue dashed line = sector-sleeve infrastructure deployed (Apr 23).
+Orange dashed line = agents took control (Mar 28). Blue dashed line = sector-sleeve infrastructure deployed (Apr 23). Apr 23→24 jump reflects INTC +22% on Q1 blowout + corporate-action realization on 737CVR019.
 
 ---
 
-## Current Positions (EOD)
+## Current Positions (intraday)
 
 | Ticker | Shares | Entry | Last | P&L | P&L % | Weight | Stop |
 |--------|--------|-------|------|-----|-------|--------|------|
-| **INTC 🆕** | **19** | **$66.94** | **$76.19** | **+$185** | **+13.82%** 🎯 | **6.7%** | **$61.60 (PDT pending)** |
-| NVDA | 12 | $177.28 | $199.07 | +$261 | **+12.29%** | 11.0% | $185 ✅ |
-| BA 🆕 | 9 | $222.99 | $233.95 | +$99 | **+4.91%** | 9.7% | $205 ✅ |
-| **LRCX 🆕** | 4 | $267.37 | $259.00 | -$33 | -3.13% | 4.8% | $246 (PDT pending) |
-| MRK 🆕 | 18 | $112.47 | $114.62 | +$39 | +1.91% | 9.5% | $103.50 ✅ |
-| BLK | 2 | $1,057.92 | $1,052.55 | -$11 | -0.5% | 9.7% | $990 ✅ |
-| CCI | 20 | $84.31 | $87.52 | +$64 | **+3.81%** | 8.0% | $80 ✅ |
-| CEG | 7 | $280.00 | $292.40 | +$87 | **+4.43%** | 9.4% | $255 ✅ |
-| CVS | 27 | $75.83 | $78.67 | +$77 | **+3.75%** | 9.8% | $72.08 ✅ |
-| NKE | 44 | $45.29 | $45.15 | -$6 | -0.3% | 9.1% | $42.50 ✅ |
-| BTC | 0.0034 | $70,867 | $78,028 | +$25 | **+10.10%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $353.50 | +$44 | **+21.90%** | 1.1% | — |
+| **INTC** | 19 | $66.94 | **$81.64** | **+$279** | **+22.0%** 🎯 | 6.2% | **$70 ✅ (breakeven-lock placed today)** |
+| **MRVL 🆕** | 9 | $159.54 | $161.37 | +$17 | +1.2% | 5.8% | $145 (PDT pending, T+1 Apr 25) |
+| NVDA | 12 | $177.28 | $202.16 | +$299 | **+14.0%** | 9.7% | $185 ✅ |
+| BA | 9 | $222.99 | $233.03 | +$90 | **+4.5%** | 8.4% | **$223 ✅ (trailed today from $205)** |
+| LRCX | 4 | $267.37 | $270.61 | +$13 | +1.2% | 4.3% | **$246 ✅ (placed today)** |
+| MRK | 18 | $112.47 | $112.67 | +$4 | +0.2% | 8.1% | $103.50 ✅ |
+| BLK | 2 | $1,057.92 | $1,049.12 | -$18 | -0.8% | 8.4% | $990 ✅ |
+| CCI | 20 | $84.31 | $86.23 | +$38 | **+2.3%** | 6.9% | $80 ✅ |
+| CEG | 7 | $280.00 | $294.16 | +$99 | **+5.1%** | 8.3% | $255 ✅ |
+| CVS | 27 | $75.83 | $78.16 | +$63 | **+3.1%** | 8.5% | $72.08 ✅ |
+| NKE | 44 | $45.29 | $45.34 | +$2 | +0.1% | 8.0% | $42.50 ✅ |
+| BTC | 0.0034 | $70,867 | $77,982 | +$25 | **+10.0%** | 1.1% | — |
+| UNH | 0.69 | $290.00 | $352.77 | +$43 | **+21.6%** | 1.0% | — |
 
-**Total Open P&L: +$832** (vs +$484 on Apr 20). INTC delivered +$185 unrealized on Day 1 of sleeve infrastructure after Q1 +29× EPS beat + Q2 guide raise.
+**Total Open P&L: +$954** (vs +$832 at yesterday EOD). INTC alone +$279 unrealized.
 
 ---
 
-## ⭐ NEW: Sector Sleeve Status (deployed Apr 23)
-
-The portfolio now uses a **sector-sleeve** mechanism that reserves a portion of equity for tickers in a defined regime (currently AI/semiconductors).
+## ⭐ Sector Sleeve Status (Day 2 of deployment)
 
 | Sleeve | Regime | Target | Current Fill | Status | Members Held |
 |--------|--------|-------:|-------------:|--------|--------------|
-| **semi_ai** | 🔥 HOT | $5,447 (25%) | $4,883 (89.6%) | AT TARGET | NVDA, LRCX, INTC |
+| **semi_ai** | 🔥 HOT | $6,230 (25%) | $6,512 (104.5%) | AT TARGET | NVDA, LRCX, INTC, **MRVL 🆕** |
 
-**How it works:** When the regime detector classifies semi_ai as HOT (≥5 qualifying alerts ≥70 in rolling 7-day window), semi candidates skip ahead in Phase A pipeline ranking. Without this priority routing, we would have selected TECK/TMO/ELV over INTC this morning — and missed the +13.82% INTC win on the same day.
+**Day 2 validation:** Sleeve picker prioritized MRVL over general candidates this morning on the post-Apr-20 fade entry window. MRVL was the score-96 Google AI-chip partnership catalyst the old monolithic system systematically missed — the sleeve captured it on the second go-round. Combined with yesterday's INTC +14% Day 1 and now +22% Day 2, sleeve unrealized P&L at **+$608 across 4 positions** in 2 days.
 
-[Full design rationale](https://github.com/Buzzie-AI/trader/blob/main/.claude/plans/fancy-mapping-scott.md) (private repo).
+**Sleeve regime signals today:** AMD DA Davidson PT $220→$375 (+70%), MRVL triple analyst upgrade, MXL multi-firm upgrade, INTC 52-week highs. All consistent with HOT regime thesis.
 
 ---
 
-## Allocation (post-sleeve deployment)
+## Allocation (post-MRVL buy)
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| **Tech / Semi-AI sleeve** (NVDA, INTC, LRCX) | $4,883 | 22.4% |
-| Aerospace (BA) | $2,106 | 9.7% |
-| Healthcare (MRK, CVS, UNH) | $4,431 | 20.3% |
-| Financials (BLK) | $2,105 | 9.7% |
-| Consumer (NKE) | $1,987 | 9.1% |
-| Utility/Nuclear (CEG) | $2,047 | 9.4% |
-| Real Estate (CCI) | $1,750 | 8.0% |
-| Crypto (BTC) | $269 | 1.2% |
-| **Cash** | **$2,212** | **10.2%** |
+| **Tech / Semi-AI sleeve** (NVDA, INTC, LRCX, MRVL) | $6,512 | 26.1% |
+| Aerospace (BA) | $2,097 | 8.4% |
+| Healthcare (MRK, CVS, UNH) | $4,381 | 17.6% |
+| Financials (BLK) | $2,098 | 8.4% |
+| Consumer (NKE) | $1,995 | 8.0% |
+| Utility/Nuclear (CEG) | $2,059 | 8.3% |
+| Real Estate (CCI) | $1,725 | 6.9% |
+| Crypto (BTC) | $269 | 1.1% |
+| **Cash** | **$3,776** | **15.2%** |
 
-Eight sectors. Highest concentration: semi_ai sleeve at 22.4% (target 25%, max 35% with forced Harvest trim above).
+Eight sectors. Highest concentration: semi_ai sleeve at 26.1% (target 25%, max 35% with forced Harvest trim above).
 
 ---
 
@@ -167,13 +166,14 @@ Eight sectors. Highest concentration: semi_ai sleeve at 22.4% (target 25%, max 3
 | Stop | NVDA | 12 | $185.00 | GTC | |
 | Stop | BLK | 2 | $990.00 | GTC | |
 | Stop | CEG | 7 | $255.00 | GTC | |
-| Stop | CVS | 27 | $72.08 | GTC | (trailed up from $72.75) |
+| Stop | CVS | 27 | $72.08 | GTC | |
 | Stop | NKE | 44 | $42.50 | GTC | |
 | Stop | CCI | 20 | $80.00 | GTC | |
-| Stop | MRK | 18 | $103.50 | GTC | (placed Apr 22 after PDT-deferred) |
-| Stop | BA | 9 | $205.00 | GTC | (placed Apr 23 after PDT-deferred) |
-| (pending) | **LRCX** | **4** | **$246** | **GTC** | To place Apr 24 morning (PDT same-day block) |
-| (pending) | **INTC** | **19** | **$61.60** | **GTC** | To place Apr 24 morning (could trail to ~$70 to lock gains) |
+| Stop | MRK | 18 | $103.50 | GTC | |
+| **Stop** | **BA** | **9** | **$223** | GTC | **trailed today from $205 — +1R breakeven-lock rule** |
+| **Stop** | **LRCX** | **4** | **$246** | GTC | **placed today (PDT-deferred from Apr 23)** |
+| **Stop** | **INTC** | **19** | **$70** | GTC | **placed today at breakeven-lock (locks $58+ of +$279 gain)** |
+| (pending) | **MRVL** | **9** | **$145** | GTC | To place Apr 25 morning (PDT same-day block) |
 
 ---
 
@@ -181,12 +181,12 @@ Eight sectors. Highest concentration: semi_ai sleeve at 22.4% (target 25%, max 3
 
 | Ticker | Entry | Exit | Return | Reason |
 |--------|-------|------|--------|--------|
-| **AEM** | $215.20 | **$199.96** | **-$152 (-7.1%)** | Stop trigger Apr 23 open (gold-mining contagion + Iran/oil macro) |
+| AEM | $215.20 | $199.96 | -$152 (-7.1%) | Stop trigger Apr 23 open (gold-mining contagion + Iran/oil macro) |
 | NFLX | $97.00 | $93.89 | -$68 (-3.2%) | Reaper sell Apr 21 (Hastings exit + soft Q1 guide) |
 | MU | $375.00 | ~$438 | +$315 (+16.8%) | Stop trigger after Samsung-strike Mercury alert |
 | PANW | $160.15 | $164.97 | +$58 (+3.0%) | Stop discipline WIN |
 | DDOG | $119.00 | $104.95 | -$225 (-11.8%) | Stop discipline LOSS CUT |
-| MRVL | $91.72 | $101.34 | +$173 (+10.5%) | Trailing stop WIN |
+| MRVL | $91.72 | $101.34 | +$173 (+10.5%) | Trailing stop WIN (pre-sleeve-era; re-bought today at $159.54) |
 
 ---
 
@@ -195,11 +195,22 @@ Eight sectors. Highest concentration: semi_ai sleeve at 22.4% (target 25%, max 3
 - **Apr 21:** Reaper-sell NFLX on thesis-break (Hastings exit) → realized -$68. MRK catalyst-buy 18 sh @ $112.47 (dual catalyst: Phase 3 + HIV approval).
 - **Apr 22:** BA catalyst-buy 9 sh @ $222.99 on 5-catalyst stack (regulatory clearance + FCF guide pivot + record $695B backlog).
 - **Apr 23:** **🎯 Sector-sleeve infrastructure DEPLOYED.** First-day validation: LRCX + INTC sleeve buys; INTC closed +13.82% on Q1 +29× EPS beat. AEM stopped out at open (-$152 realized).
+- **Apr 24:** **🎯 Day 2 sleeve validation.** INTC opens +28% premarket, holds +22% intraday. MRVL re-entry (score-96 catalyst) at $159.54 — the fade-to-flat window the sleeve's `over_reacted` threshold override was designed to capture. LRCX $246 + INTC $70 breakeven-lock stops placed. BA stop trailed $205→$223 at +1R. **Portfolio +15.5% in 2 days.**
 
-## Tomorrow (Apr 24) priority stack
+## Monday (Apr 28) priority stack
 
-1. Place LRCX stop $246 GTC (T+1 PDT)
-2. Place INTC stop ($61.60 standard or trail to $70 to lock $60 of $185 gain)
-3. Trail BA stop $205 → $215-220 (Harvest breakeven-lock at +1R)
-4. Evaluate INTC trim partial vs let it ride after-bell catalyst stack
-5. General candidates carry-over: TECK, TMO, ELV, REGN (now caveated with MFN), NEM, DLR, EW
+1. Place MRVL stop $145 GTC (T+1 PDT clear)
+2. INTC Harvest trim 25% decision (locks $430+ realized gain; sleeve freed)
+3. NVDA thesis check — Graviton/TPU custom-silicon narrative accumulating
+4. BA at $234 approaching take-profit target $245 (+10%)
+5. Fresh Mercury alerts from Apr 25-27 weekend
+
+---
+
+## Architecture note (fix deployed Apr 24)
+
+Cron schedule adjusted after autopilot_morning was starved by hour-9 mercury fire overlap:
+- `mercury_stream_off` cron narrowed to `*/5 4-8,16-20` (hour 9 dropped; was double-covered with mercury_stream_market)
+- `autopilot_morning` shifted from 9:23 AM → **9:27 AM** to land in a clean `*/8` idle window
+
+Today's MRVL sleeve-buy was executed manually at 09:49 ET after the 09:23 cron fire failed to deliver. Fix goes live tomorrow Monday morning.

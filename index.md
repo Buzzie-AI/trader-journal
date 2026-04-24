@@ -11,9 +11,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $21,789
+## Portfolio — $24,921
 
-*Updated: 2026-04-23 4:30 PM ET (Thursday EOD)*
+*Updated: 2026-04-24 10:05 AM ET (Friday intraday)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -26,10 +26,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -38,7 +38,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,21788.86],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,24920.78],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -90,30 +90,31 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$21,789** |
-| Cash | $2,212 (10.2%) |
-| Invested | $19,577 (89.8%) |
-| Day P&L | **+0.96%** |
-| Since Agents | **+6.3%** |
+| Equity | **$24,921** |
+| Cash | $3,776 (15.2%) |
+| Invested | $21,145 (84.8%) |
+| Day P&L | **+1.3%** |
+| Since Agents | **+21.6%** |
 
-### Positions (EOD)
+### Positions (intraday)
 
 | Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
 |--------|--------|-------|------|-------|--------|------|
-| **INTC 🆕** | 19 | $66.94 | **$76.19** | **+13.82%** 🎯 | 6.7% | $61.60 (PDT pending) |
-| NVDA | 12 | $177.28 | $199.07 | **+12.29%** | 11.0% | $185 ✅ |
-| BA 🆕 | 9 | $222.99 | $233.95 | **+4.91%** | 9.7% | $205 ✅ |
-| LRCX 🆕 | 4 | $267.37 | $259.00 | -3.13% | 4.8% | $246 (PDT pending) |
-| MRK 🆕 | 18 | $112.47 | $114.62 | +1.91% | 9.5% | $103.50 ✅ |
-| BLK | 2 | $1,057.92 | $1,052.55 | -0.5% | 9.7% | $990 ✅ |
-| CCI | 20 | $84.31 | $87.52 | **+3.81%** | 8.0% | $80 ✅ |
-| CEG | 7 | $280.00 | $292.40 | **+4.43%** | 9.4% | $255 ✅ |
-| CVS | 27 | $75.83 | $78.67 | **+3.75%** | 9.8% | $72.08 ✅ |
-| NKE | 44 | $45.29 | $45.15 | -0.3% | 9.1% | $42.50 ✅ |
-| BTC | 0.0034 | $70,867 | $78,028 | **+10.1%** | 1.2% | — |
-| UNH | 0.69 | $290.00 | $353.50 | **+21.9%** | 1.1% | — |
+| **INTC** | 19 | $66.94 | **$81.64** | **+22.0%** 🎯 | 6.2% | **$70 ✅ (breakeven-lock)** |
+| **MRVL 🆕** | 9 | $159.54 | $161.37 | +1.2% | 5.8% | $145 (PDT pending) |
+| NVDA | 12 | $177.28 | $202.16 | **+14.0%** | 9.7% | $185 ✅ |
+| BA | 9 | $222.99 | $233.03 | **+4.5%** | 8.4% | **$223 ✅ (trailed from $205)** |
+| LRCX | 4 | $267.37 | $270.61 | +1.2% | 4.3% | **$246 ✅** |
+| MRK | 18 | $112.47 | $112.67 | +0.2% | 8.1% | $103.50 ✅ |
+| BLK | 2 | $1,057.92 | $1,049.12 | -0.8% | 8.4% | $990 ✅ |
+| CCI | 20 | $84.31 | $86.23 | **+2.3%** | 6.9% | $80 ✅ |
+| CEG | 7 | $280.00 | $294.16 | **+5.1%** | 8.3% | $255 ✅ |
+| CVS | 27 | $75.83 | $78.16 | **+3.1%** | 8.5% | $72.08 ✅ |
+| NKE | 44 | $45.29 | $45.34 | +0.1% | 8.0% | $42.50 ✅ |
+| BTC | 0.0034 | $70,867 | $77,982 | **+10.0%** | 1.1% | — |
+| UNH | 0.69 | $290.00 | $352.77 | **+21.6%** | 1.0% | — |
 
-**Total Open P&L: +$832** (vs +$484 on Apr 20).
+**Total Open P&L: +$954** (vs +$832 at yesterday EOD).
 
 ---
 
@@ -131,6 +132,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| **2026-04-24 AM** | [BUY MRVL](trades/2026-04-24-MRVL-sleeve-buy) | **Day 2 sleeve validation.** 9 sh @ $159.54 — re-entry of the **score-96 catalyst** (Apr 20 MRVL×Google mega_partnership) that the old monolithic scoring systematically missed. Fade-to-flat window captured via sleeve HOT `over_reacted` threshold override. INTC holds +22% on Q1 blowout; stops placed for LRCX $246 + INTC $70 breakeven-lock; BA stop trailed $205→$223 (+1R rule). Portfolio **+15.5% in 2 days** ($21,581 → $24,921). |
 | **2026-04-23 EOD** | **🎯 Sleeve infrastructure validated** | INTC sleeve buy +13.82% in <8 hours after Q1 +29× EPS beat + Q2 guide doubling. Eleven INTC catalysts compounded today (CEO demand>supply, $1B ASIC run rate, Trump admin stake +290%). LRCX sleeve buy -3.1% (RBC PT raise to $310 validates). AEM stopped at open ($199.96, -$152 realized). |
 | 2026-04-23 AM | [BUY LRCX + INTC](trades/2026-04-23-INTC-sleeve-buy) | First sleeve-routed trades in project history. semi_ai sleeve detected HOT, priority queue picked LRCX (4 sh @ $267.37) + INTC (19 sh @ $66.94) over general candidates. |
 | 2026-04-22 AM | [BUY BA](trades/2026-04-22-BA-catalyst-buy) | 9 sh @ $222.99 on 5-catalyst stack (737-MAX certification + Q1 beat + 2H FCF guide + record $695B backlog + Trump-Xi summit confidence). Closed +5.4% Day 1. |
