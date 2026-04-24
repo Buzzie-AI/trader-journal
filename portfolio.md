@@ -5,18 +5,19 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-24 10:05 AM ET (Friday intraday)*
+*Last updated: 2026-04-24 4:45 PM ET (Friday EOD)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$24,921** |
-| Cash | $3,776 (15.2%) |
-| Invested | $21,145 (84.8%) |
-| Positions | 13 equity + BTC + UNH fractional |
-| Today's activity | **🎯 Biggest sleeve-validation day yet**: INTC +22% on Q1 beat · MRVL sleeve BUY 9sh @ $159.54 (the score-96 catalyst) · stops placed for LRCX $246 + INTC $70 breakeven-lock · BA stop trailed $205 → $223 (+1R breakeven-lock) |
-| Stop coverage | ✅ All 10 equity positions stopped except MRVL (PDT-deferred to Apr 25) |
+| **Portfolio Value** | **$25,105** |
+| Cash | $4,191 (16.7%) |
+| Invested | $20,914 (83.3%) |
+| Positions | 12 equity + BTC + UNH fractional |
+| Today's activity | **🎯 Day 2 sleeve validation + MRVL re-entry**: MRVL BUY 9sh @ $159.54 (score-96 catalyst) · INTC trim 5sh @ $83 = $401.57 realized · 4 stops trailed (BA $205→$223, INTC $77→$79.50 on CAO red flag, CEG $255→$280, INTC$70→$77 intraday) · LRCX $246 placed |
+| Stop coverage | ✅ All 11 equity positions stopped except MRVL (PDT-deferred to Apr 27) |
+| 🚨 INTC RED FLAG | CAO Scott Gawel resigned at 16:19 ET — same day as +29× EPS beat. Stop tightened to $79.50. Monday Reaper debate to determine full exit vs extend |
 
 ---
 
@@ -45,7 +46,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,24920.78],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25105.20],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
