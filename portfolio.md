@@ -82,6 +82,26 @@ new Chart(ctx, {
             borderColor: '#3b82f6',
             borderWidth: 2,
             borderDash: [4, 4]
+          },
+          depositMarker: {
+            type: 'point',
+            xValue: 'Apr 23',
+            yValue: 24602.55,
+            backgroundColor: '#a855f7',
+            radius: 7,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          depositLabel: {
+            type: 'label',
+            xValue: 'Apr 23',
+            yValue: 24602.55,
+            yAdjust: -20,
+            content: ['+$3K deposit'],
+            color: '#a855f7',
+            font: { size: 11, weight: 'bold' },
+            backgroundColor: 'rgba(255,255,255,0.85)',
+            padding: 3
           }
         }
       }
@@ -96,15 +116,18 @@ new Chart(ctx, {
 });
 </script>
 
-| Period | Start | End | Change |
-|--------|-------|-----|--------|
-| 1 Month | $23,448 | $24,921 | **+6.3%** |
-| Since Agents (Mar 28) | $20,489 | $24,921 | **+21.6%** |
-| Last 2 days | $21,581 (Apr 22) | $24,921 | **+15.5%** |
-| Low | $20,408 (Mar 31) | | |
-| High | $24,921 (Apr 24 intraday) | | |
+| Period | Start | End | Change | Notes |
+|--------|-------|-----|--------|-------|
+| **Since Agents (Mar 28) — agent P&L only** | $20,489 | **~$22,105** | **+$1,616 (+7.9%)** | Excludes $3,000 Apr 23 deposit |
+| 1 Month — agent P&L only | $23,448 | ~$22,105 | -5.7% | Excludes deposit; broader market context |
+| Total equity (incl deposit) | $20,489 | $25,105 | +22.5% | Inflated by $3K Apr 23 deposit |
+| Last 2 days (trading only) | $21,581 (Apr 22) | ~$22,105 | **+$524 (+2.4%)** | Sleeve infrastructure period |
+| Low | $20,408 (Mar 31) | | | |
+| High | $25,105 (Apr 24 close) | | | (incl deposit) |
 
-Orange dashed line = agents took control (Mar 28). Blue dashed line = sector-sleeve infrastructure deployed (Apr 23). Apr 23→24 jump reflects INTC +22% on Q1 blowout + corporate-action realization on 737CVR019.
+**Honest framing:** Agent-driven trading P&L since Mar 28 = **+$1,616 (+7.9% in 28 days)**, annualized ~80%. The total-equity chart includes a $3,000 deposit on Apr 23 — without that deposit, the underlying portfolio would be ~$22,105 today. The Apr 23→24 jump on the equity chart is mostly the deposit (~$3K) plus a smaller trading gain ($524 over 2 days).
+
+Orange dashed line = agents took control (Mar 28). Blue dashed line = sector-sleeve infrastructure deployed (Apr 23). Apr 23 also marks the $3K capital injection.
 
 ---
 

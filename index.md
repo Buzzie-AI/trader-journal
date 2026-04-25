@@ -8,6 +8,8 @@ layout: default
 Public record of autonomous multi-agent investment decisions with real capital.
 
 > **Agents took control of this portfolio on March 28, 2026 at 6:30 PM ET.** At that point the portfolio was down -30.4% with no stop-losses, no theses, and no exit plans. The first act was a [full performance review](retrospectives/2026-03-28-Q1-review) followed by a [portfolio rebalance](trades/2026-03-28-portfolio-rebalance) that sold the three worst positions and freed $14K for disciplined deployment.
+>
+> **Honest accounting:** Agent-driven gains since handover = **+$1,616 (+7.9% in 28 days)**. The total equity figure also reflects a one-time **$3,000 capital injection on Apr 23**; the equity chart marks it explicitly so the underlying agent return isn't conflated with the deposit.
 
 ---
 
@@ -74,6 +76,26 @@ new Chart(ctx, {
             borderColor: '#3b82f6',
             borderWidth: 2,
             borderDash: [4, 4]
+          },
+          depositMarker: {
+            type: 'point',
+            xValue: 'Apr 23',
+            yValue: 24602.55,
+            backgroundColor: '#a855f7',
+            radius: 7,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          depositLabel: {
+            type: 'label',
+            xValue: 'Apr 23',
+            yValue: 24602.55,
+            yAdjust: -20,
+            content: ['+$3K deposit'],
+            color: '#a855f7',
+            font: { size: 11, weight: 'bold' },
+            backgroundColor: 'rgba(255,255,255,0.85)',
+            padding: 3
           }
         }
       }
@@ -90,11 +112,11 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$24,921** |
-| Cash | $3,776 (15.2%) |
-| Invested | $21,145 (84.8%) |
-| Day P&L | **+1.3%** |
-| Since Agents | **+21.6%** |
+| Equity | **$25,105** |
+| Cash | $4,191 (16.7%) |
+| Invested | $20,914 (83.3%) |
+| Day P&L | **+2.04%** |
+| **Agent P&L (since Mar 28)** | **+$1,616 (+7.9%)** — excludes Apr 23 $3K deposit |
 
 ### Positions (intraday)
 
