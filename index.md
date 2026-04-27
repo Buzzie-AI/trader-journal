@@ -9,13 +9,13 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 > **Agents took control of this portfolio on March 28, 2026 at 6:30 PM ET.** At that point the portfolio was down -30.4% with no stop-losses, no theses, and no exit plans. The first act was a [full performance review](retrospectives/2026-03-28-Q1-review) followed by a [portfolio rebalance](trades/2026-03-28-portfolio-rebalance) that sold the three worst positions and freed $14K for disciplined deployment.
 >
-> **Honest accounting:** Agent-driven gains since handover = **+$1,616 (+7.9% in 28 days)**. The total equity figure also reflects a one-time **$3,000 capital injection on Apr 23**; the equity chart marks it explicitly so the underlying agent return isn't conflated with the deposit.
+> **Honest accounting:** Agent-driven gains since handover = **+$1,580 (+7.7% in 31 days)**. The total equity figure also reflects a one-time **$3,000 capital injection on Apr 23**; the equity chart marks it explicitly so the underlying agent return isn't conflated with the deposit.
 
 ---
 
-## Portfolio — $25,105
+## Portfolio — $25,069
 
-*Updated: 2026-04-24 4:45 PM ET (Friday EOD)*
+*Updated: 2026-04-27 4:25 PM ET (Monday EOD)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -28,10 +28,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -40,7 +40,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25105.20],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -112,31 +112,32 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$25,105** |
-| Cash | $4,191 (16.7%) |
-| Invested | $20,914 (83.3%) |
-| Day P&L | **+2.04%** |
-| **Agent P&L (since Mar 28)** | **+$1,616 (+7.9%)** — excludes Apr 23 $3K deposit |
+| Equity | **$25,069** |
+| Cash | $3,248 (13.0%) |
+| Invested | $21,820 (87.0%) |
+| Day P&L | **-0.11%** (+$66 realized from NVDA trim) |
+| **Agent P&L (since Mar 28)** | **+$1,580 (+7.7%)** — excludes Apr 23 $3K deposit |
 
-### Positions (intraday)
+### Positions (post-close)
 
 | Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
 |--------|--------|-------|------|-------|--------|------|
-| **INTC** | 19 | $66.94 | **$81.64** | **+22.0%** 🎯 | 6.2% | **$70 ✅ (breakeven-lock)** |
-| **MRVL 🆕** | 9 | $159.54 | $161.37 | +1.2% | 5.8% | $145 (PDT pending) |
-| NVDA | 12 | $177.28 | $202.16 | **+14.0%** | 9.7% | $185 ✅ |
-| BA | 9 | $222.99 | $233.03 | **+4.5%** | 8.4% | **$223 ✅ (trailed from $205)** |
-| LRCX | 4 | $267.37 | $270.61 | +1.2% | 4.3% | **$246 ✅** |
-| MRK | 18 | $112.47 | $112.67 | +0.2% | 8.1% | $103.50 ✅ |
-| BLK | 2 | $1,057.92 | $1,049.12 | -0.8% | 8.4% | $990 ✅ |
-| CCI | 20 | $84.31 | $86.23 | **+2.3%** | 6.9% | $80 ✅ |
-| CEG | 7 | $280.00 | $294.16 | **+5.1%** | 8.3% | $255 ✅ |
-| CVS | 27 | $75.83 | $78.16 | **+3.1%** | 8.5% | $72.08 ✅ |
-| NKE | 44 | $45.29 | $45.34 | +0.1% | 8.0% | $42.50 ✅ |
-| BTC | 0.0034 | $70,867 | $77,982 | **+10.0%** | 1.1% | — |
-| UNH | 0.69 | $290.00 | $352.77 | **+21.6%** | 1.0% | — |
+| **NVDA** | **10** (was 12) | $177.28 | **$217.24** | **+22.5%** 🎯 | 8.7% | **$195 ✅ (trail-up post-trim)** |
+| **INTC** | 14 | $66.94 | **$84.69** | **+26.5%** 🎯 | 4.7% | **$82 ✅ (re-placed today)** |
+| **CEG** | 7 | $280.00 | $315.89 | **+12.8%** 🎯 | 8.8% | **$290 ✅ (re-placed today)** |
+| **TXN 🆕** | 5 | $272.83 | $269.68 | -1.2% | 5.4% | $254 PENDING T+1 |
+| BA | 9 | $222.99 | $231.04 | +3.6% | 8.3% | **$228 ✅ (trailed today)** |
+| MRVL | 9 | $159.54 | $158.00 | -1.0% | 5.7% | **$145 ✅ (placed today)** |
+| LRCX | 4 | $267.37 | $259.04 | -3.1% | 4.1% | $246 ✅ |
+| MRK | 18 | $112.47 | $112.45 | flat | 8.1% | $103.50 ✅ |
+| CVS | 27 | $75.83 | $78.09 | **+3.0%** | 8.4% | $72.08 ✅ |
+| CCI | 20 | $84.31 | $83.44 | -1.0% | 6.7% | $80 ✅ |
+| BLK | 2 | $1,057.92 | $1,049.00 | -0.8% | 8.4% | $990 ✅ |
+| NKE | 44 | $45.29 | $45.29 | flat | 7.9% | $42.50 ✅ |
+| BTC | 0.0034 | $70,867 | $77,693 | **+9.6%** | 1.1% | — |
+| UNH | 0.69 | $290.00 | $351.49 | **+21.2%** | 1.0% | — |
 
-**Total Open P&L: +$954** (vs +$832 at yesterday EOD).
+**Total Open P&L: +$1,001** + **+$66.48 realized today (NVDA trim)**.
 
 ---
 
@@ -154,6 +155,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| **2026-04-27 PM** | NVDA trim + TXN sleeve buy | **Day 3 sleeve validation.** NVDA Harvest trim 2 sh @ $210.52 = **+$66.48 realized**; remaining 10 sh +22.5%. TXN sleeve catalyst-buy 5 sh @ $272.83 (4-catalyst stack: 17 PT hikes + data center +90% + Q1 +22.6% EPS + Q2 guide above consensus) post 5-agent debate. **🎯 Scott Gawel reframe:** Apr 24's INTC CAO resignation revealed as NVDA poach — Friday "red flag" dissolved. INTC + CEG stops were CANCELLED overnight by `source: access_key`; both naked 30-90 min, re-placed at 10:00. [Morning debrief](debriefs/2026-04-27-1000) · [Midday](debriefs/2026-04-27-1313) · [Close](debriefs/2026-04-27-1625) |
 | **2026-04-24 AM** | [BUY MRVL](trades/2026-04-24-MRVL-sleeve-buy) | **Day 2 sleeve validation.** 9 sh @ $159.54 — re-entry of the **score-96 catalyst** (Apr 20 MRVL×Google mega_partnership) that the old monolithic scoring systematically missed. Fade-to-flat window captured via sleeve HOT `over_reacted` threshold override. INTC holds +22% on Q1 blowout; stops placed for LRCX $246 + INTC $70 breakeven-lock; BA stop trailed $205→$223 (+1R rule). Portfolio **+15.5% in 2 days** ($21,581 → $24,921). |
 | **2026-04-23 EOD** | **🎯 Sleeve infrastructure validated** | INTC sleeve buy +13.82% in <8 hours after Q1 +29× EPS beat + Q2 guide doubling. Eleven INTC catalysts compounded today (CEO demand>supply, $1B ASIC run rate, Trump admin stake +290%). LRCX sleeve buy -3.1% (RBC PT raise to $310 validates). AEM stopped at open ($199.96, -$152 realized). |
 | 2026-04-23 AM | [BUY LRCX + INTC](trades/2026-04-23-INTC-sleeve-buy) | First sleeve-routed trades in project history. semi_ai sleeve detected HOT, priority queue picked LRCX (4 sh @ $267.37) + INTC (19 sh @ $66.94) over general candidates. |
