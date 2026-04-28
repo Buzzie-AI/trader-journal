@@ -5,20 +5,20 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-04-27 4:25 PM ET (Monday EOD)*
+*Last updated: 2026-04-28 4:46 PM ET (Tuesday EOD)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$25,068.70** |
-| Cash | $3,248 (13.0%) |
-| Invested | $21,820 (87.0%) |
-| Positions | 12 equity + BTC + UNH fractional |
-| Today's activity | **NVDA Harvest trim 2 sh @ $210.52 = +$66.48 realized** · **TXN sleeve buy 5 sh @ $272.83** · 4 stop modifications (NVDA $185→$195, BA $223→$228, MRVL $145 placed, INTC $82 + CEG $290 re-placed after overnight cancellation) |
-| Stop coverage | ✅ All 11 equity positions stopped (TXN $254 PENDING T+1 Tuesday) |
-| 🚨 Anomaly | INTC + CEG stops were CANCELLED overnight by `source: access_key` (08:50/09:16 ET); both naked 30-90 min; re-placed at 10:00 |
-| 🎯 EOD bull reframe | Scott Gawel (INTC CAO who resigned Apr 24) appointed NVDA CAO — Friday's "red flag" was a poach, not accounting concern |
+| **Portfolio Value** | **$24,909.59** |
+| Cash | $7,424 (29.8%) |
+| Invested | $17,486 (70.2%) |
+| Positions | 10 equity + BTC + UNH fractional |
+| Today's activity | **🚨 3 STOPS TRIGGERED** — INTC $82→$81.50 (+$204) · LRCX $246→$245.94 (-$86) · BA $228→$227.87 (+$44) = **+$162.04 net realized**. TXN $254 stop placed AM (T+1 PDT clear). 0 discretionary trades. |
+| Stop coverage | ✅ All 9 active equity positions stopped |
+| 🎯 Best held | CVS +3.3% to $80.98 (CNC peer-cohort bull working) · CCI +3.7% to $86.50 (AMT+WELL REIT cohort bull) |
+| 🎯 Sleeve compression | After INTC + LRCX stops: sleeve 78% of target ($4,857/$6,230); ~$1,373 dry powder for post-Fed Wed redeploy |
 
 ---
 
@@ -35,10 +35,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -47,7 +47,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
