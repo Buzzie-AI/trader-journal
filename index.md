@@ -13,9 +13,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $24,910
+## Portfolio — $25,124
 
-*Updated: 2026-04-28 4:46 PM ET (Tuesday EOD)*
+*Updated: 2026-04-30 4:30 PM ET (Thursday EOD)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -28,10 +28,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -40,7 +40,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25124.38],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -112,32 +112,31 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$24,910** |
-| Cash | $7,424 (29.8%) |
-| Invested | $17,486 (70.2%) |
-| Day P&L | **-0.68%** (+$162 realized from 3 stop hits) |
-| **Agent P&L (since Mar 28)** | **+$1,420 (+6.9%)** — excludes Apr 23 $3K deposit |
+| Equity | **$25,124** |
+| Cash | $3,497 (13.9%) |
+| Invested | $21,627 (86.1%) |
+| Day P&L | **+0.98% (+$244)** — 2 BUYs (CVX + NUE catalyst), 1 stop-modify (CVS Harvest breakeven-lock) |
+| **Agent P&L (since Mar 28)** | **+$1,635 (+8.0%)** — excludes Apr 23 $3K deposit |
 
 ### Positions (post-close)
 
 | Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
 |--------|--------|-------|------|-------|--------|------|
-| **NVDA** | **10** (was 12) | $177.28 | **$217.24** | **+22.5%** 🎯 | 8.7% | **$195 ✅ (trail-up post-trim)** |
-| **INTC** | 14 | $66.94 | **$84.69** | **+26.5%** 🎯 | 4.7% | **$82 ✅ (re-placed today)** |
-| **CEG** | 7 | $280.00 | $315.89 | **+12.8%** 🎯 | 8.8% | **$290 ✅ (re-placed today)** |
-| **TXN 🆕** | 5 | $272.83 | $269.68 | -1.2% | 5.4% | $254 PENDING T+1 |
-| BA | 9 | $222.99 | $231.04 | +3.6% | 8.3% | **$228 ✅ (trailed today)** |
-| MRVL | 9 | $159.54 | $158.00 | -1.0% | 5.7% | **$145 ✅ (placed today)** |
-| LRCX | 4 | $267.37 | $259.04 | -3.1% | 4.1% | $246 ✅ |
-| MRK | 18 | $112.47 | $112.45 | flat | 8.1% | $103.50 ✅ |
-| CVS | 27 | $75.83 | $78.09 | **+3.0%** | 8.4% | $72.08 ✅ |
-| CCI | 20 | $84.31 | $83.44 | -1.0% | 6.7% | $80 ✅ |
-| BLK | 2 | $1,057.92 | $1,049.00 | -0.8% | 8.4% | $990 ✅ |
-| NKE | 44 | $45.29 | $45.29 | flat | 7.9% | $42.50 ✅ |
-| BTC | 0.0034 | $70,867 | $77,693 | **+9.6%** | 1.1% | — |
-| UNH | 0.69 | $290.00 | $351.49 | **+21.2%** | 1.0% | — |
+| **NVDA** | 10 | $176.93 | $200.25 | **+13.2%** 🎯 | 8.0% | $195 ✅ |
+| **CEG** | 7 | $280.00 | $313.00 | **+11.8%** 🎯 | 8.7% | $290 ✅ |
+| **CVS** 🎯 | 27 | $75.83 | $83.29 | **+9.8%** 🎯 | 9.0% | **$75.83 ✅ (BREAKEVEN-LOCK Apr 30)** |
+| **CCI** | 20 | $84.31 | $88.78 | +5.3% | 7.1% | $80 ✅ |
+| **TXN** | 5 | $272.83 | $280.71 | +2.9% | 5.6% | $254 ✅ |
+| **MRVL** | 9 | $159.54 | $163.30 | +2.4% | 5.9% | $145 ✅ |
+| **CVX 🆕** | 10 | $191.92 | $194.20 | +1.2% | 7.7% | $182 PENDING T+1 (PDT) |
+| **NUE 🆕** | 9 | $223.00 | $225.29 | +1.0% | 8.1% | $210 PENDING T+1 (PDT) |
+| BLK | 2 | $1,057.92 | $1,065.60 | +0.7% | 8.5% | $990 ✅ |
+| MRK | 18 | $112.47 | $109.18 | -2.9% | 7.8% | $103.50 ✅ ⚠️ Q1 LOSS Cidara qualifier |
+| NKE | 44 | $45.29 | $44.36 | -2.0% | 7.8% | $42.50 ✅ (TIGHT $1.86 buffer) |
+| BTC | 0.0034 | $70,867 | $76,309 | **+7.7%** | 1.0% | — |
+| UNH | 0.69 | $290.00 | $369.30 | **+27.3%** | 1.0% | — |
 
-**Total Open P&L: +$1,001** + **+$66.48 realized today (NVDA trim)**.
+**Total Open P&L: +$867 unrealized.** Today: 2 BUYs filled (CVX 10sh @ $191.92, NUE 9sh @ $223), 1 Harvest stop-modify (CVS $72.08 → $75.83 breakeven-lock).
 
 ---
 
@@ -155,6 +154,8 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| **2026-04-30 ALL DAY** | 🚨 Big Tech earnings actualized — execution day | **2 BUYs**: [CVX](trades/2026-04-30-CVX-catalyst-buy) 10sh @ $191.92 (9-cat geopolitical + Hess close $53B) · [NUE](trades/2026-04-30-NUE-catalyst-buy) 9sh @ $223 (dual analyst PT cluster $244+$260). **1 Harvest**: [CVS](trades/2026-04-30-CVS-harvest) stop $72.08 → $75.83 breakeven-lock. Day **+$244 / +0.98%**. Cohort themes: AI-substrate squeeze (TSM/MU/AVGO/INTC bull), AI-power utility (CEG +5.5%, XEL/SO Q1 beats), GOOGL biggest breakout since 2004 vs META/MSFT/AMZN sold-the-news, AAPL post-close $100B buyback, RIVN VW $1B equity, TWLO Q2 EPS guide ~95% above consensus, US RAILS $85B mega-merger, Q1 GDP miss + PCE 3.5% + jobless claims 1969-low = stagflation-with-tight-labor. Friday queue: MU/GOOGL/TWLO + CVX+NUE T+1 stops. [Morning](debriefs/2026-04-30-0950) · [Midday](debriefs/2026-04-30-1317) · [Close](debriefs/2026-04-30-1623) |
+| **2026-04-29 FED DAY** | 0 trades (cron-miss + pre-FED discipline) | All 3 autopilot fires either missed or fired post-relevant-window. FED day no-rate-cut. Big Tech post-close earnings tsunami (META/MSFT/AMZN/GOOGL all beat; meta sold-the-news pattern starts). Day **-$8 (-0.03%)**. [Morning manual](debriefs/2026-04-29-0947) · [Midday](debriefs/2026-04-29-1313) · [Close](debriefs/2026-04-29-1622) |
 | **2026-04-28 ALL DAY** | 🚨 3 stops triggered (stop discipline day) | **INTC stop $82→$81.50 = +$204 realized (gap-down at open)** · **LRCX stop $246→$245.94 = -$86** (US Commerce Hua Hong tool-ban + cohort selloff) · **BA stop $228→$227.87 = +$44** (Airbus Q1 mixed peer-cohort overwhelmed Copa 60-jet bull). **Net realized +$162** · 0 discretionary trades · TXN $254 stop placed AM. CVS +3.3% best held (CNC peer-cohort bull). CCI +3.7% (AMT/WELL REIT cohort bull). Sleeve compressed to 78% target. Wednesday FED DAY positioning conservative. [Morning](debriefs/2026-04-28-0957) · [Midday](debriefs/2026-04-28-1317) · [Close](debriefs/2026-04-28-1623) |
 | **2026-04-27 PM** | NVDA trim + TXN sleeve buy | **Day 3 sleeve validation.** NVDA Harvest trim 2 sh @ $210.52 = **+$66.48 realized**; remaining 10 sh +22.5%. TXN sleeve catalyst-buy 5 sh @ $272.83 (4-catalyst stack: 17 PT hikes + data center +90% + Q1 +22.6% EPS + Q2 guide above consensus) post 5-agent debate. **🎯 Scott Gawel reframe:** Apr 24's INTC CAO resignation revealed as NVDA poach — Friday "red flag" dissolved. INTC + CEG stops were CANCELLED overnight by `source: access_key`; both naked 30-90 min, re-placed at 10:00. [Morning debrief](debriefs/2026-04-27-1000) · [Midday](debriefs/2026-04-27-1313) · [Close](debriefs/2026-04-27-1625) |
 | **2026-04-24 AM** | [BUY MRVL](trades/2026-04-24-MRVL-sleeve-buy) | **Day 2 sleeve validation.** 9 sh @ $159.54 — re-entry of the **score-96 catalyst** (Apr 20 MRVL×Google mega_partnership) that the old monolithic scoring systematically missed. Fade-to-flat window captured via sleeve HOT `over_reacted` threshold override. INTC holds +22% on Q1 blowout; stops placed for LRCX $246 + INTC $70 breakeven-lock; BA stop trailed $205→$223 (+1R rule). Portfolio **+15.5% in 2 days** ($21,581 → $24,921). |
