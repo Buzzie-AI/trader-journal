@@ -13,9 +13,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $25,379
+## Portfolio — $25,279
 
-*Updated: 2026-05-04 11:01 AM ET (Monday intraday)*
+*Updated: 2026-05-04 11:30 AM ET (Monday intraday — post-NVDA stopout)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -40,7 +40,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25378.57],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25279.01],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -112,32 +112,31 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$25,086** |
-| Cash | $1,333 (5.3%) |
-| Invested | $23,753 (94.7%) |
-| Day P&L | **-0.17% (-$43)** — 1 BUY (MU sleeve), 3 stop placements (CVX + NUE T+1, CCI breakeven-lock) |
-| **Agent P&L (since Mar 28)** | **+$1,597 (+7.8%)** — excludes Apr 23 $3K deposit |
+| Equity | **$25,279** |
+| Cash | $3,282 (13.0%) ✅ above $2K reserve |
+| Invested | $21,997 (87.0%) |
+| Day P&L | **+0.74% (+$186)** — NVDA stop fired (+$180 realized), MU stop $510 placed AM, 0 BUYs (pipeline discipline) |
+| **Agent P&L (since Mar 28)** | **+$1,790 (+8.7%)** — excludes Apr 23 $3K deposit |
 
-### Positions (post-close)
+### Positions (intraday, post-NVDA stopout)
 
 | Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
 |--------|--------|-------|------|-------|--------|------|
-| **NVDA** | 10 | $176.93 | $198.55 | **+12.2%** 🎯 | 7.9% | $195 ✅ |
-| **CEG** | 7 | $280.00 | $308.01 | **+10.0%** 🎯 | 8.6% | $290 ✅ |
-| **CVS** 🎯 | 27 | $75.83 | $82.09 | **+8.3%** 🎯 | 8.8% | $75.83 ✅ |
-| **CCI** 🎯 | 20 | $84.31 | $89.26 | **+5.9%** | 7.1% | **$84.31 ✅ (BREAKEVEN-LOCK May 1)** |
-| **MRVL** | 9 | $159.54 | $164.57 | +3.2% | 5.9% | $145 ✅ |
-| **TXN** | 5 | $272.83 | $280.74 | +2.9% | 5.6% | $254 ✅ |
-| **NUE 🆕** | 9 | $223.00 | $226.04 | +1.4% | 8.1% | **$210 ✅ (T+1 PLACED)** |
-| BLK | 2 | $1,057.92 | $1,061.68 | +0.4% | 8.5% | $990 ✅ |
-| **MU 🆕🆕** | 4 | $541.11 | $541.01 | flat | 8.6% | **$510 PENDING Monday T+1** |
-| **CVX 🆕** | 10 | $191.92 | $190.48 | -0.7% | 7.6% | **$182 ✅ (T+1 PLACED)** ⚠️ 5-bear-stack today |
-| **MRK** | 18 | $112.47 | $112.16 | -0.3% | 8.0% | $103.50 ✅ |
-| **NKE** | 44 | $45.29 | $44.45 | -1.9% | 7.8% | $42.50 ✅ (TIGHT $1.95 buffer) |
-| **BTC** | 0.0034 | $70,867 | $78,142 | **+10.3%** | 1.1% | — |
-| **UNH** | 0.69 | $290.00 | $368.50 | **+27.1%** | 1.0% | — |
+| **CEG** | 7 | $280.00 | $320.75 | **+14.6%** 🎯 | 8.9% | $290 ✅ |
+| **CVS** 🎯 | 27 | $75.83 | $82.53 | **+8.8%** 🎯 | 8.8% | $75.83 ✅ |
+| **CCI** | 20 | $84.31 | $90.49 | **+7.3%** | 7.2% | $84.31 ✅ (BREAKEVEN-LOCK May 1) |
+| **MU 🆕** | 4 | $541.11 | $578.36 | **+6.9%** | 9.2% | **$510 ✅ (placed today T+3)** |
+| **TXN** | 5 | $272.83 | $280.00 | +2.6% | 5.5% | $254 ✅ |
+| **MRVL** | 9 | $159.54 | $162.71 | +2.0% | 5.8% | $145 ✅ |
+| **MRK** | 18 | $112.47 | $113.82 | +1.2% | 8.1% | $103.50 ✅ |
+| **NUE** | 9 | $223.00 | $223.86 | +0.4% | 8.0% | $210 ✅ (T+1 PLACED 5/1) |
+| **CVX** | 10 | $191.92 | $192.57 | +0.3% | 7.6% | $182 ✅ (T+1 PLACED 5/1) |
+| BLK | 2 | $1,057.92 | $1,053.34 | -0.4% | 8.3% | $990 ✅ |
+| **NKE** | 44 | $45.29 | $43.44 | -4.1% | 7.6% | $42.50 ✅ TIGHT |
+| **BTC** | 0.0034 | $70,867 | $79,708 | **+12.5%** | 1.1% | — |
+| **UNH** | 0.69 | $290.00 | $368.60 | **+27.1%** | 1.0% | — |
 
-**Total Open P&L: +$823 unrealized.** Today: 1 BUY filled (MU 4sh @ $541.11), 3 stop placements (CVX $182 + NUE $210 T+1 PLACED, CCI $80→$84.31 Harvest breakeven-lock).
+**Total Open P&L: +$836 unrealized.** **Realized today: +$179.55 from NVDA stop** (10 sh @ $194.885 fired 11:21 ET; entry 3/9 @ $176.93, +10.1% / ~57d hold).
 
 ---
 
@@ -155,6 +154,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| **2026-05-04 INTRADAY** | NVDA stop fired + cash binding cleared | **NVDA stop trigger 11:21 ET**: 10 sh @ $194.885 = **+$179.55 realized / +10.1%** (entry 3/9 @ $176.93, ~57d hold). [Trade journal](trades/2026-05-04-NVDA-stop-trigger). Stop placed 4/27 post-harvest-trim (breakeven-lock above entry). MU stop $510 GTC placed AM (T+3 catch-up). 0 BUYs (pipeline discipline; cash freed = $1,949 → high-conviction adds QCOM/INTC/LMT now executable next autopilot). Day **+$186 / +0.74%**. Semi sleeve drops 113% → 82% (UNDER target, priority queue ON). 22+ Mercury alerts scored across 06:00 + 09:18 ET autopilot fires. [Morning](debriefs/2026-05-04-0558) · [Midday](debriefs/2026-05-04-0918) |
 | **2026-05-01 ALL DAY** | MU sleeve add + CVX bear-stack day | **1 BUY**: [MU](trades/2026-05-01-MU-sleeve-buy) 4sh @ $541.11 (semi sleeve HOT regime, AI memory crunch direct beneficiary, sleeve cash-flex activated). **3 stops**: CVX $182 + NUE $210 T+1 PLACED (PDT cleared) · CCI $80 → $84.31 breakeven-lock (multi-axis catalyst: $8.5B divestiture + $1B buyback + FY26 FFO raise). Day **-$43 / -0.17%** flat. **CVX 5-deep bear-stack today**: Q1 sales miss + Hormuz reopens + leverage worsens + Iran-Pakistan response + crude oil -3% — 9-cat geopolitical bull thesis fully unwound. Healthcare FDA approvals: PFE/ARVN VEPPANU breast cancer + JNJ STELARA Crohn's. AAPL Q2 + $100B buyback + Q3 14% guide; META robotics-AI humanoid acq; NBIS +11% Eigen acq; QXO $17B TopBuild M&A; OXY CEO transition. Pentagon Anthropic Claude ban (NVDA structural moat). MU stop $510 pending Monday T+1. [Morning](debriefs/2026-05-01-0950) · [Midday](debriefs/2026-05-01-1317) · [Close](debriefs/2026-05-01-1623) |
 | **2026-04-30 ALL DAY** | 🚨 Big Tech earnings actualized — execution day | **2 BUYs**: [CVX](trades/2026-04-30-CVX-catalyst-buy) 10sh @ $191.92 (9-cat geopolitical + Hess close $53B) · [NUE](trades/2026-04-30-NUE-catalyst-buy) 9sh @ $223 (dual analyst PT cluster $244+$260). **1 Harvest**: [CVS](trades/2026-04-30-CVS-harvest) stop $72.08 → $75.83 breakeven-lock. Day **+$244 / +0.98%**. Cohort themes: AI-substrate squeeze (TSM/MU/AVGO/INTC bull), AI-power utility (CEG +5.5%, XEL/SO Q1 beats), GOOGL biggest breakout since 2004 vs META/MSFT/AMZN sold-the-news, AAPL post-close $100B buyback, RIVN VW $1B equity, TWLO Q2 EPS guide ~95% above consensus, US RAILS $85B mega-merger, Q1 GDP miss + PCE 3.5% + jobless claims 1969-low = stagflation-with-tight-labor. Friday queue: MU/GOOGL/TWLO + CVX+NUE T+1 stops. [Morning](debriefs/2026-04-30-0950) · [Midday](debriefs/2026-04-30-1317) · [Close](debriefs/2026-04-30-1623) |
 | **2026-04-29 FED DAY** | 0 trades (cron-miss + pre-FED discipline) | All 3 autopilot fires either missed or fired post-relevant-window. FED day no-rate-cut. Big Tech post-close earnings tsunami (META/MSFT/AMZN/GOOGL all beat; meta sold-the-news pattern starts). Day **-$8 (-0.03%)**. [Morning manual](debriefs/2026-04-29-0947) · [Midday](debriefs/2026-04-29-1313) · [Close](debriefs/2026-04-29-1622) |
