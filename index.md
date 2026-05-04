@@ -13,9 +13,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $25,279
+## Portfolio — $25,251
 
-*Updated: 2026-05-04 11:30 AM ET (Monday intraday — post-NVDA stopout)*
+*Updated: 2026-05-04 12:30 PM ET (Monday intraday — post-INTC sleeve catalyst-buy)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -40,7 +40,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25279.01],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -112,31 +112,32 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$25,279** |
-| Cash | $3,282 (13.0%) ✅ above $2K reserve |
-| Invested | $21,997 (87.0%) |
-| Day P&L | **+0.74% (+$186)** — NVDA stop fired (+$180 realized), MU stop $510 placed AM, 0 BUYs (pipeline discipline) |
-| **Agent P&L (since Mar 28)** | **+$1,790 (+8.7%)** — excludes Apr 23 $3K deposit |
+| Equity | **$25,251** |
+| Cash | $2,120 (8.4%) ✅ above $2K reserve |
+| Invested | $23,132 (91.6%) |
+| Day P&L | **+0.63% (+$158)** — NVDA stop fired (+$180 realized), INTC sleeve catalyst-buy filled, MU stop $510 placed AM |
+| **Agent P&L (since Mar 28)** | **+$1,762 (+8.6%)** — excludes Apr 23 $3K deposit |
 
-### Positions (intraday, post-NVDA stopout)
+### Positions (intraday, post-INTC sleeve buy — 13 equity)
 
 | Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
 |--------|--------|-------|------|-------|--------|------|
-| **CEG** | 7 | $280.00 | $320.75 | **+14.6%** 🎯 | 8.9% | $290 ✅ |
-| **CVS** 🎯 | 27 | $75.83 | $82.53 | **+8.8%** 🎯 | 8.8% | $75.83 ✅ |
-| **CCI** | 20 | $84.31 | $90.49 | **+7.3%** | 7.2% | $84.31 ✅ (BREAKEVEN-LOCK May 1) |
-| **MU 🆕** | 4 | $541.11 | $578.36 | **+6.9%** | 9.2% | **$510 ✅ (placed today T+3)** |
-| **TXN** | 5 | $272.83 | $280.00 | +2.6% | 5.5% | $254 ✅ |
-| **MRVL** | 9 | $159.54 | $162.71 | +2.0% | 5.8% | $145 ✅ |
-| **MRK** | 18 | $112.47 | $113.82 | +1.2% | 8.1% | $103.50 ✅ |
-| **NUE** | 9 | $223.00 | $223.86 | +0.4% | 8.0% | $210 ✅ (T+1 PLACED 5/1) |
-| **CVX** | 10 | $191.92 | $192.57 | +0.3% | 7.6% | $182 ✅ (T+1 PLACED 5/1) |
-| BLK | 2 | $1,057.92 | $1,053.34 | -0.4% | 8.3% | $990 ✅ |
-| **NKE** | 44 | $45.29 | $43.44 | -4.1% | 7.6% | $42.50 ✅ TIGHT |
-| **BTC** | 0.0034 | $70,867 | $79,708 | **+12.5%** | 1.1% | — |
-| **UNH** | 0.69 | $290.00 | $368.60 | **+27.1%** | 1.0% | — |
+| **CEG** | 7 | $280.00 | $319.32 | **+14.0%** 🎯 | 8.9% | $290 ✅ |
+| **CVS** 🎯 | 27 | $75.83 | $82.51 | **+8.8%** 🎯 | 8.8% | $75.83 ✅ |
+| **MU 🆕** | 4 | $541.11 | $579.00 | **+7.0%** | 9.2% | $510 ✅ (placed today T+3) |
+| **CCI** | 20 | $84.31 | $89.72 | **+6.4%** | 7.1% | $84.31 ✅ (BREAKEVEN-LOCK May 1) |
+| **TXN** | 5 | $272.83 | $280.79 | +2.9% | 5.6% | $254 ✅ |
+| **MRVL** | 9 | $159.54 | $163.50 | +2.5% | 5.8% | $145 ✅ |
+| **MRK** | 18 | $112.47 | $113.41 | +0.8% | 8.1% | $103.50 ✅ |
+| **NUE** | 9 | $223.00 | $224.23 | +0.6% | 8.0% | $210 ✅ |
+| **INTC 🆕🆕** | 12 | $96.85 | $96.89 | flat | 4.6% | **$89.50 PLANNED T+1 5/5** |
+| **CVX** | 10 | $191.92 | $191.88 | flat | 7.6% | $182 ✅ |
+| BLK | 2 | $1,057.92 | $1,052.48 | -0.5% | 8.3% | $990 ✅ |
+| **NKE** | 44 | $45.29 | $43.32 | -4.3% | 7.5% | $42.50 ✅ TIGHT |
+| **BTC** | 0.0034 | $70,867 | $80,237 | **+13.2%** | 1.1% | — |
+| **UNH** | 0.69 | $290.00 | $368.75 | **+27.2%** | 1.0% | — |
 
-**Total Open P&L: +$836 unrealized.** **Realized today: +$179.55 from NVDA stop** (10 sh @ $194.885 fired 11:21 ET; entry 3/9 @ $176.93, +10.1% / ~57d hold).
+**Total Open P&L: +$806 unrealized.** **Realized today: +$179.55 from NVDA stop** (10 sh @ $194.885 fired 11:21 ET; entry 3/9 @ $176.93, +10.1% / ~57d hold).
 
 ---
 
@@ -154,7 +155,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
-| **2026-05-04 INTRADAY** | NVDA stop fired + cash binding cleared | **NVDA stop trigger 11:21 ET**: 10 sh @ $194.885 = **+$179.55 realized / +10.1%** (entry 3/9 @ $176.93, ~57d hold). [Trade journal](trades/2026-05-04-NVDA-stop-trigger). Stop placed 4/27 post-harvest-trim (breakeven-lock above entry). MU stop $510 GTC placed AM (T+3 catch-up). 0 BUYs (pipeline discipline; cash freed = $1,949 → high-conviction adds QCOM/INTC/LMT now executable next autopilot). Day **+$186 / +0.74%**. Semi sleeve drops 113% → 82% (UNDER target, priority queue ON). 22+ Mercury alerts scored across 06:00 + 09:18 ET autopilot fires. [Morning](debriefs/2026-05-04-0558) · [Midday](debriefs/2026-05-04-0918) |
+| **2026-05-04 ALL DAY** | NVDA stop + INTC sleeve catalyst-buy | **NVDA stop trigger 11:21 ET**: 10 sh @ $194.885 = **+$179.55 realized / +10.1%** (entry 3/9 @ $176.93). [Trade journal](trades/2026-05-04-NVDA-stop-trigger). Cash freed $1,949 → binding cleared. **INTC sleeve catalyst-buy 12:27 ET**: 12 sh @ $96.8499 = $1,162 ([trade](trades/2026-05-04-INTC-sleeve-catalyst-buy) · [thesis](theses/2026-05-04-INTC-sleeve-catalyst-buy)). Multi-axis bull (SambaNova antitrust + perm CTO + Physical AI Group + Sat dual-upgrades); under-reacted -2.85%; full 5-agent pipeline pass; sleeve specialty priority. **QCOM rejected** — premarket +20% reversed to -5.13% (over-reacted/round-trip). MU stop $510 placed AM (T+3 catch-up). Day **+$158 / +0.63%**. Semi sleeve 82% → **101% at target**. INTC stop $89.50 deferred T+1. [Morning](debriefs/2026-05-04-0558) · [Midday](debriefs/2026-05-04-0918) · [Close](debriefs/2026-05-04-1227) |
 | **2026-05-01 ALL DAY** | MU sleeve add + CVX bear-stack day | **1 BUY**: [MU](trades/2026-05-01-MU-sleeve-buy) 4sh @ $541.11 (semi sleeve HOT regime, AI memory crunch direct beneficiary, sleeve cash-flex activated). **3 stops**: CVX $182 + NUE $210 T+1 PLACED (PDT cleared) · CCI $80 → $84.31 breakeven-lock (multi-axis catalyst: $8.5B divestiture + $1B buyback + FY26 FFO raise). Day **-$43 / -0.17%** flat. **CVX 5-deep bear-stack today**: Q1 sales miss + Hormuz reopens + leverage worsens + Iran-Pakistan response + crude oil -3% — 9-cat geopolitical bull thesis fully unwound. Healthcare FDA approvals: PFE/ARVN VEPPANU breast cancer + JNJ STELARA Crohn's. AAPL Q2 + $100B buyback + Q3 14% guide; META robotics-AI humanoid acq; NBIS +11% Eigen acq; QXO $17B TopBuild M&A; OXY CEO transition. Pentagon Anthropic Claude ban (NVDA structural moat). MU stop $510 pending Monday T+1. [Morning](debriefs/2026-05-01-0950) · [Midday](debriefs/2026-05-01-1317) · [Close](debriefs/2026-05-01-1623) |
 | **2026-04-30 ALL DAY** | 🚨 Big Tech earnings actualized — execution day | **2 BUYs**: [CVX](trades/2026-04-30-CVX-catalyst-buy) 10sh @ $191.92 (9-cat geopolitical + Hess close $53B) · [NUE](trades/2026-04-30-NUE-catalyst-buy) 9sh @ $223 (dual analyst PT cluster $244+$260). **1 Harvest**: [CVS](trades/2026-04-30-CVS-harvest) stop $72.08 → $75.83 breakeven-lock. Day **+$244 / +0.98%**. Cohort themes: AI-substrate squeeze (TSM/MU/AVGO/INTC bull), AI-power utility (CEG +5.5%, XEL/SO Q1 beats), GOOGL biggest breakout since 2004 vs META/MSFT/AMZN sold-the-news, AAPL post-close $100B buyback, RIVN VW $1B equity, TWLO Q2 EPS guide ~95% above consensus, US RAILS $85B mega-merger, Q1 GDP miss + PCE 3.5% + jobless claims 1969-low = stagflation-with-tight-labor. Friday queue: MU/GOOGL/TWLO + CVX+NUE T+1 stops. [Morning](debriefs/2026-04-30-0950) · [Midday](debriefs/2026-04-30-1317) · [Close](debriefs/2026-04-30-1623) |
 | **2026-04-29 FED DAY** | 0 trades (cron-miss + pre-FED discipline) | All 3 autopilot fires either missed or fired post-relevant-window. FED day no-rate-cut. Big Tech post-close earnings tsunami (META/MSFT/AMZN/GOOGL all beat; meta sold-the-news pattern starts). Day **-$8 (-0.03%)**. [Morning manual](debriefs/2026-04-29-0947) · [Midday](debriefs/2026-04-29-1313) · [Close](debriefs/2026-04-29-1622) |
