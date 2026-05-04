@@ -5,7 +5,7 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-04 12:30 PM ET (Monday intraday — post-INTC sleeve catalyst-buy)*
+*Last updated: 2026-05-04 12:47 PM ET (Monday mid-session — eod_summary refresh, market still open 3h13m)*
 
 ## Account Summary
 

@@ -1,164 +1,86 @@
-# Watchlist — End of Day 2026-05-01 (Friday — MU sleeve add + CVX bear-stack day)
+# Watchlist — Mid-day 2026-05-04 (Monday — NVDA stopout + INTC sleeve catalyst-buy)
 
-Updated by eod_summary 16:50 ET. **Day -$43 / -0.17% net** (flat day after morning gain). 1 BUY MU + 3 stop placements (CVX/NUE T+1 + CCI breakeven-lock).
+Updated by eod_summary 12:47 ET (cron-bug: configured 16:17 ET firing at UTC=12:17 ET, mid-session not EOD; market still open 3h13m).
 
-## Current positions (post-close, 12 entries + tracker + crypto)
+**Day +$146 / +0.58% intraday | Realized today +$179.55 (NVDA stop) | 1 BUY (INTC sleeve) | 1 stop placement (MU T+3)**
 
-| Ticker | Qty | Avg Entry | Close | P&L $ | P&L % | Stop | Buffer | Notes |
+## Current positions (intraday — 13 equity + BTC + UNH frac + 737CVR019)
+
+| Ticker | Qty | Avg Entry | Last | P&L $ | P&L % | Stop | Buffer | Notes |
 |--------|----:|----------:|------:|------:|------:|-----:|-------:|-------|
-| **NVDA** | 10 | $176.93 | $198.55 | +$216 | **+12.22%** | $195 | $3.55 | Pentagon classified-AI moat (07:21+09:10) + Anthropic-ban competitive moat |
-| **CEG** | 7 | $280 | $308.01 | +$196 | **+10.00%** | $290 | $18.01 | AI-power utility thesis intact; consolidation -1.6% intraday |
-| **CCI** 🎯 | 20 | $84.31 | $89.26 | +$99 | **+5.87%** | **$84.31 ✅ BREAKEVEN** | $4.95 | **Multi-axis bull TODAY**: $8.5B divestiture + $1B buyback + FY26 FFO raise to $4.53-4.65 |
-| **CVS** 🎯 | 27 | $75.83 | $82.09 | +$169 | **+8.26%** | $75.83 | $6.26 | Breakeven-lock from 04-30; managed-care cohort holding |
-| **MRVL** | 9 | $159.54 | $164.57 | +$45 | +3.16% | $145 | $19.57 | Semi cohort stable; Pentagon+Anthropic moat read-through |
-| **TXN** | 5 | $272.83 | $280.74 | +$40 | +2.90% | $254 | $26.74 | Semi cohort stable |
-| **NUE (NEW)** | 9 | $223 | $226.04 | +$27 | +1.36% | **$210 ✅ T+1 PLACED** | $16.04 | Materials cohort firmly bull |
-| **BLK** | 2 | $1,058 | $1,061.68 | +$8 | +0.36% | $990 | $71.68 | Financials mixed |
-| **MU 🆕** | 4 | $541.11 | $541.01 | -$0.40 | -0.02% | **$510 PENDING Monday** | — | ⚠️ MU sleeve-buy filled today; T+1 stop Monday AM |
-| **CVX (NEW)** | 10 | $191.92 | $190.48 | -$14 | -0.75% | **$182 ✅ T+1 PLACED** | $8.48 | ⚠️ **5-DEEP BEAR-STACK TODAY** |
-| **MRK** | 18 | $112.47 | $112.16 | -$6 | -0.27% | $103.50 | $8.66 | Recovered +2.73% intraday from Q1 LOSS volatility |
-| **NKE** | 44 | $45.29 | $44.45 | -$37 | -1.85% | $42.50 | $1.95 | TIGHT BUFFER — consumer cohort weak |
-| **UNH** (tracker) | 0.69 | $290 | $368.50 | +$54 | **+27.07%** | — | — | Tracker; managed-care confirmed |
-| **BTC** (tracker) | 0.0034 | $70,867 | $78,142 | +$25 | **+10.27%** | — | — | Crypto cohort coordinated rally |
+| **CEG** | 7 | $280.00 | $317.83 | +$265 | **+13.5%** 🎯 | $290 | $27.83 | AI-power thesis intact; +3.26% intraday; approaching 3R milestone (deferred trim) |
+| **CVS** 🎯 | 27 | $75.83 | $82.44 | +$179 | **+8.7%** | $75.83 | $6.61 | Breakeven-lock; managed-care cohort holding |
+| **MU** 🆕 | 4 | $541.11 | $578.40 | +$149 | **+6.9%** | **$510 ✅ NEW T+3** | $68.40 | HBM4 + QCOM mystery chip read-through; +6.67% intraday; stop placed today AM |
+| **CCI** | 20 | $84.31 | $89.74 | +$109 | **+6.4%** | $84.31 | $5.43 | Breakeven-lock from 5/1 |
+| UNH | 0.69 | $290.00 | $368.55 | +$54 | **+27.1%** | — | — | Tracker fractional |
+| **TXN** | 5 | $272.83 | $280.49 | +$38 | +2.8% | $254 | $26.49 | Semi cohort stable |
+| **MRVL** | 9 | $159.54 | $163.28 | +$34 | +2.3% | $145 | $18.28 | Semi cohort stable |
+| **BTC** | 0.0034 | $70,867 | $80,382 | +$33 | **+13.4%** | — | — | $80K cross sustained; tracker |
+| **MRK** | 18 | $112.47 | $113.44 | +$18 | +0.9% | $103.50 | $9.94 | +1.14% intraday |
+| **NUE** | 9 | $223.00 | $224.31 | +$12 | +0.6% | $210 ✅ | $14.31 | Materials cohort flat |
+| **CVX** | 10 | $191.92 | $192.48 | +$6 | +0.3% | $182 ✅ | $10.48 | +0.97% intraday on Wirth capex reaffirmation + JPM PT $173 |
+| BLK | 2 | $1,057.92 | $1,052.81 | -$10 | -0.5% | $990 | $62.81 | Financials weak |
+| **INTC 🆕🆕** | 12 | $96.85 | $96.47 | -$5 | -0.4% | **$89.50 PLANNED T+1** | $6.97 | Sleeve catalyst-buy filled 12:27 ET; multi-axis bull (SambaNova/CTO/Physical AI Group) |
+| **NKE** | 44 | $45.29 | $43.39 | -$83 | -4.2% | $42.50 | $0.89 | TIGHT BUFFER — consumer cohort weak |
 
-**Aggregate: portfolio $25,085.90 | cash $1,332.92 (5.3%) | day -$43 / -0.17%**
+**Aggregate: portfolio $25,240 | cash $2,120 (8.4%) | day +$146 / +0.58% | realized +$180 (NVDA)**
 
-## 🚨 CVX 5-DEEP BEAR-STACK TODAY (HELD POSITION ALERT)
+## Today's executed trades
 
-**Today's CVX bear narrative accumulated rapidly:**
-1. 06:21 ET — Q1 EPS-beat ($1.41/$0.95 +48%) BUT sales-miss ($48.6B/$52.1B = $3.5B miss)
-2. 10:01 ET — XOM CEO: Strait of Hormuz REOPENS, 1-2mo for normal flows
-3. 10:18 ET — CEO Wirth: Net Debt to Cash Flow Ratio worsens + ME risks flagged
-4. 10:26 ET — Iran via Pakistan submits diplomatic response = continued de-escalation
-5. 15:42 ET — Crude oil DOWN 3% intraday confirming de-escalation thesis
+| Time | Action | Detail | Order ID | Status |
+|------|--------|--------|----------|--------|
+| 07:00 ET | STOP PLACE | MU $510 GTC (T+3 catch-up from 5/1) | 958fcc6f | ✅ status=new |
+| 11:21 ET | STOP TRIGGER | NVDA $195 → fill $194.885 (10 sh) = **+$179.55 realized / +10.1%** | 96e50d4c | ✅ filled |
+| 12:27 ET | BUY | INTC 12 sh @ limit $97.00 → fill $96.8499 (sleeve catalyst-buy) | f981471e | ✅ filled |
 
-**Bull-offset (1):** 11:26 ET — Wirth says Venezuela debt recovery accelerating on higher oil
+**Daily cap:** 1/2 trades, $1,162/$4K spend (within limits, cleanly).
 
-**Net narrative:** CVX 9-cat geopolitical bull thesis (which drove 04-30 entry) **fully unwound by EOD**. Stop $182 GTC = $8.48 / 4.5% buffer.
+## Sector Sleeve Status (semi_ai)
 
-**Monday consideration:** if CVX continues bear into Monday, consider tighter trail to $185-186.
+- Regime: 🔥 HOT (priority queue ON until INTC fill, now cleared)
+- Target: $6,310 (25% × $25,240)
+- Members: MRVL $1,470 / TXN $1,402 / MU $2,314 / **INTC 🆕 $1,158** = $6,344
+- Fill: **100.5%** (at target — sleeve goal met)
 
-## Today's trades: 1 BUY + 3 stop modifications
+## Mon catalyst cluster — autopilot_close decisions
 
-| Time | Action | Detail | Status |
-|---|---|---|---|
-| 09:57 ET | STOP PLACE | CVX $182 GTC (T+1 PDT cleared) | ✅ status=new (a53e6278) |
-| 09:57 ET | STOP PLACE | NUE $210 GTC (T+1 PDT cleared) | ✅ status=new (dc73b107) |
-| 09:58 ET | STOP MODIFY | CCI $80 → $84.31 GTC (Harvest breakeven-lock) | ✅ status=new (67d3164f) |
-| 09:59 ET | BUY | MU 4 sh @ limit $543 / filled $541.11 | ✅ filled (377b5f41) |
+**Tier-1 EXECUTED:**
+- ✅ INTC sleeve catalyst-buy 12 sh @ $96.85 (full pipeline pass, score 78)
 
-**Daily cap:** 1/2 trades, $2,164/$4K spend (within limits, cleanly).
-**Stop coverage:** ✅ 11 of 12 active equity positions stopped (MU pending Monday T+1).
+**Tier-1 watchlist for tomorrow (cash-bound):**
+- AMZN (score 75) — 6-deep multi-axis (Anthropic/OpenAI/JPM/supply chain/HUMAIN/DoW CMMC) + 5/4 12:44 FDX selloff CONFIRMS competitive thesis in real-time price action
+- ORCL (score 72) — classified Dept of War + $1.1T tailwind framing; +3% intraday
+- LMT (score 70) — defense $119B Israel; +1.72% confirming
+- ARVN/PFE/GH (score ~75) 🆕 12:30 — first-of-its-kind FDA breast cancer drug approval; pharma cohort
+- ABNB (score ~68) 🆕 ~10:43 — Oppenheimer Outperform $180 PT; travel cohort reversal post-Hormuz
+- BX/GS/GOOGL/PLTR (score ~70) 🆕 12:35 — Anthropic $450M + 2026 IPO disclosure
+- JNJ (score 60) — pharma cohort defensive
 
-## Friday cron schedule status (3rd consecutive day of structural failure)
+**Tier-1 REJECTED:**
+- ❌ QCOM — premarket +20% mystery chip rally fully unwound to **-5.13%** by close-of-day pace; over-reacted/round-trip; revisit only on confirming bullish catalyst
 
-| Cron | Scheduled | Actual | Status |
-|---|---|---|---|
-| autopilot_morning | 9:23 ET | 9:50 ET (+27 min) | EXECUTED — 1 BUY + 3 stops |
-| autopilot_midday | 12:47 ET | 13:17 ET (+30 min) | PASS — cash-bound |
-| autopilot_close | 15:53 ET | 16:23 ET (+30 min, post-close) | DEBRIEF mode |
+**Bear-qualifiers:** META (NM youth-harm trial enforcement), NCLH (FY26 guidance cut), AZN (FDA panel reject), BA (-1.55% despite defense tailwind)
 
-**3 consecutive trading days** of cron-miss (+27/+30 min). Recommendation persists: reduce mercury_stream_market `*/8` → `*/12` OR move autopilot to off-minute slots (:03/:33). **Address before Monday's session.**
+## Stop-loss buffers (closest to trigger)
 
-## Mercury alert volume Friday
+| Ticker | Current | Stop | Buffer % | Risk |
+|--------|---------|------|---------:|------|
+| **NKE** | $43.39 | $42.50 | 2.1% ⚠️ | TIGHT — consumer cohort weak; if breaks $43 consider proactive tighten to $42.85 |
+| INTC | $96.47 | $89.50 (planned) | 7.2% | Stop placement T+1 tomorrow |
+| BLK | $1,052.81 | $990.00 | 6.0% | Financials drift |
+| CCI | $89.74 | $84.31 | 6.0% | Breakeven-lock |
+| CVS | $82.44 | $75.83 | 8.0% | Breakeven-lock |
+| CVX | $192.48 | $182.00 | 5.4% | Mixed Q1 + JPM PT $173 reactivation |
 
-- **~30 surviving alerts** today (overnight + market hours)
-- Stream-mode capture: ~95% of material content
-- Poll-mode sweeps: ~5 alerts surviving filters
-- WhatsApp pings sent: ~25+ throughout day
+All other positions: >7% stop buffer, normal monitoring.
 
-## 🎯 BIGGEST EVENTS OF THE DAY (Friday 2026-05-01)
+## Tomorrow's autopilot_morning queue
 
-### 1. CCI multi-axis bull (HELD position structural catalyst)
-$8.5B Fiber/Small Cell divestiture proceeds = $1B buyback (~10% of float) + $7B debt reduction + FY26 FFO raise ($4.38-4.49 → $4.53-4.65 vs $4.40 est). Held position breakeven-locked at $84.31; +5.87% cumul.
+1. **MUST**: place INTC stop $89.50 GTC (T+1 catch-up)
+2. Re-evaluate Tier-1 watchlist with overnight price action: AMZN, ORCL, LMT, ARVN/PFE/GH, ABNB, BX/GS
+3. Check NKE buffer — if gapped down, consider proactive stop tighten
+4. Check CEG — if continues running, harvest 3R trim becomes more compelling
 
-### 2. CVX bear-stack 5-deep (HELD position thesis erosion)
-9-cat geopolitical bull from 04-30 fully unwinding: Q1 sales miss + Hormuz reopens + leverage worsens + Iran-Pakistan diplomatic response + oil -3%. Single bull-offset (Venezuela debt recovery). Stop $182 buffer 4.5%.
+## Cron-bug context
 
-### 3. AAPL post-Q2 momentum (not held)
-- Q2 dual-beat $2.01/$1.94 + sales $111.184B/$109.66B
-- $100B buyback authorization + dividend hike
-- Q3 (June) revenue guide 14%+ growth + drops net-cash-neutral capital target
-- Tariff-refund pursuit + reinvest into US manufacturing
-- Analyst cluster (Ives/Munster/Newman bullish "Golden Era")
-
-### 4. Healthcare FDA approvals (cohort bull-fundamentals)
-- 🚨 PFE/ARVN VEPPANU FDA approval — ER+/HER2- breast cancer (counters AZN Camizestrant setback)
-- 🚨 JNJ STELARA FDA approval — Crohn's disease (offsets yesterday's CAR-T pipeline kill)
-- AZN MIXED — prostate TRUQAP backed at AdCom + breast Camizestrant fails
-- LLY Q1 + FDA tightening drug compounding rules (structural moat for branded GLP-1)
-- MRNA Q1 71% sales beat (extreme magnitude)
-- AMGN/ILMN/DXCM Q1 prints with AH-reversal pattern but $1.5B buybacks (ILMN/AMGN)
-
-### 5. Big Tech post-print divergence (final state)
-- 🟢 Bull-action: GOOGL (biggest breakout since 2004) + AAPL (Q2 + buyback + 14% guide)
-- 🔴 Sold-the-news: META (+ Zuck publicly confirms AI-driven layoffs) + MSFT + AMZN
-- META acquired robotics-AI humanoid company (partial offset to bear stack)
-
-### 6. Mega-M&A activity Friday
-- 🚨 QXO $17B acquisition of TopBuild (BLD)
-- 🚨 NBIS Eigen acquisition (+11% intraday)
-- 🚨 MKC $2B term loan for Unilever merger
-- US Rails $85B mega-merger (yesterday) STB pending
-- Crown Castle $8.5B divestiture (HELD CCI structural)
-
-### 7. NVDA/AI-substrate cohort (held NVDA structural moat)
-- 🚨 Pentagon keeps Anthropic Claude ban (NVDA/MSFT/AMZN/GOOGL bull on competitor exclusion)
-- 🚨 NVIDIA + MICROSOFT + AWS expanding classified military AI use (Bloomberg)
-- INTC SambaNova antitrust clearance + best-month-ever
-- INTC CEO Tan new role at NVDA-backed quantum computing firm
-
-### 8. CEO transitions
-- 🚨 OXY Vicki Hollub OUT — Richard Jackson takes over Jun 1 (Buffett-favored CEO transition)
-- DE Brent Norwood appointed CFO May 1
-
-### 9. Macro substrate
-- Crude oil DOWN 3% intraday (Iran-Pakistan response + Hormuz reopens)
-- Trump war powers deadline evaded
-- Crypto cohort coordinated rally (BTC +2.66%, ETH +2.21%, BCH +2.85%)
-- Stagflation-with-tight-labor regime persists
-
-## Monday (2026-05-04) priority stack
-
-### TIER 1 PRIORITY: Place MU stop $510 GTC at 9:00-10:00 ET (T+1 PDT clears)
-
-### Top buy candidates (cap reset)
-| Rank | Ticker | Score est | Catalyst | Notes |
-|---|---|---:|---|---|
-| 1 | **PFE** | ~80 | VEPPANU FDA approval ER+/HER2- breast cancer | Today selling-the-news; check Monday open for stabilization |
-| 2 | **JNJ** | ~78 | STELARA Crohn's disease FDA approval (16:21 today) | Mega-pharma bull cluster |
-| 3 | **GOOGL** | ~75 | Steady bull-cluster (breakout-confirm + WF PT $427 + Pichai-Musk space AI) | Quiet accumulator |
-| 4 | **NBIS** | ~72 | +11% Eigen acquisition | Watch for pullback from chase |
-| 5 | **CCI ADD?** | held | Multi-axis bull at +5.87%, breakeven-locked | Compounding decision; let position run for 3R ($97.24) |
-
-### Held position management Monday
-1. **CCI**: Hold for 3R milestone $97.24; breakeven-locked
-2. **CVX**: Multi-axis bear monitor; consider trail to $185 if continues weak
-3. **NVDA HOLD AGGRESSIVE**: Pentagon classified-AI moat structural; +12.22% cumul; 3R trim ~$203
-4. **CEG**: +10% cumul, AI-power utility thesis intact
-5. **CVS**: Breakeven-locked; target $90 still ~9.6% away
-6. **NKE**: Buffer $1.95 — TIGHT, monitor consumer cohort
-7. **MRK**: Recovering, FY26 raise structural bull intact
-
-### Removed from add-list TODAY (post-print or reversal)
-- **CVX HELD** — bear-stack 5-deep today; thesis under multi-axis pressure (held but not adding)
-- **TWLO** — already +25% post-print, gap-chase territory
-- **AAPL** — already at all-time highs
-- **INTC** — already above HSBC PT $95
-- **RIVN** — Chanos AMZN-concentration bear-qualifier (was 4-deep bull yesterday)
-- **RBLX** — FY26 guide cut (offset partially by Unity/Unreal AI software pivot)
-- **SYK** — Q1 dual-miss + analyst PT cuts continuing
-
-### Cohort regime resolution end-of-week
-
-- **Bull-confirmed structural**: AI-substrate (held NVDA/MRVL/TXN/MU), AI-power utility (held CEG), AI-data-center REIT (held CCI), Healthcare-fundamentals broad (LLY/ABBV/AMGN/PFE/JNJ/INCY/CI/MRNA/AZN-prostate-resolved), Materials (held NUE), Industrials (CARR Q1 + AME + LIN + APD bull cluster)
-- **Bear-confirmed**: Big Tech 3-of-5 sold-the-news (META/MSFT/AMZN; AAPL+GOOGL bull-action), Healthcare-price-action (AMGN/ILMN/DXCM AH-reversal cohort + SYK miss + MRK Q1-loss-resolved), Energy mixed (held CVX bear-stack vs XOM Q1 dual-beat clean), Fintech-broker (HOOD bear), Casino/gaming (RBLX guide cut, MGM)
-- **Mixed**: GOOGL+AAPL bull alone in Big Tech; AZN prostate-bull / breast-bear split
-- **Macro**: Stagflation-with-tight-labor regime persists; Iran/Hormuz de-escalation lowers oil premium
-
-## Cron schedule note (3rd day repeat)
-
-**100% autopilot cron miss-or-late rate AGAIN.** Unchanged recommendation:
-1. Reduce mercury_stream_market `*/8` → `*/12` (or `*/15`)
-2. Move autopilot times to off-minute slots (:03/:33)
-3. Address before Monday session start.
+`eod_summary` configured `17 16 * * 1-5` (4:17 PM ET) firing at 12:17 ET (UTC interpretation). This is mid-session, not EOD. Real EOD watchlist update needs manual run after 16:00 ET market close — system architecture to-fix item.
