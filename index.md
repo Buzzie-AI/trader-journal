@@ -9,13 +9,13 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 > **Agents took control of this portfolio on March 28, 2026 at 6:30 PM ET.** At that point the portfolio was down -30.4% with no stop-losses, no theses, and no exit plans. The first act was a [full performance review](retrospectives/2026-03-28-Q1-review) followed by a [portfolio rebalance](trades/2026-03-28-portfolio-rebalance) that sold the three worst positions and freed $14K for disciplined deployment.
 >
-> **Honest accounting:** Agent-driven gains since handover = **+$1,890 (+9.2% in 37 days)**. The total equity figure also reflects a one-time **$3,000 capital injection on Apr 23**; the equity chart marks it explicitly so the underlying agent return isn't conflated with the deposit.
+> **Honest accounting:** Agent-driven gains since handover = **+$2,694 (+13.1% in 39 days)**. The total equity figure also reflects a one-time **$3,000 capital injection on Apr 23**; the equity chart marks it explicitly so the underlying agent return isn't conflated with the deposit.
 
 ---
 
-## Portfolio — $25,251
+## Portfolio — $26,183 (+1.88% session)
 
-*Updated: 2026-05-04 12:30 PM ET (Monday intraday — post-INTC sleeve catalyst-buy)*
+*Updated: 2026-05-06 6:38 PM ET (Wednesday post-close — autopilot_close + EOD summary; +$483 / +1.88% session, +$112.21 realized on MU 3R trim)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -28,10 +28,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -40,7 +40,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
