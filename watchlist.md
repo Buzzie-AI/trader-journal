@@ -1,108 +1,127 @@
-# Watchlist — EOD 2026-05-05 (Tuesday — Mercury catalyst day, INTC stop backfill, MU 3R milestone deferred)
+# Watchlist — EOD 2026-05-07 (Thursday — earnings season tsunami day, CVX stopped, DIS BUY expired)
 
-Updated by eod_summary 16:47 ET. Market closed 16:00 ET. Equity curve: last $25,259.53 → current $25,759.56 = **+$500.03 / +1.98% session**.
+Updated by eod_summary 16:46 ET. Market closed 16:00 ET. Equity curve: prev $26,167.40 → final ~$25,778 = **-$389 / -1.49% session**.
 
-**Day P&L drivers:** INTC +14.53% (Apple chip foundry talks), MU +11.65% (memflation + Trump memory-chip-bloc), MRVL +4.52%, NUE +2.77%, BTCUSD +1.51%. Drag: NKE flat, CVS -1.37%, CCI -1.20%, TXN -0.49%.
+**Day P&L drivers:** MRVL **-6.93%** (semi cohort drag), CEG -2.74%, NUE -3.21%, MU -3.43%, INTC -2.89%, TXN -1.19%, MRK -0.98%, BLK -0.54%. Held positives: CCI +0.92%, CVS +0.58%, NKE +1.28%. Realized: **-$104.20 (CVX stop)**.
 
-## Current positions (15 holdings — 13 equity + BTC + UNH frac + 737CVR019)
+## Current positions (12 equity + BTC + UNH frac + 737CVR019)
 
 | Ticker | Qty | Avg Entry | Last | P&L $ | P&L % | Stop | Buffer | Notes |
 |--------|----:|----------:|------:|------:|------:|-----:|-------:|-------|
-| **MU** 🎯🎯 | 4 | $541.11 | $643.63 | +$410 | **+18.9%** | $510 | $133.63 | **3R milestone HIT** — defer trim 25% to autopilot_morning |
-| **UNH** | 0.69 | $290.00 | $363.08 | +$50 | **+25.2%** | — | — | Fractional tracker |
-| **CEG** | 7 | $280.00 | $321.90 | +$293 | **+15.0%** | $290 | $31.90 | AI-power thesis intact |
-| **BTC** | 0.0034 | $70,867 | $81,616 | +$37 | **+15.2%** | — | — | $81K consolidation; macro Iran progress |
-| **INTC** 🆕 | 12 | $96.85 | $109.70 | +$154 | **+13.3%** | **$100 ✅ NEW** | $9.70 | **Apple chip foundry talks +14.53%; stop placed today 16:24 ET (T+1 backfill)**; thesis target $115 = 4.4% away |
-| **MRVL** | 9 | $159.54 | $171.05 | +$104 | **+7.2%** | $145 | $26.05 | Semi cohort tailwind from chip-bloc |
-| **CVS** 🎯 | 27 | $75.83 | $80.89 | +$137 | **+6.7%** | $75.83 | $5.06 | Breakeven-lock holding |
-| **CCI** 🎯 | 20 | $84.31 | $89.10 | +$96 | **+5.7%** | $84.31 | $4.79 | Breakeven-lock holding |
-| **NUE** | 9 | $223.00 | $232.07 | +$82 | **+4.1%** | $210 | $22.07 | Materials cohort steady |
-| **TXN** | 5 | $272.83 | $279.51 | +$33 | +2.5% | $252.58 | $26.93 | Semi cohort |
-| **MRK** | 18 | $112.47 | $113.15 | +$12 | +0.6% | $103.50 | $9.65 | Pharma flat |
-| **CVX** | 10 | $191.92 | $192.64 | +$7 | +0.4% | $182 | $10.64 | Energy stable |
-| **BLK** | 2 | $1,057.92 | $1,048.91 | -$18 | -0.9% | $990 | $58.91 | Financials weak |
-| **NKE** ⚠️ | 44 | $45.29 | $43.03 | -$99 | -5.0% | $42.50 | $0.53 | **TIGHT — $0.53 buffer**; consumer/discretionary weak |
+| **MU** 🎯🎯 | 3 | $541.11 | $643.75 | +$308 | **+19.0%** | $634 | **$9.75 / 1.5% TIGHT** | Post-3R-trim; overnight gap-watch to $634 |
+| **CVS** | 27 | $75.83 | $87.36 | +$311 | **+15.2%** | $82 | $5.36 | Analyst PT cluster post Q1 validates; could justify further stop advance if PTs cluster >$90 |
+| **INTC** | 12 | $96.85 | $109.74 | +$155 | **+13.3%** | $100 | $9.74 | Apple foundry thesis intact; target $115 = 4.8% above |
+| **CEG** | 7 | $280.00 | $313.95 | +$238 | **+12.1%** | $290 | $23.95 | AI-power pulled back -2.74% on AI-infra capex worries (OpenAI-AVGO snag) |
+| **CCI** | 20 | $84.31 | $91.07 | +$135 | **+8.0%** | $84.31 | $6.76 | Breakeven-lock holding |
+| **TXN** | 5 | $272.83 | $286.00 | +$66 | +4.8% | $252.58 | $33.42 | Semi cohort drag but buffer healthy |
+| **MRVL** | 9 | $159.54 | $160.15 | +$5 | **+0.4%** | $145 | $15.15 | **-6.93% TODAY**, biggest individual drag; still 9.5% above stop |
+| **NUE** | 9 | $223.00 | $226.70 | +$33 | +1.7% | $210 | $16.70 | Materials cohort soft today |
+| **BLK** | 2 | $1,057.92 | $1,067.74 | +$20 | +0.9% | $990 | $77.74 | Financials slightly red |
+| **MRK** | 18 | $112.47 | $112.45 | flat | flat | $103.50 | $8.95 | PCSK9 manufacturing-method publication today |
+| **NKE** | 44 | $45.29 | $44.44 | -$37 | -1.7% | $42.50 | $1.94 / 4.4% | Recovering toward breakeven (+1.28% today) |
+| **UNH** | 0.69 | $290.00 | $369.05 | +$55 | **+27.3%** | — | — | Fractional tracker |
+| **BTC** | 0.0034 | $70,867 | $79,973 | +$31 | **+12.9%** | — | — | -1.43% mid-AH; operator out-of-crypto policy |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | — | — | Special asset (ignore) |
 
-**Aggregate:** portfolio $25,759.56 | cash $2,137.47 (8.3%) | long market value $23,622.09 | **day +$500 / +1.98%**
+**Aggregate:** portfolio ~$25,778 | cash $4,605.71 (17.9%) | long market value ~$21,172 | **day -$389 / -1.49%**
 
-## Today's executed trades (only 1 stop placement)
+## Today's executed trades (1 only)
 
 | Time ET | Action | Detail | Order ID | Status |
 |---------|--------|--------|----------|--------|
-| 16:24 | STOP PLACE | INTC $100 GTC (12 sh) — autopilot_close backfill of missed T+1 stop from 5/4 INTC sleeve-buy | 6a3a90ef | ✅ accepted |
+| 09:30 | STOP TRIGGER | CVX stop $182 fired at open print, 10 sh @ $181.50, -$104.20 realized | a53e6278 | ✅ filled |
 
-**No new buys, no sells, no other order activity today.** Daily cap: 0/2 trades used. Cash unchanged at $2,137.
+**No new buys, no sells, no other order activity.** Daily cap unused (0/2). DIS BUY proposal pipelined and approved by Diana but expired with no operator confirmation in 1h timeout window.
 
-## Stops watch — buffer health
+## Stops watch — overnight buffer health
 
 | Ticker | Stop | Last | Buffer % | Status |
 |--------|-----:|-----:|---------:|--------|
-| **NKE** | $42.50 | $43.03 | 1.2% | ⚠️ **TIGHTEST** — could trigger on any further -1.3% move |
-| INTC | $100 | $109.70 | 8.8% | new stop, locks +3.25% on entry |
-| CCI | $84.31 | $89.10 | 5.4% | breakeven-lock |
-| CVS | $75.83 | $80.89 | 6.3% | breakeven-lock |
-| MRK | $103.50 | $113.15 | 8.5% | |
-| CVX | $182 | $192.64 | 5.5% | |
-| CEG | $290 | $321.90 | 9.9% | |
-| BLK | $990 | $1048.91 | 5.6% | |
-| NUE | $210 | $232.07 | 9.5% | |
-| TXN | $252.58 | $279.51 | 9.6% | |
-| MRVL | $145 | $171.05 | 15.2% | could tighten |
-| MU | $510 | $643.63 | 20.7% | **wide — opportunity to trail tighter at autopilot_morning** |
+| **MU** | $634 | $643.75 | **1.5%** | ⚠️ **TIGHTEST** — overnight gap-risk; 3R-trim already locked profit |
+| NKE | $42.50 | $44.44 | 4.4% | recovering |
+| CVS | $82 | $87.36 | 6.5% | breakeven-lock advanced 5/6 |
+| CEG | $290 | $313.95 | 8.3% | pulled back 2.74% today |
+| MRK | $103.50 | $112.45 | 8.6% | flat day |
+| CCI | $84.31 | $91.07 | 8.0% | breakeven-lock |
+| BLK | $990 | $1067.74 | 7.9% | |
+| INTC | $100 | $109.74 | 9.7% | target $115 watch |
+| MRVL | $145 | $160.15 | 10.4% | -6.93% intraday but buffer still healthy |
+| NUE | $210 | $226.70 | 8.0% | |
+| TXN | $252.58 | $286.00 | 13.1% | could tighten |
 
-**No positions hit stop today.**
+**No positions hit stop today (CVX exit was the morning fire).**
 
-## Mercury catalyst recap (post-cron-restart 14:14 ET)
+## Mercury catalyst recap (~80 alerts written today)
 
-**~70 alerts written today** in the afternoon-only window (cron restarted 14:14 ET, so morning catalysts not in this run's tally). Highlights for autopilot_morning consideration:
+**STRONG BULL post-close (autopilot_morning Phase 0.5 entry candidates):**
+- **BILL** QUAD-BULL — Q3 EPS +21.4% beat + Q4 guide above + FY26 raise + **$1B buyback** — cleanest stack of day
+- **HUBS** QUAD-BULL — Q1 beat + 4 forward-guide raises (Q2 Adj/GAAP + FY26 Adj/GAAP)
+- **AFRM** TRIPLE — Q3 EPS +57.9% + Q4 + FY26 raises (BNPL counter to PYPL bear)
+- **DKNG** Q1 EPS $0.20 vs $0.02 (~10x consensus) — operating leverage validated
+- **NVDA** 4-catalyst day: 09:40 SpaceX/Anthropic GB300 + 13:08 SoftBank Japan + 16:11 GS estimate raise (12% above, CY26/27 EPS 14-34% above) + 16:40 NVDA-IREN 5GW + $2.1B option
+- **DIS** quadruple-positive Q2 + tape now confirms 3-mo high (carryover from 09:50 BUY proposal)
+- **NVO** CMS Wegovy Medicare $50/mo July go-live
+- **WYNN** Q1 double-beat (but tape sell-the-news -0.7%)
+- **RKLB** Q2 sales guide +13.5% above + Anduril contract
+- **NET** Cloudflare Q1 beat + FY26 raise (BUT Q2 sales midpoint below; tape down — net mixed)
 
-**STRONG BULL post-close earnings (autopilot_morning Phase A entry candidates):**
-- **AMD** — Q1 double-beat ($1.37 EPS / $10.25B sales) + Q2 sales guide $10.9-11.5B BEATS. Score 88.
-- **EOG** — +6.9% EPS beat + +15.6% LARGE sales beat. Score 78.
-- **MSFT** — Bloomberg: OpenAI commits $50B 2026 compute spend. Score 78.
-- **EMR** — FY26 Adj EPS guide RAISED ($6.45-$6.55). Score 73.
-- **PRU** — +16.5% EPS large beat. Score 72.
-- **HOOD** — CEO TV: HOOD to custody Trump Accounts. Score 72.
-- **DD** — Triple-positive: Q1 beat + FY26 raise + accelerated buyback. Score 70.
-- **CMI** — Outlook RAISE from data-center demand surge. Score 70.
+**STRONG BEAR / AVOID:**
+- **COIN** catastrophic Q1 double-miss (EPS swing-to-loss); offset by market-share-record + prediction-markets product success
+- **TTD** Q1 EPS miss + Q2 guide below = double-bear; AH -16%
+- **ZTS** Q1 miss + FY guide cut (-21% intraday)
+- **MAR** sell-the-news -1.95% despite Q1 beat + raise
+- **MELI** Q1 EPS miss + sales beat (LatAm margin compression)
+- **ED** Q1 double-miss + FY affirm
 
-**STRONG BULL existing-position updates:**
-- **GOOGL** (NEW major catalyst, 16:42 poll) — Anthropic commits $200B to Google Cloud + Chips (The Information). Score 85.
-- **INTC (held)** — Apple chip foundry talks +14.53% intraday → score 92, thesis target $115 only 4.4% away.
-- **MU (held)** — Memflation + Trump memory-chip-bloc → score 90, 3R milestone hit, harvest deferred.
+**WATCHLIST adds today (full set):**
+- BILL / AFRM / DKNG / HUBS / NVDA / DIS / NVO / RKLB (bulls)
+- TPR -10% sell-the-news (dip-buy candidate)
+- CMI Barclays PT $610→$760 (data-center thesis)
+- ON 4-catalyst stack (sleeve member, sleeve full)
+- MPC/PSX/VLO refiners crack-spread sector tailwind (potential energy rotation post-CVX)
 
-**MIXED / requires Phase 0.5 attention:**
-- **SMCI** — 3-update day (Q3 sales miss / Q4 guide BEAT / FY26 guide MISS). Net mixed-direction.
-- **MSTR** — Q1 sales beat narrow + loss deepened 2.3x.
-- **OXY** — Massive +76.7% EPS beat + -5.3% sales miss.
-- **AAPL** — iOS27 multi-AI capitulation + $250M Siri settlement. Multi-axis mixed.
-- **META** — TRIPLE-bear day: 2026 capex bloat (poll) + EU DSA Ireland + Trivago Germany lawsuit.
+**MIXED / position-management context:**
+- INTC narrative bear "two-horse race AMD vs NVDA" (held — autopilot_morning watch trim trigger $115)
+- ARM 4-shop analyst PT cluster (Needham/GS/JPM/RBC) muted by supply-wall warning
+- AAPL bull (camera AirPods Bloomberg leak) vs bear stack (Rave antitrust + EU cloud + iOS27 + Siri + DSA)
+- C bear stack (ROTCE pace + China-sanctions lawsuit) — confirmed PASS call from morning
+- SNAP triple-bear in 24h (CFO + Q2 in-line + Perplexity unwind)
+- MSFT Stifel downgrade to Hold
 
-**BEARISH (avoid / monitor short interest):**
-- **ISRG** — FDA recall (8mm Sureform reload).
-- **LCID, LYV, DVN, BNTX, NCLH, UPST** — Q1 misses or guidance cuts.
-- **AZN/JNJ/MRNA/PFE** — NYT FDA-vaccine-pub-block (multi-pharma cohort overhang).
+## Sector Sleeve Status (semi_ai)
 
-## EOD market movers (NB: micro-cap dominated)
+- Members held: MRVL $1,441 / TXN $1,430 / MU $1,931 / INTC $1,317 = **$6,119**
+- Target: $6,445 (25% × $25,778)
+- Fill: **94.9%** (slid from 95.6% mid-day on semi cohort drag)
+- Action: NO new sleeve adds; ON would qualify but sleeve_remaining only $326
 
-Top regular-session gainers/losers were all micro-caps/warrants (PHOE +169%, BLZE +64%, EMBC -58%, BRBR -39%) — NONE in our 300-stock universe. No dip-scan opportunities triggered today.
+## Action items for autopilot_morning (5/8 09:27 ET)
 
-## Sector Sleeve Status (semi_ai = AI/semi)
+1. **MU stop watch** — buffer 1.5%; overnight gap-risk to $634. If AH-down extends overnight, fires at open. Acceptable post-3R-trim.
+2. **Top BUY candidates (rank-ordered)**:
+   - **BILL** $37.66 (~68 sh × 10% sizing = $2,560) — QUAD-bull cleanest stack
+   - **HUBS** quad-bull (price TBD pre-market) — equally strong stack
+   - **DIS** $108.66 (re-present BUY from yesterday's expired proposal; same $109.40 limit / $103 stop)
+   - **NVDA** GS estimate raise + IREN partnership pre-May 20 earnings (consider re-entry post Apr 27 trim)
+3. **TPR dip-buy** — assess if tape stabilizes pre-market
+4. **MRVL re-evaluation** — -6.93% drag yesterday; semi cohort outlook depends on OpenAI-AVGO resolution
+5. **INTC trim trigger** — target $115 = 4.8% above $109.74 close
+6. **MPC/PSX/VLO refiner rotation** — energy zero-weight post CVX; refiner margin thesis is fundamentally different
+7. **Earnings cadence today**: BILL/AFRM/DKNG/HUBS/NET/RKLB all printed; AVOID chase if pre-market shows extension; allow 1-day digestion
+8. **SaaS strength theme** — DDOG/FTNT/CRWD/TEAM/NOW/BILL/HUBS/NET = 8-name cohort positive
+9. **CRON-MISS pattern** — 3/3 autopilots delayed/missed today + eod_summary 30 min late. Cadence collisions with mercury_stream_market */8. Consider tweaking schedule.
 
-- Members: MRVL $1,539 / TXN $1,398 / MU $2,575 / INTC $1,316 = **$6,828**
-- Target: $6,440 (25% × $25,759)
-- Fill: **106%** — slightly OVER target (MU + INTC appreciated through it)
-- Action: NO new sleeve adds; consider trim on MU at autopilot_morning to bring fill back to target
+## Cron-miss summary today
 
-## Action items for autopilot_morning (5/6 9:27 ET)
+- autopilot_morning 09:27 ET MISSED (cron started 09:38)
+- autopilot_midday 12:47 ET delayed-fired 13:18 (~31 min late)
+- autopilot_close 15:53 ET delayed-fired 16:21 (~28 min late)
+- eod_summary 16:17 ET delayed-fired 16:46 (~29 min late)
+- Pattern: each autopilot collides with mercury_stream_market */8 fires running same minute
 
-1. **Execute MU 3R-milestone trim** — sell 1 sh of 4 (25%) at limit ~spot; tight-trail remaining 3 sh
-2. **Monitor INTC thesis target $115** (4.4% away) — if hit at open, trim 50% (6 sh)
-3. **Phase A — top new-buy candidates** ranked by Mercury Phase 0.5 score:
-   - **AMD (88)** — but check sell-the-news tape at AH/open
-   - **GOOGL (85)** — Anthropic $200B is fresh major catalyst
-   - **EOG (78)**, **MSFT (78)**, **ON (75)**, **EMR (73)**, **PRU (72)**, **HOOD (72)**
-4. **Caveat — sell-the-news watch:** today's PLTR/PYPL/BNTX pattern means strong post-close prints may unwind at open
-5. **NKE stop watch** — buffer only $0.53 (1.2%); could trigger on any further weakness
-6. **WhatsApp:** plugin still on stale socket reporting `Connection Closed` despite operator re-link + channel upgrade — Claude Code restart or `/whatsapp:configure` from inside session likely needed before next major fire
+## WhatsApp pings sent today
+
+- 30+ alerts/digests sent
+- 0 trade confirmations needed (CVX stop autonomous)
+- 1 BUY proposal expired (DIS, op AFK 1h)
+- 3 pairing requests flagged to operator for decision
