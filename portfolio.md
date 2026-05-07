@@ -5,21 +5,21 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-06 6:36 PM ET (Wednesday post-close — eod_summary refresh after autopilot_close at 16:23 ET)*
+*Last updated: 2026-05-07 9:57 AM ET (Thursday — manual /autopilot fire; CVX stopped out at open, 0 new buys, 6 tickers watchlisted)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$26,182.80** |
-| Cash | $2,790.76 (10.7%) ✅ above $2K min-reserve |
-| Invested | $23,392.04 (89.3%) |
-| Positions | 13 equity + BTC + UNH fractional + 737CVR019 (CVR) |
-| Today's activity | **4 actions**: (1) **MU 3R trim 09:59 ET** — sold 1 sh @ $653.32 / realized +$112.21; (2) MU stop $510 → $603 (entry+2R); (3) CVS stop $75.83 → $82 on triple-bull-stack (Q1 BEAT + Adj guide raise + GAAP guide raise); (4) **MU 4R stop advance 16:24 ET** — $603 → $634 (entry+3R). |
-| Stop coverage | ✅ 13 active stops. Exempt: UNH (fractional), 737CVR019 (CVR), BTC. |
-| 🎯 Best held | **MU +23.9%** (3 sh post-trim) · **INTC +17.4%** (52w high, target $115 within 1.1%) · **CEG +15.3%** · **CVS +14.5%** (Q1 triple-bull) · **UNH +26.3%** (frac) · **BTC +15.2%** ($81,614) |
-| Day P&L | **+$483.27 / +1.88%** vs Tues close $25,699.52 |
-| **Realized today** | **+$112.21** (MU 3R trim) |
+| **Portfolio Value** | **$25,963.05** |
+| Cash | $4,605.71 (17.7%) — overweight post-CVX exit |
+| Invested | $21,357.34 (82.3%) |
+| Positions | 12 equity + BTC + UNH fractional + 737CVR019 (CVR) |
+| Today's activity | **1 action: CVX stop fired 09:30 ET** — 10 sh sold @ $181.50 / realized **-$104.20** on XLE -2.13% sector weakness. Autonomous stop @ $182 GTC executed cleanly. Manual /autopilot at 09:50 evaluated 8 Mercury-flagged tickers (C/MCD/UBER/LLY/ON/AMD/DDOG/NVDA), 0 new buys (Citi investor-day ROTCE disappointed; others either chased or no edge). |
+| Stop coverage | ✅ 11 active stops on 11 stoppable equity positions. Exempt: UNH (fractional), 737CVR019 (CVR), BTC. |
+| 🎯 Best held | **MU +21.1%** (3 sh post-trim, stop $634) · **INTC +14.8%** (target $115 = 3.4% away) · **CEG +15.0%** · **CVS +14.9%** · **UNH +27.0%** (frac) · **BTC +13.4%** ($80,346) |
+| Day P&L | **-$204.35 / -0.78%** vs Wed last $26,167.40 |
+| **Realized today** | **-$104.20** (CVX stop fire) |
 
 ---
 
@@ -36,10 +36,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6"],
+    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7"],
     datasets: [{
       label: 'Equity',
-      data: [20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80],
+      data: [20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80,25963.05],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -103,41 +103,43 @@ new Chart(ctx, {
 
 | Period | Start | End | Change | Notes |
 |--------|-------|-----|--------|-------|
-| **Today (May 6)** | $25,699.52 (Tues close) | $26,182.80 | **+1.88% (+$483)** | MU 3R trim +$112 realized; MU stop advanced 2× ($510→$603→$634); CVS stop advance on triple-bull-stack |
-| 1 Week | $25,093.43 (Apr 30) | $26,182.80 | **+4.3% (+$1,089)** | INTC sleeve buy 5/4 fired well (+17.4%); MU 3R harvest cycle; CVS Q1 catalyst stack |
-| **Since Agents (Mar 28)** | $20,489 | $26,182.80 | **+$5,694 (+27.8%)** | Excludes $3,000 Apr 23 deposit; agent P&L only ≈ +$2,694 (+13.1%) |
+| **Today (May 7, intraday)** | $26,167.40 (Wed last) | $25,963.05 | **-0.78% (-$204)** | CVX stop fired 09:30 ET (-$104 realized); semi cohort MRVL/TXN soft on broader semi rotation; 0 new buys after pipeline-discipline PASS on Citi (ROTCE disappointment) |
+| 1 Week | $25,251.27 (Apr 30) | $25,963.05 | **+2.8% (+$712)** | INTC sleeve buy +14.8%; MU 3R harvest cycle; CVS Q1 catalyst stack; CVX stopped out today |
+| **Since Agents (Mar 28)** | $20,489 | $25,963.05 | **+$5,474 (+26.7%)** | Excludes $3,000 Apr 23 deposit; agent P&L only ≈ +$2,474 (+12.1%) |
 
 **Honest framing:** Agent-driven trading P&L since Mar 28 = **+$2,694 (+13.1% in 39 days)**. The total-equity chart includes a $3,000 deposit on Apr 23 (purple dot).
 
 ---
 
-## Current Positions (13 equity + 1 frac + 1 crypto, EOD May 6)
+## Current Positions (12 equity + 1 frac + 1 crypto, intraday May 7)
 
 | Ticker | Shares | Entry | Last | P&L | P&L % | Stop | Buffer |
 |--------|--------|-------|------|-----|-------|------|--------|
-| **MU** | 3 | $541.11 | $670.69 | **+$389** | **+23.9%** 🎯 | $634 (NEW today) | -5.5% |
-| **INTC** | 12 | $96.85 | $113.74 | +$203 | **+17.4%** 🎯 | $100 | -12.1% |
-| **CEG** | 7 | $280.00 | $322.95 | +$301 | **+15.3%** | $290 | -10.2% |
-| **CVS** 🆕 | 27 | $75.83 | $86.86 | +$298 | **+14.5%** 🎯 | $82 (NEW today) | -5.6% |
-| **MRVL** | 9 | $159.54 | $172.50 | +$117 | +8.1% | $145 | -16.0% |
-| **CCI** | 20 | $84.31 | $90.24 | +$119 | +7.0% | $84.31 | -6.6% |
-| **TXN** | 5 | $272.83 | $289.44 | +$83 | +6.1% | $252.58 | -12.7% |
-| **NUE** | 9 | $223.00 | $233.68 | +$96 | +4.8% | $210 | -10.1% |
-| **BLK** | 2 | $1,057.92 | $1,073.57 | +$31 | +1.5% | $990 | -7.8% |
-| **MRK** | 18 | $112.47 | $113.56 | +$20 | +1.0% | $103.50 | -8.9% |
-| **NKE** | 44 | $45.29 | $43.76 | -$67 | -3.4% | $42.50 | -2.9% ⚠️ |
-| **CVX** | 10 | $191.92 | $185.08 | -$68 | -3.6% | $182 | -1.66% ⚠️ TIGHT |
-| **UNH** | 0.69 | $290.00 | $366.35 | +$53 | **+26.3%** | — frac | n/a |
-| **BTC** | 0.0034 | $70,867 | $81,614 | +$37 | **+15.2%** | — crypto | n/a |
+| **MU** | 3 | $541.11 | $655.46 | +$343 | **+21.1%** 🎯 | $634 | -3.4% TIGHT |
+| **CEG** | 7 | $280.00 | $322.42 | +$297 | **+15.0%** | $290 | -10.1% |
+| **CVS** | 27 | $75.83 | $87.13 | +$305 | **+14.9%** 🎯 | $82 | -5.9% |
+| **INTC** | 12 | $96.85 | $111.21 | +$172 | **+14.8%** 🎯 | $100 | -10.1% |
+| **CCI** | 20 | $84.31 | $91.05 | +$135 | +8.0% | $84.31 | -7.4% |
+| **TXN** | 5 | $272.83 | $283.56 | +$54 | +3.9% | $252.58 | -10.9% |
+| **MRVL** | 9 | $159.54 | $165.33 | +$52 | +3.6% | $145 | -12.3% |
+| **NUE** | 9 | $223.00 | $230.66 | +$69 | +3.4% | $210 | -8.9% |
+| **BLK** | 2 | $1,057.92 | $1,071.18 | +$27 | +1.3% | $990 | -7.6% |
+| **MRK** | 18 | $112.47 | $112.45 | -$0 | -0.0% | $103.50 | -8.0% |
+| **NKE** | 44 | $45.29 | $44.28 | -$44 | -2.2% | $42.50 | -4.0% |
+| **UNH** | 0.69 | $290.00 | $368.17 | +$54 | **+27.0%** | — frac | n/a |
+| **BTC** | 0.0034 | $70,867 | $80,346 | +$33 | **+13.4%** | — crypto | n/a |
 | 737CVR019 | 4.06 | $0 | (CVR) | — | — | — | — |
 
-**Total open unrealized P&L: +$1,712.** **Realized today: +$112.21** (MU trim).
+**Total open unrealized P&L: +$1,497.** **Realized today: -$104.20** (CVX stop fire).
 
-⚠️ **Tight-stop watch into Thursday open:**
-- **CVX** -1.66% buffer; -3.92% intraday on US-Iran/Hormuz oil weakness. If oil weakness extends overnight → accept stop trigger.
-- **NKE** -2.9% buffer; position recovering slowly (-3.4% on cost still). Worth widening if uptrend confirms.
+⚠️ **Tight-stop watch:**
+- **MU** -3.4% buffer post-3R-trim — ratchet design, acceptable for runner.
+- **NKE** -4.0% buffer (improved from yesterday's -2.9%); position recovering toward breakeven.
 
-🎯 **Trim trigger watch:** **INTC** thesis target $115 within 1.1% at close. If breached at open → 50% trim per Harvest Rule 2.
+🎯 **Trim trigger watch:** **INTC** target $115 = 3.4% away. If breached → 50% trim per Harvest Rule 2.
+
+🚪 **Closed today:**
+- **CVX** stop $182 GTC fired @ open print 09:30 ET, 10 sh @ $181.50 = **-$104.20 realized** on XLE -2.13% sector drag. Autonomous stop did its job.
 
 ---
 
@@ -145,47 +147,46 @@ new Chart(ctx, {
 
 | Sleeve | Target | Current Fill | Status | Members Held |
 |--------|-------:|-------------:|--------|--------------|
-| **semi_ai** | $6,546 (25%) | $6,377 (24.4%) | **WITHIN TARGET** (post-MU trim) | MRVL, TXN, MU (3 sh), INTC |
+| **semi_ai** | $6,491 (25%) | $6,206 (23.9%) | **WITHIN TARGET — 95.6% fill** | MRVL, TXN, MU (3 sh), INTC |
 
-Semi sleeve fell from 26.6% (over) to 24.4% (within) after MU 3R trim. Room for ~1 small add (FTNT/AMD/etc.) tomorrow if Phase 0.5 pipeline confirms.
+Sleeve dry powder: $285 (effectively none for new buys). Regime: HOT (recent Mercury alert cluster on semis). No actionable sleeve adds this run; revisit if a sleeve member dips meaningfully or sleeve consolidates back below 90%.
 
 ---
 
-## Allocation (EOD May 6)
+## Allocation (intraday May 7)
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| **Tech / Semi-AI sleeve** (MRVL, TXN, MU, INTC) | $6,377 | 24.4% (within target) |
-| Healthcare (MRK, CVS, UNH) | $4,642 | 17.7% |
-| Utility/Nuclear (CEG) | $2,261 | 8.6% |
-| Financials (BLK) | $2,147 | 8.2% |
-| Materials (NUE) | $2,103 | 8.0% |
-| Real Estate (CCI) | $1,805 | 6.9% |
-| Energy (CVX) | $1,851 | 7.1% (weakest today on Iran de-escalation) |
-| Consumer (NKE) | $1,925 | 7.4% |
-| Crypto (BTC) | $282 | 1.1% |
-| **Cash** | **$2,791** | **10.7%** ✅ |
+| **Tech / Semi-AI sleeve** (MRVL, TXN, MU, INTC) | $6,206 | 23.9% (within target) |
+| Healthcare (MRK, CVS, UNH) | $4,630 | 17.8% |
+| Utility/Nuclear (CEG) | $2,257 | 8.7% |
+| Financials (BLK) | $2,142 | 8.3% |
+| Materials (NUE) | $2,076 | 8.0% |
+| Consumer (NKE) | $1,948 | 7.5% |
+| Real Estate (CCI) | $1,821 | 7.0% |
+| Energy | **$0** | **0.0%** (CVX stopped out today; sector ZERO-WEIGHT) |
+| Crypto (BTC) | $277 | 1.1% |
+| **Cash** | **$4,606** | **17.7%** — overweight post-CVX exit |
 
 ---
 
-## Open Orders (13 active stops)
+## Open Orders (11 active stops)
 
 | Type | Ticker | Qty | Trigger | TIF | Notes |
 |------|--------|-----|---------|-----|-------|
-| Stop | **MU** 🆕 | 3 | **$634.00** | GTC | **NEW today (entry+3R, 4R milestone advance)** |
-| Stop | **CVS** 🆕 | 27 | **$82.00** | GTC | **NEW today (advanced from $75.83 breakeven on triple-bull stack)** |
-| Stop | INTC | 12 | $100.00 | GTC | T+1 placed 5/5 |
+| Stop | MU | 3 | $634.00 | GTC | Post-3R-advance (5/6); buffer -3.4% TIGHT |
+| Stop | CVS | 27 | $82.00 | GTC | Advanced 5/6 from $75.83 BE-lock on triple-bull |
+| Stop | INTC | 12 | $100.00 | GTC | Placed 5/6 backfill |
 | Stop | BLK | 2 | $990.00 | GTC | |
 | Stop | CEG | 7 | $290.00 | GTC | Above entry |
 | Stop | CCI | 20 | $84.31 | GTC | Breakeven-lock |
-| Stop | NKE | 44 | $42.50 | GTC | TIGHT buffer (-2.9%) |
+| Stop | NKE | 44 | $42.50 | GTC | Buffer -4.0% (improved from yesterday's -2.9%) |
 | Stop | MRK | 18 | $103.50 | GTC | |
 | Stop | MRVL | 9 | $145.00 | GTC | |
 | Stop | TXN | 5 | $252.58 | GTC | |
-| Stop | CVX | 10 | $182.00 | GTC | TIGHT buffer (-1.66%) |
 | Stop | NUE | 9 | $210.00 | GTC | |
 
-🚪 **Filled today:** MU 1 sh @ $653.32 (3R trim) — order `3708aa1a`. Realized +$112.21.
+🚪 **Filled today:** CVX 10 sh @ $181.50 (stop $182 GTC fire 09:30 ET) — order `a53e6278`. Realized **-$104.20**.
 
 ---
 
@@ -193,7 +194,8 @@ Semi sleeve fell from 26.6% (over) to 24.4% (within) after MU 3R trim. Room for 
 
 | Date | Ticker | Action | Realized | Notes |
 |------|--------|--------|---------:|-------|
-| **2026-05-06** | **MU** | 3R trim 1 sh @ $653.32 | **+$112.21 / +20.7%** | Entry 5/1 @ $541.11. Position 4 → 3 sh. Stop advanced to $634 (entry+3R) on 4R milestone breach. |
+| **2026-05-07** | **CVX** | Stop fired @ $181.50 (10 sh) | **-$104.20 / -5.4%** | Entry 4/30 @ $191.92. Stop $182 GTC fired at 09:30 ET open print on XLE -2.13% sector drag. Energy sector now zero-weight. |
+| 2026-05-06 | MU | 3R trim 1 sh @ $653.32 | +$112.21 / +20.7% | Entry 5/1 @ $541.11. Position 4 → 3 sh. Stop advanced to $634. |
 | 2026-05-04 | NVDA | Stop fired @ $194.885 (10 sh) | +$179.55 / +10.1% | Entry 3/9 @ $176.93 |
 | 2026-04-28 | INTC | Stop fired @ $81.50 (gap-down) | +$204 | Q1 blowout +29× then sleeve compression |
 | 2026-04-28 | LRCX | Stop fired @ $245.94 | -$86 | US Commerce Hua Hong tool-ban |
@@ -201,7 +203,22 @@ Semi sleeve fell from 26.6% (over) to 24.4% (within) after MU 3R trim. Room for 
 
 ---
 
-## Today's Mercury alert highlights (~50 alerts)
+## Today's Mercury alert highlights (40 alerts, May 7 09:40 drain)
+
+- **DDOG TRIPLE-BULL** — Q1 EPS $0.60 vs $0.51 (+17.6%) + Q2 guide above + FY26 raise (best single-name catalyst stack of drain) — tape +29.5% intraday, CHASED
+- **TPR DOUBLE-PRINT** — Q3 EPS $1.66 vs $1.30 (+27.7%) + FY26 guide raise to $6.95 vs $6.51 — but tape -9.2% (sell-the-news / dip-buy candidate tomorrow)
+- **C INVESTOR DAY** — $30B BUYBACK + ROTCE 11-13% (2027-28) / 14-15% (2029-31) — but headlines confirm market disappointed in pace; tape -0.2%
+- **MCD** — Q1 EPS $2.83 vs $2.74 + global comp +3.8% / system +11% (under-reacted, tape +0.4%)
+- **FTNT TRIPLE** — Q1 BEAT + Q2 guide above + FY26 raise; tape +22.9% (chased)
+- **U** — Q1 EPS $0.23 vs $(0.23) **swing-to-profit**; tape +8.6%
+- **ZTS DOUBLE-BEAR** — Q1 miss + FY26 guide CUT; tape -21% (clean bear)
+- **ON** — $1.3B 0% conv at 52.5% premium (sleeve member; tape -2.6% on dilution worry)
+- **AMD/RXT** — sovereign-cloud MOU (regulated/financial/defense TAM)
+- **NVDA** — SpaceX + Anthropic both committing to GB300
+- **AAPL/AMZN/GOOGL/MSFT BEAR** — EU cloud-sovereignty restriction multi-name
+- **LLY** — $4.5B Indiana capex (GLP-1 supply); tape -1.3%
+
+### Yesterday's Mercury highlights (May 6 EOD ~50 alerts)
 
 - **AMD analyst-upgrade cluster** — 9 shops same day, PT range $430-$525 (Goldman/Stifel/Seaport/Bernstein/Truist/Rosenblatt/Benchmark/Barclays/TD Cowen)
 - **Earnings/M&A wave** — 10 deals ~$77B+ aggregate cross-sector (Sysco-Restaurant Depot $29B, Shell-Canadian $14B, Organon-Sun Pharma $13B, KDP-coffee $18B closed, Bayer-Perfuse $2.45B, AMETEK $5B, Lattice-AMI $1.65B, WES-Delaware $1.6B, Sony-Music $4B, Compass-Anywhere)
@@ -217,21 +234,31 @@ Semi sleeve fell from 26.6% (over) to 24.4% (within) after MU 3R trim. Room for 
 
 ---
 
-## Tomorrow's autopilot_morning watchlist (top deferred)
+## Today's autopilot watchlist additions (May 7 manual fire)
+
+| Score | Ticker | Catalyst | Action | Re-eval Trigger |
+|------:|--------|----------|--------|-----------------|
+| 85.5 | **C** | $30B buyback + investor-day ROTCE roadmap | **WATCH** | Pull below $120 OR ROTCE acceleration in Q2 |
+| 82.5 | **MCD** | Q1 beat + comp accel | **WATCH** | Pullback to $280 zone |
+| 79.5 | **LLY** | $4.5B Indiana capex | **WATCH** | Dip below $950 |
+| 77.8 | **UBER** | Ulta partnership + DASH cohort | **WATCH** | Q1 print or 5%+ pullback |
+| 70.8 | **ON** | $1.3B 0% conv (sleeve member) | **WATCH** | Sleeve room opens OR sub-$100 |
+| (bear) | **TPR** | Q3 +27.7% beat + FY26 raise but **tape -9.2%** | **WATCH (DIP-BUY candidate)** | Tape stabilizes tomorrow + quality intact |
+| (bear) | **ZTS** | Q1 miss + FY26 cut, tape -21% | **AVOID** | Genuine fundamental miss; not a dip-buy |
+
+### Yesterday's deferred watchlist (still active)
 
 | Score est | Ticker | Catalyst | Notes |
 |-----------|--------|----------|-------|
-| 92 | **FTNT** | Quintuple-positive Q1 cycle (print + Q2 guides + FY26 EPS + FY26 sales raise) | Cybersecurity mega-cap; pipeline-ready |
-| 88 | **OGN** | $13B Sun Pharma sweetened takeover (+31%) | Takeover-arb shape, small position |
-| 88 | **NBIS** | Eigen AI acquisition + META partnership (record highs) | AI-infra mid-cap |
-| 85 | **DIS** | Q2 quadruple-positive (print + buyback + FY26 + FY27 guides) | Media mega-cap |
-| 80 | **NVO** | Q1 +36% sales beat + FY26 guide raise + China moat | Pharma; sleeve room |
-| 80 | **MET** | Q1 +23.47% YoY EPS beat | Insurance |
+| 92 | **FTNT** | Quintuple-positive Q1 cycle | Already +22.9% today (chased — fade risk) |
+| 88 | **OGN** | $13B Sun Pharma takeover | Takeover-arb shape, small position |
+| 88 | **NBIS** | Eigen AI + META partnership | AI-infra mid-cap |
+| 85 | **DIS** | Q2 quadruple-positive | Media mega-cap |
+| 80 | **NVO** | Q1 +36% sales beat | Pharma |
 | 78 | **SHOP** | Q1 +34% YoY revenue + analyst PT raise | E-commerce/SaaS |
-| 78 | **ARVN** | FDA breast cancer approval a month early (+10%) | Biotech (small only) |
-| 75 | **MRNA** | Phase 3 mRNA-1010 NEJM publication + 4-jurisdiction filings | Counter-narrative to vaccine policy bears |
-| 75 | **TEM** | Q1 +36.1% revenue beat + FY26 raise + multi-pharma partnerships | AI-diagnostics |
+| 75 | **MRNA** | Phase 3 mRNA-1010 NEJM publication | Counter-narrative to vaccine policy bears |
+| 75 | **TEM** | Q1 +36.1% revenue beat + FY26 raise | AI-diagnostics |
 
 ---
 
-*Auto-generated by autopilot day recap; published to Buzzie-AI/trader-journal at 2026-05-06 18:38 ET.*
+*Auto-generated by manual /autopilot fire; published to Buzzie-AI/trader-journal at 2026-05-07 09:58 ET.*
