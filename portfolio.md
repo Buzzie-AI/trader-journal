@@ -5,20 +5,20 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-07 9:57 AM ET (Thursday — manual /autopilot fire; CVX stopped out at open, 0 new buys, 6 tickers watchlisted)*
+*Last updated: 2026-05-07 4:22 PM ET (Thursday EOD — autopilot_close delayed-late after 3/3 cron-misses today. Day -$383 / -1.46%; CVX stop fire AM (-$104 realized); semi cohort drag (MRVL -6.93%, CEG -3.51%); DIS BUY proposal expired with no operator confirm; TONS of post-close earnings prints (BILL QUAD-bull / AFRM TRIPLE / DKNG op-leverage / WYNN+ABNB+MAR sell-the-news / TTD-COIN catastrophic / NVDA GS estimate raise) — autopilot_morning tomorrow will have a feast.)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$25,963.05** |
-| Cash | $4,605.71 (17.7%) — overweight post-CVX exit |
-| Invested | $21,357.34 (82.3%) |
+| **Portfolio Value** | **$25,784.29** |
+| Cash | $4,605.71 (17.9%) — still overweight, no deployment today |
+| Invested | $21,178.58 (82.1%) |
 | Positions | 12 equity + BTC + UNH fractional + 737CVR019 (CVR) |
-| Today's activity | **1 action: CVX stop fired 09:30 ET** — 10 sh sold @ $181.50 / realized **-$104.20** on XLE -2.13% sector weakness. Autonomous stop @ $182 GTC executed cleanly. Manual /autopilot at 09:50 evaluated 8 Mercury-flagged tickers (C/MCD/UBER/LLY/ON/AMD/DDOG/NVDA), 0 new buys (Citi investor-day ROTCE disappointed; others either chased or no edge). |
+| Today's activity | **1 action: CVX stop fired 09:30 ET** — 10 sh sold @ $181.50 / realized **-$104.20** on XLE -2.13% sector weakness. 0 new buys despite full-pipeline DIS BUY recommendation (op AFK, 1h proposal timeout). 60+ Mercury alerts processed, 8 watchlisted for tomorrow. |
 | Stop coverage | ✅ 11 active stops on 11 stoppable equity positions. Exempt: UNH (fractional), 737CVR019 (CVR), BTC. |
-| 🎯 Best held | **MU +21.1%** (3 sh post-trim, stop $634) · **INTC +14.8%** (target $115 = 3.4% away) · **CEG +15.0%** · **CVS +14.9%** · **UNH +27.0%** (frac) · **BTC +13.4%** ($80,346) |
-| Day P&L | **-$204.35 / -0.78%** vs Wed last $26,167.40 |
+| 🎯 Best held | **MU +19.6%** (3 sh, stop $634, **buffer 2.0% TIGHT**) · **CVS +15.2%** (analyst PT cluster post-Q1) · **INTC +13.8%** (target $115 = 4.4% above) · **CEG +11.2%** (-3.5% today on AI-power pullback) · **UNH +27.5%** (frac) · **BTC +13.2%** ($80,228) |
+| Day P&L | **-$383.11 / -1.46%** vs Wed last $26,167.40 |
 | **Realized today** | **-$104.20** (CVX stop fire) |
 
 ---
@@ -39,7 +39,7 @@ new Chart(ctx, {
     labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7"],
     datasets: [{
       label: 'Equity',
-      data: [20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80,25963.05],
+      data: [20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80,25784.29],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -103,7 +103,7 @@ new Chart(ctx, {
 
 | Period | Start | End | Change | Notes |
 |--------|-------|-----|--------|-------|
-| **Today (May 7, intraday)** | $26,167.40 (Wed last) | $25,963.05 | **-0.78% (-$204)** | CVX stop fired 09:30 ET (-$104 realized); semi cohort MRVL/TXN soft on broader semi rotation; 0 new buys after pipeline-discipline PASS on Citi (ROTCE disappointment) |
+| **Today (May 7 EOD)** | $26,167.40 (Wed last) | $25,784.29 | **-1.46% (-$383)** | CVX stop fired 09:30 ET (-$104 realized); semi cohort MRVL -6.93% led drag (OpenAI-AVGO $18B snag + ARM supply wall narrative); CEG -3.51% AI-power pullback; 0 new buys (DIS BUY proposal expired with no operator confirm) |
 | 1 Week | $25,251.27 (Apr 30) | $25,963.05 | **+2.8% (+$712)** | INTC sleeve buy +14.8%; MU 3R harvest cycle; CVS Q1 catalyst stack; CVX stopped out today |
 | **Since Agents (Mar 28)** | $20,489 | $25,963.05 | **+$5,474 (+26.7%)** | Excludes $3,000 Apr 23 deposit; agent P&L only ≈ +$2,474 (+12.1%) |
 
@@ -111,32 +111,32 @@ new Chart(ctx, {
 
 ---
 
-## Current Positions (12 equity + 1 frac + 1 crypto, intraday May 7)
+## Current Positions (12 equity + 1 frac + 1 crypto, EOD May 7)
 
 | Ticker | Shares | Entry | Last | P&L | P&L % | Stop | Buffer |
 |--------|--------|-------|------|-----|-------|------|--------|
-| **MU** | 3 | $541.11 | $655.46 | +$343 | **+21.1%** 🎯 | $634 | -3.4% TIGHT |
-| **CEG** | 7 | $280.00 | $322.42 | +$297 | **+15.0%** | $290 | -10.1% |
-| **CVS** | 27 | $75.83 | $87.13 | +$305 | **+14.9%** 🎯 | $82 | -5.9% |
-| **INTC** | 12 | $96.85 | $111.21 | +$172 | **+14.8%** 🎯 | $100 | -10.1% |
-| **CCI** | 20 | $84.31 | $91.05 | +$135 | +8.0% | $84.31 | -7.4% |
-| **TXN** | 5 | $272.83 | $283.56 | +$54 | +3.9% | $252.58 | -10.9% |
-| **MRVL** | 9 | $159.54 | $165.33 | +$52 | +3.6% | $145 | -12.3% |
-| **NUE** | 9 | $223.00 | $230.66 | +$69 | +3.4% | $210 | -8.9% |
-| **BLK** | 2 | $1,057.92 | $1,071.18 | +$27 | +1.3% | $990 | -7.6% |
-| **MRK** | 18 | $112.47 | $112.45 | -$0 | -0.0% | $103.50 | -8.0% |
-| **NKE** | 44 | $45.29 | $44.28 | -$44 | -2.2% | $42.50 | -4.0% |
-| **UNH** | 0.69 | $290.00 | $368.17 | +$54 | **+27.0%** | — frac | n/a |
-| **BTC** | 0.0034 | $70,867 | $80,346 | +$33 | **+13.4%** | — crypto | n/a |
+| **MU** | 3 | $541.11 | $647.00 | +$318 | **+19.6%** 🎯 | $634 | **-2.0% TIGHT** ⚠️ |
+| **CVS** | 27 | $75.83 | $87.36 | +$311 | **+15.2%** 🎯 | $82 | -6.5% |
+| **INTC** | 12 | $96.85 | $110.20 | +$160 | **+13.8%** | $100 | -9.3% |
+| **CEG** | 7 | $280.00 | $311.46 | +$220 | **+11.2%** | $290 | -6.9% (down from -10.1% mid-day) |
+| **CCI** | 20 | $84.31 | $91.07 | +$135 | +8.0% | $84.31 | -7.4% |
+| **TXN** | 5 | $272.83 | $286.00 | +$66 | +4.8% | $252.58 | -11.7% |
+| **NUE** | 9 | $223.00 | $226.70 | +$33 | +1.7% | $210 | -7.4% |
+| **BLK** | 2 | $1,057.92 | $1,067.74 | +$20 | +0.9% | $990 | -7.3% |
+| **MRVL** | 9 | $159.54 | $160.22 | +$6 | +0.4% | $145 | -9.5% (-6.93% intraday biggest drag) |
+| **MRK** | 18 | $112.47 | $112.30 | -$3 | -0.1% | $103.50 | -7.8% |
+| **NKE** | 44 | $45.29 | $44.50 | -$35 | -1.7% | $42.50 | -4.5% |
+| **UNH** | 0.69 | $290.00 | $369.74 | +$55 | **+27.5%** | — frac | n/a |
+| **BTC** | 0.0034 | $70,867 | $80,228 | +$32 | **+13.2%** | — crypto | n/a |
 | 737CVR019 | 4.06 | $0 | (CVR) | — | — | — | — |
 
-**Total open unrealized P&L: +$1,497.** **Realized today: -$104.20** (CVX stop fire).
+**Total open unrealized P&L: +$1,318.** **Realized today: -$104.20** (CVX stop fire).
 
-⚠️ **Tight-stop watch:**
-- **MU** -3.4% buffer post-3R-trim — ratchet design, acceptable for runner.
-- **NKE** -4.0% buffer (improved from yesterday's -2.9%); position recovering toward breakeven.
+⚠️ **Tight-stop watch into Friday:**
+- **MU** -2.0% buffer post-3R-trim — TIGHTEST in book. Overnight gap-risk to $634. Acceptable since 3R-trim already locked in profits.
+- **NKE** -4.5% buffer; position recovering ($43.88 → $44.50 today).
 
-🎯 **Trim trigger watch:** **INTC** target $115 = 3.4% away. If breached → 50% trim per Harvest Rule 2.
+🎯 **Trim trigger watch:** **INTC** target $115 = 4.4% above $110.20 close. Tomorrow watch.
 
 🚪 **Closed today:**
 - **CVX** stop $182 GTC fired @ open print 09:30 ET, 10 sh @ $181.50 = **-$104.20 realized** on XLE -2.13% sector drag. Autonomous stop did its job.
