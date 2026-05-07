@@ -13,9 +13,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $25,963 (-0.78% intraday)
+## Portfolio — $25,784 (-1.46% session)
 
-*Updated: 2026-05-07 9:58 AM ET (Thursday — manual /autopilot fire after autopilot_morning cron-miss. **CVX stopped out 09:30 ET @ $181.50 = -$104 realized** on XLE -2.13% sector drag. Manual run scored 8 Mercury catalysts; Iris news-fetch on Citi revealed investor-day ROTCE was actually a NET-NEGATIVE despite $30B buyback headline — pipeline discipline saved a misread under-reaction buy. **0 new trades. 6 watchlisted (C/MCD/UBER/LLY/ON for buys; TPR for dip-buy candidate).**)*
+*Updated: 2026-05-07 4:23 PM ET (Thursday EOD — autopilot_close fired 28min late after 3/3 cron-miss day. **Day -$383 / -1.46%** vs Wed last $26,167.40. CVX stop fired AM (-$104), MRVL -6.93% biggest drag, semi cohort soft on OpenAI-AVGO snag + ARM supply wall. Pipeline-discipline saved misread C buy AM; DIS BUY proposal expired at 1h timeout (op AFK). **Massive post-close earnings wave: BILL QUAD-bull, AFRM TRIPLE, DKNG operating-leverage, NVDA GS pre-earnings estimate raise** — autopilot_morning tomorrow has rich Phase 0.5 input.)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
