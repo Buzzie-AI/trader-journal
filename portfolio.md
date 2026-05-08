@@ -5,21 +5,21 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-07 4:22 PM ET (Thursday EOD — autopilot_close delayed-late after 3/3 cron-misses today. Day -$383 / -1.46%; CVX stop fire AM (-$104 realized); semi cohort drag (MRVL -6.93%, CEG -3.51%); DIS BUY proposal expired with no operator confirm; TONS of post-close earnings prints (BILL QUAD-bull / AFRM TRIPLE / DKNG op-leverage / WYNN+ABNB+MAR sell-the-news / TTD-COIN catastrophic / NVDA GS estimate raise) — autopilot_morning tomorrow will have a feast.)*
+*Last updated: 2026-05-08 10:08 AM ET (Friday morning — autopilot_morning delayed-late at 09:57 fired **3 autonomous trades** under new policy: WhatsApp inform-only, pipeline executes autonomously. **INTC TRIM 50% target-hit @ $116.37 = +$117 realized**; **MU stop ratchet $634→$665** (entry+4R locks +$372 if reverses); **BILL BUY 64 sh @ $40.17 = $2,571** (quad-bull catalyst, +7.7% tape confirming). Day +1.42% / +$365. Sleeve cohort surging on HBM thesis activation: MU +9.1%, INTC +4.5% (target hit), MRVL +3.7%, TXN +1.8%.)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$25,784.29** |
-| Cash | $4,605.71 (17.9%) — still overweight, no deployment today |
-| Invested | $21,178.58 (82.1%) |
-| Positions | 12 equity + BTC + UNH fractional + 737CVR019 (CVR) |
-| Today's activity | **1 action: CVX stop fired 09:30 ET** — 10 sh sold @ $181.50 / realized **-$104.20** on XLE -2.13% sector weakness. 0 new buys despite full-pipeline DIS BUY recommendation (op AFK, 1h proposal timeout). 60+ Mercury alerts processed, 8 watchlisted for tomorrow. |
-| Stop coverage | ✅ 11 active stops on 11 stoppable equity positions. Exempt: UNH (fractional), 737CVR019 (CVR), BTC. |
-| 🎯 Best held | **MU +19.6%** (3 sh, stop $634, **buffer 2.0% TIGHT**) · **CVS +15.2%** (analyst PT cluster post-Q1) · **INTC +13.8%** (target $115 = 4.4% above) · **CEG +11.2%** (-3.5% today on AI-power pullback) · **UNH +27.5%** (frac) · **BTC +13.2%** ($80,228) |
-| Day P&L | **-$383.11 / -1.46%** vs Wed last $26,167.40 |
-| **Realized today** | **-$104.20** (CVX stop fire) |
+| **Portfolio Value** | **~$26,250** (intraday post-trades) |
+| Cash | ~$2,732 (10.4%) — post-INTC trim + BILL buy |
+| Invested | ~$23,500 (89.6%) |
+| Positions | **13 equity** (added BILL) + BTC + UNH fractional + 737CVR019 (CVR) |
+| Today's activity | **3 ACTIONS EXECUTED autonomously**: (1) **INTC TRIM** 6 sh @ $116.37 / realized **+$117.15** (target $115 hit); (2) **MU STOP RATCHET** $634→$665 (entry+4R locks +$372 if reverses); (3) **BILL BUY** 64 sh @ $40.17 = $2,571 (quad-bull catalyst-buy, +7.7% tape confirming). |
+| Stop coverage | ✅ 12 active stops on 12 stoppable equity positions (incl new INTC $108 on remaining 6 sh, MU $665, BILL $36). |
+| 🎯 Best held | **MU +30.4%** (3 sh, stop $665 NEW = entry+4R) · **INTC +18.2%** (6 sh remaining post-trim, stop $108 NEW) · **CVS +17.3%** · **CEG +11.4%** · **UNH +28.8%** (frac) · **BTC +12.4%** |
+| Day P&L | **+$365 / +1.42%** vs Wed last $25,768 (pre-trade) |
+| **Realized today** | **+$117.15** (INTC target trim 50%) |
 
 ---
 
