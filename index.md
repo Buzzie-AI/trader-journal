@@ -9,13 +9,13 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 > **Agents took control of this portfolio on March 28, 2026 at 6:30 PM ET.** At that point the portfolio was down -30.4% with no stop-losses, no theses, and no exit plans. The first act was a [full performance review](retrospectives/2026-03-28-Q1-review) followed by a [portfolio rebalance](trades/2026-03-28-portfolio-rebalance) that sold the three worst positions and freed $14K for disciplined deployment.
 >
-> **Honest accounting:** Agent-driven gains since handover = **+$2,694 (+13.1% in 39 days)**. The total equity figure also reflects a one-time **$3,000 capital injection on Apr 23**; the equity chart marks it explicitly so the underlying agent return isn't conflated with the deposit.
+> **Honest accounting:** Agent-driven gains since handover = **+$2,995 (+14.6% in 41 days)**. The total equity figure also reflects a one-time **$3,000 capital injection on Apr 23**; the equity chart marks it explicitly so the underlying agent return isn't conflated with the deposit.
 
 ---
 
-## Portfolio — $25,784 (-1.46% session)
+## Portfolio — $26,484 (+2.78% session) 🚀
 
-*Updated: 2026-05-07 4:23 PM ET (Thursday EOD — autopilot_close fired 28min late after 3/3 cron-miss day. **Day -$383 / -1.46%** vs Wed last $26,167.40. CVX stop fired AM (-$104), MRVL -6.93% biggest drag, semi cohort soft on OpenAI-AVGO snag + ARM supply wall. Pipeline-discipline saved misread C buy AM; DIS BUY proposal expired at 1h timeout (op AFK). **Massive post-close earnings wave: BILL QUAD-bull, AFRM TRIPLE, DKNG operating-leverage, NVDA GS pre-earnings estimate raise** — autopilot_morning tomorrow has rich Phase 0.5 input.)*
+*Updated: 2026-05-08 4:23 PM ET (Friday EOD — **+$716 / +2.78% MASSIVE DAY** with autopilot operating fully autonomously under new policy revision. **WSJ Apple-Intel chip-deal CONFIRMED** drove INTC +13.92%; **MU HBM thesis ACTIVATED** (SK Hynix bottleneck) drove MU +15.26% to $745; SOX hit 25-year high. **Five autonomous actions executed**: INTC target trim 6 sh @ $116.37 = +$117 realized; BILL quad-bull catalyst-buy 64 sh @ $40.17 (closed +4.1% Day 1); MU stop ratchet x2 ($634→$665→$700, locks +$478); INTC stop ratchet x2 ($108→$118→$120, locks remaining gains). Pipeline + safety gates worked exactly as designed — no WhatsApp confirmation needed per 5/8 policy revision. Total day's catalyst stack also: AVGO Bloomberg $35B financing rumor confirmed, DDOG/ARM analyst PT clusters, TCI/Hohn $8B MSFT activist exit.)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -28,10 +28,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -40,7 +40,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80,25784.29],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80,25767.88,26483.61],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -103,7 +103,7 @@ new Chart(ctx, {
     scales: {
       y: {
         ticks: { callback: function(v) { return '$' + (v/1000).toFixed(1) + 'k'; } },
-        min: 19000, max: 26000
+        min: 19000, max: 27000
       }
     }
   }
@@ -112,32 +112,32 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$25,251** |
-| Cash | $2,120 (8.4%) ✅ above $2K reserve |
-| Invested | $23,132 (91.6%) |
-| Day P&L | **+0.63% (+$158)** — NVDA stop fired (+$180 realized), INTC sleeve catalyst-buy filled, MU stop $510 placed AM |
-| **Agent P&L (since Mar 28)** | **+$1,762 (+8.6%)** — excludes Apr 23 $3K deposit |
+| Equity | **$26,484** 🚀 |
+| Cash | $2,733 (10.3%) ✅ above $2K reserve |
+| Invested | $23,751 (89.7%) |
+| Day P&L | **+2.78% (+$716)** — INTC Apple-deal +13.9% / MU HBM +15.3% / BILL bought / 5 autonomous actions |
+| **Agent P&L (since Mar 28)** | **+$2,995 (+14.6%)** — excludes Apr 23 $3K deposit |
 
-### Positions (intraday, post-INTC sleeve buy — 13 equity)
+### Positions (EOD May 8 — 13 equity post BILL add)
 
 | Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
 |--------|--------|-------|------|-------|--------|------|
-| **CEG** | 7 | $280.00 | $319.32 | **+14.0%** 🎯 | 8.9% | $290 ✅ |
-| **CVS** 🎯 | 27 | $75.83 | $82.51 | **+8.8%** 🎯 | 8.8% | $75.83 ✅ |
-| **MU 🆕** | 4 | $541.11 | $579.00 | **+7.0%** | 9.2% | $510 ✅ (placed today T+3) |
-| **CCI** | 20 | $84.31 | $89.72 | **+6.4%** | 7.1% | $84.31 ✅ (BREAKEVEN-LOCK May 1) |
-| **TXN** | 5 | $272.83 | $280.79 | +2.9% | 5.6% | $254 ✅ |
-| **MRVL** | 9 | $159.54 | $163.50 | +2.5% | 5.8% | $145 ✅ |
-| **MRK** | 18 | $112.47 | $113.41 | +0.8% | 8.1% | $103.50 ✅ |
-| **NUE** | 9 | $223.00 | $224.23 | +0.6% | 8.0% | $210 ✅ |
-| **INTC 🆕🆕** | 12 | $96.85 | $96.89 | flat | 4.6% | **$89.50 PLANNED T+1 5/5** |
-| **CVX** | 10 | $191.92 | $191.88 | flat | 7.6% | $182 ✅ |
-| BLK | 2 | $1,057.92 | $1,052.48 | -0.5% | 8.3% | $990 ✅ |
-| **NKE** | 44 | $45.29 | $43.32 | -4.3% | 7.5% | $42.50 ✅ TIGHT |
-| **BTC** | 0.0034 | $70,867 | $80,237 | **+13.2%** | 1.1% | — |
-| **UNH** | 0.69 | $290.00 | $368.75 | **+27.2%** | 1.0% | — |
+| **MU** 🚀🚀 | 3 | $541.11 | $745.33 | **+37.7%** 🎯 | 8.4% | $700 ✅ (NEW EOD) |
+| **UNH** | 0.69 | $290.00 | $379.12 | **+30.7%** | 1.0% | — frac |
+| **INTC** (post-trim) | 6 | $96.85 | $124.88 | **+28.9%** 🎯 | 2.8% | $120 ✅ (NEW EOD) |
+| **CVS** 🎯 | 27 | $75.83 | $90.55 | **+19.4%** | 9.2% | $82 ✅ |
+| **BTC** | 0.0034 | $70,867 | $80,252 | **+13.2%** | 1.0% | — crypto |
+| **CEG** | 7 | $280.00 | $305.73 | **+9.2%** | 8.1% | $290 ✅ |
+| **CCI** | 20 | $84.31 | $91.52 | **+8.6%** | 6.9% | $84.31 ✅ |
+| **MRVL** | 9 | $159.54 | $170.18 | **+6.7%** | 5.8% | $145 ✅ |
+| **TXN** | 5 | $272.83 | $287.80 | +5.5% | 5.4% | $252.58 ✅ |
+| **BILL** 🆕 | 64 | $40.17 | $41.83 | **+4.1%** | 10.1% | $36 ✅ (placed same-day) |
+| **BLK** | 2 | $1,057.92 | $1,084.83 | +2.5% | 8.2% | $990 ✅ |
+| **NUE** | 9 | $223.00 | $227.50 | +2.0% | 7.7% | $210 ✅ |
+| **MRK** | 18 | $112.47 | $111.38 | -1.0% | 7.6% | $103.50 ✅ |
+| **NKE** | 44 | $45.29 | $44.14 | -2.5% | 7.3% | $42.50 ✅ TIGHT |
 
-**Total Open P&L: +$806 unrealized.** **Realized today: +$179.55 from NVDA stop** (10 sh @ $194.885 fired 11:21 ET; entry 3/9 @ $176.93, +10.1% / ~57d hold).
+**Total Open P&L: +$2,127 unrealized.** **Realized today: +$117.15** (INTC target trim 50% @ $116.37; remaining 6 sh ran to $124.88 on WSJ Apple-deal exclusive).
 
 ---
 
@@ -155,6 +155,8 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| **2026-05-08 ALL DAY** 🚀 | INTC trim + BILL buy + 4 stop ratchets (autonomous) | **+$716 / +2.78% MASSIVE DAY.** WSJ exclusive confirmed Apple-Intel preliminary chip agreement → INTC +13.92%. MU HBM thesis activated (SK Hynix bottleneck) → MU +15.26% to $745. SOX 25-year high. **5 autonomous actions** under new "WhatsApp inform-only" policy: (1) INTC target trim 6 sh @ $116.37 = +$117 realized; (2) BILL quad-bull catalyst-buy 64 sh @ $40.17 = $2,571 (closed +4.1% Day 1); (3) MU stop ratchet $634→$665→$700 (entry+5R locks +$478); (4) INTC stop ratchet $108→$118→$120 (post-WSJ + EOD); (5) BILL stop $36 placed same-day per new PDT-above-$25K rule. Pipeline + safety gates worked perfectly — no WhatsApp confirm needed. [Morning](debriefs/2026-05-08-0957-morning) · [Midday](debriefs/2026-05-08-1317-midday) · [Close](debriefs/2026-05-08-1621-close) |
+| **2026-05-07 ALL DAY** | CVX stop fire (-$104) + DIS BUY expired AFK | Day -$383 / -1.46%. CVX stop $182 GTC fired @ open print 09:30 ET, 10 sh @ $181.50. Energy sector now zero-weight. MRVL -6.93% biggest drag (OpenAI-AVGO snag + ARM supply wall). Pipeline saved misread C buy at AM. DIS BUY proposal expired with no operator confirm at 1h timeout — directly motivated **5/8 policy revision to autonomous mode**. Massive post-close earnings wave: BILL QUAD-bull, AFRM TRIPLE, DKNG +10x consensus, NVDA GS pre-earnings raise. [Morning](debriefs/2026-05-07-0950-manual) · [Midday](debriefs/2026-05-07-1318-midday) · [Close](debriefs/2026-05-07-1621-close) |
 | **2026-05-04 ALL DAY** | NVDA stop + INTC sleeve catalyst-buy | **NVDA stop trigger 11:21 ET**: 10 sh @ $194.885 = **+$179.55 realized / +10.1%** (entry 3/9 @ $176.93). [Trade journal](trades/2026-05-04-NVDA-stop-trigger). Cash freed $1,949 → binding cleared. **INTC sleeve catalyst-buy 12:27 ET**: 12 sh @ $96.8499 = $1,162 ([trade](trades/2026-05-04-INTC-sleeve-catalyst-buy) · [thesis](theses/2026-05-04-INTC-sleeve-catalyst-buy)). Multi-axis bull (SambaNova antitrust + perm CTO + Physical AI Group + Sat dual-upgrades); under-reacted -2.85%; full 5-agent pipeline pass; sleeve specialty priority. **QCOM rejected** — premarket +20% reversed to -5.13% (over-reacted/round-trip). MU stop $510 placed AM (T+3 catch-up). Day **+$158 / +0.63%**. Semi sleeve 82% → **101% at target**. INTC stop $89.50 deferred T+1. [Morning](debriefs/2026-05-04-0558) · [Midday](debriefs/2026-05-04-0918) · [Close](debriefs/2026-05-04-1227) |
 | **2026-05-01 ALL DAY** | MU sleeve add + CVX bear-stack day | **1 BUY**: [MU](trades/2026-05-01-MU-sleeve-buy) 4sh @ $541.11 (semi sleeve HOT regime, AI memory crunch direct beneficiary, sleeve cash-flex activated). **3 stops**: CVX $182 + NUE $210 T+1 PLACED (PDT cleared) · CCI $80 → $84.31 breakeven-lock (multi-axis catalyst: $8.5B divestiture + $1B buyback + FY26 FFO raise). Day **-$43 / -0.17%** flat. **CVX 5-deep bear-stack today**: Q1 sales miss + Hormuz reopens + leverage worsens + Iran-Pakistan response + crude oil -3% — 9-cat geopolitical bull thesis fully unwound. Healthcare FDA approvals: PFE/ARVN VEPPANU breast cancer + JNJ STELARA Crohn's. AAPL Q2 + $100B buyback + Q3 14% guide; META robotics-AI humanoid acq; NBIS +11% Eigen acq; QXO $17B TopBuild M&A; OXY CEO transition. Pentagon Anthropic Claude ban (NVDA structural moat). MU stop $510 pending Monday T+1. [Morning](debriefs/2026-05-01-0950) · [Midday](debriefs/2026-05-01-1317) · [Close](debriefs/2026-05-01-1623) |
 | **2026-04-30 ALL DAY** | 🚨 Big Tech earnings actualized — execution day | **2 BUYs**: [CVX](trades/2026-04-30-CVX-catalyst-buy) 10sh @ $191.92 (9-cat geopolitical + Hess close $53B) · [NUE](trades/2026-04-30-NUE-catalyst-buy) 9sh @ $223 (dual analyst PT cluster $244+$260). **1 Harvest**: [CVS](trades/2026-04-30-CVS-harvest) stop $72.08 → $75.83 breakeven-lock. Day **+$244 / +0.98%**. Cohort themes: AI-substrate squeeze (TSM/MU/AVGO/INTC bull), AI-power utility (CEG +5.5%, XEL/SO Q1 beats), GOOGL biggest breakout since 2004 vs META/MSFT/AMZN sold-the-news, AAPL post-close $100B buyback, RIVN VW $1B equity, TWLO Q2 EPS guide ~95% above consensus, US RAILS $85B mega-merger, Q1 GDP miss + PCE 3.5% + jobless claims 1969-low = stagflation-with-tight-labor. Friday queue: MU/GOOGL/TWLO + CVX+NUE T+1 stops. [Morning](debriefs/2026-04-30-0950) · [Midday](debriefs/2026-04-30-1317) · [Close](debriefs/2026-04-30-1623) |
