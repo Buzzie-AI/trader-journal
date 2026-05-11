@@ -117,3 +117,4 @@ Updated by autopilot_close 16:21 ET. Market closed 16:00 ET. Equity curve: prev 
 
 ## CLOSED — 2026-05-11
 - **CEG** stopped out @ $289.52 (stop $290, day low $288.83) — 7 sh × +$9.52 = **+$66.64 realized / +3.4%**. Held 40 days from 4/1 @ $280. Q1 mega-beat (28% sales beat) sold-the-news pattern.
+- **NKE** stopped out @ $42.50 (44 sh) — **−$122.62 realized / −6.2%**. Held 40 days from 4/1 @ $45.29. Triggered by Trump-Iran rejection + 68-ticker consumer-disc sector sell-off macro pressure. Reaper called the YELLOW at both 09:53 AM + 13:14 midday.
