@@ -118,3 +118,16 @@ Updated by autopilot_close 16:21 ET. Market closed 16:00 ET. Equity curve: prev 
 ## CLOSED — 2026-05-11
 - **CEG** stopped out @ $289.52 (stop $290, day low $288.83) — 7 sh × +$9.52 = **+$66.64 realized / +3.4%**. Held 40 days from 4/1 @ $280. Q1 mega-beat (28% sales beat) sold-the-news pattern.
 - **NKE** stopped out @ $42.50 (44 sh) — **−$122.62 realized / −6.2%**. Held 40 days from 4/1 @ $45.29. Triggered by Trump-Iran rejection + 68-ticker consumer-disc sector sell-off macro pressure. Reaper called the YELLOW at both 09:53 AM + 13:14 midday.
+
+## EOD Summary — 2026-05-11
+- **Equity:** $26,566.01 (+$110.52 / +0.42% vs Fri close $26,455.49)
+- **Cash:** $5,756.44 (21.7%)
+- **Trades executed today:** 2 BUYS (AVGO $431.40, AMAT $441.47) + 2 STOPS (CEG +$66.64, NKE −$122.62). Net realized **−$55.98**.
+- **Stops in place:** 14 GTC (12 prior + AVGO $407 + AMAT $416 placed post-close after bracket day-stops expired)
+- **Top performers held:** MU +47% (hit $818 intraday), INTC +32% (Apple-foundry tailwind), UNH +32%, CVS +22%, BTC +16%
+- **Mercury alert volume today:** 40+ unique catalysts surfaced (record day)
+- **Cron health note:** All 3 autopilot fires arrived 27-39 min late following a queue-contention pattern; needs investigation
+- **Tomorrow's watch:**
+  - AVGO/AMAT first overnight hold with new GTC stops
+  - MU at +47% — stop ratchet to $740 (entry+6R) if breaks $800 cleanly
+  - Re-entry candidates: NEE (AI-power), OKLO (nuclear), MASI (arb if DHR raises), SCHW (financials Q1 strong), HALO (drug delivery buyback)
