@@ -5,21 +5,21 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-11 10:00 ET (Monday — Autopilot manual run executed AFTER scheduled `autopilot_morning` missed at 09:27 ET. **2 BUYS placed today** on the back of the heaviest Mercury catalyst day of the month (23 alerts in 4h): **AVGO 1sh @ $431.40 catalyst-buy (semi_ai sleeve, score 91 — record $35B private credit Apollo+Blackstone)** + **AMAT 1sh @ $441.47 catalyst-buy (semi_ai sleeve, score 82.75 — TSMC joint AI semi dev)**. Both bracket orders with stop+target legs armed. Cash flex invoked for AVGO (semi_ai HOT regime, 1/day). Daily trade cap reached 2/2. Reaper flagged NKE @ $42.98 vs $42.50 stop = 1.1% cushion (likely natural exit) and CEG @ $300.83 vs $290 stop = 3.7% cushion (Q1 mega-beat day vol; hold).)*
+*Last updated: 2026-05-11 13:14 ET (Monday MIDDAY — **CEG STOP FIRED at 11:09 ET** despite Q1 mega-beat (28% sales beat) — tape sold the news; 7 sh sold @ $289.52, **realized +$66.64 / +3.4%** (entry 4/1 @ $280). Cash freed $2,026. AI-power exposure (CEG) removed from portfolio. Autopilot manual run executed earlier this AM AFTER scheduled `autopilot_morning` missed at 09:27 ET. **2 BUYS placed today** on the back of the heaviest Mercury catalyst day of the month (23 alerts in 4h): **AVGO 1sh @ $431.40 catalyst-buy (semi_ai sleeve, score 91 — record $35B private credit Apollo+Blackstone)** + **AMAT 1sh @ $441.47 catalyst-buy (semi_ai sleeve, score 82.75 — TSMC joint AI semi dev)**. Both bracket orders with stop+target legs armed. Cash flex invoked for AVGO (semi_ai HOT regime, 1/day). Daily trade cap reached 2/2. Reaper flagged NKE @ $42.98 vs $42.50 stop = 1.1% cushion (likely natural exit) and CEG @ $300.83 vs $290 stop = 3.7% cushion (Q1 mega-beat day vol; hold).)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$26,599.32** (intraday) |
-| Cash | **$1,859.90** (7.0%) — post AVGO+AMAT spend; below normal $2K reserve, within flexed $1K floor |
-| Invested | $24,739.42 (93.0%) |
-| Positions | **15 equity** (added AVGO + AMAT today) + BTC + UNH fractional + 737CVR019 (CVR) |
-| Today's activity | **2 BUYS EXECUTED via bracket orders, both filled @ favorable prices**: (1) **AVGO BUY** 1 sh @ $431.40 (limit $433.50 — $2.10 better fill), bracket stop $407 / target $485, order `cf49e883`; (2) **AMAT BUY** 1 sh @ $441.47 (limit $444.50 — $3.03 better fill), bracket stop $416 / target $498, order `221aae7e`. Total spend $872.87. Cash flex invoked for AVGO (semi_ai HOT, score 91 ≥ 85, 1/day). Daily cap 2/2 reached. |
-| Stop coverage | ✅ All 12 prior stops still GTC + 2 new bracket stops (AVGO $407, AMAT $416 — TIF=day until close, next harvest cron will convert to GTC). |
-| 🎯 Best held | **MU +43.0%** (3 sh, stop $700 = entry+5R) · **INTC +31.3%** (6 sh, stop $120, AAPL foundry corroborated today) · **UNH +30.7%** (frac) · **CVS +21.3%** · **BTC +14.4%** · **CCI +9.0%** · **CEG +7.4%** · **TXN +7.8%** |
-| Day P&L | **+$143.84 / +0.54%** vs Fri close $26,455.49 (intraday, before AVGO/AMAT settle) |
-| **Realized today** | **$0** — no trims/exits |
+| **Portfolio Value** | **$26,585.69** (intraday midday) |
+| Cash | **$3,886.48** (14.6%) — post CEG stop fire, comfortably above $2K reserve |
+| Invested | $22,699.21 (85.4%) |
+| Positions | **15 equity** (CEG exited; AVGO+AMAT added AM) + BTC + UNH fractional + 737CVR019 (CVR) |
+| Today's activity | **3 ACTIONS**: (1) **AVGO BUY** 1 sh @ $431.40 AM, bracket stop $407 / target $485, order `cf49e883`; (2) **AMAT BUY** 1 sh @ $441.47 AM, bracket stop $416 / target $498, order `221aae7e`; (3) **CEG STOP FIRED** 11:09 ET — 7 sh sold @ $289.52 (stop $290 GTC, day low $288.83) = **+$66.64 realized**. Q1 mega-beat sold-the-news pattern despite 28% sales beat. Total AM spend $872.87 → CEG fill returned $2,026.64 cash. |
+| Stop coverage | ✅ 11 GTC stops + 2 bracket day-stops (AVGO $407, AMAT $416 — expire 16:00 ET, autopilot_close at 15:53 to convert to GTC). CEG stop FIRED (removed). |
+| 🎯 Best held | **MU +47.2%** (3 sh @ $796, stop $700 = entry+5R) · **INTC +29.8%** (6 sh, stop $120, AAPL foundry corroborated) · **UNH +30.9%** (frac) · **CVS +21.3%** · **BTC +15.0%** · **CCI +8.2%** · **TXN +7.2%** |
+| Day P&L | **+$130.20 / +0.49%** vs Fri close $26,455.49 (intraday) |
+| **Realized today** | **+$66.64** (CEG stop @ $289.52) |
 
 ---
 
