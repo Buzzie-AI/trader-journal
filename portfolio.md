@@ -5,21 +5,21 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-08 4:23 PM ET (Friday EOD — **MASSIVE DAY +$716 / +2.78%**. Closed at $26,483.61. Three executed trade-actions during the session under new autonomous policy plus 2 stop ratchets: **INTC TRIM 50% @ $116.37 = +$117.15 realized** (target hit), **BILL BUY 64 sh @ $40.17 = $2,571** (quad-bull catalyst-buy, +4.1% Day 1), **MU stop ratchet x2** ($634 → $665 → $700, locks +$478 on 3 sh), **INTC stop ratchet x2** ($108 → $118 → $120 EOD). Catalysts that drove the day: **WSJ EXCLUSIVE Apple-Intel chip deal CONFIRMED** → INTC +13.92%; **MU HBM thesis ACTIVATED** (SK Hynix bottleneck overnight + TSM April +17.5% + CoreWeave + 67% AI GDP) → MU +15.26%; **SOX 25-year HIGH**; AVGO Bloomberg confirmed $35B Apollo+Blackstone financing. Held semi cohort all green: MU +15.3%, INTC +13.9%, MRVL +6.4%, TXN +0.9%. Pipeline-discipline + autonomous execution working as designed.)*
+*Last updated: 2026-05-11 10:00 ET (Monday — Autopilot manual run executed AFTER scheduled `autopilot_morning` missed at 09:27 ET. **2 BUYS placed today** on the back of the heaviest Mercury catalyst day of the month (23 alerts in 4h): **AVGO 1sh @ $431.40 catalyst-buy (semi_ai sleeve, score 91 — record $35B private credit Apollo+Blackstone)** + **AMAT 1sh @ $441.47 catalyst-buy (semi_ai sleeve, score 82.75 — TSMC joint AI semi dev)**. Both bracket orders with stop+target legs armed. Cash flex invoked for AVGO (semi_ai HOT regime, 1/day). Daily trade cap reached 2/2. Reaper flagged NKE @ $42.98 vs $42.50 stop = 1.1% cushion (likely natural exit) and CEG @ $300.83 vs $290 stop = 3.7% cushion (Q1 mega-beat day vol; hold).)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$26,483.61 EOD** |
-| Cash | $2,732.77 (10.3%) — replenished post INTC trim |
-| Invested | $23,750.84 (89.7%) |
-| Positions | **13 equity** (added BILL today) + BTC + UNH fractional + 737CVR019 (CVR) |
-| Today's activity | **5 ACTIONS EXECUTED autonomously**: (1) **INTC TRIM** 6 sh @ $116.37 / realized **+$117.15** (target $115 hit at open); (2) **BILL BUY** 64 sh @ $40.17 = $2,571 (QUAD-bull catalyst-buy: Q3 +21.4% + Q4 guide above + FY26 raise + $1B buyback) closed +4.1% Day 1; (3) **MU stop ratchet x2** $634 → $665 (entry+4R) → $700 (entry+5R, locks +$478); (4) **INTC stop ratchet x2** $108 → $118 (post-WSJ Apple deal) → $120 (EOD); (5) **BILL stop $36** GTC placed same day (PDT cleared above $25K). |
-| Stop coverage | ✅ 12 active stops on 12 stoppable equity positions (BILL $36 placed same-day per new PDT rule). |
-| 🎯 Best held | **MU +37.7%** (3 sh, stop $700 = entry+5R) · **UNH +30.7%** (frac) · **INTC +28.9%** (6 sh post-trim, stop $120) · **CVS +19.4%** · **BTC +13.2%** · **CEG +9.2%** · **CCI +8.6%** · **MRVL +6.7%** |
-| Day P&L | **+$715.73 / +2.78%** vs Wed last $25,767.88 |
-| **Realized today** | **+$117.15** (INTC target trim 50%) |
+| **Portfolio Value** | **$26,599.32** (intraday) |
+| Cash | **$1,859.90** (7.0%) — post AVGO+AMAT spend; below normal $2K reserve, within flexed $1K floor |
+| Invested | $24,739.42 (93.0%) |
+| Positions | **15 equity** (added AVGO + AMAT today) + BTC + UNH fractional + 737CVR019 (CVR) |
+| Today's activity | **2 BUYS EXECUTED via bracket orders, both filled @ favorable prices**: (1) **AVGO BUY** 1 sh @ $431.40 (limit $433.50 — $2.10 better fill), bracket stop $407 / target $485, order `cf49e883`; (2) **AMAT BUY** 1 sh @ $441.47 (limit $444.50 — $3.03 better fill), bracket stop $416 / target $498, order `221aae7e`. Total spend $872.87. Cash flex invoked for AVGO (semi_ai HOT, score 91 ≥ 85, 1/day). Daily cap 2/2 reached. |
+| Stop coverage | ✅ All 12 prior stops still GTC + 2 new bracket stops (AVGO $407, AMAT $416 — TIF=day until close, next harvest cron will convert to GTC). |
+| 🎯 Best held | **MU +43.0%** (3 sh, stop $700 = entry+5R) · **INTC +31.3%** (6 sh, stop $120, AAPL foundry corroborated today) · **UNH +30.7%** (frac) · **CVS +21.3%** · **BTC +14.4%** · **CCI +9.0%** · **CEG +7.4%** · **TXN +7.8%** |
+| Day P&L | **+$143.84 / +0.54%** vs Fri close $26,455.49 (intraday, before AVGO/AMAT settle) |
+| **Realized today** | **$0** — no trims/exits |
 
 ---
 
@@ -36,10 +36,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8"],
+    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11"],
     datasets: [{
       label: 'Equity',
-      data: [20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80,25767.88,26483.61],
+      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80,25767.88,26455.49,26599.32],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -57,92 +57,56 @@ new Chart(ctx, {
         callbacks: {
           label: function(ctx) { return ctx.dataset.label + ': $' + ctx.parsed.y.toLocaleString(); }
         }
-      },
-      annotation: {
-        annotations: {
-          sleeveLine: {
-            type: 'line',
-            xMin: 'Apr 23',
-            xMax: 'Apr 23',
-            borderColor: '#3b82f6',
-            borderWidth: 2,
-            borderDash: [4, 4]
-          },
-          depositMarker: {
-            type: 'point',
-            xValue: 'Apr 23',
-            yValue: 24602.55,
-            backgroundColor: '#a855f7',
-            radius: 7,
-            borderColor: '#fff',
-            borderWidth: 2
-          },
-          depositLabel: {
-            type: 'label',
-            xValue: 'Apr 23',
-            yValue: 24602.55,
-            yAdjust: -20,
-            content: ['+$3K deposit'],
-            color: '#a855f7',
-            font: { size: 11, weight: 'bold' },
-            backgroundColor: 'rgba(255,255,255,0.85)',
-            padding: 3
-          }
-        }
       }
     },
     scales: {
-      y: {
-        ticks: { callback: function(v) { return '$' + (v/1000).toFixed(1) + 'k'; } },
-        min: 19000, max: 27000
-      }
+      y: { ticks: { callback: function(v) { return '$' + v.toLocaleString(); } } }
     }
   }
 });
 </script>
 
-| Period | Start | End | Change | Notes |
-|--------|-------|-----|--------|-------|
-| **Today (May 8 EOD)** 🚀 | $25,767.88 (Thu last) | **$26,483.61** | **+2.78% (+$716)** 🚀 | INTC Apple-deal +13.9% / MU HBM-activation +15.3% / BILL bought 64sh @ $40.17 +4.1% / MRVL +6.4% / CVS +3.7%. INTC trim +$117 realized. SOX 25-year high. WSJ confirmed Apple-Intel preliminary chip agreement. |
-| 1 Week | $25,251.27 (May 1) | $26,483.61 | **+4.9% (+$1,232)** | INTC sleeve compounding (+14.8% then +13.9%); MU HBM thesis from $541 → $745; CVS Q1 catalyst stack; BILL quad-bull catalyst-buy added; CVX stopped out 5/7 |
-| **Since Agents (Mar 28)** | $20,489 | $26,483.61 | **+$5,995 (+29.3%)** | Excludes $3,000 Apr 23 deposit; agent P&L only ≈ +$2,995 (+14.6%) |
-
-**Honest framing:** Agent-driven trading P&L since Mar 28 = **+$2,995 (+14.6% in 41 days)**. The total-equity chart includes a $3,000 deposit on Apr 23 (purple dot).
+**Mon May 11 intraday:** $26,599.32 (+$143.84 / +0.54% vs Fri close $26,455.49). Two semi-sleeve buys filled in first 30 min of session on heaviest Mercury catalyst day of the month.
 
 ---
 
-## Current Positions (13 equity + 1 frac + 1 crypto, EOD May 8)
+## Current Positions (15 equity + 1 frac + 1 crypto, intraday May 11)
 
 | Ticker | Shares | Entry | Last | P&L | P&L % | Stop | Buffer |
 |--------|--------|-------|------|-----|-------|------|--------|
-| **MU** 🚀🚀 | 3 | $541.11 | $745.33 | +$613 | **+37.7%** 🎯 | $700 | -6.1% (LOCKS +$478) |
-| **CVS** 🎯 | 27 | $75.83 | $90.55 | +$397 | **+19.4%** | $82 | -9.4% |
-| **INTC** (post-trim) | 6 | $96.85 | $124.88 | +$168 | **+28.9%** 🎯 | $120 | -3.9% (intentional EOD lock) |
-| **CEG** | 7 | $280.00 | $305.73 | +$180 | **+9.2%** | $290 | -5.1% |
-| **CCI** | 20 | $84.31 | $91.52 | +$144 | **+8.6%** | $84.31 | -7.9% |
-| **BILL** 🆕 | 64 | $40.17 | $41.83 | +$106 | **+4.1%** | $36 | -13.9% |
-| **MRVL** | 9 | $159.54 | $170.18 | +$96 | **+6.7%** | $145 | -14.8% |
-| **TXN** | 5 | $272.83 | $287.80 | +$75 | +5.5% | $252.58 | -12.2% |
-| **BLK** | 2 | $1,057.92 | $1,084.83 | +$54 | +2.5% | $990 | -8.7% |
-| **NUE** | 9 | $223.00 | $227.50 | +$41 | +2.0% | $210 | -7.7% |
-| **MRK** | 18 | $112.47 | $111.38 | -$20 | -1.0% | $103.50 | -7.1% |
-| **NKE** | 44 | $45.29 | $44.14 | -$50 | -2.5% | $42.50 | -3.7% |
-| **UNH** | 0.69 | $290.00 | $379.12 | +$61 | **+30.7%** | — frac | n/a |
-| **BTC** | 0.0034 | $70,867 | $80,252 | +$32 | **+13.2%** | — crypto | n/a |
+| **MU** 🚀🚀 | 3 | $541.11 | $773.70 | +$698 | **+43.0%** 🎯 | $700 | -9.5% (LOCKS +$478) |
+| **INTC** 🎯 | 6 | $96.85 | $127.16 | +$182 | **+31.3%** 🎯 | $120 | -5.6% (intentional EOD lock) |
+| **CVS** 🎯 | 27 | $75.83 | $91.95 | +$435 | **+21.3%** | $82 | -10.8% |
+| **CEG** | 7 | $280.00 | $300.83 | +$146 | **+7.4%** ⚠️ | $290 | **-3.7%** (Q1 mega-beat vol — day low $291.83) |
+| **CCI** | 20 | $84.31 | $91.87 | +$151 | **+9.0%** | $84.31 | -8.2% (breakeven lock) |
+| **TXN** | 5 | $272.83 | $294.12 | +$106 | **+7.8%** | $252.58 | -14.1% |
+| **MRVL** | 9 | $159.54 | $167.05 | +$68 | **+4.7%** | $145 | -13.2% |
+| **BILL** 🆕 | 64 | $40.17 | $42.30 | +$136 | **+5.3%** | $36 | -14.9% |
+| **BLK** | 2 | $1,057.92 | $1,080.41 | +$45 | +2.1% | $990 | -8.4% |
+| **NUE** | 9 | $223.00 | $227.74 | +$43 | +2.1% | $210 | -7.8% |
+| **AVGO** 🆕🆕 | 1 | **$431.40** | $432.42 | +$1 | +0.2% | **$407** | -5.7% (bracket day-TIF) |
+| **AMAT** 🆕🆕 | 1 | **$441.47** | $443.54 | +$2 | +0.5% | **$416** | -5.8% (bracket day-TIF) |
+| **MRK** | 18 | $112.47 | $113.05 | +$10 | +0.5% | $103.50 | -8.4% |
+| **NKE** | 44 | $45.29 | $42.98 | -$101 | -5.1% | $42.50 | **-1.1%** ⚠️ (near-stop) |
+| **UNH** | 0.69 | $290.00 | $378.54 | +$61 | **+30.5%** | — frac | n/a |
+| **BTC** | 0.0034 | $70,867 | $81,080 | +$35 | **+14.4%** | — crypto | n/a |
 | 737CVR019 | 4.06 | $0 | (CVR) | — | — | — | — |
 
-**Total open unrealized P&L: +$2,127.** **Realized today: +$117.15** (INTC target trim 50%).
+**Total open unrealized P&L: ~$2,021** (intraday). **Realized today: $0**.
 
-⚠️ **Tight-stop watch into Monday:**
-- **NKE** -3.7% buffer; recovering toward breakeven; smallest cushion.
-- **INTC** -3.9% (intentionally tight — locks Apple-deal pop gains; if INTC pulls back next session this fires & locks +$144 on remaining 6 sh).
-- **CEG** -5.1% buffer; AI-power softness today.
-- **MU** -6.1% post-2-ratchet (locks +$478 on 3 sh; gap-risk acceptable).
+⚠️ **Tight-stop watch:**
+- **NKE** -1.1% buffer (TIGHTEST). Down -2.6% intraday on consumer-disc weakness. Likely natural stop-out if tape weakens further; Reaper recommends acceptance of clean exit.
+- **CEG** -3.7% buffer. Q1 mega-beat day vol; intraday low touched $291.83 (within $2 of stop). Hold; reassess at 12:47 midday.
+- **AVGO/AMAT** -5.7%/-5.8% (initial bracket stops). Day-TIF → next harvest cron converts to GTC.
 
-🎯 **Today's hits:** INTC target $115 hit at AM → 50% trim auto-fired @ $116.37; MU HBM thesis activated → stop ratcheted twice to $700.
+🎯 **Catalysts driving today's positions:**
+- **AVGO** record $35B private credit (Apollo+Blackstone) — Mercury score 91, top of 23 alerts
+- **AMAT** TSMC joint AI semi dev partnership — Mercury score 82.75
+- **INTC** Apple foundry partnership CORROBORATED today (Sat TechStock² + Mon Benzinga two-source confirm) — +1.9% intraday after gap-up open
+- **CEG** Q1 mega-beat (28% sales beat) but tape sold-the-news -0.9%
+- **MU** continues to grind higher on HBM/AI capex thesis
 
-🚪 **Closed today:**
-- **INTC** target trim 6 sh @ $116.37 (50% of 12) = **+$117.15 realized**. Apple-Intel chip deal then ran 6 remaining shares to $124.88.
+🚪 **Closed today:** None.
 
 ---
 
@@ -150,48 +114,52 @@ new Chart(ctx, {
 
 | Sleeve | Target | Current Fill | Status | Members Held |
 |--------|-------:|-------------:|--------|--------------|
-| **semi_ai** | $6,621 (25%) | $5,956 (22.5%) | **89.9% fill** | MU $2,236 + INTC $749 + MRVL $1,532 + TXN $1,439 |
+| **semi_ai** | $6,650 (25%) | $6,931 (26.1%) | **104% of soft target** | MU $2,321 + INTC $763 + MRVL $1,503 + TXN $1,471 + **AVGO $432** 🆕 + **AMAT $443** 🆕 |
 
-Sleeve fill dropped from 95.6% to 89.9% intentionally (INTC target-trim 50% executed at AM; sleeve members otherwise UP huge today: MU +15.3%, INTC +13.9% on remaining 6 sh, MRVL +6.4%). Regime: HOT (multi-week Mercury alert density). Sleeve dry powder $665 — could deploy on Monday if a sleeve catalyst (NVDA pre-May 20 earnings? ARM analyst cluster?) appears.
+Sleeve regime: **HOT** (>5 qualifying alerts ≥70 in 7d window). Cash flex used today (1/1). Above soft target ($6,650) but under hard ceiling ($9,310 / 35%) — within design. Member-by-member: 2 mega-cap (MU, INTC, AVGO are now 3 mega-cap including new AVGO add), 2 mid-cap (MRVL, AMAT). Next semi catalyst that scores ≥70 would push us toward ceiling — would need harvest of a winner (MU at +43% is a candidate) before adding.
 
 ---
 
-## Allocation (EOD May 8)
+## Allocation (Intraday May 11)
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| **Tech / Semi-AI sleeve** (MU, INTC, MRVL, TXN) | $5,956 | 22.5% (89.9% of 25% target) |
-| **SaaS (BILL — NEW)** | $2,677 | 10.1% |
-| Healthcare (MRK, CVS, UNH) | $4,711 | 17.8% |
-| Utility/Nuclear (CEG) | $2,140 | 8.1% |
-| Financials (BLK) | $2,170 | 8.2% |
-| Materials (NUE) | $2,048 | 7.7% |
-| Consumer (NKE) | $1,942 | 7.3% |
-| Real Estate (CCI) | $1,830 | 6.9% |
-| Energy | **$0** | **0.0%** (CVX stopped out 5/7; sector ZERO-WEIGHT) |
-| Crypto (BTC) | $277 | 1.0% |
-| **Cash** | **$2,733** | **10.3%** — comfortably above $2K reserve |
+| **Tech / Semi-AI sleeve** (MU, INTC, MRVL, TXN, AVGO, AMAT) | $6,931 | **26.1%** (104% of 25% target, under 35% ceiling) |
+| **SaaS (BILL)** | $2,707 | 10.2% |
+| Healthcare (MRK, CVS, UNH) | $4,779 | 18.0% |
+| Utility/Nuclear/AI-Power (CEG) | $2,106 | 7.9% |
+| Financials (BLK) | $2,161 | 8.1% |
+| Materials (NUE) | $2,050 | 7.7% |
+| Real Estate (CCI) | $1,837 | 6.9% |
+| Consumer (NKE — near-stop) | $1,890 | 7.1% |
+| Energy | $0 | 0.0% (CVX stopped out 5/7; sector still zero) |
+| Crypto (BTC) | $280 | 1.1% |
+| **Cash** | $1,860 | **7.0%** — below normal $2K reserve, within flexed $1K floor (semi_ai HOT cash flex active today) |
 
 ---
 
-## Open Orders (12 active stops, EOD May 8)
+## Open Orders (14 active stops + 2 bracket take-profit legs)
 
 | Type | Ticker | Qty | Trigger | TIF | Notes |
 |------|--------|-----|---------|-----|-------|
-| Stop | **MU** | 3 | **$700.00** | GTC | Ratcheted x2 today: $634→$665→$700 (entry+5R locks +$478) |
-| Stop | **INTC** | 6 | **$120.00** | GTC | Ratcheted x2 today: $108→$118→$120 (post WSJ Apple-deal lock) |
-| Stop | CVS | 27 | $82.00 | GTC | Advanced 5/6 from BE-lock; consider $84 advance Mon |
-| Stop | **BILL** 🆕 | 64 | $36.00 | GTC | Placed same-day per new PDT rule (>$25K equity) |
+| Stop | **MU** | 3 | **$700.00** | GTC | Entry+5R lock |
+| Stop | **INTC** | 6 | **$120.00** | GTC | Post AAPL-deal lock |
+| Stop | CVS | 27 | $82.00 | GTC | |
+| Stop | BILL | 64 | $36.00 | GTC | |
 | Stop | BLK | 2 | $990.00 | GTC | |
 | Stop | CEG | 7 | $290.00 | GTC | Above entry |
 | Stop | CCI | 20 | $84.31 | GTC | Breakeven-lock |
-| Stop | NKE | 44 | $42.50 | GTC | Buffer -3.7% — TIGHTEST |
+| Stop | NKE | 44 | $42.50 | GTC | Buffer **-1.1%** — TIGHTEST |
 | Stop | MRK | 18 | $103.50 | GTC | |
 | Stop | MRVL | 9 | $145.00 | GTC | |
 | Stop | TXN | 5 | $252.58 | GTC | |
 | Stop | NUE | 9 | $210.00 | GTC | |
+| **Stop** | **AVGO** 🆕 | 1 | **$407.00** | day | Bracket leg — convert to GTC next harvest |
+| **Take-profit** | **AVGO** 🆕 | 1 | **$485.00** | day | Bracket leg |
+| **Stop** | **AMAT** 🆕 | 1 | **$416.00** | day | Bracket leg — convert to GTC next harvest |
+| **Take-profit** | **AMAT** 🆕 | 1 | **$498.00** | day | Bracket leg |
 
-🚪 **Filled today:** INTC trim 6 sh @ $116.37 (target trim) — order `ce80fef6`, BILL buy 64 sh @ $40.17 — order `583aaa52`. Realized **+$117.15**.
+🚪 **Filled today:** AVGO buy 1 sh @ $431.40 (order `cf49e883`), AMAT buy 1 sh @ $441.47 (order `221aae7e`). Total spend $872.87.
 
 ---
 
@@ -199,79 +167,29 @@ Sleeve fill dropped from 95.6% to 89.9% intentionally (INTC target-trim 50% exec
 
 | Date | Ticker | Action | Realized | Notes |
 |------|--------|--------|---------:|-------|
-| **2026-05-08** 🎯 | **INTC** | Target trim 6 sh @ $116.37 (50%) | **+$117.15 / +20.1%** | Entry 5/4 @ $96.85. Target $115 hit at open. Then WSJ exclusive at 12:51 confirmed Apple-Intel chip deal → INTC ran to $124.88 on remaining 6 sh; stop ratcheted to $120 EOD. Discipline + autonomous policy worked perfectly. |
-| **2026-05-07** | **CVX** | Stop fired @ $181.50 (10 sh) | **-$104.20 / -5.4%** | Entry 4/30 @ $191.92. Stop $182 GTC fired at 09:30 ET open print on XLE -2.13% sector drag. Energy sector now zero-weight. |
-| 2026-05-06 | MU | 3R trim 1 sh @ $653.32 | +$112.21 / +20.7% | Entry 5/1 @ $541.11. Position 4 → 3 sh. Stop advanced to $634. |
+| **2026-05-08** 🎯 | **INTC** | Target trim 6 sh @ $116.37 (50%) | **+$117.15 / +20.1%** | Apple-Intel deal then ran remaining 6 sh to $124.88. |
+| 2026-05-07 | CVX | Stop fired @ $181.50 (10 sh) | -$104.20 / -5.4% | Energy sector now zero-weight (until today's CVX Mercury alert). |
+| 2026-05-06 | MU | 3R trim 1 sh @ $653.32 | +$112.21 / +20.7% | Entry 5/1 @ $541.11 |
 | 2026-05-04 | NVDA | Stop fired @ $194.885 (10 sh) | +$179.55 / +10.1% | Entry 3/9 @ $176.93 |
 | 2026-04-28 | INTC | Stop fired @ $81.50 (gap-down) | +$204 | Q1 blowout +29× then sleeve compression |
-| 2026-04-28 | LRCX | Stop fired @ $245.94 | -$86 | US Commerce Hua Hong tool-ban |
-| 2026-04-28 | BA | Stop fired @ $227.87 | +$44 | Airbus Q1 mixed peer-cohort |
 
 ---
 
-## Today's Mercury alert highlights (~40 alerts, May 8)
+## Today's Mercury catalyst stack (23 alerts in 4h, May 11)
 
-- **WSJ EXCLUSIVE: Apple-Intel preliminary chip-making AGREEMENT** confirmed at 12:51 ET → INTC +13.9% to $124.88
-- **MU HBM thesis ACTIVATION** — SK Hynix bottleneck overnight + TSM April +17.5% + CoreWeave + 67% AI GDP contribution → +15.3% to $745
-- **SOX semiconductors hit 25-YEAR HIGH** — macro confirmation
-- **NFP April +115K vs +62K est** — strong jobs (bear-rate-cuts but bull-economy)
-- **DDOG 5-shop PT cluster** $218-225 post triple-bull print (Mizuho/UBS/MS/RBC/Citi)
-- **ARM 5-shop PT cluster** + Barclays today
-- **AVGO Bloomberg-confirmed $35B Apollo+Blackstone financing rumor** — eases OpenAI deal pressure
-- **TCI/Hohn $8B MSFT stake slash** — high-profile activist exit on AI-disruption thesis (contrarian)
-- **HHS Sec Kennedy antidepressant regulatory exploration** — pharma cohort overhang continues
-- **HON Quantinuum IPO filing**; **MAR dividend hike**; **DIS Citi PT $145**
-- **TPR sell-the-news recovery** (dip-buy candidate Mon)
-- **NVDA pre-May 20 earnings stack** — GS estimate raise + IREN $3.4B + SoftBank Japan + Apple-INTC ecosystem
+**TOP TIER (score ≥ 80):**
+- AVGO 91 mega_partnership — record $35B private credit (Apollo+Blackstone) 🟢 **BOUGHT 1 SH**
+- MASI 85.5 acquisition_announced — DHR $10B takeover-arb (dropped, flat-tape arb asymmetry)
+- AMAT 82.75 mega_partnership — TSMC joint AI semi dev 🟢 **BOUGHT 1 SH**
+- CEG 81.75 earnings_beat — 28% Q1 sales mega-beat (HELD, hold)
+- INTC ~85 mega_partnership — Apple foundry corroborated (HELD, runs)
 
-### Yesterday's highlights (May 7)
+**MID TIER (score 70-80):**
+- CVX 77.75 (Q1+Iran-premium), AZN 77.75 (Q1), MKC 77.25 ($44.8B Unilever), KRYS 75.5 (FDA at-home Vyjuvek), BAM 75.5 ($500M OpenAI deploy), ABBV 75.25 (Capstan immuno), SITM 73.75 ($1.5B Renesas), NEE 71.75 (EPS reaff), OKLO 70 (NRC win)
 
-- DDOG triple-bull + FTNT triple + DKNG +10x consensus + AFRM triple — earnings tsunami day
-- C $30B buyback + investor-day ROTCE roadmap (pipeline saved misread C buy)
-- DIS quad-positive Q2 (BUY proposal expired AFK 1h — directly motivated 5/8 autonomous policy)
-- BILL QUAD-bull post-close (acted on 5/8 morning)
-- ZTS double-bear, MELI margin compression, COIN double-miss
-
-### Yesterday's Mercury highlights (May 6 EOD ~50 alerts)
-
-- **AMD analyst-upgrade cluster** — 9 shops same day, PT range $430-$525 (Goldman/Stifel/Seaport/Bernstein/Truist/Rosenblatt/Benchmark/Barclays/TD Cowen)
-- **Earnings/M&A wave** — 10 deals ~$77B+ aggregate cross-sector (Sysco-Restaurant Depot $29B, Shell-Canadian $14B, Organon-Sun Pharma $13B, KDP-coffee $18B closed, Bayer-Perfuse $2.45B, AMETEK $5B, Lattice-AMI $1.65B, WES-Delaware $1.6B, Sony-Music $4B, Compass-Anywhere)
-- **Held cohort positives:** CVS triple-bull-stack (Q1 BEAT + Adj guide raise + GAAP guide raise) — actioned via stop advance; INTC mgmt hire + 52w high; BLK Preqin private credit + DTCC tokenized equities; MRK Salesforce Animal Health platform
-- **AI infrastructure:** NVDA 3 partnership wins (GLW $500M optical interconnect + warrant, TTE Pangea 5 supercomputer, SLP drug-dev simulation) + OpenAI Multipath protocol + xAI Colossus 220K-GPU sharing with Anthropic; offsetting bear: Rubin GPU production-delay rumor, SpaceX/Musk $119B "Terafab" rumor, China DeepSeek; **TSM $56B AI expansion concrete counter**
-- **BTC-miner-to-AI pivot cohort:** HUT $9.8B AI lease, IREN $625M Mirantis, NBIS Eigen AI + META partnership; CORZ Q1 wider loss as cohort dispersion
-- **FTNT quintuple-positive Q1 cycle** (post-close): print +32% EPS BEAT + Q2 EPS guide + Q2 sales guide + FY26 EPS raise + FY26 sales raise — likely Phase 0.5 fast-track candidate tomorrow
-- **DIS quadruple-positive Q2:** print BEAT + $8B FY26 buyback + FY26 12-16% EPS guide + FY27 double-digit affirm
-- **NVO triple-stack:** Q1 +36.3% MASSIVE sales beat + FY26 guide raise + China generic Ozempic delay (competitive moat)
-- **Pharma policy bear stack** (3 alerts): RFK Jr. deprescribing + Trump $529B drug-pricing claim + Sanofi Teplizumab/FDA voucher political-interference
-- **Payments cohort mixed/bear:** MA/V/PYPL UK FCA antitrust + MS undercutting COIN/HOOD on E*Trade crypto fees + GPN tape-down + FISV revenue miss
-- **Energy weakness:** US-Iran de-escalation + alleged $920M oil-short trade pattern → CVX/XOM/DVN tape down
+**BEAR (no position):**
+- DIS ~70 legal_regulatory — FCC censorship WSJ exclusive (watchlist only, no short)
 
 ---
 
-## Today's autopilot watchlist additions (May 8 EOD)
-
-| Score | Ticker | Catalyst | Action | Re-eval Trigger |
-|------:|--------|----------|--------|-----------------|
-| 88 | **DDOG** | 5-shop PT cluster $218-225 vs ~$192 = 14-17% upside | **DIP-BUY CANDIDATE** | Pullback over weekend or Mon open weakness |
-| 85 | **NVDA** | GS estimate +12% pre-print + IREN $3.4B + SoftBank Japan + ecosystem | **PRE-EARNINGS WATCH** | May 20 print or pullback |
-| 82 | **TPR** | Sell-the-news recovery from 5/7 -10% | **DIP-BUY CANDIDATE** | Tape stabilizes Mon |
-| 78 | **HON** | Quantinuum IPO filing | **WATCH** | Spin-off catalyst, complex setup |
-| 75 | **C** | (carryover from 5/7) Investor-day ROTCE roadmap | **WATCH** | ROTCE pace acceleration |
-| 75 | **MCD** | (carryover) Q1 beat + comp accel | **WATCH** | Pullback to $280 |
-
-### Yesterday's deferred watchlist (still active)
-
-| Score est | Ticker | Catalyst | Notes |
-|-----------|--------|----------|-------|
-| 92 | **FTNT** | Quintuple-positive Q1 cycle | Already +22.9% today (chased — fade risk) |
-| 88 | **OGN** | $13B Sun Pharma takeover | Takeover-arb shape, small position |
-| 88 | **NBIS** | Eigen AI + META partnership | AI-infra mid-cap |
-| 85 | **DIS** | Q2 quadruple-positive | Media mega-cap |
-| 80 | **NVO** | Q1 +36% sales beat | Pharma |
-| 78 | **SHOP** | Q1 +34% YoY revenue + analyst PT raise | E-commerce/SaaS |
-| 75 | **MRNA** | Phase 3 mRNA-1010 NEJM publication | Counter-narrative to vaccine policy bears |
-| 75 | **TEM** | Q1 +36.1% revenue beat + FY26 raise | AI-diagnostics |
-
----
-
-*Auto-generated by autopilot_close fire (delayed-late at 16:21 ET); published to Buzzie-AI/trader-journal at 2026-05-08 16:30 ET.*
+*Generated by /autopilot manual run. Next scheduled fire: autopilot_midday at 12:47 ET.*
