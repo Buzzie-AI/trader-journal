@@ -205,16 +205,18 @@ Sleeve regime: **HOT** but **TECH CONCENTRATION CEILING BINDING at 36.0%.** Tota
 - **SEZL/SHOP** court allows antitrust claims to proceed (post-close)
 
 ### M&A / Strategic
+- **BF.B Brown-Forman REJECTS $15B Sazerac acquisition** (post-close, Reuters/WSJ) — $15B = ~50% of BF.B market cap valuation anchor
 - CRBG + EQH merger leadership team
 - FCC approves SATS/T EchoStar 65MHz spectrum sale to SpaceX + 50MHz to AT&T
 - VIST JPM PT $93 on M&A
 
 ---
 
-## Watchlist for Wed (8 tickers)
+## Watchlist for Wed (9 tickers)
 
 | Ticker | Setup | Wed re-entry trigger |
 |--------|-------|---------------------|
+| **BF.B** 🆕 | Brown-Forman rejected $15B Sazerac (post-close) | Wed premarket — watch takeover-premium pricing |
 | **AFRM** | INVALIDATED — Google BNPL catalyst rejected | $69+ break with XLK green |
 | **CSCO** | Strong relative strength; blocked by tech ceiling | Harvest MU/AVGO winner first OR pivot to financials |
 | **META** | DESRI 2.5GW + product slate | Same — sector cap binding |
