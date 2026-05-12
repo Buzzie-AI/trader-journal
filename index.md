@@ -13,9 +13,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $26,599 (+0.54% intraday) 🚀
+## Portfolio — $26,342 (-0.88% intraday)
 
-*Updated: 2026-05-11 10:00 ET (Monday — **Autopilot manual run** executed after scheduled `autopilot_morning` at 09:27 ET missed (cron scheduler delay behind long `mercury_poll_market` fire). **2 BUYS placed** on the back of the heaviest Mercury catalyst day of the month (23 alerts in 4h window): **AVGO 1sh @ $431.40** (catalyst-buy semi_ai sleeve, score 91 — record $35B private credit Apollo+Blackstone financing) + **AMAT 1sh @ $441.47** (catalyst-buy semi_ai sleeve, score 82.75 — TSMC joint AI semi dev). Both bracket orders filled at favorable prices. Cash flex invoked for AVGO (semi_ai HOT regime, 1/day allowance). Daily trade cap reached 2/2. **MASI dropped** despite score 85.5 — 3-day flat tape signaled DHR $10B bid skepticism (arb asymmetric downside). Reaper flagged NKE @ $42.98 vs $42.50 stop = 1.1% cushion (let stop work — clean exit acceptable) and CEG @ $300.83 vs $290 stop = 3.7% cushion (Q1 mega-beat vol; hold for midday reassess). Top weekend Mercury stack also corroborated INTC/AAPL foundry partnership across two sources.)*
+*Updated: 2026-05-12 09:58 ET (Tuesday — **autopilot_morning ran 35 min late (queue contention behind delayed mercury fires), 0 trades, 5 watchlisted.** 21 Mercury alerts in 4h window — heaviest pre-open of the week — but **tape risk-off rejecting most catalysts**: ORCL -4.3% despite Samsung Java SE win, AMD -1.8% despite Mizuho $515 PT, GS -2.1% despite record GBM quarter, AKAM -4.0% despite analyst upgrade. **Only XLV +1% green.** Top pipeline candidates AFRM/CSCO/AZN all reached Diana but PASSED — AFRM the cleanest setup (Google BNPL Gemini App + Search integration, +0.79% idio alpha vs XLF) but lacking breakout momentum off 5/8 -10% gap zone; better entry $69+ with XLK green. Semi sleeve at 104% fill + YELLOW stops on AMAT (2.1% cushion) / INTC (3.3%) / AVGO (4.3%) → no semi adds even on AMD upgrade. Discipline > FOMO: missed entries cost nothing, undisciplined entries cost the framework.)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -28,10 +28,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11"],
+    labels: ["Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 31","Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12"],
     datasets: [{
       label: 'Before Agents',
-      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
+      data: [23447.9,23314.25,22875.47,22544.58,21948.67,22318.5,22127.49,22422.1,21316.2,20489.37,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],
       borderColor: '#dc2626',
       backgroundColor: 'rgba(220,38,38,0.06)',
       fill: true,
@@ -40,7 +40,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21644.45,21723.91,21872.97,21663.63,21376.01,21581.07,24602.55,25096.64,25068.70,24909.59,24880.66,25129.32,25093.43,25251.27,25699.52,26182.80,25767.88,26455.49,26599.32],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26341.78],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -112,36 +112,34 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$26,484** 🚀 |
-| Cash | $2,733 (10.3%) ✅ above $2K reserve |
-| Invested | $23,751 (89.7%) |
-| Day P&L | **+2.78% (+$716)** — INTC Apple-deal +13.9% / MU HBM +15.3% / BILL bought / 5 autonomous actions |
-| **Agent P&L (since Mar 28)** | **+$2,995 (+14.6%)** — excludes Apr 23 $3K deposit |
+| Equity | **$26,342** |
+| Cash | $5,756 (21.9%) ✅ well above $2K reserve |
+| Invested | $20,585 (78.1%) |
+| Day P&L | **-0.88% (-$234)** — Risk-off tape, semi sleeve red, no trades |
+| **Agent P&L (since Mar 28)** | **+$2,853 (+13.9%)** — excludes Apr 23 $3K deposit |
 
-### Positions (Intraday May 11 — 15 equity after AVGO+AMAT buys)
+### Positions (Intraday May 12 — 14 equity)
 
 | Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
 |--------|--------|-------|------|-------|--------|------|
-| **MU** 🚀🚀 | 3 | $541.11 | $773.70 | **+43.0%** 🎯 | 8.7% | $700 ✅ (entry+5R) |
-| **INTC** 🎯 | 6 | $96.85 | $127.16 | **+31.3%** 🎯 | 2.9% | $120 ✅ (AAPL-deal lock) |
-| **UNH** | 0.69 | $290.00 | $378.54 | **+30.5%** | 1.0% | — frac |
-| **CVS** 🎯 | 27 | $75.83 | $91.95 | **+21.3%** | 9.3% | $82 ✅ |
-| **BTC** | 0.0034 | $70,867 | $81,080 | **+14.4%** | 1.1% | — crypto |
-| **CCI** | 20 | $84.31 | $91.87 | **+9.0%** | 6.9% | $84.31 ✅ |
-| **TXN** | 5 | $272.83 | $294.12 | **+7.8%** | 5.5% | $252.58 ✅ |
-| **CEG** | 7 | $280.00 | $300.83 | **+7.4%** ⚠️ | 7.9% | $290 ✅ TIGHT (3.7%) |
-| **BILL** | 64 | $40.17 | $42.30 | **+5.3%** | 10.2% | $36 ✅ |
-| **MRVL** | 9 | $159.54 | $167.05 | **+4.7%** | 5.7% | $145 ✅ |
-| **BLK** | 2 | $1,057.92 | $1,080.41 | +2.1% | 8.1% | $990 ✅ |
-| **NUE** | 9 | $223.00 | $227.74 | +2.1% | 7.7% | $210 ✅ |
-| **AMAT** 🆕🆕 | 1 | **$441.47** | $443.54 | +0.5% | 1.7% | **$416** ✅ (bracket day) |
-| **AVGO** 🆕🆕 | 1 | **$431.40** | $432.42 | +0.2% | 1.6% | **$407** ✅ (bracket day) |
-| **MRK** | 18 | $112.47 | $113.05 | +0.5% | 7.6% | $103.50 ✅ |
-| **NKE** | 44 | $45.29 | $42.98 | -5.1% | 7.1% | $42.50 ✅ **NEAR STOP (1.1%)** |
+| **MU** 🚀🚀 | 3 | $541.11 | $765.32 | **+41.4%** 🎯 | 8.7% | $700 ✅ (entry+5R) |
+| **UNH** | 0.69 | $290.00 | $383.37 | **+32.2%** | 1.0% | — frac |
+| **INTC** 🎯 | 6 | $96.85 | $123.96 | **+28.0%** 🎯 | 2.8% | $120 ⚠️ TIGHT (3.3%) |
+| **CVS** 🎯 | 27 | $75.83 | $92.25 | **+21.7%** | 9.5% | $82 ✅ |
+| **BTC** | 0.0034 | $70,867 | $80,500 | **+13.6%** | 1.1% | — crypto |
+| **CCI** | 20 | $84.31 | $90.62 | **+7.5%** | 6.9% | $84.31 ✅ |
+| **TXN** | 5 | $272.83 | $290.10 | **+6.3%** | 5.5% | $252.58 ✅ |
+| **MRVL** | 9 | $159.54 | $165.46 | **+3.7%** | 5.7% | $145 ✅ |
+| **BILL** | 64 | $40.17 | $41.57 | **+3.5%** | 10.1% | $36 ✅ |
+| **NUE** | 9 | $223.00 | $229.51 | +2.9% | 7.8% | $210 ✅ |
+| **BLK** | 2 | $1,057.92 | $1,076.36 | +1.7% | 8.2% | $990 ✅ |
+| **MRK** | 18 | $112.47 | $112.87 | +0.4% | 7.7% | $103.50 ✅ |
+| **AVGO** | 1 | $431.40 | $425.20 | -1.4% | 1.6% | $407 ⚠️ YELLOW (4.3%) |
+| **AMAT** | 1 | $441.47 | $424.67 | -3.8% | 1.6% | $416 ⚠️ YELLOW+++ (2.1%) |
 
-**Total Open P&L: ~$2,021 unrealized** (intraday). **Realized today: $0**.
+**Total Open P&L: ~$1,810 unrealized** (intraday). **Realized today: $0**.
 
-**Today's BUYS:** AVGO 1sh @ $431.40 (record $35B private credit, Mercury 91) · AMAT 1sh @ $441.47 (TSMC joint AI semi, Mercury 82.75). Both bracket orders, both filled at favorable prices. Cash flex active.
+**Today's catalyst stack (21 Mercury alerts):** AFRM Google BNPL · ORCL Samsung Java SE · AMD Mizuho $515 · AZN Phase 3 hit · FTNT NVDA AI partner · TSLA $250M Gruenheide · GS record GBM · CSCO/AKAM/CVS analyst upgrades · NVO Wegovy · JNJ Shockwave · CRBG+EQH merger step. **Tape rejecting most catalysts** (risk-off) — all top candidates PASSED to watchlist.
 
 ---
 
@@ -159,6 +157,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
+| **2026-05-12 AM** | **autopilot_morning: 0 trades, 5 watchlisted (risk-off tape)** | **Day -$234 / -0.88%.** 21 Mercury alerts in 4h pre-open window — heaviest of the week — but tape rejected most catalysts. ORCL -4.3% (Samsung Java win), AMD -1.8% (Mizuho $515 PT), GS -2.1% (record GBM), AKAM -4.0% (upgrade). Only XLV +1% green. AFRM the cleanest setup (+0.79% idio alpha on Google BNPL Gemini integration) but post-5/8 gap zone limited momentum → PASS to watchlist for $69+ break with XLK green. Semi sleeve at 104% fill + YELLOW stops (AMAT 2.1%, INTC 3.3%, AVGO 4.3%) → no semi adds despite AMD upgrade. Autopilot fired 35 min late (queue contention same as 5/11). Discipline > FOMO. [Debrief](debriefs/2026-05-12-0958-morning) |
 | **2026-05-11 AM** 🚀🚀 | **AVGO + AMAT semi-sleeve catalyst-buys (manual autopilot run)** | **+$144 / +0.54% intraday.** Operator-triggered manual autopilot after scheduled `autopilot_morning` missed at 09:27 ET (cron delay). **Heaviest Mercury catalyst day of the month: 23 alerts in 4h.** Top scored: **AVGO 91** (record $35B private credit Apollo+Blackstone — under-reacted +0.6% on event), **MASI 85.5** (DHR $10B takeover-arb — dropped on flat-tape arb asymmetry), **AMAT 82.75** (TSMC joint AI semi dev), CEG 81.75 (Q1 mega-beat 28% sales — HELD), INTC ~85 (Apple foundry corroborated — HELD). **2 BUYS executed via bracket orders:** AVGO 1sh @ $431.40 (limit $433.50 → $2.10 favorable fill; stop $407 / target $485) + AMAT 1sh @ $441.47 (limit $444.50 → $3.03 favorable fill; stop $416 / target $498). Cash flex invoked for AVGO (semi_ai HOT regime, 1/day). Daily cap reached 2/2. Semi sleeve fill: 91% → 104% of soft target ($6,931 / $6,650). NKE near-stop at 1.1% cushion (let it work). CEG -3.7% cushion post-mega-beat vol (hold). [Manual debrief](debriefs/2026-05-11-0953-manual) · [AVGO trade](trades/2026-05-11-AVGO-buy) · [AMAT trade](trades/2026-05-11-AMAT-buy) |
 | **2026-05-08 ALL DAY** 🚀 | INTC trim + BILL buy + 4 stop ratchets (autonomous) | **+$716 / +2.78% MASSIVE DAY.** WSJ exclusive confirmed Apple-Intel preliminary chip agreement → INTC +13.92%. MU HBM thesis activated (SK Hynix bottleneck) → MU +15.26% to $745. SOX 25-year high. **5 autonomous actions** under new "WhatsApp inform-only" policy: (1) INTC target trim 6 sh @ $116.37 = +$117 realized; (2) BILL quad-bull catalyst-buy 64 sh @ $40.17 = $2,571 (closed +4.1% Day 1); (3) MU stop ratchet $634→$665→$700 (entry+5R locks +$478); (4) INTC stop ratchet $108→$118→$120 (post-WSJ + EOD); (5) BILL stop $36 placed same-day per new PDT-above-$25K rule. Pipeline + safety gates worked perfectly — no WhatsApp confirm needed. [Morning](debriefs/2026-05-08-0957-morning) · [Midday](debriefs/2026-05-08-1317-midday) · [Close](debriefs/2026-05-08-1621-close) |
 | **2026-05-07 ALL DAY** | CVX stop fire (-$104) + DIS BUY expired AFK | Day -$383 / -1.46%. CVX stop $182 GTC fired @ open print 09:30 ET, 10 sh @ $181.50. Energy sector now zero-weight. MRVL -6.93% biggest drag (OpenAI-AVGO snag + ARM supply wall). Pipeline saved misread C buy at AM. DIS BUY proposal expired with no operator confirm at 1h timeout — directly motivated **5/8 policy revision to autonomous mode**. Massive post-close earnings wave: BILL QUAD-bull, AFRM TRIPLE, DKNG +10x consensus, NVDA GS pre-earnings raise. [Morning](debriefs/2026-05-07-0950-manual) · [Midday](debriefs/2026-05-07-1318-midday) · [Close](debriefs/2026-05-07-1621-close) |
