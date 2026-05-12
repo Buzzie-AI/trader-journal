@@ -13,9 +13,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $26,342 (-0.88% intraday)
+## Portfolio — $26,200 (-1.41% intraday)
 
-*Updated: 2026-05-12 09:58 ET (Tuesday — **autopilot_morning ran 35 min late (queue contention behind delayed mercury fires), 0 trades, 5 watchlisted.** 21 Mercury alerts in 4h window — heaviest pre-open of the week — but **tape risk-off rejecting most catalysts**: ORCL -4.3% despite Samsung Java SE win, AMD -1.8% despite Mizuho $515 PT, GS -2.1% despite record GBM quarter, AKAM -4.0% despite analyst upgrade. **Only XLV +1% green.** Top pipeline candidates AFRM/CSCO/AZN all reached Diana but PASSED — AFRM the cleanest setup (Google BNPL Gemini App + Search integration, +0.79% idio alpha vs XLF) but lacking breakout momentum off 5/8 -10% gap zone; better entry $69+ with XLK green. Semi sleeve at 104% fill + YELLOW stops on AMAT (2.1% cushion) / INTC (3.3%) / AVGO (4.3%) → no semi adds even on AMD upgrade. Discipline > FOMO: missed entries cost nothing, undisciplined entries cost the framework.)*
+*Updated: 2026-05-12 13:30 ET (Tuesday MIDDAY — **0 trades / +$139 realized via INTC stop fire 10:31 ET (+44% lifecycle).** Big macro pivot since AM: **hot CPI print + Iran oil = textbook risk-off rotation.** Tech XLK -3.02% (worsened from AM -1.57%), but **financials XLF flipped GREEN +0.90%, healthcare XLV +2.32%, energy XLE +1.08%.** Catalysts being broadly REJECTED today: ORCL -4.3% on Samsung Java, AMD -4.95% on Mizuho $515 PT, AVGO -4.07% despite Citi $500 PT, GS -1.04% on record GBM, AKAM -4%, AFRM **INVALIDATED** (-2.04% idio vs XLF), MNDY -5.3% on record beat, CRCL -6.36% on Q1 beat. **QCOM -11% on $20B buyback** = sell-the-news mega-event explaining broader semi profit-taking. Semi sleeve survived deep stress test: AMAT cushion hit 0.22% / AVGO 0.45% / MU 1.29% intraday lows, all stops held, afternoon bounce recovered. Top idio-alpha candidates (CSCO +3.21%, META +2.75%, FTNT +1.77%) ALL BLOCKED by tech concentration at 36% (over 35% hard ceiling). Process upgrade: position-diff check added to mercury cron after 1h11min INTC fill detection lag.)*
 
 <div style="width:100%;overflow-x:auto">
 <canvas id="equityChart" width="800" height="280"></canvas>
@@ -40,7 +40,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26341.78],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26200.29],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -112,34 +112,33 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$26,342** |
-| Cash | $5,756 (21.9%) ✅ well above $2K reserve |
-| Invested | $20,585 (78.1%) |
-| Day P&L | **-0.88% (-$234)** — Risk-off tape, semi sleeve red, no trades |
-| **Agent P&L (since Mar 28)** | **+$2,853 (+13.9%)** — excludes Apr 23 $3K deposit |
+| Equity | **$26,200** |
+| Cash | $6,476 (24.7%) ✅ well above $2K reserve, +$720 post INTC |
+| Invested | $19,724 (75.3%) |
+| Day P&L | **-1.41% (-$376)** — Risk-off rotation; INTC stop +$139 realized |
+| **Agent P&L (since Mar 28)** | **+$2,711 (+13.2%)** — excludes Apr 23 $3K deposit |
 
-### Positions (Intraday May 12 — 14 equity)
+### Positions (Intraday May 12 13:30 — 13 equity; INTC stopped 10:31)
 
 | Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
 |--------|--------|-------|------|-------|--------|------|
-| **MU** 🚀🚀 | 3 | $541.11 | $765.32 | **+41.4%** 🎯 | 8.7% | $700 ✅ (entry+5R) |
-| **UNH** | 0.69 | $290.00 | $383.37 | **+32.2%** | 1.0% | — frac |
-| **INTC** 🎯 | 6 | $96.85 | $123.96 | **+28.0%** 🎯 | 2.8% | $120 ⚠️ TIGHT (3.3%) |
-| **CVS** 🎯 | 27 | $75.83 | $92.25 | **+21.7%** | 9.5% | $82 ✅ |
-| **BTC** | 0.0034 | $70,867 | $80,500 | **+13.6%** | 1.1% | — crypto |
-| **CCI** | 20 | $84.31 | $90.62 | **+7.5%** | 6.9% | $84.31 ✅ |
-| **TXN** | 5 | $272.83 | $290.10 | **+6.3%** | 5.5% | $252.58 ✅ |
-| **MRVL** | 9 | $159.54 | $165.46 | **+3.7%** | 5.7% | $145 ✅ |
-| **BILL** | 64 | $40.17 | $41.57 | **+3.5%** | 10.1% | $36 ✅ |
-| **NUE** | 9 | $223.00 | $229.51 | +2.9% | 7.8% | $210 ✅ |
-| **BLK** | 2 | $1,057.92 | $1,076.36 | +1.7% | 8.2% | $990 ✅ |
-| **MRK** | 18 | $112.47 | $112.87 | +0.4% | 7.7% | $103.50 ✅ |
-| **AVGO** | 1 | $431.40 | $425.20 | -1.4% | 1.6% | $407 ⚠️ YELLOW (4.3%) |
-| **AMAT** | 1 | $441.47 | $424.67 | -3.8% | 1.6% | $416 ⚠️ YELLOW+++ (2.1%) |
+| **UNH** | 0.69 | $290.00 | $393.27 | **+35.6%** | 1.0% | — frac |
+| **MU** 🚀🚀 | 3 | $541.11 | $725.85 | **+34.1%** 🎯 | 8.3% | $700 ✅ (entry+5R, stress-tested 1.29%) |
+| **CVS** 🎯 | 27 | $75.83 | $94.68 | **+24.7%** | 9.8% | $82 ✅ (3R+ trim candidate) |
+| **BTC** | 0.0034 | $70,867 | $79,995 | **+12.9%** | 1.1% | — crypto |
+| **CCI** | 20 | $84.31 | $91.34 | **+8.3%** | 7.0% | $84.31 ✅ |
+| **TXN** | 5 | $272.83 | $289.99 | **+6.3%** | 5.5% | $252.58 ✅ |
+| **NUE** | 9 | $223.00 | $230.86 | +3.5% | 7.9% | $210 ✅ |
+| **BLK** | 2 | $1,057.92 | $1,084.90 | +2.6% | 8.3% | $990 ✅ |
+| **BILL** | 64 | $40.17 | $40.75 | +1.4% | 10.0% | $36 ✅ |
+| **MRK** | 18 | $112.47 | $113.42 | +0.8% | 7.8% | $103.50 ✅ |
+| **MRVL** | 9 | $159.54 | $159.46 | -0.05% | 5.5% | $145 ✅ |
+| **AVGO** | 1 | $431.40 | $410.63 | -4.8% | 1.6% | $407 ⚠️ YELLOW (0.9%, min 0.45%) |
+| **AMAT** | 1 | $441.47 | $419.94 | -4.9% | 1.6% | $416 ⚠️ YELLOW (0.9%, min 0.22%) |
 
-**Total Open P&L: ~$1,810 unrealized** (intraday). **Realized today: $0**.
+**Total Open P&L: ~$1,495 unrealized** (intraday). **Realized today: +$138.97 (INTC stop +44% lifecycle).**
 
-**Today's catalyst stack (21 Mercury alerts):** AFRM Google BNPL · ORCL Samsung Java SE · AMD Mizuho $515 · AZN Phase 3 hit · FTNT NVDA AI partner · TSLA $250M Gruenheide · GS record GBM · CSCO/AKAM/CVS analyst upgrades · NVO Wegovy · JNJ Shockwave · CRBG+EQH merger step. **Tape rejecting most catalysts** (risk-off) — all top candidates PASSED to watchlist.
+**Today's macro:** Hot CPI + Iran oil = textbook risk-off rotation. Tech XLK -3.02%, Financials XLF +0.90%, Healthcare XLV +2.32%, Energy XLE +1.08%. **Catalysts being broadly rejected** (AMD/ORCL/AVGO/GS/AKAM/AFRM/MNDY/CRCL/TRI all negative idio alpha). QCOM -11% on $20B buyback announcement = sell-the-news mega-event. Pipeline picked 3 strongest idio-alpha names (CSCO/META/FTNT) but **all blocked by tech sector concentration at 36% (over 35% hard ceiling)**.
 
 ---
 
@@ -157,7 +156,7 @@ new Chart(ctx, {
 
 | Date | Action | Details |
 |------|--------|---------|
-| **2026-05-12 AM** | **autopilot_morning: 0 trades, 5 watchlisted (risk-off tape)** | **Day -$234 / -0.88%.** 21 Mercury alerts in 4h pre-open window — heaviest of the week — but tape rejected most catalysts. ORCL -4.3% (Samsung Java win), AMD -1.8% (Mizuho $515 PT), GS -2.1% (record GBM), AKAM -4.0% (upgrade). Only XLV +1% green. AFRM the cleanest setup (+0.79% idio alpha on Google BNPL Gemini integration) but post-5/8 gap zone limited momentum → PASS to watchlist for $69+ break with XLK green. Semi sleeve at 104% fill + YELLOW stops (AMAT 2.1%, INTC 3.3%, AVGO 4.3%) → no semi adds despite AMD upgrade. Autopilot fired 35 min late (queue contention same as 5/11). Discipline > FOMO. [Debrief](debriefs/2026-05-12-0958-morning) |
+| **2026-05-12 ALL DAY** | **INTC stop +$139 / 0 BUYs / 8 watchlisted (risk-off rotation day)** | **Day -$376 / -1.41%.** Hot CPI + Iran oil triggered textbook rotation: tech XLK -3.02% / financials XLF +0.90% / healthcare XLV +2.32% / energy XLE +1.08%. **INTC stopped 10:31 ET @ $120.01 = +$138.97 realized** (entry+5R lock did its job; +44% across full lifecycle). 30+ Mercury alerts but **broad catalyst rejection pattern**: AMD/AVGO/ORCL/GS/AKAM/AFRM/MNDY/CRCL/TRI all negative idio alpha. **QCOM -11% on $20B buyback** = sell-the-news mega-event explaining semi profit-taking. Top idio candidates CSCO (+3.21% vs XLK) / META (+2.75%) / FTNT (+1.77%) **all blocked by tech concentration at 36%** (over 35% hard ceiling). Semi sleeve survived deep stress test: AMAT cushion 2.1% AM → 0.22% mid → 0.95% recovered; AVGO 4.3% → 0.45% → 0.89%; MU 4.98% → 1.29% → 3.69%. All stops held. Process upgrade: position-diff check added to mercury cron after 1h11min INTC detection lag. Autopilot delays continued (AM 35 min, midday 26 min late). [AM debrief](debriefs/2026-05-12-0958-morning) · [Midday debrief](debriefs/2026-05-12-1317-midday) · [INTC trade journal](trades/2026-05-12-INTC-stop-trigger) |
 | **2026-05-11 AM** 🚀🚀 | **AVGO + AMAT semi-sleeve catalyst-buys (manual autopilot run)** | **+$144 / +0.54% intraday.** Operator-triggered manual autopilot after scheduled `autopilot_morning` missed at 09:27 ET (cron delay). **Heaviest Mercury catalyst day of the month: 23 alerts in 4h.** Top scored: **AVGO 91** (record $35B private credit Apollo+Blackstone — under-reacted +0.6% on event), **MASI 85.5** (DHR $10B takeover-arb — dropped on flat-tape arb asymmetry), **AMAT 82.75** (TSMC joint AI semi dev), CEG 81.75 (Q1 mega-beat 28% sales — HELD), INTC ~85 (Apple foundry corroborated — HELD). **2 BUYS executed via bracket orders:** AVGO 1sh @ $431.40 (limit $433.50 → $2.10 favorable fill; stop $407 / target $485) + AMAT 1sh @ $441.47 (limit $444.50 → $3.03 favorable fill; stop $416 / target $498). Cash flex invoked for AVGO (semi_ai HOT regime, 1/day). Daily cap reached 2/2. Semi sleeve fill: 91% → 104% of soft target ($6,931 / $6,650). NKE near-stop at 1.1% cushion (let it work). CEG -3.7% cushion post-mega-beat vol (hold). [Manual debrief](debriefs/2026-05-11-0953-manual) · [AVGO trade](trades/2026-05-11-AVGO-buy) · [AMAT trade](trades/2026-05-11-AMAT-buy) |
 | **2026-05-08 ALL DAY** 🚀 | INTC trim + BILL buy + 4 stop ratchets (autonomous) | **+$716 / +2.78% MASSIVE DAY.** WSJ exclusive confirmed Apple-Intel preliminary chip agreement → INTC +13.92%. MU HBM thesis activated (SK Hynix bottleneck) → MU +15.26% to $745. SOX 25-year high. **5 autonomous actions** under new "WhatsApp inform-only" policy: (1) INTC target trim 6 sh @ $116.37 = +$117 realized; (2) BILL quad-bull catalyst-buy 64 sh @ $40.17 = $2,571 (closed +4.1% Day 1); (3) MU stop ratchet $634→$665→$700 (entry+5R locks +$478); (4) INTC stop ratchet $108→$118→$120 (post-WSJ + EOD); (5) BILL stop $36 placed same-day per new PDT-above-$25K rule. Pipeline + safety gates worked perfectly — no WhatsApp confirm needed. [Morning](debriefs/2026-05-08-0957-morning) · [Midday](debriefs/2026-05-08-1317-midday) · [Close](debriefs/2026-05-08-1621-close) |
 | **2026-05-07 ALL DAY** | CVX stop fire (-$104) + DIS BUY expired AFK | Day -$383 / -1.46%. CVX stop $182 GTC fired @ open print 09:30 ET, 10 sh @ $181.50. Energy sector now zero-weight. MRVL -6.93% biggest drag (OpenAI-AVGO snag + ARM supply wall). Pipeline saved misread C buy at AM. DIS BUY proposal expired with no operator confirm at 1h timeout — directly motivated **5/8 policy revision to autonomous mode**. Massive post-close earnings wave: BILL QUAD-bull, AFRM TRIPLE, DKNG +10x consensus, NVDA GS pre-earnings raise. [Morning](debriefs/2026-05-07-0950-manual) · [Midday](debriefs/2026-05-07-1318-midday) · [Close](debriefs/2026-05-07-1621-close) |
