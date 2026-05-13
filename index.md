@@ -13,9 +13,15 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $26,725 (+1.04% / Wednesday CLOSE)
+## Portfolio — $26,741 (+1.10% / Wednesday EOD — best day of week)
 
-*Updated: 2026-05-13 16:35 ET (Wednesday CLOSE — **Day +$274 / +1.04%, best of the week**). EOD equity $26,724.71. Realized today: -$24.40 (AVGO stop AM). Unrealized today: +$298. 2-day cumulative realized **+$114.57** (INTC Tue +$139 / AVGO Wed -$24). Daily cap **0/2 preserved across 3 consecutive autopilots** (AM/midday/close). All 10 marginable stops in place.* 
+*Updated: 2026-05-13 16:47 ET (Wednesday EOD FINAL — **Day +$291 / +1.10%, best of the week**). After-hours print extended gains $16 above close, driven by **CSCO Q3 record $15.8B revenue + $9B AI orders raised + FY26 AI guide LIFTED** (16:45 ET mega-catalyst), with semi sleeve continuing higher in AH: MRVL $180 (cushion 24%), AMAT $440 (cushion 5.9% — full TSMC EPIC validation). 2-day cumulative realized: **+$114.57** (INTC Tue +$139 / AVGO Wed -$24). Daily cap **0/2 preserved across all 3 autopilots** (AM/midday/close). 18 mercury scans, 2 trades (AVGO stop fire AM, CVS $87 stop ratchet AM). ~85 Mercury alerts day total spanning AI infra (CSCO/AKAM/TSM/AMAT/DDOG/NBIS/COHR/TSEM/MU/Anthropic 5-leg), healthcare cluster (LLY FDA pill/BMY $15.2B Hengrui/AUPH-KZR $6.955B/SYK vascular/JNJ Leerink/CVS Omnicare/RVTY FDA/ARGX Fidelity stake), defense capex (LDOS hypersonic/TDY drone/RKLB/LUNR/BA Trump-China + $1B Kansas), and earnings beats (ROP +58%/NBIS +684%/DDOG $1B/CSCO $15.8B/SE record/MPC/APP/JD/XMTR). Bearish flags rejected by tape: NVDA Culper SHORT, BABA Q4 -92%, WIX -30%, DJT -77%, DOCS Q4 miss + dual exec reset.*
+
+**Thursday watchlist: NBIS (+684% Q1 / Meta megadeal), CSCO (Q3 record + $9B AI / AH catalyst), LLY (FDA pill pullback), BA (Trump-China dual), HPE (dual activist), AAPL (App Store AI Agents), JNJ (Leerink Outperform), ROP (+58% Q1 EPS), AKAM (Anthropic + BofA BUY).**
+
+*Wed CLOSE: +$274 / +1.04% intraday → AH +$16 = EOD $26,741 (best of week).*
+
+*Last updated: 2026-05-13 16:35 ET (Wednesday CLOSE — **Day +$274 / +1.04%, best of the week**). EOD equity $26,724.71. Realized today: -$24.40 (AVGO stop AM). Unrealized today: +$298. 2-day cumulative realized **+$114.57** (INTC Tue +$139 / AVGO Wed -$24). Daily cap **0/2 preserved across 3 consecutive autopilots** (AM/midday/close). All 10 marginable stops in place.* 
 
 **Wed key takeaways:**
 1. **AMAT TSMC EPIC Deal turned the day's biggest risk into a catalyst-validated hold** — cushion 2.5% open YELLOW → 5.1% close. The decision NOT to chase new tech BUYs at midday allowed AMAT room to recover on its $20B Arizona-capex catalyst.
