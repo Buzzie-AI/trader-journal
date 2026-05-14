@@ -5,21 +5,21 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-12 16:35 ET (Tue EOD — **Day -$136 / -0.51%** with **1 stop fire (INTC) realizing +$138.97 / +44% lifecycle.** Hot CPI + Iran oil triggered textbook risk-off rotation: tech XLK -3.2% / financials XLF +0.9% / healthcare XLV +2.3% / energy XLE +1.1%. **35+ Mercury alerts but 0 BUYs** — catalyst rejection pattern dominant (AMD/AVGO/ORCL/GS/AKAM/AFRM/MNDY/CRCL/TRI all bullish-catalyst-but-tape-sold). **QCOM -11% on $20B buyback** = sell-the-news mega-event explaining broader semi profit-taking. Top idio-alpha candidates CSCO (+3.21% vs XLK), META (+2.75%), FTNT (+1.77%) ALL BLOCKED by tech concentration at 36%. Semi sleeve survived deep stress test: **AMAT cushion 0.22% min / AVGO 0.45% min / MU 1.29% min** intraday lows, all stops held, recovered to 3.82% / 2.43% / 9.62% by close. **INTC stop $120 fired at 10:31 ET** = entry+5R lock did its job (1h11min detection latency → position-diff check deployed mid-session as remediation). **Wed AM action: CVS stop ratchet $82→$87** (lock +14.7%, was +8.2%) queued. Mag-7 product/AI day: GOOGL 4 alerts (SpaceX/Googlebook/AFRM-KLAR/AI engineers), META 2 (DESRI/WhatsApp AI), MSFT 1 (>2x OpenAI ROI), AAPL 1 (iOS 27).)*
+*Last updated: 2026-05-14 16:23 ET (Thu close — **Day -$80 / -0.30%**; equity $26,656. **2 catalyst-buys: BA + SYY inline fast-tracks** via Mercury react-not-watchlist architecture activated today. **MASSIVE post-close catalyst on HELD position AMAT**: Q2 EPS $2.86 vs $2.66 (+7.5%) + Sales $7.91B vs $7.65B (+3.4%) + Q3 guide $3.16-$3.56 vs $2.88 (mid +17%, high +24%) — AH +4.2% to $459.33 = stop-ratchet priority tomorrow AM. MRVL stop ratcheted $145→$170 (all-time peak lock, +0.72R / +6.5%). BA $231.62 entry on 4-leg catalyst stack (Trump tariff truce + $1B Kansas + Bessent China-orders + Bloomberg 200-jet WIN confirmation midday); intraday +5.4% peak ($243.83) reversed to -4.7% close ($229.30) = position -0.84% from entry. SYY $73.21 entry on $29B Restaurant Depot mega-deal (1.4% reduced sizing for borderline conviction; -0.22% from entry). **BIIB PASS validated** — Diana correctly anticipated -24% intraday catalyst-rejection slide. Pipeline discipline: 2/2 daily cap fast-tracks completed, ZERO process violations. AMAT entry $441.47 (corrected from earlier session error). 12 Mercury alerts feeding Friday Phase 0.5: AMAT (TRIPLE catalyst HELD), NOW ($4B refi recovery), PFE (2 FDA today w/ Arvinas), QCOM (multi-analyst AI), CRWD (BTIG cyber), AAPL (Evercore $365 vs OpenAI legal bear), SHOP (Thrive $100M smart-money).)*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$26,439.85 EOD** |
-| Cash | **$6,476.47** (24.5%) — includes $720 INTC stop proceeds |
-| Invested | $19,963.38 (75.5%) |
-| Positions | **13 equity** (INTC stopped) + BTC + UNH fractional + 737CVR019 (CVR) |
-| Today's activity | **1 stop fire**: INTC 6 sh @ $120.01 = **+$138.97 realized / +23.93%** (cost $96.85). 0 BUYs. |
-| Stop coverage | ✅ 12 GTC stops on all positions; all survived deep stress test |
-| 🎯 Best held EOD | **MU +41.8%** (3 sh @ $767, stop $700) · **UNH +36.7%** (frac) · **CVS +25.3%** ($95.00) · **BTC +14.1%** · **CCI +8.5%** · **TXN +8.2%** · **BLK +3.3%** |
-| Day P&L | **-$136 / -0.51%** vs Mon close $26,575.95 |
-| **Realized today** | **+$138.97** (INTC stop +44% lifecycle: 5/4 entry → 5/8 trim → 5/12 stop) |
+| **Portfolio Value** | **$26,656.12 EOD** |
+| Cash | **$5,822.54** (21.8%) |
+| Invested | $20,833.58 (78.2%) |
+| Positions | **14 equity** (BA, SYY added today) + BTC + UNH fractional + 737CVR019 CVR |
+| Today's activity | **2 catalyst-buys** (BA + SYY inline fast-track) + **1 stop ratchet** (MRVL $145→$170) + 2 stops placed |
+| Stop coverage | ✅ 13 GTC stops on all positions; all healthy |
+| 🎯 Best held EOD | **MU +44.0%** (3 sh @ $779, stop $700) · **UNH +37.6%** (frac) · **CVS +28.1%** ($97.15) · **MRVL +14.7%** (ratcheted) · **BTC +14.8%** · **TXN +13.0%** · **BLK +4.4%** · **AMAT +4.2%** (AH post-Q2/Q3 earnings) |
+| Day P&L | **-$79.63 / -0.30%** vs Wed close $26,735.75 |
+| **Realized today** | **$0** (no exits) |
 
 ---
 
@@ -36,10 +36,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12"],
+    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12","May 13","May 14"],
     datasets: [{
       label: 'Equity',
-      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85],
+      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -66,47 +66,37 @@ new Chart(ctx, {
 });
 </script>
 
-**Tue May 12 EOD:** $26,439.85 (-$136 / -0.51% vs Mon close $26,575.95). Net realized +$139 (INTC stop +44% lifecycle); unrealized down ~$275 across semi sleeve weakness. Stops held all day through deep stress test.
+**Thu May 14 EOD:** $26,656.12 (-$79.63 / -0.30% vs Wed close $26,735.75). Day featured 2 inline Mercury fast-tracks (BA + SYY) under the new react-not-watchlist architecture; flat day-realized but **AMAT post-close TRIPLE catalyst (Q2 beat + Q3 guide raise)** is the headline AH news = stop-ratchet priority tomorrow.
 
 ---
 
-## Current Positions (13 equity + 1 frac + 1 crypto, EOD May 12)
+## Current Positions (14 equity + 1 frac + 1 crypto, EOD May 14)
 
 | Ticker | Shares | Entry | Last | P&L | P&L % | Stop | Buffer |
 |--------|--------|-------|------|-----|-------|------|--------|
-| **MU** 🚀🚀 | 3 | $541.11 | $767.36 | +$679 | **+41.8%** 🎯 | $700 | -8.8% (locks +$478) |
-| **UNH** | 0.69 | $290.00 | $396.50 | +$73 | **+36.7%** | — frac | n/a |
-| **CVS** 🎯 | 27 | $75.83 | $95.00 | +$518 | **+25.3%** 🎯 | $82 | -13.7% (Wed AM ratchet to $87 queued) |
-| **BTC** | 0.0034 | $70,867 | $80,863 | +$34 | **+14.1%** | — crypto | n/a |
-| **CCI** | 20 | $84.31 | $91.50 | +$144 | **+8.5%** | $84.31 | -7.9% (breakeven lock) |
-| **TXN** | 5 | $272.83 | $295.17 | +$112 | **+8.2%** | $252.58 | -14.4% |
-| **MRVL** | 9 | $159.54 | $163.51 | +$36 | **+2.5%** | $145 | -11.3% |
-| **BILL** | 64 | $40.17 | $41.27 | +$70 | **+2.7%** | $36 | -12.8% |
-| **NUE** | 9 | $223.00 | $229.83 | +$61 | +3.1% | $210 | -8.6% |
-| **BLK** | 2 | $1,057.92 | $1,092.50 | +$69 | +3.3% | $990 | -9.4% |
-| **MRK** | 18 | $112.47 | $112.37 | -$2 | -0.1% | $103.50 | -7.9% |
-| **AVGO** | 1 | $431.40 | $417.15 | -$14 | -3.3% | $407 | -2.4% (survived 0.45% min) |
-| **AMAT** | 1 | $441.47 | $431.88 | -$10 | -2.2% | $416 | -3.8% (survived 0.22% min) |
+| **MU** 🚀🚀 | 3 | $541.11 | $779.00 | +$714 | **+44.0%** 🎯 | $700 | 9.8% (locks +$478) |
+| **UNH** | 0.69 | $290.00 | $399.00 | +$75 | **+37.6%** | — frac | n/a |
+| **CVS** 🎯 | 27 | $75.83 | $97.155 | +$576 | **+28.1%** 🎯 | $87 | 10.4% |
+| **BTC** | 0.0034 | $70,867 | $81,358 | +$36 | **+14.8%** | — crypto | n/a |
+| **MRVL** | 9 | $159.54 | $183.00 | +$211 | **+14.7%** 🎯 | **$170 (ratcheted today)** | 6.9% (locks +$130) |
+| **TXN** | 5 | $272.83 | $308.07 | +$177 | **+12.9%** | $252.58 | 18.0% |
+| **BLK** | 2 | $1,057.92 | $1,104.67 | +$92 | +4.4% | $990 | 10.4% |
+| **AMAT** 🆕catalyst | 1 | $441.47 | $440.86 (AH $459.33) | -$1 reg / +$18 AH | -0.14% reg / +4.2% AH | $416 | 5.6% reg / 9.6% AH |
+| **NUE** | 9 | $223.00 | $232.66 | +$87 | +4.3% | $210 | 9.7% |
+| **CCI** | 20 | $84.31 | $87.30 | +$60 | +3.6% | $84.31 | **3.4%** YELLOW |
+| **MRK** | 18 | $112.47 | $113.41 | +$17 | +0.8% | $103.50 | 8.7% |
+| **SYY** 🆕 | 5 | $73.21 | $73.04 | -$1 | -0.22% | $68 | 6.9% (T+0 fill today) |
+| **BA** 🆕 | 3 | $231.62 | $229.30 | -$6 | -0.84% | $216 | 5.8% (T+0 fill today) |
+| **BILL** | 64 | $40.17 | $39.49 | -$44 | -1.7% | $36 | 8.8% |
 
-**Total open unrealized P&L: ~$1,790 EOD**. **Realized today: +$138.97** (INTC stop).
+**Total open unrealized P&L: ~$2,033 EOD**. **Realized today: $0**. AMAT post-AH catalyst +$18.5 (if gap holds open).
 
-⚠ **Stop stress test summary (semi sleeve):**
-- AMAT: cushion 2.1% AM → **0.22% min at 12:57 ET** → 3.82% close
-- AVGO: cushion 4.3% AM → **0.45% min at 12:42 ET** → 2.43% close
-- MU: cushion 5.0% AM → **1.29% min at 12:42 ET** → 9.62% close
-
-**All 3 semi sleeve stops survived the day's worst intraday pressure.** Discipline held.
-
-🎯 **EOD catalysts driving positions:**
-- **CVS +3.0% intraday** — healthcare cluster bull (XLV +2.3%) ignored TX AG threat
-- **MU recovered +4.5% off lows** — Korea memory shockwave faded into close
-- **AMAT/AVGO recovered** but still red vs Mon close
-- **MRK +1.0%** — pharma cluster bull
-- **BLK +1.0%** — financials rotation bull (XLF +0.9%)
-- **UNH +3.1%** — healthcare cluster best
-- **BILL -0.6%** — SaaS mild red on tech sell-off
-
-🚪 **Closed today:** INTC stopped at $120.01 (6 sh, +$138.97). [Trade journal](trades/2026-05-12-INTC-stop-trigger). Total INTC trade lifecycle (entry 5/4 → trim 5/8 → stop 5/12): **+$256.12 / +44%**.
+🔥 **AMAT Post-Close Catalyst:**
+- Q2 EPS $2.86 BEATS $2.66 estimate (+7.5%)
+- Q2 Sales $7.910B BEATS $7.647B estimate (+3.4%)
+- **Q3 Guide EPS $3.16-$3.56 vs $2.88** (mid +17%, high +24%)
+- **Q3 Guide Sales $8.45-$9.45B vs $8.089B** (mid +10.4%)
+- AH reaction: +4.2% to $459.33 — stop-ratchet candidate tomorrow AM
 
 ---
 
@@ -114,43 +104,46 @@ new Chart(ctx, {
 
 | Sleeve | Target | Current Fill | Status | Members Held |
 |--------|-------:|-------------:|--------|--------------|
-| **semi_ai** | $6,610 (25%) | $6,886 (26.0%) | **104% of soft target** | MU $2,302 + MRVL $1,472 + TXN $1,476 + AVGO $417 + AMAT $432 |
+| **semi_ai** | $6,664 (25%) | $5,985 (22.5%) | **89.8% of target** | MU $2,337 + MRVL $1,647 + TXN $1,541 + AMAT $460 |
 
-Sleeve regime: **HOT** but **TECH CONCENTRATION CEILING BINDING at 36.0%.** Total tech = semi $6,886 + BILL $2,641 (SaaS, tech-adjacent) = **$9,527 / 36.0% — over 35% hard ceiling.** No tech adds Wed until harvest of a winner (MU prime candidate at +41.8% / 5R+ lock).
+Sleeve regime: **HOT** with AMAT earnings catalyst confirming sleeve thesis. Tech total = semi $5,985 + BILL $2,527 = **$8,512 / 31.9%** — under 35% hard ceiling. **AMAT Q2/Q3 catalyst validates the AVGO-replacement thesis** (stopped 5/13 -$24.40 lifecycle).
 
 ---
 
-## Allocation (EOD May 12)
+## Allocation (EOD May 14)
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| **Tech / Semi-AI** (MU, MRVL, TXN, AVGO, AMAT) | $6,886 | 26.0% |
-| **SaaS (BILL)** | $2,641 | 10.0% |
-| **TECH TOTAL** | **$9,527** | **36.0%** ⚠ OVER 35% CEILING |
-| Healthcare (MRK, CVS, UNH) | $4,861 | 18.4% |
-| Financials (BLK) | $2,185 | 8.3% |
-| Materials (NUE) | $2,068 | 7.8% |
-| Real Estate (CCI) | $1,830 | 6.9% |
-| Crypto (BTC) | $279 | 1.1% |
-| **Cash** | $6,476 | **24.5%** |
+| **Tech / Semi-AI** (MU, MRVL, TXN, AMAT) | $5,985 | 22.5% |
+| **SaaS (BILL)** | $2,527 | 9.5% |
+| **TECH TOTAL** | **$8,512** | **31.9%** (under 35% ceiling) |
+| Healthcare (MRK, CVS, UNH) | $4,940 | 18.5% |
+| Financials (BLK) | $2,208 | 8.3% |
+| Materials (NUE) | $2,096 | 7.9% |
+| Real Estate (CCI) | $1,746 | 6.5% |
+| Consumer Staples (SYY) | $365 | 1.4% |
+| Industrials (BA) | $689 | 2.6% |
+| Crypto (BTC) | $281 | 1.1% |
+| **Cash** | $5,822 | **21.8%** |
 
 ---
 
-## Open Orders (12 active GTC stops)
+## Open Orders (13 active GTC stops)
 
 | Type | Ticker | Qty | Trigger | TIF | Notes |
 |------|--------|-----|---------|-----|-------|
-| Stop | **MU** | 3 | **$700.00** | GTC | Entry+5R; stress-tested 1.29% min |
-| Stop | CVS | 27 | $82.00 | GTC | **Wed AM ratchet to $87 queued** (lock +14.7% vs +8.2%) |
+| Stop | **MU** | 3 | **$700.00** | GTC | Entry+5R; running +44% |
+| Stop | **CVS** | 27 | **$87.00** | GTC | Ratcheted Wed AM; locks +14.7% / +$300 |
 | Stop | BILL | 64 | $36.00 | GTC | |
 | Stop | BLK | 2 | $990.00 | GTC | |
-| Stop | CCI | 20 | $84.31 | GTC | Breakeven-lock |
+| Stop | CCI | 20 | $84.31 | GTC | Breakeven-lock; YELLOW 3.4% cushion |
 | Stop | MRK | 18 | $103.50 | GTC | |
-| Stop | MRVL | 9 | $145.00 | GTC | |
+| Stop | **MRVL** | 9 | **$170.00** | GTC | **Ratcheted Thu AM** (all-time peak lock; +0.72R / +6.5%) |
 | Stop | TXN | 5 | $252.58 | GTC | |
 | Stop | NUE | 9 | $210.00 | GTC | |
-| Stop | **AVGO** | 1 | **$407.00** | GTC | Survived 0.45% min; 2.43% close |
-| Stop | **AMAT** | 1 | **$416.00** | GTC | Survived 0.22% min; 3.82% close |
+| Stop | AMAT | 1 | $416.00 | GTC | **Tomorrow AM ratchet candidate** (post-Q2/Q3 catalyst) |
+| Stop | **BA** | 3 | **$216.00** | GTC | New today (catalyst-buy 14:25 ET) |
+| Stop | **SYY** | 5 | **$68.00** | GTC | New today (catalyst-buy 14:39 ET) |
 
 ---
 
@@ -158,7 +151,8 @@ Sleeve regime: **HOT** but **TECH CONCENTRATION CEILING BINDING at 36.0%.** Tota
 
 | Date | Ticker | Action | Realized | Notes |
 |------|--------|--------|---------:|-------|
-| **2026-05-12** 🎯 | **INTC** | Stop fired @ $120.01 (6 sh) 10:31 ET | **+$138.97 / +23.93%** | Entry+5R lock; total INTC lifecycle +$256 / +44% across 5/4 entry → 5/8 trim → 5/12 stop. [Journal](trades/2026-05-12-INTC-stop-trigger) |
+| 2026-05-13 | **AVGO** | Stop fired @ $407.00 (1 sh) 09:46 ET | **-$24.40 / -5.66%** | Mon catalyst-buy (5/11) stop fire. Lifecycle: AVGO $431.40 → $407.00 = 1R loss bounded. [Journal](trades/2026-05-13-AVGO-stop-trigger) |
+| 2026-05-12 🎯 | **INTC** | Stop fired @ $120.01 (6 sh) 10:31 ET | **+$138.97 / +23.93%** | Entry+5R lock; total INTC lifecycle +$256 / +44% across 5/4 entry → 5/8 trim → 5/12 stop. [Journal](trades/2026-05-12-INTC-stop-trigger) |
 | 2026-05-11 | CEG | Stop fired @ $289.52 (7 sh) | +$66.64 / +3.4% | Q1 mega-beat sold-the-news |
 | 2026-05-11 | NKE | Stop fired @ $42.50 (44 sh) | −$122.62 / −6.2% | Consumer-disc sector pressure |
 | 2026-05-08 🎯 | INTC | Target trim 6 sh @ $116.37 | +$117.15 / +20.1% | Apple-Intel deal day |
@@ -166,75 +160,78 @@ Sleeve regime: **HOT** but **TECH CONCENTRATION CEILING BINDING at 36.0%.** Tota
 
 ---
 
-## Today's Mercury Catalyst Stack (35+ alerts)
+## Today's Catalyst Highlights
 
-### Mag-7 Product/AI Cluster (8 alerts)
-- **GOOGL** 4: AFRM/KLAR Gemini BNPL · WSJ SpaceX orbital data centers · Googlebook laptop · Hundreds of engineers AI customer adoption
-- **META** 2: DESRI 850MW PPA (2.5GW total) · Free WhatsApp access for rival AI chatbots
-- **MSFT** 1: >$26B revenue recouped (>2x its $13B OpenAI investment) per The Information
-- **AAPL** 1: iOS 27 customizable Pro camera + Siri redesign per Bloomberg
+### 🔥 HELD POSITIONS — Post-Close
+- **AMAT** Q2 DOUBLE BEAT + Q3 GUIDE RAISE — AH +4.2% to $459.33 (TRIPLE catalyst stack)
+- **MRVL** all-time peak intraday $192 (closed $182.55, +2.6%); stop ratcheted $145→$170
 
-### Tape REWARDED (positive idio alpha, all blocked by tech ceiling)
-- CSCO +3.21% idio vs XLK — analyst upgrade pushing 1-yr high
-- META +2.75% idio vs XLK — DESRI mega-partnership absorbed
-- FTNT +1.77% idio vs XLK — NVDA AI security partner
+### 🎯 Catalyst-Buys Executed Today (inline Mercury fast-track)
+- **BA** 3 sh @ $231.62 — 4-leg stack: Trump tariff truce + $1B Kansas + Bessent China-orders + Bloomberg confirmed 200-jet WIN midday
+- **SYY** 5 sh @ $73.21 — $29B Restaurant Depot mega-deal (anomalous flat tape interpreted as under-reaction; 1.4% reduced sizing for borderline conviction)
 
-### Tape REJECTED (catalyst-rejection pattern dominant)
-- AMD Mizuho $515 PT — stock -5%
-- AVGO Citi $500 PT — stock -3% (HELD position)
-- ORCL Samsung Java SE win — stock -3%
-- GS record GBM quarter — stock -1%
-- **QCOM -11% on $20B buyback** = day's structural sell-the-news signal
-- AFRM Google Pay (-2.04% idio alpha = INVALIDATED)
-- AKAM upgrade — stock -4%
-- MNDY record Q1 beat — stock -5%
-- CRCL Q1 beat — stock -6%
-- TRI × Anthropic Claude legal AI MCP — stock -2%
+### ✅ Pipeline Discipline Validated
+- **BIIB PASSed** — Diana correctly anticipated -24% intraday catalyst-rejection slide
+- **Pipeline architecture activated** — 2/2 daily fast-tracks completed, 0 process violations
+- React-not-watchlist Mercury model proven (operator directive 2026-05-14)
 
-### Healthcare Cluster (XLV +2.3% best sector)
-- AZN CALYPSO Phase 3 hit primary endpoint
-- NVO Wegovy premenopausal 22.6% loss
-- JNJ Shockwave C2 Aero global launch
-- ARVN/PFE/RIGL VEPPANU $405M breast cancer licensing
-- CVS analyst upgrade 52-wk high (HELD position +3%)
-
-### Bearish / Legal / Regulatory
-- **CVS** TX AG Medicaid fraud DEI warning (HELD; tape ignored)
-- **PYPL** $30M DOJ DEI settlement
-- **GTLB** RIF / restructuring
-- **SEZL/SHOP** court allows antitrust claims to proceed (post-close)
-
-### M&A / Strategic
-- **BF.B Brown-Forman REJECTS $15B Sazerac acquisition** (post-close, Reuters/WSJ) — $15B = ~50% of BF.B market cap valuation anchor
-- CRBG + EQH merger leadership team
-- FCC approves SATS/T EchoStar 65MHz spectrum sale to SpaceX + 50MHz to AT&T
-- VIST JPM PT $93 on M&A
+### Tomorrow (Fri 5/15) AM Watchlist
+- **AMAT** stop ratchet $416 → $440 (priority #1)
+- **NOW** dip-recovery thesis ($4B refi + AI rev after Q1 -18%)
+- **PFE** 2 FDA approvals (HYMPVAZI EU AM + Arvinas breast cancer PM)
+- **AAPL** Evercore PT $330→$365 vs OpenAI legal bear (mixed)
+- **QCOM** multi-analyst AI upgrades
+- **CRWD** BTIG PT raise + cyber-sleeve tailwind
+- **SHOP** Thrive Capital $100M smart-money signal
+- **CCI** YELLOW 3.4% cushion — monitor or accept tighter
+- **BA** if recovery confirms above $235, consider $216→$220-225 ratchet
 
 ---
 
-## Watchlist for Wed (9 tickers)
+## Today's Mercury Catalyst Stack (12+ alerts, react-not-watchlist activated)
 
-| Ticker | Setup | Wed re-entry trigger |
-|--------|-------|---------------------|
-| **BF.B** 🆕 | Brown-Forman rejected $15B Sazerac (post-close) | Wed premarket — watch takeover-premium pricing |
-| **AFRM** | INVALIDATED — Google BNPL catalyst rejected | $69+ break with XLK green |
-| **CSCO** | Strong relative strength; blocked by tech ceiling | Harvest MU/AVGO winner first OR pivot to financials |
-| **META** | DESRI 2.5GW + product slate | Same — sector cap binding |
-| **FTNT** | Cybersec-AI cluster | Sector cap binding |
-| **AZN** | CALYPSO Phase 3 hit | 2nd shop / BLA timeline confirmation |
-| **AVGO** | Citi $500 PT rejected today | Wed open price action |
-| **AMD** | Mizuho $515 PT — rejected | Re-entry post sleeve harvest |
-| **GS** | Record GBM rejected | Financials cluster bull leg confirmation |
+### Held Position Catalysts (post-close)
+- **AMAT** 16:01 ET Q2 BEAT — EPS $2.86 vs $2.66 (+7.5%); Sales $7.91B vs $7.65B (+3.4%)
+- **AMAT** 16:03 ET Q3 GUIDE — EPS $3.16-$3.56 vs $2.88 (mid +17%); Sales $8.45-$9.45B vs $8.089B (mid +10.4%)
+
+### Catalyst-Buys Today (executed)
+- **BA** 12:01 ET Bloomberg "Boeing WINS 200-Jet Plane Order From China" (executed 14:25 ET)
+- **SYY** Various Restaurant Depot $29B deal (executed 14:39 ET)
+
+### Strong Single-Ticker Catalysts (Friday pipeline candidates)
+- **NOW** 15:36 ET — AI revenue surge + $4B debt refi after Q1 -18% selloff
+- **PFE** 15:36 ET — FDA approval w/ Arvinas breast cancer (2nd PFE FDA today)
+- **AAPL** 15:36 ET — Evercore ISI PT $330→$365 (vs OpenAI legal bear)
+- **QCOM** 15:36 ET — Multi-analyst upgrades fuel AI-driven surge
+- **CRWD** 15:18 ET — BTIG raises target; cyber-sleeve momentum
+- **SHOP** 16:10 ET — Joshua Kushner's Thrive Capital $100M (Bloomberg)
+- **MSFT** 15:18 + 16:07 ET — Mixed (Claude Code license cancellation bear vs OpenAI Codex mobile bull)
+- **CARR** 14:42 ET — JPMorgan PT raise (AI-DC cooling stack)
+- **COIN** 15:02 ET — USDC/Hyperliquid expansion (+Clarity Act Senate pass stack)
+- **AZN** 14:14 ET — 2nd Phase 3 bladder cancer survival benefit
+
+### Healthcare Cluster Convergence
+- AZN double Phase 3 (perioperative + bladder cancer)
+- PFE dual FDA today
+- TEM/BMY AI clinical trial partnership
+- LLY oral GLP-1 ongoing
+- CVS regulatory moat continuing
+
+### AI Infrastructure Cluster
+- AMAT Q2/Q3 mega beat (semi-equipment)
+- NBIS Meta deal expansion + 684% AI rev growth + MS bullish
+- AVGO $545 Wells Fargo PT (RIP — stopped 5/13)
+- NVDA Cantor +49% upside
+- HPE dual-catalyst (overnight earlier)
+- CSCO Q3 mega + Trump China visit optimism
+- CARR HVAC cooling read-through
 
 ---
 
-## Wed AM Action Items
+## Process Notes (this week)
 
-1. **CVS stop ratchet $82 → $87** (lock +14.7%, was +8.2%) — first action
-2. Position-diff check after overnight tape
-3. Re-evaluate AFRM/CSCO/META if XLK recovers
-4. Consider MU 5R+ → 6R+ trim if breaks $800 (currently $767)
-
----
-
-*Generated by autopilot_close (30 min late). Next scheduled fire: autopilot_morning Wed at 09:23 ET.*
+1. **Pipeline discipline 2026-05-14 (Thu): 100%** — Every BUY went through 5-agent fast-track (Iris→Grace→Atlas→Victor→Diana+Marcus). Zero process violations.
+2. **Mercury architecture pivot:** Filter-only → react-not-watchlist inline fast-track activated per operator directive. New default mode = RUN pipeline.
+3. **Diana chase-vs-durable lesson (5/13 LLY post-mortem):** Don't blanket-PASS structural catalysts citing intraday chase risk. Memory saved.
+4. **AVGO -$24.40 stop fire 5/13:** Mon catalyst-buy → Wed stop = 1R bounded loss. Discipline kept loss small. Position-diff remediation working (5 min detection latency vs 1h11min INTC 5/12).
+5. **PDT same-day stops OK above $25K** (equity confirmed $26,656 well above floor).
