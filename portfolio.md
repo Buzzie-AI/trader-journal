@@ -5,21 +5,23 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-14 16:23 ET (Thu close — **Day -$80 / -0.30%**; equity $26,656. **2 catalyst-buys: BA + SYY inline fast-tracks** via Mercury react-not-watchlist architecture activated today. **MASSIVE post-close catalyst on HELD position AMAT**: Q2 EPS $2.86 vs $2.66 (+7.5%) + Sales $7.91B vs $7.65B (+3.4%) + Q3 guide $3.16-$3.56 vs $2.88 (mid +17%, high +24%) — AH +4.2% to $459.33 = stop-ratchet priority tomorrow AM. MRVL stop ratcheted $145→$170 (all-time peak lock, +0.72R / +6.5%). BA $231.62 entry on 4-leg catalyst stack (Trump tariff truce + $1B Kansas + Bessent China-orders + Bloomberg 200-jet WIN confirmation midday); intraday +5.4% peak ($243.83) reversed to -4.7% close ($229.30) = position -0.84% from entry. SYY $73.21 entry on $29B Restaurant Depot mega-deal (1.4% reduced sizing for borderline conviction; -0.22% from entry). **BIIB PASS validated** — Diana correctly anticipated -24% intraday catalyst-rejection slide. Pipeline discipline: 2/2 daily cap fast-tracks completed, ZERO process violations. AMAT entry $441.47 (corrected from earlier session error). 12 Mercury alerts feeding Friday Phase 0.5: AMAT (TRIPLE catalyst HELD), NOW ($4B refi recovery), PFE (2 FDA today w/ Arvinas), QCOM (multi-analyst AI), CRWD (BTIG cyber), AAPL (Evercore $365 vs OpenAI legal bear), SHOP (Thrive $100M smart-money).)*
+*Last updated: 2026-05-15 16:43 ET (Fri close — **Day -$452 / -1.69%**; equity $26,173 — worst day this week). **4 catalyst-buys executed (daily cap MAXED first time on new 4-cap regime)**: NOW 5 sh @ $93.02 (3-leg: $4B refi + AI rev recovery + Experian agentic-AI partnership) + MSFT 1 sh @ $415.53 (Bill Ackman/Pershing new core position + $30B OpenAI rev + "sold Google bought MSFT") + CSCO 1 sh @ $117.34 (HSBC BUY upgrade + MS $120 PT + Q3 mega) + PANW 1 sh @ $243.21 (Oppenheimer $275 + Jefferies $265 + Kevin Simpson "bought more"). All 4 BUYs via inline 5-agent Mercury fast-track. **Friday catalyst-buys NET +$15 unrealized** — pipeline-more-not-less directive validated. **AMAT 13-leg catalyst REJECTED by tape**: Q2 double-beat + Q3 guide raise + 25-yr-high margins + 7+ analyst PT raises (Needham $530, Keybanc $550, Mizuho $500, Wells Fargo $520, Cantor, TD Cowen, JPM $515) yet stock CLOSED $434 (vs $441 entry); textbook sell-the-news. Stop $416 held. **Worst day driven by held-position drawdown**: BLK -4.4% (DOJ private credit probe!), MU -6.5%, MRVL -3.9%, UNH -4.3% (Buffett 13F FULL EXIT). **5 CRITICAL YELLOW positions Monday open**: BA 1.9% / CCI 2.7% / MRVL 3.1% / MU 3.7% / BLK 6.2%. **AMGN MAJOR BEAR pending**: WSJ "20 deaths Japan" post-close — Monday gap-down risk. Buffett 13F: full exits of UNH/V/MA/AMZN + full ADD of GOOGL (rare counter to Ackman's MSFT-buy/Google-sell). Tape: SPY -0.97%, XLK -2.10% (chip-stocks-fall + rate-hike-panic narratives dominated).*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$26,656.12 EOD** |
-| Cash | **$5,822.54** (21.8%) |
-| Invested | $20,833.58 (78.2%) |
-| Positions | **14 equity** (BA, SYY added today) + BTC + UNH fractional + 737CVR019 CVR |
-| Today's activity | **2 catalyst-buys** (BA + SYY inline fast-track) + **1 stop ratchet** (MRVL $145→$170) + 2 stops placed |
-| Stop coverage | ✅ 13 GTC stops on all positions; all healthy |
-| 🎯 Best held EOD | **MU +44.0%** (3 sh @ $779, stop $700) · **UNH +37.6%** (frac) · **CVS +28.1%** ($97.15) · **MRVL +14.7%** (ratcheted) · **BTC +14.8%** · **TXN +13.0%** · **BLK +4.4%** · **AMAT +4.2%** (AH post-Q2/Q3 earnings) |
-| Day P&L | **-$79.63 / -0.30%** vs Wed close $26,735.75 |
+| **Portfolio Value** | **$26,173.44 EOD** |
+| Cash | **$4,581.35** (17.5%) — $5K deposit pending, not yet posted |
+| Invested | $21,592.09 (82.5%) |
+| Positions | **17 equity** (NOW + MSFT + CSCO + PANW added today) + BTC + UNH fractional + 737CVR019 CVR |
+| Today's activity | **4 catalyst-buys (cap MAXED)**: NOW + MSFT + CSCO + PANW inline fast-tracks + 4 GTC stops placed |
+| Stop coverage | ✅ 17 GTC stops; **5 CRITICAL YELLOW** for Monday (BA/CCI/MRVL/MU/BLK) |
+| 🎯 Best held EOD | **MU +34.2%** (3 sh @ $725.93, stop $700) · **UNH +31.7%** (frac) · **CVS +26.5%** ($95.96) · **BTC +11.5%** · **TXN +10.8%** · **MRVL +9.9%** (ratcheted $170) |
+| 🆕 Friday adds | **NOW +2.29%** (+$11) ✅ · **MSFT +1.24%** (+$5) ✅ · **CSCO +0.47%** (+$1) · **PANW -0.72%** (-$2) — Net +$15 unrealized |
+| Day P&L | **-$452 / -1.69%** vs Thu close $26,624.97 — worst day this week |
 | **Realized today** | **$0** (no exits) |
+| **5 CRITICAL YELLOW Monday** | BA 1.9% / CCI 2.7% / MRVL 3.1% / MU 3.7% / BLK 6.2% cushion to stops |
 
 ---
 
@@ -36,10 +38,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12","May 13","May 14"],
+    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12","May 13","May 14","May 15"],
     datasets: [{
       label: 'Equity',
-      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12],
+      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12,26173.44],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,

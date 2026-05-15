@@ -13,18 +13,24 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $26,656 (-0.30% day / Thursday CLOSE)
+## Portfolio — $26,173 (-1.69% day / Friday CLOSE)
 
-*Updated: 2026-05-14 16:23 ET (Thursday CLOSE — **Day -$80 / -0.30%** / final equity $26,656). **3 trades today: BA + SYY catalyst-buys + MRVL stop ratchet**. **2/2 inline Mercury fast-tracks** activated under new react-not-watchlist architecture (operator directive). **MASSIVE post-close held-position catalyst: AMAT Q2 DOUBLE BEAT + Q3 GUIDE RAISE** — EPS $2.86 vs $2.66 (+7.5%), Sales $7.91B vs $7.65B (+3.4%), Q3 EPS guide $3.16-$3.56 vs $2.88 (mid +17%, high +24%), Q3 sales guide $8.45-$9.45B vs $8.089B (mid +10.4%). AH reaction: +4.2% to $459.33 = stop-ratchet priority tomorrow AM. **BA executed @ $231.62** on 4-leg catalyst stack (Trump tariff truce + $1B Kansas + Bessent China-orders + Bloomberg confirmed 200-jet WIN midday); intraday +5.4% peak $243.83 reversed to -4.7% close $229.30 = position -0.84% entry. **SYY executed @ $73.21** on $29B Restaurant Depot mega-deal (1.4% reduced sizing for borderline conviction; -0.22% entry). **BIIB PASS VALIDATED** — Diana correctly anticipated -24% intraday catalyst-rejection slide. **MRVL all-time peak $192 intraday**, closed $182.55 +2.6%; stop ratcheted $145→$170 (Order `3935cbed`, locks +0.72R / +6.5%). Pipeline discipline 100%: all BUYs went through 5-agent fast-track (Iris→Grace→Atlas→Victor→Diana+Marcus), zero process violations. AMAT entry $441.47 confirmed (corrected from earlier session). 12 Mercury alerts feeding Friday Phase 0.5 scoring. Cron 29min late (consistent w/ today's pattern).*
+*Updated: 2026-05-15 16:43 ET (Friday CLOSE — **Day -$452 / -1.69%** / final equity $26,173 — worst day this week). **4 catalyst-buys executed (daily cap MAXED first time on new 4-cap regime)**: **NOW** 5 sh @ $93.02 (3-leg: $4B refi + AI rev recovery + Experian agentic-AI partnership) + **MSFT** 1 sh @ $415.53 (Bill Ackman/Pershing new core position + $30B OpenAI rev + "sold Google bought MSFT") + **CSCO** 1 sh @ $117.34 (HSBC BUY upgrade + MS $120 PT + Q3 mega) + **PANW** 1 sh @ $243.21 (Oppenheimer $275 + Jefferies $265 + Kevin Simpson "bought more"). All 4 BUYs via inline 5-agent Mercury fast-track. **Friday catalyst-buys NET +$15 unrealized** — pipeline-more-not-less validated. **AMAT 13-LEG CATALYST REJECTED BY TAPE**: Q2 double-beat + Q3 guide raise + 25-yr-high margins + 7+ analyst PT raises (Needham $530, Keybanc $550, Mizuho $500, Wells Fargo $520, Cantor, TD Cowen, JPM $515) yet stock CLOSED $434 vs $441 entry; textbook sell-the-news. **Worst day driven by HELD position drawdown**: BLK -4.4% (DOJ private credit probe!), MU -6.5%, MRVL -3.9%, UNH -4.3% (Buffett 13F FULL EXIT). **5 CRITICAL YELLOW positions Monday open**: BA 1.9% / CCI 2.7% / MRVL 3.1% / MU 3.7% / BLK 6.2%. **AMGN MAJOR BEAR pending**: WSJ "20 deaths Japan" post-close — Monday gap-down risk. **Buffett 13F bombshells**: full exits of UNH/V/MA/AMZN + full ADD of GOOGL (rare counter-signal to Ackman's MSFT-buy/Google-sell). Tape: SPY -0.97%, XLK -2.10% (chip-stocks-fall + rate-hike-panic + Trump-Xi no-chip-deal + Iran/Hormuz). Cron 29min late.*
 
-**KEY THURSDAY ACCOMPLISHMENTS:**
-1. **Mercury react-not-watchlist architecture activated** — proves new model works
-2. **AMAT post-close TRIPLE catalyst** confirms semi-sleeve thesis and AVGO-replacement decision
-3. **BIIB PASS** = pipeline discipline working as intended (Diana correctly rejected the -5.2% AM rejection that became -24% by close)
-4. **2/2 daily cap used productively** vs Wed's 0/2 (preserved cap good, but operator wanted more REACT)
-5. **Pipeline more not less** — defaulting to RUN-pipeline per directive; let Diana decide PASS
+**KEY FRIDAY ACCOMPLISHMENTS:**
+1. **4-cap regime MAXED first day** — pipeline-more-not-less directive worked: 4 catalyst-buys vs would-have-been-2 under old cap
+2. **All 4 Friday buys in idio-green pocket** (NOW +5.14%, MSFT +2.75%, CSCO +2.04%, PANW +1.36% on day) vs XLK -2.10%
+3. **AMAT catalyst-cluster rejection lesson** — even 13-leg catalyst + 7 analyst PT raises can't override macro tape
+4. **Stops held all 17 positions** through worst day of week
+5. **Buffett vs Ackman split on GOOGL/MSFT** — rare smart-money divergence to track Monday
 
-*Thu MORNING recap: $26,858 (+0.46% intraday before reversal to close).*
+**KEY MONDAY RISKS:**
+- BA 1.9% cushion (lowest); pre-market check critical
+- AMGN gap-down on 20-deaths Japan
+- BLK DOJ probe overhang
+- Continued rate-hike-panic / chip rotation-out
+
+*Fri MORNING recap: 2 BUYs (NOW + MSFT) at -1.20%; midday cap MAXED with CSCO + PANW; close -1.69%.*
 
 *Last updated: 2026-05-13 16:47 ET (Wednesday EOD FINAL — **Day +$291 / +1.10%, best of the week**). After-hours print extended gains $16 above close, driven by **CSCO Q3 record $15.8B revenue + $9B AI orders raised + FY26 AI guide LIFTED** (16:45 ET mega-catalyst), with semi sleeve continuing higher in AH: MRVL $180 (cushion 24%), AMAT $440 (cushion 5.9% — full TSMC EPIC validation). 2-day cumulative realized: **+$114.57** (INTC Tue +$139 / AVGO Wed -$24). Daily cap **0/2 preserved across all 3 autopilots** (AM/midday/close). 18 mercury scans, 2 trades (AVGO stop fire AM, CVS $87 stop ratchet AM). ~85 Mercury alerts day total spanning AI infra (CSCO/AKAM/TSM/AMAT/DDOG/NBIS/COHR/TSEM/MU/Anthropic 5-leg), healthcare cluster (LLY FDA pill/BMY $15.2B Hengrui/AUPH-KZR $6.955B/SYK vascular/JNJ Leerink/CVS Omnicare/RVTY FDA/ARGX Fidelity stake), defense capex (LDOS hypersonic/TDY drone/RKLB/LUNR/BA Trump-China + $1B Kansas), and earnings beats (ROP +58%/NBIS +684%/DDOG $1B/CSCO $15.8B/SE record/MPC/APP/JD/XMTR). Bearish flags rejected by tape: NVDA Culper SHORT, BABA Q4 -92%, WIX -30%, DJT -77%, DOCS Q4 miss + dual exec reset.*
 
