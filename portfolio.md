@@ -5,20 +5,24 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-18 09:59 ET (Mon AM autopilot — **$5,000 OPERATOR DEPOSIT POSTED**; equity $31,287). **4 catalyst-buys executed (cap MAXED again at 4/4 — 2nd day in a row)**: D 4 sh @ $68.82 (NextEra-Dominion $66B merger CONFIRMED) + CRWD 1 sh @ $609.48 (Keybanc OW $700 + Oppenheimer + Jefferies sell-side cluster) + BSX 5 sh @ $55.14 ($2B ASR + $1.5B MiRus stake same-day) + DXCM 4 sh @ $64.85 (Elliott activist + $1B buyback + 2030 vision + EU launch). All 4 BUYs via inline 5-agent Mercury fast-track. **Spend $1,419 / $5K cap (28%)** — zero net new tech (utility + cyber + 2× medtech). All 4 stops placed GTC: D $63 / CRWD $565 / BSX $51 / DXCM $60. **MRK ratchet** $103.50→$107 captured TroFuse-005 Phase 3 success on held position. **5 CRITICAL YELLOW carryover**: BA 1.9% / CCI 2.7% / MRVL 3.1% / MU 3.7% / BLK 6.2% (BLK rescued by weekend $10B SpaceX + €15B Citi-EMEA catalysts). **Scale-test deposit** — operator confirmed Mon open per `feedback_5k_deposit_pending`; cap regime + tech ceiling 50% unchanged.*
+*Last updated: 2026-05-18 13:17 ET (Mon midday autopilot — **3 stops fired AM, +$544.63 realized**; equity $31,025). **AM execution recap**: 4 catalyst-buys MAXED (D + CRWD + BSX + DXCM, $1,419 spend) + MRK ratchet $103.50→$107 + $5K operator deposit posted. **Midday stops fired** (system working as designed): **MU** $700 / 3 sh (entry $541, **+$476.67 / +29.4% / ~3R**) + **MRVL** $169.94 / 9 sh (entry $159.54, **+$93.64 / +6.5% / ~1.5R**) + **AMAT** $415.79 / 1 sh (entry $441.47, **-$25.68 / -5.8% / -1R** — textbook 13-catalyst sell-the-news rejection). **Net realized today +$544.63**. **Mercury Phase 0.5 cyber-cluster** (Keybanc OW raises today: CRWD $700 + ZS $190 + OKTA $103) — ZS scored 74, OKTA scored 72, **both watchlisted for Tuesday** (cap MAXED, cannot execute today). **Position count: 18 equity** (lost MU/MRVL/AMAT, gained D/CRWD/BSX/DXCM). Cash bucket grew to $12,207 (39%) post-stops + deposit. Tech sleeve concentration relieved after MRVL exit. **Deferred harvest**: NOW $87→$95 + TXN $252.58→$278 ratchets queued for autopilot_close. Tape mixed — semi rotation continued (MU/MRVL/AMAT all hit stops) but med-tech/cyber strong.*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$31,287** (Fri close $26,173 **+$5,000 deposit** = $31,173 base; mark-to-market intraday) |
-| Cash | ~$3,162 estimated post-Mon-AM-spend ($4,581 + $5K - $1,419 - mark-to-market drift) |
-| Invested | ~$28,125 across 21 positions (17 from Fri + D + CRWD + BSX + DXCM Mon adds) |
-| Positions | **21 equity** + BTC + UNH frac + 737CVR019 CVR |
-| Today's activity | **4/4 cap MAXED**: D + CRWD + BSX + DXCM inline fast-tracks + 4 GTC stops + 1 MRK ratchet |
-| Stop coverage | ✅ 21 GTC stops; **5 CRITICAL YELLOW** (BA/CCI/MRVL/MU/BLK — BLK net positive on weekend rescue) |
-| 🆕 Monday adds | **D 4 sh** ($275) · **CRWD 1 sh** ($609) · **BSX 5 sh** ($276) · **DXCM 4 sh** ($259) — $1,419 deployed, zero net new tech |
+| **Portfolio Value** | **$31,025.12** (Mon midday — post-stops/deposit) |
+| Cash | **$12,206.60** (39.3%) — boosted by $5K deposit + $3,371 stop-fill proceeds |
+| Invested | $18,818.52 (60.7%) across 18 equity positions |
+| Positions | **18 equity** (lost MU/MRVL/AMAT to stops; gained D/CRWD/BSX/DXCM from AM buys) + BTC + UNH frac + CVR |
+| Today's activity | **4 BUYs (AM MAXED) + 3 STOPS FIRED + 1 MRK ratchet** = **Realized +$544.63** |
+| Realized today | **+$544.63** (MU +$476.67 / MRVL +$93.64 / AMAT -$25.68) |
+| Stop coverage | ✅ 18 GTC stops in place; BA tightest at 1.2% cushion |
+| 🆕 Monday adds | D 4 sh ($275) · CRWD 1 sh ($609) · BSX 5 sh ($276) · DXCM 4 sh ($259) — all flat/slight-red intraday |
+| 🎯 Stop wins | **MU @ $700 / 3R locked** · **MRVL @ $170 / 1.5R locked** (alltime-peak ratchet did its job) |
+| 🔻 Stop loss | AMAT @ $416 / -1R (13-leg catalyst rejected by chip-rotation tape) |
 | **Capital event** | **+$5,000 OPERATOR DEPOSIT** posted Mon open (scale-test) |
+| Mercury watchlist | **ZS** (score 74, Keybanc $190) + **OKTA** (score 72, Keybanc $103) — Tuesday execution candidates |
 
 ---
 
@@ -38,7 +42,7 @@ new Chart(ctx, {
     labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12","May 13","May 14","May 15","May 18 (+$5K deposit)"],
     datasets: [{
       label: 'Equity',
-      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12,26173.44,31287.00],
+      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12,26173.44,31025.12],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,

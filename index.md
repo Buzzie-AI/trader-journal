@@ -13,16 +13,16 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $31,287 (+$5K deposit posted Mon open / Monday MORNING)
+## Portfolio — $31,025 (3 stops fired AM / Realized +$544.63 / Mon MIDDAY)
 
-*Updated: 2026-05-18 09:59 ET (Monday MORNING autopilot — **$5,000 OPERATOR DEPOSIT POSTED**; equity $31,287). **4 catalyst-buys executed (cap MAXED 2nd day in a row)**: **D** 4 sh @ $68.82 (NextEra-Dominion $66B merger CONFIRMED) + **CRWD** 1 sh @ $609.48 (Keybanc OW $700 + Oppenheimer $275 + Jefferies $265 sell-side cluster) + **BSX** 5 sh @ $55.14 ($2B ASR + $1.5B MiRus stake same-day) + **DXCM** 4 sh @ $64.85 (Elliott activist + $1B buyback + 2030 vision + EU launch). All 4 BUYs via inline 5-agent Mercury fast-track. **Spend $1,419 / $5K cap (28%)** — zero net new tech (utility + cyber + 2× medtech diversification). All 4 stops placed GTC: D $63 / CRWD $565 / BSX $51 / DXCM $60. **MRK ratchet** $103.50→$107 captured TroFuse-005 Phase 3 success on held position. **5 CRITICAL YELLOW carryover**: BA 1.9% / CCI 2.7% / MRVL 3.1% / MU 3.7% / BLK 6.2% (BLK net positive on weekend rescue: $10B SpaceX + €15B Citi-EMEA). **Scale-test deposit** — operator confirmed Mon open per `feedback_5k_deposit_pending`; cap regime + tech ceiling 50% unchanged.*
+*Updated: 2026-05-18 13:17 ET (Mon MIDDAY autopilot — **3 stops fired AM, +$544.63 realized**; equity $31,025 incl. $5K deposit). **AM recap**: 4 catalyst-buys MAXED (D+CRWD+BSX+DXCM, $1,419 spend) + MRK ratchet $103.50→$107 + $5K operator deposit. **Midday stops** (system working as designed): **MU** $700 / 3 sh (entry $541, **+$476.67 / +29.4% / ~3R**) + **MRVL** $169.94 / 9 sh (entry $159.54, **+$93.64 / +6.5% / ~1.5R**) + **AMAT** $415.79 / 1 sh (entry $441.47, **-$25.68 / -5.8% / -1R** — textbook 13-catalyst sell-the-news rejection). **Mercury Phase 0.5 cyber-cluster**: Keybanc raises today (CRWD $700 + ZS $190 + OKTA $103) — **ZS scored 74, OKTA scored 72, both watchlisted for Tuesday** (cap MAXED, cannot execute today). Position count: 18 equity (lost MU/MRVL/AMAT, gained D/CRWD/BSX/DXCM). Cash bucket $12,207 (39%) post-stops + deposit. Tech sleeve concentration relieved after MRVL exit. **Deferred harvest queued for autopilot_close**: NOW $87→$95 + TXN $252.58→$278 ratchets. Tape mixed — semi rotation continued (MU/MRVL/AMAT all hit stops) but med-tech/cyber strong.*
 
-**KEY MONDAY MORNING ACTIONS:**
-1. **$5K operator deposit POSTED** — equity $26,287 → $31,287 verified intraday_adjustments
-2. **4-cap MAXED 2nd consecutive day** — pipeline-more-not-less compounding
-3. **Zero net new tech exposure** — D (utility) + CRWD (cyber, idio sleeve) + BSX/DXCM (medtech)
-4. **MRK harvest captured Phase 3 success** without new BUY (ratchet not chase)
-5. **All 21 GTC stops in place** including 4 new ones same-day (PDT > $25K exemption)
+**KEY MONDAY DEVELOPMENTS:**
+1. **$5K operator deposit POSTED** — equity $26,287 → $31,287 → $31,025 (intraday mark-to-market)
+2. **4-cap MAXED AM, 3 stops fired by 10:34 ET** — full system cycle in one morning
+3. **MU 3R locked / MRVL 1.5R locked / AMAT -1R contained** — stop discipline preserved net positive
+4. **Cyber-cluster forming**: CRWD held + ZS/OKTA watchlisted (Keybanc same-day trio)
+5. **All 18 GTC stops in place** — BA tightest at 1.2% (pre-market Tuesday watch)
 
 **KEY FRIDAY ACCOMPLISHMENTS:**
 1. **4-cap regime MAXED first day** — pipeline-more-not-less directive worked: 4 catalyst-buys vs would-have-been-2 under old cap
