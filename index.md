@@ -13,16 +13,24 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $31,025 (3 stops fired AM / Realized +$544.63 / Mon MIDDAY)
+## Portfolio — $31,124 EOD (10 actions / Realized +$544.63 / Mon CLOSE)
 
-*Updated: 2026-05-18 13:17 ET (Mon MIDDAY autopilot — **3 stops fired AM, +$544.63 realized**; equity $31,025 incl. $5K deposit). **AM recap**: 4 catalyst-buys MAXED (D+CRWD+BSX+DXCM, $1,419 spend) + MRK ratchet $103.50→$107 + $5K operator deposit. **Midday stops** (system working as designed): **MU** $700 / 3 sh (entry $541, **+$476.67 / +29.4% / ~3R**) + **MRVL** $169.94 / 9 sh (entry $159.54, **+$93.64 / +6.5% / ~1.5R**) + **AMAT** $415.79 / 1 sh (entry $441.47, **-$25.68 / -5.8% / -1R** — textbook 13-catalyst sell-the-news rejection). **Mercury Phase 0.5 cyber-cluster**: Keybanc raises today (CRWD $700 + ZS $190 + OKTA $103) — **ZS scored 74, OKTA scored 72, both watchlisted for Tuesday** (cap MAXED, cannot execute today). Position count: 18 equity (lost MU/MRVL/AMAT, gained D/CRWD/BSX/DXCM). Cash bucket $12,207 (39%) post-stops + deposit. Tech sleeve concentration relieved after MRVL exit. **Deferred harvest queued for autopilot_close**: NOW $87→$95 + TXN $252.58→$278 ratchets. Tape mixed — semi rotation continued (MU/MRVL/AMAT all hit stops) but med-tech/cyber strong.*
+*Updated: 2026-05-18 16:22 ET (Mon EOD CLOSE — **10 actions / net realized +$544.63**; equity $31,124 incl. $5K deposit). **Full-system-cycle day**: AM 4 BUYs MAXED (D+CRWD+BSX+DXCM, $1,419 spend) + MRK ratchet $103.50→$107; AM 3 STOPS fired (MU @$700 +$477/3R, MRVL @$170 +$94/1.5R, AMAT @$416 -$26/-1R = textbook 13-catalyst sell-the-news); EOD 2 RATCHETS (NOW $87→$95 +$10 min, TXN $252.58→$278 +$26 min). **Sleeve evolution**: shed 3 semi positions + added utility/cyber/medtech. **Tech sleeve ~18%** (massive relief well below 50% ceiling). **Cash $12,207 (39%)** dry powder for Tuesday. **Mercury Phase 0.5 Tue candidates**: DELL (75 / 3-leg AI cluster), ZS (74 / Keybanc), NFLX (74 / BofA reaffirm + RS), OKTA (72 / Keybanc) — 4 candidates ≥70. **Real intraday agent return ~-$99** (deposit-adjusted; contained vs semi-rotation chaos).*
 
-**KEY MONDAY DEVELOPMENTS:**
-1. **$5K operator deposit POSTED** — equity $26,287 → $31,287 → $31,025 (intraday mark-to-market)
-2. **4-cap MAXED AM, 3 stops fired by 10:34 ET** — full system cycle in one morning
-3. **MU 3R locked / MRVL 1.5R locked / AMAT -1R contained** — stop discipline preserved net positive
-4. **Cyber-cluster forming**: CRWD held + ZS/OKTA watchlisted (Keybanc same-day trio)
-5. **All 18 GTC stops in place** — BA tightest at 1.2% (pre-market Tuesday watch)
+**KEY MONDAY ACCOMPLISHMENTS:**
+1. **$5K operator deposit POSTED** — equity $26,287 → $31,124 (+$5K nominal, -$99 real intraday)
+2. **Full system cycle**: 4 BUYs cap-MAXED + 3 stops working as designed + 3 ratchets capturing winners = 10 actions
+3. **Stop discipline preserved net positive**: MU 3R / MRVL 1.5R / AMAT -1R = +$544.63 net
+4. **Sleeve diversification**: ditched 3 semi for utility/cyber/medtech — tech concentration dropped to ~18%
+5. **Cyber-cluster forming**: CRWD held + ZS/OKTA Mercury-staged for Tuesday (Keybanc same-day trio)
+6. **NOW & TXN EOD ratchets** captured winners — $36 minimum locked above entry on these 2 positions
+
+**KEY TUESDAY PRIORITIES:**
+- DELL Q1 ER catalyst window (likely 5/27 — 3-leg pre-catalyst setup)
+- ZS or OKTA execution if Keybanc-cluster momentum continues
+- NFLX if BofA reaffirm RS holds
+- BA pre-market watch (1.95% cushion)
+- AMGN Tavneos follow-through monitor
 
 **KEY FRIDAY ACCOMPLISHMENTS:**
 1. **4-cap regime MAXED first day** — pipeline-more-not-less directive worked: 4 catalyst-buys vs would-have-been-2 under old cap
