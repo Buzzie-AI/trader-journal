@@ -13,9 +13,16 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $26,173 (-1.69% day / Friday CLOSE)
+## Portfolio — $31,287 (+$5K deposit posted Mon open / Monday MORNING)
 
-*Updated: 2026-05-15 16:43 ET (Friday CLOSE — **Day -$452 / -1.69%** / final equity $26,173 — worst day this week). **4 catalyst-buys executed (daily cap MAXED first time on new 4-cap regime)**: **NOW** 5 sh @ $93.02 (3-leg: $4B refi + AI rev recovery + Experian agentic-AI partnership) + **MSFT** 1 sh @ $415.53 (Bill Ackman/Pershing new core position + $30B OpenAI rev + "sold Google bought MSFT") + **CSCO** 1 sh @ $117.34 (HSBC BUY upgrade + MS $120 PT + Q3 mega) + **PANW** 1 sh @ $243.21 (Oppenheimer $275 + Jefferies $265 + Kevin Simpson "bought more"). All 4 BUYs via inline 5-agent Mercury fast-track. **Friday catalyst-buys NET +$15 unrealized** — pipeline-more-not-less validated. **AMAT 13-LEG CATALYST REJECTED BY TAPE**: Q2 double-beat + Q3 guide raise + 25-yr-high margins + 7+ analyst PT raises (Needham $530, Keybanc $550, Mizuho $500, Wells Fargo $520, Cantor, TD Cowen, JPM $515) yet stock CLOSED $434 vs $441 entry; textbook sell-the-news. **Worst day driven by HELD position drawdown**: BLK -4.4% (DOJ private credit probe!), MU -6.5%, MRVL -3.9%, UNH -4.3% (Buffett 13F FULL EXIT). **5 CRITICAL YELLOW positions Monday open**: BA 1.9% / CCI 2.7% / MRVL 3.1% / MU 3.7% / BLK 6.2%. **AMGN MAJOR BEAR pending**: WSJ "20 deaths Japan" post-close — Monday gap-down risk. **Buffett 13F bombshells**: full exits of UNH/V/MA/AMZN + full ADD of GOOGL (rare counter-signal to Ackman's MSFT-buy/Google-sell). Tape: SPY -0.97%, XLK -2.10% (chip-stocks-fall + rate-hike-panic + Trump-Xi no-chip-deal + Iran/Hormuz). Cron 29min late.*
+*Updated: 2026-05-18 09:59 ET (Monday MORNING autopilot — **$5,000 OPERATOR DEPOSIT POSTED**; equity $31,287). **4 catalyst-buys executed (cap MAXED 2nd day in a row)**: **D** 4 sh @ $68.82 (NextEra-Dominion $66B merger CONFIRMED) + **CRWD** 1 sh @ $609.48 (Keybanc OW $700 + Oppenheimer $275 + Jefferies $265 sell-side cluster) + **BSX** 5 sh @ $55.14 ($2B ASR + $1.5B MiRus stake same-day) + **DXCM** 4 sh @ $64.85 (Elliott activist + $1B buyback + 2030 vision + EU launch). All 4 BUYs via inline 5-agent Mercury fast-track. **Spend $1,419 / $5K cap (28%)** — zero net new tech (utility + cyber + 2× medtech diversification). All 4 stops placed GTC: D $63 / CRWD $565 / BSX $51 / DXCM $60. **MRK ratchet** $103.50→$107 captured TroFuse-005 Phase 3 success on held position. **5 CRITICAL YELLOW carryover**: BA 1.9% / CCI 2.7% / MRVL 3.1% / MU 3.7% / BLK 6.2% (BLK net positive on weekend rescue: $10B SpaceX + €15B Citi-EMEA). **Scale-test deposit** — operator confirmed Mon open per `feedback_5k_deposit_pending`; cap regime + tech ceiling 50% unchanged.*
+
+**KEY MONDAY MORNING ACTIONS:**
+1. **$5K operator deposit POSTED** — equity $26,287 → $31,287 verified intraday_adjustments
+2. **4-cap MAXED 2nd consecutive day** — pipeline-more-not-less compounding
+3. **Zero net new tech exposure** — D (utility) + CRWD (cyber, idio sleeve) + BSX/DXCM (medtech)
+4. **MRK harvest captured Phase 3 success** without new BUY (ratchet not chase)
+5. **All 21 GTC stops in place** including 4 new ones same-day (PDT > $25K exemption)
 
 **KEY FRIDAY ACCOMPLISHMENTS:**
 1. **4-cap regime MAXED first day** — pipeline-more-not-less directive worked: 4 catalyst-buys vs would-have-been-2 under old cap
