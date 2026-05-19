@@ -5,22 +5,24 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-19 10:00 ET (Tue AM — **6 actions, cap MAXED 4/4**; equity $31,171). **AM autopilot fired 24 min late** but delivered cleanly: **4 BUYs** (ZS 3 sh @ $180.83 / OKTA 5 sh @ $89.36 / NFLX 5 sh @ $91.12 / GE 2 sh @ $285.99 — total $2,017 / 40% of $5K cap) + **2 RATCHETS** (NOW $95→$100 locks +$35 above entry, CRWD $565→$580 reduces max loss to $29.48). **Pipeline-more-not-less in action**: Mercury Phase 0.5 scored 17 alerts; chose 4 tape-confirming names (ZS +3.4%, OKTA +2.4%, NFLX +1.6%, GE flat-defensive). **INTC PASSED despite 4-leg catalyst stack** (Citi $130 + Tenstorrent M&A + analyst PT raise + CEO insatiable demand) because **tape rejected at open** (-0.7%) — applied AMAT 13-catalyst-rejection lesson. **DELL passed** for same reason (-1.7% open). **Cyber-cluster forming**: CRWD held + ZS + OKTA + PANW = $1,868 cyber sub-sleeve (Keybanc trio same-day endorsement). **CRWD pre-market validation continued**: Barclays $650 PT = 5th sell-side leg this week → ratchet executed. **NOW continuing explosion** post-Mon (+5.5% intraday → +17.3% lifecycle). **BSX HELD pivotal trial success** (+2.8% intraday confirming Mon BUY thesis).*
+*Last updated: 2026-05-19 16:22 ET (Tue EOD CLOSE — **8 actions / -$46.85 realized / equity $30,879 (-$221 net day -0.71%)**). **Full-day story = MACRO RATES ROTATION**: 30-yr Treasury yields hit 19-year highs at 11:58 ET + 5.18% yield commentary 12:35 ET + AI-infra debt-funding concerns 12:43 ET = 3-leg compounding signal that validated AM PASS on INTC (4-leg catalyst stack) and DELL (3-leg AI cluster). **AM** 4 BUYs cap-MAXED (ZS $180.83/OKTA $89.36/NFLX $91.12/GE $285.99, total $2,017) + 3 RATCHETS (NOW $95→$100, CRWD $565→$580→$600, TXN $278→$285 locks +$60). **PM**: **BA stopped at $216** (3 sh, -$46.85/-1R; India regulatory + macro rates compound). **CRWD 8-leg sell-side cluster completed** today (Truist/TD Cowen/Barclays all $625-650 PT range, position +0.9% from entry despite macro pressure, hit ATH $633.95 AM). **GOOG I/O 2026** = 6-leg same-day catalyst (Pichai keynote scale, Gemini Omni Video, Gemini 3.5 Flash 2x cheaper, AI Ultra $250→$200, Gemini Spark agent) — competitive pressure on MSFT-OpenAI (held, -1.7%). **Position count: 22 equity** (lost BA, gained ZS/OKTA/NFLX/GE). **Tomorrow: NVDA earnings AH** — next convex tech catalyst.*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$31,171** (Tue AM, +$70 intraday) |
-| Cash | **~$10,189** (33%) post-AM-buys |
-| Invested | ~$20,981 (67%) across **22 equity positions** |
-| Positions | **22 equity** (+ZS/OKTA/NFLX/GE) + BTC + UNH frac + CVR |
-| Today's activity | **6 actions: 4 BUYs cap-MAXED + 2 RATCHETS** ($2,017 deployed, 40% of $5K cap) |
-| 🆕 Tuesday adds | ZS 3 sh ($542) · OKTA 5 sh ($447) · NFLX 5 sh ($456) · GE 2 sh ($572) |
-| 🔧 Ratchets | NOW $95→$100 (+$35 above entry) · CRWD $565→$580 (reduce max loss to $29) |
-| 🚫 Passed despite strong catalyst | INTC (4-leg stack tape rejecting -0.7%) · DELL (3-leg AI tape rejecting -1.7%) — AMAT 13-catalyst lesson applied |
-| Stop coverage | ✅ 22 GTC stops; BA tightest 1.58% / MRK 5.7% |
-| Mercury Tue queue (post-pipeline) | INTC (~85 watchlist), DELL (~80 watchlist), DLR/LULU/AVGO/NVDA backup |
+| **Portfolio Value** | **$30,878.74 EOD** (Tue close) |
+| Cash | **$10,845** (35.1%) — solid dry powder for Wed |
+| Invested | $20,034 (64.9%) across **22 equity positions** |
+| Positions | **22 equity** (-BA stopped, +ZS/OKTA/NFLX/GE from AM) + BTC + UNH frac + CVR |
+| Today's activity | **8 actions: 4 BUYs + 1 STOP fire + 3 RATCHETS** |
+| Realized today | **-$46.85** (BA $216/-1R clean stop) |
+| Real intraday agent return | **-$221 / -0.71%** (vs SPX -1% / Nasdaq -1.1% = OUTPERFORMED tape) |
+| 🚫 Saved by AM PASS | INTC (4-leg stack) + DELL (3-leg) — both would have been crushed by rates rotation |
+| 🔧 Ratchets locked | NOW +$35 · CRWD reduce max loss to $9.48 · TXN +$60 |
+| 🔥 CRWD compounding | **8 sell-side legs in 5 days** + ATH break $633.95; ended +0.9% despite macro |
+| 🔥 GOOG I/O | 6-leg same-day catalyst — MSFT competitive pressure (held position -1.7%) |
+| 🚨 Wed pre-market watch | NOW 1.4% cushion, CRWD 2.5%, OKTA 4.3% — most exposed to NVDA earnings catalyst |
 
 ---
 
@@ -37,10 +39,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12","May 13","May 14","May 15","May 18 (+$5K deposit)","May 19"],
+    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12","May 13","May 14","May 15","May 18 (+$5K deposit)","May 19 EOD"],
     datasets: [{
       label: 'Equity',
-      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12,26173.44,31124.35,31171.23],
+      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12,26173.44,31124.35,30878.74],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
