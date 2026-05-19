@@ -13,7 +13,7 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $31,124 EOD (10 actions / Realized +$544.63 / Mon CLOSE)
+## Portfolio — $31,171 (Tue AM 6 actions cap MAXED 4/4 / +$2,017 deployed)
 
 *Updated: 2026-05-18 16:22 ET (Mon EOD CLOSE — **10 actions / net realized +$544.63**; equity $31,124 incl. $5K deposit). **Full-system-cycle day**: AM 4 BUYs MAXED (D+CRWD+BSX+DXCM, $1,419 spend) + MRK ratchet $103.50→$107; AM 3 STOPS fired (MU @$700 +$477/3R, MRVL @$170 +$94/1.5R, AMAT @$416 -$26/-1R = textbook 13-catalyst sell-the-news); EOD 2 RATCHETS (NOW $87→$95 +$10 min, TXN $252.58→$278 +$26 min). **Sleeve evolution**: shed 3 semi positions + added utility/cyber/medtech. **Tech sleeve ~18%** (massive relief well below 50% ceiling). **Cash $12,207 (39%)** dry powder for Tuesday. **Mercury Phase 0.5 Tue candidates**: DELL (75 / 3-leg AI cluster), ZS (74 / Keybanc), NFLX (74 / BofA reaffirm + RS), OKTA (72 / Keybanc) — 4 candidates ≥70. **Real intraday agent return ~-$99** (deposit-adjusted; contained vs semi-rotation chaos).*
 
