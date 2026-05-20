@@ -1,130 +1,84 @@
-# Watchlist — Updated 2026-05-19 16:48 ET (Tue CLOSE — Macro Rates Rotation Day)
+# Watchlist — Updated 2026-05-20 16:47 ET (Wed CLOSE — Tape-Confirming Discipline + NVDA Earnings)
 
-## Current portfolio (22 equity + frac + crypto + CVR, EOD May 19)
+## Current portfolio (25 equity + frac + crypto + CVR, EOD May 20)
 
 | Ticker | Qty | Entry | Close | Day % | Stop | Cushion | Unrealized |
 |--------|-----|-------|-------|-------|------|---------|------------|
-| **CVS** 🏆 | 27 | $75.83 | $93.97 | -2.1% | $87 | 7.4% | **+$490 / +23.9%** |
-| **TXN** 🚀 | 5 | $272.83 | $302.28 | +0.6% | $285 (↑↑) | 5.7% | +$147 / +10.8% |
-| **NOW** ⚠️ | 5 | $93.02 | $101.83 | -1.5% | $100 | **1.4% CRIT** | +$42 / +9.1% |
-| **CCI** | 20 | $84.31 | $92.34 | +2.7% | $84.31 | 9.5% | +$161 / +9.5% |
-| **UNH** | 0.69 | $290 | $388.60 | -0.6% | n/a (frac) | n/a | +$68 / +34% |
-| **CRWD** 🔥 | 1 | $609.48 | $616.96 | -0.3% | $600 (↑) | 2.5% TIGHT | +$8 / +1.2% (8-leg cluster) |
-| **BSX** 🆕 | 5 | $55.14 | $56.83 | +1.6% | $51 | 10.3% | +$8 / +3.0% |
-| MRK | 18 | $112.47 | $114.24 | +1.5% | $107 | 6.3% | +$32 / +1.6% |
-| **DXCM** 🆕 | 4 | $64.85 | $66.70 | +2.5% | $60 | 10.0% | +$7 / +2.8% |
-| **GE** 🆕 | 2 | $285.99 | $285.28 | -0.2% | $263 | 7.8% | -$1 / -0.2% |
-| **D** 🆕 | 4 | $68.82 | $68.13 | +0.8% | $63 | 7.5% | -$3 / -1.0% |
-| MSFT | 1 | $415.53 | $416.30 | -1.7% | $395 | 5.1% | +$1 / +0.2% |
-| BLK | 2 | $1058 | $1036.56 | -4.5% | $990 | 4.5% YELLOW | -$43 / -2.0% |
-| SYY | 5 | $73.21 | $75.19 | +2.3% | $68 | 9.6% | +$10 / +2.7% |
-| PANW | 1 | $243.21 | $239.70 | -3.2% | $225 | 6.1% | -$4 / -1.4% |
-| BTC | 0.0034 | $70,867 | $76,884 | +0.4% | n/a | n/a | +$21 / +8.5% |
-| **NFLX** 🆕 | 5 | $91.12 | $89.35 | -0.4% | $84 | 6.0% | -$9 / -2.0% |
-| NUE | 9 | $223 | $221.73 | -2.1% | $210 | 5.3% | -$11 / -0.6% |
-| BILL | 64 | $40.17 | $37.75 | -2.0% | $36 | 4.6% YELLOW | **-$155 / -6.0%** |
-| CSCO | 1 | $117.34 | $115.31 | -3.0% | $108 | 6.3% | -$2 / -1.7% |
-| **ZS** 🆕 | 3 | $180.83 | $175.36 | +0.3% | $165 | 5.9% | -$17 / -3.1% |
-| **OKTA** 🆕 | 5 | $89.36 | $85.73 | -1.5% | $82 | 4.3% YELLOW | -$18 / -4.1% |
+| **UNH** 🏆 | 0.69 | $290 | $383.30 | -1.5% | n/a (frac) | n/a | +$64 / **+32%** |
+| **CVS** 🏆 | 27 | $75.83 | $94.01 | -0.2% | $87 | 8.0% | **+$491 / +24%** |
+| **TXN** 🚀🔧 | 5 | $272.83 | $304.88 | +0.9% | **$293** (ratched 16:24) | 3.9% | **+$160 / +11.7%** |
+| **DXCM** 🚀🔧 | 4 | $64.85 | $71.44 | +6.7% | **$66** (ratched 16:24) | 7.6% | +$26 / +10.2% |
+| **CCI** | 20 | $84.31 | $92.64 | +0.3% | $84.31 (breakeven) | 9.0% | +$167 / +9.9% |
+| **BTC** | 0.0034 | $70,867 | $77,470 | +0.9% | n/a | n/a | +$23 / +9.3% |
+| **CRWD** 🔥🔧 | 1 | $609.48 | $647.76 (AH $650.34) | **+5.0%** | **$620** (ratched 13:17) | 4.5% | **+$38 / +6.3%** (11-leg + ATH $646.62) |
+| **GE** | 2 | $285.99 | $298.32 | +4.6% | $263 | 13.4% | +$25 / +4.3% |
+| **SYY** | 5 | $73.21 | $75.46 | +0.4% | $68 | 11.0% | +$11 / +3.1% |
+| **BSX** | 5 | $55.14 | $56.67 | -0.2% | $51 | 11.1% | +$8 / +2.8% |
+| **PANW** | 1 | $243.21 | $246.45 | +2.6% | $225 | 9.5% | +$3 / +1.3% |
+| **NUE** | 9 | $223 | $225.67 | +1.8% | $210 | 7.5% | +$24 / +1.2% |
+| **MSFT** | 1 | $415.53 | $419.91 | +0.6% | $395 | 6.3% | +$4 / +1.1% (OpenAI $1T IPO + wash-blocked add) |
+| **MRK** | 18 | $112.47 | $113.25 | -0.9% | $107 | 5.8% YELLOW | +$14 / +0.7% |
+| **BA** 🔄 | 3 | $220.33 | $221.20 | +2.9% | $202 | 9.5% | +$3 / +0.4% (re-entry 09:58 ET) |
+| **TJX** 🆕 | 4 | $159 | $159.21 | +5.7% | $146 | 9.0% | +$1 / +0.1% (BEAT-AND-RAISE) |
+| **OKTA** | 5 | $89.36 | $88.95 | +3.8% | $82 | 8.5% | -$2 / -0.5% |
+| **BLK** | 2 | $1058 | $1051.57 | +1.5% | $990 | 6.2% | -$13 / -0.6% (SpaceX IPO catalyst) |
+| **MRVL** 🆕 | 5 | $189.11 | $186.50 | +5.8% (vs prev close) | $174 | 7.2% | -$13 / -1.4% (Wells $195 + NVDA AH risk Thu) |
+| **D** | 4 | $68.82 | $67.49 | -0.9% | $63 | 7.1% | -$5 / -1.9% |
+| **CSCO** | 1 | $117.34 | $114.34 | -0.9% | $108 | 5.9% YELLOW | -$3 / -2.6% |
+| **NFLX** | 5 | $91.12 | $88.20 | -1.3% | $84 | 5.0% YELLOW | -$15 / -3.2% |
+| **ZS** | 3 | $180.83 | $174.45 | -0.5% | $165 | 5.7% YELLOW | -$19 / -3.5% |
+| **BILL** | 64 | $40.17 | $38.34 | +1.6% | $36 | 6.5% | -$117 / -4.6% |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | n/a | INTC merger CVR |
 
-**Portfolio:** $30,878.74 EOD (-$221 net day -0.71% / outperformed SPX -1% / Nasdaq -1.1%)
-**Cash:** $10,844.81 (35.1%) — solid dry powder
-**Total open unrealized:** ~+$748 (across 22 equity)
-**Today's REALIZED:** **-$46.85** (BA $216 / 3 sh / -1R clean stop)
-**Net day P&L:** -$221 (real intraday agent return, deposit-adjusted)
+**Portfolio:** $31,059.40 EOD (+$169 / +0.55% net day) | AH bleed -$35 to $31,023.89
+**Cash:** $9,102.24 (29.3%) — ample dry powder
+**Total open unrealized:** ~+$865 (across 25 equity)
+**Today's REALIZED:** **$0** (no stops fired)
+**Net day P&L:** +$169 (regular session) / +$133 (incl. AH bleed)
 
 ---
 
-## Day Summary — Tuesday Macro Rates Rotation (8 Actions)
+## Day Summary — Wednesday Tape-Confirming Discipline + NVDA Earnings (5 Actions)
 
-| Time (ET) | Action | Detail |
-|-----------|--------|--------|
-| 04:02 | Mercury overnight drain | 5 alerts: GOOG/BX $5B AI venture, NVDA Vera CPU, GE 10yr JAL, AVGO/LSEGY 5yr, BA India regulatory |
-| 04:17 | Mercury | SCOTUS Big Pharma Medicare Loss (industry-wide) |
-| 04:47 | Mercury | INTC/MU/SNDK analyst PT raise (INTC 3rd leg) |
-| 06:32 | Mercury | INTC CEO insatiable demand (4th leg) |
-| 09:58 | autopilot_morning | 4 BUYs cap-MAXED: ZS+OKTA+NFLX+GE ($2,017) |
-| 09:58 | 4× stop placements | ZS $165 / OKTA $82 / NFLX $84 / GE $263 GTC |
-| 09:58 | Ratchets AM | NOW $95→$100 / CRWD $565→$580 |
-| 11:58 | Mercury | 🚨 30-YR YIELDS 19-YR HIGHS (macro rates #1) |
-| 12:35 | Mercury | 🚨 5.18% TREASURY > NVDA EARNINGS (macro #2) |
-| 12:43 | Mercury | 🚨 AI-INFRA DEBT FUNDING (macro #3) |
-| 13:13 | autopilot_midday | CRWD ratchet $580→$600 |
-| 15:05 | **BA STOP FIRED** | **$216 / 3 sh / -$46.85 / -1R clean (India regulatory + macro rates)** |
-| 16:22 | autopilot_close | TXN ratchet $278→$285 (+$60 above entry lock) |
-| **Net realized** | **-$46.85** | day total |
+### Executed
+- **AM 3 BUYs** ($2,243 spend): MRVL (Wells $195 PT) + TJX (BEAT-AND-RAISE) + BA re-entry (Beijing order)
+- **Midday CRWD ratchet** $600→$620 (11-leg cluster + ATH $646.62)
+- **Close DXCM ratchet** $60→$66 (locks +$4.60 above entry)
+- **Close TXN ratchet** $285→$293 (locks +$100.88 cumulative profit)
 
----
+### PASSED (tape-rejecting framework)
+- **MU** — JPM bullish + Melius $1,100 PT but tape -2.6% sell-the-news
+- **TGT** — BEAT-AND-RAISE but tape -7.7% sell-the-news (CFO confirmed weakness 1.5h later)
+- **MSFT add** — OpenAI $1T IPO catalyst but wash trade blocked
+- **NVDA add** — Q1 BEAT +139% YoY EPS but AH -2.3% initial sell-the-news (recovered to -0.4% on post-print PR)
 
-## Wednesday AM Priority Watch
-
-### YELLOW positions (cushion <5%):
-| Ticker | Risk | Action plan |
-|--------|------|-------------|
-| **NOW** | 1.4% cushion to $100 ratchet | Pre-market CRITICAL; if breaks $100 = +$35 minimum realized |
-| **CRWD** | 2.5% cushion to $600 ratchet | 8-leg sell-side cluster holding; pre-market check |
-| **OKTA** | 4.3% cushion to $82 | Cyber-cluster solidarity should support |
-| **BILL** | 4.6% cushion to $36 | Software macro pressure continuing |
-| **BLK** | 4.5% cushion to $990 | -4.5% intraday Tue; rates rotation hitting financials |
-
-### Wednesday Pipeline Queue (cap resets 4 fresh slots, $10,845 cash)
-
-#### Tier 1 — Macro-rate-resistant defensive plays
-| Ticker | Catalyst | Sleeve |
-|--------|----------|--------|
-| **HD** | Q1 double-beat (already played out, but housing weakness creates buy zones if pullback continues) | consumer disc |
-| **ZTS** | FDA EUA Doramectin screwworm (Tue 11:43) | animal health mega-cap |
-| **MRK** held | EXEL KEYTRUDA collab supports thesis vs SCOTUS Medicare bearish | pharma |
-
-#### Tier 2 — Tech if rates stabilize (PASS unless tape confirms)
-| Ticker | Watchlist score | Status |
-|--------|----------------|--------|
-| **INTC** | ~85 (4-leg stack carried over) | PASS Tue tape-rejection; re-evaluate if rates stabilize |
-| **DELL** | ~80 (3-leg AI carried over) | PASS Tue tape-rejection; Q1 ER ~5/27 |
-| **NVDA** | macro-pivotal | **EARNINGS WED AH** = next convex tech catalyst |
-
-#### Tier 3 — Held position catalyst follow-ons
-| Ticker | New catalyst |
-|--------|----------|
-| **CRWD** | 8-leg cluster + ATH break — ratchet candidate if pre-market holds $620+ |
-| **TXN** | Just-ratcheted $285; defensive against semi rotation |
-| **GOOGL** | 6-leg I/O 2026 catalyst stack (not held) — could enter if rates stabilize |
-| **BSX** | SEISMIQ trial success continuing |
+### Major catalysts late-day
+- **NVDA Q1 print** + Q2 guide +5-7% above + $80B buyback + 25x dividend + Vera Rubin Q3 + 75% gross margin
+- **Fed Minutes 16:35 ET**: 63% rate-hike-by-year-end odds (reverses Wed yield retreat)
+- **SpaceX IPO** $75B June timeline + BLK 13% stake
+- **GOOG $15B Missouri AI infra** + Ameren 500MW capacity
+- **WBD** $30B LBO bond signal
 
 ---
 
-## NVDA Earnings — Wednesday/Thursday AH Critical
+## Thu 5/21 AM Setup
 
-NVDA reports earnings this week (likely Wed 5/20 AH or Thu 5/21 AH). This is the **convex single-name catalyst** for entire tech tape:
-- BULL outcome: rates concerns subordinated to AI capex narrative — INTC/DELL pipeline opens up, our cyber/tech sleeve recovers
-- BEAR outcome: even strong NVDA can't overcome rates rotation, our 8 YELLOW positions get tested
+**4th cap slot HELD RESERVED** — pipeline discipline + AH liquidity constraints + Fed hawkish counter-signal = pass on NVDA add tonight, evaluate Thu open with full regular-session tape
 
-Our positioning into NVDA earnings: **cash-heavy 35%**, tech ~22% (well under 50% ceiling), 3 fresh ratchets locked, BA cleared as sacrificial position. **Asymmetric setup favoring patient observation rather than fresh tech adds.**
+### Tier-1 Thu open candidates (if tape-confirms)
+1. **NVDA itself** — would need 5-agent pipeline; chip-cluster headliner with $80B buyback tailwind
+2. **MRVL** add — already held, NVDA sympathy beneficiary; could push 5→8 sh on tape strength
+3. **WBD** — M&A premium chase if LBO bond signal confirmed by Thu pre-market
 
----
+### Tier-2 (monitor)
+- NFLX/ZS/MRK/CSCO YELLOWs (cushion improvement or stop-out risk)
+- BLK SpaceX IPO PR follow-on
+- CCI ratchet $84.31→$88 if no overnight macro shock
+- HUM Deutsche $441 PT (managed care sleeve / UNH implicit)
 
-## Sector Sleeve EOD Snapshot
+### Tier-3 (macro)
+- Pre-market yield curve reaction to Fed Minutes (63% hike odds)
+- 10:00 ET Existing Home Sales
+- Tariff/trade headlines (Iran, China)
 
-- **Tech sleeve**: ~$6,790 = ~22% (CRWD/CSCO/MSFT/NOW/PANW/TXN/BILL/ZS/OKTA + softwhare adjacent)
-- **Healthcare/Pharma**: ~$5,407 = 17.5% (CVS $2,537 + MRK $2,056 + UNH $268 + DXCM $267 + BSX $284)
-- **Financials**: ~$2,073 (BLK)
-- **REIT/Infra**: ~$1,847 (CCI)
-- **Materials**: ~$1,996 (NUE)
-- **Defense**: ~$571 (GE alone post-BA exit, down from 4% Mon)
-- **Consumer staples**: ~$376 (SYY)
-- **Streaming/Content**: ~$446 (NFLX 🆕)
-- **Utility**: ~$273 (D)
-- **Crypto**: ~$265 (BTC, no add per no-crypto memory)
-- **Cash**: $10,845 (35%)
-
----
-
-## Mercury Tally Tuesday: 122 raw stream + ~15 RSS poll items → **15 surviving alerts**
-
-**Top compounded catalysts this week (5-day arc):**
-- **CRWD: 8 sell-side legs** (Fri Simpson → Mon 4× + Tue Barclays/TD Cowen/Truist)
-- **GOOG I/O 2026: 6-leg same-day** (BX $5B venture + scale metrics + Gemini Omni + 3.5 family + Spark agent + pricing war)
-- **Macro rates 3-leg signal** (30-yr 19-yr high + 5.18% > NVDA + AI-infra debt funding)
-- **INTC 4-leg watchlist carryover** (Citi BUY + Tenstorrent + analyst PT + CEO insatiable)
-- **PANW 1-leg** (Truist $275)
+**Bias going into Thu:** Mixed setup — NVDA bull vs Fed hawkish. Default = tape-confirming + pipeline-disciplined. No PASS on quality catalysts but require tape alignment before deploying 4th cap. Cash 29.3% gives full flexibility.
