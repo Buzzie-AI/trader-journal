@@ -5,24 +5,24 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-19 16:22 ET (Tue EOD CLOSE — **8 actions / -$46.85 realized / equity $30,879 (-$221 net day -0.71%)**). **Full-day story = MACRO RATES ROTATION**: 30-yr Treasury yields hit 19-year highs at 11:58 ET + 5.18% yield commentary 12:35 ET + AI-infra debt-funding concerns 12:43 ET = 3-leg compounding signal that validated AM PASS on INTC (4-leg catalyst stack) and DELL (3-leg AI cluster). **AM** 4 BUYs cap-MAXED (ZS $180.83/OKTA $89.36/NFLX $91.12/GE $285.99, total $2,017) + 3 RATCHETS (NOW $95→$100, CRWD $565→$580→$600, TXN $278→$285 locks +$60). **PM**: **BA stopped at $216** (3 sh, -$46.85/-1R; India regulatory + macro rates compound). **CRWD 8-leg sell-side cluster completed** today (Truist/TD Cowen/Barclays all $625-650 PT range, position +0.9% from entry despite macro pressure, hit ATH $633.95 AM). **GOOG I/O 2026** = 6-leg same-day catalyst (Pichai keynote scale, Gemini Omni Video, Gemini 3.5 Flash 2x cheaper, AI Ultra $250→$200, Gemini Spark agent) — competitive pressure on MSFT-OpenAI (held, -1.7%). **Position count: 22 equity** (lost BA, gained ZS/OKTA/NFLX/GE). **Tomorrow: NVDA earnings AH** — next convex tech catalyst.*
+*Last updated: 2026-05-20 16:25 ET (Wed EOD CLOSE — **5 actions / 0 realized / equity $31,059 (+$169 / +0.55%)**). **Day story = TAPE-CONFIRMING DISCIPLINE THROUGH NVDA EARNINGS**: AM 3 BUYs (MRVL/TJX/BA re-entry, $2,243 spend) selected by catalyst+tape alignment; PASSED on top-scored MU (-2.6%) and TGT (-7.7% sell-the-news despite beat-and-raise). Midday CRWD ratchet $600→$620 (+$10.52 above entry on 11-leg sell-side cluster + ATH $646). MSFT add on OpenAI $1T IPO blocked by wash trade. Close: 2 RATCHETS (DXCM $60→$66 / TXN $285→$293 locks +$100.88). **NVDA Q1 BEAT $1.87/$81.6B/+139% YoY EPS BUT AH selling -2.3% sell-the-news (4th AMAT lesson reapplied today)**. 4th cap slot HELD RESERVED for Thu tape-confirm.*
 
 ## Account Summary
 
 | Metric | Value |
 |--------|-------|
-| **Portfolio Value** | **$30,878.74 EOD** (Tue close) |
-| Cash | **$10,845** (35.1%) — solid dry powder for Wed |
-| Invested | $20,034 (64.9%) across **22 equity positions** |
-| Positions | **22 equity** (-BA stopped, +ZS/OKTA/NFLX/GE from AM) + BTC + UNH frac + CVR |
-| Today's activity | **8 actions: 4 BUYs + 1 STOP fire + 3 RATCHETS** |
-| Realized today | **-$46.85** (BA $216/-1R clean stop) |
-| Real intraday agent return | **-$221 / -0.71%** (vs SPX -1% / Nasdaq -1.1% = OUTPERFORMED tape) |
-| 🚫 Saved by AM PASS | INTC (4-leg stack) + DELL (3-leg) — both would have been crushed by rates rotation |
-| 🔧 Ratchets locked | NOW +$35 · CRWD reduce max loss to $9.48 · TXN +$60 |
-| 🔥 CRWD compounding | **8 sell-side legs in 5 days** + ATH break $633.95; ended +0.9% despite macro |
-| 🔥 GOOG I/O | 6-leg same-day catalyst — MSFT competitive pressure (held position -1.7%) |
-| 🚨 Wed pre-market watch | NOW 1.4% cushion, CRWD 2.5%, OKTA 4.3% — most exposed to NVDA earnings catalyst |
+| **Portfolio Value** | **$31,059.40 EOD** (Wed close) |
+| Cash | **$9,102** (29.3%) — ample dry powder |
+| Invested | $21,957 (70.7%) across **25 equity positions** |
+| Positions | **25 equity** (+MRVL/TJX/BA AM = full deck) + BTC + UNH frac + CVR |
+| Today's activity | **5 actions: 3 BUYs (AM) + 2 RATCHETS (Close) + 1 MIDDAY RATCHET** |
+| Realized today | **$0** (no stops fired) |
+| Day P&L | **+$169 / +0.55%** vs SPX/Nasdaq mixed |
+| 🚫 Saved by Tape-Confirming PASS | MU sell-the-news -2.6% AM / TGT BEAT-AND-RAISE rejected -7.7% / NVDA AH -2.3% sell-the-news despite +139% YoY EPS |
+| 🔧 Ratchets locked today | CRWD $600→$620 (+$10.52 above entry) · DXCM $60→$66 (+$4.60) · TXN $285→$293 (+$100.88 lock) |
+| 🔥 CRWD compounding | **11 sell-side legs over 5 days** + ATH break $646.62; **+6.3% lifecycle, AH close $650.34** |
+| 🔥 NVDA Q1 print | EPS $1.87 vs $1.76 (+6.25%) / Sales $81.62B vs $78.80B / **+139.74% YoY EPS** — BUT AH tape -2.3% |
+| 🚨 Thu open watch | MRVL chip-cluster reaction to NVDA AH / NFLX 5.0% cushion / WBD $30B LBO bond signal AH |
 
 ---
 
@@ -39,10 +39,10 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12","May 13","May 14","May 15","May 18 (+$5K deposit)","May 19 EOD"],
+    labels: ["Apr 1","Apr 2","Apr 3","Apr 6","Apr 7","Apr 8","Apr 9","Apr 10","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 20","Apr 21","Apr 22","Apr 23 (+$3K deposit)","Apr 24","Apr 27","Apr 28","Apr 29","Apr 30","May 1","May 4","May 5","May 6","May 7","May 8","May 11","May 12","May 13","May 14 (+$5K deposit)","May 15","May 18","May 19 EOD","May 20 EOD"],
     datasets: [{
       label: 'Equity',
-      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12,26173.44,31124.35,30878.74],
+      data: [20886.27,21055.12,20969.30,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,31124.35,30878.74,31100.67,30890.49,31059.40],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -69,37 +69,47 @@ new Chart(ctx, {
 });
 </script>
 
-**Thu May 14 EOD:** $26,656.12 (-$79.63 / -0.30% vs Wed close $26,735.75). Day featured 2 inline Mercury fast-tracks (BA + SYY) under the new react-not-watchlist architecture; flat day-realized but **AMAT post-close TRIPLE catalyst (Q2 beat + Q3 guide raise)** is the headline AH news = stop-ratchet priority tomorrow.
+**Wed May 20 EOD:** $31,059.40 (+$169 / +0.55% vs Tue close $30,890.49). Day featured 3 tape-confirming BUYs (MRVL/TJX/BA re-entry) + 3 ratchets (CRWD midday $620 / DXCM close $66 / TXN close $293). **NVDA Q1 mega-beat BUT AH selling -2.3% = AMAT/MU/TGT sell-the-news pattern reapplied** — 4th cap slot held reserved heading into Thu open.
 
 ---
 
-## Current Positions (14 equity + 1 frac + 1 crypto, EOD May 14)
+## Current Positions (25 equity + 1 frac + 1 crypto, EOD May 20)
 
 | Ticker | Shares | Entry | Last | P&L | P&L % | Stop | Buffer |
 |--------|--------|-------|------|-----|-------|------|--------|
-| **MU** 🚀🚀 | 3 | $541.11 | $779.00 | +$714 | **+44.0%** 🎯 | $700 | 9.8% (locks +$478) |
-| **UNH** | 0.69 | $290.00 | $399.00 | +$75 | **+37.6%** | — frac | n/a |
-| **CVS** 🎯 | 27 | $75.83 | $97.155 | +$576 | **+28.1%** 🎯 | $87 | 10.4% |
-| **BTC** | 0.0034 | $70,867 | $81,358 | +$36 | **+14.8%** | — crypto | n/a |
-| **MRVL** | 9 | $159.54 | $183.00 | +$211 | **+14.7%** 🎯 | **$170 (ratcheted today)** | 6.9% (locks +$130) |
-| **TXN** | 5 | $272.83 | $308.07 | +$177 | **+12.9%** | $252.58 | 18.0% |
-| **BLK** | 2 | $1,057.92 | $1,104.67 | +$92 | +4.4% | $990 | 10.4% |
-| **AMAT** 🆕catalyst | 1 | $441.47 | $440.86 (AH $459.33) | -$1 reg / +$18 AH | -0.14% reg / +4.2% AH | $416 | 5.6% reg / 9.6% AH |
-| **NUE** | 9 | $223.00 | $232.66 | +$87 | +4.3% | $210 | 9.7% |
-| **CCI** | 20 | $84.31 | $87.30 | +$60 | +3.6% | $84.31 | **3.4%** YELLOW |
-| **MRK** | 18 | $112.47 | $113.41 | +$17 | +0.8% | $103.50 | 8.7% |
-| **SYY** 🆕 | 5 | $73.21 | $73.04 | -$1 | -0.22% | $68 | 6.9% (T+0 fill today) |
-| **BA** 🆕 | 3 | $231.62 | $229.30 | -$6 | -0.84% | $216 | 5.8% (T+0 fill today) |
-| **BILL** | 64 | $40.17 | $39.49 | -$44 | -1.7% | $36 | 8.8% |
+| **UNH** | 0.69 | $290.00 | $383.30 | +$64 | **+32.2%** | — frac | n/a |
+| **CVS** 🎯 | 27 | $75.83 | $94.01 | +$491 | **+23.9%** | $87 | 8.0% |
+| **TXN** 🔧 | 5 | $272.83 | $304.88 | +$160 | **+11.7%** | **$293 (ratched today)** | 3.9% (locks +$101) |
+| **DXCM** 🔧🆕 | 4 | $64.85 | $71.44 | +$26 | **+10.2%** | **$66 (ratched today)** | 7.6% (locks +$4.60) |
+| **CCI** | 20 | $84.31 | $92.64 | +$167 | +9.9% | $84.31 | 9.0% (breakeven) |
+| **BTC** | 0.0034 | $70,867 | $77,470 | +$23 | +9.3% | — crypto | n/a |
+| **CRWD** 🚀🔧 | 1 | $609.48 | $647.76 (AH $650.34) | +$38 | **+6.3%** | **$620 (ratched today)** | 4.5% (locks +$10.52) |
+| **GE** 🆕 | 2 | $285.99 | $298.32 | +$25 | +4.3% | $263 | 13.4% |
+| **SYY** | 5 | $73.21 | $75.46 | +$11 | +3.1% | $68 | 11.0% |
+| **BSX** | 5 | $55.14 | $56.67 | +$8 | +2.8% | $51 | 11.1% |
+| **PANW** 🆕 | 1 | $243.21 | $246.45 | +$3 | +1.3% | $225 | 9.5% |
+| **NUE** | 9 | $223.00 | $225.67 | +$24 | +1.2% | $210 | 7.5% |
+| **MSFT** | 1 | $415.53 | $419.91 | +$4 | +1.1% | $395 | 6.3% |
+| **MRK** | 18 | $112.47 | $113.25 | +$14 | +0.7% | $107 | 5.8% YELLOW |
+| **BA** 🔄re-entry | 3 | $220.33 | $221.20 | +$3 | +0.4% | $202 | 9.5% |
+| **TJX** 🆕 | 4 | $159.00 | $159.21 | +$1 | +0.1% | $146 | 9.0% |
+| **OKTA** 🆕 | 5 | $89.36 | $88.95 | -$2 | -0.5% | $82 | 8.5% |
+| **BLK** | 2 | $1,057.92 | $1,051.57 | -$13 | -0.6% | $990 | 6.2% (SpaceX IPO catalyst) |
+| **MRVL** 🆕 | 5 | $189.11 | $186.50 | -$13 | -1.4% | $174 | 7.2% (NVDA AH risk Thu) |
+| **D** | 4 | $68.82 | $67.49 | -$5 | -1.9% | $63 | 7.1% |
+| **CSCO** | 1 | $117.34 | $114.34 | -$3 | -2.6% | $108 | 5.9% YELLOW |
+| **NFLX** 🆕 | 5 | $91.12 | $88.20 | -$15 | -3.2% | $84 | 5.0% YELLOW |
+| **ZS** 🆕 | 3 | $180.83 | $174.45 | -$19 | -3.5% | $165 | 5.7% YELLOW |
+| **BILL** | 64 | $40.17 | $38.34 | -$117 | -4.6% | $36 | 6.5% |
 
-**Total open unrealized P&L: ~$2,033 EOD**. **Realized today: $0**. AMAT post-AH catalyst +$18.5 (if gap holds open).
+**Total open unrealized P&L: ~$865 EOD**. **Realized today: $0** (no stops fired).
 
-🔥 **AMAT Post-Close Catalyst:**
-- Q2 EPS $2.86 BEATS $2.66 estimate (+7.5%)
-- Q2 Sales $7.910B BEATS $7.647B estimate (+3.4%)
-- **Q3 Guide EPS $3.16-$3.56 vs $2.88** (mid +17%, high +24%)
-- **Q3 Guide Sales $8.45-$9.45B vs $8.089B** (mid +10.4%)
-- AH reaction: +4.2% to $459.33 — stop-ratchet candidate tomorrow AM
+🔥 **Today's Catalyst Highlights:**
+- **NVDA Q1 print**: EPS $1.87 BEAT $1.76 (+6.25%) / Sales $81.62B BEAT $78.80B / **+139.74% YoY EPS growth** — BUT AH selling -2.3% ($223→$218) = sell-the-news
+- **CRWD 11-leg sell-side cluster** completed (Cantor $700 + MS $610 + Stifel + earlier 8 from Mon-Tue) + ATH break $646.62 today → ratchet $600→$620
+- **SpaceX $75B IPO June timeline** + BLK 13% stake target (held position direct beneficiary)
+- **GOOG $15B Missouri AI infra** + Ameren 500MW capacity (hyperscaler capex confirms AI thesis)
+- **WBD $30B LBO bond signal** (M&A imminent, not held)
 
 ---
 
@@ -107,46 +117,61 @@ new Chart(ctx, {
 
 | Sleeve | Target | Current Fill | Status | Members Held |
 |--------|-------:|-------------:|--------|--------------|
-| **semi_ai** | $6,664 (25%) | $5,985 (22.5%) | **89.8% of target** | MU $2,337 + MRVL $1,647 + TXN $1,541 + AMAT $460 |
+| **semi_ai** | $9,318 (30%) | ~$2,457 (7.9%) | **26% of target** | MRVL $933 + TXN $1,524 |
+| **cyber** | (sub-tech) | ~$1,862 (6.0%) | 11-leg cluster active | CRWD $648 + ZS $523 + OKTA $445 + PANW $246 |
 
-Sleeve regime: **HOT** with AMAT earnings catalyst confirming sleeve thesis. Tech total = semi $5,985 + BILL $2,527 = **$8,512 / 31.9%** — under 35% hard ceiling. **AMAT Q2/Q3 catalyst validates the AVGO-replacement thesis** (stopped 5/13 -$24.40 lifecycle).
+Sleeve regime: **HOT** semi_ai (NVDA catalyst persistent despite AH sell-the-news) + **HOT** cyber (CRWD 11-leg + S/AWS competitive note). Tech total = semi $2,457 + SaaS BILL $2,454 + cyber $1,862 = **~$6,773 / 21.8%** of $31,059 — well under raised 50% ceiling.
 
 ---
 
-## Allocation (EOD May 14)
+## Allocation (EOD May 20)
 
 | Category | Value | Weight |
 |----------|-------|--------|
-| **Tech / Semi-AI** (MU, MRVL, TXN, AMAT) | $5,985 | 22.5% |
-| **SaaS (BILL)** | $2,527 | 9.5% |
-| **TECH TOTAL** | **$8,512** | **31.9%** (under 35% ceiling) |
-| Healthcare (MRK, CVS, UNH) | $4,940 | 18.5% |
-| Financials (BLK) | $2,208 | 8.3% |
-| Materials (NUE) | $2,096 | 7.9% |
-| Real Estate (CCI) | $1,746 | 6.5% |
-| Consumer Staples (SYY) | $365 | 1.4% |
-| Industrials (BA) | $689 | 2.6% |
-| Crypto (BTC) | $281 | 1.1% |
-| **Cash** | $5,822 | **21.8%** |
+| **Tech / Semi-AI** (MRVL, TXN, MSFT) | $2,877 | 9.3% |
+| **Cyber** (CRWD, ZS, OKTA, PANW) | $1,862 | 6.0% |
+| **SaaS** (BILL, CSCO) | $2,568 | 8.3% |
+| **TECH TOTAL** | **$7,307** | **23.5%** (well under raised 50% ceiling) |
+| Healthcare (MRK, CVS, UNH, BSX, DXCM) | $5,394 | 17.4% |
+| Financials (BLK) | $2,103 | 6.8% |
+| Materials (NUE) | $2,031 | 6.5% |
+| Consumer Discretionary (TJX, NFLX) | $1,078 | 3.5% |
+| Real Estate (CCI) | $1,853 | 6.0% |
+| Consumer Staples (SYY) | $377 | 1.2% |
+| Industrials (GE, BA) | $1,260 | 4.1% |
+| Utilities (D) | $270 | 0.9% |
+| Crypto (BTC) | $267 | 0.9% |
+| **Cash** | $9,102 | **29.3%** |
 
 ---
 
-## Open Orders (13 active GTC stops)
+## Open Orders (22 active GTC stops)
 
 | Type | Ticker | Qty | Trigger | TIF | Notes |
 |------|--------|-----|---------|-----|-------|
-| Stop | **MU** | 3 | **$700.00** | GTC | Entry+5R; running +44% |
-| Stop | **CVS** | 27 | **$87.00** | GTC | Ratcheted Wed AM; locks +14.7% / +$300 |
+| Stop | **CRWD** 🚀 | 1 | **$620.00** | GTC | Ratcheted today (locks +$10.52 above entry on 11-leg cluster + ATH) |
+| Stop | **TXN** 🔧 | 5 | **$293.00** | GTC | Ratcheted today close (locks +$100.88 / +11.7% lifecycle) |
+| Stop | **DXCM** 🔧 | 4 | **$66.00** | GTC | Ratcheted today close (locks +$4.60 above entry) |
+| Stop | CVS 🎯 | 27 | $87.00 | GTC | +23.9% lifecycle protected |
+| Stop | **BA** 🆕 | 3 | $202.00 | GTC | New AM (re-entry catalyst-buy 09:58 ET) |
+| Stop | **TJX** 🆕 | 4 | $146.00 | GTC | New AM (beat-and-raise catalyst-buy 09:58 ET) |
+| Stop | **MRVL** 🆕 | 5 | $174.00 | GTC | New AM (chip-cluster catalyst-buy 09:58 ET); NVDA AH risk Thu |
+| Stop | MRK | 18 | $107.00 | GTC | Phase 3 trofuse ratchet 5/18 |
 | Stop | BILL | 64 | $36.00 | GTC | |
-| Stop | BLK | 2 | $990.00 | GTC | |
-| Stop | CCI | 20 | $84.31 | GTC | Breakeven-lock; YELLOW 3.4% cushion |
-| Stop | MRK | 18 | $103.50 | GTC | |
-| Stop | **MRVL** | 9 | **$170.00** | GTC | **Ratcheted Thu AM** (all-time peak lock; +0.72R / +6.5%) |
-| Stop | TXN | 5 | $252.58 | GTC | |
+| Stop | BLK | 2 | $990.00 | GTC | SpaceX IPO catalyst building |
+| Stop | CCI | 20 | $84.31 | GTC | Breakeven-lock |
 | Stop | NUE | 9 | $210.00 | GTC | |
-| Stop | AMAT | 1 | $416.00 | GTC | **Tomorrow AM ratchet candidate** (post-Q2/Q3 catalyst) |
-| Stop | **BA** | 3 | **$216.00** | GTC | New today (catalyst-buy 14:25 ET) |
-| Stop | **SYY** | 5 | **$68.00** | GTC | New today (catalyst-buy 14:39 ET) |
+| Stop | GE | 2 | $263.00 | GTC | Set 5/19 |
+| Stop | NFLX | 5 | $84.00 | GTC | YELLOW 5.0% cushion |
+| Stop | OKTA | 5 | $82.00 | GTC | Set 5/19 |
+| Stop | ZS | 3 | $165.00 | GTC | YELLOW 5.7% cushion |
+| Stop | DXCM | 4 | (above) | GTC | (listed above with ratchet) |
+| Stop | BSX | 5 | $51.00 | GTC | |
+| Stop | D | 4 | $63.00 | GTC | |
+| Stop | PANW | 1 | $225.00 | GTC | Set 5/15 |
+| Stop | CSCO | 1 | $108.00 | GTC | YELLOW 5.9% cushion |
+| Stop | MSFT | 1 | $395.00 | GTC | Blocks wash-trade adds |
+| Stop | SYY | 5 | $68.00 | GTC | |
 
 ---
 
@@ -154,87 +179,69 @@ Sleeve regime: **HOT** with AMAT earnings catalyst confirming sleeve thesis. Tec
 
 | Date | Ticker | Action | Realized | Notes |
 |------|--------|--------|---------:|-------|
-| 2026-05-13 | **AVGO** | Stop fired @ $407.00 (1 sh) 09:46 ET | **-$24.40 / -5.66%** | Mon catalyst-buy (5/11) stop fire. Lifecycle: AVGO $431.40 → $407.00 = 1R loss bounded. [Journal](trades/2026-05-13-AVGO-stop-trigger) |
-| 2026-05-12 🎯 | **INTC** | Stop fired @ $120.01 (6 sh) 10:31 ET | **+$138.97 / +23.93%** | Entry+5R lock; total INTC lifecycle +$256 / +44% across 5/4 entry → 5/8 trim → 5/12 stop. [Journal](trades/2026-05-12-INTC-stop-trigger) |
+| 2026-05-19 | **BA** | Stop fired @ $216 (3 sh) | **-$46.85 / -1R** | Tue stop — India regulatory + macro rates compound (re-entered Wed 5/20 @ $220.33 on Beijing order confirmation) |
+| 2026-05-13 | **AVGO** | Stop fired @ $407 (1 sh) | -$24.40 / -5.66% | 1R bounded loss |
+| 2026-05-12 🎯 | **INTC** | Stop fired @ $120.01 (6 sh) | **+$138.97 / +23.93%** | Entry+5R lock; lifecycle +$256 / +44% |
 | 2026-05-11 | CEG | Stop fired @ $289.52 (7 sh) | +$66.64 / +3.4% | Q1 mega-beat sold-the-news |
-| 2026-05-11 | NKE | Stop fired @ $42.50 (44 sh) | −$122.62 / −6.2% | Consumer-disc sector pressure |
+| 2026-05-11 | NKE | Stop fired @ $42.50 (44 sh) | -$122.62 / -6.2% | Consumer-disc pressure |
 | 2026-05-08 🎯 | INTC | Target trim 6 sh @ $116.37 | +$117.15 / +20.1% | Apple-Intel deal day |
 | 2026-05-07 | CVX | Stop fired @ $181.50 | -$104.20 / -5.4% | |
 
 ---
 
-## Today's Catalyst Highlights
+## Today's Catalyst Highlights (Wed 5/20)
 
-### 🔥 HELD POSITIONS — Post-Close
-- **AMAT** Q2 DOUBLE BEAT + Q3 GUIDE RAISE — AH +4.2% to $459.33 (TRIPLE catalyst stack)
-- **MRVL** all-time peak intraday $192 (closed $182.55, +2.6%); stop ratcheted $145→$170
+### 🚀 Pipeline-Executed Catalyst-Buys (3, all tape-confirming)
+- **MRVL** 5 sh @ $189.11 — Wells PT $135→$195 (+44%, above our Mon $169.94 exit); MU JPM bullish + Melius $1,100 PT confirm chip-cluster bull (+7.9% intraday)
+- **TJX** 4 sh @ $159 — Q1 18% EPS BEAT + FY27 guide RAISE + buyback $2.75-3B; off-price differentiating from HD/LOW housing weakness (+5.6% intraday)
+- **BA** 3 sh @ $220.33 (re-entry) — Beijing CONFIRMS Boeing order + Xi $30B tariff de-escalation framework; reverses Tue $216 stop's regulatory thesis (+2.4% intraday)
 
-### 🎯 Catalyst-Buys Executed Today (inline Mercury fast-track)
-- **BA** 3 sh @ $231.62 — 4-leg stack: Trump tariff truce + $1B Kansas + Bessent China-orders + Bloomberg confirmed 200-jet WIN midday
-- **SYY** 5 sh @ $73.21 — $29B Restaurant Depot mega-deal (anomalous flat tape interpreted as under-reaction; 1.4% reduced sizing for borderline conviction)
+### 🛡️ Tape-Confirming PASS Decisions (saved capital)
+- **MU** — top-scored catalyst (JPM bullish + Melius $1,100 PT) BUT tape -2.6% sell-the-news; **PASSED**
+- **TGT** — BEAT-AND-RAISE (17% EPS beat + FY raise + buyback) BUT tape -7.7% sell-the-news; **PASSED** (validated 1.5h later when CFO said "consumer sentiment slipping")
+- **NVDA** — Q1 BEAT $1.87/$81.6B/+139% YoY EPS BUT **AH tape -2.3%** sell-the-news; **PASSED on 4th cap deployment** (held reserve for Thu tape-confirm)
 
-### ✅ Pipeline Discipline Validated
-- **BIIB PASSed** — Diana correctly anticipated -24% intraday catalyst-rejection slide
-- **Pipeline architecture activated** — 2/2 daily fast-tracks completed, 0 process violations
-- React-not-watchlist Mercury model proven (operator directive 2026-05-14)
+### 🔧 Ratchets Executed (3, all locking profit above entry)
+- **CRWD** midday $600→$620 — locks +$10.52 above entry on 11-leg sell-side cluster + ATH break $646.62
+- **DXCM** close $60→$66 — locks +$4.60 above entry (+10.2% lifecycle position)
+- **TXN** close $285→$293 — locks +$100.88 lifecycle profit (+11.7% lifecycle)
 
-### Tomorrow (Fri 5/15) AM Watchlist
-- **AMAT** stop ratchet $416 → $440 (priority #1)
-- **NOW** dip-recovery thesis ($4B refi + AI rev after Q1 -18%)
-- **PFE** 2 FDA approvals (HYMPVAZI EU AM + Arvinas breast cancer PM)
-- **AAPL** Evercore PT $330→$365 vs OpenAI legal bear (mixed)
-- **QCOM** multi-analyst AI upgrades
-- **CRWD** BTIG PT raise + cyber-sleeve tailwind
-- **SHOP** Thrive Capital $100M smart-money signal
-- **CCI** YELLOW 3.4% cushion — monitor or accept tighter
-- **BA** if recovery confirms above $235, consider $216→$220-225 ratchet
+### Thu 5/21 AM Watchlist
+- **MRVL** — NVDA AH reaction Thu open; if -2.3% AH reverses or chip cluster green = HOLD/possible add; if NVDA continues down = expect MRVL sympathy decline
+- **NVDA itself (not held)** — would need explicit tape-confirmation to re-enter chip sleeve at parent level
+- **WBD** — $30B LBO bond signal AH; M&A spike monitoring
+- **BLK** — SpaceX IPO June timeline follow-on PR possible Thu
+- **NFLX/ZS/MRK/CSCO YELLOW positions** — cushion improvement or stop-out risk
+- **CCI** breakeven $84.31 → push to $88 if no overnight macro shock
 
 ---
 
-## Today's Mercury Catalyst Stack (12+ alerts, react-not-watchlist activated)
+## Today's Mercury Catalyst Stack (24+ alerts; tape-confirming framework filter applied)
 
-### Held Position Catalysts (post-close)
-- **AMAT** 16:01 ET Q2 BEAT — EPS $2.86 vs $2.66 (+7.5%); Sales $7.91B vs $7.65B (+3.4%)
-- **AMAT** 16:03 ET Q3 GUIDE — EPS $3.16-$3.56 vs $2.88 (mid +17%); Sales $8.45-$9.45B vs $8.089B (mid +10.4%)
+### 🔥 Headline Catalysts (Wed 5/20)
+- **NVDA** 16:21 ET Q1 BEAT $1.87/$81.6B/+139% YoY — **MOST MATERIAL ALERT OF DAY** (AH tape rejecting -2.3%)
+- **WBD** 16:21 ET — Banks Eye $30B Bonds for LBO (Bloomberg)
+- **BLK/SpaceX** 16:04 ET — SpaceX $75B IPO as soon as June; BLK wants 13% stake
+- **GOOG/AEE** 15:40 ET — $15B Missouri AI infra + 500MW Ameren capacity
+- **CRWD** 12:43 ET — Morgan Stanley $610 + Cantor $700 + Stifel = completes 11-leg cluster
 
-### Catalyst-Buys Today (executed)
-- **BA** 12:01 ET Bloomberg "Boeing WINS 200-Jet Plane Order From China" (executed 14:25 ET)
-- **SYY** Various Restaurant Depot $29B deal (executed 14:39 ET)
-
-### Strong Single-Ticker Catalysts (Friday pipeline candidates)
-- **NOW** 15:36 ET — AI revenue surge + $4B debt refi after Q1 -18% selloff
-- **PFE** 15:36 ET — FDA approval w/ Arvinas breast cancer (2nd PFE FDA today)
-- **AAPL** 15:36 ET — Evercore ISI PT $330→$365 (vs OpenAI legal bear)
-- **QCOM** 15:36 ET — Multi-analyst upgrades fuel AI-driven surge
-- **CRWD** 15:18 ET — BTIG raises target; cyber-sleeve momentum
-- **SHOP** 16:10 ET — Joshua Kushner's Thrive Capital $100M (Bloomberg)
-- **MSFT** 15:18 + 16:07 ET — Mixed (Claude Code license cancellation bear vs OpenAI Codex mobile bull)
-- **CARR** 14:42 ET — JPMorgan PT raise (AI-DC cooling stack)
-- **COIN** 15:02 ET — USDC/Hyperliquid expansion (+Clarity Act Senate pass stack)
-- **AZN** 14:14 ET — 2nd Phase 3 bladder cancer survival benefit
-
-### Healthcare Cluster Convergence
-- AZN double Phase 3 (perioperative + bladder cancer)
-- PFE dual FDA today
-- TEM/BMY AI clinical trial partnership
-- LLY oral GLP-1 ongoing
-- CVS regulatory moat continuing
-
-### AI Infrastructure Cluster
-- AMAT Q2/Q3 mega beat (semi-equipment)
-- NBIS Meta deal expansion + 684% AI rev growth + MS bullish
-- AVGO $545 Wells Fargo PT (RIP — stopped 5/13)
-- NVDA Cantor +49% upside
-- HPE dual-catalyst (overnight earlier)
-- CSCO Q3 mega + Trump China visit optimism
-- CARR HVAC cooling read-through
+### Earlier Day Stack
+- TJX BEAT-AND-RAISE Q1 (executed BUY)
+- MU JPM "outlook strengthened" + Melius $1,100 PT (PASSED, tape rejected)
+- TGT Q1 BEAT-AND-RAISE (PASSED, tape -7.7%)
+- BA Beijing CONFIRMS order + Xi $30B tariff (executed BUY re-entry)
+- MRVL Wells $135→$195 + Oppenheimer $200 + Wolfe Hold→Buy (executed BUY)
+- ARM Bernstein $300 PT + $2B agentic AI chip demand (not held)
+- Managed care 5-firm cluster (Deutsche ELV/CNC/HUM + Mizuho ELV/HUM) — UNH held implicit
+- BMY×Anthropic enterprise + INCY×Genesis Molecular (pharma×AI)
+- Singapore AI cluster 4-mega-cap (NVDA hub + OpenAI + GOOG)
 
 ---
 
 ## Process Notes (this week)
 
-1. **Pipeline discipline 2026-05-14 (Thu): 100%** — Every BUY went through 5-agent fast-track (Iris→Grace→Atlas→Victor→Diana+Marcus). Zero process violations.
-2. **Mercury architecture pivot:** Filter-only → react-not-watchlist inline fast-track activated per operator directive. New default mode = RUN pipeline.
-3. **Diana chase-vs-durable lesson (5/13 LLY post-mortem):** Don't blanket-PASS structural catalysts citing intraday chase risk. Memory saved.
-4. **AVGO -$24.40 stop fire 5/13:** Mon catalyst-buy → Wed stop = 1R bounded loss. Discipline kept loss small. Position-diff remediation working (5 min detection latency vs 1h11min INTC 5/12).
-5. **PDT same-day stops OK above $25K** (equity confirmed $26,656 well above floor).
+1. **Pipeline discipline 2026-05-20 (Wed): 100%** — Every BUY went through 5-agent fast-track. Zero process violations through 3 days (Mon/Tue/Wed) and 11 catalyst-buys.
+2. **Tape-confirming framework validated 4 times today** — MU, TGT, NVDA AH (all PASSED despite top catalyst scores when tape rejected); MRVL/TJX/BA (all EXECUTED when catalyst+tape aligned). AMAT 13-catalyst lesson reapplied.
+3. **Wash-trade architectural lesson** — MSFT add on OpenAI $1T IPO blocked by existing $395 stop; held 4th cap slot reserved vs 3-step cancel-buy-replace choreography.
+4. **NVDA AH price discovery** — Massive beat (+139% YoY EPS) + AH selling is the year's clearest sell-the-news case study; tape-confirming framework saved 4th cap slot for Thu tape-confirm rather than chasing the catalyst.
+5. **PDT same-day stops continue OK above $25K** (equity $31,059 well above floor).

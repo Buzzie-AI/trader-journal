@@ -13,9 +13,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $30,879 EOD (Tue 8 actions / Realized -$46.85 / Macro rates day)
+## Portfolio — $31,059 EOD (Wed 5 actions / 3 BUYs + 3 ratchets / NVDA AH sell-the-news)
 
-*Updated: 2026-05-18 16:22 ET (Mon EOD CLOSE — **10 actions / net realized +$544.63**; equity $31,124 incl. $5K deposit). **Full-system-cycle day**: AM 4 BUYs MAXED (D+CRWD+BSX+DXCM, $1,419 spend) + MRK ratchet $103.50→$107; AM 3 STOPS fired (MU @$700 +$477/3R, MRVL @$170 +$94/1.5R, AMAT @$416 -$26/-1R = textbook 13-catalyst sell-the-news); EOD 2 RATCHETS (NOW $87→$95 +$10 min, TXN $252.58→$278 +$26 min). **Sleeve evolution**: shed 3 semi positions + added utility/cyber/medtech. **Tech sleeve ~18%** (massive relief well below 50% ceiling). **Cash $12,207 (39%)** dry powder for Tuesday. **Mercury Phase 0.5 Tue candidates**: DELL (75 / 3-leg AI cluster), ZS (74 / Keybanc), NFLX (74 / BofA reaffirm + RS), OKTA (72 / Keybanc) — 4 candidates ≥70. **Real intraday agent return ~-$99** (deposit-adjusted; contained vs semi-rotation chaos).*
+*Updated: 2026-05-20 16:25 ET (Wed EOD CLOSE — **5 actions / 0 realized / equity $31,059 (+$169 / +0.55%)**). **Day story = TAPE-CONFIRMING DISCIPLINE THROUGH NVDA EARNINGS**: AM 3 BUYs (MRVL/TJX/BA re-entry, $2,243 spend) selected by catalyst+tape alignment; PASSED on top-scored MU (-2.6% sell-the-news) and TGT (-7.7% BEAT-AND-RAISE rejected); Midday CRWD ratchet $600→$620 (+$10.52 above entry on 11-leg sell-side cluster + ATH $646); MSFT add on OpenAI $1T IPO blocked by wash trade. Close: DXCM ratchet $60→$66 (+$4.60) + TXN $285→$293 (+$100.88 lock). **NVDA Q1 BEAT $1.87/$81.6B/+139% YoY EPS BUT AH selling -2.3% sell-the-news (4th AMAT lesson reapplied today)**. 4th cap slot HELD RESERVED for Thu tape-confirm. **Cash $9,102 (29.3%)** dry powder for Thu. **25 equity positions, 22 active GTC stops**.*
 
 **KEY MONDAY ACCOMPLISHMENTS:**
 1. **$5K operator deposit POSTED** — equity $26,287 → $31,124 (+$5K nominal, -$99 real intraday)
@@ -99,7 +99,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12,26173.44,31124.35,30878.74,31100.67,30890.49,31059.40],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -171,31 +171,42 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$26,440 EOD** |
-| Cash | $6,476 (24.5%) ✅ well above $2K reserve, +$720 post INTC |
-| Invested | $19,963 (75.5%) |
-| Day P&L | **-0.51% (-$136)** — Risk-off rotation softened by INTC stop +$139 realized |
-| **Agent P&L (since Mar 28)** | **+$2,951 (+14.4%)** — excludes Apr 23 $3K deposit |
+| Equity | **$31,059 EOD** |
+| Cash | $9,102 (29.3%) ✅ well above $2K reserve |
+| Invested | $21,957 (70.7%) across 25 equity positions |
+| Day P&L | **+0.55% (+$169)** — 3 tape-confirming BUYs (MRVL/TJX/BA) + 3 ratchets above entry |
+| **Agent P&L (since Mar 28)** | **+$3,170 (+14.5%)** — excludes Apr 23 +$3K and May 14 +$5K deposits ($8K total) |
 
-### Positions (EOD May 12 — 13 equity; INTC stopped 10:31)
+### Positions (EOD May 20 — 25 equity; 0 stops fired today)
 
 | Ticker | Shares | Entry | Last | P&L % | Weight | Stop |
 |--------|--------|-------|------|-------|--------|------|
-| **MU** 🚀🚀 | 3 | $541.11 | $767.36 | **+41.8%** 🎯 | 8.7% | $700 ✅ (entry+5R, survived 1.29% min) |
-| **UNH** | 0.69 | $290.00 | $396.50 | **+36.7%** | 1.0% | — frac |
-| **CVS** 🎯 | 27 | $75.83 | $95.00 | **+25.3%** 🎯 | 9.7% | $82 → **Wed AM ratchet $87 queued** |
-| **BTC** | 0.0034 | $70,867 | $80,863 | **+14.1%** | 1.1% | — crypto |
-| **CCI** | 20 | $84.31 | $91.50 | **+8.5%** | 6.9% | $84.31 ✅ |
-| **TXN** | 5 | $272.83 | $295.17 | **+8.2%** | 5.6% | $252.58 ✅ |
-| **BLK** | 2 | $1,057.92 | $1,092.50 | **+3.3%** | 8.3% | $990 ✅ |
-| **NUE** | 9 | $223.00 | $229.83 | +3.1% | 7.8% | $210 ✅ |
-| **BILL** | 64 | $40.17 | $41.27 | +2.7% | 10.0% | $36 ✅ |
-| **MRVL** | 9 | $159.54 | $163.51 | +2.5% | 5.6% | $145 ✅ |
-| **MRK** | 18 | $112.47 | $112.37 | -0.1% | 7.6% | $103.50 ✅ |
-| **AMAT** | 1 | $441.47 | $431.88 | -2.2% | 1.6% | $416 (survived 0.22% min) |
-| **AVGO** | 1 | $431.40 | $417.15 | -3.3% | 1.6% | $407 (survived 0.45% min) |
+| **UNH** | 0.69 | $290.00 | $383.30 | **+32.2%** | 0.9% | — frac |
+| **CVS** 🎯 | 27 | $75.83 | $94.01 | **+23.9%** | 8.2% | $87 (locks +14.7%) |
+| **TXN** 🔧 | 5 | $272.83 | $304.88 | **+11.7%** | 4.9% | **$293 (ratched today)** locks +$101 |
+| **DXCM** 🔧🆕 | 4 | $64.85 | $71.44 | **+10.2%** | 0.9% | **$66 (ratched today)** locks +$4.60 |
+| **CCI** | 20 | $84.31 | $92.64 | +9.9% | 6.0% | $84.31 (breakeven) |
+| **BTC** | 0.0034 | $70,867 | $77,470 | +9.3% | 0.9% | — crypto |
+| **CRWD** 🚀🔧 | 1 | $609.48 | $647.76 (AH $650.34) | **+6.3%** | 2.1% | **$620 (ratched today)** locks +$10.52 |
+| **GE** 🆕 | 2 | $285.99 | $298.32 | +4.3% | 1.9% | $263 |
+| **SYY** | 5 | $73.21 | $75.46 | +3.1% | 1.2% | $68 |
+| **BSX** | 5 | $55.14 | $56.67 | +2.8% | 0.9% | $51 |
+| **PANW** 🆕 | 1 | $243.21 | $246.45 | +1.3% | 0.8% | $225 |
+| **NUE** | 9 | $223.00 | $225.67 | +1.2% | 6.5% | $210 |
+| **MSFT** | 1 | $415.53 | $419.91 | +1.1% | 1.4% | $395 |
+| **MRK** | 18 | $112.47 | $113.25 | +0.7% | 6.6% | $107 YELLOW 5.8% |
+| **BA** 🔄re-entry | 3 | $220.33 | $221.20 | +0.4% | 2.1% | $202 |
+| **TJX** 🆕 | 4 | $159.00 | $159.21 | +0.1% | 2.1% | $146 |
+| **OKTA** 🆕 | 5 | $89.36 | $88.95 | -0.5% | 1.4% | $82 |
+| **BLK** | 2 | $1,057.92 | $1,051.57 | -0.6% | 6.8% | $990 |
+| **MRVL** 🆕 | 5 | $189.11 | $186.50 | -1.4% | 3.0% | $174 |
+| **D** | 4 | $68.82 | $67.49 | -1.9% | 0.9% | $63 |
+| **CSCO** | 1 | $117.34 | $114.34 | -2.6% | 0.4% | $108 YELLOW 5.9% |
+| **NFLX** 🆕 | 5 | $91.12 | $88.20 | -3.2% | 1.4% | $84 YELLOW 5.0% |
+| **ZS** 🆕 | 3 | $180.83 | $174.45 | -3.5% | 1.7% | $165 YELLOW 5.7% |
+| **BILL** | 64 | $40.17 | $38.34 | -4.6% | 7.9% | $36 |
 
-**Total Open P&L: ~$1,790 unrealized EOD**. **Realized today: +$138.97 (INTC stop +44% lifecycle: 5/4 → 5/8 → 5/12).**
+**Total Open P&L: ~$865 unrealized EOD**. **Realized today: $0** (no stops fired). **NVDA Q1 BEAT $1.87/$81.6B/+139% YoY EPS but AH selling -2.3% sell-the-news → 4th cap slot reserved for Thu.**
 
 **Today's full macro:** Hot CPI + Iran oil = textbook risk-off rotation. **Tech XLK -3.2% / Financials XLF +0.9% / Healthcare XLV +2.3% / Energy XLE +1.1%.** Catalysts broadly rejected (AMD/AVGO/ORCL/GS/AKAM/AFRM/MNDY/CRCL/TRI all bullish-catalyst-but-tape-sold). **QCOM -11% on $20B buyback** = key sell-the-news signal. Top idio-alpha picks CSCO/META/FTNT all BLOCKED by tech concentration ceiling at 36%. Semi sleeve survived deep stress test (AMAT 0.22%/AVGO 0.45%/MU 1.29% min cushions) — all stops held, recovered to comfortable cushions by close. Mag-7 product/AI cluster: GOOGL 4 alerts, META 2, MSFT 1, AAPL 1. **Wed AM action: CVS stop ratchet $82→$87 queued.**
 
