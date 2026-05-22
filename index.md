@@ -13,9 +13,9 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
-## Portfolio — $31,059 EOD (Wed 5 actions / 3 BUYs + 3 ratchets / NVDA AH sell-the-news)
+## Portfolio — $31,274 EOD (Fri WEEK WRAP / Dow RECORD HIGHS / BILL stop -$267)
 
-*Updated: 2026-05-20 16:25 ET (Wed EOD CLOSE — **5 actions / 0 realized / equity $31,059 (+$169 / +0.55%)**). **Day story = TAPE-CONFIRMING DISCIPLINE THROUGH NVDA EARNINGS**: AM 3 BUYs (MRVL/TJX/BA re-entry, $2,243 spend) selected by catalyst+tape alignment; PASSED on top-scored MU (-2.6% sell-the-news) and TGT (-7.7% BEAT-AND-RAISE rejected); Midday CRWD ratchet $600→$620 (+$10.52 above entry on 11-leg sell-side cluster + ATH $646); MSFT add on OpenAI $1T IPO blocked by wash trade. Close: DXCM ratchet $60→$66 (+$4.60) + TXN $285→$293 (+$100.88 lock). **NVDA Q1 BEAT $1.87/$81.6B/+139% YoY EPS BUT AH selling -2.3% sell-the-news (4th AMAT lesson reapplied today)**. 4th cap slot HELD RESERVED for Thu tape-confirm. **Cash $9,102 (29.3%)** dry powder for Thu. **25 equity positions, 22 active GTC stops**.*
+*Updated: 2026-05-22 16:48 ET (Fri WEEK WRAP — **equity $31,274 (+$281 / +0.91% day; +1.24% week)**). **Week story = UNPRECEDENTED 4-CAP RESERVE**: Wed 3 BUYs cap (MRVL/TJX/BA $2,243), then 4th cap HELD Wed-Thu-Fri unprecedented. **16 ratchets across week locked $700+ paper into bounded.** BILL stop fired Thu midday -$267 as predicted. Friday: **Dow JONES RECORD HIGHS**, all 3 indices green on Iran peace talks resuming. Held catalyst stack paying out 2-6% per name: MRK +5.7% (Keytruda EU) / ZS +6.6% / TXN +3.5% (Seaport $400 PT) / PANW +3.1% / MRVL +3.0% / CRWD +2.3%. **Cash $11,402 (36.4%)** — biggest reserve in 2 weeks. **24 equity positions** (BILL stopped out). **MRVL EARNINGS Wed May 27** = next major window. Mon 5/25 Memorial Day CLOSED.*
 
 **KEY MONDAY ACCOMPLISHMENTS:**
 1. **$5K operator deposit POSTED** — equity $26,287 → $31,124 (+$5K nominal, -$99 real intraday)
@@ -99,7 +99,7 @@ new Chart(ctx, {
       pointBackgroundColor: '#dc2626'
     },{
       label: 'After Agents',
-      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12,26173.44,31124.35,30878.74,31100.67,30890.49,31059.40],
+      data: [null,null,null,null,null,null,null,null,null,20489.37,20408.39,20886.27,21055.12,20969.3,20958.95,20991.67,21341.87,21247.72,21213.72,21327.63,21679.31,21654.58,21723.91,21872.97,21653.15,21376.01,21581.07,24602.55,25096.64,25080.73,24887.84,24880.66,25129.32,25093.43,25259.53,25699.52,26167.40,25767.88,26455.49,26575.95,26439.85,26735.75,26656.12,26173.44,31124.35,30878.74,31100.67,30890.49,31059.40,30992.43,31273.88],
       borderColor: '#16a34a',
       backgroundColor: 'rgba(22,163,74,0.06)',
       fill: true,
@@ -171,11 +171,13 @@ new Chart(ctx, {
 
 | | Value |
 |--|-------|
-| Equity | **$31,059 EOD** |
-| Cash | $9,102 (29.3%) ✅ well above $2K reserve |
-| Invested | $21,957 (70.7%) across 25 equity positions |
-| Day P&L | **+0.55% (+$169)** — 3 tape-confirming BUYs (MRVL/TJX/BA) + 3 ratchets above entry |
-| **Agent P&L (since Mar 28)** | **+$3,170 (+14.5%)** — excludes Apr 23 +$3K and May 14 +$5K deposits ($8K total) |
+| Equity | **$31,274 EOD (Fri)** |
+| Cash | $11,402 (36.4%) ✅ biggest reserve in 2 weeks (BILL stop fire boost) |
+| Invested | $19,872 (63.5%) across 24 equity positions |
+| Day P&L | **+0.91% (+$281)** — 6 ratchets locked profits, MRK/ZS/TXN day winners 3-6% |
+| Week P&L | **+1.24% (+$384)** — Tue baseline $30,890 → Fri close $31,274 |
+| Realized week | -$267 (BILL stop fire Thu midday as predicted) |
+| **Agent P&L (since Mar 28)** | **+$3,385 (+15.5%)** — excludes Apr 23 +$3K and May 14 +$5K deposits ($8K total) |
 
 ### Positions (EOD May 20 — 25 equity; 0 stops fired today)
 

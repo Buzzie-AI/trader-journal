@@ -1,84 +1,111 @@
-# Watchlist — Updated 2026-05-20 16:47 ET (Wed CLOSE — Tape-Confirming Discipline + NVDA Earnings)
+# Watchlist — Updated 2026-05-22 16:48 ET (Fri CLOSE — WEEK WRAP, equity $31,274 +1.24%)
 
-## Current portfolio (25 equity + frac + crypto + CVR, EOD May 20)
+## Current portfolio (24 equity + frac + crypto + CVR, EOD May 22)
 
 | Ticker | Qty | Entry | Close | Day % | Stop | Cushion | Unrealized |
 |--------|-----|-------|-------|-------|------|---------|------------|
-| **UNH** 🏆 | 0.69 | $290 | $383.30 | -1.5% | n/a (frac) | n/a | +$64 / **+32%** |
-| **CVS** 🏆 | 27 | $75.83 | $94.01 | -0.2% | $87 | 8.0% | **+$491 / +24%** |
-| **TXN** 🚀🔧 | 5 | $272.83 | $304.88 | +0.9% | **$293** (ratched 16:24) | 3.9% | **+$160 / +11.7%** |
-| **DXCM** 🚀🔧 | 4 | $64.85 | $71.44 | +6.7% | **$66** (ratched 16:24) | 7.6% | +$26 / +10.2% |
-| **CCI** | 20 | $84.31 | $92.64 | +0.3% | $84.31 (breakeven) | 9.0% | +$167 / +9.9% |
-| **BTC** | 0.0034 | $70,867 | $77,470 | +0.9% | n/a | n/a | +$23 / +9.3% |
-| **CRWD** 🔥🔧 | 1 | $609.48 | $647.76 (AH $650.34) | **+5.0%** | **$620** (ratched 13:17) | 4.5% | **+$38 / +6.3%** (11-leg + ATH $646.62) |
-| **GE** | 2 | $285.99 | $298.32 | +4.6% | $263 | 13.4% | +$25 / +4.3% |
-| **SYY** | 5 | $73.21 | $75.46 | +0.4% | $68 | 11.0% | +$11 / +3.1% |
-| **BSX** | 5 | $55.14 | $56.67 | -0.2% | $51 | 11.1% | +$8 / +2.8% |
-| **PANW** | 1 | $243.21 | $246.45 | +2.6% | $225 | 9.5% | +$3 / +1.3% |
-| **NUE** | 9 | $223 | $225.67 | +1.8% | $210 | 7.5% | +$24 / +1.2% |
-| **MSFT** | 1 | $415.53 | $419.91 | +0.6% | $395 | 6.3% | +$4 / +1.1% (OpenAI $1T IPO + wash-blocked add) |
-| **MRK** | 18 | $112.47 | $113.25 | -0.9% | $107 | 5.8% YELLOW | +$14 / +0.7% |
-| **BA** 🔄 | 3 | $220.33 | $221.20 | +2.9% | $202 | 9.5% | +$3 / +0.4% (re-entry 09:58 ET) |
-| **TJX** 🆕 | 4 | $159 | $159.21 | +5.7% | $146 | 9.0% | +$1 / +0.1% (BEAT-AND-RAISE) |
-| **OKTA** | 5 | $89.36 | $88.95 | +3.8% | $82 | 8.5% | -$2 / -0.5% |
-| **BLK** | 2 | $1058 | $1051.57 | +1.5% | $990 | 6.2% | -$13 / -0.6% (SpaceX IPO catalyst) |
-| **MRVL** 🆕 | 5 | $189.11 | $186.50 | +5.8% (vs prev close) | $174 | 7.2% | -$13 / -1.4% (Wells $195 + NVDA AH risk Thu) |
-| **D** | 4 | $68.82 | $67.49 | -0.9% | $63 | 7.1% | -$5 / -1.9% |
-| **CSCO** | 1 | $117.34 | $114.34 | -0.9% | $108 | 5.9% YELLOW | -$3 / -2.6% |
-| **NFLX** | 5 | $91.12 | $88.20 | -1.3% | $84 | 5.0% YELLOW | -$15 / -3.2% |
-| **ZS** | 3 | $180.83 | $174.45 | -0.5% | $165 | 5.7% YELLOW | -$19 / -3.5% |
-| **BILL** | 64 | $40.17 | $38.34 | +1.6% | $36 | 6.5% | -$117 / -4.6% |
+| **UNH** 🏆 | 0.69 | $290 | $387.92 | +1.4% | n/a (frac) | n/a | +$68 / **+33.8%** |
+| **CVS** 🏆 | 27 | $75.83 | $93.62 | +0.3% | $87 | 7.1% | +$480 / **+23.5%** |
+| **TXN** 🚀🔧 | 5 | $272.83 | $309.05 | **+3.5%** | **$300** (ratched today) | 3.0% | **+$181 / +13.3%** |
+| **DXCM** 🚀🔧 | 4 | $64.85 | $72.12 | +0.3% | $66 | 8.5% | +$29 / **+11.2%** |
+| **CCI** | 20 | $84.31 | $91.48 | -0.6% | $84.31 (breakeven) | 7.8% | +$143 / +8.5% |
+| **MRK** 🚀🔧 | 18 | $112.47 | $122.44 | **+5.7%** | **$115** (ratched today 2x) | 6.1% | **+$179 / +8.9%** |
+| **CRWD** 🚀🔧 | 1 | $609.48 | $663.32 | +2.3% | **$640** (ratched today) | 3.5% | +$54 / +8.8% |
+| **BTC** | 0.0034 | $70,867 | $77,800 | +0.5% | n/a | n/a | +$24 / +9.6% |
+| **PANW** 🚀🔧 | 1 | $243.21 | $260.67 | **+3.1%** | **$245** (ratched today) | 6.0% | +$17 / +7.2% |
+| **GE** | 2 | $285.99 | $302.46 | +0.2% | $263 | 13.0% | +$33 / +5.8% |
+| **MRVL** 🆕 | 5 | $189.11 | $196.34 | **+3.0%** | $185 | 5.8% | +$36 / +3.8% (**EARNINGS WED 5/27**) |
+| **SYY** | 5 | $73.21 | $76.28 | -1.0% | $72 (ratched) | 5.6% | +$15 / +4.2% |
+| **BSX** | 5 | $55.14 | $57.13 | flat | $51 | 10.7% | +$10 / +3.6% |
+| **OKTA** 🆕 | 5 | $89.36 | $91.30 | +2.1% | $82 | 10.2% | +$10 / +2.2% |
+| **NUE** | 9 | $223 | $226.47 | +0.3% | $210 | 7.3% | +$31 / +1.6% |
+| **BLK** | 2 | $1058 | $1,072.73 | +0.8% | $990 | 7.7% | +$30 / +1.4% (SpaceX SPCX catalyst) |
+| **MSFT** | 1 | $415.53 | $418.50 | -0.05% | $395 | 5.6% | +$3 / +0.7% |
+| **ZS** 🚀🔧 | 3 | $180.83 | $182.31 | **+6.6%** | **$172** (ratched today) | 5.7% | +$4 / +0.8% (recovered from RED) |
+| **BA** 🔄re-entry | 3 | $220.33 | $220.04 | +0.2% | $202 | 8.2% | -$1 / -0.1% |
+| **TJX** 🆕 | 4 | $159 | $156.72 | -0.5% | $146 | 6.8% | -$9 / -1.4% (ROST AH disconnect) |
+| **CSCO** | 1 | $117.34 | $120.55 | +2.0% | $108 | 10.4% | +$3 / +2.7% |
+| **D** | 4 | $68.82 | $67.88 | -0.6% | $63 | 7.1% | -$4 / -1.4% |
+| **NFLX** | 5 | $91.12 | $88.51 | -0.9% | $84 | 5.1% | -$13 / -2.9% |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | n/a | INTC merger CVR |
 
-**Portfolio:** $31,059.40 EOD (+$169 / +0.55% net day) | AH bleed -$35 to $31,023.89
-**Cash:** $9,102.24 (29.3%) — ample dry powder
-**Total open unrealized:** ~+$865 (across 25 equity)
-**Today's REALIZED:** **$0** (no stops fired)
-**Net day P&L:** +$169 (regular session) / +$133 (incl. AH bleed)
+**BILL STOPPED OUT @$36 today** = -$267 realized (64 sh × -$4.17/sh)
+
+**Portfolio:** $31,273.88 EOD (+$281 / +0.91% net day) | week +$384 / +1.24%
+**Cash:** $11,402.33 (36.4%) — biggest cash since pre-Wed BUYs
+**Total open unrealized:** ~+$1,366 across 24 equity positions
+**Today's REALIZED:** -$267 (BILL stop) | Week REALIZED: -$267 total
 
 ---
 
-## Day Summary — Wednesday Tape-Confirming Discipline + NVDA Earnings (5 Actions)
+## Week Summary — Wed 5/20 to Fri 5/22 (Unprecedented Discipline)
 
 ### Executed
-- **AM 3 BUYs** ($2,243 spend): MRVL (Wells $195 PT) + TJX (BEAT-AND-RAISE) + BA re-entry (Beijing order)
-- **Midday CRWD ratchet** $600→$620 (11-leg cluster + ATH $646.62)
-- **Close DXCM ratchet** $60→$66 (locks +$4.60 above entry)
-- **Close TXN ratchet** $285→$293 (locks +$100.88 cumulative profit)
+- **3 BUYs Wed AM ONLY** (MRVL/TJX/BA $2,243 spend), 4th cap UNUSED Wed-Thu-Fri
+- **16 ratchets cumulative** across week (TXN/CRWD/MRVL/MRK/PANW/DXCM/SYY/ZS ladders)
+- **1 stop fire** (BILL @$36 Thu midday = -$267 as predicted)
 
-### PASSED (tape-rejecting framework)
-- **MU** — JPM bullish + Melius $1,100 PT but tape -2.6% sell-the-news
-- **TGT** — BEAT-AND-RAISE but tape -7.7% sell-the-news (CFO confirmed weakness 1.5h later)
-- **MSFT add** — OpenAI $1T IPO catalyst but wash trade blocked
-- **NVDA add** — Q1 BEAT +139% YoY EPS but AH -2.3% initial sell-the-news (recovered to -0.4% on post-print PR)
+### Macro narrative arc
+- **Wed**: NVDA Q1 mega-beat + $80B buyback + Vera CPU $200B TAM = catalyst-rich AH
+- **Thu**: Stagflation regime emerges (oil $100, Iran peace stalled, Fed Minutes hawkish, WMT inflation CFO); 10 sell-the-news rejections; Dow record set
+- **Fri**: Iran peace talks resume (REVERSAL); all 3 indices green; Dow RECORD HIGHS; held catalyst stack pays out 2-6% per name
 
-### Major catalysts late-day
-- **NVDA Q1 print** + Q2 guide +5-7% above + $80B buyback + 25x dividend + Vera Rubin Q3 + 75% gross margin
-- **Fed Minutes 16:35 ET**: 63% rate-hike-by-year-end odds (reverses Wed yield retreat)
-- **SpaceX IPO** $75B June timeline + BLK 13% stake
-- **GOOG $15B Missouri AI infra** + Ameren 500MW capacity
-- **WBD** $30B LBO bond signal
+### Held catalyst wins (week)
+- MRVL Citi PT $118→$215 (+82%) + Wells $195 + Stifel $210 cluster
+- MRK Keytruda+Padcev EU CHMP positive opinion
+- TXN Seaport upgrade Neutral→Buy + PT $400
+- CRWD 11-leg sell-side cluster + ATH + Anthropic-Claude integration
+- ZS Symmetry Systems M&A
+- OKTA BTIG PT $90→$105
+- GE-Boeing T700 Apache 3-yr defense contract
+- BLK SpaceX $28.5T TAM + $1B BTC + Cursor $60B + SPCX symbol
+- MSFT Anthropic Maia 200 + Kawasaki physical AI + AdventHealth healthcare + EY $1B
+- Cyber sector ETFs (HACK/BUG/CIBR) at RECORD highs
 
 ---
 
-## Thu 5/21 AM Setup
+## Tue 5/26 AM Setup (Mon 5/25 = Memorial Day CLOSED)
 
-**4th cap slot HELD RESERVED** — pipeline discipline + AH liquidity constraints + Fed hawkish counter-signal = pass on NVDA add tonight, evaluate Thu open with full regular-session tape
+**Tier-1 watch (5 cap slots available: 4 fresh Tue + 4th carry from Fri):**
+- **MRVL** pre-earnings positioning (ER Wed AH 5/27)
+- Cyber sleeve continuation if records hold over weekend
+- Defensive sleeve continuation (MRK/CVS/MRK at lifecycle highs)
 
-### Tier-1 Thu open candidates (if tape-confirms)
-1. **NVDA itself** — would need 5-agent pipeline; chip-cluster headliner with $80B buyback tailwind
-2. **MRVL** add — already held, NVDA sympathy beneficiary; could push 5→8 sh on tape strength
-3. **WBD** — M&A premium chase if LBO bond signal confirmed by Thu pre-market
+**Tier-2 monitor:**
+- Iran peace talks weekend developments
+- Trump tariff/China headlines
+- Crypto weekend moves (BTC held tiny position)
+- Sunday/Monday economic data
 
-### Tier-2 (monitor)
-- NFLX/ZS/MRK/CSCO YELLOWs (cushion improvement or stop-out risk)
-- BLK SpaceX IPO PR follow-on
-- CCI ratchet $84.31→$88 if no overnight macro shock
-- HUM Deutsche $441 PT (managed care sleeve / UNH implicit)
+**Tier-3 stops at risk:**
+- TXN tight 3.0% cushion ($300 stop) — could fire on chip pullback
+- CRWD tight 3.5% cushion ($640) — same on cyber pullback
+- MRVL 5.8% cushion heading into earnings — pre-earnings vol risk
 
-### Tier-3 (macro)
-- Pre-market yield curve reaction to Fed Minutes (63% hike odds)
-- 10:00 ET Existing Home Sales
-- Tariff/trade headlines (Iran, China)
+---
 
-**Bias going into Thu:** Mixed setup — NVDA bull vs Fed hawkish. Default = tape-confirming + pipeline-disciplined. No PASS on quality catalysts but require tape alignment before deploying 4th cap. Cash 29.3% gives full flexibility.
+## Process Notes (Week 5/19-22)
+
+1. **Tape-confirming framework MULTIPLE validations:**
+   - PASSED MU/TGT despite top catalysts (Wed)
+   - PASSED NVDA AH bounce ($218→$222 reversal) (Wed close)
+   - PASSED INTU -19% falling knife (Thu open)
+   - PASSED DE +14% beat-and-raise sell-the-news (Thu)
+   - PASSED chasing record-highs Friday open
+
+2. **Ratchet discipline = catalyst capture mechanism:**
+   - When catalysts benefit existing held positions, ratchets > new BUYs
+   - 16 ratchets converted ~$700+ paper gains into bounded profits
+   - BILL ratchet history shows breakeven locks save tail losses
+
+3. **4-cap reserve discipline:**
+   - First-ever full week with 4th cap UNUSED
+   - Justified by: catalyst-via-ratchet effectiveness, RED stop fire risk hedge, regime uncertainty
+   - Deploy fresh Tue/Wed with cleaner tape post-holiday
+
+4. **MRVL Wed 5/27 earnings setup:**
+   - 3-firm analyst cluster (Citi $215, Wells $195, Stifel $210) = institutional bull bar set
+   - Stop $185 = locked $14.45/sh above entry $189.11 = downside bounded
+   - Consider pre-earnings trim 25% per Harvest playbook OR aggressive ratchet to $190 if Mon-Tue strength
+</parameter>
+</invoke>
