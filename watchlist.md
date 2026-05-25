@@ -1,4 +1,20 @@
-# Watchlist — Updated 2026-05-22 16:48 ET (Fri CLOSE — WEEK WRAP, equity $31,274 +1.24%)
+# Watchlist — Updated 2026-05-25 16:48 ET (Mon MEMORIAL DAY EOD — mkts closed, equity $31,289 unchanged from Fri)
+
+## Memorial Day Skip — No trading possible
+- US markets closed for Memorial Day
+- Equity $31,288.62 = +$15 vs Fri $31,273.88 (BTC tick only, no equity activity)
+- Cash $11,402.33 unchanged
+- 22/22 stop-loss orders verified intact
+- 12 Mercury alerts since Sun PM (heavy news flow despite closed market)
+- Iran narrative whipsawed 3X today; HARD-DATA bull reversal at 14:43 ET (S&P futures + EU bourses 4-mo peaks + oil -7%)
+- Tue 5/26 09:27 ET autopilot setup: 8 BULL data points vs 2 BEAR (Huawei chip + NVDA AI cost)
+- MRVL pre-earnings (Wed AH 5/27) bias: ratchet $185→$190 favored over trim 25%
+- CSCO HSBC PT-doubling = potential Tue ratchet $108→$115 if pre-mkt gap confirms
+- Caveats: WSJ "investors aren't celebrating yet" + IBD "Trump no rush" on Iran deal
+
+---
+
+# Watchlist — Original Fri 5/22 EOD snapshot
 
 ## Current portfolio (24 equity + frac + crypto + CVR, EOD May 22)
 
