@@ -13,6 +13,10 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
+## Portfolio — $31,289 (Mon MEMORIAL DAY — markets CLOSED)
+
+*Updated: 2026-05-25 09:59 ET (Mon **MEMORIAL DAY HOLIDAY** mkts CLOSED, no trading; equity $31,288.80 BTC tick only; cash $11,402.33; 24 positions held; **22/22 stop-able positions verified intact**; Mercury 7 alerts since Sun PM incl **MRVL +2 bull-stack data points** GS liquid cooling + DRAM ETF AI memory boom = 7 data points pre Wed 5/27 earnings; Iran narrative whipsaw unresolved Sun "deal hopes" → Mon 04:00 ET ceasefire odds CRASH 86%→32% on Trump post; Tue 5/26 09:27 ET autopilot_morning resumes live pipeline; tight cushions TXN 3.0% / CRWD 3.5% / MRVL 5.8%.)*
+
 ## Portfolio — $31,274 EOD (Fri WEEK WRAP / Dow RECORD HIGHS / BILL stop -$267)
 
 *Updated: 2026-05-22 16:48 ET (Fri WEEK WRAP — **equity $31,274 (+$281 / +0.91% day; +1.24% week)**). **Week story = UNPRECEDENTED 4-CAP RESERVE**: Wed 3 BUYs cap (MRVL/TJX/BA $2,243), then 4th cap HELD Wed-Thu-Fri unprecedented. **16 ratchets across week locked $700+ paper into bounded.** BILL stop fired Thu midday -$267 as predicted. Friday: **Dow JONES RECORD HIGHS**, all 3 indices green on Iran peace talks resuming. Held catalyst stack paying out 2-6% per name: MRK +5.7% (Keytruda EU) / ZS +6.6% / TXN +3.5% (Seaport $400 PT) / PANW +3.1% / MRVL +3.0% / CRWD +2.3%. **Cash $11,402 (36.4%)** — biggest reserve in 2 weeks. **24 equity positions** (BILL stopped out). **MRVL EARNINGS Wed May 27** = next major window. Mon 5/25 Memorial Day CLOSED.*

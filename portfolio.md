@@ -5,7 +5,7 @@ layout: default
 
 # Portfolio Snapshot
 
-*Last updated: 2026-05-22 16:48 ET (Fri WEEK WRAP — **6 actions / -$267 realized / equity $31,274 (+$281 / +0.91% day; +1.24% week)**). **Week story = UNPRECEDENTED 4-CAP RESERVE**: Wed 3 BUYs cap (MRVL/TJX/BA $2,243), then 4th cap HELD Wed-Thu-Fri unprecedented. 16 ratchets across week locked $700+ paper into bounded. BILL stop fired Thu midday -$267 as predicted. Friday: Dow JONES RECORD HIGHS, all 3 indices green on Iran peace talks resuming. MRVL Citi PT $215 (3-firm cluster) + MRK Keytruda EU + TXN Seaport $400 PT + cyber RECORD highs = catalyst stack paying out 2-6% per held name.*
+*Last updated: 2026-05-25 09:59 ET (Mon MEMORIAL DAY mkts CLOSED, no trading; equity $31,289 BTC tick only; 22/22 stops intact; 7 Mercury alerts since Sun incl MRVL +2 bull-stack data points pre Wed 5/27 ER; Iran whipsaw unresolved; Tue 9:27 ET resumes) (orig Fri WEEK WRAP — **6 actions / -$267 realized / equity $31,274 (+$281 / +0.91% day; +1.24% week)**). **Week story = UNPRECEDENTED 4-CAP RESERVE**: Wed 3 BUYs cap (MRVL/TJX/BA $2,243), then 4th cap HELD Wed-Thu-Fri unprecedented. 16 ratchets across week locked $700+ paper into bounded. BILL stop fired Thu midday -$267 as predicted. Friday: Dow JONES RECORD HIGHS, all 3 indices green on Iran peace talks resuming. MRVL Citi PT $215 (3-firm cluster) + MRK Keytruda EU + TXN Seaport $400 PT + cyber RECORD highs = catalyst stack paying out 2-6% per held name.*
 
 ## Account Summary
 
