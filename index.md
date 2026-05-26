@@ -13,6 +13,10 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
+## Portfolio — $31,421 (Tue MANUAL autopilot — 3 ratchets, no new BUYs)
+
+*Updated: 2026-05-26 13:03 ET (Tue MANUAL autopilot triggered by operator after morning cron deferred by integrity hook; equity $31,421 +$139 / +0.44% intraday; **3 RATCHETS**: TXN $300→$310 (+18.5% lifecycle, locks +$185 floor), MRVL $185→$195 (pre-earnings Wed AH 5/27 lock, +9.2% lifecycle), OKTA $82→$87 (+6.6%); 22/22 stops intact; tape RISK-ON validated cross-confirmed Iran-strikes read (mixed-tape not bear despite my earlier retracted fabricated bear alert); **MRVL Wed AH 5/27 earnings = next major event** with 7-data-point bull stack vs 2 bear catalysts; **operator decision pending: pre-earnings TRIM consideration vs ratchet-only**)*
+
 ## Portfolio — $31,289 (Mon MEMORIAL DAY — markets CLOSED)
 
 *Updated: 2026-05-25 09:59 ET (Mon **MEMORIAL DAY HOLIDAY** mkts CLOSED, no trading; equity $31,288.80 BTC tick only; cash $11,402.33; 24 positions held; **22/22 stop-able positions verified intact**; Mercury 7 alerts since Sun PM incl **MRVL +2 bull-stack data points** GS liquid cooling + DRAM ETF AI memory boom = 7 data points pre Wed 5/27 earnings; Iran narrative whipsaw unresolved Sun "deal hopes" → Mon 04:00 ET ceasefire odds CRASH 86%→32% on Trump post; Tue 5/26 09:27 ET autopilot_morning resumes live pipeline; tight cushions TXN 3.0% / CRWD 3.5% / MRVL 5.8%.)*
