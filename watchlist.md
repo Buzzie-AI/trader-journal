@@ -1,4 +1,58 @@
-# Watchlist — Updated 2026-05-25 16:48 ET (Mon MEMORIAL DAY EOD — mkts closed, equity $31,289 unchanged from Fri)
+# Watchlist — Updated 2026-05-26 17:17 ET (Tue EOD — real equity ~$31,365 +$83 / +0.27%, snapshot-verified, 3 RATCHETS executed)
+
+## Tue 5/26 EOD Snapshot
+
+| Position | Close | Day % | Lifecycle | Stop | Cushion | Notes |
+|----------|-------|-------|-----------|------|---------|-------|
+| **MRVL** 🚀🔧 | $208.22 | +6.1% | +10.1% | **$195** (ratched today $185→$195) | 6.4% | **Pre-ER Wed AH 5/27** — 12-data-point bull stack (HSBC Buy $300, Cantor/Susq, AMZN Trainium, MSFT Maia, GS liquid cooling, DRAM ETF, MU +14%) vs 1 counter (MS $172) |
+| **TXN** 🚀🔧 | $324.77 | +5.1% | +19.0% | **$310** (ratched today $300→$310) | 4.5% | Chip cluster + Iran de-escalation; locks +$185 floor |
+| **GE** | $313.54 | +3.5% | +9.6% | $263 | 16.1% | Defense/industrial momentum |
+| **NUE** | $240.29 | +3.6% | +7.8% | $210 | 12.6% | Steel rally |
+| **OKTA** 🔧 | $93.82 | +1.8% | +5.0% | **$87** (ratched today $82→$87) | 7.3% | Cyber sleeve; BTIG $105 PT durable |
+| **CRWD** ⚠️ | $671.56 | +1.2% | +10.2% | $640 | 4.7% | BTIG $764 PT; ZS sell-the-news contagion risk Wed open |
+| **ZS** ⚠️ | $184.31 | +1.1% | +1.9% | $172 | 6.7% | **Q3 BEAT + FY26 raise + Q4 EPS guide above (sales mid-pt below)**; AH bid $177.46 ≈ 3.2% cushion if gap |
+| **BLK** | $1,077.40 | +0.4% | +1.8% | $990 | 8.1% | SpaceX SPCX continuing |
+| **TJX** | $158.97 | +0.4% | -0.02% | $146 | 8.2% | ROST validation peer |
+| **D** | $67.25 | -0.6% | -2.3% | $63 | 6.3% | Utility |
+| **DXCM** | $70.78 | -1.8% | +9.1% | $66 | 6.8% | Stolen G7 sensor FDA investigation — watch |
+| **NFLX** | $87.64 | -1.1% | -3.8% | $84 | 4.2% | Lifecycle red, tight |
+| **CCI** | $90.64 | -0.9% | +7.5% | $84.31 (breakeven) | 7.0% | REIT |
+| **SYY** | $75.32 | -1.3% | +2.9% | $72 | 4.4% | Food service |
+| **BSX** | $57.64 | -0.2% | +4.5% | $51 | 11.5% | Medtech |
+| **CSCO** | $118.36 | -1.7% | +0.9% | $108 | 8.8% | HSBC PT-doubling not yet pricing in |
+| **MRK** | $119.70 | -2.2% | +6.4% | $115 | 3.9% | Pharma profit-taking; LLY M&A indirect lift |
+| **CVS** 🏆 | $90.80 | -2.6% | +19.7% | $87 | 4.2% | Defensive, biggest lifecycle gainer non-UNH |
+| **MSFT** | $415.07 | -0.8% | -0.1% | $394.09 | 5.1% | Copilot 25M forecast; AI cost catch counter |
+| **PANW** | $256.80 | -1.5% | +5.6% | $245 | 4.6% | BTIG PT $268 but afternoon sell-off |
+| **BA** 🔄 | $218.70 | -0.1% | -0.8% | $202 | 7.6% | Cleared $153M fraud trial (week-old) |
+| **UNH** 🏆 | $376.75 | -2.9% | +29.9% | n/a (frac) | n/a | Biggest lifecycle winner |
+| **BTC** | $76,371.70 | -0.3% | +7.8% | n/a | n/a | Tiny micro position |
+| **737CVR019** | n/a | n/a | n/a | n/a | n/a | INTC merger CVR |
+
+**Real equity:** **~$31,365** EOD (display $31,273 understated by ZS thin-AH-stub on get_all_positions)
+**Cash:** $11,402.33 (36.4%)
+**Day P&L:** +$83 / +0.27% intraday
+**Realized:** $0 (3 ratchets are stop replacements, not realized trades)
+
+---
+
+## Tue 5/26 Activity (3 RATCHETS, 0 BUYs, 0 SELLs)
+
+| Time | Position | Action | Order ID | Detail |
+|------|----------|--------|----------|--------|
+| 13:02 ET | TXN | Stop $300→$310 | `8286af39` | Locks +$185 floor on +19% lifecycle |
+| 13:02 ET | MRVL | Stop $185→$195 | `19cd7d4c` | Pre-ER Wed AH lock, +$29 floor |
+| 13:02 ET | OKTA | Stop $82→$87 | `d8958829` | Cyber sleeve momentum capture |
+
+## Wed 5/27 Watch (operator decisions)
+
+1. **MRVL pre-ER Wed AH 5/27** — 12-data-point bull stack vs 1 counter (MS Equal-Weight $172). Options: (A) ratchet $195→$200, (B) 25% Harvest trim, (C) hold. My read: C (let it ride).
+2. **ZS** — $172 stop, AH bid $177.46 (3.2% cushion if gap-down). Hold mechanical.
+3. **CRWD** — $640 stop, 4.7% close cushion. AH trading lower on ZS contagion. Hold mechanical.
+4. **PANW** — $245 stop, 4.6% close cushion. -1.5% intraday. Hold mechanical.
+5. **DXCM** — $66 stop, 6.8% cushion. Watch FDA stolen-sensor narrative spread.
+
+---
 
 ## Memorial Day Skip — No trading possible
 - US markets closed for Memorial Day

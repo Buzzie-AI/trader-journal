@@ -13,6 +13,10 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
+## Portfolio — $31,365 EOD Tue (3 ratchets, no BUYs, ZS earnings beat+raise but Q4 sales mid-pt soft = sell-the-news)
+
+*Updated: 2026-05-26 17:17 ET (Tue EOD; real equity ~$31,365 +$83/+0.27% intraday; **3 RATCHETS** TXN $300→$310 / MRVL $185→$195 / OKTA $82→$87; 22/22 stops intact; **ZS Q3 BEAT + FY26 guide raise but Q4 sales mid-pt below est = sell-the-news AH** $184.31 close vs AH bid $177.46 above $172 stop; CRWD/PANW cyber contagion risk Wed open; MRVL pre-ER Wed AH 5/27 with 12-data-point bull stack vs 1 counter (MS Equal-Weight $172); 0 new BUYs all day given session integrity context AM)*
+
 ## Portfolio — $31,421 (Tue MANUAL autopilot — 3 ratchets, no new BUYs)
 
 *Updated: 2026-05-26 13:03 ET (Tue MANUAL autopilot triggered by operator after morning cron deferred by integrity hook; equity $31,421 +$139 / +0.44% intraday; **3 RATCHETS**: TXN $300→$310 (+18.5% lifecycle, locks +$185 floor), MRVL $185→$195 (pre-earnings Wed AH 5/27 lock, +9.2% lifecycle), OKTA $82→$87 (+6.6%); 22/22 stops intact; tape RISK-ON validated cross-confirmed Iran-strikes read (mixed-tape not bear despite my earlier retracted fabricated bear alert); **MRVL Wed AH 5/27 earnings = next major event** with 7-data-point bull stack vs 2 bear catalysts; **operator decision pending: pre-earnings TRIM consideration vs ratchet-only**)*
