@@ -1,4 +1,80 @@
-# Watchlist — Updated 2026-05-26 17:17 ET (Tue EOD — real equity ~$31,365 +$83 / +0.27%, snapshot-verified, 3 RATCHETS executed)
+# Watchlist — Updated 2026-05-27 16:48 ET (Wed EOD — equity $31,208 -$184 / -0.59% day, **4 STOPS FIRED**, MRVL Harvest pre-ER trim, lost ZS/CRWD/PANW/BSX)
+
+## Wed 5/27 EOD — 4 Stops + 1 Trim
+
+| Time | Position | Action | Realized |
+|------|----------|--------|----------|
+| 09:30 | ZS 3 sh | Stop $172→$136.64 SLIPPAGE | **-$132.57** |
+| 09:30 | CRWD 1 sh | Stop $640→$637.36 | +$27.88 |
+| 09:30 | PANW 1 sh | Stop $245→$243.67 | +$0.46 |
+| 09:48 | **BSX 5 sh** (MISSED in AM audit) | Stop $51→$51 clean | **-$20.72** |
+| 12:18 | MRVL 1 sh | Harvest pre-ER trim limit $199→$200.18 | +$11.07 |
+| **NET** | | | **-$113.88** |
+
+## Wed MRVL Print (HELD, 4 sh remaining)
+
+| Metric | Value |
+|--------|-------|
+| Q1 EPS | $0.80 vs $0.79 (+1.3% beat) |
+| Q1 Sales | $2.418B vs $2.404B (+0.6% beat) |
+| Q2 ADJ EPS guide | $0.93 mid vs $0.90 (+3% ABOVE) ✅ |
+| Q2 Sales guide | $2.7B mid vs $2.599B (+3.9% ABOVE) ✅ |
+| AH close | **$211.96 (+6.7% from regular close $198.69)** |
+| Unrealized | +$91.40 (4 sh × $22.85/sh) |
+| Floor | $195 stop = +$23.56 minimum |
+| Combined | trim +$11 + unrealized +$91 = **+$102.47 total** |
+
+## Current Portfolio Snapshot (20 equity + frac + crypto + CVR)
+
+| Position | EOD | Day | Lifecycle | Stop | Cushion |
+|----------|-----|-----|-----------|------|---------|
+| **MRVL** 🚀 | $208.35 AH | +4.7% | +10.2% | $195 | 6.4% (pre-ratchet candidate $205) |
+| **TXN** | $317.53 | -2.2% | +16.4% | $310 | 2.4% (TIGHT) |
+| **CSCO** | $119.69 | +1.2% | +2.0% | $108 | 9.8% |
+| **MSFT** | $412.71 | -0.8% | -0.7% | $394.09 | 4.7% |
+| **MRK** | $120.27 | +0.5% | +6.9% | $115 | 4.4% |
+| **CVS** | $92.06 | +1.4% | +21.4% | $87 | 5.5% |
+| **DXCM** | $70.25 | -2.5% | +8.3% | $66 | 6.1% |
+| **GE** | $317.35 | +0.9% | +11.0% | $263 | 17.1% |
+| **NUE** | $246.51 | +2.6% | +10.5% | $210 | 14.8% |
+| **OKTA** | $89.43 | -4.7% | +0.1% | $87 | 2.8% (LAST CYBER) |
+| **UNH** 🏆 | $384.15 | +1.9% | +32.4% | n/a (frac) | n/a |
+| **CCI** | $90.86 | +0.2% | +7.8% | $84.31 | 7.2% |
+| **BLK** | $1,069.97 | -0.7% | +1.1% | $990 | 7.5% |
+| **BA** | $224.44 | +2.5% | +1.9% | $202 | 10.0% |
+| **TJX** | $156.97 | -1.3% | -1.3% | $146 | 7.0% |
+| **NFLX** | $87.32 | -0.4% | -4.2% | $84 | 3.8% (TIGHT lifecycle red) |
+| **SYY** | $75.25 | -0.1% | +2.8% | $72 | 4.3% |
+| **D** | $67.22 | -0.1% | -2.3% | $63 | 6.3% |
+| **BTC** | $76,371 | n/a | +7.8% | n/a | n/a (tiny) |
+| **737CVR019** | n/a | n/a | n/a | n/a | n/a |
+
+**Equity:** **$31,208 close** ($31,221 incl MRVL AH +$13)
+**Cash:** $13,148 (42.1%)
+**Day P&L:** -$184 / -0.59%
+**Realized:** -$113.88
+
+## Lost Today (4 positions exited via stops)
+- **ZS** entry $180.83 exit $136.64 = **-$132.57** (post-earnings cascade)
+- **CRWD** entry $609.48 exit $637.36 = +$27.88 (cyber contagion)
+- **PANW** entry $243.21 exit $243.67 = +$0.46 (cyber contagion)
+- **BSX** entry $55.14 exit $51 = -$20.72 (catalyst unknown, -12% intraday — investigate Thu)
+
+## Thu 5/28 09:30 ET Watch
+
+1. **MRVL** — likely opens near AH $208-212; ratchet $195→$205 candidate if open holds
+2. **TXN** — $310 stop tight cushion 2.4%; chip cluster watch
+3. **OKTA** — $87 stop cushion 2.8% only; last cyber sleeve member; ZS contagion lingering
+4. **NFLX** — $84 stop cushion 3.8%; lifecycle red
+5. **BSX investigation** — what drove -12% intraday Wed? Search news for BSX-specific catalyst
+6. **Sell-the-news pattern** continues (today: ZS/SNPS/CRM all dropped despite Q1 beats); MRVL outlier validates well-positioned beats can still rally
+
+## Memory Rules Added Today (3 new this session)
+1. Mercury cross-confirm rule (Mon 5/26)
+2. Never silent on tool block (Mon 5/26)
+3. Post-earnings stop slippage (Wed 5/27 AM)
+
+---
 
 ## Tue 5/26 EOD Snapshot
 
