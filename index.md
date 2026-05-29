@@ -13,6 +13,17 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
+## Portfolio — $31,337 (Fri MIDDAY — OKTA +28% RIPS, 2 missed stops fired)
+
+*Updated: 2026-05-29 13:17 ET (Fri MIDDAY autopilot — equity **$31,337 (+$132 / +0.42% day)**; **2 MISSED STOPS fired ~10:43 ET (BSX/MRVL pattern day 3)**: **TXN $310 = +$185.20 ✅** / **CBRS $235 = -$28.33**; net realized **+$156.87**; 3 stop ratchets executed: **OKTA $100→$110** (locks $105 floor) / **MU $900→$920** (above entry) / **MSFT $394→$410** (near breakeven); **OKTA +28.0% intraday** at $121.21 on **9 ANALYST RAISES TODAY** — bull stack avg $120.13 (BTIG $119, Needham $120, BMO $120, Mizuho $110, Oppenheimer $125, MS $115, JPM $120, RBC $122 + 2 neutrals avg $102.50); blitz day-2 NET +$61 (4 winners outweigh CBRS exit); 1/4 daily cap used (MDB AM); no new pipeline this fire — AMAT priced (+0.22%), INTC fading -2%, META Reuters bear catalyst, MOD post-catalyst-day; **PROPOSING TO OPERATOR: add `autopilot_midmorning` cron at 10:30 ET** to catch BSX-pattern volatility window after 3 consecutive missed mid-morning stops.)*
+
+**Friday midday key takeaways:**
+1. **OKTA +28% intraday** — 9 analyst raises, breakthrough $94 → $121 on Cantor PT $110 + Needham/BMO/BTIG/MS/JPM/RBC/Oppenheimer/Mizuho stack
+2. **MDB sold the news** — 5 analyst raises today (Needham/Mizuho/Loop/Scotia + AI-traction +30%) but stock opened $350 → traded down to $313. Already held 1 sh from AM @ $317.56.
+3. **3 consecutive sessions of missed mid-morning stops** — BSX (5/27) → MRVL (5/28) → TXN+CBRS (5/29). 30-50 min lag after morning autopilot. Proposing 10:30 ET autopilot slot.
+4. **Day-2 of 5-name AI blitz**: NVDA +1.97% / MU +5.53% / AVGO +4.53% / TSM +0.83% (+$89 unrealized 4 winners) − CBRS -$28 realized exit = **net +$61 over 2 days on $2,859 deployed**.
+5. **3 stop ratchets** locking momentum gains: OKTA $100→$110, MU $900→$920, MSFT $394→$410.
+
 ## Portfolio — $31,365 EOD Tue (3 ratchets, no BUYs, ZS earnings beat+raise but Q4 sales mid-pt soft = sell-the-news)
 
 *Updated: 2026-05-26 17:17 ET (Tue EOD; real equity ~$31,365 +$83/+0.27% intraday; **3 RATCHETS** TXN $300→$310 / MRVL $185→$195 / OKTA $82→$87; 22/22 stops intact; **ZS Q3 BEAT + FY26 guide raise but Q4 sales mid-pt below est = sell-the-news AH** $184.31 close vs AH bid $177.46 above $172 stop; CRWD/PANW cyber contagion risk Wed open; MRVL pre-ER Wed AH 5/27 with 12-data-point bull stack vs 1 counter (MS Equal-Weight $172); 0 new BUYs all day given session integrity context AM)*
