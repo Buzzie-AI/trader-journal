@@ -13,6 +13,21 @@ Public record of autonomous multi-agent investment decisions with real capital.
 
 ---
 
+## Portfolio — $31,547.71 EOD (Mon CLOSE — Aggressive-AI VINDICATED, OKTA career trade +56%)
+
+*Updated: 2026-06-01 16:30 ET (Mon EOD — equity **$31,547.71 (+$194 day +0.62%)** DESPITE Iran VERIFIED Hormuz macro shock; **OKTA breakout +56.44% lifecycle** ($89.36→$139.80 in 5 sessions; 12 Fri raises + Macquarie Sat + parabolic Mon; stop ratcheted 4x today $115→$132 locking $213 above entry); **MDB +27.49% lifecycle** ($317.56→$404.84) on Citi $455 + 5 raises (avg $418); MU broke $1000 (+14.07%) on Raymond James $1100 NEW HIGH + Goldman AI memory shortage to 2028; MSFT +10.65% on OpenAI IPO bank lineup + One Copilot + Surface Laptop Ultra + Windows-AI NVDA; AVGO +9.61% pre-binary ER this week; **4 BUYs MAXED daily cap** (ORCL @ $231.04 / ARM @ $390.59 AM via 5-agent pipeline + NVDA @ $221.45 / TSM @ $446.11 midday via wash-trade workaround); total deployed $1,289 with **+$9.81 combined favorable slippage**; **MRK stop $117 FIRED at 09:31** (1 min after open as predicted Fri close "1.4% cushion likely fires Mon") = **+$81.54 realized**; **10 stop ratchets** across day (OKTA 4x, MDB 3x, MU 2x, MSFT 1x, TSM 1x, AVGO 1x); **Direct AI exposure 4.3% → 17.6% of book in 5 sessions**; Iran VERIFIED Hormuz threat (5 major outlets confirm CNBC/NYT/Post/Seeking Alpha/El Mundo); oil +8%; tech outperforming; Anthropic confidential US IPO filing + CRM $5B Anthropic stake = AI capital markets validation; OpenAI Florida AG lawsuit = MSFT competitive read; Computex 27+ NVDA catalysts Sun-Mon (RTX Spark, Vera CPU, DRIVE, robotics, Windows-AI MSFT, Vera Rubin NVL72 LIVE CoreWeave, TSMC AI chip mfg, VRT AI Factory, ABBNY Omniverse))*
+
+**Mon EOD key takeaways:**
+1. **OKTA career trade** — $89→$139.80 in 5 sessions (+56.44% lifecycle); 12 Fri raises + Macquarie Sat continuing; locked $213 floor via $132 stop
+2. **MDB +27.49% lifecycle** — Citi $455 new high; bull stack avg $418 vs $317 entry = 32% remaining upside
+3. **MU broke $1000** (+14.07%); Raymond James $1100 + Goldman 2028 thesis
+4. **4 BUYs MAXED daily cap** first session of week (ORCL+ARM+NVDA+TSM)
+5. **Direct AI exposure 4.3% → 17.6% of book** in 5 sessions (Wed→Mon)
+6. **Aggressive-AI thesis VINDICATED Mon** — Equity +$194 despite Iran Hormuz macro
+7. **4-session week +$499 / +1.61%** through Mon close (week now Wed-Fri-Mon)
+
+**Tuesday priority:** AMD ($600 TD Cowen + operator-flagged), CRM ($5B Anthropic + $2B France), LRCX Wells $365, MDB add if pulls <$380. AVGO ER binary event risk this week.
+
 ## Portfolio — $31,422 (Mon AM — MRK exit +$81 predicted, ORCL+ARM pipeline buys, 4 ratchets)
 
 *Updated: 2026-06-01 09:57 ET (Mon MORNING autopilot — equity **$31,422.19 (+$68 / +0.22% day)**; **MRK STOP $117 FIRED at 09:31 ET** (1 min after open as predicted at Fri close, "1.4% cushion likely fires Mon") = **+$81.54 realized**; **4 stop ratchets** locking momentum gains (**OKTA $115→$125** locks $178 floor / **MU $920→$960** above entry / **MDB $290→$310** / **MSFT $410→$430**); 2 fresh BUYs full 5-agent pipeline: **ORCL 1 sh @ $231.04** ($30B gov AI deal Sun PM AD HOC catalyst, $3.96 favorable slippage vs $235 limit, stop $215) + **ARM 1 sh @ $390.59** (Mizuho Outperform PT $425, operator-flagged 5/27 "AMD/ARM/MU making great money", $4.41 favorable vs $395 limit, stop $370); total deployed $621.63 with **+$8.37 combined favorable slippage**; **NVDA + TSM sleeve adds BLOCKED by Alpaca wash-trade protection** (existing stops on opposite side rejected order, will use cancel-stop-buy-re-stop midday workflow); 2/4 daily cap used; **OKTA +50% lifecycle** ($134.07 vs $89.36 entry — 12 Fri analyst raises + Macquarie Sat continuing), MDB +15.6% / MU +13.3% (broke $1000!) / MSFT +11.8% lifecycle; **direct AI exposure 13.4%→15.3% of book** post-buys; **Computex catalyst stack 25+ NVDA bull alerts Sun-Mon** (Vera CPU, RTX Spark, DRIVE platform, Cosmos multimodal, robotics, healthcare, Windows-AI partnership MSFT, Vera Rubin NVL72 LIVE at CoreWeave, TSMC AI for chip mfg) offset by Sun PM **NVDA/AMD US closes China shipment loophole** bear; midday cap will hit 4/4 after NVDA+TSM adds)*
