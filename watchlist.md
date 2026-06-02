@@ -1,11 +1,11 @@
-# Portfolio Watchlist — EOD 2026-06-01 (Mon CLOSE)
+# Portfolio Watchlist — EOD 2026-06-02 (Tue CLOSE)
 
-**Equity:** $31,547.71 (+$194 day, +0.62%)
-**Cash:** $13,352.58 (42.3%)
+**Equity:** $31,552.97 (essentially FLAT day +$3.40 +0.01%)
+**Cash:** $13,108.69 (41.5%)
 **Position count:** 23 equity + BTCUSD + CVR = 25 total
-**Today's realized:** +$81.54 (MRK predicted stop fire)
-**Today's BUYs:** 4 — MAXED daily cap (ORCL+ARM AM, NVDA+TSM midday adds)
-**Stop ratchets today:** 10 (OKTA 4x, MDB 3x, MU 2x, MSFT 1x, AVGO 1x, TSM 1x)
+**Today's realized:** +$203.45 (OKTA stop fire +45.5% LC career trade)
+**Today's BUYs:** 4 — MAXED daily cap (CRM+SMCI+PANW+LRCX AM)
+**Stop ratchets today:** 6 (AVGO 2x AM+midday, MU 2x AM+EOD, PANW EOD, LRCX EOD, SMCI EOD)
 
 ---
 
@@ -13,124 +13,133 @@
 
 | Ticker | Qty | Entry | Close | Day % | Lifecycle | Stop | Cushion | Notes |
 |--------|-----|-------|-------|-------|-----------|------|---------|-------|
-| **OKTA** 🚀🚀🚀 | 5 | $89.36 | $139.80 | +13.4% | **+56.44%** | **$132 ↑↑↑↑** | 5.6% | 12 raises Fri + Macquarie Sat continuing; locks $213 above entry |
-| **UNH** 🏆 | 0.69 | $290.00 | $379.02 | -0.34% | +30.70% | — | n/a | All-time win |
-| **MDB** 🚀🚀 | 1 | $317.56 | $404.84 | +20.65% | **+27.49%** | **$360 ↑↑↑** | 11.1% | Citi $455 + 5 raises avg $418 |
-| **CVS** 🏆 | 27 | $75.83 | $90.62 | -0.40% | +19.51% | $87 | 4.0% | Eroding |
-| **DXCM** | 4 | $64.85 | $74.78 | +1.41% | +15.31% | $66 | 11.7% | Glucose tech |
-| **MU** 🚀 | 1 | $908.44 | $1036.28 | +6.72% | **+14.07%** | **$980 ↑** | 5.4% | RJ $1100 NEW HIGH + Goldman 2028 thesis |
-| **GE** | 2 | $285.99 | $324.50 | +0.23% | +13.47% | $263 | 19.0% | Industrial |
-| **NUE** | 9 | $223.00 | $251.44 | +0.58% | +12.75% | $210 | 16.5% | Steel |
-| **MSFT** | 1 | $415.53 | $459.80 | +2.12% | +10.65% | **$430 ↑** | 6.5% | OpenAI IPO + One Copilot + Surface Laptop Ultra |
-| **AVGO** | 1 | $420.33 | $460.71 | +3.12% | +9.61% | $410 | 11.0% | Quiet pre-ER this week |
-| **ORCL** 🆕 | 1 | $231.04 | $249.00 | NEW (+10.28% from prev) | +7.77% | $215 | 13.7% | $30B gov AI deal catalyst |
-| **CCI** | 20 | $84.31 | $90.22 | -1.40% | +7.01% | $84.31 | 6.6% | Breakeven |
-| **ARM** 🆕 | 1 | $390.59 | $410.00 | NEW (+16.05% from prev) | +4.97% | $370 | 9.8% | 3 PT raises Mon (Mizuho $425/Wells $410/Barclays $360) |
-| **NVDA** | 5 | $214.44 avg | $224.46 | +6.31% | +4.67% blended | $190 | 15.4% | Computex 27+ catalysts |
-| **CSCO** | 1 | $117.34 | $121.75 | +1.10% | +3.76% | $108 | 11.3% | Steady |
-| **TSM** | 2 | $431.27 avg | $436.64 | +4.35% | +1.25% blended | $410 | 6.1% | TSMC NVDA AI partnership |
-| **SYY** | 5 | $73.21 | $73.72 | -2.76% | +0.69% | $72 | 2.3% TIGHT | Iran consumer staple drag |
-| **BA** | 3 | $220.33 | $224.00 | -3.09% | +1.67% | $202 | 9.8% | Iran industrial drag |
-| **BLK** | 2 | $1,057.92 | $1,020.73 | -2.50% | -3.52% | $990 | 3.0% TIGHT | Iran financials pressure |
-| **D** | 4 | $68.82 | $64.61 | -3.48% | -6.12% | $62.33 | 3.5% TIGHT | Utility drift |
-| **TJX** | 4 | $159.00 | $152.75 | -1.29% | -3.93% | $146 | 4.4% | Soft consumer |
-| **NFLX** | 5 | $91.12 | $85.75 | -0.31% | -5.89% | $84 | 2.0% TIGHT | Drift |
-| **BTCUSD** | 0.0034 | $70,867 | $71,610 | -2.1% | +1.0% | n/a | n/a | Frozen |
-| **737CVR019** | 4.06 | $0 | n/a | — | — | n/a | n/a | CVR |
+| **PANW** 🎯🎯🎯 | 1 | $292.27 | $328.16 | **+9.21%** | **+12.3%** | **$310 ↑↑** | 5.5% | TRIPLE-BEAT ER (Q3+Q4 guide+FY26 raise+FY28 40%FCF) |
+| UNH 🏆 | 0.69 | $290 | $377.61 | -0.59% | +30.2% | — | n/a | All-time win |
+| MDB 🚀🚀 | 1 | $317.56 | $399 | -1.21% | +25.6% | $360 | 9.8% | Cooling from $404 Mon high |
+| CVS | 27 | $75.83 | $89.50 | -1.24% | +18.0% | $87 | 2.8% TIGHT | Eroding |
+| **MU** 🚀 | 1 | $908.44 | $1066 | +2.95% | **+17.3%** | **$1015 ↑** | 4.8% | Bull stack continues; single-analyst $1000 downgrade article filtered |
+| **NUE** | 9 | $223 | $258.46 | +2.77% | +15.9% | $210 | 18.8% | Holding despite Trump tariff CUT on imported metals |
+| **AVGO** | 1 | $420.33 | $484.25 | +5.28% | +15.2% | $445 (midday pre-ER) | 8.1% | **Q2 ER TOMORROW Jun 3 post-mkt** binary |
+| DXCM | 4 | $64.85 | $73.45 | -1.90% | +13.3% | $66 | 10.1% | Glucose tech |
+| GE | 2 | $285.99 | $318.00 | -2.03% | +11.2% | $263 | 17.3% | Industrial |
+| CSCO | 1 | $117.34 | $127.60 | +5.17% | +8.7% | $108 | 15.3% | Trump AI Security Order beneficiary |
+| CCI | 20 | $84.31 | $89.92 | -1.22% | +6.7% | $84.31 | 6.2% | Breakeven |
+| **MSFT** | 1 | $415.53 | $442 | **-4.02%** | +6.4% | $430 | 2.7% TIGHT | Build 2026 mega-stack BUT Maia 200 capex paradox -4% day |
+| ORCL | 1 | $231.04 | $244.90 | -1.31% | +6.0% | $215 | 12.2% | Multi-MW AI Factory ramp |
+| NVDA | 5 | $214.44 | $222.91 | -0.65% | +3.9% | $190 | 14.7% | Computex catalysts continuing; humanoid robotics TAM |
+| TSM | 2 | $431.27 | $448.07 | +2.86% | +3.9% | $410 | 8.5% | Steady AI semi |
+| ARM | 1 | $390.59 | $403.16 | -1.39% | +3.2% | $370 | 8.2% | Mild cool from Mon peak |
+| **SMCI** 🆕 | 10 | $49.16 | $50.06 | +6.78% | +1.8% | **$46 ↑** | 8.1% | Day-1 fresh BUY rallied |
+| **CRM** 🆕 | 1 | $198.91 | $202.15 | +1.63% | +1.6% | $185 | 8.5% | Day-1 fresh BUY mild green |
+| SYY | 5 | $73.21 | $74.10 | +0.52% | +1.2% | $72 | 2.8% TIGHT | Iran consumer drag |
+| **LRCX** 🆕 | 1 | $331.36 | $334.34 | +5.43% | +0.9% | **$320 ↑** | 4.3% | Day-1 BUY +4.7% on Wells $365 + bull analyst PT |
+| BA | 3 | $220.33 | $217.67 | -2.96% | -1.2% | $202 | 7.2% | Iran industrial drag |
+| TJX | 4 | $159 | $153.69 | +0.62% | -3.3% | $146 | 5.0% | Soft consumer |
+| BLK | 2 | $1057.92 | $1018.96 | -0.17% | -3.7% | $990 | 2.8% TIGHT | Iran financials |
+| D | 4 | $68.82 | $66.47 | +2.88% | -3.4% | $62.33 | 6.2% | Utility recovery |
+| BTCUSD | 0.0034 | $70,867 | $67,013 | -5.05% | -5.4% | n/a | n/a | Frozen no-crypto |
+| 737CVR019 | 4.06 | $0 | n/a | — | — | — | n/a | CVR |
 
-**Tight cushion stops Tuesday open:**
-- **NFLX $84** — 2.0% (likely fires if continues drift)
-- **SYY $72** — 2.3%
-- **BLK $990** — 3.0% (Iran pressure)
-- **D $62.33** — 3.5% (utility drift)
-- **CVS $87** — 4.0%
+**Tight cushion stops (≤3%) into Wed open:**
+- MSFT $430 — 2.7% (Maia 200 capex bear continues — watch)
+- CVS $87 — 2.8% (continued erosion)
+- BLK $990 — 2.8% (Iran)
+- SYY $72 — 2.8%
 
 ---
 
-## Today's Trade Activity (Mon 6/1)
+## Today's Trade Activity (Tue 6/2)
 
-### BUYs (4 — MAXED DAILY CAP)
-| Time | Ticker | Qty | Filled | Limit | Slippage |
-|------|--------|-----|--------|-------|----------|
-| 09:56 | ORCL | 1 | $231.04 | $235 | $3.96 favorable |
-| 09:56 | ARM | 1 | $390.59 | $395 | $4.41 favorable |
-| 13:18 | NVDA add | 1 | $221.45 | $222 | $0.55 favorable |
-| 13:18 | TSM add | 1 | $446.11 | $447 | $0.89 favorable |
-| **TOTAL** | | | **$1,289.19** | | **+$9.81 fav** |
+### BUYs (4 — MAXED)
+| Time | Ticker | Qty | Filled | Order ID | Cost |
+|------|--------|-----|--------|----------|------|
+| 09:55 | CRM | 1 | $198.914 | 4e8bf44d... | $198.91 |
+| 09:55 | SMCI | 10 | $49.155 | 27faef3f... | $491.55 |
+| 09:55 | PANW | 1 | $292.2725 | 9db65c35... | $292.27 |
+| 09:55 | LRCX | 1 | $331.36 | 7b9c8274... | $331.36 |
+| **TOTAL** | | | | | **$1,314.09** (+$13.96 favorable slippage) |
 
 ### SELLs (1 — stop fire)
-| Time | Ticker | Qty | Filled | Realized |
-|------|--------|-----|--------|----------|
-| 09:31 | MRK | 18 | $117.00 (clean) | **+$81.54** ✅ |
+| Time | Ticker | Qty | Filled | Order ID | Realized |
+|------|--------|-----|--------|----------|----------|
+| 09:30 | OKTA | 5 | $130.05 | 36b4cfe2... | **+$203.45** ✅ |
 
-### Stop Ratchets (10)
+### Stop Ratchets (6)
 | Time | Ticker | Path |
 |------|--------|------|
-| 09:56 AM | OKTA | $115 → $125 → $130 → **$132** (4x today) |
-| 09:56 AM | MU | $920 → $960 → **$980** |
-| 09:56 AM | MDB | $290 → $310 → $340 → **$360** (3x today) |
-| 09:56 AM | MSFT | $410 → **$430** |
-| 13:18 | TSM | $390 → **$410** (qty 2) |
+| 09:55 AM | MU | $980 → $1000 (AM bull) |
+| 09:55 AM | AVGO | $410 → $430 (AM bull) |
+| 13:18 ET | AVGO | $430 → **$445** (pre-ER tighten) |
+| 16:21 ET | PANW | $275 → **$310** (post-ER lock) |
+| 16:21 ET | MU | $1000 → **$1015** |
+| 16:21 ET | LRCX | $315 → **$320** |
+| 16:21 ET | SMCI | $44 → **$46** |
 
 ---
 
-## Mon 6/1 Day P&L
+## Tue 6/2 Day P&L
 
 | Metric | Value |
 |--------|-------|
-| Realized today | +$81.54 (MRK predicted) |
-| Capital deployed | $1,289.19 (4 BUYs) |
-| Combined favorable slippage | +$9.81 |
-| Day equity change | **+$194 (+0.62%)** |
+| Realized today | +$203.45 (OKTA career trade lock) |
+| Capital deployed | $1,314.09 (4 BUYs) |
+| Combined favorable slippage | +$13.96 |
+| Day equity change | **+$3.40 (+0.01% essentially FLAT)** |
 | Daily cap MAXED | **4/4 BUYs** |
-| Cash post-buys | $13,353 (42.3%) |
+| Cash post-buys | $13,108.69 (41.5%) |
 | Position count | 23 equity |
+| Best mover | PANW +9.21% (triple-beat ER) |
+| Worst mover | MSFT -4.02% (Maia 200 capex paradox) |
 
 ---
 
-## Tuesday 6/2 Watchlist Candidates
+## Wed 6/3 Watchlist Candidates
 
-**TOP PRIORITY (run full 5-agent pipeline):**
-1. **AMD** TD Cowen Buy PT $600; operator-flagged 5/27 ("AMD/ARM/MU making great money"); AI semis sleeve adjacent
-2. **CRM** $2B France AI investment + $5B Anthropic stake; aggressive enterprise AI agents
-3. **LRCX** Wells OW PT $365; AI semi-equipment sleeve adjacent
-4. **MDB add** — wait for pullback below $380 (currently $404.84 chase zone)
+**TOP PRIORITY (pipeline):**
+1. **AVGO Q2 ER post-mkt Wed evening** — binary. Don't trade INTO ER but monitor for trim/add Wed AM based on intraday positioning.
+2. **MSFT Maia 200 narrative resolution** — Wed open could test stop $430 if capex bear continues, or rebound if Build stack appreciation kicks in. Decide same-day.
+3. **PANW post-ER PT revisions** — JPM/Baird/Jefferies likely raise PTs Wed AM. Add candidate if pullback below $325.
 
 **SECONDARY (data point watch):**
-5. **OKTA pullback** — if pulls below $135, ratchet stop differently
-6. **INTC** — if breaks bearish action (Mon -6% despite multiple catalysts: HSBC PT $95, FT AI DC chip, SMCI Intel servers, Wells EW $110)
-7. **PANW** — Baird $300 + JPM $300 = bull stack; cyber covered by OKTA
-8. **SNPS** — divergence pattern Stifel $600
-9. **AVGO ER this week** — binary event; pre-ER trim consideration
+4. **NUE tariff impact** — Wed action depends on overnight steel sector reaction.
+5. **CSCO Trump AI Security Order** — possible gov-AI infra bull continuation.
+6. **AVGO pre-ER trim consideration Wed AM** — stop $445 protects; qty=1 limits trim options.
 
 **Day cap resets:** 4 trades / $5K spend.
 
 ---
 
-## Mon Equity Trajectory (4 days)
+## Tue Equity Trajectory (5 days)
 
 | Date | Close | Day $ |
 |------|-------|-------|
 | Wed 5/27 | $31,155.80 | +$107 |
-| Thu 5/28 | $31,204.52 | +$48.72 |
+| Thu 5/28 | $31,204.52 | +$49 |
 | Fri 5/29 | $31,353.95 | +$149 |
-| **Mon 6/1** | **$31,547.71** | **+$193.76** |
-| **4-session total** | | **+$499** / **+1.61%** |
+| Mon 6/1 | $31,547.71 | +$194 |
+| **Tue 6/2** | **$31,552.97** | **+$5.26** |
+| **5-session total** | | **+$397** / **+1.28%** |
 
 ---
 
-## Key Themes Mon EOD
+## Key Themes Tue EOD
 
-1. **Aggressive-AI thesis VINDICATED Mon** — Equity +$194 day DESPITE Iran VERIFIED Hormuz macro shock. AI sleeve absorbing macro vol.
+1. **PANW TRIPLE-BEAT ER** — Same-day BUY vindicated. Q3 print + Q4 guide BEAT + FY26 RAISE + FY28 40% FCF target. +9.21% AH to $328.16. Cyber-sleeve OKTA replacement THESIS CONFIRMED.
 
-2. **OKTA career trade** — $89→$139.80 in 5 sessions = **+56.44% lifecycle**. 12 Fri raises + Macquarie Sat + parabolic Mon. Locked $213 floor.
+2. **OKTA career trade locked +45.5% LC** in 6 sessions. $203.45 realized morning. Career-trade quality.
 
-3. **MDB +27% lifecycle** — Citi $455 + 5 raises stack paying through.
+3. **MSFT Build 2026 MEGA-STACK (14 announcements)** — Aion + OpenAI Codex + Surface RTX Spark + Cobalt 200 + Jensen co-keynote + autonomous PC agent + Rayfin + HorizonDB + Project Solara + QCOM mobile + Web IQ + GitHub Copilot + **MAIA 200** + Discovery + Quantum + Mayo healthcare. **MAIA 200 capex paradox** = MSFT -4% day on vertical silicon shift narrative.
 
-4. **MU broke $1000** (+14.07%) on Raymond James $1100 NEW HIGH + Goldman AI memory shortage to 2028.
+4. **AI capex efficiency bear thesis emerging** — META downgrade + MSFT Maia 200 paradox + software sector selloff = triple-confirmation. Watch NVDA for momentum break.
 
-5. **Daily cap MAXED first session of week** — 4 BUYs deployed $1,289 with favorable slippage.
+5. **NVDA TAM expansion** — humanoid robotics vs TSLA Optimus + Computex stack continuing absorbing all bull catalyst flow.
 
-6. **Direct AI exposure: 4.3% → 17.6% of book** in 5 sessions.
+6. **Daily cap MAXED first 2 sessions of week** — 8 BUYs deployed across Mon-Tue with consistent favorable slippage.
 
-7. **Wash-trade workaround success** — Cancel-stop → buy → re-stop allows NVDA + TSM sleeve adds (Alpaca rejected initial parallel order).
+7. **AVGO Q2 ER TOMORROW post-mkt** — binary. Pre-ER stop $445 = 8.1% cushion. "Magnificent Seven" $500 PT framing + HSBC PT raise + "AI ASIC bar moving again" pre-ER bull stack.
+
+8. **Trump AI Security Order** identified CSCO + NVDA as government-AI-infra winners — policy tailwind.
+
+9. **Direct AI exposure 17% of book** — semi_ai sleeve well-loaded for AVGO ER + MSFT volatility period.
+
+10. **autopilot_close cron-miss** — fired ~57 min late at 4:50 ET; manual EOD recap at 4:25 ET captured all work; memory updated.
