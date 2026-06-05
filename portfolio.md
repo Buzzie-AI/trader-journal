@@ -1,71 +1,89 @@
-# Portfolio Snapshot — 2026-06-02 EOD CLOSE (Tue)
+# Portfolio Snapshot — 2026-06-05 09:53 ET (Fri MORNING post-autopilot)
 
-**Equity:** $31,556.06 (+$6.49 day +0.02% essentially FLAT)
-**Cash:** $13,108.69 (41.5%)
-**Position value:** $18,447.37
-**Position count:** 23 equity + BTCUSD + CVR = 25 total
-**Day realized:** +$203.45 (OKTA stop fire AM)
+**Equity:** $31,349.69 (-$108 / -0.34% from Thu close $31,458)
+**Cash:** $17,276.10 (55.1% after AVGO add)
+**Position value:** $14,073.59
+**Position count:** 20 equity + BTCUSD + CVR
+**Day realized:** $0 (no exits yet today)
+**Day trades used:** 1/4
 
-## Held Positions
+## Held Positions (post-morning autopilot)
 
-| Ticker | Qty | Entry | Close | Day % | LC % | Stop | Cushion |
-|--------|-----|-------|-------|-------|------|------|---------|
-| **PANW** 🎯🎯🎯 | 1 | $292.27 | $328.16 | **+9.21%** | +12.3% | **$310↑** | 5.5% |
-| UNH | 0.69 | $290 | $377.61 | -0.59% | +30.2% | — | n/a |
-| **MDB** 🚀 | 1 | $317.56 | $399 | -1.21% | +25.6% | $360 | 9.8% |
-| **CVS** | 27 | $75.83 | $89.50 | -1.24% | +18.0% | $87 | 2.8% TIGHT |
-| **MU** 🚀 | 1 | $908.44 | $1066 | +2.95% | **+17.3%** | **$1015↑** | 4.8% |
-| **NUE** | 9 | $223 | $258.46 | +2.77% | +15.9% | $210 | 18.8% |
-| **AVGO** | 1 | $420.33 | $484.25 | +5.28% | +15.2% | $445 | 8.1% |
-| DXCM | 4 | $64.85 | $73.45 | -1.90% | +13.3% | $66 | 10.1% |
-| GE | 2 | $285.99 | $318.00 | -2.03% | +11.2% | $263 | 17.3% |
-| CSCO | 1 | $117.34 | $127.60 | +5.17% | +8.7% | $108 | 15.3% |
-| CCI | 20 | $84.31 | $89.92 | -1.22% | +6.7% | $84.31 | 6.2% |
-| **MSFT** | 1 | $415.53 | $442 | **-4.02%** | +6.4% | $430 | 2.7% TIGHT |
-| ORCL | 1 | $231.04 | $244.90 | -1.31% | +6.0% | $215 | 12.2% |
-| NVDA | 5 | $214.44 | $222.91 | -0.65% | +3.9% | $190 | 14.7% |
-| TSM | 2 | $431.27 | $448.07 | +2.86% | +3.9% | $410 | 8.5% |
-| ARM | 1 | $390.59 | $403.16 | -1.39% | +3.2% | $370 | 8.2% |
-| SMCI 🆕 | 10 | $49.16 | $50.06 | +6.78% | +1.8% | **$46↑** | 8.1% |
-| CRM 🆕 | 1 | $198.91 | $202.15 | +1.63% | +1.6% | $185 | 8.5% |
-| SYY | 5 | $73.21 | $74.10 | +0.52% | +1.2% | $72 | 2.8% TIGHT |
-| LRCX 🆕 | 1 | $331.36 | $334.34 | +5.43% | +0.9% | **$320↑** | 4.3% |
-| BA | 3 | $220.33 | $217.67 | -2.96% | -1.2% | $202 | 7.2% |
-| TJX | 4 | $159 | $153.69 | +0.62% | -3.3% | $146 | 5.0% |
-| BLK | 2 | $1057.92 | $1018.96 | -0.17% | -3.7% | $990 | 2.8% TIGHT |
-| D | 4 | $68.82 | $66.47 | +2.88% | -3.4% | $62.33 | 6.2% |
-| BTCUSD | 0.0034 | $70,867 | $67,013 | -5.05% | -5.4% | n/a | frozen |
+| Ticker | Qty | Entry | Current | Day % | LC % | Stop | Cushion |
+|--------|-----|-------|---------|-------|------|------|---------|
+| UNH 🏆 | 0.69 | $290 | $397.54 | +0.3% | **+37.1%** | — | n/a |
+| CVS 🏆 | 27 | $75.83 | $95.74 | +1.0% | +26.3% | **$90↑** | 6.0% |
+| MDB 🚀 | 1 | $317.56 | $368.32 | -3.1% | +16.0% | $360 | 2.3% TIGHT |
+| NUE | 9 | $223 | $258.12 | -1.6% | +15.7% | **$230↑** | 10.9% |
+| DXCM | 4 | $64.85 | $74.44 | +2.5% | +14.8% | **$70↑** | 5.9% |
+| GE | 2 | $285.99 | $324.85 | -0.9% | +13.6% | **$290↑** | 10.7% |
+| CCI | 20 | $84.31 | $94.42 | +0.7% | +12.0% | **$87↑** | 7.9% |
+| CSCO | 1 | $117.34 | $125.24 | -3.7% | +6.7% | **$115↑** | 8.2% |
+| TJX | 4 | $159 | $160.63 | +1.3% | +1.0% | $146 | 9.1% |
+| SYY | 5 | $73.21 | $74.93 | +0.8% | +2.3% | $72 | 3.9% TIGHT |
+| **AVGO ⭐ DCA** | **2** | **$410.89 avg** | $401.44 | -3.7% | -2.3% | **$390 qty=2** | 2.9% TIGHT |
+| NVDA | 5 | $214.44 | $213.68 | -2.3% | -0.4% | $189.75 | 11.2% |
+| TSM | 2 | $431.27 | $429.56 | -3.4% | -0.4% | $410 | 4.6% |
+| BA | 3 | $220.33 | $216.87 | -0.3% | -1.6% | $202 | 6.8% |
+| ORCL | 1 | $231.04 | $222.67 | -5.8% | -3.6% | $215 | 3.4% TIGHT |
+| PANW | 1 | $278.81 | $273.61 | -2.0% | -1.9% | $260 | 4.9% |
+| CRM | 1 | $198.91 | $189.23 | +0.3% | -4.9% | $185 | 2.2% TIGHT |
+| D | 4 | $68.82 | $66.91 | +0.6% | -2.8% | $62.33 | 6.8% |
+| BTCUSD | 0.0034 | $70,867 | $61,101 | -3.5% | -13.8% | frozen | n/a |
 | 737CVR019 | 4.06 | $0 | n/a | — | — | — | n/a |
 
-## Today's Trade Activity (Tue 6/2)
+## Friday Morning Trade Activity
 
-### SELLs (1 — stop fire)
-| Time | Ticker | Qty | Filled | Realized |
-|------|--------|-----|--------|----------|
-| 09:30 | OKTA | 5 | $130.05 | +$203.45 ✅ |
-
-### BUYs (4 — MAXED 4/4)
+### BUYs (1 — AVGO DCA pipeline-discipline executed)
 | Time | Ticker | Qty | Filled | Cost |
 |------|--------|-----|--------|------|
-| AM | CRM | 1 | $198.91 | $198.91 |
-| AM | SMCI | 10 | $49.155 | $491.55 |
-| AM | PANW | 1 | $292.27 | $292.27 |
-| AM | LRCX | 1 | $331.36 | $331.36 |
-| **TOTAL** | | | | **$1,314.09** (+$13.96 favorable) |
+| 09:57 | AVGO | 1 | **$401.44** | $401.44 |
 
-### Stop Ratchets (6 total day)
-- AM: AVGO $410→$430, MU $980→$1000
-- Midday: AVGO $430→$445 (pre-ER)
-- EOD: PANW $275→$310, MU $1000→$1015, LRCX $315→$320, SMCI $44→$46
+### Stop Ratchets (6 — gains locked above BE)
+| Ticker | Old | New | Notes |
+|--------|-----|-----|-------|
+| DXCM | $66 | **$70** | +7.9% above $64.85 entry |
+| GE | $263 | **$290** | BE-lock (+$4 above entry) |
+| NUE | $210 | **$230** | +3.1% above entry |
+| CCI | $84.31 | **$87** | +3.2% above entry |
+| CVS | $87 | **$90** | +18.7% above entry |
+| CSCO | $108 | **$115** | locks +6% from current |
 
-## Tue Day P&L
+## Daily Caps Status
 
-| Metric | Value |
-|--------|-------|
-| Realized today | +$203.45 (OKTA stop +45.5% LC career) |
-| Day equity change | +$6.49 (+0.02% essentially flat) |
-| Daily cap | **MAXED 4/4 BUYs** |
-| Cash post-buys | $13,108.69 (41.5%) |
-| Best mover | PANW +9.21% (triple-beat ER) |
-| Worst mover | MSFT -4.02% (Maia 200 cap-ex paradox) |
+- **Trades:** 1/4 used
+- **Spend:** $401.44/$5,000 used
+- **Circuit breaker:** -0.34% (well above -8% halt)
+- **Cash reserve:** $17,276 (well above $2K min)
 
+## AI Semi Sleeve
+
+- **Members held:** NVDA + AVGO (2sh) + TSM
+- **Value:** $2,729.33 (9.9% of equity)
+- **Target:** 30% ($9,405)
+- **Headroom:** $6,676 (21.3% of equity room remaining)
+- **Regime:** HOT (multiple AI partnership catalysts last 24h: NVDA-PT Corp Vietnam, NVDA-SuperX, NVDA-IREN $3.7B, INTC-Hitachi+Foxconn, GOOGL $85B capex)
+- **Discipline:** per `feedback_use_sleeve_headroom` — deploy when conviction supports
+
+## TIGHT Cushion Watchlist (close monitor)
+
+- **CRM** $185 stop (2.2% cushion) — CRWD peer drag concern
+- **MDB** $360 stop (2.3% cushion)
+- **AVGO** $390 stop (2.9% cushion on add) — post-ER recovery thesis with bull stack
+- **ORCL** $215 stop (3.4% cushion)
+- **SYY** $72 stop (3.9% cushion)
+- **TSM** $410 stop (4.6% cushion)
+- **PANW** $260 stop (4.9% cushion)
+
+## Equity Trajectory
+
+| Date | Close | Day $ |
+|------|-------|-------|
+| Wed 5/27 | $31,155.80 | +$107 |
+| Thu 5/28 | $31,204.52 | +$49 |
+| Fri 5/29 | $31,353.95 | +$149 |
+| Mon 6/1 | $31,547.71 | +$194 |
+| Tue 6/2 | $31,552.97 | +$5 |
+| Wed 6/3 | $31,236.26 | -$317 |
+| Thu 6/4 | $31,458.09 | +$222 |
+| **Fri 6/5 AM** | **$31,349.69 intraday** | **-$108 (mid-morning)** |
