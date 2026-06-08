@@ -1,68 +1,76 @@
-# Portfolio Snapshot — 2026-06-05 16:23 ET (Fri CLOSE)
+# Portfolio Snapshot — 2026-06-08 09:55 ET (Mon MORNING post-autopilot)
 
-**Equity:** $31,172.56 (-$285.53 / -0.91% day)
-**Cash:** $18,404.37 (59.0%)
-**Position value:** $12,768.19
-**Position count:** 15 equity + BTCUSD + CVR (4 exits today: CRM/MDB/ORCL/AVGO)
-**Day realized:** **-$29.31 net** (MDB winner partially offsets CRM+ORCL+AVGO losses)
-**Day trades used:** 2/4 BUYs
+**Equity:** $31,244.98 (+$40 vs Fri close)
+**Cash:** $17,986 (57.6% after BUYs)
+**Position value:** $13,259
+**Position count:** 17 equity + BTCUSD + CVR (2 ADDs: NVDA mega + ORCL re-entry)
+**Day trades:** 2/4 used | **Spend:** $419/$5K
 
-## Held Positions (EOD Close)
+## Held Positions (Mon AM post-autopilot)
 
-| Ticker | Qty | Entry | Close | Day % | LC % | Stop | Cushion |
-|--------|-----|-------|-------|-------|------|------|---------|
-| UNH 🏆 | 0.69 | $290 | $396.82 | +0.1% | **+36.8%** | — | n/a |
-| CVS 🏆 | 27 | $75.83 | $95.93 | +1.2% | +26.5% | $90 | 6.2% |
-| NUE | 9 | $223 | $254.39 | -3.0% | +14.1% | $230 | 9.6% |
-| GE | 2 | $285.99 | $326.35 | -0.4% | +14.1% | $290 | 11.1% |
-| DXCM | 4 | $64.85 | $72.47 | -0.2% | +11.7% | $70 | 3.4% TIGHT |
-| CCI | 20 | $84.31 | $94.18 | +0.4% | +11.7% | $87 | 7.6% |
-| CSCO | 1 | $117.34 | $121.19 | -6.8% | +3.3% | $115 | 5.1% |
-| SYY | 5 | $73.21 | $75.74 | +1.9% | +3.5% | $72 | 4.9% |
-| TJX | 4 | $159 | $158.97 | +0.2% | flat | $146 | 8.2% |
-| **NVDA** ⭐ | **7** | **$212.13 avg** | $204.85 | -6.3% | -3.4% | $189.75 | 7.4% |
-| BA | 3 | $220.33 | $214.97 | -1.1% | -2.4% | $202 | 6.0% |
-| PANW | 1 | $278.81 | $269.70 | -3.4% | -3.3% | $260 | 3.6% TIGHT |
-| **TSM** ⚠️ | 2 | $431.27 | $413.25 | -7.1% | -4.2% | $410 | **0.8% EXTREME** |
-| D | 4 | $68.82 | $66.90 | +0.6% | -2.8% | $62.33 | 6.8% |
-| BTCUSD | 0.0034 | $70,867 | $60,955 | -3.8% | -14.0% | frozen | n/a |
-| 737CVR019 | 4.06 | $0 | n/a | — | — | — | n/a |
+| Ticker | Qty | Basis | Current | Stop | Cushion |
+|--------|-----|-------|---------|------|---------|
+| UNH 🏆 | 0.69 | $290 | $400.87 | — | n/a |
+| CVS 🏆 | 27 | $75.83 | $95.65 | $90 | 5.9% |
+| NUE | 9 | $223 | $253.88 | $230 | 9.4% |
+| GE 🆙 | 2 | $285.99 | $327.34 | **$300↑** | 8.4% |
+| DXCM 🆙 | 4 | $64.85 | $75.99 | **$73↑** | 3.9% |
+| CCI | 20 | $84.31 | $93.10 | $87 | 6.6% |
+| CSCO | 1 | $117.34 | $123.16 | $115 | 6.6% |
+| SYY | 5 | $73.21 | $76.46 | $72 | 5.9% |
+| TJX | 4 | $159 | $161.77 | $146 | 9.7% |
+| **NVDA** 🚀 | **8** | **$211.62 avg** | $208.27 | $189.75 | 8.9% |
+| TSM | 2 | $431.27 | $429.83 | $410 | 4.6% |
+| BA | 3 | $220.33 | $215.87 | $202 | 6.4% |
+| PANW | 1 | $278.81 | $271.50 | $260 | 4.2% |
+| **ORCL** 🚀 | **1** | **$210.56** | $211.82 | $200 | 5.6% |
+| D | 4 | $68.82 | $66.87 | $62.33 | 6.8% |
+| BTCUSD | 0.0034 | $70,867 | $63,587 | frozen | n/a |
+| 737CVR019 | 4.06 | $0 | n/a | — | n/a |
 
-## Fri 6/5 Trade Activity
-
-### SELLs (4 stop fires)
-| Time | Ticker | Stop | Fill | Realized |
-|------|--------|------|------|----------|
-| 12:05 | CRM | $185 | $184.99 | -$13.92 |
-| 12:16 | MDB | $360 | $359.99 | **+$42.43** ✅ |
-| 12:32 | ORCL | $215 | $215.00 | -$16.04 |
-| 14:26 | AVGO | $390 | **$390.00** ZERO slippage | -$41.78 |
-| **NET** | | | | **-$29.31** |
+## Mon AM Trade Activity
 
 ### BUYs (2 — pipeline-discipline PASS)
-| Time | Ticker | Qty | Fill | Cost | Catalyst |
-|------|--------|-----|------|------|----------|
-| 09:57 | AVGO | 1 | $401.44 | $401.44 | DCA add (later stopped at $390) |
-| 15:47 | NVDA | 2 | $206.35 | $412.69 | SpaceX-Google 110K GPU mega catalyst |
+| Time | Ticker | Qty | Fill | Cost |
+|------|--------|-----|------|------|
+| 09:55 | NVDA | 1 | $207.95 | $207.95 |
+| 09:55 | ORCL | 1 | $210.56 | $210.56 |
 
-### Stop Ratchets (6 — gains locked above BE)
-DXCM $66→$70, GE $263→$290, NUE $210→$230, CCI $84→$87, CVS $87→$90, CSCO $108→$115
+### Stop Ratchets (2 — gains locked)
+DXCM $70→$73 (+13%), GE $290→$300 (+5% above entry)
 
 ## AI Semi Sleeve
 
-- **Members held:** NVDA 7sh ($1,434) + TSM 2sh ($826) = **$2,260 = 7.3% fill**
-- **Target:** 30% ($9,352)
-- **Headroom:** $7,092 (22.7% of equity)
-- **AVGO exited** today via stop fire
-- **NVDA upsized** (5→7 sh on operator "everything on sale" + SpaceX-Google mega catalyst)
+- **Members:** NVDA 8sh ($1,666) + TSM 2sh ($860) = $2,526 = **8.1% fill**
+- **Target:** 30% ($9,373)
+- **Headroom:** $6,847 (21.9% available)
 
-## TIGHT Cushion Mon Watch
+## NVDA Bull Stack (UNPRECEDENTED 8 catalysts in 72h)
 
-- **TSM** $410 stop, **0.8% cushion EXTREME** — Mon gap risk top concern
-- **PANW** $260 stop, 3.6%
-- **DXCM** $70 stop, 3.4%
-- **SYY** $72 stop, 4.9%
-- **CSCO** $115 stop, 5.1%
+1. 5-Korean-chaebol AI expansion (SK Hynix + SK Telecom + Naver + LG + Hyundai)
+2. Vera CPU "hand delivered" to Anthropic/OpenAI/SpaceX/Oracle
+3. Computex RTX Spark PC chips launch
+4. SpaceX-Google 110K GPU $3.3B+ (SEC S-1)
+5. Kumo AI $400M strategic M&A
+6. Google + NVDA consider INTC backup foundry
+7. BofA reset PT after CFO meeting ($350)
+8. + TSMC CEO AI chip shortage NOT ending
+
+## ORCL Re-Entry Bull Stack
+
+1. Cantor PT $284 (+34% from $210.56 entry)
+2. Stargate $100B AI capex narrative
+3. BNP capex boost forecast
+4. Fresh PT update Mon (Finbold)
+5. OCI 50%+ YoY growth
+6. Q4 ER catalyst 2-3 weeks (pull-forward)
+
+## Macro
+
+- 🚨✅ **Iran de-escalation cross-confirmed** (WaPo + Bloomberg + Sunday Guardian + Republic World)
+- Sun PM risk-off thesis → Mon AM risk-on rally
+- TSM 0.8% TIGHT cushion → 4.6% (resolved)
+- AVGO recovered above Fri $390 stop fire level
 
 ## Equity Trajectory
 
@@ -75,18 +83,5 @@ DXCM $66→$70, GE $263→$290, NUE $210→$230, CCI $84→$87, CVS $87→$90, C
 | Tue 6/2 | $31,552.97 | +$5 |
 | Wed 6/3 | $31,236.26 | -$317 |
 | Thu 6/4 | $31,458.09 | +$222 |
-| **Fri 6/5** | **$31,172.56** | **-$285** |
-| **8-session** | | **+$17 / +0.05%** |
-
-## Key Themes Fri EOD
-
-1. Strong jobs report killed Fed rate cut hopes → broad risk-off
-2. AI semi cascade NVDA -6.3% / AVGO -6.3% / TSM -7.1%
-3. **AVGO post-ER slippage feared, ZERO materialized** ($390 stop, $390 fill — clean intraday)
-4. **NVDA SpaceX-Google MEGA catalyst** (SEC S-1, $3.3B+ deal) — operator-triggered 2 sh add captured asymmetry
-5. **3 stop fires net positive** (MDB +$42 winner offsets CRM/ORCL losers)
-6. TSM 0.8% TIGHT cushion = Mon gap risk top concern
-7. AI capex narrative building structurally despite tape weakness
-8. Cash $18.4K preserved — ready for Mon ORCL/AVGO re-entry pipeline
-9. Defensive book absorbed semi drag (CVS+UNH+NUE+GE+CCI+DXCM all green or near-flat)
-10. 5 surviving mercury alerts today stacking bull thesis for Mon
+| Fri 6/5 | $31,172.56 | -$285 |
+| **Mon 6/8 AM** | **$31,244.98** | **+$40 intraday** |

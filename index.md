@@ -1,57 +1,46 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-06-05 Fri 16:23 ET (CLOSE)
-**Equity:** $31,172.56 (-$285.53 / -0.91% day)
-**Cash:** $18,404.37 (59.0%)
-**Position count:** 15 equity + BTCUSD + CVR (4 exits: CRM/MDB/ORCL/AVGO)
-**Day trades:** 2/4 BUYs | **Spend:** $814/$5K
-**Day realized:** **-$29.31 net** (MDB +$42 winner partially offsets 3 losers)
+**Last update:** 2026-06-08 Mon 09:55 ET (morning autopilot)
+**Equity:** $31,244.98 (+$40 vs Fri close)
+**Cash:** $17,986 (57.6%)
+**Position count:** 17 equity + BTCUSD + CVR (2 ADDs)
+**Day trades:** 2/4 used | **Spend:** $419/$5K
 
 ## Recent Debriefs
 
-- [2026-06-05 Close](debriefs/2026-06-05-1623-close.md) — 4 stop fires + 2 BUYs (AVGO morn DCA stopped, NVDA late mega add); semi cascade
-- [2026-06-05 Midday](debriefs/2026-06-05-1317-midday.md) — Triple stop fire (CRM/MDB/ORCL) +$12.47 net; AVGO 1.2% cushion HOLD
-- [2026-06-05 Morning](debriefs/2026-06-05-0953-morning.md) — AVGO DCA add + 6 stop ratchets
+- [2026-06-08 Morning](debriefs/2026-06-08-0955-morning.md) — NVDA Korea mega-add + ORCL Stargate re-entry; UNPRECEDENTED 8-catalyst bull stack
+- [2026-06-05 Close](debriefs/2026-06-05-1623-close.md) — 4 stop fires + 2 BUYs, semi cascade
+- [2026-06-05 Midday](debriefs/2026-06-05-1317-midday.md) — Triple stop fire +$12.47 net
+- [2026-06-05 Morning](debriefs/2026-06-05-0953-morning.md) — AVGO DCA + 6 ratchets
 - [2026-06-04 Close](debriefs/2026-06-04-1623-close.md) — +0.71% DAY despite AVGO -12.6%
 - [2026-06-04 Midday](debriefs/2026-06-04-1318-midday.md) — MU +$97 / ARM stop / AVGO recovering
-- [2026-06-04 Morning](debriefs/2026-06-04-0954-morning.md) — Macro-shock override / Iran de-escalation
-- [2026-06-03 EOD Recap](debriefs/2026-06-03-1623-close-EOD-recap.md) — QUAD STOP -$161
 
-## Equity Trajectory (last 8 sessions)
+## Equity Trajectory (last 9 sessions, Mon intraday)
 
 ```
 {
-  "labels": ["Wed 5/27","Thu 5/28","Fri 5/29","Mon 6/1","Tue 6/2","Wed 6/3","Thu 6/4","Fri 6/5"],
-  "values": [31155.80, 31204.52, 31353.95, 31547.71, 31552.97, 31236.26, 31458.09, 31172.56]
+  "labels": ["Wed 5/27","Thu 5/28","Fri 5/29","Mon 6/1","Tue 6/2","Wed 6/3","Thu 6/4","Fri 6/5","Mon 6/8 AM"],
+  "values": [31155.80, 31204.52, 31353.95, 31547.71, 31552.97, 31236.26, 31458.09, 31172.56, 31244.98]
 }
 ```
 
-8-session: **+$17 / +0.05%** (choppy — Thu +$222 recovery erased by Fri -$285 cascade)
+9-session: **+$89 / +0.29%** (Mon green premarket gap up on Iran de-escalation + NVDA Korea mega catalysts)
 
-## Friday 6/5 Activity
+## Mon AM Activity
 
-### Morning
-- **AVGO DCA add 1 sh @ $401.44** (5-agent pipeline-discipline PASS)
-- **6 stop ratchets** (gains locked above BE): DXCM/GE/NUE/CCI/CVS/CSCO
-
-### Midday — 3 stop fires (+$12.47 net through midday)
-- **CRM** $185 fired @ $184.99 → -$13.92
-- **MDB** $360 fired @ $359.99 → **+$42.43** ✅
-- **ORCL** $215 fired @ $215.00 → -$16.04
-
-### Late afternoon
-- **AVGO** $390 fired @ **$390.00** (ZERO slippage) → -$41.78 (post-ER slippage memory: tail risk didn't trigger)
-- **NVDA** add 2 sh @ $206.35 (operator-triggered "everything on sale" + SpaceX-Google 110K GPU $3.3B+ mega catalyst, SEC S-1)
+- **NVDA add 1 sh @ $207.95** (5-agent pipeline-discipline PASS) — Korea mega-stack (SK Hynix + SK Telecom + Naver + LG + Hyundai) + Vera CPU + Computex + SpaceX-Google + Kumo + INTC backup + BofA $350 PT + Iran de-escalation = UNPRECEDENTED 8-catalyst alignment
+- **ORCL re-entry 1 sh @ $210.56** (5-agent pipeline PASS) — Cantor PT $284 + Stargate $100B + BNP capex + fresh PT update
+- **2 stop ratchets** — DXCM $70→$73 (+13% locked), GE $290→$300 (+5% above entry)
 
 ## Themes
 
-1. **Strong jobs report killed Fed rate cut hopes** → broad risk-off + Treasury yields up
-2. **AI semi cascade across board** — NVDA -6.3%, AVGO -6.3%, TSM -7.1% on jobs + post-AVGO ER continuation
-3. **AVGO stop fired CLEAN** — post-ER slippage memory didn't materialize (intraday continuous bid liquidity)
-4. **NVDA SpaceX-Google MEGA catalyst** (SEC S-1, $3.3B+ deal, 110K GPUs) hit late day → captured via operator-triggered 2 sh add
-5. **AI capex narrative building structurally**: GOOGL $85B + Meta tens-of-$B raise + SpaceX-Google 110K GPU + ORCL Stargate $100B
-6. **TSM 0.8% TIGHT cushion** = Mon gap risk top concern
-7. **3 stop fires net positive intraday** (MDB winner +$42 vs CRM+ORCL -$30)
-8. **Cash $18.4K (59%) preserved** — Mon ORCL re-entry candidate (Cantor PT $284 + Stargate $100B)
-9. **Defensive book absorbed semi drag** (CVS/UNH/NUE/GE/CCI/DXCM)
-10. **Pipeline-discipline executed twice** (AVGO morn + NVDA late) — both 5-agent fast-track PASS
+1. 🚨✅ **Iran de-escalation cross-confirmed** (WaPo/Bloomberg/Sunday Guardian/Republic World) — risk-on rally
+2. 🚀 **NVDA UNPRECEDENTED 8-catalyst bull stack in 72h** — 5 Korean chaebol + Vera + Computex + SpaceX-Google + Kumo + INTC backup + BofA reset + TSMC CEO
+3. **2 pipeline-discipline BUYs executed** — both 5-agent fast-track + Marcus PASS before order placement
+4. **TIGHT cushions resolved** — TSM 0.8% → 4.6%
+5. **AI semi sleeve 7.4% → 8.1% fill** (per `feedback_use_sleeve_headroom` directive; 21.9% headroom remaining)
+6. **DXCM ADA Day 4 G7 trial pump** — held position +4.3% intraday
+7. **GE-Wolfspeed silicon carbide MOU** — aerospace TAM expansion
+8. **Cash $17.9K preserved** — 2 more BUYs available
+9. **ORCL re-entry under original entry** ($210 vs $231 original) = mechanically favorable
+10. **Market open green rally validated** by held position rebounds across sleeves
