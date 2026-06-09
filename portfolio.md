@@ -1,81 +1,80 @@
-# Portfolio Snapshot — 2026-06-08 16:23 ET (Mon CLOSE)
+# Portfolio Snapshot — 2026-06-09 09:57 ET (Tue MORNING) ⭐
 
-**Equity:** $31,225.73 (+$20 / +0.07% day)
-**Cash:** $17,040 (54.6%)
-**Position value:** $14,186
-**Position count:** 18 equity + BTCUSD + CVR (3 BUYs today)
-**Day realized:** $0
+**Equity:** $31,318.28 (+$87 / +0.28% gap-up open)
+**Cash:** $16,964 (54.2%) post-BUY
+**Position value:** $14,354
+**Position count:** 17 equity + BTCUSD + CVR
+**Day realized:** -$18.81 (PANW stop fire)
 **Day trades:** 0/4 used
 
-## Held Positions (EOD Close)
+## Held Positions (Tue Morning)
 
-| Ticker | Qty | Basis | Close | Day % | LC % | Stop | Cushion |
-|--------|-----|-------|-------|-------|------|------|---------|
-| UNH 🏆 | 0.69 | $290 | $406.00 | +1.6% | **+40.0%** | — | n/a |
-| CVS 🏆 | 27 | $75.83 | $97.11 | +1.2% | +28.1% | $90 | 7.3% |
-| DXCM 🚀 | 4 | $64.85 | $77.83 | **+6.8%** | **+20.0%** | $73 | 6.2% |
-| NUE | 9 | $223 | $253.40 | -0.4% | +13.6% | $230 | 9.2% |
-| GE | 2 | $285.99 | $321.14 | -2.1% | +12.3% | $300 | 6.6% |
-| CCI | 20 | $84.31 | $91.79 | -2.9% | +8.9% | $87 | 5.2% |
-| CSCO | 1 | $117.34 | $124.01 | +1.9% | +5.7% | $115 | 7.3% |
-| SYY | 5 | $73.21 | $76.48 | +0.2% | +4.5% | $72 | 5.9% |
-| TJX | 4 | $159 | $159.75 | -0.6% | +0.5% | $146 | 8.6% |
-| **MU** ⭐ NEW | 1 | $945.70 | $946.04 | flat | flat | $890 | 5.9% |
-| **NVDA** ⭐ | 8 | $211.61 | $208.12 | +1.5% | -1.6% | $189.75 | 8.8% |
-| TSM | 2 | $431.27 | $426.60 | +2.8% | -1.1% | $410 | 3.9% |
-| BA | 3 | $220.33 | $215.50 | flat | -2.2% | $202 | 6.3% |
-| **ORCL** ⭐ NEW | 1 | $210.56 | $211.51 | -1.0% | +0.5% | $200 | 5.4% |
-| **PANW** ⚠️ | 1 | $278.81 | $266.00 | -2.2% | -4.6% | $260 | **2.3% EXTREME** |
-| D | 4 | $68.82 | $65.52 | -2.1% | -4.8% | $62.33 | 4.9% |
-| BTCUSD | 0.0034 | $70,867 | $63,169 | flat | -10.9% | frozen | n/a |
+| Ticker | Qty | Basis | Current | Day % | LC % | Stop | Cushion |
+|--------|-----|-------|---------|-------|------|------|---------|
+| UNH 🏆 | 0.69 | $290 | $411.19 | +1.1% | **+41.7%** | — | n/a |
+| CVS 🏆 | 27 | $75.83 | $96.34 | -0.8% | +27.1% | $90 | 6.6% |
+| DXCM 🚀 | 4 | $64.85 | $77.94 | +1.7% | **+20.2%** | **$75** ↑ | 3.9% |
+| NUE | 9 | $223 | $255.07 | +0.7% | +14.4% | $230 | 9.8% |
+| GE | 2 | $285.99 | $330.34 | **+2.6%** | +15.5% | **$310** ↑ | 6.2% |
+| CCI | 20 | $84.31 | $92.04 | +0.3% | +9.2% | $87 | 5.5% |
+| CSCO | 1 | $117.34 | $123.18 | -0.8% | +5.0% | $115 | 6.6% |
+| SYY | 5 | $73.21 | $76.98 | +0.7% | +5.1% | $72 | 6.5% |
+| TJX | 4 | $159 | $162.33 | +1.6% | +2.1% | $146 | 10.1% |
+| **MU** 🚀 | 1 | $945.70 | $972.07 | **+2.4%** | +2.8% | $890 | 8.4% |
+| **NVDA** ⭐ | 8 | $211.61 | $209.13 | +0.2% | -1.2% | $189.75 | 9.3% |
+| TSM | 2 | $431.27 | $434.55 | +1.8% | +0.8% | $410 | 5.6% |
+| BA | 3 | $220.33 | $219.55 | +1.7% | -0.4% | $202 | 8.0% |
+| **ORCL** 🚀 | 1 | $210.56 | $217.34 | **+2.6%** | +3.2% | $200 | 8.0% |
+| **INTC** ⭐ NEW | 3 | $111.90 | $111.75 | flat | flat | $103 | 8.0% |
+| D | 4 | $68.82 | $65.67 | +0.2% | -4.6% | $62.33 | 5.1% |
+| BTCUSD | 0.0034 | $70,867 | $62,251 | -0.9% | -12.2% | frozen | n/a |
 | 737CVR019 | 4.06 | $0 | n/a | — | — | — | n/a |
 
-## Mon Trade Activity
+## Tue Trade Activity (Morning)
 
-### BUYs (3 — all pipeline-discipline PASS)
+### BUYs (1 — pipeline-discipline PASS)
 | Time | Ticker | Qty | Fill | Cost |
 |------|--------|-----|------|------|
-| 09:55 | NVDA | 1 | $207.95 | $207.95 |
-| 09:55 | ORCL | 1 | $210.56 | $210.56 |
-| 13:18 | MU | 1 | $945.70 | $945.70 |
-| **TOTAL** | | | | **$1,364.21** |
+| 09:59 | INTC | 3 | $111.90 | $335.70 |
 
-### Stop Ratchets (2 — gains locked)
-DXCM $70→$73 (+13% above entry), GE $290→$300 (+5% above entry)
+### Stop Fires (1 — predicted Mon EOD)
+| Time | Ticker | Qty | Fill | Realized |
+|------|--------|-----|------|----------|
+| 09:33 | PANW | 1 | $260.00 | -$18.81 |
+
+### Stop Ratchets (2)
+GE $300→$310 (+8% above entry locked), DXCM $73→$75 (+15% above entry locked)
 
 ## AI Semi Sleeve
 
-- **Members:** NVDA 8sh ($1,665) + TSM 2sh ($853) + MU 1sh ($946) = **$3,464 = 11.1% fill**
-- **Target:** 30% ($9,371)
-- **Headroom:** $5,907 (18.9% available)
+- **Members:** NVDA 8sh ($1,673) + TSM 2sh ($869) + MU 1sh ($972) + **INTC 3sh ($335) NEW** = **$3,849 = 12.3% fill**
+- **Target:** 30% ($9,395)
+- **Headroom:** $5,546 (17.7% available)
 
-## NVDA Bull Stack — UNPRECEDENTED 10+ catalysts in 96h
+## INTC Pipeline (catalyst-buy)
 
-1. 5-Korean-chaebol AI mega expansion (SK Hynix + SK Telecom + Naver + LG + Hyundai)
-2. Vera CPU "hand delivered" to Anthropic/OpenAI/SpaceX/Oracle
-3. Computex RTX Spark PC chips launch (vs AMD/Intel)
-4. SpaceX-Google 110K GPU $3.3B+ deal (SEC S-1)
-5. Kumo AI $400M acquisition
-6. Google + NVDA consider INTC backup foundry
-7. **Apple + NVDA + Google Apple Private Cloud Compute partnership (WWDC)**
-8. BofA reset PT after CFO meeting ($350)
-9. CEO Huang frames market dip as DISCOUNT
-10. TSMC CEO sustained AI chip shortage
+- **Catalyst:** Google TPU foundry order win (Mon +11%) + NVDA backup foundry chain + 18A/14A roadmap validation
+- **Multi-quarter durable** structural catalyst per Diana chase/durable framework (foundry contracts multi-year)
+- 5-agent pipeline PASS: Iris + Grace + Atlas + Victor + Diana + Marcus
 
-## Macro
+## Macro / Themes
 
-- 🚨✅ **Iran de-escalation cross-confirmed** (WaPo + Bloomberg + Sunday Guardian + Republic World) → Mon risk-on rally
-- Strong jobs report still keeping Fed rate cut at bay (offset by AI structural bull)
+1. 🚨 **PANW stop fire @ $260** — predicted Mon EOD as #1 Tue gap risk on 2.3% EXTREME TIGHT cushion (CRWD peer drag + post-ER drift played out)
+2. 🚀 **INTC catalyst-buy executed** — Google TPU foundry win continuation; pipeline-discipline PASS; durable structural narrative
+3. ⭐ **AI semi sleeve 11.2%→12.3%** — 4-name exposure (NVDA+TSM+MU+INTC); 17.7% headroom remaining
+4. 🚀 **Tech-led risk-on** — SPY +0.77% / QQQ +0.91%; ORCL/GE/MU all +2.4%+
+5. ⭐ **NBIS+NVDA AI Robotics partnership** confirms NVDA bull stack durability extension
+6. 🚀 **DXCM +20% LC** — ADA G7 Day 5 catalyst paying; ratcheted $75 locks the pump
+7. 🚀 **GE +15.5% LC** — Wolfspeed MOU + Air Defense; new highs; ratcheted $310
 
-## TIGHT Cushion Tue Watch
+## TIGHT Cushion Watch (post-PANW exit)
 
-- **PANW** $260 stop, **2.3% cushion EXTREME** — top gap risk
-- **TSM** $410 stop, 3.9% cushion
-- **D** $62.33 stop, 4.9% cushion
-- **CCI** $87 stop, 5.2% cushion
-- **ORCL** $200 stop, 5.4% cushion (new)
+- **DXCM** $75 stop, **3.9% cushion** — post-catalyst trail; if breaks $80 ratchet further
+- **D** $62.33 stop, 5.1% cushion — utility rotation continuing
+- **CCI** $87 stop, 5.5% cushion — defensive rotation
+- **TSM** $410 stop, 5.6% cushion — Korea volatility holding
 
-## Equity Trajectory
+## Equity Trajectory (10 sessions)
 
 | Date | Close | Day $ |
 |------|-------|-------|
@@ -87,18 +86,6 @@ DXCM $70→$73 (+13% above entry), GE $290→$300 (+5% above entry)
 | Wed 6/3 | $31,236.26 | -$317 |
 | Thu 6/4 | $31,458.09 | +$222 |
 | Fri 6/5 | $31,172.56 | -$285 |
-| **Mon 6/8** | **$31,225.73** | **+$20** |
-| **9-session** | | **+$70 / +0.22%** |
+| Mon 6/8 | $31,225.73 | +$20 |
+| **Tue 6/9** | **$31,318.28** ↑ | **+$93** (morning) |
 
-## Key Themes Mon EOD
-
-1. **3 BUYs executed via pipeline-discipline** — NVDA Korea + ORCL Stargate + MU memory
-2. **Day flat +$20 despite UNPRECEDENTED bull stack** — defensive book rotated down
-3. **Apple-NVDA-Google partnership at WWDC** — 3rd major hyperscaler committing to NVDA AI infra
-4. **DXCM ADA Day 4 catalyst paid** — +6.8% day, +20% LC
-5. **MU re-entry completes AI memory exposure**
-6. **PANW 2.3% cushion EXTREME TIGHT** = Tue #1 gap risk
-7. **Cash $17K preserved** — 1 BUY + $3.6K spend remaining
-8. **AI semi sleeve 11.1% fill** — 18.9% headroom available
-9. **CRM acquires m3ter post-close** — re-entry watch active
-10. **TIGHT cushions resolved across most names** — only PANW remains EXTREME

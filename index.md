@@ -1,54 +1,56 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-06-08 Mon 16:23 ET (CLOSE)
-**Equity:** $31,225.73 (+$20 / +0.07% day)
-**Cash:** $17,040 (54.6%)
-**Position count:** 18 equity + BTCUSD + CVR (3 BUYs today)
-**Day trades:** 0/4 | **Spend:** $1,364/$5K
+**Last update:** 2026-06-09 Tue 09:57 ET (MORNING)
+**Equity:** $31,318.28 (+$87 / +0.28% gap-up)
+**Cash:** $16,964 (54.2%)
+**Position count:** 17 equity + BTCUSD + CVR (1 BUY + 1 stop fire today)
+**Day trades:** 0/4 | **Spend:** $336/$5K
 
 ## Recent Debriefs
 
+- [2026-06-09 Morning](debriefs/2026-06-09-0957-morning.md) — INTC catalyst-buy + PANW stop fire (predicted)
 - [2026-06-08 Close](debriefs/2026-06-08-1623-close.md) — 3 BUYs (NVDA Korea mega + ORCL Stargate + MU memory); UNPRECEDENTED bull stack
 - [2026-06-08 Midday](debriefs/2026-06-08-1318-midday.md) — MU re-entry pipeline
 - [2026-06-08 Morning](debriefs/2026-06-08-0955-morning.md) — NVDA + ORCL pipelines
 - [2026-06-05 Close](debriefs/2026-06-05-1623-close.md) — 4 stop fires + 2 BUYs cascade day
-- [2026-06-05 Midday](debriefs/2026-06-05-1317-midday.md) — Triple stop fire +$12 net
-- [2026-06-05 Morning](debriefs/2026-06-05-0953-morning.md) — AVGO DCA + 6 ratchets
 
-## Equity Trajectory (last 9 sessions)
+## Equity Trajectory (last 10 sessions)
 
 ```
 {
-  "labels": ["Wed 5/27","Thu 5/28","Fri 5/29","Mon 6/1","Tue 6/2","Wed 6/3","Thu 6/4","Fri 6/5","Mon 6/8"],
-  "values": [31155.80, 31204.52, 31353.95, 31547.71, 31552.97, 31236.26, 31458.09, 31172.56, 31225.73]
+  "labels": ["Wed 5/27","Thu 5/28","Fri 5/29","Mon 6/1","Tue 6/2","Wed 6/3","Thu 6/4","Fri 6/5","Mon 6/8","Tue 6/9"],
+  "values": [31155.80, 31204.52, 31353.95, 31547.71, 31552.97, 31236.26, 31458.09, 31172.56, 31225.73, 31318.28]
 }
 ```
 
-9-session: **+$70 / +0.22%** (Mon flat +$20 despite unprecedented catalysts; defensive book rotation offset)
+10-session: **+$162 / +0.52%** (Tue morning gap-up +$93 on tech-led risk-on)
 
-## Mon 6/8 Activity
+## Tue 6/9 Activity (Morning)
 
-### Morning (9:55 ET)
-- **NVDA add 1 sh @ $207.95** (Korea mega-stack: SK Hynix + SK Telecom + Naver + LG + Hyundai + Vera CPU + Computex + SpaceX-Google + Kumo + BofA $350 PT)
-- **ORCL re-entry 1 sh @ $210.56** (Cantor PT $284 + Stargate $100B + BNP capex)
-- 2 stop ratchets (DXCM/GE)
+### 9:33 ET — PANW stop fire (predicted)
+- 1 sh @ $260 exact (no slippage) | -$18.81 realized vs $278.81 entry
+- Yesterday's flagged #1 gap risk on 2.3% EXTREME TIGHT cushion played out
 
-### Midday (13:18 ET)
-- **MU re-entry 1 sh @ $945.70** (Wells Fargo OW PT $1220 + memory shortage thesis + NVDA-SK Hynix memory deal context)
+### 9:59 ET — INTC catalyst-buy
+- **BUY 3 sh @ $111.90 = $335.70** | stop $103, target $125
+- Google TPU foundry order win (Mon +11%) + 18A/14A roadmap validation
+- Multi-quarter durable structural catalyst per Diana chase/durable framework
+- AI semi sleeve 11.2%→12.3% fill
 
-### Late afternoon
-- **WWDC catalyst:** Apple + NVDA + Google Apple Private Cloud Compute partnership announced → 3rd major hyperscaler committing to NVDA AI infra
-- **DXCM +6.8% day, +20% LC** on ADA G7 CONNECT trial pump (Day 4 of catalyst window)
+### Stop Ratchets (2)
+- GE $300→$310 (+8% above entry locked)
+- DXCM $73→$75 (+15% above entry locked; ADA G7 catalyst window post-peak)
 
 ## Themes
 
-1. 🚨✅ **Iran de-escalation Tier-1 cross-confirmed** (WaPo/Bloomberg/Sunday Guardian/Republic World) → Mon risk-on rally
-2. 🚀 **NVDA UNPRECEDENTED 10+ catalyst bull stack in 96h** (Korea 5-chaebol + Vera + Computex + SpaceX-Google + Kumo + Apple-NVDA-Google + BofA reset + CEO Huang DISCOUNT framing + TSMC CEO + INTC backup)
-3. **3 pipeline-discipline BUYs** — all 5-agent fast-track PASS executed before order placement
-4. **AI semi sleeve 8.1% → 11.1% fill** (per `feedback_use_sleeve_headroom` directive; 18.9% headroom remaining)
-5. **DXCM ADA Day 4 G7 trial pump** — +6.8% day, +20% LC, validates HOLD
-6. **PANW 2.3% EXTREME TIGHT cushion** = Tue gap risk #1
-7. **Cash $17K preserved** — 1 BUY + $3.6K spend remaining
-8. **MU re-entry** completes AI memory exposure (Wells Fargo PT $1220 + Cantor + multi-firm consensus)
-9. **CRM acquires m3ter post-close** (AI/SaaS usage-based billing) — re-entry watch active
-10. **Day flat +$20 despite catalyst stack** — NVDA didn't pump as expected; defensive book (CCI/D) rotated down on risk-on
+1. 🚨 **PANW stop fire EXACTLY as flagged** Mon EOD — discipline of TIGHT cushion watch confirmed
+2. 🚀 **INTC catalyst-buy** — pipeline-discipline PASS; Google TPU foundry contract durable multi-quarter narrative
+3. ⭐ **AI semi sleeve 12.3% fill** — 4-name exposure (NVDA+TSM+MU+INTC); 17.7% headroom remaining
+4. 🚀 **Tech-led risk-on Tue** — SPY +0.77% / QQQ +0.91%; ORCL/GE/MU all +2.4%+
+5. ⭐ **NBIS+NVDA AI Robotics partnership** — Nebius (~$30B GPU cloud) on NVDA robotics stack
+6. ⭐ **GLW+AMZN multi-billion fiber optics deal** — AI infra capex thesis-support
+7. 🚀 **DXCM +20% LC** — ADA G7 Day 5 catalyst paying; ratcheted to lock
+8. 🚀 **GE +15.5% LC** — Wolfspeed MOU + new daily highs
+9. **Cron renewal complete** — all 11 jobs healthy with new IDs; next Sun 6/14
+10. **3 BUY slots + $4,664 spend remaining** for midday/close pipeline
+
