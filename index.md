@@ -1,6 +1,6 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-06-10 Wed 09:57 ET (MORNING) 🚀
+**Last update: 2026-06-10 Wed 13:17 ET (MIDDAY ⚠️)
 **Equity:** $31,139.09 (flat open post-CPI in-line)
 **Cash:** $17,637 (56.6%)
 **Position count:** 15 equity + BTCUSD + CVR (3 NEW BUYs)
@@ -8,6 +8,7 @@
 
 ## Recent Debriefs
 
+- [2026-06-10 Midday](debriefs/2026-06-10-1318-midday.md) — ⚠️ DXCM 1.0% extreme tight cushion; 3 AM BUYs all -1 to -2.6% loss; defensive PASS midday
 - [2026-06-10 Morning](debriefs/2026-06-10-0957-morning.md) — 3 BUYs (MU+TSM+ORCL re-entries) on AI infra catalyst stack
 - [2026-06-09 Close](debriefs/2026-06-09-1623-close.md) — EOD post 5-stop-fire day; defensive PASS
 - [2026-06-09 Midday](debriefs/2026-06-09-1318-midday.md) — 4 stop fires (MU+INTC+TSM+ORCL)
