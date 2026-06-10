@@ -1,71 +1,87 @@
-# Portfolio Snapshot — 2026-06-10 09:57 ET (Wed MORNING) 🚀
+# Portfolio Snapshot — 2026-06-10 16:23 ET (Wed CLOSE) ⚠️
 
-**Equity:** $31,139.09 (flat open post-CPI-in-line)
-**Cash:** $17,637 (56.6%) post-3-BUY
-**Position value:** $11,956
-**Position count:** 15 equity + BTCUSD + CVR (3 NEW: MU+TSM+ORCL re-entries)
-**Day realized:** $0
-**Day trades:** 3/4 | Spend $1,546/$5K
+**Equity:** $31,007.81 (-$148 / -0.48% day)
+**Cash:** $17,937 (57.8%)
+**Position value:** $13,070
+**Position count:** 14 equity + BTCUSD + CVR (3 BUYs + 1 stop fire)
+**Day realized:** +$40.54 (DXCM stop)
+**Day trades:** 0/4 | Spend $1,546/$5K
 
-## Wed Trade Activity (3 BUYs all pipeline-discipline PASS)
+## Wed 6/10 Trade Activity
 
-| Time | Ticker | Qty | Fill | Cost | Catalyst |
-|------|--------|-----|------|------|----------|
-| 09:58 | MU | 1 | $919.03 | $919 | Bechtel Clay NY fab + Wells Fargo $1220 |
-| 09:59 | TSM | 1 | $417.29 | $417 | May sales +30% AI demand |
-| 10:00 | ORCL | 1 | $209.20 | $209 | Q4 94% + 91% prediction odds + earnings near |
-| **TOTAL** | | | | **$1,546** | |
+### BUYs (3 — pipeline-discipline PASS)
+| Time | Ticker | Qty | Fill | Cost |
+|------|--------|-----|------|------|
+| 09:58 | MU | 1 | $919.03 | $919 |
+| 09:59 | TSM | 1 | $417.29 | $417 |
+| 10:00 | ORCL | 1 | $209.20 | $209 |
 
-## Held Positions (Wed Morning)
+### Stop Fire (1)
+| Time | Ticker | Qty | Fill | Realized |
+|------|--------|-----|------|----------|
+| 15:18 | DXCM | 4 | $74.99 | **+$40.54** (ADA G7 pump captured) |
 
-| Ticker | Qty | Basis | Current | Day % | LC % | Stop | Cushion |
-|--------|-----|-------|---------|-------|------|------|---------|
-| UNH 🏆 | 0.69 | $290 | $408.30 | -1.1% | +40.8% | — | n/a |
-| CVS 🏆 | 27 | $75.83 | $97.06 | flat | +28.0% | $90 | 7.3% |
-| DXCM 🚀 | 4 | $64.85 | $78.40 | +0.3% | **+20.9%** | $75 | 4.5% |
-| NUE | 9 | $223 | $255.50 | +0.5% | +14.6% | $230 | 9.9% |
-| GE | 2 | $285.99 | $328.58 | -0.6% | +14.9% | $310 | 6.0% |
-| CCI | 20 | $84.31 | $92.22 | -0.4% | +9.4% | $87 | 5.7% |
-| SYY | 5 | $73.21 | $78.47 | +1.3% | +7.3% | $72 | 8.3% |
-| TJX | 4 | $159 | $165.91 | +0.7% | +4.4% | $146 | 12.0% |
-| CSCO | 1 | $117.34 | $119.50 | -0.7% | +1.8% | $115 | 3.9% |
-| BA | 3 | $220.33 | $213.12 | -0.7% | -3.3% | $202 | 5.2% |
-| **NVDA** ⭐ | 8 | $211.61 | $205.54 | -1.3% | -2.9% | $189.75 | 7.7% |
-| D | 4 | $68.82 | $66.55 | +0.4% | -3.3% | $62.33 | 6.3% |
-| **MU** ⭐ NEW | 1 | $919.03 | $921 | flat | flat | $850 | 7.7% |
-| **TSM** ⭐ NEW | 1 | $417.29 | $418 | flat | flat | $390 | 6.5% |
-| **ORCL** ⭐ NEW | 1 | $209.20 | $209 | flat | flat | $195 | 6.8% |
-| BTCUSD | 0.0034 | $70,867 | $62,219 | +0.9% | -12.2% | frozen | n/a |
-| 737CVR019 | 4.06 | $0 | n/a | — | — | — | n/a |
+## ⚠️ CRITICAL: ORCL Q4 EARNINGS BEAT but AH SELLOFF
+
+After 4pm release:
+- Q4 EPS $2.11 BEAT $1.96 (+7.7%)
+- Sales $19.184B BEAT $19.095B
+- FY27 EPS $8.05 BEAT $8.01 + AFFIRMED Sales $90B
+- Q1 FY27 EPS $1.72-1.76 BEAT $1.68
+- Oracle Health AI = double-digit FY27 growth
+- US OPM $400M 10-year federal contract (same-day)
+
+**Yet AH price $195.27 (vs $201.99 close = -3.3% AH)** — ORCL stop $195 imminent risk Thu open
+Per `feedback_post_earnings_stop_slippage`: slippage could fill $166-$175 range = -$34 to -$43 vs $14 "max loss"
+
+## Held Positions (Wed Close)
+
+| Ticker | Qty | Basis | Close (RH) | Stop | Cushion |
+|--------|-----|-------|------------|------|---------|
+| UNH 🏆 | 0.69 | $290 | $407.52 | — | n/a |
+| CVS 🏆 | 27 | $75.83 | $98.04 | $90 | 8.2% |
+| NUE | 9 | $223 | $250.52 | $230 | 8.2% |
+| GE ⚠️ | 2 | $285.99 | $318.61 | $310 | **2.7% TIGHT** |
+| CCI | 20 | $84.31 | $93.43 | $87 | 6.9% |
+| SYY | 5 | $73.21 | $78.58 | $72 | 8.4% |
+| TJX 🚀 | 4 | $159 | $167.61 | $146 | 12.8% |
+| CSCO ⚠️ | 1 | $117.34 | $118.83 | $115 | **3.2% TIGHT** |
+| BA ⚠️ | 3 | $220.33 | $209.05 | $202 | **3.4% TIGHT** |
+| **NVDA** ⭐ | 8 | $211.61 | $200.41 | $189.75 | 5.3% |
+| D | 4 | $68.82 | $66.77 | $62.33 | 6.6% |
+| **MU** ⭐ NEW | 1 | $919.03 | $893.41 | $850 | 4.9% |
+| **TSM** ⭐ NEW | 1 | $417.29 | $408.49 | $390 | 4.5% |
+| **ORCL** ⭐ NEW | 1 | $209.20 | $201.99 RH / $195.27 AH | $195 | **3.0% RH / -0.1% AH** ⚠️ |
+| BTCUSD | 0.0034 | $70,867 | $61,737 | frozen | n/a |
+| 737CVR019 | 4.06 | $0 | n/a | — | n/a |
 
 ## AI Semi Sleeve
 
-- **Members:** NVDA 8sh ($1,644) + MU 1sh ($919) + TSM 1sh ($417) = **$2,980 = 9.6% fill**
-- + ORCL hyperscaler sleeve-adjacent $209
-- Target 30% ($9,342) — Headroom 20.4%
+- **Members:** NVDA 8sh ($1,602) + MU 1sh ($886) + TSM 1sh ($409) = **$2,897 = 9.3% fill**
+- + ORCL hyperscaler sleeve-adjacent $195 (-7%)
+- Target 30% — Headroom 20.7%
 
-## Mercury Phase 0.5 Bull Stack (10+ AI infra catalysts in 96h)
+## Thu 6/11 Watch Priorities
 
-1. 🚀🚀 OpenAI 10 GIGAWATT Ohio data center NVDA-backed (largest 2026 single project)
-2. 🚀 TSM May sales +30% YoY AI demand confirmation
-3. ⭐ MU Bechtel Clay NY memory fab construction
-4. ⭐ ORCL 91% prediction market odds on AI growth + Q4 94% Cloud
-5. ⭐ AMAT $500M Tampines AI infra capex
-6. ⭐ SMCI $7B AI chip financing
-7. ⭐ Google-Anthropic $35B chip deal
-8. ⭐ Apple PCC (Mon WWDC)
-9. ⭐ GLW+AMZN multi-billion fiber optics
-10. ⭐ META India 900 MW + Reliance Jamnagar 168 MW
-11. 🚨 US-Iran strikes Tier-1 verified Tue PM
-12. 🎯 CPI in-line +4.2% YoY consensus
+1. 🚨 **ORCL Thu open** — gap risk; per post-earnings slippage memory could fill $166-$175 vs $14 "max loss" calc
+2. ⚠️ **GE 2.7% / BA 3.4% / CSCO 3.2% TIGHT** = gap risks
+3. **NVDA -5.3% LC at 8sh** — OpenAI 10 GW Ohio + GTC Taipei catalysts
+4. **MU/TSM follow-through** — bull catalysts intact
 
-## Key Themes Wed AM
+## Equity Trajectory (11 sessions)
 
-1. 🎯 **CPI in-line gave clean runway** for sleeve rebuild
-2. 🚀 **3 BUYs executed** — MU + TSM + ORCL via pipeline-discipline PASS
-3. 📊 **AI semi sleeve 5.3% → 9.6%** rebuild from Tue stops
-4. ⚠️ **Iran war Tier-1 active overlay** (defense bull / oil up / tech mild)
-5. ✅ **Same-day re-entries justified** per Diana chase/durable rule (multi-quarter structural)
-6. ⚖️ **CSCO 3.9% cushion** primary tight watch
-7. 💰 **Cash $17.6K** — 1 BUY + $3.5K remaining
-8. ⏸️ **NVDA add held for midday** — let OpenAI 10 GW Ohio diffuse
+| Date | Close | Day $ |
+|------|-------|-------|
+| Wed 5/27 | $31,155.80 | +$107 |
+| Thu 5/28 | $31,204.52 | +$49 |
+| Fri 5/29 | $31,353.95 | +$149 |
+| Mon 6/1 | $31,547.71 | +$194 |
+| Tue 6/2 | $31,552.97 | +$5 |
+| Wed 6/3 | $31,236.26 | -$317 |
+| Thu 6/4 | $31,458.09 | +$222 |
+| Fri 6/5 | $31,172.56 | -$285 |
+| Mon 6/8 | $31,225.73 | +$20 |
+| Tue 6/9 | $31,148.35 | -$77 |
+| **Wed 6/10** | **$31,007.81** | **-$141 (-0.45%)** |
+| **11-session** | | **-$148 / -0.47%** |
+
