@@ -1,64 +1,70 @@
-# Portfolio Snapshot — 2026-06-11 13:18 ET (Thu MIDDAY)
+# Portfolio Snapshot — 2026-06-11 16:01 ET (Thu CLOSE — MANUAL EOD)
 
-**Equity:** $31,081.60 (+$74 / +0.24% day)
-**Cash:** $16,873 (54.3%) post 3 BUYs
-**Position count:** 15 equity + BTCUSD + CVR (ARM + GD added; ORCL exited AM gap)
-**Day realized:** **-$32.38** (ORCL stop AM gap-down)
-**Day trades:** 3/4 | Spend $1,241/$5K
+**Equity:** $31,388.91 (+$381 / **+1.23% day** 🚀)
+**Cash:** $16,874 (53.8%)
+**Position value:** $14,515
+**Position count:** 15 equity + BTCUSD + CVR
+**Day realized:** -$32.38 (ORCL stop)
+**Day trades:** 3/4 | Spend $1,241/$5K (75% unused)
 
-## 🚀 Thu Midday Trade Activity
+## 🎉 BEST DAY IN 12-SESSION STRETCH
+
+Pipeline discipline + MU Wolfe PT $1250 catalyst + Iran de-escalation tailwind delivered.
+
+## Thu 6/11 Trade Activity
 
 ### BUYs (3 — pipeline-discipline PASS)
-| Time | Ticker | Qty | Fill | Cost | Catalyst |
-|------|--------|-----|------|------|----------|
-| 09:55 | INTC | 2 | $117.6103 | $235 | BofA double upgrade PT $135 |
-| 13:19 | ARM | 2 | $323.1208 | $646 | Wall Street agentic AI cluster PT $500 |
-| 13:20 | GD | 1 | $359.715 | $360 | Jefferies Buy PT $400 + Iran war Kharg |
+| Time | Ticker | Qty | Fill | Catalyst |
+|------|--------|-----|------|----------|
+| 09:55 | INTC | 2 | $117.6103 | BofA double upgrade PT $135 |
+| 13:19 | ARM | 2 | $323.1208 | Wall Street agentic AI cluster PT $500 |
+| 13:20 | GD | 1 | $359.715 | Jefferies Buy + Iran war Kharg |
 
-### Stop Fires (1)
+### Stop Fire (1)
 | Time | Ticker | Qty | Fill | Realized |
 |------|--------|-----|------|----------|
-| 09:32 | ORCL | 1 | $176.82 | **-$32.38** (9.3% slippage on $195 stop) |
+| 09:32 | ORCL | 1 | $176.82 | **-$32.38** (predicted slippage) |
 
-## Held Positions (Thu Midday — 15 equity)
+### Stop Ratchet (1)
+| Time | Ticker | Old → New |
+|------|--------|-----------|
+| 16:03 | MU | $850 → $880 (lock half +$71 gain) |
 
-| Ticker | Qty | Basis | Current | Stop | Cushion |
-|--------|-----|-------|---------|------|---------|
-| UNH 🏆 | 0.69 | $290 | $406.19 | — | n/a |
-| CVS 🏆 | 27 | $75.83 | $99.24 | $90 | 9.3% |
-| NUE | 9 | $223 | $256.10 | $230 | 10.2% |
-| GE | 2 | $285.99 | $322.87 | $310 | 4.0% |
-| CCI | 20 | $84.31 | $91.59 | $87 | 5.0% |
-| SYY | 5 | $73.21 | $79.11 | $72 | 9.0% |
-| TJX 🚀 | 4 | $159 | $167.82 | $146 | 13.0% |
-| CSCO | 1 | $117.34 | $120.17 | $115 | 4.3% |
-| BA | 3 | $220.33 | $215.05 | $202 | 6.1% |
-| **NVDA** ⭐ | 8 | $211.61 | $199.93 | $189.75 | 5.1% |
-| **MU** ⭐ | 1 | $919.03 | $914.01 | $850 | 7.0% |
-| **TSM** ⭐ | 1 | $417.29 | $409.42 | $390 | 4.7% |
-| **INTC** ⚠️ | 2 | $117.61 | $111.00 | $109 | **1.8% TIGHT** |
-| D | 4 | $68.82 | $67.05 | $62.33 | 7.0% |
-| **ARM** ⭐ NEW | 2 | $323.12 | $323.56 | $300 | 7.3% |
-| **GD** ⭐ NEW | 1 | $359.72 | $359.71 | $335 | 6.9% |
-| BTCUSD | 0.0034 | $70,867 | $62,425 | frozen | n/a |
+## Held Positions (Thu Close — 15 equity)
+
+| Ticker | Qty | Basis | Close | Stop | Cushion |
+|--------|-----|-------|-------|------|---------|
+| UNH 🏆 | 0.69 | $290 | $405.27 | — | n/a |
+| CVS 🏆 | 27 | $75.83 | $100.49 | $90 | 10.4% |
+| NUE | 9 | $223 | $260.77 | $230 | 11.8% |
+| GE | 2 | $285.99 | $332.55 | $310 | 6.8% |
+| CCI | 20 | $84.31 | $92.04 | $87 | 5.5% |
+| SYY | 5 | $73.21 | $79.64 | $72 | 9.6% |
+| **ARM** ⭐ NEW | 2 | $323.12 | $341.95 | $300 | 12.3% |
+| TJX 🚀 | 4 | $159 | $168.30 | $146 | 13.3% |
+| CSCO | 1 | $117.34 | $121.89 | $115 | 6.0% |
+| **MU** 🏆 | 1 | $919.03 | $990.04 | **$880** ratcheted | 11.1% |
+| BA | 3 | $220.33 | $221.63 | $202 | 8.9% |
+| **TSM** ⭐ | 1 | $417.29 | $420.12 | $390 | 7.2% |
+| **GD** ⭐ NEW | 1 | $359.72 | $358.83 | $335 | 6.6% |
+| **INTC** ⭐ NEW | 2 | $117.61 | $116.45 | $109 | 6.0% |
+| **NVDA** ⭐ | 8 | $211.61 | $204.70 | $189.75 | 7.4% |
+| D | 4 | $68.82 | $66.69 | $62.33 | 6.5% |
+| BTCUSD | 0.0034 | $70,867 | $63,624 | frozen | n/a |
 | 737CVR019 | 4.06 | $0 | n/a | — | n/a |
 
 ## AI Semi Sleeve
 
-- **Members:** NVDA 8sh ($1,599) + MU 1sh ($914) + TSM 1sh ($410) + INTC 2sh ($222) + **ARM 2sh ($646)** = **$3,791 = 12.2% fill**
-- Target 30% — Headroom 17.8% (room for 1-2 more disciplined adds)
+- **Members:** NVDA 8sh ($1,638) + MU 1sh ($990) + TSM 1sh ($420) + INTC 2sh ($233) + **ARM 2sh ($684)** = **$3,965 = 12.6% fill**
+- Target 30% — Headroom 17.4%
 
-## Defense / Aerospace Sleeve
+## Fri 6/12 Watch Priorities
 
-- **GD 1sh ($360)** — primary defense exposure on Iran war Kharg align
-- GE 2sh ($646) + BA 3sh ($645) — industrial/aerospace adjacency
-
-## Thu Close Watch Priorities
-
-1. ⚠️ **INTC 1.8% cushion TIGHT** — primary close-window stop-fire risk
-2. 🚀 **ARM + GD fresh** — let catalysts run; no ratchet 3-5d
-3. **1 trade slot remaining** ($3,759 budget)
-4. 🚨 **Iran war close risk** — Trump "very hard tonight" promise
+1. 🚀 **SpaceX IPO Fri 6/12** — BLK $5B anchor; AI/space euphoria potential
+2. 🚀 **MU follow-through** — Wolfe PT $1250; stop $880 protects gains
+3. 🚀 **ARM continuation** — agentic AI bull stack intact
+4. ⚠️ **GD Iran reversal #5** — structural defense thesis vs tactical reaction
+5. 💰 **Cash $16,874 / 1 slot** — Fri ammunition
 
 ## Equity Trajectory (12 sessions)
 
@@ -75,4 +81,5 @@
 | Mon 6/8 | $31,225.73 | +$20 |
 | Tue 6/9 | $31,148.35 | -$77 |
 | Wed 6/10 | $31,007.81 | -$141 |
-| **Thu 6/11 mid** | **$31,081.60** | **+$74 (+0.24%)** |
+| **Thu 6/11** | **$31,388.91** | **+$381 (+1.23%)** 🚀 |
+| **12-session** | | **+$233 / +0.75%** |
