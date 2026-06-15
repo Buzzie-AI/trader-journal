@@ -1,73 +1,83 @@
-# Portfolio Snapshot — 2026-06-12 16:23 ET (Fri CLOSE — MANUAL EOD)
+# Portfolio Snapshot — 2026-06-15 09:57 ET (Mon MORNING — autopilot 30min delayed)
 
-**Equity:** $31,608.31 (+$210 / **+0.67% day**)
-**Cash:** $15,810 (50.0%)
-**Position value:** $15,798
+**Equity:** $31,756.85 (+$148 / **+0.47% AM**)
+**Cash:** $15,810 (49.8%)
+**Position value:** $15,946
 **Position count:** 17 equity + BTCUSD + CVR
 **Day realized:** $0
-**Day trades:** 2/4 | Spend $1,063/$5K (75% unused)
+**Day trades:** 0/4 | Spend $0/$5K (full headroom)
+**PDT status:** ✅ NO LONGER FLAGGED
 
-## 🎉 Best 2-Day Streak: +$601 / +1.91%
+## 🚀 AI Semi Sleeve Rallying — All 7 Names Green
 
-Thu (+$381 +1.23%) + Fri (+$220 +0.67%) = best 2-session streak in 13-day stretch.
+| Ticker | LC | Day | Catalyst |
+|--------|-----|-----|----------|
+| **MU** | +15.7% | **+8.3%** | 2 PT raises pre-EPS 6/24 |
+| **INTC** | +11.4% | **+5.2%** | Cramer+BofA+RTX Spark+foundry |
+| **AMD** | +8.0% | +8.1% | Citi sees BIGGER GPU upside AMD-Meta |
+| **MRVL** | +5.6% | +4.1% | Optical sector AXT +13% |
+| **TSM** | +4.0% | +2.4% | TSMC ecosystem |
+| **NVDA** | -1.2% | +1.9% | Iran peace tech rally |
+| **ARM** 🏆 | +17.8% | flat | $355 stop locked |
 
-## 🚀 ARM +18.4% LC — Pipeline Catalyst Compounding
+## Mon 6/15 Stop Ratchets (3 — profit-floor discipline)
 
-ARM 2sh @ $323.12 → $382.65 = +$119/sh = +$238 unrealized. Stop ratcheted $300→$325→**$355** (locks $32 above entry).
+| Time | Ticker | Old → New | Locked Floor |
+|------|--------|-----------|--------------|
+| 09:58 | **MU** | $920 → **$980** | +$61/sh |
+| 09:58 | **INTC** | $115 → **$120** | +$2.39/sh |
+| 09:58 | **GE** | $310 → **$325** | +$39/sh |
 
-## Fri 6/12 Trade Activity
+**Total incremental locked profit: $143**
 
-### BUYs (2 — pipeline-discipline PASS)
-| Time | Ticker | Qty | Fill | Catalyst |
-|------|--------|-----|------|----------|
-| 09:58 | AMD | 1 | $512 | Citi + BofA cluster on massive AI growth |
-| 09:58 | MRVL | 2 | $275.745 | Dan Durn ex-ADBE CFO + B. Riley PT $345 (+44%) |
+## Iran War Peace Deal — Macro Tailwind
 
-### Stop Ratchets (3 ratchets + 1 close)
-| Time | Ticker | Old → New |
-|------|--------|-----------|
-| 09:58 AM | ARM | $300 → $325 |
-| 13:22 PM | INTC | $109 → $115 |
-| 13:22 PM | MU | $880 → $920 (lock $1 above entry = profit floor) |
-| 16:23 CL | ARM | $325 → $355 (lock $32 above entry on +18.4% LC) |
+✅ Iran war ENDED Sun 6/15 — cross-confirmed 5 outlets (NBC/RFERL/NPR/MSNBC/AOL-AFP). Naval blockade lifted + Strait of Hormuz reopening + signing June 19 Switzerland.
 
-## Held Positions (Fri Close — 17 equity)
+**Market impact Mon AM:**
+- Oil DOWN -3-4% (Total -4%, Shell -3%) → cruise/airline/consumer tailwind
+- Defense MIXED (GD +0.3% holding; multi-quarter submarine thesis intact)
+- Tech RISK-ON broad → AI semi sleeve rallying
 
-| Ticker | Qty | Basis | Close | Stop | Cushion |
-|--------|-----|-------|-------|------|---------|
-| UNH 🏆 | 0.69 | $290 | $407.44 | — | n/a |
-| CVS 🏆 | 27 | $75.83 | $101.89 | $90 | 11.7% |
-| NUE | 9 | $223 | $265.87 | $230 | 13.5% |
-| **ARM** 🏆 | 2 | $323.12 | $382.65 | **$355** | 7.5% |
-| GE | 2 | $285.99 | $335.82 | $310 | 7.7% |
-| CCI | 20 | $84.31 | $92.27 | $87 | 5.7% |
-| SYY | 5 | $73.21 | $79.22 | $72 | 9.1% |
-| **MU** 🏆 | 1 | $919.03 | $990.16 | **$920** | 7.1% |
-| **INTC** ⭐ | 2 | $117.61 | $125.36 | **$115** | 8.3% |
-| TJX 🚀 | 4 | $159 | $168.40 | $146 | 13.3% |
-| CSCO | 1 | $117.34 | $121.10 | $115 | 5.0% |
-| **MRVL** ⭐ NEW | 2 | $275.745 | $284.83 | $255 | 10.5% |
-| **TSM** ⭐ | 1 | $417.29 | $423.59 | $390 | 7.9% |
-| BA | 3 | $220.33 | $220.17 | $202 | 8.3% |
-| **GD** | 1 | $359.72 | $360.33 | $335 | 7.0% |
-| **AMD** ⭐ NEW | 1 | $512 | $513.28 | $475 | 7.5% |
-| **NVDA** ⭐ | 8 | $211.61 | $204.78 | $189.75 | 7.3% |
-| D | 4 | $68.82 | $67.79 | $62.33 | 8.1% |
-| BTCUSD | 0.0034 | $70,867 | ~$63K | frozen | n/a |
+## Held Positions (Mon AM — 17)
+
+| Ticker | Qty | Basis | Now | Stop | Cushion |
+|--------|-----|-------|-----|------|---------|
+| UNH 🏆 | 0.69 | $290 | $404.07 | — | n/a |
+| CVS 🏆 | 27 | $75.83 | $100.11 | $90 | 10.1% |
+| NUE | 9 | $223 | $266.11 | $230 | 13.6% |
+| **ARM** 🏆 | 2 | $323.12 | $380.48 | $355 | 6.7% |
+| **GE** 🏆 | 2 | $285.99 | $348.27 | **$325** ⬆️ | 6.7% |
+| CCI | 20 | $84.31 | $90.86 | $85.93 | 5.4% |
+| SYY | 5 | $73.21 | $79.06 | $72 | 8.9% |
+| **MU** 🚀 | 1 | $919.03 | $1063.08 | **$980** ⬆️ | 7.8% |
+| **INTC** ⭐ | 2 | $117.61 | $130.99 | **$120** ⬆️ | 8.4% |
+| TJX | 4 | $159 | $165.92 | $146 | 12.0% |
+| CSCO | 1 | $117.34 | $121.59 | $115 | 5.4% |
+| **MRVL** ⭐ | 2 | $275.745 | $291.20 | $255 | 12.4% |
+| **TSM** ⭐ | 1 | $417.29 | $434.15 | $389 | 10.4% |
+| BA | 3 | $220.33 | $228.56 | $202 | 11.6% |
+| **GD** | 1 | $359.72 | $361.18 | $335 | 7.2% |
+| **AMD** ⭐ | 1 | $512 | $552.90 | $475 | 14.1% |
+| **NVDA** ⭐ | 8 | $211.61 | $209.05 | $189.75 | 8.9% |
+| D | 4 | $68.82 | $67.87 | $62.33 | 8.2% |
+| BTCUSD | 0.0034 | $70,867 | $66,418 | frozen | n/a |
 | 737CVR019 | 4.06 | $0 | n/a | — | n/a |
 
-## AI Semi Sleeve — 16.3% Fill
+## AI Semi Sleeve — 16.9% Fill (up from 16.3% Fri)
 
-- **Members:** NVDA 8sh ($1,638) + MU 1sh ($990) + TSM 1sh ($424) + INTC 2sh ($251) + **ARM 2sh ($765)** + **AMD 1sh ($513)** + **MRVL 2sh ($570)** = **$5,151 = 16.3% fill**
-- Target 30% — Headroom 13.7%
+- Members: NVDA $1,672 + MU $1,063 + TSM $434 + INTC $262 + ARM $761 + AMD $553 + MRVL $582 = **$5,367 / 16.9% fill**
+- Target 30% — Headroom 13.1% (~$4,170 deployable)
 
-## Mon 6/15 Watch Priorities
+## Watch Priorities (Midday 12:47 ET)
 
-1. 🚀 **ARM continuation** — stop $355 protects $32 profit
-2. 🚀 **MU/INTC/MRVL/AMD** bull stacks; let catalysts run
-3. ⚠️ **Cron miss pattern** — 5 misses 14d = investigate renewal
+1. Re-assess **ORCL re-entry** (Day 3.5 of cooldown; PeopleSoft compound risk flag)
+2. Monitor **GD** for Iran peace bear pressure (stop $335)
+3. **MU pre-earnings trim window opens Wed 6/17** (7d before 6/24 EPS)
+4. **Autopilot midday 12:47 ET = 2nd renewal acid test** (Mon morning was 30 min late)
+5. Cron miss running tally: 1 delay so far Mon (threshold 5 in 14d for renewal investigation)
 
-## Equity Trajectory (13 sessions)
+## Equity Trajectory (14 sessions)
 
 | Date | Close | Day $ |
 |------|-------|-------|
@@ -81,7 +91,7 @@ ARM 2sh @ $323.12 → $382.65 = +$119/sh = +$238 unrealized. Stop ratcheted $300
 | Mon 6/8 | $31,225.73 | +$20 |
 | Tue 6/9 | $31,148.35 | -$77 |
 | Wed 6/10 | $31,007.81 | -$141 |
-| **Thu 6/11** | $31,388.91 | **+$381 (+1.23%)** 🚀 |
-| **Fri 6/12** | **$31,608.31** | **+$220 (+0.67%)** 🚀 |
-| **13-session** | | **+$453 / +1.45%** |
-| **Thu+Fri 2-day** | | **+$601 / +1.91%** |
+| Thu 6/11 | $31,388.91 | +$381 (+1.23%) 🚀 |
+| Fri 6/12 | $31,608.31 | +$220 (+0.67%) 🚀 |
+| **Mon 6/15 AM** | **$31,756.85** | **+$148 (+0.47%) 🚀** |
+| **14-session** | | **+$552 / +1.77%** |
