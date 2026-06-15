@@ -1,70 +1,73 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-06-15 Mon 09:57 ET (MORNING — autopilot 30min delayed)
-**Equity:** $31,756.85 (+$148 / **+0.47% AM**)
-**Cash:** $15,810 (49.8%)
+**Last update:** 2026-06-15 Mon 16:25 ET (CLOSE — MANUAL EOD RECAP)
+**Equity:** $31,815.75 (+$231 / **+0.73% day**)
+**Cash:** $15,810 (49.7%)
 **Position count:** 17 equity + BTC + CVR
 **Day trades:** 0/4 | Spend $0/$5K (full headroom)
 
-## 🚀 AI Semi Sleeve Rallying — All 7 Green
+## 🎉 BEST 3-DAY STREAK: +$832 / +2.63%
 
-MU +8.3% day | INTC +5.2% day | AMD +8.1% day | MRVL +4.1% day | TSM +2.4% day | NVDA +1.9% day | ARM flat (+18% LC)
+Thu (+$381) + Fri (+$220) + Mon (+$231) = best 3-session streak in series.
 
-## 🎉 Iran War PEACE DEAL ✅
+## 🚀 AI Semi Sleeve Compounding — All 7 Green
 
-Iran war ENDED Sun 6/15 (5 outlets cross-confirmed). Oil -3-4%, defense mixed, tech risk-on. Sleeve all green.
+MU +18.1% LC (+10.6% day) | ARM +27.4% LC (+8.1% day) | MRVL +11.3% LC | INTC +8.3% LC | AMD +6.9% LC | TSM +5.8% LC | NVDA +0.3% LC (+3.5% day on $20B bond raise)
+
+## ⚠️ 3 of 3 Cron Acid Tests FAILED Mon
+
+Sat 6/13 proactive renewal hypothesis FULLY INVALIDATED. All 3 autopilot fires Mon late/missed.
 
 ## Recent Debriefs
 
-- [2026-06-15 Morning](debriefs/2026-06-15-0957-morning.md) — 3 stop ratchets MU $980 + INTC $120 + GE $325; Iran peace risk-on
-- [2026-06-12 Close](debriefs/2026-06-12-1623-close.md) — 🎉 ARM +18.4% LC; 3 stop ratchets
-- [2026-06-12 Midday](debriefs/2026-06-12-1318-midday.md) — INTC/MU stop ratchets
-- [2026-06-12 Morning](debriefs/2026-06-12-0957-morning.md) — 2 BUYs AMD + MRVL pipeline-PASS
-- [2026-06-11 Close](debriefs/2026-06-11-1623-close.md) — +1.23% BEST DAY in 12-session
+- [2026-06-15 Close](debriefs/2026-06-15-1625-close-manual.md) — 🎉 +$231 / +0.73% day; 10 stop ratchets; manual EOD recap (cron missed)
+- [2026-06-15 Midday](debriefs/2026-06-15-1326-midday-manual.md) — 3 ratchets MU/ARM/MRVL; manual recap (cron missed)
+- [2026-06-15 Morning](debriefs/2026-06-15-0957-morning.md) — 3 ratchets MU/INTC/GE; autopilot 30min late
+- [2026-06-12 Close](debriefs/2026-06-12-1623-close.md) — ARM +18.4% LC
+- [2026-06-12 Morning](debriefs/2026-06-12-0957-morning.md) — AMD + MRVL BUYs
 
-## Equity Trajectory (last 14 sessions)
+## Equity Trajectory (14 sessions)
 
 ```
 {
-  "labels": ["Thu 5/28","Fri 5/29","Mon 6/1","Tue 6/2","Wed 6/3","Thu 6/4","Fri 6/5","Mon 6/8","Tue 6/9","Wed 6/10","Thu 6/11","Fri 6/12","Mon 6/15 AM"],
-  "values": [31204.52, 31353.95, 31547.71, 31552.97, 31236.26, 31458.09, 31172.56, 31225.73, 31148.35, 31007.81, 31388.91, 31608.31, 31756.85]
+  "labels": ["Thu 5/28","Fri 5/29","Mon 6/1","Tue 6/2","Wed 6/3","Thu 6/4","Fri 6/5","Mon 6/8","Tue 6/9","Wed 6/10","Thu 6/11","Fri 6/12","Mon 6/15"],
+  "values": [31204.52, 31353.95, 31547.71, 31552.97, 31236.26, 31458.09, 31172.56, 31225.73, 31148.35, 31007.81, 31388.91, 31608.31, 31815.75]
 }
 ```
 
-14-session: **+$552 / +1.77%**
+14-session: **+$611 / +1.96%** | Thu+Fri+Mon 3-day: **+$832 / +2.63%** best streak in series
 
-## Mon 6/15 AM Trade Activity
+## Mon 6/15 Day Summary
 
-### Stop Ratchets (3 — profit-floor discipline, no daily-cap consumed)
-- **MU** $920 → $980 (lock $61/sh on +15.7% LC)
-- **INTC** $115 → $120 (lock $2.39/sh on +11.4% LC)
-- **GE** $310 → $325 (lock $39/sh on +21.8% LC)
+### 10 Stop Ratchets (UNPRECEDENTED — no daily-cap consumed)
 
-**Total incremental locked profit floor: $143**
+**AM (3):** MU $980 + INTC $120 + GE $325
+**Midday (3):** MU $1000 + ARM $375 + MRVL $275
+**EOD (4):** MU **$1040** + ARM **$390** + NVDA **$200** + AMD **$500**
 
-### BUYs: 0 (held positions already rallying — no fresh entry justification at peak premarket bull)
+**Cumulative floor lift: ~$327/sh**
 
-## Phase 0.5 Mercury Stack (20+ catalysts processed)
+### BUYs: 0 (held positions already rallying)
 
-🚀 NVDA Iran peace ecosystem
-🚀 MU 2 PT raises pre-EPS 6/24 (+8% PM)
-🚀 MRVL optical sector +5% PM | AXT +13%
-🚀 AMD Citi AMD-Meta GPU deal (+4% PM)
-🚀 INTC BofA + foundry focus (+3% PM)
-🚀 SMCI $7B AI infra raise closes
-🚀 SPCX +6-7% LOFF 2X ETF launch
-🚀 Iran peace cruise tailwind CCL/RCL/NCLH
-🛢️ Oil -3-4% (Total/Shell sell)
-📈 DDOG Truist PT $300 (+58%)
-🤝 CRM acquires Fin $3.6B agentic AI
-🤝 PSKY/WBD DOJ approves $110B M&A
+### Manual recap protocols: 2 (midday + close — both cron-missed)
+
+## Phase 0.5 Mercury Stack (138+ catalysts processed Mon)
+
+🚀 MU 4 PT raises: Wolfe $1250 + RBC $1200 + Cowen $1500 (STREET HIGH +127%!) + earlier
+🚀 AMD acquires MEXT AI memory + Citi-Meta GPU upside
+🚀 NVDA $20B bond raise (4.25x oversubscribed) — first high-grade bond since 2021
+🚀 INTC BofA + foundry + HPE quantum
+🚀 GOOG $1.5B AL + AMZN MO multi-billion data centers
+🛩️ LMT 2 contracts: F-35 $13.7B + GPS $514M
+🤝 ROKU Fox $22B + PSKY/WBD DOJ $110B + CRM-Fin $3.6B
 
 ## Themes
 
-1. 🚀 **AI Semi Sleeve +$200+ unrealized intraday** — all 7 names green
-2. 🚀 **Iran War PEACE DEAL ✅** — risk-on tech rally
-3. 🚀 **3 stop ratchets** — MU $980 + INTC $120 + GE $325 = $143 locked
-4. 🚀 **MU 2 PT raises pre-EPS 6/24** — Wolfe $1250 narrative thickening
-5. 🚀 **AMD-Meta GPU deal** Citi upside
-6. ⚠️ **Autopilot 30 min late** — renewal acid test partial; monitor midday
-7. ✅ **PDT no longer flagged** — same-day stop ratchets clean
+1. 🎉 **+$832 / +2.63% Thu+Fri+Mon** — best 3-session streak in series
+2. 🚀 **MU 4 PT raises** in single day; Cowen $1500 STREET HIGH (+127%)
+3. 🚀 **NVDA $20B bond raise** 4.25x oversubscribed = AI capex thesis institutional validation
+4. 🚀 **10 stop ratchets** — locked $327+ floor lift, $0 trade cap consumed
+5. 🚀 **All 7 AI sleeve names GREEN** — sleeve compounding
+6. ⚠️ **3/3 cron acid tests FAILED** — renewal investigation urgent
+7. ✅ **Iran war ENDED ✅** Sun 6/15 (5 outlets); oil -5%; tech risk-on
+8. ⚠️ **CCI cushion 3.2%** — REIT weakness watch Tuesday
