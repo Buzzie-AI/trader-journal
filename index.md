@@ -1,54 +1,64 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-06-16 Tue 16:13 ET (CLOSE — autopilot 20min delayed)
-**Equity:** $31,506.12 (-$310 / **-0.97% day**)
-**Cash:** $17,089.67 (54.2% — boosted by stop fires)
-**Position count:** 15 equity + BTC + CVR (was 17)
+**Last update:** 2026-06-17 Wed 16:23 ET (CLOSE — autopilot 30min delayed)
+**Equity:** $31,482.42 (-$78 / **-0.25% day** — outperformed SPY -0.6%)
+**Cash:** $18,808.21 (60% — boosted by CCI stop fire)
+**Position count:** 14 equity + BTC + CVR (CCI stopped today)
 **Day trades:** 0/4 | Spend $0/$5K
-**Day realized:** +$129.86 (MU + INTC stops)
+**Day realized:** +$32.40 (CCI clean stop)
 
-## 🚨 RATCHETS PAID OFF — Mon Stops Captured Profits
+## 🚨 RATCHETS CONTINUE PAYING OFF — CCI Stop Clean
 
-- MU stop $1039.33 = +$120.30 realized | INTC stop $120 = +$9.56 realized
-- Mon's 10 ratchets captured profits BEFORE today's AI semi selloff
-- AI semi sleeve reduced 7→5 names; cash up to 54.2%
+- CCI stop $85.93 = +$32.40 realized (clean, 0 slippage)
+- 3-day realized total: +$162.26 (Tue MU+INTC + Wed CCI)
+- Mon's 10 ratchets + Wed midday 2 ratchets validating discipline
 
-## ⚠️ Wed Gap Risk Watch
+## 🚀 Major Catalysts Captured
 
-3 stops with 1.3-1.6% cushion: AMD $500 / MRVL $275 / ARM $390
+- **MRVL S&P 500 inclusion Mon 6/22** (passive ETF forced buying)
+- **Jensen Huang $2B MRVL AI chip alliance** (pre-market gap reversal)
+- **3 Citi semicap PT raises** (MU $1200, LRCX $450, AMAT $710) + DB MU $1500
+- Fed Held Steady (Warsh's first decision) but hawkish framing faded tech
+
+## AI Semi Sleeve — Recovery + Fade
+
+- ARM +7.2% / MRVL +5.9% / AMD +2.1% / TSM +1.8% / NVDA -1.1%
+- Intraday peaks faded -2 to -5% on hawkish framing
+- Sleeve $4,031 / 12.8% fill (target 30%); headroom $5,420
 
 ## Recent Debriefs
 
-- [2026-06-16 Close](debriefs/2026-06-16-1613-close.md) — 🚨 2 stop fires; ratchets worked; equity -$310 day
-- [2026-06-16 Midday](debriefs/2026-06-16-1318-midday.md) — TIER-1 stop fires logged in real-time
-- [2026-06-16 Morning](debriefs/2026-06-16-0946-morning.md) — HOLD; counter-narratives forming
+- [2026-06-17 Close](debriefs/2026-06-17-1623-close.md) — 🚨 CCI stop +$32.40; AI semi recovery + fade
+- [2026-06-17 Midday](debriefs/2026-06-17-1230-midday.md) — 2 ratchets ARM/MRVL; AI semi rebound
+- [2026-06-17 Morning](debriefs/2026-06-17-0959-morning-manual.md) — Manual recap; MRVL Huang gap reversal
+- [2026-06-16 Close](debriefs/2026-06-16-1613-close.md) — 🚨 MU+INTC stops; equity -$310
 - [2026-06-15 Close](debriefs/2026-06-15-1625-close-manual.md) — 🎉 ARM +27%; 10 stop ratchets
-- [2026-06-12 Close](debriefs/2026-06-12-1623-close.md) — ARM +18.4% LC; 3 ratchets
 
-## Equity Trajectory (last 15 sessions)
+## Equity Trajectory (last 16 sessions)
 
 ```
 {
-  "labels": ["Thu 5/28","Fri 5/29","Mon 6/1","Tue 6/2","Wed 6/3","Thu 6/4","Fri 6/5","Mon 6/8","Tue 6/9","Wed 6/10","Thu 6/11","Fri 6/12","Mon 6/15","Tue 6/16"],
-  "values": [31204.52, 31353.95, 31547.71, 31552.97, 31236.26, 31458.09, 31172.56, 31225.73, 31148.35, 31007.81, 31388.91, 31608.31, 31815.75, 31506.12]
+  "labels": ["Thu 5/28","Fri 5/29","Mon 6/1","Tue 6/2","Wed 6/3","Thu 6/4","Fri 6/5","Mon 6/8","Tue 6/9","Wed 6/10","Thu 6/11","Fri 6/12","Mon 6/15","Tue 6/16","Wed 6/17"],
+  "values": [31204.52, 31353.95, 31547.71, 31552.97, 31236.26, 31458.09, 31172.56, 31225.73, 31148.35, 31007.81, 31388.91, 31608.31, 31815.75, 31506.12, 31482.42]
 }
 ```
 
-15-session: **+$302 / +0.97%** (3-day Thu+Fri+Mon best streak +$832 / +2.63% gave back $310 today)
+16-session: **+$278 / +0.89%** (Mon-Wed 3-day -$333 / -1.05% includes 4 stop captures +$162)
 
-## Phase 0.5 Mercury Stack — Heaviest Tue On Record
+## Phase 0.5 Mercury Stack — Wed Heavy Catalyst Day
 
-🚀 **BULLISH HELD:** AMD-Rackspace 30MW 2026-2028 + EQIX-CSCO-NVDA AI Factory global + HPE NVIDIA Vera CPU AI Factory + Trump INVOKES DPA weapons/munitions (HELD GD/BA) + GM-LMT DoD-facilitated defense collab
+🚀 **BULLISH HELD:** MRVL Huang $2B AI chip alliance + MRVL+FLEX S&P 500 inclusion Mon 6/22 + MU Citi $1200 + DB $1500 PT raises + LRCX Citi $450 + AMAT Citi $710 + HPE-NVDA Vultr AI cloud + NVDA Coherent TX expansion
 
-⚠️ **BEARISH HELD (drove selloff):** AMD M Science Q2 GPU "materially worsened" + Anthropic Fable 5 PULLED by Washington (AI regulatory) + AI Data Center Resistance $130B blocked + Cathie Wood AMD/TSM dump + MSFT walks away $3B ORCL cloud (ORCL re-entry POSTPONED)
+⚠️ **BEARISH HELD (drove fade):** Fed Hawkish Framing (Warsh first decision) + AST SpaceMobile direct-to-device sat threat (CCI tower REIT stopped)
 
-🚀 **Adjacent:** ROKU Fox $22B M&A (closed Mon) + COIN tokenized stocks launch + Snap Specs $2,195 AR + QCOM-Tenstorrent $10B M&A continues + AMAT EssilorLuxottica AR + Anthropic Claude in Kalshi + GOOG Brazos cooling
+🤝 **Adjacent:** ORCL building (MSFT refutation + Lightpath + OPERA — pipeline pending) + NVO data breach + PLTR Burry + FTNT attack + AAPL iPhone Air 2027
 
 ## Themes
 
-1. 🚨 **RATCHETS PROVEN VALUABLE** — 10 ratchets across Sat-Mon captured profits before today's selloff
-2. ⚠️ **AI Semi Sleeve Pressure** — M Science AMD + Anthropic Fable 5 pull + AI DC resistance + Cathie Wood
-3. 🚀 **Defense Tailwind** — Trump DPA invocation + GM-LMT DoD collaboration; GE +2.8%, GD +1.2%
-4. 🛡️ **HELD Defensive Names Steady** — UNH/CVS/SYY/D/TJX/NUE/CCI all flat-to-slightly-down
-5. ⚠️ **3 stops at 1.3-1.6% cushion** going into Wed (gap risk)
-6. ✅ **Cash 54.2%** — fortified for opportunities post-clarity
+1. 🚨 **RATCHETS PROVEN AGAIN** — CCI clean stop = 4th stop fire 2 days; +$162.26 realized
+2. 🚀 **MRVL Major Setup** — Huang $2B + S&P 500 inclusion + stock +7-8% intraday
+3. 🚀 **AI Semi Sleeve Recovery** — Citi semicap cluster + Huang halo = durable bull
+4. 📈 **MU Re-Entry Building** — 2 PT raises ($1200 Citi + $1500 DB) for Mon 6/22 cooldown clearance
+5. ⚠️ **Fed Hawkish Fade** — Powell framing compressed intraday peaks -2 to -5%
+6. ✅ **Cash 60%** — fortified for Thu opportunities
+7. ⚠️ **Cron lag persists** — acid test 9 fired 30 min late (intermittent variance)
