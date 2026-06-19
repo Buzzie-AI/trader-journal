@@ -118,3 +118,28 @@ Rationale:
 - ⏳ ORCL pipeline (midday/close)
 - ⚠️ Alpaca data feed lag noted (snapshots showing Thu close at 9:56 ET)
 - ⚠️ Cron lag persists — acid test 13 MISSED
+
+---
+
+## 🚨 CORRECTION — JUNETEENTH HOLIDAY
+
+**Market is CLOSED today (Juneteenth Federal Holiday).** Verified via `get_clock`:
+- `is_open: false`
+- `next_open: 2026-06-22 09:30 ET` (Monday)
+
+Manual morning recap was unnecessary. Alpaca data feed showing Thu close is correct behavior — no live data because no trading session.
+
+Key implications:
+- All Fri cron fires today are noise (no live market)
+- Cron acid test 13 "FAIL" is N/A (no real morning autopilot expected)
+- Pre-market alerts (e.g., MRVL +7%) referenced overnight RSS coverage, NOT live trading
+- No ratchet decisions possible today
+- All position queue/pipeline assessments deferred to Mon 6/22
+
+**Mon 6/22 setup will be MAJOR:**
+- 🚀🚀 MRVL S&P 500 inclusion T-0 (passive ETF forced buying day)
+- 🚀 MU re-entry candidate Day 5 cooldown clears
+- 🚀 ORCL re-entry candidate Day 8 cooldown clears
+- Trade slot conservation = 4/4 fresh
+
+Apologies for the recap confusion.
