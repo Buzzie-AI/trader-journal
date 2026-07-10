@@ -1,85 +1,101 @@
-# Portfolio Snapshot — 2026-06-16 16:13 ET (Tue CLOSE)
+# Portfolio Snapshot — 2026-07-10 01:52 ET (Fri MANUAL NIGHT — planning-only)
 
-**Equity:** $31,506.12 (-$310 / **-0.97% day**)
-**Cash:** $17,089.67 (54.2% — boosted by stop fires)
-**Position value:** $14,416.45
-**Position count:** 15 equity + BTCUSD + CVR (down from 17 Mon)
-**Day realized:** +$129.86 (MU $120.30 + INTC $9.56)
-**Day trades:** 0/4 | Spend $0/$5K (full headroom)
+**Equity:** $31,312.68 (+$10 Thu 7/9 = essentially flat)
+**Cash:** $23,137.21 (73.9% — sleeve deeply under-filled)
+**Position value:** $8,175.47
+**Position count:** 10 equity + BTCUSD + CVR
+**Day trades:** 0/4 | Trades today: 0/4 | Spend $0/$5K (full headroom)
 
-## 🚨 TIER-1 STOP FIRES TODAY
+## AI Semi Sleeve — Rebuild Day 1 Complete + Thu Follow-Through
 
-- **MU stop FILLED at $1039.33** (Mon $1040 ratchet, 67 cent slippage) → +$120.30 realized
-- **INTC stop FILLED at $120 clean** (Mon $120 ratchet) → +$9.56 realized
-- **Mon's 10 ratchets WORKED** — captured profits BEFORE AI semi selloff
+Sleeve fill 19.4% / 30% target (still deeply UNDER-FILLED; Day 2 plan awaits operator auth)
 
-## AI Semi Sleeve REDUCED to 5 Names (was 7)
+- NVDA 3sh @ $199.46 basis, $202.38 current, **+1.46% LC** = +$8.75 unreal
+- MRVL 5sh @ $229.91 basis, $243.11 current, **+5.74% LC** = **+$66.00 unreal** 🚀
 
-NVDA + TSM + ARM + AMD + MRVL = $3,942 / 12.5% fill (vs 17.4% Mon EOD)
+Combined rebuild MV: $1,822.69 (5.83% of portfolio, 19.4% of sleeve target)
 
-## ⚠️ Critical EOD Cushions (Gap Risk Wed Open)
+## Thu 7/9 Silent Day (autopilot crons expired during 3-week outage; no BUY/ratchet activity)
 
-| Ticker | Stop | EOD | Cushion |
-|--------|------|-----|---------|
-| **AMD** | **$500** | **$507.32** | **1.4% ⚠️⚠️** |
-| **MRVL** | **$275** | **$278.55** | **1.3% ⚠️⚠️** |
-| **ARM** | **$390** | **$396.27** | **1.6% ⚠️⚠️** |
-| NVDA | $200 | $207.37 | 3.6% |
-| CCI | $85.93 | $88.14 | 2.5% |
+Wed close $31,302 → Thu close $31,313 = +$10 / +0.03% (essentially flat).
+MRVL +5.02% intraday validated dip-buy thesis on schedule.
 
-## Phase 0.5 Mercury Stack Mixed
+## Held Positions (10 equity + BTC + CVR) — Thu 7/9 EOD
 
-🚀 **HELD bullish:** AMD-Rackspace 30MW + EQIX-CSCO-NVDA AI Factory + HPE NVIDIA Vera CPU + **Trump INVOKES DPA** + GM-LMT DoD collab
+| Ticker | Qty | Basis | Thu Close | LC % | Stop | Cushion |
+|--------|-----|-------|-----------|------|------|---------|
+| UNH 🏆 | 0.69 | $290 | $431.27 | **+48.7%** | — (frac exception) | n/a |
+| CVS 🏆 | 27 | $75.83 | $102.85 | **+35.6%** | $90 | 12.5% |
+| GE 🏆 | 2 | $286.00 | $358.86 | **+25.5%** | $324.53 | 9.6% |
+| SYY | 5 | $73.21 | $82.03 | +12.0% | $71.45 | 12.9% |
+| MRVL ⭐ | 5 | $229.91 | $243.11 | **+5.74%** 🚀 | $216 | 11.2% |
+| GD | 1 | $359.72 | $374.60 | +4.1% | $333.41 | 11.0% |
+| BA | 3 | $220.33 | $224.25 | +1.8% | $202 | 9.9% |
+| NVDA ⭐ | 3 | $199.46 | $202.38 | +1.46% | $187 | 7.6% |
+| D | 4 | $68.82 | $69.45 | +0.9% | $62.33 | 10.3% |
+| TJX | 4 | $159.00 | $151.06 | -5.0% | $146 | 3.4% ⚠️ |
+| BTCUSD | 0.0034 | $70,867 | $64,070 | -9.6% | frozen | n/a |
+| 737CVR019 | 4.06 | $0 | n/a | — | — | — |
 
-⚠️ **HELD bearish:** AMD M Science Q2 "materially worsened" + Anthropic Fable 5 PULLED by Washington + AI DC resistance $130B blocked + Cathie Wood AMD/TSM dump + **MSFT walks away from $3B ORCL** cloud deal
+## Open Stop-Loss Orders (all GTC)
 
-## Held Positions (15 + BTC + CVR) — EOD Tue
+| Ticker | Qty | Stop | Order ID |
+|--------|-----|------|----------|
+| NVDA | 3 | $187 | e991c8d6 |
+| MRVL | 5 | $216 | af589ad8 |
+| GE | 2 | $324.53 | fb87f376 |
+| GD | 1 | $333.41 | 593384f8 |
+| CVS | 27 | $90 | fa8b2c3d |
+| SYY | 5 | $71.45 | 38cb77ef |
+| BA | 3 | $202 | efe8d547 |
+| TJX | 4 | $146 | 4b8f2940 |
+| D | 4 | $62.33 | a52978c1 |
 
-| Ticker | Qty | Basis | EOD | Stop | Cushion |
-|--------|-----|-------|-----|------|---------|
-| UNH 🏆 | 0.69 | $290 | $407.95 | — | n/a |
-| CVS 🏆 | 27 | $75.83 | $100.73 | $90 | 10.6% |
-| ARM 🏆 | 2 | $323.12 | $396.27 | $390 | **1.6% ⚠️** |
-| GE 🏆 | 2 | $285.99 | $351.79 | $325 | 7.8% |
-| NUE | 9 | $223 | $259.12 | $230 | 11.2% |
-| AMD ⭐ | 1 | $512 | $507.32 | $500 | **1.4% ⚠️** |
-| MRVL ⭐ | 2 | $275.745 | $278.55 | $275 | **1.3% ⚠️** |
-| SYY | 5 | $73.21 | $79.41 | $72 | 9.3% |
-| CCI ⚠️ | 20 | $84.31 | $88.14 | $85.93 | 2.5% |
-| TJX | 4 | $159 | $166.34 | $146 | 12.2% |
-| TSM ⭐ | 1 | $417.29 | $426.03 | $389 | 9.5% |
-| BA | 3 | $220.33 | $227.34 | $202 | 11.1% |
-| CSCO | 1 | $117.34 | $119.59 | $115 | 3.7% |
-| NVDA ⭐ | 8 | $211.61 | $207.37 | $200 | 3.6% |
-| GD | 1 | $359.72 | $364.00 | $335 | 8.0% |
-| D | 4 | $68.82 | $68.54 | $62.33 | 9.1% |
-| BTCUSD | 0.0034 | $70,867 | ~$65,800 | frozen | n/a |
+## Fri 7/10 Watch Priorities
 
-## Wed 6/17 Watch Priorities
+1. **MRVL breakeven-stop check** — at 95.8% of 1R; if opens ≥$243 ratchet stop $216→$230
+2. **Day 2 rebuild** — ARM/AMD/TSM plan (~$2.8K) awaits operator "GO"
+3. **Iran war 2.0 overnight** — cross-confirm any new escalation
+4. **AAPL-CXMT memory threat** — check for MU re-entry re-blocker news
+5. **autopilot_morning fires 09:23 ET** — first scheduled fire since 3-week outage recovery
 
-1. ⚠️⚠️ **AMD/MRVL/ARM gap risk** at open (1.3-1.6% cushions)
-2. **ORCL re-entry POSTPONED** (MSFT $3B walk-away security)
-3. **LMT entry watch** on defense DPA tailwind pullback
-4. **MU pre-EPS context** (stopped out clean, no need to trim)
-5. **Cron acid test 7** at 9:23 ET
-6. Wed BoJ + Fed rate decision context
+## Allocation
 
-## Equity Trajectory (15 sessions)
+- Cash: 73.9%
+- Semi_AI (NVDA+MRVL): 5.83%
+- Health Care (UNH+CVS): 9.16%
+- Defense (BA+GD+GE): 5.63%
+- Consumer Staples (SYY): 1.31%
+- Consumer Discretionary (TJX): 1.93%
+- Utility (D): 0.89%
+- Crypto (BTC frozen): 0.71%
+
+## Equity Trajectory (Last 20 Sessions)
 
 | Date | Close | Day $ |
 |------|-------|-------|
-| Thu 5/28 | $31,204.52 | +$49 |
-| Fri 5/29 | $31,353.95 | +$149 |
-| Mon 6/1 | $31,547.71 | +$194 |
-| Tue 6/2 | $31,552.97 | +$5 |
-| Wed 6/3 | $31,236.26 | -$317 |
-| Thu 6/4 | $31,458.09 | +$222 |
-| Fri 6/5 | $31,172.56 | -$285 |
-| Mon 6/8 | $31,225.73 | +$20 |
-| Tue 6/9 | $31,148.35 | -$77 |
-| Wed 6/10 | $31,007.81 | -$141 |
-| Thu 6/11 | $31,388.91 | +$381 (+1.23%) 🚀 |
-| Fri 6/12 | $31,608.31 | +$220 (+0.67%) 🚀 |
-| Mon 6/15 | $31,815.75 | +$231 (+0.73%) 🚀 |
-| **Tue 6/16** | **$31,506.12** | **-$310 (-0.97%) ⚠️** |
-| **15-session** | | **+$302 / +0.97%** |
+| Mon 6/8 | $31,156.56 | -$74 |
+| Tue 6/9 | $31,020.49 | -$136 |
+| Wed 6/10 | $31,397.76 | +$377 |
+| Thu 6/11 | $31,584.39 | +$187 |
+| Mon 6/15 | $31,816.01 | +$232 (Iran MoU peace deal) 🚀 |
+| Tue 6/16 | $31,560.51 | -$256 |
+| Wed 6/17 | $31,450.61 | -$110 |
+| Thu 6/18 | $31,499.34 | +$49 |
+| Mon 6/22 | $31,517.44 | +$18 |
+| Tue 6/23 | $31,217.50 | -$300 (start of silent Claude outage) |
+| Wed 6/24 | $31,263.78 | +$46 |
+| Thu 6/25 | $31,376.43 | +$113 |
+| Fri 6/26 | $31,283.59 | -$93 |
+| Mon 6/29 | $31,155.69 | -$128 |
+| Tue 6/30 | $31,214.91 | +$59 |
+| Wed 7/1 | $31,278.21 | +$63 |
+| Thu 7/2 | $31,345.51 | +$67 |
+| Mon 7/6 | $31,290.31 | -$55 (Iran war 2.0 pending) |
+| Tue 7/7 | $31,335.99 | +$46 (🚨 Iran war 2.0 confirmed EOD) |
+| Wed 7/8 | $31,302.53 | -$33 (REBUILD Day 1: NVDA+MRVL) |
+| **Thu 7/9** | **$31,312.68** | **+$10** (silent day — no cron) |
+
+**Trajectory summary:** ~20-session flat range around $31.2-31.6K; defensive book preserved
+capital during 3-week Claude outage while AI semi sleeve was exited via ratcheted stops.
+Rebuild Day 1 (Wed 7/8) launched cleanly, Thu 7/9 followed through with MRVL +5.02%.
