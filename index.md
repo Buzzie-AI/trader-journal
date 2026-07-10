@@ -1,7 +1,7 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-07-10 Fri 01:52 ET (MANUAL NIGHT — planning-only, market opens 09:30 ET)
-**Equity:** $31,312.68 (+$10 Thu 7/9 = essentially flat)
+**Last update:** 2026-07-10 Fri 09:57 ET (MORNING — cron 30min late; Day 2 plan awaits operator auth)
+**Equity:** $31,303.82 (~flat vs Thu close; NVDA +1.87% AM, MRVL -2.95% AM pullback)
 **Cash:** $23,137.21 (73.9%)
 **Position count:** 10 equity + BTC + CVR
 **Day trades:** 0/4 | Trades today: 0/4 | Spend $0/$5K
@@ -41,6 +41,7 @@ Day 2 rebuild plan drafted Wed 7/8, awaits operator authorization:
 
 ## Recent Debriefs
 
+- [2026-07-10 Morning](debriefs/2026-07-10-0957-morning.md) — 5-tier AI capex bull; Iran cross-confirm VERIFIED; Day 2 planned awaits auth
 - [2026-07-10 Manual Night](debriefs/2026-07-10-0152-manual-night.md) — Planning-only; MRVL near 1R; Day 2 pending
 - [2026-07-08 Close Rebuild](debriefs/2026-07-08-1550-close-rebuild.md) — 🚀 NVDA + MRVL Day 1 rebuild executed
 - [2026-06-19 Morning](debriefs/2026-06-19-0956-morning-manual.md) — Juneteenth holiday recap
