@@ -1,7 +1,7 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-07-10 Fri 13:18 ET (🚀 Day 2 + MRVL add — 4/4 slots deployed)
-**Equity:** $31,382 (+$73 / +0.23% day)
+**Last update:** 2026-07-10 Fri 16:37 ET (CLOSE — manual recap after autopilot_close MISSED at 15:53)
+**Equity:** $31,375 (+$66 / +0.21% day; NVDA at 92.6% of 1R — Mon ratchet candidate)
 **Cash:** $19,737 (63%)
 **Position count:** 13 equity + BTC + CVR
 **Day trades:** 0/4 | Trades today: 4/4 (FULL) | Spend $3,400/$5K (68%)
@@ -50,6 +50,7 @@ Day 2 rebuild plan drafted Wed 7/8, awaits operator authorization:
 
 ## Recent Debriefs
 
+- [2026-07-10 Close (MANUAL — cron missed)](debriefs/2026-07-10-1637-close-manual.md) — EOD equity +0.21%; NVDA at 92.6% of 1R = Mon ratchet candidate; no ratchets triggered
 - [2026-07-10 Midday](debriefs/2026-07-10-1317-midday.md) — MRVL 2sh add ($237.23, blended stop $217); 4/4 slots deployed; sleeve fill 16.7%
 - [2026-07-10 Morning](debriefs/2026-07-10-0957-morning.md) — 5-tier AI capex bull; Iran cross-confirm VERIFIED; Day 2 planned awaits auth
 - [2026-07-10 Manual Night](debriefs/2026-07-10-0152-manual-night.md) — Planning-only; MRVL near 1R; Day 2 pending
