@@ -1,11 +1,11 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-07-13 Mon 09:57 ET (Iran War 2.0 Verified — ARM stop fired)
-**Equity:** $31,168 (-$207 / -0.66% day; Iran risk-off dominates)
-**Cash:** $20,652 (66%)
-**Position count:** 12 equity + BTC + CVR (ARM exited)
-**Day trades:** 0/4 | Trades today: 1/4 (ARM stop-fill only)
-**Realized:** -$48.60 (ARM Fri Day 2 entry)
+**Last update:** 2026-07-13 Mon 16:32 ET (CLOSE MANUAL — autopilot_close MISSED at 15:53)
+**Equity:** $31,082 (-$283 / -0.90% day; Iran War 2.0 dominates)
+**Cash:** $21,746 (70% — up on stop cash-outs)
+**Position count:** 11 equity + BTC + CVR (ARM+MRVL exited)
+**Day trades:** 0/4 | Trades today: 3/4 (2 stops + 1 dip-add)
+**Realized:** -$153.81 (ARM -$48.60 + MRVL -$105.21)
 
 ## 🚀🚀🚀 REBUILD DAY 2 Executed Fri 7/10 (per operator "stop being so conservative")
 
