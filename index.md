@@ -51,6 +51,8 @@ Day 2 rebuild plan drafted Wed 7/8, awaits operator authorization:
 
 ## Recent Debriefs
 
+- [2026-07-13 Close MANUAL — cron missed](debriefs/2026-07-13-1632-close-manual.md) — 🚨 Iran dominates -0.90% day; ARM+MRVL stops -$153.81; TSM +1sh dip-add per operator query; sleeve 9.5%
+- [2026-07-13 Midday](debriefs/2026-07-13-1317-midday.md) — Iran intensifies; MRVL 0.44% cushion (fired 8min later); HOLD discipline
 - [2026-07-13 Morning](debriefs/2026-07-13-0957-morning.md) — 🚨 Iran War 2.0 VERIFIED; ARM stop fired -$48.60; HOLD sleeve, no adds
 - [2026-07-10 Close (MANUAL — cron missed)](debriefs/2026-07-10-1637-close-manual.md) — EOD equity +0.21%; NVDA at 92.6% of 1R = Mon ratchet candidate; no ratchets triggered
 - [2026-07-10 Midday](debriefs/2026-07-10-1317-midday.md) — MRVL 2sh add ($237.23, blended stop $217); 4/4 slots deployed; sleeve fill 16.7%
