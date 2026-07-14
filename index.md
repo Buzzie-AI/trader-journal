@@ -1,85 +1,78 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-07-13 Mon 16:32 ET (CLOSE MANUAL — autopilot_close MISSED at 15:53)
-**Equity:** $31,082 (-$283 / -0.90% day; Iran War 2.0 dominates)
-**Cash:** $21,746 (70% — up on stop cash-outs)
-**Position count:** 11 equity + BTC + CVR (ARM+MRVL exited)
-**Day trades:** 0/4 | Trades today: 3/4 (2 stops + 1 dip-add)
-**Realized:** -$153.81 (ARM -$48.60 + MRVL -$105.21)
+**Last update:** 2026-07-14 Tue 13:19 ET (MIDDAY — NVDA +2sh on H200 China unlock)
+**Equity:** $31,149 (+$59 / +0.19% day)
+**Cash:** $20,669 (66.4%)
+**Position count:** 11 equity + BTC + CVR
+**Day trades:** 0/4 | Trades today: 2/4 (BA +3sh + NVDA +2sh)
+**Realized WTD:** -$153.81 (Mon ARM+MRVL stops)
 
-## 🚀🚀🚀 REBUILD DAY 2 Executed Fri 7/10 (per operator "stop being so conservative")
+## 🚀🚀🚀 Tue Trade #2: NVDA +2sh on H200 China Unlock ACTIVATED
 
-3 fills, all clean 0.38-0.55% positive slip:
-- **ARM +3sh @ $321.21** (stop $305 GTC, order cbe7e75e)
-- **AMD +2sh @ $547.83** (stop $520 GTC, order 7f575350)
-- **TSM +2sh @ $433.36** (stop $410 GTC, order fe308c93)
+- **NVDA +2sh @ $211.05** (limit $212, +0.45% slip)
+- Catalyst: Reuters US official confirms H200 shipments to China have BEGUN + Reuters Exclusive documents show ZTE among firms LICENSED to purchase H200
+- Reverses Mon 04:02 ET "cuts >50% Asian AI chip customers" narrative
+- Blended basis $204.10 on 5sh total; new stop $187 qty=5 GTC
+- 5-agent pipeline PASS: Iris/Grace/Atlas/Victor/Diana + Marcus safety gates all GREEN
 
-Sleeve fill 5.8% → 15.2% (still ~15pp under 30% target). Max total realized loss all 3 stops: -$151 (best case).
+## 🚀 Tue Trade #1: BA +3sh on 6-Catalyst Underreaction (09:58 ET)
 
-## 🚀 REBUILD DAY 1 Executed Wed 7/8 (per operator "GO 2" directive)
+- BA +3sh @ $218.21 (limit $219, +0.36% slip); blended $219.27 on 6sh, stop $208
+- Catalysts (5 days): MAX 7 FAA + Trump SKIPS tariffs 6mo + 4th 737 MAX line Everett + Philippine Air 15x 787 + Farnborough MQ-28 Ghost Bat + Riyadh Air 25-30 787 + Trump $1.21T defense push + Iran defense environment
 
-Return to service after 3-week Claude login outage. AI semi sleeve had been fully
-liquidated during silence via ratcheted stops. Operator directive: "rebuild the AI sleeve".
+## 🚀🚀🚀 Compound AI Capex Bull Stack ($131B This Week)
 
-- **NVDA +3sh @ $199.4635** (stop $187) → Thu close $202.38 = +$8.75 unreal
-- **MRVL +5sh @ $229.9108** (stop $216) → Thu close $243.11 = **+$66.00 unreal (+5.74% LC)** 🚀
+- Meta Louisiana DC $50B / 5GW (Mon)
+- Nebius Reflection AI infra $1B thru 2029 (Tue)
+- Switch DC IPO $80B via GS/JPM (Tue)
+- Plus: AMD KeyBanc + BofA + TD Cowen 3-firm PT cluster (Tue AM)
+- Plus: Lewis Sanders $9.5B TSM bet vindicated by 68% June rev (Tue AM)
+- Plus: AAPL+PrismML on-device AI (Tue midday) — TSM anchor customer
+- Plus: NVDA H200 China unlock ACTIVATED (Tue AM)
 
-**MRVL at 95.8% of 1R** — just shy of Harvest breakeven-stop trigger. Fri open decides
-whether to ratchet stop $216 → $230 (breakeven).
+## 🚨 Iran War 2.0 Active — Now MEGA-BANK C-Suite Confirmed
 
-## 🚨 Iran War 2.0 Active
+Citi CEO on Q2 earnings call Tue 11:52 ET: "conflict in the Middle East weighed a bit on global growth" — first mega-bank CEO to explicitly quantify the drag. Cross-confirmed ≥5 outlets Mon (Bloomberg/CNN/CNBC/AJ/ABC).
 
-Peace deal collapsed Tue 7/7 (MoU signed 6/17 held ~3 weeks). US strikes on Iran after
-3 tankers attacked in Strait of Hormuz; Iran retaliating US bases Bahrain/Kuwait. ✅
-Cross-confirmed ≥4 outlets (Reuters/NBC/AP/NYT). Chip stocks resilient Wed-Thu despite
-macro overlay. Monitor overnight developments per cross-confirm rule.
+## AI Semi Sleeve — Refill in Progress (11.0% of 30% target)
 
-## ✅ Cron Infrastructure Rebuilt
+Sleeve currently NVDA+AMD+TSM = $3,431 = 11.0% fill. Headroom $5,914. Two trade slots remaining today.
 
-11 AUTONOMOUS_SCHEDULE_V1 jobs recreated at 01:50 ET after 7-day TTL expiry during
-outage. `autopilot_morning` will fire 09:23 ET as first autonomous run since Thu 6/18.
+- NVDA 5sh @ $204.10 blended, $211.15 current, **+3.45% LC** = +$35.25 unreal
+- AMD 2sh @ $547.83 basis, $555.54 current, **+1.41% LC** = +$15.43 unreal
+- TSM 3sh @ $430.28 blended, $421.45 current, **-2.05% LC** = -$26.51 unreal
 
-## AI Semi Sleeve — Deeply Under-Filled (19.4% fill)
-
-Sleeve target $9,394 / 30% of portfolio. Currently NVDA+MRVL = $1,824 = **19.4% fill**.
-Day 2 rebuild plan drafted Wed 7/8, awaits operator authorization:
-- BUY ARM 3sh @ ~$305 = ~$915
-- BUY AMD 2sh @ ~$515 = ~$1,030 (only if Cathie dumping stops)
-- BUY TSM 2sh @ ~$434 = ~$868
-- Total ~$2.8K (56% of $5K daily cap; 3 of 4 trade slots)
-- Skip MU (AAPL-CXMT China memory threat active)
+Combined sleeve MV: $3,431 (post-adds)
 
 ## Recent Debriefs
 
-- [2026-07-13 Close MANUAL — cron missed](debriefs/2026-07-13-1632-close-manual.md) — 🚨 Iran dominates -0.90% day; ARM+MRVL stops -$153.81; TSM +1sh dip-add per operator query; sleeve 9.5%
+- [2026-07-14 Midday — NVDA +2sh H200 unlock](debriefs/2026-07-14-1319-midday.md) — 🚀🚀🚀 H200 China unlock ACTIVATED; sleeve 9.65% → 11.0%; 2/4 trades used
+- [2026-07-14 Morning — BA +3sh 6-catalyst](debriefs/2026-07-14-0957-morning.md) — 🚀 Defense stack deployed; sleeve bounce AMD +4.19%; equity +0.23% day
+- [2026-07-13 Close MANUAL — cron missed](debriefs/2026-07-13-1632-close-manual.md) — 🚨 Iran dominates -0.90% day; ARM+MRVL stops -$153.81; TSM +1sh dip-add
 - [2026-07-13 Midday](debriefs/2026-07-13-1317-midday.md) — Iran intensifies; MRVL 0.44% cushion (fired 8min later); HOLD discipline
-- [2026-07-13 Morning](debriefs/2026-07-13-0957-morning.md) — 🚨 Iran War 2.0 VERIFIED; ARM stop fired -$48.60; HOLD sleeve, no adds
-- [2026-07-10 Close (MANUAL — cron missed)](debriefs/2026-07-10-1637-close-manual.md) — EOD equity +0.21%; NVDA at 92.6% of 1R = Mon ratchet candidate; no ratchets triggered
-- [2026-07-10 Midday](debriefs/2026-07-10-1317-midday.md) — MRVL 2sh add ($237.23, blended stop $217); 4/4 slots deployed; sleeve fill 16.7%
+- [2026-07-13 Morning](debriefs/2026-07-13-0957-morning.md) — 🚨 Iran War 2.0 VERIFIED; ARM stop fired -$48.60
+- [2026-07-10 Close (MANUAL — cron missed)](debriefs/2026-07-10-1637-close-manual.md) — EOD equity +0.21%; NVDA at 92.6% of 1R
+- [2026-07-10 Midday](debriefs/2026-07-10-1317-midday.md) — MRVL 2sh add ($237.23, blended stop $217); 4/4 slots deployed
 - [2026-07-10 Morning](debriefs/2026-07-10-0957-morning.md) — 5-tier AI capex bull; Iran cross-confirm VERIFIED; Day 2 planned awaits auth
 - [2026-07-10 Manual Night](debriefs/2026-07-10-0152-manual-night.md) — Planning-only; MRVL near 1R; Day 2 pending
 - [2026-07-08 Close Rebuild](debriefs/2026-07-08-1550-close-rebuild.md) — 🚀 NVDA + MRVL Day 1 rebuild executed
-- [2026-06-19 Morning](debriefs/2026-06-19-0956-morning-manual.md) — Juneteenth holiday recap
-- [2026-06-18 Close](debriefs/2026-06-18-1623-close.md) — 3 adds + 5 ratchets; sleeve 17.4%
-- [2026-06-18 Midday](debriefs/2026-06-18-1305-midday.md) — 2 ratchets NVDA + TSM
 
 ## Equity Trajectory (Last 20 Sessions)
 
 ```
 {
-  "labels": ["Mon 6/8","Tue 6/9","Wed 6/10","Thu 6/11","Mon 6/15","Tue 6/16","Wed 6/17","Thu 6/18","Mon 6/22","Tue 6/23","Wed 6/24","Thu 6/25","Fri 6/26","Mon 6/29","Tue 6/30","Wed 7/1","Thu 7/2","Mon 7/6","Tue 7/7","Wed 7/8","Thu 7/9"],
-  "values": [31156.56, 31020.49, 31397.76, 31584.39, 31816.01, 31560.51, 31450.61, 31499.34, 31517.44, 31217.50, 31263.78, 31376.43, 31283.59, 31155.69, 31214.91, 31278.21, 31345.51, 31290.31, 31335.99, 31302.53, 31312.68]
+  "labels": ["Mon 6/8","Tue 6/9","Wed 6/10","Thu 6/11","Mon 6/15","Tue 6/16","Wed 6/17","Thu 6/18","Mon 6/22","Tue 6/23","Wed 6/24","Thu 6/25","Fri 6/26","Mon 6/29","Tue 6/30","Wed 7/1","Thu 7/2","Mon 7/6","Tue 7/7","Wed 7/8","Thu 7/9","Fri 7/10","Mon 7/13","Tue 7/14"],
+  "values": [31156.56, 31020.49, 31397.76, 31584.39, 31816.01, 31560.51, 31450.61, 31499.34, 31517.44, 31217.50, 31263.78, 31376.43, 31283.59, 31155.69, 31214.91, 31278.21, 31345.51, 31290.31, 31335.99, 31302.53, 31312.68, 31365.00, 31089.80, 31149.26]
 }
 ```
 
-**~20-session trajectory:** flat range around $31.0-31.8K; defensive book preserved
-capital during 3-week Claude outage; AI semi rebuild launching cleanly.
+**~24-session trajectory:** Recovered from Mon Iran-driven $31,089 low to $31,149 midday Tue as compound AI catalyst stack (H200 unlock + AMD 3-firm cluster + Sanders validation + Switch $80B IPO) drives sleeve bounce. Cash 66.4% remains deep; sleeve fill 11% vs 30% target = plenty of room to continue rebuild.
 
 ## Themes
 
-1. 🚀 **REBUILD LAUNCHED** — NVDA + MRVL Day 1 executed; MRVL +5.02% Thu validated
-2. 📊 **PORTFOLIO PRESERVED** — 3-week silent outage; defensive book flat, sleeve exited clean via ratchets
-3. ✅ **CRON INFRA REBUILT** — 11 jobs active; autopilot_morning first fire 09:23 ET Fri
-4. 🚧 **DAY 2 REBUILD PENDING** — $2.8K plan drafted, awaits operator green-light
-5. ⚠️ **IRAN WAR 2.0 ACTIVE** — peace deal collapsed Tue 7/7; chip resilience holding
-6. 🟡 **CASH 74%** — sleeve deeply under-filled (19.4% of 30% target = $7.5K dry powder)
+1. 🚀🚀🚀 **H200 CHINA UNLOCK ACTIVATED** — CONCRETE regulatory catalyst confirmed by Reuters + ZTE documents
+2. 🚀🚀 **$131B AI CAPEX WEEK** — Meta $50B + Nebius $1B + Switch IPO $80B compound validation
+3. 🚀 **AMD 3-FIRM ALIGNMENT** — KeyBanc + BofA + TD Cowen all bullish, +4% AMD reflection
+4. 🚀 **DEFENSE STACK DEPLOYED** — BA morning add on 6-catalyst underreaction + Trump $1.21T
+5. ⚠️ **IRAN WAR 2.0 CONFIRMED BY MEGA-BANK** — Citi CEO first Q2 sell-side C-suite acknowledgment
+6. 🎯 **SLEEVE 11.0% / 30%** — headroom $5.9K; 2 slots + $3.9K spend remaining today
