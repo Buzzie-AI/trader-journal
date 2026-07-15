@@ -1,63 +1,79 @@
-# Portfolio Snapshot — 2026-07-14 16:30 ET (Tue CLOSE MANUAL — autopilot_close missed 3rd session)
+# Portfolio Snapshot — 2026-07-15 10:00 ET (Wed MORNING — TSM Add on Compound Bull)
 
-**Equity:** $31,146.99 (+$57.20 / +0.18% day vs Mon $31,090)
-**Cash:** $20,669.58 (66.4%)
-**Position value:** $10,477.41
+**Equity:** $31,149.48 (+$0.10 / +0.0% day vs Tue $31,149.38)
+**Cash:** $20,247 post-TSM-add (65.0%)
+**Position value:** ~$10,903 post-add
 **Position count:** 11 equity + BTCUSD + CVR
-**Day trades:** 0/4 | Trades today: 2/4 (BA +3sh + NVDA +2sh) | Spend $1,077/$5K (21.5%)
-**Realized WTD:** -$153.81 (Mon ARM + MRVL stops)
-**Unrealized book:** +$1,053.90
+**Day trades:** 0/4 | Trades today: 1/4 (TSM +1sh) | Spend $423/$5K (8.5%)
+**Realized WTD:** -$153.81 (Mon stops)
+**Unrealized book:** +$1,077
 
-## 🚀🚀🚀 Tue 7/14 Executed: 2 Adds on H200 China Unlock + Defense Catalyst Stack
+## 🚀🚀🚀 Wed 7/15 Executed: TSM +1sh on 12-Item Compound AI Bull Stack
 
-- **BA +3sh @ $218.21** (09:58 ET) — 6-catalyst underreaction + Trump $1.21T defense; blended $219.27 on 6sh, stop $208 qty=6
-- **NVDA +2sh @ $211.05** (13:19 ET) — H200 CHINA UNLOCK ACTIVATED (Reuters US official + ZTE licensed) + Lewis Sanders $9.5B validation; blended $204.10 on 5sh, stop $187 qty=5
+- **TSM +1sh @ $422.95** (limit $425, +0.48% slip) — Billionaire Sanders $9.5B validation not yet priced + ASML raise + BABA-AAPL Qwen + Jensen "GIANT" Vera Rubin + PPI -0.3%
+- Blended $428.45 on 4sh, stop $405 qty=4 GTC
 
-## 🚀🚀🚀 EOD Big Wins
+## 🚀🚀🚀 Wed Mercury 4h Bull Stack (12 items)
 
-- **CVS Caremark FTC SETTLEMENT** (15:08 ET) — resolves ALL outstanding litigation + probe → major overhang REMOVED on our biggest winner (+40.03% LC)
-- **GS CEO "AI Boom STILL EARLY INNINGS"** (14:28 ET) — MEGA-BANK C-SUITE explicit AI thesis endorsement
-- **NVDA H200 China unlock ACTIVATED** (11:20 ET) — CONCRETE Reuters + ZTE licensed docs → reverses Mon Asian-cut narrative
-- **AMD 3-firm PT cluster** (11:35 ET) — KeyBanc + BofA + TD Cowen alignment
-- **Switch DC IPO $80B via GS/JPM** (12:14 ET) — 3rd MEGA AI capex validation of week
+| Time | Catalyst | Impact |
+|------|----------|--------|
+| 09:29 | PPI -0.3% (2nd inflation surprise) | Fed rate hike odds → near-zero |
+| 06:06 | ASML Q2 beat + RAISES FY26 + BOLD capex | TSM #1 supplier validates AI demand |
+| 08:12 | NVDA CEO Jensen "GIANT" Vera Rubin production | HELD counter to H200 "trivial" |
+| 08:40 | BABA-AAPL Qwen AI on China iPhones | Both TSM anchors integrate |
+| 08:25 | BLK CEO "record demand $15.3T AUM" | Macro equity allocation tailwind |
+| 07:26 | Buffett CNBC "GOOG mistake" $31B stake | Value-investor AI endorsement |
+| 07:28 | MS Q2 EPS +18.9% + $20B buyback | 3rd mega-bank crush |
+| 08:14 | BAC Q2 beat + analyst PT hikes | 4th mega-bank crush (4/4) |
+| 08:21 | GS Barclays PT $1245 | Sell-side chase |
+| 08:55 | JPM+BLK+GS tokenize stocks | Mega-bank fintech innovation |
+| Tue 16:51 | Alcoa+AU+JP+US gallium plant | AI-chip supply de-risking |
+| Tue 12:36 | Copper miners CPI-soft | AI DC infra buildout |
 
-## Held Positions EOD (11 equity + BTC + CVR) — Tue 7/14 close
+## 🚨 Bearish Counter (4 items)
 
-| Ticker | Qty | Basis | Close | LC % | Day % | Stop | Cushion |
-|--------|-----|-------|-------|------|-------|------|---------|
-| UNH 🏆 | 0.69 | $290.00 | $425.75 | **+46.81%** | -0.78% | — (frac) | n/a |
-| CVS 🏆 | 27 | $75.83 | $106.18 | **+40.03%** | +0.26% | $90 | 15.3% |
-| GE 🏆 | 2 | $286.00 | $353.73 | **+23.69%** | +0.09% | $324.53 | 8.3% |
-| SYY | 5 | $73.21 | $82.85 | +13.16% | -0.73% | $71.45 | 13.8% |
-| **NVDA** ⭐ (5) | 5 | $204.10 | $211.53 | **+3.64%** 🚀 | **+3.93%** 🚀 | $187 | 11.6% |
-| D | 4 | $68.82 | $71.32 | +3.63% | +0.73% | $62.33 | 12.6% |
-| GD | 1 | $359.72 | $369.00 | +2.58% | -1.01% | $333.41 | 9.6% |
-| **AMD** ⭐ | 2 | $547.83 | $546.94 | -0.16% | **+2.35%** 🚀 | $520 | 4.9% ⚠️ |
-| BA (6) | 6 | $219.27 | $217.11 | -0.99% | +0.74% | $208 | 4.2% ⚠️ |
-| **TSM** ⭐ | 3 | $430.28 | $420.93 | -2.18% | -0.16% | $405 | 3.8% ⚠️ |
-| TJX | 4 | $159.00 | $150.31 | -5.46% | -0.15% | $146 | 2.8% ⚠️ |
-| BTCUSD | 0.0034 | $70,867 | $64,561 | -8.90% | +3.42% | frozen | n/a |
+- NVDA H200 China shipments "TRIVIAL" per US Commerce (06:47 ET)
+- CRWV -30%/mo AI buildout doubts + DeepSeek concerns (08:49 ET)
+- ELV Q2 reversal — GAAP guide drag, potential UNH read-across (07:18 ET)
+- Healthcare -0.4% at open (10:16 ET)
+
+## Held Positions Wed AM (11 equity + BTC + CVR) — 09:57 ET
+
+| Ticker | Qty | Basis | Current | LC % | Day % | Stop | Cushion |
+|--------|-----|-------|---------|------|-------|------|---------|
+| UNH 🏆 | 0.69 | $290.00 | $420.79 | **+45.21%** | -0.96% | — (frac) | n/a |
+| CVS 🏆 | 27 | $75.83 | $105.97 | **+39.79%** | -0.17% | $90 | 15.1% |
+| GE 🏆 | 2 | $286.00 | $357.35 | **+24.95%** | +1.02% | $324.53 | 9.2% |
+| SYY | 5 | $73.21 | $82.10 | +12.14% | -0.91% | $71.45 | 13.0% |
+| **NVDA** ⭐ (5) | 5 | $204.10 | $211.10 | +3.43% | -0.33% | $187 | 11.4% |
+| D | 4 | $68.82 | $71.14 | +3.37% | -0.22% | $62.33 | 12.4% |
+| GD | 1 | $359.72 | $370.51 | +3.00% | +0.27% | $333.41 | 10.0% |
+| BA (6) | 6 | $219.27 | $217.53 | -0.79% | +0.49% | $208 | 4.4% ⚠️ |
+| **AMD** ⭐ | 2 | $547.83 | $543.32 | -0.82% | -0.48% | $520 | 4.3% ⚠️ |
+| **TSM** ⭐ (4) | 4 | $428.45 | $423.08 | -1.25% | +0.65% | $405 | 4.3% ⚠️ |
+| TJX | 4 | $159.00 | $149.63 | -5.89% | -0.47% | $146 | 2.5% ⚠️ |
+| BTCUSD | 0.0034 | $70,867 | $64,931 | -8.38% | +0.52% | frozen | n/a |
 | 737CVR019 | 4.06 | $0 | n/a | — | — | — | — |
 
-## Sector Sleeves EOD
+## Sector Sleeves
 
 | Sleeve | Fill $ | Fill % | Target | Headroom |
 |--------|--------|--------|--------|----------|
-| Semi_AI ⭐ | $3,415 | **11.0%** | 30% | **$5,929** |
-| Healthcare 🏆 | $3,160 | 10.1% | ~15% | $1,516 |
-| Defense (BA+GD+GE) | $2,379 | 7.6% | ~12% | $1,359 |
-| Consumer defensive | $1,301 (SYY+D+TJX) | 4.2% | — | — |
-| Cash | $20,670 | **66.4%** | 30-40% deploy | — |
+| Semi_AI ⭐ | $3,838 | **12.4%** | 30% | **$5,505** |
+| Healthcare 🏆 | $3,152 | 10.1% | ~15% | $1,516 |
+| Defense (BA+GD+GE) | $2,395 | 7.7% | ~12% | $1,341 |
+| Consumer defensive | $1,293 (SYY+D+TJX) | 4.2% | — | — |
+| Cash | $20,247 | **65.0%** | 30-40% deploy | — |
 
-**Sleeve fill trajectory:** Fri EOD 16.7% → Mon EOD 9.5% → Tue EOD 11.0% = recovering
+**Sleeve fill trajectory:** Fri 16.7% → Mon 9.5% → Tue 11.0% → Wed 12.4% = recovering steadily
 
-## Open Stop-Loss Orders EOD (all GTC)
+## Open Stop-Loss Orders (all GTC)
 
 | Ticker | Qty | Stop | Order ID |
 |--------|-----|------|----------|
-| NVDA | 5 | $187 | e3d54823 (blended, replaced today) |
-| BA | 6 | $208 | 10cedfe0 (blended, replaced today) |
-| TSM | 3 | $405 | f02b706a (blended from Mon) |
+| TSM | 4 | $405 | 8d32d9b7 (blended, replaced today) |
+| NVDA | 5 | $187 | e3d54823 (blended from Tue) |
+| BA | 6 | $208 | 10cedfe0 (blended from Tue) |
 | AMD | 2 | $520 | 268269ba |
 | GE | 2 | $324.53 | fb87f376 |
 | GD | 1 | $333.41 | 593384f8 |
@@ -66,17 +82,13 @@
 | TJX | 4 | $146 | 4b8f2940 |
 | D | 4 | $62.33 | a52978c1 |
 
-## Cron Health Note
+## Themes
 
-**autopilot_close MISSED 3rd consecutive session** (Fri 7/10 + Mon 7/13 + Tue 7/14). Systematic pattern — cron TTL or hook issue suspected. Manual EOD recap executed per feedback_autopilot_close_miss_recovery memory. Investigation needed Wed.
-
-## Themes EOD
-
-1. 🚀🚀🚀 **H200 CHINA UNLOCK ACTIVATED** — CONCRETE regulatory win reverses Mon Asian-customer-cut narrative
-2. 🚀🚀🚀 **GS CEO "AI EARLY INNINGS"** — MEGA-BANK C-suite AI thesis endorsement
-3. 🚀🚀 **CVS FTC SETTLEMENT** — Caremark litigation overhang REMOVED on our biggest winner
-4. 🚀🚀 **AI CAPEX $131B WEEK** — Meta $50B + Nebius $1B + Switch IPO $80B compound
-5. 🚀 **KEYBANC BLITZ** — John Vinh 6 AI PT bumps (AMD/ARM/UNH/AMD/MU/NVDA)
-6. ⚠️ **AMD LATE-DAY FADE** — +3.96% midday → +2.35% close = cushion tightened 6.4% → 4.9%
-7. ⚠️ **IRAN MACRO** — Citi CEO first mega-bank Q2 acknowledgment
-8. 🎯 **SLEEVE 11.0% / 30%** — recovering; headroom $5.9K
+1. 🚀🚀🚀 **PPI -0.3% MEGA MACRO** — 2nd inflation surprise this week
+2. 🚀🚀🚀 **ASML Q2 BEAT + RAISES FY26 + BOLD CAPEX** — supplier-side AI validation
+3. 🚀🚀 **BABA-AAPL QWEN CHINA** — both TSM anchor customers integrate
+4. 🚀🚀 **4/4 MEGA-BANK Q2 CRUSH** — WFC+GS+MS+BAC + Buffett + BLK CEO
+5. 🚀 **NVDA CEO DEFENDS VERA RUBIN "GIANT"** — offsets H200 "trivial" reversal
+6. 🚨 **CRWV -30%/MO** — AI buildout doubts (TSM foundry insulated)
+7. 🎯 **SLEEVE 12.4% / 30%** — 4th consecutive session of refill; headroom $5.5K
+8. ⏳ **UNH Q2 TOMORROW** — HELD major catalyst
