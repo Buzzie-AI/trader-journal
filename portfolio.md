@@ -1,80 +1,88 @@
-# Portfolio Snapshot — 2026-07-15 10:00 ET (Wed MORNING — TSM Add on Compound Bull)
+# Portfolio Snapshot — 2026-07-15 13:19 ET (Wed MIDDAY — AAPL Tier 2 Widened Universe First)
 
-**Equity:** $31,149.48 (+$0.10 / +0.0% day vs Tue $31,149.38)
-**Cash:** $20,247 post-TSM-add (65.0%)
-**Position value:** ~$10,903 post-add
-**Position count:** 11 equity + BTCUSD + CVR
-**Day trades:** 0/4 | Trades today: 1/4 (TSM +1sh) | Spend $423/$5K (8.5%)
+**Equity:** $31,078.44 (-$70.94 / **-0.23% day** vs Tue $31,149.38)
+**Cash:** $20,307 post-AAPL-add (65.3%)
+**Position value:** ~$10,771 post-add
+**Position count:** 12 equity + BTCUSD + CVR (AAPL added)
+**Day trades:** 0/4 | Trades today: 2/4 (TSM +1sh + AAPL +3sh) | Spend $1,402/$5K (28%)
 **Realized WTD:** -$153.81 (Mon stops)
-**Unrealized book:** +$1,077
+**Unrealized book:** -$67 (down from morning +$1,077 on semi selloff)
 
-## 🚀🚀🚀 Wed 7/15 Executed: TSM +1sh on 12-Item Compound AI Bull Stack
+## 🎯 WIDENED UNIVERSE ACTIVE — Wed 7/15
 
-- **TSM +1sh @ $422.95** (limit $425, +0.48% slip) — Billionaire Sanders $9.5B validation not yet priced + ASML raise + BABA-AAPL Qwen + Jensen "GIANT" Vera Rubin + PPI -0.3%
-- Blended $428.45 on 4sh, stop $405 qty=4 GTC
+Operator directive Wed 12:XX ET: "widen the universe" — 4-tier framework now active. First Tier 2 trade executed:
 
-## 🚀🚀🚀 Wed Mercury 4h Bull Stack (12 items)
+- **AAPL +3sh @ $326.34** — Tier 2 mega-cap AI-adjacent debut
+- Catalyst stack: China Intelligence approval + 52w high +4% + M2 Ultra "forcing NVIDIA reliance" + Buffett endorsement + MS "AI 10-15% complete" + PPI -0.3%
+- **DIVERGENT from semi selloff** (SNDK -13%, AMD -4.94% to $521 = essentially at stop $520)
+- Stop $308, position 3.1% (<4% Tier 2 cap)
 
-| Time | Catalyst | Impact |
-|------|----------|--------|
-| 09:29 | PPI -0.3% (2nd inflation surprise) | Fed rate hike odds → near-zero |
-| 06:06 | ASML Q2 beat + RAISES FY26 + BOLD capex | TSM #1 supplier validates AI demand |
-| 08:12 | NVDA CEO Jensen "GIANT" Vera Rubin production | HELD counter to H200 "trivial" |
-| 08:40 | BABA-AAPL Qwen AI on China iPhones | Both TSM anchors integrate |
-| 08:25 | BLK CEO "record demand $15.3T AUM" | Macro equity allocation tailwind |
-| 07:26 | Buffett CNBC "GOOG mistake" $31B stake | Value-investor AI endorsement |
-| 07:28 | MS Q2 EPS +18.9% + $20B buyback | 3rd mega-bank crush |
-| 08:14 | BAC Q2 beat + analyst PT hikes | 4th mega-bank crush (4/4) |
-| 08:21 | GS Barclays PT $1245 | Sell-side chase |
-| 08:55 | JPM+BLK+GS tokenize stocks | Mega-bank fintech innovation |
-| Tue 16:51 | Alcoa+AU+JP+US gallium plant | AI-chip supply de-risking |
-| Tue 12:36 | Copper miners CPI-soft | AI DC infra buildout |
+## 🚨 AMD CRITICAL 0.2% CUSHION
 
-## 🚨 Bearish Counter (4 items)
+- AMD 2sh basis $547.83, current $521.10, stop $520
+- Memory-chip sector rotation (SNDK -13%) dragging Wed intraday
+- If stop fires: -$55.76 realized (2sh × -$27.83); framework working as designed
 
-- NVDA H200 China shipments "TRIVIAL" per US Commerce (06:47 ET)
-- CRWV -30%/mo AI buildout doubts + DeepSeek concerns (08:49 ET)
-- ELV Q2 reversal — GAAP guide drag, potential UNH read-across (07:18 ET)
-- Healthcare -0.4% at open (10:16 ET)
-
-## Held Positions Wed AM (11 equity + BTC + CVR) — 09:57 ET
+## Held Positions Wed Midday (12 equity + BTC + CVR) — 13:47 ET
 
 | Ticker | Qty | Basis | Current | LC % | Day % | Stop | Cushion |
 |--------|-----|-------|---------|------|-------|------|---------|
-| UNH 🏆 | 0.69 | $290.00 | $420.79 | **+45.21%** | -0.96% | — (frac) | n/a |
-| CVS 🏆 | 27 | $75.83 | $105.97 | **+39.79%** | -0.17% | $90 | 15.1% |
-| GE 🏆 | 2 | $286.00 | $357.35 | **+24.95%** | +1.02% | $324.53 | 9.2% |
-| SYY | 5 | $73.21 | $82.10 | +12.14% | -0.91% | $71.45 | 13.0% |
-| **NVDA** ⭐ (5) | 5 | $204.10 | $211.10 | +3.43% | -0.33% | $187 | 11.4% |
-| D | 4 | $68.82 | $71.14 | +3.37% | -0.22% | $62.33 | 12.4% |
-| GD | 1 | $359.72 | $370.51 | +3.00% | +0.27% | $333.41 | 10.0% |
-| BA (6) | 6 | $219.27 | $217.53 | -0.79% | +0.49% | $208 | 4.4% ⚠️ |
-| **AMD** ⭐ | 2 | $547.83 | $543.32 | -0.82% | -0.48% | $520 | 4.3% ⚠️ |
-| **TSM** ⭐ (4) | 4 | $428.45 | $423.08 | -1.25% | +0.65% | $405 | 4.3% ⚠️ |
-| TJX | 4 | $159.00 | $149.63 | -5.89% | -0.47% | $146 | 2.5% ⚠️ |
-| BTCUSD | 0.0034 | $70,867 | $64,931 | -8.38% | +0.52% | frozen | n/a |
+| UNH 🏆 | 0.69 | $290.00 | $420.62 | **+45.11%** | -1.03% | — (frac) | n/a |
+| CVS 🏆 | 27 | $75.83 | $106.52 | **+40.48%** | +0.32% | $90 | 15.5% |
+| GE 🏆 | 2 | $286.00 | $356.66 | **+24.71%** | +0.83% | $324.53 | 9.0% |
+| SYY | 5 | $73.21 | $81.68 | +11.57% | -1.41% | $71.45 | 12.5% |
+| **AAPL** ⭐ (Tier 2 NEW) | 3 | $326.34 | $326.34 | 0.0% | +3.63%* | $308 | 5.6% |
+| **NVDA** ⭐ (5) | 5 | $204.10 | $208.43 | +2.12% | -1.59% | $187 | 10.3% |
+| D | 4 | $68.82 | $71.04 | +3.23% | -0.37% | $62.33 | 12.3% |
+| GD | 1 | $359.72 | $367.15 | +2.07% | -0.64% | $333.41 | 8.9% |
+| BA (6) | 6 | $219.27 | $219.04 | -0.10% | +0.89% | $208 | 5.1% |
+| **TSM** ⭐ (4) | 4 | $428.45 | $417.02 | -2.67% | -0.80% | $405 | 2.9% ⚠️ |
+| **AMD** ⭐ | 2 | $547.83 | $521.10 | -4.88% | **-4.94%** 🚨 | $520 | **0.2% 🚨🚨** |
+| TJX | 4 | $159.00 | $151.04 | -5.01% | +0.46% | $146 | 3.4% |
+| BTCUSD | 0.0034 | $70,867 | $64,993 | -8.29% | +0.62% | frozen | n/a |
 | 737CVR019 | 4.06 | $0 | n/a | — | — | — | — |
+
+_*AAPL day change measured pre-add — market movement of new position, not entry vs current_
 
 ## Sector Sleeves
 
 | Sleeve | Fill $ | Fill % | Target | Headroom |
 |--------|--------|--------|--------|----------|
-| Semi_AI ⭐ | $3,838 | **12.4%** | 30% | **$5,505** |
-| Healthcare 🏆 | $3,152 | 10.1% | ~15% | $1,516 |
-| Defense (BA+GD+GE) | $2,395 | 7.7% | ~12% | $1,341 |
-| Consumer defensive | $1,293 (SYY+D+TJX) | 4.2% | — | — |
-| Cash | $20,247 | **65.0%** | 30-40% deploy | — |
+| Semi_AI ⭐ (Tier 1) | $3,752 | 12.1% | 30% | $5,571 |
+| Healthcare 🏆 (Tier 1) | $3,166 | 10.2% | ~15% | $1,496 |
+| Defense (Tier 1) | $2,394 | 7.7% | ~12% | $1,340 |
+| **Tier 2 (NEW)** | $979 | **3.1%** | ~15% (est) | ~$3,700 |
+| Consumer defensive | $1,297 | 4.2% | — | — |
+| Cash | $20,307 | **65.3%** | 30-40% deploy | — |
 
-**Sleeve fill trajectory:** Fri 16.7% → Mon 9.5% → Tue 11.0% → Wed 12.4% = recovering steadily
+## Wed 4h Mercury Bull Stack (Extended from Morning)
+
+- 🚀🚀🚀 MS says AI spending boom "10-15% COMPLETE" (12:12 ET) — 2nd mega-bank C-suite quantified thesis
+- 🚀🚀🚀 AAPL 52w high on China Intelligence approval (11:58 ET)
+- 🚀🚀 AAPL M2 Ultra "forcing NVIDIA reliance" + Baltra DELAYED (10:34 ET)
+- 🚀 6/6 mega-bank Q2 crush: WFC+GS+MS+BAC+JPM+C
+- 🚀 China REGULATORY APPROVAL Apple Intelligence via BABA Qwen (10:08 ET)
+- 🚀 AMAT UBS PT $570→$705 (+23.7%) semi equipment
+- 🚀 GE Aerospace RBC $500M guide raise predicted (13:04 ET)
+- Plus overnight: ASML raise + Buffett GOOG + BLK/CEO endorsements + PPI -0.3%
+
+## 🚨 Bearish Cross-Currents
+
+- 🚨🚨 MEMORY-CHIP SELLOFF: SNDK -13%, semi rotation dragging Nasdaq
+- 🚨 AMD -4.94% to $521 (at stop $520)
+- 🚨 ELV managed-care selloff (UNH read-across)
+- 🚨 Steve Eisman "Big Short" AI "no moats" contrarian
+- 🚨 NVDA H200 China "trivial" (partial reversal earlier)
 
 ## Open Stop-Loss Orders (all GTC)
 
 | Ticker | Qty | Stop | Order ID |
 |--------|-----|------|----------|
-| TSM | 4 | $405 | 8d32d9b7 (blended, replaced today) |
-| NVDA | 5 | $187 | e3d54823 (blended from Tue) |
-| BA | 6 | $208 | 10cedfe0 (blended from Tue) |
-| AMD | 2 | $520 | 268269ba |
+| **AAPL (NEW)** | 3 | $308 | 63c790a3 |
+| TSM | 4 | $405 | 8d32d9b7 |
+| NVDA | 5 | $187 | e3d54823 |
+| BA | 6 | $208 | 10cedfe0 |
+| **AMD** ⚠️ | 2 | $520 | 268269ba (0.2% cushion — imminent) |
 | GE | 2 | $324.53 | fb87f376 |
 | GD | 1 | $333.41 | 593384f8 |
 | CVS | 27 | $90 | fa8b2c3d |
@@ -84,11 +92,11 @@
 
 ## Themes
 
-1. 🚀🚀🚀 **PPI -0.3% MEGA MACRO** — 2nd inflation surprise this week
-2. 🚀🚀🚀 **ASML Q2 BEAT + RAISES FY26 + BOLD CAPEX** — supplier-side AI validation
-3. 🚀🚀 **BABA-AAPL QWEN CHINA** — both TSM anchor customers integrate
-4. 🚀🚀 **4/4 MEGA-BANK Q2 CRUSH** — WFC+GS+MS+BAC + Buffett + BLK CEO
-5. 🚀 **NVDA CEO DEFENDS VERA RUBIN "GIANT"** — offsets H200 "trivial" reversal
-6. 🚨 **CRWV -30%/MO** — AI buildout doubts (TSM foundry insulated)
-7. 🎯 **SLEEVE 12.4% / 30%** — 4th consecutive session of refill; headroom $5.5K
+1. 🎯 **WIDENED UNIVERSE ACTIVE** — AAPL Tier 2 first trade executed
+2. 🚀🚀🚀 **AAPL 52W HIGH + China Intelligence** — divergent quality
+3. 🚀🚀🚀 **MS "AI 10-15% COMPLETE"** — mega-bank quantified AI thesis
+4. 🚀🚀 **6/6 MEGA-BANK Q2 CRUSH** — broad market strength
+5. 🚨🚨 **AMD CRITICAL 0.2% CUSHION** — stop imminent
+6. 🚨 **MEMORY-CHIP SELLOFF** — SNDK -13% intraday rotation
+7. 🎯 **SLEEVE FILL 12.1%** (compressed from 12.4% AM)
 8. ⏳ **UNH Q2 TOMORROW** — HELD major catalyst
