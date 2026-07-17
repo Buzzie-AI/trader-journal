@@ -1,18 +1,45 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-07-17 Fri 09:44 ET (MORNING MANUAL — autopilot_morning MISSED, Day 2 chip carnage)
-**Equity:** $31,031.15 (+$10.31 / +0.03% day BEAT tape) — SPY -1.25% / QQQ -2.61%
-**Cash:** $20,770.20 (66.9%)
+**Last update:** 2026-07-17 Fri 16:00 ET (CLOSE MANUAL — autopilot_close MISSED 6th consecutive; HOLD Discipline Day 2 Validated)
+**Equity:** $31,007.54 (-$13.30 / -0.04% day BEAT tape) — SPY -0.92% / QQQ -1.32%
+**Cash:** $20,770.20 (67.0%)
 **Position count:** 12 equity + BTC + CVR
 **Day trades:** 0/4 | Trades today: 0/4 fresh | Spend $0/$5K
 **Realized WTD:** -$303.41 (Mon ARM+MRVL -$153.81 + Wed AMD -$55.92 + Thu TSM -$93.68)
-**Unrealized:** approx +$1,080
+**Unrealized:** +$1,063
 
-## 🚨 Fri 7/17 — Day 2 Chip Carnage; Diana HOLD ALL
+## 🎯 Fri 7/17 — HOLD DISCIPLINE VALIDATED (Yesterday's Adds Recovered)
 
-Autopilot_morning missed 25min; manual triggered. Broad tech selloff continuing (2nd day). Yesterday's dip-buy pipeline results:
-- **NVDA 7sh** blended $204.68 → $198.09 = **-3.22% LC** (below entry)
-- **AVGO 2sh** basis $372.44 → $358.35 = **-3.78% LC** (below entry)
+Yesterday's operator-triggered NVDA + AVGO dip pipelines went from -4.5% dawn to near-flat close. **Chase-more-adds instinct WRONG; HOLD RIGHT.**
+
+- **NVDA 7sh** @ $204.68 → $202.69 close = **-0.97% LC** (recovered from -3.22% morning)
+- **AVGO 2sh** @ $372.44 → $370.68 close = **-0.47% LC** (recovered from -3.78% morning)
+- **AAPL 3sh** @ $326.34 → $333.54 close = **+2.21% LC** (Tier 2 despite 7-catalyst fatigue)
+
+## 🚨 3rd Manual Autopilot Fire Today
+
+autopilot_morning 25min miss + autopilot_midday 30min miss + autopilot_close 6th consecutive miss = **all 3 manual today**. Systematic cron issue.
+
+## 🚀🚀🚀 AAPL 7-Catalyst Day (Diana HOLD not Add)
+
+Diana declined AAPL add despite mega cluster:
+1. HSBC UPGRADES to Buy, PT $366
+2. DOJ Early Settlement Talks - Bloomberg
+3. Apple Hunts for AI Chip Acquisitions - The Information
+4. Apple targets OpenAI employees with legal letters - FT
+5. Apple widens OpenAI trade secrets fight to former employees
+6. Fri Wall Street Top Analyst Research Calls
+7. Apple Stock Price Target Reset - TheStreet
+
+**Not-add rationale:** AAPL DOWN intraday despite 7 catalysts = market reading DOJ as UNCERTAINTY (first-week sell-news dynamic). 1-share add would breach Tier 2 4% cap.
+
+## 🚨 Iran Ceasefire OVER (Cross-Confirmed 3 Outlets)
+
+Trump declared Iran ceasefire OVER. Cross-confirmed BBC + Christian Science Monitor + WaPo. Impact: oil $81 + energy bull + defense bull (GD held) + AI/tech risk-off compound. Iran War 2.0 memory updated.
+
+## 🎯 BA MEGA FAA Catalyst
+
+FAA to allow Boeing resumption of ticketing for ALL 737 Max + 787. Offsets Airbus WON Air China overnight bearish. Held BA (6sh, 2.9% cushion) relieved.
 
 Semi carnage broader: AMD -8%, MU -6%, ARM -7%, AVGO -4.3%, NVDA -4.5%, GOOG -3.5%, META -3.6%, ASML -4.4%.
 
@@ -25,13 +52,16 @@ Diana **HOLD ALL** — chasing more adds = compound losses in falling knife. Pre
 - **GE +1.94% (+23.23% LC)** — sell-news recovery
 - **AAPL Tier 2 +0.15% (+2.28% LC)** — AI narrative day (M&A hunt + OpenAI talent letters + Wall Street analyst calls)
 
-## 📰 Fri Pre-Open Mercury Alert Stack (18+ alerts scored)
+## 🚀 Other Material Fri Alerts
 
-**🚀 BULLISH:** AAPL "Hunts for AI Chip Acquisitions" + OpenAI talent poaching (2 signals coherent AI catch-up); UNH multi-analyst PT raises; CDNS Rapidus AI (Tier 3); MSFT AI bug-finder (Tier 2); MMM-MSFT AI partnership (Tier 2); GD Land Systems Canada Optex $1.2M sub-contract (confirms yesterday)
-
-**🚨 BEARISH:** BA/EADSY Airbus WINS Air China order (BA thin cushion!); AMD/NVDA Xi Jinping "solo performance" + China Kimi K3 launch; GOOG Gemini delays (Thu -4.71% driver confirmed); YUM Taco Bell FDA multi-state action
-
-**🎯 SPECIAL:** PYPL board REJECTS Stripe-Advent (but PYPL -1.63% = market pricing no counter-bid, deal off, Tier 4 arb thesis void); UBER $15B stalling; NBIS competition headwinds
+- **META in talks to lease AI compute to Anthropic in POTENTIAL $10 BILLION DEAL** — 3rd mega compute deal validates AI capex
+- **NBIS $775M NON-DILUTIVE capital raise** — Tier 3 competition-fears resolution
+- **GE record Q + Culp "No Victory Laps"** — held +21.92% LC continuation
+- **Semi analyst "Buy the Reset — worst month since 2008"** — contrarian sector call
+- **NVDA Kevin Simpson CNBC public buy** — held conviction signal
+- **UNH multi-analyst PT raises** — Q2 crush validation
+- **AMD/NVDA China Kimi K3 + Xi Jinping "solo performance"** — sector competitive pressure
+- **PYPL Board Rejects $53B Stripe-Advent** — stock -1.63% = deal off, Tier 4 arb void
 
 ## 🎯 Operator-Triggered Dip Adds Thu 7/16
 
@@ -73,6 +103,8 @@ Tier 2 sleeve now has 2 positions after Wed operator directive:
 
 ## Recent Debriefs
 
+- [2026-07-17 Close MANUAL — 6th consecutive miss + HOLD validated Day 2](debriefs/2026-07-17-1600-close-manual.md) — 🎯 Yesterday's adds recovered; AAPL 7-catalyst; Iran ceasefire OVER cross-confirmed
+- [2026-07-17 Midday MANUAL — AAPL cluster; HOLD](debriefs/2026-07-17-1311-midday-manual.md)
 - [2026-07-17 Morning MANUAL — autopilot_morning MISSED; Day 2 chip carnage HOLD](debriefs/2026-07-17-0943-morning-manual.md) — 🚨 QQQ -2.61%, yesterday's adds underwater; Diana HOLD preserve trade cap
 - [2026-07-16 Close MANUAL — 5th consecutive miss + operator dip adds](debriefs/2026-07-16-1602-close-manual.md) — 🎯 NVDA + AVGO pipelines, TSM stop fired, position API lag lesson
 - [2026-07-16 Midday — TSM mis-reported HELD (see close)](debriefs/2026-07-16-1417-midday.md)
@@ -89,8 +121,8 @@ Tier 2 sleeve now has 2 positions after Wed operator directive:
 
 ```
 {
-  "labels": ["Wed 6/10","Thu 6/11","Mon 6/15","Tue 6/16","Wed 6/17","Thu 6/18","Mon 6/22","Tue 6/23","Wed 6/24","Thu 6/25","Fri 6/26","Mon 6/29","Tue 6/30","Wed 7/1","Thu 7/2","Mon 7/6","Tue 7/7","Wed 7/8","Thu 7/9","Fri 7/10","Mon 7/13","Tue 7/14","Wed 7/15","Thu 7/16","Fri 7/17*"],
-  "values": [31397.76, 31584.39, 31816.01, 31560.51, 31450.61, 31499.34, 31517.44, 31217.50, 31263.78, 31376.43, 31283.59, 31155.69, 31214.91, 31278.21, 31345.51, 31290.31, 31335.99, 31302.53, 31312.68, 31365.00, 31089.80, 31146.99, 31076.34, 31025.92, 31031.15]
+  "labels": ["Thu 6/11","Mon 6/15","Tue 6/16","Wed 6/17","Thu 6/18","Mon 6/22","Tue 6/23","Wed 6/24","Thu 6/25","Fri 6/26","Mon 6/29","Tue 6/30","Wed 7/1","Thu 7/2","Mon 7/6","Tue 7/7","Wed 7/8","Thu 7/9","Fri 7/10","Mon 7/13","Tue 7/14","Wed 7/15","Thu 7/16","Fri 7/17"],
+  "values": [31584.39, 31816.01, 31560.51, 31450.61, 31499.34, 31517.44, 31217.50, 31263.78, 31376.43, 31283.59, 31155.69, 31214.91, 31278.21, 31345.51, 31290.31, 31335.99, 31302.53, 31312.68, 31365.00, 31089.80, 31146.99, 31076.34, 31025.92, 31007.54]
 }
 ```
 
