@@ -1,12 +1,37 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-07-16 Thu 16:02 ET (CLOSE MANUAL — autopilot_close MISSED 5th consecutive)
-**Equity:** $31,025.92 (-$62.32 / -0.20% day)
+**Last update:** 2026-07-17 Fri 09:44 ET (MORNING MANUAL — autopilot_morning MISSED, Day 2 chip carnage)
+**Equity:** $31,031.15 (+$10.31 / +0.03% day BEAT tape) — SPY -1.25% / QQQ -2.61%
 **Cash:** $20,770.20 (66.9%)
-**Position count:** 12 equity + BTC + CVR (added AVGO Tier 2; lost TSM to stop $405.03)
-**Day trades:** 0/4 | Trades today: 2/4 | Spend $1,157/$5K (23%)
+**Position count:** 12 equity + BTC + CVR
+**Day trades:** 0/4 | Trades today: 0/4 fresh | Spend $0/$5K
 **Realized WTD:** -$303.41 (Mon ARM+MRVL -$153.81 + Wed AMD -$55.92 + Thu TSM -$93.68)
-**Unrealized:** +$1,082
+**Unrealized:** approx +$1,080
+
+## 🚨 Fri 7/17 — Day 2 Chip Carnage; Diana HOLD ALL
+
+Autopilot_morning missed 25min; manual triggered. Broad tech selloff continuing (2nd day). Yesterday's dip-buy pipeline results:
+- **NVDA 7sh** blended $204.68 → $198.09 = **-3.22% LC** (below entry)
+- **AVGO 2sh** basis $372.44 → $358.35 = **-3.78% LC** (below entry)
+
+Semi carnage broader: AMD -8%, MU -6%, ARM -7%, AVGO -4.3%, NVDA -4.5%, GOOG -3.5%, META -3.6%, ASML -4.4%.
+
+Diana **HOLD ALL** — chasing more adds = compound losses in falling knife. Preserving 4/4 trade slots + $5K spend for stabilization or genuine catalyst.
+
+## 🚀 Portfolio Winners Carrying Day
+
+- **UNH +3.25% ($437) +50.73% LC** — MEGA continuation, multi-analyst PT raises after Q2 crush
+- **CVS +2.07% (+43.35% LC)** — steady leader
+- **GE +1.94% (+23.23% LC)** — sell-news recovery
+- **AAPL Tier 2 +0.15% (+2.28% LC)** — AI narrative day (M&A hunt + OpenAI talent letters + Wall Street analyst calls)
+
+## 📰 Fri Pre-Open Mercury Alert Stack (18+ alerts scored)
+
+**🚀 BULLISH:** AAPL "Hunts for AI Chip Acquisitions" + OpenAI talent poaching (2 signals coherent AI catch-up); UNH multi-analyst PT raises; CDNS Rapidus AI (Tier 3); MSFT AI bug-finder (Tier 2); MMM-MSFT AI partnership (Tier 2); GD Land Systems Canada Optex $1.2M sub-contract (confirms yesterday)
+
+**🚨 BEARISH:** BA/EADSY Airbus WINS Air China order (BA thin cushion!); AMD/NVDA Xi Jinping "solo performance" + China Kimi K3 launch; GOOG Gemini delays (Thu -4.71% driver confirmed); YUM Taco Bell FDA multi-state action
+
+**🎯 SPECIAL:** PYPL board REJECTS Stripe-Advent (but PYPL -1.63% = market pricing no counter-bid, deal off, Tier 4 arb thesis void); UBER $15B stalling; NBIS competition headwinds
 
 ## 🎯 Operator-Triggered Dip Adds Thu 7/16
 
@@ -48,6 +73,7 @@ Tier 2 sleeve now has 2 positions after Wed operator directive:
 
 ## Recent Debriefs
 
+- [2026-07-17 Morning MANUAL — autopilot_morning MISSED; Day 2 chip carnage HOLD](debriefs/2026-07-17-0943-morning-manual.md) — 🚨 QQQ -2.61%, yesterday's adds underwater; Diana HOLD preserve trade cap
 - [2026-07-16 Close MANUAL — 5th consecutive miss + operator dip adds](debriefs/2026-07-16-1602-close-manual.md) — 🎯 NVDA + AVGO pipelines, TSM stop fired, position API lag lesson
 - [2026-07-16 Midday — TSM mis-reported HELD (see close)](debriefs/2026-07-16-1417-midday.md)
 - [2026-07-16 Morning — Triple mega-earnings HOLD](debriefs/2026-07-16-1000-morning.md)
@@ -63,31 +89,30 @@ Tier 2 sleeve now has 2 positions after Wed operator directive:
 
 ```
 {
-  "labels": ["Tue 6/9","Wed 6/10","Thu 6/11","Mon 6/15","Tue 6/16","Wed 6/17","Thu 6/18","Mon 6/22","Tue 6/23","Wed 6/24","Thu 6/25","Fri 6/26","Mon 6/29","Tue 6/30","Wed 7/1","Thu 7/2","Mon 7/6","Tue 7/7","Wed 7/8","Thu 7/9","Fri 7/10","Mon 7/13","Tue 7/14","Wed 7/15","Thu 7/16"],
-  "values": [31020.49, 31397.76, 31584.39, 31816.01, 31560.51, 31450.61, 31499.34, 31517.44, 31217.50, 31263.78, 31376.43, 31283.59, 31155.69, 31214.91, 31278.21, 31345.51, 31290.31, 31335.99, 31302.53, 31312.68, 31365.00, 31089.80, 31146.99, 31076.34, 31025.92]
+  "labels": ["Wed 6/10","Thu 6/11","Mon 6/15","Tue 6/16","Wed 6/17","Thu 6/18","Mon 6/22","Tue 6/23","Wed 6/24","Thu 6/25","Fri 6/26","Mon 6/29","Tue 6/30","Wed 7/1","Thu 7/2","Mon 7/6","Tue 7/7","Wed 7/8","Thu 7/9","Fri 7/10","Mon 7/13","Tue 7/14","Wed 7/15","Thu 7/16","Fri 7/17*"],
+  "values": [31397.76, 31584.39, 31816.01, 31560.51, 31450.61, 31499.34, 31517.44, 31217.50, 31263.78, 31376.43, 31283.59, 31155.69, 31214.91, 31278.21, 31345.51, 31290.31, 31335.99, 31302.53, 31312.68, 31365.00, 31089.80, 31146.99, 31076.34, 31025.92, 31031.15]
 }
 ```
 
-**25-session trajectory:** Chip sector selloff Wed 7/15 (CXMT China memory IPO catalyst) + Thu 7/16 (TSM sell-news continuation) drove 3 stop-fires this week (-$303 realized). BUT operator ping unlocked correct dip-buy pipelines (NVDA + AVGO) at Thu close, both fills better than limit + green same-day. Widened universe framework now has 2 Tier 2 positions (AAPL + AVGO). Cash 66.9% preserves massive dry powder for Fri semi_AI sleeve rebuild opportunity (headroom $8,857).
+**25-session trajectory:** Day 2 chip carnage extending Fri 7/17 morning — QQQ -2.61%, semis -3 to -8%, tech-wide bleed. Portfolio flat +0.03% day thanks to UNH/CVS/GE/AAPL winners offsetting NVDA/AVGO/BA weakness. Yesterday's operator-triggered NVDA+AVGO dip pipelines both underwater (-3.22% / -3.78% LC). Diana HOLD ALL — chasing more adds = falling knife. Cash 66.9% preserves 4/4 trade slots for stabilization or fresh catalyst.
 
-## Fri 7/17 Watch Priorities
+## Fri 7/17 Midday+ Watch Priorities
 
-1. **Semi_AI sleeve rebuild** — 4.7% vs 30% target; NVDA is only holding; huge headroom
-2. **AMD wash-sale** — blocked until 8/14; alternate semi entries (MU/ARM/LRCX/AMAT/KLAC) if catalyst
-3. **BA cushion 3.0%** — thin; monitor
-4. **UNH Fri continuation** — post-Q2 sustain
-5. **AVGO continuation** — first-day post-entry action
-6. **Mercury Fri open sweep** — 6 alerts today + LLY/UBER/NBIS/OLN carry-forward
+1. **BA cushion 2.7%** — Airbus WON Air China order; likely stop-fire on further sell-off
+2. **NVDA/AVGO stabilization** — watch semi bottom for sleeve refill IF sector stops bleeding
+3. **UNH continuation** — post-Q2 crush + multi-analyst PT raises sustain
+4. **AAPL AI narrative** — M&A hunt + OpenAI talent poaching + Fri analyst calls = coherent Tier 2 story
+5. **autopilot_midday 12:47 ET** — expected fire; standby manual if late
+6. **Chip carnage cross-currents:** Xi Jinping/Kimi K3 China AI competition + GOOG Gemini delays + AMD wash-blocked
 
-## Themes EOD
+## Themes Fri AM
 
-1. 🎯 **OPERATOR PING TRIGGERED 2 DIP PIPELINES** — NVDA + AVGO in 5 min under close-window pressure
-2. 🚨 **TSM STOP FIRED** -$93.68 (framework working; documentation error caught)
-3. 🚨 **POSITION API LAG** on intraday stops (2nd time this session — AMD Wed + TSM Thu); new memory saved
-4. 🎯 **AVGO Tier 2 SECOND NAME** — widened universe framework now has 2 active positions
-5. 🚀 **AAPL Tier 2 WORKING** +1.72% / +2.01% LC — first-trade validation
-6. 🚀 **UNH intraday high $460.95** pulled to $423 close, +45.96% LC held
-7. 🚨 **GOOG Gemini delay** confirmed -4.71% driver — vindicated skipping GOOG in dip pipeline
-8. 🚨 **QQQ -1.64% chip carnage** — AMD/MU/ARM all -6%
-9. 🎯 **DEFENSIVE HELD POSITIONING** beat tape (-0.20% day)
-10. 🚨 **autopilot_close MISSED 5TH** — cron pattern issue investigation pending
+1. 🚨🚨 **DAY 2 CHIP CARNAGE** — QQQ -2.61%, semi sleeve -3 to -8% consecutive
+2. 🎯 **DEFENSIVE POSITIONING BEATING TAPE AGAIN** — +0.03% vs QQQ -2.61%
+3. 🚀 **UNH MEGA CONTINUATION** +3.25% intraday, +50.73% LC + multi-analyst PT raises
+4. 🚀 **AAPL AI NARRATIVE ACCUMULATING** — M&A hunt + OpenAI talent + Fri research calls = coherent strategy
+5. 🚨 **BA Airbus China loss + thin 2.7% cushion** — monitor tight
+6. 🚨 **AVGO -3.78% LC + NVDA -3.22% LC** — yesterday's dip adds underwater
+7. 🎯 **PYPL board reject didn't spike stock** — deal likely off, Tier 4 arb thesis invalidated
+8. 🚨 **autopilot_morning MISSED** — 3rd cron pattern issue; manual handled
+9. 🎯 **HOLD DISCIPLINE** — preserving 4/4 trade slots + $5K spend fresh
