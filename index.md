@@ -1,16 +1,49 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-07-17 Fri 16:00 ET (CLOSE MANUAL — autopilot_close MISSED 6th consecutive; HOLD Discipline Day 2 Validated)
-**Equity:** $31,007.54 (-$13.30 / -0.04% day BEAT tape) — SPY -0.92% / QQQ -1.32%
-**Cash:** $20,770.20 (67.0%)
-**Position count:** 12 equity + BTC + CVR
-**Day trades:** 0/4 | Trades today: 0/4 fresh | Spend $0/$5K
-**Realized WTD:** -$303.41 (Mon ARM+MRVL -$153.81 + Wed AMD -$55.92 + Thu TSM -$93.68)
-**Unrealized:** +$1,063
+**Last update:** 2026-07-20 Mon 09:39 ET (MORNING MANUAL — Farnborough BA Add executed)
+**Equity:** $31,083.85 (+$74.02 / +0.24% day) — SPY +0.67% / QQQ +1.32%
+**Cash:** $20,555.16 (66.1%) — post-BA-add
+**Position count:** 12 equity + BTC + CVR (BA add to existing 6→7 sh)
+**Day trades:** 0/4 | Trades today: 1/4 | Spend $215/$5K
+**Realized WTD:** $0 fresh
+**Unrealized:** +$1,150
 
-## 🎯 Fri 7/17 — HOLD DISCIPLINE VALIDATED (Yesterday's Adds Recovered)
+## 🎯 Mon 7/20 — Farnborough 8-Catalyst BA Add (Pipeline PASS)
 
-Yesterday's operator-triggered NVDA + AVGO dip pipelines went from -4.5% dawn to near-flat close. **Chase-more-adds instinct WRONG; HOLD RIGHT.**
+**MEGA BA pre-open catalyst stack from Farnborough Airshow** — 148 aircraft firm commitments + regulatory clearing + supply expansion — but market open muted at only +0.5% = dislocation opportunity.
+
+- **BA +1sh @ $214.84** (blended 7sh @ $218.63, stop $208 qty=7 GTC)
+- Fill $0.96 better than $215.80 limit
+
+**8-Catalyst Stack:**
+1. Fri FAA 787 ticketing resumption
+2. Sat AerCap 787 talks (Bloomberg)
+3. Mon 05:14 Riyadh 28 x 787 firm commit
+4. Mon 05:17 FAA MAX 7 cert "around the corner"
+5. Mon 05:39 SMBC 100 x 737 MAX (Boeing WON vs Airbus)
+6. Mon 05:45 Philippine Airlines 20 x 787
+7. Mon 07:14 Hexcel supply expansion
+8. Mon 07:23 AF1 2028 delivery + higher costs (mixed)
+
+Diana pipeline PASS: overwhelming bull vs muted market reaction.
+
+## 🚀 Mon Pre-Open AI/Tech Alerts
+
+- **MSFT EXPANDS AMD partnership** (Helios AI + EPYC Azure VMs) — bearish NVDA compound
+- **Bezos backs $2.6B AI startup w/ NVDA + META** — validates AI capex
+- **GOOG "Frozen" custom AI chip** (The Information) — NVDA competitive pressure
+- **NVDA-BMY Vera Rubin deployment** — offsets AMD news
+- **Anthropic to be AMD customer** (Sat) — competitive intensity
+- **BABA Qwen 3.8 launch** — AAPL China narrative reinforcement
+- **Semi ETF record $46B inflows** — "Buy the Reset" thesis confirmed
+
+## 🚨 Iran Ceasefire OVER — Continues (Fri Cross-Confirmed)
+
+Trump: Iran "very very badly damaged". Oil $81+ continuation. Defense sleeve tailwind (GD held + GE Aerospace + BETA hybrid military + LMT PAC-3).
+
+## 🎯 Fri 7/17 EOD Context (Prior Session)
+
+Yesterday's operator-triggered NVDA + AVGO dip pipelines went from -4.5% dawn to near-flat close. **HOLD discipline RIGHT.**
 
 - **NVDA 7sh** @ $204.68 → $202.69 close = **-0.97% LC** (recovered from -3.22% morning)
 - **AVGO 2sh** @ $372.44 → $370.68 close = **-0.47% LC** (recovered from -3.78% morning)
