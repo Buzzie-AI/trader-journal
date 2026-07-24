@@ -1,85 +1,73 @@
-# Portfolio Snapshot — 2026-07-24 10:00 ET (Fri MORNING AUTOPILOT — Framework HOLD, Sell-News EXTREME)
+# Portfolio Snapshot — 2026-07-24 16:11 ET (Fri CLOSE MANUAL — Framework HOLD 5x, NBIS cushion 4.3% Mon watch)
 
-**Equity:** $31,035.70 (-$2.01 / **-0.01% intraday**) — flat vs SPY -0.02%, outperforming QQQ -0.9%
+**Equity:** $31,047.03 (+$9.32 / **+0.03% day**) — BEAT QQQ -1.11% by 1.14%, essentially at SPY +0.11%
 **Cash:** $21,814.91 (70.3%)
-**Position value:** $9,220.79
+**Position value:** $9,232.12
 **Position count:** 11 equity + BTCUSD + CVR
 **Day trades:** 0/4 | **Spend $0/$5K**
 **Realized WTD:** -$75.04
-**Unrealized:** +$1,147
+**Unrealized:** +$1,160
 
-## 🎯 Fri Open — SELL-NEWS PATTERN EXTREME on 7+ AI/Data-Center Catalyst Compound
+## 🎯 Fri EOD — Framework HOLD Validated 5 Consecutive Fires
 
-Overnight/pre-market compound bull catalyst chain:
-- INTC CEO Tan: 40% MORE chip capex 2026, $20B+ commit, AI supply crunch "won't ease"
-- AMKR $1.5B NVDA advanced packaging partnership
-- ORCL $6.99B DoD 10-yr IDIQ (Thu AH)
-- CRM $1.6B VA agentic contract
-- DLR Q2 FFO +33.8% beat + guide raise
-- BlackRock $12.3B META data center bond
-- GOOG $514B cloud backlog reveal
-- VZ-GOOG $1B fiber for data centers
-- AMZN Alexa+ agentic AI launch
-- **Iran war VERIFIED escalation** (cross-confirmed CNN+AJ+NBC)
+10+ compound bull catalysts absorbed by China ChangXin Memory Shanghai STAR debut + Iran diplomacy ambiguity + AI-cycle risk-off.
 
-**Market Open Response: SELL-NEWS ABSORPTION EXTREME** — 6/7 candidates DOWN at open
+**Framework HOLD:** Wed close → Thu close → Fri open → Fri midday → Fri close = 5 consecutive fires HOLD. 0 trades all 3 days. 4/4 slots preserved.
 
-## Diana HOLD Verdict — Chase-vs-Durable Rule Executed
+## 🏆 AAPL +3.57% STANDOUT — Cushion Wed 3.9% → Fri Close 8.1%
 
-| Candidate | Catalyst | Open Reaction | Verdict |
-|-----------|----------|---------------|---------|
-| DLR | +12.7% gap up on Q2 beat + guide raise | Captured bull, chase risk on 1sh probe | PASS |
-| AMKR | $1.5B NVDA partnership | **-1.2% FADED** at open | PASS (sell-news) |
-| ORCL | $6.99B DoD contract | **-2.8% FADED** | PASS (sell-news) |
-| AMAT | INTC 40% capex tailwind | **-3.1%** | PASS (sell-news) |
-| LRCX | INTC 40% capex tailwind | **-2.8%** | PASS (sell-news) |
-| KLAC | INTC 40% capex tailwind | **-2.4%** | PASS (sell-news) |
-| CRM | $1.6B VA contract | +2.7% mild | PASS (thin catalyst) |
+AAPL $333.05 = **+3.57% intraday**. Cook departure narrative digested. Pre-Q3 earnings Aug 4 (11d).
 
-**Framework HOLD = correct discipline. 4/4 trade slots preserved.**
+## 🏆 GE +23.69% LC NEW HIGH SUSTAINED
 
-## 🏆 Defense Sleeve EXECUTING Passively on Iran War VERIFIED
+GE $353.74 (+1.32% day) - Bernstein PT $421. 6-catalyst-week continuation.
 
-Iran war escalation CROSS-CONFIRMED via 3 major outlets:
-- **GE +1.7% intraday NEW HIGH $357** — +24.16% LC 🏆
-- **GD +1.1% intraday** — Trump $1.15T defense package continuation
+## 🚀 GD +7.52% LC Defense Bull
 
-## Held Positions (Fri 10:00 ET)
+GD $386.75 (+1.30% day). Iran verified escalation continuation despite diplomatic ambiguity.
 
-| Ticker | Qty | Basis | Current | LC % | Day % | Stop | Cushion |
-|--------|-----|-------|---------|------|-------|------|---------|
-| UNH 🏆🚀 | 0.69 | $290.00 | $423.20 | **+45.93%** | -0.14% | — frac | n/a |
-| CVS 🏆 | 27 | $75.83 | $107.85 | **+42.22%** | +0.89% | $90 | 16.6% |
-| **GE** 🏆 INTRADAY HIGH | 2 | $285.99 | $354.94 | **+24.16%** | **+1.74%** | $324.53 | 8.6% |
-| **NBIS** 🚨 Tier 3 | 1 | $195.76 | $199.75 | **+2.04%** | **-9.55%** | $180 | **10.9%** |
-| SYY | 5 | $73.21 | $83.09 | +13.49% | +1.66% | $71.45 | 14.0% |
-| **GD** | 1 | $359.72 | $385.99 | **+7.30%** | +1.10% | $333.41 | 13.6% |
-| **AAPL** ⚡ Tier 2 | 3 | $326.34 | $327.40 | **+0.33%** | **+1.78%** | $308 | **5.9%** |
-| **AVGO** ⭐ Tier 2 | 2 | $372.44 | $380.91 | +2.27% | -2.95% | $340 | 12.1% |
-| D | 4 | $68.82 | $71.35 | +3.68% | -0.15% | $62.33 | 12.6% |
-| **NVDA** ⭐ Tier 1 (7) | 7 | $204.68 | $206.00 | +0.64% | -1.32% | $187 | 10.2% |
-| TJX | 4 | $159.00 | $153.47 | -3.48% | 0.00% | $146 | 5.1% |
-| BTCUSD (frozen) | 0.003 | $70,867 | $63,931 | -9.79% | -1.65% | frozen | n/a |
+## 🚨 NBIS -15% DAY — Cushion 4.3% CRITICAL Mon Watch
+
+NBIS $187.78 = -15.06% intraday on China ChangXin narrative. Stop $180 = **only $7.78 or 4.3% buffer**. Sunday-night semi headline risk = elevated. Mon open critical.
+
+## Held Positions EOD (11 equity + BTC + CVR)
+
+| Ticker | Qty | Basis | Close | LC % | Day % | Stop | Cushion |
+|--------|-----|-------|-------|------|-------|------|---------|
+| UNH 🏆🚀 | 0.69 | $290.00 | $420.66 | **+45.06%** | -0.68% | — frac | n/a |
+| CVS 🏆 | 27 | $75.83 | $107.73 | **+42.06%** | +0.79% | $90 | 16.5% |
+| **GE** 🏆 NEW HIGH | 2 | $285.99 | $353.74 | **+23.69%** | **+1.32%** | $324.53 | 8.3% |
+| SYY | 5 | $73.21 | $83.11 | +13.54% | +1.69% | $71.45 | 14.0% |
+| **GD** | 1 | $359.72 | $386.75 | **+7.52%** | +1.30% | $333.41 | 13.8% |
+| **AVGO** ⭐ Tier 2 | 2 | $372.44 | $381.84 | +2.53% | -2.72% | $340 | 10.9% |
+| D | 4 | $68.82 | $71.10 | +3.31% | -0.50% | $62.33 | 12.3% |
+| **AAPL** ⚡ Tier 2 | 3 | $326.34 | **$333.05** | +2.14% | **+3.57%** | $308 | 8.1% |
+| **NVDA** ⭐ Tier 1 (7) | 7 | $204.68 | $206.90 | +1.08% | -0.89% | $187 | 9.6% |
+| TJX | 4 | $159.00 | $154.22 | -3.00% | +0.48% | $146 | 5.3% |
+| **NBIS** 🚨 Tier 3 | 1 | $195.76 | **$187.78** | **-4.13%** | **-15.06%** | $180 | **4.3% ⚠️⚠️** |
+| BTCUSD (frozen) | 0.003 | $70,867 | $64,181 | -9.44% | -1.26% | frozen | n/a |
 | 737CVR019 | 4.06 | $0 | n/a | — | — | — | — |
 
-## Sector Sleeves Fri Open
+## Sector Sleeves EOD
 
 | Sleeve | Fill $ | Fill % | Target |
 |--------|--------|--------|--------|
-| Semi_AI Tier 1 (NVDA) | $1,442 | 4.65% | 30% |
-| Tier 3 (NBIS) | $200 | 0.64% | 3% cap |
-| Tier 2 (AAPL+AVGO) | $1,744 | 5.62% | 15% |
-| Healthcare (UNH+CVS) | $3,203 | 10.32% | 15% |
-| Defense (GD+GE) | $1,096 | 3.53% | 12% |
-| Cash | $21,815 | 70.32% | 30-40% |
+| Semi_AI Tier 1 (NVDA) | $1,448 | 4.67% | 30% |
+| Tier 3 (NBIS) | $189 | 0.61% | 3% cap |
+| Tier 2 (AAPL+AVGO) | $1,763 | 5.68% | 15% |
+| Healthcare (UNH+CVS) | $3,199 | 10.30% | 15% |
+| Defense (GD+GE) | $1,094 | 3.52% | 12% |
+| Cash | $21,815 | 70.27% | 30-40% |
 
-## Watch Fri Midday/Close
+## Themes EOD
 
-1. NBIS $180 stop cushion 10.9% narrowing
-2. AAPL cushion improvement continuation (5.9% now)
-3. DLR post-gap-fade midday entry candidate
-4. Semi cap eq bounce vs continuation
-5. GE NEW HIGH sustain
-6. Iran war cross-confirm continuation
-7. UNH pre-earnings 20d trim window
-8. autopilot_midday 12:47 fire
+1. 🎯 FRAMEWORK HOLD 5X VALIDATED — Diana chase-vs-durable rule
+2. 🏆 AAPL +3.57% STANDOUT — cushion 3.9%→8.1%
+3. 🏆 GE +23.69% LC NEW HIGH SUSTAINED
+4. 🚀 GD +7.52% LC — defense sleeve rocketing
+5. 🚨 NBIS -15% day cushion 4.3% CRITICAL Mon watch
+6. 🚨 Semi sector-wide pullback — ChangXin China STAR debut
+7. 🚨 Iran diplomacy AMBIGUOUS — Pakistan-China vs Trump escalation
+8. 🎯 Portfolio +0.03% BEAT QQQ -1.11% by 1.14%
+9. ✅ Cron 2 days restored (1 close miss today)
+10. 🎯 4/4 SLOTS PRESERVED all week
