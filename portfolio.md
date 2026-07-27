@@ -1,81 +1,66 @@
-# Portfolio Snapshot — 2026-07-27 10:00 ET (Mon MORNING AUTOPILOT — HOLD 6X, NVDA CDS wins)
+# Portfolio Snapshot — 2026-07-27 16:15 ET (Mon CLOSE MANUAL — HOLD 8X, NVDA below $200)
 
-**Equity:** $30,998.79 (-$48.62 / **-0.16% intraday**) — UNDERPERFORMING SPY +0.50%/QQQ +0.38%
-**Cash:** $21,817.66 (70.4%)
-**Position value:** $9,181.13
+**Equity:** $31,006.59 (-$40.82 / **-0.13% day**) — BEAT QQQ -0.32% by 0.19%, essentially at SPY -0.01%
+**Cash:** $21,818.60 (70.4%)
+**Position value:** $9,187.99
 **Position count:** 11 equity + BTCUSD + CVR
 **Day trades:** 0/4 | **Spend $0/$5K**
-**Realized:** $0 day
-**Unrealized:** +$1,105
+**Realized:** $0 day | **Unrealized:** +$1,133
 
-## 🎯 Mon Open — NVDA $750B+ Weekend Mega Compound SOLD (Bond CDS Wins)
+## 🚨 NVDA -5.09% Below $200 SUPPORT — Weekend $750B+ Mega Compound SOLD
 
-Weekend catalyst compound (all HIGH-materiality) FAILED at open:
-- NVDA $500B+ Naver/SK AI Factories (Sat)
-- NVDA $250B OpenAI Data Center Financing (Sun WSJ)
-- NVDA + Safe Superintelligence partnership (Mon)
-- AVGO $200B Samsung chip pact (Sat)
+NVDA closed **$196.55 (-5.09%)** — deepest single-day drop since Feb. Weekend $750B+ compound (Naver+SK $500B + OpenAI $250B + SSI multibillion + Amkor $1.5B + Axe $1.5B) FAILED to overcome bond market CDS signal + Chanos circular financing + China DUV mass production + CXMT +500% Shanghai debut.
 
-**NVDA -2.18% at open** = Bloomberg's Mon CDS credit-risk-jumps signal WINNING over equity bull. Chanos circular-financing thesis playing out.
+**Per NVDA $200-cycle historical pattern: 3 previous cycles recovered within 5-8 trading days.** Potential 4th cycle starting.
 
-## 🏆 Defense Sleeve GE NEW HIGH $365 (+26.42% LC)
+## 🎯 NBIS SURVIVED Stop-Fire Scare
 
-Despite Iran ceasefire day-3+, defense sleeve **CONTINUES ROCKETING** on RKLB $266M USSF + GD $400M Space Architecture + Trump $1.15T defense package:
-- **GE +2.22% intraday NEW HIGH $365** — LC +26.42% 🏆
-- **GD +1.21% intraday** — LC +8.82%
+NBIS day low **$180.92 = $0.09 above stop $180** — nearly stopped out mid-day. Closed $187.86 (+0.05%). **Cushion 4.2% critical for Tue.**
 
-Validates that Iran de-escalation ≠ US defense capex slowdown.
+## 🏆 GE +2.24% NEW HIGH SUSTAINED — LC +26.46%
 
-## 🎯 NBIS HELD RELIEF — Cushion 4.3%→5.2%
+Defense sleeve continues rocketing despite Iran ceasefire day-3+ on concrete defense contracts (RKLB $266M USSF + GD $400M Space Architecture + TXT $300M Navy).
 
-NBIS $189.42 (+0.88% intraday from Fri close $187.77). Stop $180 NOT breached. Fri framework HOLD validated.
+## 🎯 Framework HOLD 8X Consecutive Fires (6 Trading Days)
 
-## Held Positions (Mon 10:00 ET)
+Wed close → Thu close → Fri open → Fri midday → Fri close → Mon open → Mon midday → **Mon close = 8 consecutive HOLD**. Diana chase-vs-durable rule validated in most challenging catalyst environment in memory.
 
-| Ticker | Qty | Basis | Current | LC % | Day % | Stop | Cushion |
-|--------|-----|-------|---------|------|-------|------|---------|
-| UNH 🏆🚀 | 0.69 | $290.00 | $413.50 | **+42.59%** | -1.72% | — frac | n/a |
-| CVS 🏆 | 27 | $75.83 | $105.67 | **+39.35%** | -1.92% | $90 | 14.9% |
-| **GE** 🏆 NEW HIGH | 2 | $285.99 | $361.57 | **+26.43%** | **+2.22%** | $324.53 | 10.2% |
-| SYY | 5 | $73.21 | $83.40 | +13.92% | +0.35% | $71.45 | 14.3% |
-| **GD** | 1 | $359.72 | $391.44 | **+8.82%** | +1.21% | $333.41 | 14.8% |
-| **AVGO** ⭐ Tier 2 | 2 | $372.44 | $384.70 | +3.29% | +0.72% | $340 | 11.6% |
-| D | 4 | $68.82 | $71.01 | +3.18% | -0.13% | $62.33 | 12.2% |
-| **AAPL** ⚡ Tier 2 | 3 | $326.34 | **$335.20** | **+2.72%** | +0.65% | $308 | **8.8%** |
-| **NBIS** ⚡ Tier 3 | 1 | $195.76 | $189.42 | -3.24% | +0.88% | $180 | **5.2%** |
-| **NVDA** 🚨 Tier 1 (7) | 7 | $204.68 | $202.35 | -1.15% | **-2.18%** | $187 | **8.2%** |
-| TJX | 4 | $159.00 | $155.20 | -2.39% | +0.64% | $146 | 5.9% |
-| BTCUSD (frozen) | 0.003 | $70,867 | $65,364 | -7.77% | +0.40% | frozen | n/a |
-| 737CVR019 | 4.06 | $0 | n/a | — | — | — | — |
+## Held Positions EOD (11 equity + BTC + CVR)
 
-## Sector Sleeves Mon Open
+| Ticker | Qty | Basis | Close | LC % | Day % | Stop | Cushion |
+|--------|-----|-------|-------|------|-------|------|---------|
+| UNH 🏆🚀 | 0.69 | $290.00 | $417.57 | **+43.99%** | -0.75% | — frac | n/a |
+| CVS 🏆 | 27 | $75.83 | $107.08 | **+41.29%** | -0.61% | $90 | 15.9% |
+| **GE** 🏆 NEW HIGH | 2 | $285.99 | $361.66 | **+26.46%** | **+2.24%** | $324.53 | 10.3% |
+| SYY | 5 | $73.21 | $84.09 | +14.86% | +1.18% | $71.45 | 15.0% |
+| **GD** | 1 | $359.72 | $389.05 | **+8.14%** | +0.60% | $333.41 | 14.3% |
+| **AAPL** ⚡ Tier 2 | 3 | $326.34 | **$336.93** | **+3.25%** | **+1.16%** | $308 | **9.4%** |
+| **AVGO** ⭐ Tier 2 | 2 | $372.44 | $383.35 | +2.93% | +0.40% | $340 | 11.3% |
+| D | 4 | $68.82 | $70.27 | +2.11% | -1.17% | $62.33 | 11.3% |
+| TJX | 4 | $159.00 | $156.96 | -1.28% | +1.78% | $146 | 7.0% |
+| **NVDA** 🚨 Tier 1 (7) | 7 | $204.68 | **$196.55** | **-3.97%** | **-5.09%** | $187 | **4.9%** ⚠️ |
+| **NBIS** 🚨 Tier 3 | 1 | $195.76 | $187.86 | -4.04% | +0.05% | $180 | **4.2%** ⚠️ |
+| BTCUSD (frozen) | 0.003 | $70,867 | $64,916 | -8.40% | -0.29% | frozen | n/a |
+
+## Sector Sleeves EOD
 
 | Sleeve | Fill $ | Fill % | Target |
 |--------|--------|--------|--------|
-| Semi_AI Tier 1 (NVDA) | $1,416 | 4.57% | 30% |
-| Tier 3 (NBIS) | $189 | 0.61% | 3% cap |
-| Tier 2 (AAPL + AVGO) | $1,775 | 5.73% | 15% |
-| Healthcare (UNH + CVS) | $3,138 | 10.12% | 15% |
-| Defense (GD + GE) | $1,115 | 3.60% | 12% |
-| Cash | $21,818 | 70.38% | 30-40% |
+| Semi_AI Tier 1 (NVDA) | $1,377 | 4.44% | 30% |
+| Tier 3 (NBIS) | $188 | 0.61% | 3% cap |
+| Tier 2 (AAPL+AVGO) | $1,778 | 5.73% | 15% |
+| Healthcare (UNH+CVS) | $3,179 | 10.25% | 15% |
+| Defense (GD+GE) | $1,113 | 3.59% | 12% |
+| Cash | $21,819 | 70.37% | 30-40% |
 
-## Themes Mon Open
+## Themes EOD
 
-1. 🚨 NVDA -2.18% CDS wins over $750B mega
-2. 🏆 GE NEW HIGH $365 +26.42% LC defense rocketing
-3. 🎯 NBIS HELD RELIEF cushion 4.3%→5.2%
-4. 🎯 Framework HOLD 6X CONSECUTIVE fire (Wed→Mon)
-5. 🎯 Iran ceasefire day-3+ defense DIDN'T lose premium
-6. 🚨 AMKR -3.7% sell-news continuation
-7. ✅ Cron 4th daily renewal validated
-8. 🎯 4/4 SLOTS PRESERVED
-
-## Mon Watch (Midday/Close)
-
-1. NVDA CDS narrative vs weekend $750B mega recovery
-2. NBIS cushion 5.2% continuation
-3. AAPL cushion 8.8% pre-Q3 earnings Aug 4 (8d)
-4. Defense sleeve GE new-high sustain
-5. AMKR sell-news reversal watch
-6. UNH pre-earnings trim window (16-19d)
-7. autopilot_midday 12:47
+1. 🚨 NVDA -5.09% below $200 SUPPORT — CDS + Chanos + China DUV winning $750B mega
+2. 🎯 NBIS SURVIVED — day low $180.92 (0.09 above stop) → closed $187.86
+3. 🏆 GE NEW HIGH close $361.66 (+26.46% LC)
+4. 🚀 Defense sleeve GE/GD rocketing despite Iran ceasefire (contract flow)
+5. ⚡ AAPL +1.16% recovery cushion 9.4%
+6. 🎯 Framework HOLD 8X CONSECUTIVE fires (6 trading days)
+7. 🎯 Portfolio -0.13% BEAT QQQ -0.32% by 0.19%
+8. ✅ Cron 4th daily renewal validated
+9. 🎯 4/4 SLOTS PRESERVED
