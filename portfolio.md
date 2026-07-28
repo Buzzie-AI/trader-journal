@@ -1,66 +1,69 @@
-# Portfolio Snapshot — 2026-07-28 13:17 ET (Tue MIDDAY — HOLD 10x, UNH NEW HIGH, NVDA recovered)
+# Portfolio Snapshot — 2026-07-28 16:00 ET (Tue CLOSE MANUAL — HOLD 11x, UNH NEW HIGH, NVDA recovered)
 
-**Equity:** $31,081.37 (+$85.85 / **+0.28% day** vs Mon $30,995.52)
+**Equity:** $31,072.85 (+$77.33 / **+0.25% day** vs Mon $30,995.52) — BEAT QQQ ~-0.5% during Nasdaq 100 correction milestone
 **Cash:** $21,997.62 (70.8%)
-**Position value:** $9,083.75
+**Position value:** $9,075.23
 **Position count:** 10 equity + BTCUSD + CVR (NBIS closed AM)
 **Day trades:** 1/4 (NBIS mechanical) | **Spend $0/$5K**
-**Realized WTD:** -$91.75 | **Unrealized:** +$1,266
+**Realized WTD:** -$91.75 | **Unrealized:** +$1,258
 
-## 🎯 Framework HOLD 10X CONSECUTIVE — GOOGL Pipeline PASS to Watchlist
+## 🎯 Framework HOLD 11X CONSECUTIVE — Nasdaq 100 Correction Absorbed
 
-Full 5-agent pipeline run on GOOGL (Iris→Grace→Atlas→Victor→Diana). Diana **PASS to WATCHLIST** — only 1 day of post-earnings recovery (need multi-day tape accumulation per chase-vs-durable rule).
+Full trading day of pipeline discipline. Full 5-agent GOOGL pipeline PASS to watchlist. MSFT pre-pipeline PASS on Wed 7/29 AMC timing risk. Framework preservation at its most challenging test — Nasdaq 100 CORRECTION milestone breached today, portfolio still BEAT QQQ by ~0.75%.
 
-MSFT Q4 earnings tomorrow (Wed 7/29 AMC) — **PASS at pre-pipeline stage** on 1-day timing risk.
+## 🚨 NBIS STOPPED OUT — Framework Worked
 
-## 🚀 UNH BREAKING OUT to NEW HIGH — $428.50 (+2.60% intraday, LC +47.76%)
+Stop $180 → fill $179.05 (slippage $0.95 = 0.53%). Realized -$16.71 on 1 sh (0.05% portfolio impact). Slippage 30-50x BETTER than post-earnings worst-case warning. Framework HOLD 8X preserved position through Mon scare; Tue mechanical exit at max designed downside.
 
-Ahead of Aug 12-15 earnings (15-18 days out, outside 7d pre-earnings trim window). Strong post-earnings momentum on Cloud + AI narrative.
+## ✅ NVDA Cushion RECOVERED 3.8% AM → 5.1% Close
 
-## ✅ NVDA Cushion RECOVERED — 3.8% AM → 5.8% Midday
+Despite 6 sector-bear pieces today (AI Memory Crumbling + Chip Trade Cracking $1T Korea + CRWV -30% + Corning networking + Nasdaq 100 correction + KOSPI crash), NVDA absorbed all headwinds. Counter-narratives (AI memory demand tight through 2028 CEO + SoftBank $40B OpenAI + NVDA-IREN partnership + GOOGL upgrades) provided balance.
 
-Despite 4 sector-bear pieces today ("AI Memory Crumbling" + "$1T Chip Trade Cracking" + CRWV -30% + Corning networking cascade), NVDA absorbed all headwinds. Tape reversal underway.
+## 🚀 UNH BREAKING OUT NEW HIGH — Closed $428.94 (+2.72%)
 
-## Held Positions Midday (10 equity + BTC + CVR)
+Multi-day breakout continuation ahead of Aug 12-15 earnings. LC **+47.91%**. Portfolio-carrying position.
 
-| Ticker | Qty | Basis | Now | Day % | LC % | Stop | Cushion |
-|--------|-----|-------|-----|-------|------|------|---------|
-| **UNH** 🏆🚀 NEW HIGH | 0.69 | $290.00 | **$428.50** | **+2.60%** | **+47.76%** | — frac | n/a |
-| CVS 🏆 | 27 | $75.83 | $108.87 | +1.68% | **+43.57%** | $90 | 17.3% |
-| GE 🏆 | 2 | $285.99 | $362.97 | +0.38% | +26.92% | $324.53 | 10.6% |
-| SYY | 5 | $73.21 | $85.24 | +1.37% | +16.43% | $71.45 | 16.4% |
-| GD | 1 | $359.72 | $391.26 | +0.55% | +8.77% | $333.41 | 14.8% |
-| AAPL ⚡ | 3 | $326.34 | $339.11 | +0.65% | +3.91% | $308 | 9.2% |
-| D | 4 | $68.82 | $71.09 | +1.17% | +3.30% | $62.33 | 12.3% |
-| AVGO ⭐ | 2 | $372.44 | $380.81 | -0.63% | +2.25% | $340 | 10.7% |
-| TJX | 4 | $159.00 | $159.44 | +1.95% | +0.27% | $146 | 8.4% |
-| **NVDA** 🚨 Tier 1 (7) | 7 | $204.68 | **$197.81** | **+0.66%** | -3.36% | $187 | **5.8%** ✅ RECOVERED |
-| BTCUSD (frozen) | 0.003 | $70,867 | $63,666 | +0.77% | -10.16% | frozen | n/a |
+## 🎯 GD Next-Gen Submarine Deal US-Approved — HELD Tier 1
 
-## Sleeve State Midday
+Bloomberg 14:50 alert. Multi-year, multi-billion procurement commitment for GD Electric Boat division. Adds to defense sleeve momentum with GE NEW HIGH intraday $366.42 tested.
 
-| Sleeve | Fill $ | Fill % | Target | Headroom |
-|--------|--------|--------|--------|----------|
-| Semi_AI Tier 1 (NVDA) | $1,385 | 4.46% | 30% | $7,946 |
-| Tier 2 (AAPL+AVGO) | $1,779 | 5.73% | 15% | $2,883 |
-| Tier 3 | $0 | 0% | 3% cap | $932 |
-| Healthcare (UNH+CVS) | $3,235 | 10.41% | 15% | $1,415 |
-| Defense (GD+GE) | $1,117 | 3.59% | 12% | $2,613 |
-| Cash | $21,998 | 70.79% | 30-40% | — |
+## Held Positions EOD (10 equity + BTC + CVR)
 
-## Themes Midday
+| Ticker | Qty | Basis | Close | LC % | Day % | Stop | Cushion |
+|--------|-----|-------|-------|------|-------|------|---------|
+| **UNH** 🏆🚀 NEW HIGH | 0.69 | $290.00 | **$428.94** | **+47.91%** | +2.72% | — frac | n/a |
+| CVS 🏆 | 27 | $75.83 | $109.31 | **+44.18%** | +2.09% | $90 | 17.6% |
+| **GE** 🏆 NEW HIGH tested | 2 | $285.99 | $363.70 | **+27.17%** | +0.58% | $324.53 | 10.8% |
+| SYY | 5 | $73.21 | $85.20 | +16.37% | +1.32% | $71.45 | 16.1% |
+| **GD** 🎯 sub deal | 1 | $359.72 | $393.22 | **+9.32%** | +1.05% | $333.41 | 15.2% |
+| AAPL ⚡ Tier 2 | 3 | $326.34 | $340.01 | +4.19% | +0.95% | $308 | 9.4% |
+| **AVGO** ⭐ Tier 2 | 2 | $372.44 | $380.46 | +2.15% | -0.61% | $340 | 10.6% |
+| D | 4 | $68.82 | $70.63 | +2.63% | +0.51% | $62.33 | 11.7% |
+| TJX | 4 | $159.00 | $160.80 | +1.13% | +2.83% | $146 | 9.2% |
+| **NVDA** 🚨→✅ Tier 1 (7) | 7 | $204.68 | $197.05 | -3.73% | +0.04% | $187 | **5.1%** recovered |
+| ~~NBIS~~ | 0 | — | STOPPED $179.05 | -8.53% | — | — | closed |
+| BTCUSD (frozen) | 0.003 | $70,867 | $63,780 | -10.00% | +0.95% | frozen | n/a |
 
-1. 🎯 Framework HOLD 10X CONSECUTIVE — GOOGL pipeline PASS to watchlist
-2. 🚀 UNH BREAKING OUT NEW HIGH $428.50 (+2.60%) LC +47.76%
-3. ✅ NVDA cushion RECOVERED 3.8% AM → 5.8% midday
-4. 🚨 4 sector-bear pieces today absorbed by tape
-5. ✅ 4 bullish pieces balancing narrative
-6. 📊 Portfolio +0.28% BEAT SPY -0.1%
-7. ✅ Tier 3 sleeve EMPTY (NBIS ex-post validated by CRWV -30% MTD)
-8. 🎯 GOOGL + MSFT both to watchlist (pre-earnings + insufficient tape accumulation)
-9. ✅ 3/4 discretionary slots preserved
+## Sector Sleeves EOD
 
-## Watchlist Additions Midday
+| Sleeve | Fill $ | Fill % | Target |
+|--------|--------|--------|--------|
+| Semi_AI Tier 1 (NVDA) | $1,376 | 4.43% | 30% |
+| Tier 2 (AAPL+AVGO) | $1,782 | 5.73% | 15% |
+| **Tier 3** | **$0** | **0%** | 3% cap (empty, validated) |
+| Healthcare (UNH+CVS) | $3,225 | 10.38% | 15% |
+| Defense (GD+GE) | $1,120 | 3.60% | 12% |
+| Cash | $21,998 | 70.79% | 30-40% deploy |
 
-- **GOOGL** — post-Q2 recovery, Day 1 of 2-3 days needed for tape confirmation; re-evaluate if closes >$340
-- **MSFT** — Q4 AMC Wed 7/29; post-earnings pipeline eligible pending gap direction
+## Themes EOD
+
+1. 🎯 Framework HOLD 11X CONSECUTIVE (7 trading days)
+2. 🚀 UNH BREAKING OUT NEW HIGH $428.94 (+2.72%) LC +47.91%
+3. 🏆 GE NEW HIGH tested $366.42 intraday
+4. 🎯 GD next-gen submarine deal US-approved (Tier 1 catalyst)
+5. ✅ NVDA cushion RECOVERED 3.8% AM → 5.1% close
+6. 🚨 Nasdaq 100 CORRECTION milestone breached (-10% from peak)
+7. 🚨 NBIS stopped $179.05 — framework worked (-$16.71 = 0.05% impact)
+8. 📊 Portfolio +0.25% BEAT QQQ ~-0.5% (0.75% outperformance during correction)
+9. ✅ GOOGL pipeline PASS + MSFT pre-pipeline PASS = discipline
+10. ⚠️ autopilot_close 15:53 MISSED — manual recap executed
