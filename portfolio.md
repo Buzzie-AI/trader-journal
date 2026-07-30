@@ -1,71 +1,68 @@
-# Portfolio Snapshot — 2026-07-29 16:01 ET (Wed CLOSE MANUAL — HOLD 14x, NVDA cushion RED 1.55%)
+# Portfolio Snapshot — 2026-07-30 16:02 ET (Thu CLOSE MANUAL — post-trim HOLD, NVDA cushion RECOVERED 4.30%)
 
-**Equity:** $30,884.49 (-$214.07 / **-0.69% day**) — matching SPY -0.69%
-**Cash:** $21,997.62 (71.2%)
-**Position value:** $8,886.87
+**Equity:** $30,912.82 (-$187.51 / **-0.60% day**)
+**Cash:** $22,401.63 (72.5%)
+**Position value:** $8,511.19
 **Position count:** 10 equity + BTC + CVR
-**Day trades:** 0/4 | **Spend $0/$5K**
-**Realized WTD:** -$91.75 | **Unrealized:** +$1,030
+**Day trades:** 2/4 (UNH + AAPL trims) | Spend $0/$5K (sells not buys)
+**Realized today:** +$28.10 | **Realized WTD:** -$63.65 | **Unrealized:** +$1,053
 
-## 🎯 Framework HOLD 14X CONSECUTIVE Through Compound-Catalyst Wed
+## ✅ Framework HOLD RETAINED (post-Thu-AM Trims) — NVDA Cushion FULL RECOVERY
 
-Fed HOLD + Warsh first meeting + Iran war escalation + MSFT/META Q4 AMC compound catalysts absorbed. Framework preserved 71.2% cash + 3/4 discretionary slots.
+Thu AM 2 discretionary trims (UNH 0.17 sh + AAPL 1 sh) captured +$28.10 realized before Aug pre-earnings tail. NVDA cushion recovered 1.55% RED → **4.30% GREEN** in single day via MSFT/semi rally sympathy — stop-fire risk NEUTRALIZED.
 
-## 🚨🚨 NVDA CUSHION CRITICAL 1.55% — Thu Stop-Fire Risk MAJOR
+## ✅ MU Regime-Shift +18.4% VALIDATED
 
-NVDA $189.90 close vs $187 stop = only $2.90 buffer. Cushion trajectory Wed: AM 3.8% → 2.35% pre-FOMC low → 3.10% midday → 3.66% post-FOMC → **1.55% close**. Post-FOMC bounce faded in final 90min.
+MU pre-market -$92B decline REVERSED to +18% intraday close = classic Diana chase-vs-durable rule playing out ("wait for accumulation not distribution"). Fri watchlist pipeline candidate if 2-day tape confirms above $870.
 
-## ✅ MSFT AH +2.20% BEAT — Pipeline Candidate Thu
+## ✅ MSFT Sustained +15.5% + AVGO Sympathy +4.86%
 
-MSFT $399.64 AH (Q4 print). BULLISH despite 3 pre-print bear signals (UK CMA + OpenAI rogue + AI capex). Pipeline candidate for Thu AM evaluation.
+MSFT Q4 print rally sustained Thu (still Day 1 accumulation; pipeline PASS pending 2-3d confirm). AVGO cushion expanded 7.9% → 12.5% on sympathy.
 
-## 🚨 META AH -3.42% MISS — PASS Reinforced
+## 🚨 AMZN Q2 AMC MEGA-BEAT (16:02 ET)
 
-META $567.26 AH (Q2 print). BEARISH — FTC lawsuit + AI capex + regulatory overhang materialized. Pipeline PASS.
+Amazon reported EPS $5.75 vs $1.82 est (+216% surprise — largest mega-cap beat of Q2 season) + Sales $200.606B vs $196.46B est. AH price $248.34 = +5.3% AH. AMZN not held — Fri watchlist candidate after conference-call color; chase-vs-durable requires 2-day tape.
 
-## 🚨 QCOM Q3 AH Sell-News — 3rd Semi Pattern
+## ⚠️ autopilot_close 15:53 MISSED (3rd Consecutive Day)
 
-QCOM EPS MISS + Q4 GUIDE MISS despite Sales BEAT. **3rd semi sell-news pattern this week** (KLAC + SKHY + QCOM). Validates Diana chase-vs-durable rule.
+Manual EOD recap per feedback_autopilot_close_miss_recovery. Fri AM cron slot audit needed.
 
-## ⚠️ autopilot_close 15:53 MISSED (2 Days in Row)
-
-Manual EOD recap per feedback_autopilot_close_miss_recovery.
-
-## Held Positions EOD (10 equity + BTC + CVR)
+## Held Positions EOD (10 equity + BTC + CVR — post-trim state)
 
 | Ticker | Qty | Basis | Close | LC % | Day % | Stop | Cushion |
 |--------|-----|-------|-------|------|-------|------|---------|
-| UNH 🏆 | 0.69 | $290.00 | $420.66 | **+45.02%** | -1.92% | — frac | n/a |
-| CVS 🏆 | 27 | $75.83 | $105.87 | +39.67% | **-3.14%** | $90 | 15.0% |
-| GE 🏆 | 2 | $285.99 | $350.77 | +22.60% | **-3.53%** | $324.53 | 7.5% |
-| SYY | 5 | $73.21 | $85.29 | +16.53% | +0.14% | $71.45 | 16.2% |
-| **GD** 🎯 | 1 | $359.72 | $381.58 | +6.08% | -2.96% | $333.41 | 12.6% |
-| AAPL ⚡ | 3 | $326.34 | $337.80 | +3.51% | -0.67% | $308 | 8.9% |
-| **AVGO** ⭐ | 2 | $372.44 | $369.00 | -0.92% | **-3.13%** | $340 | 7.9% |
-| D | 4 | $68.82 | $70.58 | +2.55% | -0.06% | $62.33 | 11.7% |
-| TJX | 4 | $159.00 | $161.63 | +1.65% | +0.52% | $146 | 9.7% |
-| **NVDA** 🚨🚨 Tier 1 (7) | 7 | $204.68 | **$189.90** | **-7.20%** | **-3.61%** | $187 | **1.55%** RED |
-| BTCUSD (frozen) | 0.003 | $70,867 | $63,518 | -10.37% | -0.30% | frozen | n/a |
+| UNH 🏆 ⚡ post-trim | 0.517 | $290.00 | $421.62 | **+45.4%** | +0.24% | — frac | n/a |
+| CVS 🏆 | 27 | $75.83 | $105.11 | +38.6% | -0.71% | $89.33 | 15.0% |
+| GE 🏆 | 2 | $285.99 | $355.16 | +24.2% | **+1.25%** | $324.53 | 8.6% |
+| SYY | 5 | $73.21 | $84.72 | +15.7% | -0.67% | $71.45 | 15.7% |
+| **GD** 🎯 | 1 | $359.72 | $382.29 | +6.3% | +0.19% | $333.41 | 12.8% |
+| AAPL ⚡ post-trim | 2 | $326.34 | $333.07 | +2.1% | -1.51% | $308 | 7.5% |
+| **AVGO** ⭐ | 2 | $372.44 | **$388.32** | +4.3% | **+4.86%** | $340 | 12.5% |
+| D | 4 | $68.82 | $69.75 | +1.4% | -1.14% | $62.33 | 10.6% |
+| TJX | 4 | $159.00 | $159.28 | +0.17% | -1.46% | $146 | 8.3% |
+| **NVDA** ✅ Tier 1 (7) | 7 | $204.68 | **$195.04** | -4.71% | **+2.65%** | $187 | **4.30%** ✅ RECOVERED |
+| BTCUSD (frozen) | 0.003 | $70,867 | $64,765 | -8.61% | +0.81% | frozen | n/a |
 
 ## Sector Sleeves EOD
 
 | Sleeve | Fill $ | Fill % | Target |
 |--------|--------|--------|--------|
-| Semi_AI Tier 1 (NVDA) | $1,329 | 4.30% | 30% |
-| Tier 2 (AAPL+AVGO) | $1,751 | 5.67% | 15% |
+| Semi_AI Tier 1 (NVDA) | $1,369 | 4.43% | 30% |
+| Tier 2 (AAPL+AVGO) | $1,446 | 4.68% | 15% |
 | Tier 3 | $0 | 0% | 3% cap |
-| Healthcare (UNH+CVS) | $3,150 | 10.20% | 15% |
-| Defense (GD+GE) | $1,082 | 3.50% | 12% |
-| Cash | $21,998 | 71.23% | 30-40% |
+| Healthcare (UNH+CVS) | $3,043 | 9.84% | 15% |
+| Defense (GD+GE) | $1,090 | 3.53% | 12% |
+| Cash | $22,402 | 72.47% | 30-40% |
 
 ## Themes EOD
 
-1. 🎯 Framework HOLD 14X CONSECUTIVE (~9 trading days)
-2. 🚨🚨 NVDA cushion 1.55% RED-ZONE — Thu stop-fire risk MAJOR
-3. ✅ MSFT Q4 AH +2.20% BEAT
-4. 🚨 META Q2 AH -3.42% MISS
-5. 🚨 QCOM Q3 AH sell-news 3rd semi pattern
-6. 📉 GE -3.53%, CVS -3.14%, AVGO -3.13% intraday selloff
-7. 📊 Portfolio -0.69% matching SPY -0.69%
-8. ⚠️ autopilot_close MISSED 2nd day in row
-9. 🎯 Cash 71.2% + 3/4 discretionary slots preserved
+1. ✅ Framework HOLD-14X BROKEN correctly Thu AM for RISK-REDUCTION (2 trims)
+2. ✅ NVDA cushion 1.55% RED → **4.30% GREEN** full single-day recovery
+3. ✅ MU +18.4% regime-shift VALIDATED intraday
+4. ✅ MSFT +15.5% sustained (still pipeline PASS Day 1)
+5. ✅ AVGO +4.86% MSFT sympathy (cushion 7.9% → 12.5%)
+6. 🚨 AMZN Q2 +216% EPS mega-beat AH $248.34
+7. 📊 Portfolio -0.60% BETTER than Wed's -0.69%
+8. 🎯 Cash 72.5% + 2/4 discretionary slots preserved
+9. ⚠️ autopilot_close MISSED 3rd consecutive day
+10. 🎯 Realized WTD improved -$91.75 → **-$63.65** (via today's +$28.10)
