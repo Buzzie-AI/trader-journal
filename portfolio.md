@@ -1,33 +1,42 @@
-# Portfolio Snapshot — 2026-07-30 16:02 ET (Thu CLOSE MANUAL — post-trim HOLD, NVDA cushion RECOVERED 4.30%)
+# Portfolio Snapshot — 2026-07-30 16:47 ET (Thu EOD — AAPL Q3 PRINTED, AH -3.73%; AM trim VALIDATED)
 
-**Equity:** $30,912.82 (-$187.51 / **-0.60% day**)
+**Equity:** $30,912.82 close (-$187.51 / **-0.60% day**)
 **Cash:** $22,401.63 (72.5%)
-**Position value:** $8,511.19
+**Position value:** $8,511.19 close (post-close +$22 tick to ~$8,533)
 **Position count:** 10 equity + BTC + CVR
 **Day trades:** 2/4 (UNH + AAPL trims) | Spend $0/$5K (sells not buys)
 **Realized today:** +$28.10 | **Realized WTD:** -$63.65 | **Unrealized:** +$1,053
 
-## ✅ Framework HOLD RETAINED (post-Thu-AM Trims) — NVDA Cushion FULL RECOVERY
+## 🚨 AAPL Q3 PRINTED 16:30 ET — Earlier Than Aug 4 Expected
 
-Thu AM 2 discretionary trims (UNH 0.17 sh + AAPL 1 sh) captured +$28.10 realized before Aug pre-earnings tail. NVDA cushion recovered 1.55% RED → **4.30% GREEN** in single day via MSFT/semi rally sympathy — stop-fire risk NEUTRALIZED.
+**Headline BEAT with tariff quality flag:**
+- EPS $2.02 vs $1.89 est (+6.88% headline) BUT $0.11 came from favorable tariff refund
+- Clean-EPS $1.91 vs $1.89 est = only +1.1% real beat
+- Sales $109.4B beat (+0.7%); iPhone $54.3B; Services $30.7B; **China $18.8B (+22.4% YoY!)**
+- **AH $320.66 = -3.73% from $333.07 close** — market weighting tariff quality > geographic strength
 
-## ✅ MU Regime-Shift +18.4% VALIDATED
+**Held-position 2 sh (post-AM-trim 33%):**
+- Basis $326.34, current AH $320.66 = -1.74% below basis
+- Stop $308 (order 8a22d9eb) = 3.95% cushion (narrowed from 7.5% intraday)
+- Position size $641 = 2.1% portfolio (minimal residual)
+- **AM trim @ $333.79 CAPTURED $13/sh pre-print premium — decision VALIDATED**
+- **HOLD remaining** — awaiting Fri open reaction; stop protects downside
 
-MU pre-market -$92B decline REVERSED to +18% intraday close = classic Diana chase-vs-durable rule playing out ("wait for accumulation not distribution"). Fri watchlist pipeline candidate if 2-day tape confirms above $870.
+## 🚨 AMZN Q2 MEGA-BEAT + Q3 GUIDE CUT
 
-## ✅ MSFT Sustained +15.5% + AVGO Sympathy +4.86%
+- Q2 EPS $5.75 vs $1.82 est (**+216% surprise!**), Sales $200.6B beat, **AWS 18-quarter growth high**
+- Q3 sales guide $197-202B vs $204B est = midpoint CUT
+- **AH $253.44 (+7.5%)** — AWS narrative currently winning vs guide cut
+- Not held; Fri pipeline eligibility requires open-confirmation (chase-vs-durable multi-day rule)
 
-MSFT Q4 print rally sustained Thu (still Day 1 accumulation; pipeline PASS pending 2-3d confirm). AVGO cushion expanded 7.9% → 12.5% on sympathy.
+## ✅ Semi AI Sleeve Sustained (NVDA + AVGO + Sector Tailwind)
 
-## 🚨 AMZN Q2 AMC MEGA-BEAT (16:02 ET)
+- **NVDA cushion 1.55% RED → 4.30% GREEN close → 4.95% post-close** — full recovery via MSFT/broader semi rally sympathy
+- **AVGO +4.86% intraday** — MSFT sympathy sustained (cushion 7.9% → 12.5%)
+- Sector tailwind cluster reinforcing: MSFT AI Pivot ETF + SMCI 3000-racks/mo + AMZN AWS 18Q high
+- **MU +18.4% intraday** — regime-shift VALIDATED (pre-market -$92B → +18% close = classic accumulation)
 
-Amazon reported EPS $5.75 vs $1.82 est (+216% surprise — largest mega-cap beat of Q2 season) + Sales $200.606B vs $196.46B est. AH price $248.34 = +5.3% AH. AMZN not held — Fri watchlist candidate after conference-call color; chase-vs-durable requires 2-day tape.
-
-## ⚠️ autopilot_close 15:53 MISSED (3rd Consecutive Day)
-
-Manual EOD recap per feedback_autopilot_close_miss_recovery. Fri AM cron slot audit needed.
-
-## Held Positions EOD (10 equity + BTC + CVR — post-trim state)
+## Held Positions EOD (10 equity + BTC + CVR)
 
 | Ticker | Qty | Basis | Close | LC % | Day % | Stop | Cushion |
 |--------|-----|-------|-------|------|-------|------|---------|
@@ -36,11 +45,11 @@ Manual EOD recap per feedback_autopilot_close_miss_recovery. Fri AM cron slot au
 | GE 🏆 | 2 | $285.99 | $355.16 | +24.2% | **+1.25%** | $324.53 | 8.6% |
 | SYY | 5 | $73.21 | $84.72 | +15.7% | -0.67% | $71.45 | 15.7% |
 | **GD** 🎯 | 1 | $359.72 | $382.29 | +6.3% | +0.19% | $333.41 | 12.8% |
-| AAPL ⚡ post-trim | 2 | $326.34 | $333.07 | +2.1% | -1.51% | $308 | 7.5% |
+| **AAPL** ⚡ post-trim 🚨Q3 | 2 | $326.34 | $333.07 close ($320.66 AH) | +2.1% close / **-1.74% AH** | -1.51% | $308 | **3.95% AH** |
 | **AVGO** ⭐ | 2 | $372.44 | **$388.32** | +4.3% | **+4.86%** | $340 | 12.5% |
 | D | 4 | $68.82 | $69.75 | +1.4% | -1.14% | $62.33 | 10.6% |
 | TJX | 4 | $159.00 | $159.28 | +0.17% | -1.46% | $146 | 8.3% |
-| **NVDA** ✅ Tier 1 (7) | 7 | $204.68 | **$195.04** | -4.71% | **+2.65%** | $187 | **4.30%** ✅ RECOVERED |
+| **NVDA** ✅ Tier 1 (7) | 7 | $204.68 | **$195.04** | -4.71% | **+2.65%** | $187 | **4.30-4.95%** ✅ |
 | BTCUSD (frozen) | 0.003 | $70,867 | $64,765 | -8.61% | +0.81% | frozen | n/a |
 
 ## Sector Sleeves EOD
@@ -56,13 +65,12 @@ Manual EOD recap per feedback_autopilot_close_miss_recovery. Fri AM cron slot au
 
 ## Themes EOD
 
-1. ✅ Framework HOLD-14X BROKEN correctly Thu AM for RISK-REDUCTION (2 trims)
-2. ✅ NVDA cushion 1.55% RED → **4.30% GREEN** full single-day recovery
-3. ✅ MU +18.4% regime-shift VALIDATED intraday
-4. ✅ MSFT +15.5% sustained (still pipeline PASS Day 1)
-5. ✅ AVGO +4.86% MSFT sympathy (cushion 7.9% → 12.5%)
-6. 🚨 AMZN Q2 +216% EPS mega-beat AH $248.34
-7. 📊 Portfolio -0.60% BETTER than Wed's -0.69%
-8. 🎯 Cash 72.5% + 2/4 discretionary slots preserved
-9. ⚠️ autopilot_close MISSED 3rd consecutive day
-10. 🎯 Realized WTD improved -$91.75 → **-$63.65** (via today's +$28.10)
+1. 🚨 **AAPL Q3 print EARLY — AH -3.73%; AM trim VALIDATED $13/sh capture**
+2. 🚨 AMZN Q2 +216% mega-beat + Q3 guide cut; AH +7.5% AWS narrative winning
+3. ✅ NVDA cushion 1.55% RED → 4.30-4.95% GREEN full recovery
+4. ✅ MU +18.4% regime-shift VALIDATED
+5. ✅ MSFT +15.5% + AVGO +4.86% + SMCI infra + AWS 18Q sector tailwind cluster
+6. ✅ Framework HOLD-14X BROKEN correctly for RISK-REDUCTION Thu AM
+7. 📊 Portfolio -0.60% better than Wed
+8. ⚠️ autopilot_close 30min late; eod_summary missed
+9. 🎯 Cash 72.5% preserved + realized WTD improved to -$63.65

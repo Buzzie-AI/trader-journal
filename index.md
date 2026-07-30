@@ -1,35 +1,44 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-07-30 Thu 16:02 ET (CLOSE MANUAL — post-trim HOLD, NVDA cushion RECOVERED 4.30%, AMZN Q2 mega-beat AH)
-**Equity:** $30,912.82 (**-0.60% day** — better than Wed -0.69%)
+**Last update:** 2026-07-30 Thu 16:47 ET (EOD — AAPL Q3 PRINTED, AH -3.73% on tariff quality flag; AM trim VALIDATED)
+**Equity:** $30,912.82 close (-0.60% day)
 **Cash:** $22,401.63 (72.5%)
 **Position count:** 10 equity + BTC + CVR
 **Day trades:** 2/4 (UNH + AAPL trims) | **Spend $0/$5K**
 **Realized today:** +$28.10 | **Realized WTD:** -$63.65 | **Unrealized:** +$1,053
 
-## ✅ Framework HOLD RETAINED (post-Thu-AM Trims) — NVDA Cushion FULL RECOVERY
+## 🚨 AAPL Q3 PRINTED 16:30 ET — Earlier Than Expected (Not Aug 4)
 
-Thu AM 2 discretionary trims (UNH 0.17 sh @ $411.44 + AAPL 1 sh @ $333.79) captured +$28.10 realized before Aug pre-earnings tail. Framework HOLD-14X BROKEN CORRECTLY for RISK-REDUCTION. NVDA cushion 1.55% RED → 4.30% GREEN full recovery.
+**Headline BEAT with tariff quality flag:**
+- EPS $2.02 vs $1.89 est (+6.88% headline) BUT $0.11 came from tariff refund
+- Clean EPS $1.91 vs $1.89 est = only +1.1% real beat
+- Sales $109.4B beat, iPhone $54.3B, Services $30.7B, **China +22.4% YoY** (reverses Cook-China-risk)
+- **AH price $320.66 = -3.73% from $333.07 close** — market weighting tariff quality > geographic strength
+
+**Held-position impact:** 2 sh post-AM-trim (basis $326.34, stop $308). AH cushion narrowed 7.5% → 3.95%. **AM trim @ $333.79 CAPTURED $13/sh pre-print premium — decision fully VALIDATED.** Position minimal $641 (2.1% portfolio). HOLD remaining pending Fri open reaction.
+
+## 🚨 AMZN Q2 Mega-Beat + Q3 Guide Cut Divergence
+
+Q2 EPS $5.75 vs $1.82 est (+216%!), Sales $200.6B beat, AWS 18-quarter growth high. BUT Q3 sales guide $197-202B vs $204B est = midpoint cut. **AH $253.44 (+7.5%)** — AWS narrative currently winning. Not held; Fri pipeline eligibility hinges on open confirmation (chase-vs-durable requires multi-day accumulation).
 
 ## ✅ MU Regime-Shift +18.4% VALIDATED
 
-MU pre-market -$92B decline REVERSED to +18% intraday close — classic Diana chase-vs-durable "wait for accumulation not distribution" playing out. Fri pipeline candidate if 2-day tape confirms above $870.
+Pre-market -$92B → +18% intraday close = classic Diana chase-vs-durable "accumulation not distribution" playing out. Fri pipeline candidate if 2-day tape confirms above $870.
 
-## ✅ MSFT Sustained +15.5% + AVGO Sympathy +4.86%
+## ✅ MSFT +15.5% Sustained + AVGO Sympathy +4.86%
 
-MSFT Q4 rally sustained Day 1 (still pipeline PASS pending 2-3d accumulation confirm). AVGO cushion expanded 7.9% → 12.5%.
+MSFT Q4 rally sustained Day 1. Still pipeline PASS pending 2-3d confirm. AVGO cushion expanded 7.9% → 12.5%. **NVDA cushion RECOVERED 1.55% RED → 4.30-4.95% GREEN** via MSFT/broader semi rally sympathy (reinforced by SMCI 3000-racks/mo + AMZN AWS 18Q data).
 
-## 🚨 AMZN Q2 AMC MEGA-BEAT 16:02 ET
+## ⚠️ Cron Reliability
 
-EPS $5.75 vs $1.82 est (**+216% surprise** — largest mega-cap beat of Q2 season) + Sales $200.606B beat. AH $248.34 (+5.3%). Not held; Fri watchlist candidate.
-
-## ⚠️ autopilot_close 15:53 MISSED (3rd Consecutive Day)
-
-Fri AM cron slot audit needed.
+- autopilot_close 15:53 finally FIRED 30min late Thu (16:23) — 3-day miss pattern broken
+- eod_summary 16:17 slot MISSED — Fri AM audit needed
+- Both remain on Fri AM audit list
 
 ## Recent Debriefs
 
-- [2026-07-30 Thu CLOSE MANUAL — post-trim HOLD, NVDA cushion RECOVERED](debriefs/2026-07-30-1600-close-manual.md)
+- [2026-07-30 Thu CLOSE MANUAL — AAPL Q3 print, AM trim VALIDATED, NVDA recovered](debriefs/2026-07-30-1600-close-manual.md)
+- [2026-07-30 Thu Late-Fire CLOSE — no-op debrief](debriefs/2026-07-30-1623-close-latefire.md)
 - [2026-07-30 Thu Midday — HOLD post-trim, MU +18% regime-shift](debriefs/2026-07-30-1247-midday.md)
 - [2026-07-30 Thu Morning — 2 TRIMS (UNH + AAPL)](debriefs/2026-07-30-0927-morning.md)
 - [2026-07-29 Wed CLOSE MANUAL — HOLD 14x, NVDA cushion RED](debriefs/2026-07-29-1600-close-manual.md)
@@ -40,7 +49,6 @@ Fri AM cron slot audit needed.
 - [2026-07-28 Tue Morning — NBIS STOPPED](debriefs/2026-07-28-0930-morning.md)
 - [2026-07-28 NBIS Stop-Fire Trade Record](trades/2026-07-28-NBIS-stop-fire.md)
 - [2026-07-27 Mon Close MANUAL — HOLD 8x](debriefs/2026-07-27-1615-close-manual.md)
-- [2026-07-24 Fri Close MANUAL — HOLD 5x](debriefs/2026-07-24-1611-close-manual.md)
 
 ## Equity Trajectory (Last 32 Sessions)
 
@@ -51,27 +59,29 @@ Fri AM cron slot audit needed.
 }
 ```
 
-**Thu 7/30 EOD:** $30,912.82 (-0.60%) — BETTER than Wed's -0.69% despite compound catalyst overhang. Framework preserved 72.5% cash + 2/4 discretionary slots. Thu AM 2 trims (+$28.10 realized) validated by intraday: NVDA cushion recovered 1.55% RED → 4.30% GREEN, MU regime-shift +18%, MSFT +15.5% sustained.
+**Thu 7/30 EOD:** $30,912.82 close (-0.60%) then post-close AAPL Q3 print at 16:30 ET moved AH -3.73% but stops protect. Framework preserved 72.5% cash + 2/4 slots. AM trim VALIDATED by AH reaction; NVDA cushion recovered 1.55% RED → 4.95% GREEN; MU regime-shift +18% validated.
 
-## Fri 7/31 Watch Priorities
+## Fri 7/31 Watch Priorities (revised)
 
-1. **NVDA cushion 4.30% sustain** — verify no re-test below $189
-2. **AMZN Q2 conference-call color** — chase-vs-durable requires 2-day tape
-3. **MU day-2 above $870** — pipeline candidate
-4. **MSFT +15.5% day-2 sustain** — pipeline re-eval trigger
-5. **AAPL Q3 Mon Aug 4** (2 trading days out) — final trim window
+1. 🚨 **AAPL Fri OPEN reaction** — AH -3.73%; stop $308 3.95% cushion; assess further trim or stop-ratchet
+2. **NVDA cushion sustain** — verify no re-test below $189
+3. **AMZN Q3 guide-cut vs AH +7.5% reversal** — Fri open decides pipeline eligibility
+4. **MU day-2 above $870** — pipeline candidate
+5. **MSFT +15.5% day-2 sustain** — pipeline re-eval
 6. **UNH remaining 0.517 sh** — earnings Aug 12-15
-7. **autopilot_close 3-day miss audit** — Fri AM rebuild cron slot if pattern persists
+7. **AVGO 12.5% cushion sustain** — 3-way sector tailwind (MSFT+SMCI+AWS)
+8. **autopilot_close + eod_summary cron audit**
 
 ## Themes EOD
 
 1. ✅ Framework HOLD-14X BROKEN correctly Thu AM for RISK-REDUCTION
-2. ✅ NVDA cushion 1.55% RED → **4.30% GREEN** full recovery
+2. ✅ NVDA cushion 1.55% RED → 4.30-4.95% GREEN full recovery
 3. ✅ MU +18.4% regime-shift VALIDATED
-4. ✅ MSFT +15.5% sustained + AVGO +4.86% sympathy
-5. 🚨 AMZN Q2 +216% EPS mega-beat AH $248.34
-6. 📊 Portfolio -0.60% better than Wed
-7. ⚠️ autopilot_close MISSED 3rd consecutive day
-8. 🎯 Cash 72.5% preserved + realized WTD improved to -$63.65
+4. ✅ MSFT +15.5% + AVGO +4.86% + SMCI infra + AWS 18Q sector tailwind cluster
+5. 🚨 **AAPL Q3 print early — AH -3.73% tariff quality flag; AM trim VALIDATED**
+6. 🚨 AMZN Q2 +216% mega-beat + Q3 guide cut; AH +7.5% AWS narrative winning
+7. 📊 Portfolio -0.60% better than Wed
+8. ⚠️ autopilot_close late-fire; eod_summary missed
+9. 🎯 Cash 72.5% preserved + realized WTD improved to -$63.65
 
 Full EOD debrief: [debriefs/2026-07-30-1600-close-manual.md](debriefs/2026-07-30-1600-close-manual.md)
