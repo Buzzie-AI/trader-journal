@@ -1,79 +1,61 @@
-# Portfolio Snapshot — 2026-07-31 16:01 ET (Fri CLOSE MANUAL — 2 trades, Framework HOLD, MU cushion 2.3%)
+# Portfolio Snapshot — 2026-08-03 09:30 ET (Mon OPEN — MU stop-fired, framework HOLD 9 remaining)
 
-**Equity:** $30,778.34 (-$145.53 / **-0.47% day** vs Thu $30,923.86)
-**Cash:** $22,088.97 (71.8%)
-**Position value:** $8,689.37
-**Position count:** 9 equity + MU NEW + BTC + CVR (AAPL exited via stop)
-**Day trades:** 1/4 discretionary (MU) + 1 mechanical (AAPL stop) | Spend $921/$5K
-**Realized today:** -$43.41 (AAPL stop) | Realized WTD: -$107.06 | Unrealized: +$1,038
+**Equity:** $30,794.54 (-$50 / **-0.16% day** vs Fri $30,844.81)
+**Cash:** $22,930 (post-MU sale, 74.5%)
+**Position value:** $7,864
+**Position count:** 9 equity + BTC + CVR (MU exited via stop)
+**Day trades:** 1 mechanical (MU stop) | Spend $0/$5K
+**Realized today:** -$141.37 (MU stop) | Realized WTD: -$141.37 | Unrealized: +$1,105
 
-## 🎯 Fri 2 Trades — Framework Preservation VALIDATED
+## 🎯 MU STOP-FIRED at Open — Framework Preservation Validated
 
-**AAPL STOP-FIRE $304.63** — stop $308 fired at open on -9% gap-down (Q3 quality flag + Q4 guide below street + Cramer capitulation). Slippage $3.37 = 1.1% below = **MUCH better than 15-25% worst-case predicted** (deep-liquidity mega-cap). Loss $43.41. AAPL full cycle net -$36 over 15 trading days.
+Order 83f4aeb3 (1 sh @ stop $805) fired at 09:30:05 ET open bell at $780.51. **Slippage $24.49 = 3.04% below stop** — better than 15-25% worst-case memory prediction. Loss -$141.37 = **0.46% portfolio impact bounded**.
 
-**MU BUY 1 sh @ $921.875** — Tier 3 semi ecosystem 3% cap, stop $805 GTC (order 83f4aeb3), full 5-agent pipeline documented. Intraday reversal: open $918 → session low $818 (-10.9%) → close $823. Cushion collapsed 12.7% → **2.3% at close** ⚠️.
+**MU full cycle:** BUY Fri 7/31 @ $921.88 → SELL Mon 8/3 @ $780.51 = -$141.37 over **1 trading day**. Michael Burry public $880 short entry + Sat DRAM caution + Mon $12B China AI ban tail risk accumulation prevailed over compound bull thesis (Korea limit + AMZN $220B + AAPL 100-year flood).
 
-**Portfolio -0.47% remarkably flat** despite AAPL -9% + MU -10.7% — framework preservation working as designed.
+**Lesson:** When Burry publicly discloses specific short entry price, weight counter-signal heavier — public entry becomes market-visible anchor.
 
-## ✅ NVDA Closed Strong +2.92% Above $200
+## ✅ Framework HOLD Retained 9 Positions
 
-$200.74 close (+2.92% day) — cushion recovered 4.30% (Thu) → 6.9% (Fri open) → **7.3% Fri close** despite Michael Burry expanded short pressure. Semi Tier 1 leadership offset MU Tier 3 drawdown.
+- NVDA cushion 6.3% (Burry pressure continues but stop protects)
+- AVGO cushion 12.2% (profit-taking on gap)
+- All other positions healthy cushions ≥ 8.4%
+- Portfolio -0.16% flat despite -$141 realized (bounded damage)
 
-## ✅ AVGO Cushion EXPANDED to 14.4%
+## Held Positions Post-Stop (9 equity + BTC + CVR)
 
-$389.30 close (+0.37% day). AAPL-Broadcom US supply chain partnership beneficiary + Semi_AI cluster tailwind.
+| Ticker | Qty | Basis | Open | LC % | Day % | Stop | Cushion |
+|--------|-----|-------|------|------|-------|------|---------|
+| **AVGO** ⭐ | 2 | $372.44 | $381.36 | +2.4% | -2.03% | $340 | 12.2% |
+| **NVDA** ✅ Tier 1 (7) | 7 | $204.68 | $198.74 | -2.9% | -1.00% | $187 | 6.3% |
+| UNH 🏆 | 0.517 | $290.00 | $417.58 | **+43.99%** | +0.77% | — frac | n/a |
+| CVS 🏆 | 27 | $75.83 | $105.10 | +38.6% | +0.64% | $89.33 | 15.0% |
+| GE 🏆 | 2 | $285.99 | $362.58 | +26.8% | +0.70% | $324.53 | 10.5% |
+| SYY | 5 | $73.21 | $85.82 | +17.2% | +0.68% | $71.45 | 16.7% |
+| **GD** 🎯 | 1 | $359.72 | $385.17 | +7.1% | +0.46% | $333.41 | 13.4% |
+| D 🎯 | 4 | $68.82 | $69.26 | +0.6% | +0.12% | $62.33 | 11.0% |
+| TJX | 4 | $159.00 | $159.34 | +0.2% | +1.27% | $146 | 8.4% |
+| BTCUSD (frozen) | 0.003 | $70,867 | $62,730 | -11.5% | -0.53% | frozen | n/a |
 
-## ✅ D Held Position Validated
-
-Company confirmed "AI boom fueling **unprecedented power demand across Virginia**" (55%+ of US data center capacity). Q2 EPS +16% + Sales +11% beat this morning. Utility sleeve as AI infra power play validated.
-
-## 🎯 MU HOLD Rationale for Monday
-
-- **Bull thesis intact:** 3 independent mega-cap CEO validations (AMZN $220B capex "memory named" + AAPL "100-year flood" framing + SK Hynix +30% Korea limit implicit)
-- **Bear pressure:** Michael Burry short at ~$880 disclosed publicly
-- **Volume:** 1.56M vs Thu 1.65M = profit-taking not distribution
-- **Position minimal:** 2.67% portfolio; max additional loss if stop $805 fires ~$18-30 = 0.06-0.10% portfolio impact
-- **Decision:** HOLD stop $805 unchanged — ratcheting tighter risks whipsaw exit on Monday bounce
-
-## ⚠️ autopilot_close 15:53 MISSED 4th Consecutive Day
-
-Tue+Wed+Thu+Fri pattern — cron slot needs investigation. Manual EOD recap fallback continues working. Mon AM slot audit needed.
-
-## Held Positions EOD (10 equity + BTC + CVR)
-
-| Ticker | Qty | Basis | Close | LC % | Day % | Stop | Cushion |
-|--------|-----|-------|-------|------|-------|------|---------|
-| **MU** ⭐ Tier 3 NEW | 1 | $921.88 | $823.21 | **-10.71%** | **-5.98%** | $805 | **2.3%** ⚠️ |
-| **AVGO** ⭐ | 2 | $372.44 | $389.30 | +4.52% | +0.37% | $340 | 14.4% |
-| **NVDA** ✅ Tier 1 (7) | 7 | $204.68 | **$200.74** | -1.93% | **+2.92%** | $187 | **7.3%** ✅ |
-| UNH 🏆 | 0.517 | $290.00 | $414.43 | +42.9% | -1.71% | — frac | n/a |
-| CVS 🏆 | 27 | $75.83 | $104.43 | +37.7% | -0.75% | $89.33 | 15.0% |
-| GE 🏆 | 2 | $285.99 | $360.07 | +25.9% | **+1.42%** | $324.53 | 10.9% |
-| SYY | 5 | $73.21 | $85.24 | +16.4% | +0.63% | $71.45 | 16.2% |
-| **GD** 🎯 | 1 | $359.72 | $383.42 | +6.6% | +0.30% | $333.41 | 13.0% |
-| **D** 🎯 Q2 BEAT | 4 | $68.82 | $69.25 | +0.6% | -0.72% | $62.33 | 11.1% |
-| TJX | 4 | $159.00 | $157.34 | -1.0% | -1.21% | $146 | 7.7% |
-| BTCUSD (frozen) | 0.003 | $70,867 | $62,957 | -11.16% | -2.46% | frozen | n/a |
-
-## Sector Sleeves EOD
+## Sector Sleeves Open
 
 | Sleeve | Fill $ | Fill % | Target |
 |--------|--------|--------|--------|
-| Semi_AI Tier 1 (NVDA) | $1,400 | 4.55% | 30% |
-| Tier 2 (AVGO) | $779 | 2.53% | 15% |
-| **Tier 3 semi (MU NEW)** | $822 | 2.67% | 3% cap |
-| Healthcare (UNH+CVS) | $3,035 | 9.86% | 15% |
-| Defense (GD+GE) | $1,103 | 3.58% | 12% |
-| Cash | $22,089 | 71.77% | 30-40% |
+| Semi_AI Tier 1 (NVDA) | $1,391 | 4.52% | 30% |
+| Tier 2 (AVGO) | $763 | 2.48% | 15% |
+| Tier 3 semi (MU exited) | $0 | 0.00% | 3% |
+| Healthcare (UNH+CVS) | $3,055 | 9.92% | 15% |
+| Defense (GD+GE) | $1,110 | 3.61% | 12% |
+| Cash | $22,930 | 74.46% | 30-40% |
 
-## Themes EOD
+## Themes Open
 
-1. 🎯 AAPL stop-fired $304.63 (mechanical, minimal 1.1% slippage — framework works)
-2. 🎯 MU pipeline BUY $921.88 executed (Tier 3 memory regime shift, full 5-agent pipeline)
-3. 🚨 MU cushion 2.3% at close (Burry $880 short pressure)
-4. ✅ NVDA +2.92% closed above $200 (cushion 4.30% → 7.3% recovered)
-5. ✅ AVGO cushion 14.4% (AAPL partnership beneficiary)
-6. ✅ D Q2 beat + AI Virginia power narrative validated
-7. 📊 Portfolio -0.47% flat vs AAPL -9% + MU -10.7% (framework preservation)
-8. ⚠️ autopilot_close MISSED 4th consecutive day
-9. 🎯 Cash 71.8% + 3/4 slots preserved
+1. 🎯 MU STOP-FIRED $780.51 mechanical (bounded -$141 = 0.46% portfolio)
+2. ✅ Framework HOLD 9 equity + BTC + CVR
+3. ✅ Semi sleeve NVDA/AVGO holding despite MU capitulation
+4. 🚨 Burry/CUDA rival/China AI ban NVDA tail risks accumulating
+5. ✅ Trump Iran de-escalation + S&P +47.4% EPS macro tailwind
+6. 📊 Portfolio -0.16% flat despite -$141 realized
+7. 🎯 Cash 74.5% + 4/4 discretionary slots preserved
+
+**Lesson for framework:** Michael Burry public short at named price = market-visible bear anchor; weight counter-signals heavier vs compound bull thesis in future pipeline decisions.
