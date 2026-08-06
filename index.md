@@ -1,28 +1,32 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-08-05 Wed 16:23 ET (CLOSE — LLY DEPLOYED, NVDA 3rd BULL COMPOUND, NVDA 2nd RATCHET)
-**Equity:** $30,870.83 (**-0.65% RED day**, +0.08% vs Fri)
-**Cash:** $20,348.46 (65.9%)
-**Position count:** 12 equity + BTC + CVR (CVS EXITED AM, LLY NEW midday)
-**Day trades:** 1 disc (LLY) + 1 mechanical (CVS stop) + 5 ratchets (NVDA×2, AVGO, ASML, GE) | **Spend $1,158 / $5K cap** | 3/4 slots remain
-**Realized today:** **+$483.92 (CVS +23.7% over 3-mo hold)**
-**Total day P&L:** **+$1,094 (realized +$484 / unrealized +$610)**
+**Last update:** 2026-08-06 Thu 10:03 ET (MORNING — NVDA-ADD FILLED $222.44, MEGA MACRO $1.17T CAPEX THESIS)
+**Equity:** $30,988.31 (**+0.38% GREEN vs Wed EOD**)
+**Cash:** $20,126.01 (65.0%)
+**Position count:** 12 equity + BTC + CVR (NVDA 15sh → 16sh)
+**Day trades:** 1 disc (NVDA-add) + 1 mechanical (NVDA stop re-issue) | **Spend $222 / $5K cap** | 3/4 slots remain
+**Realized today:** $0
+**Unrealized today:** **+$687**
 
-## Close Recap — LLY Deploy Midday, NVDA 3rd Bull Compound + 2nd Ratchet Lock
+## Morning Recap — NVDA-Add 1sh Filled on 5-Catalyst Compound + $1.17T MACRO
 
-autopilot_close cron fired 16:23 (30 min late from 15:53 schedule). Full EOD wrap. **CVS stopped AM +$484 realized locked**. **LLY 1 sh @ $1158.37 filled midday** (Tier 2 healthcare refill, stop $1080). **NVDA closed $219.16 (+3.42%)** on 3rd bullish compound (SpaceX EXCLUSIVE sourcing + 92% sovereign AI dominance + prior AWS/Anthropic/Volta stack) — **2nd stop ratchet PM $202→$205** locks compound gains.
+autopilot_morning cron fired 09:57 (30 min late). Full 5-agent pipeline (Iris/Grace/Atlas/Victor/Diana) PASS + Marcus 11/11 gates PASS. **NVDA-add 1 sh @ $222.44** (limit $222.55, better than limit; order 8c958504). Position 15sh → 16sh, weighted basis ~$207.41. Stop $205 re-issued qty 16 GTC (order 1443dfcc). Chase-vs-durable: **DURABLE** — multi-quarter structural stack, not intraday spike.
 
-Cash $20,348 (65.9%). AI sleeve **20.86%** (Mon 18% → Tue 20.4% → Wed 20.9% trending up). Healthcare rebuilt **0.7% AM → 4.47% close** via LLY quality upgrade over CVS. 3/4 discretionary slots preserved for Thu 8/6 AM (~$3,842 spend budget).
+5-catalyst compound: **Ark Wood $17.6M NVDA buy** + **SpaceX EXCLUSIVE AI processor sourcing** + **NVDA powers 92% of sovereign AI models** + **AWS AI compute sold-out through 2028** + **US hyperscaler AI capex $916B → $1.17T next year (3X telecom boom as % of GDP)**.
 
-## AI Sleeve 20.86% + Healthcare 4.47% (Both Sleeves Live)
+Cash $20,126 (65.0%). AI sleeve **21.76%** (Wed 20.86% → Thu 21.76% = +0.9pp on NVDA-add). NVDA Tier 1 at **11.47% of book** approaching 12% exception cap.
 
-- **AI Tier 1 NVDA:** $3,297 (10.68%, at NVDA 12% exception; room +$407 ~1.9 sh) — stop **$205 cushion 6.9%** (2nd ratchet)
-- **AI Tier 2 ASML+AVGO:** $2,508 (8.12%) — ASML stop $1,560 cushion 6.8% ⚠️ / AVGO stop $385 cushion 8.7%
-- **AI Tier 3 MRVL:** $634 (2.05%) — stop $198 cushion **6.0% NARROWEST** (AMD-halo -3.55%)
-- **Healthcare LLY+UNH:** $1,379 (4.47%) — LLY stop $1,080 cushion 7.6%
+## AI Sleeve 21.76% (NVDA Tier 1 Near Exception Cap)
+
+- **AI Tier 1 NVDA:** $3,553 (**11.47%**, at NVDA 12% exception; **~0.7sh headroom** to cap) — stop **$205 cushion 7.7%** (re-issue qty 16)
+- **AI Tier 2 ASML+AVGO:** $2,551 (8.23%) — ASML $1,560 cushion 8.8% / AVGO $385 cushion 8.3%
+- **AI Tier 3 MRVL:** $639 (2.06%) — stop $198 cushion **7.1% NARROWEST** (AMD/DDOG-halo pressure)
+- **Healthcare LLY+UNH:** $1,402 (4.52%) — LLY stop $1,080 cushion 9.2%
 
 ## Recent Debriefs
 
+- [2026-08-06 Thu MORNING — NVDA-ADD FILLED $222.44, MEGA MACRO $1.17T CAPEX THESIS](debriefs/2026-08-06-1003-morning.md)
+- [2026-08-06 NVDA-Add 5-Agent Fast-Track Pipeline (09:58 ET)](debriefs/2026-08-06-0958-nvda-add-pipeline.md)
 - [2026-08-05 Wed CLOSE — LLY DEPLOYED MIDDAY, NVDA 3rd BULL COMPOUND, NVDA STOP RATCHET $202→$205](debriefs/2026-08-05-1623-close.md)
 - [2026-08-05 Wed MIDDAY — LLY PIPELINE FILLED, HEALTHCARE SLEEVE REBUILT](debriefs/2026-08-05-1301-midday.md)
 - [2026-08-05 LLY 5-Agent Fast-Track Pipeline (12:47 ET)](debriefs/2026-08-05-1247-lly-pipeline.md)
@@ -30,43 +34,42 @@ Cash $20,348 (65.9%). AI sleeve **20.86%** (Mon 18% → Tue 20.4% → Wed 20.9% 
 - [2026-08-04 Tue CLOSE — AI-INFRA MEGA DAY, MRVL DEPLOYED, AMD DC DOUBLES POST-CLOSE](debriefs/2026-08-04-1653-close.md)
 - [2026-08-04 Tue MIDDAY — MRVL AI storage pipeline FILLED, +0.28% GREEN](debriefs/2026-08-04-1258-midday.md)
 - [2026-08-04 MRVL 5-Agent Fast-Track Pipeline (12:57 ET)](debriefs/2026-08-04-1257-mrvl-pipeline.md)
-- [2026-08-04 Tue MORNING — AI sleeve validating, 3 ratchets, WH AI meeting today](debriefs/2026-08-04-0957-morning.md)
 
-## Equity Trajectory (Last 27 Sessions)
+## Equity Trajectory (Last 28 Sessions)
 
 ```
 {
-  "labels": ["Thu 7/2","Fri 7/3","Mon 7/7","Tue 7/8","Wed 7/9","Thu 7/10","Fri 7/11","Mon 7/14","Tue 7/15","Wed 7/16","Thu 7/17","Fri 7/18","Mon 7/21","Tue 7/22","Wed 7/23","Thu 7/24","Fri 7/25","Mon 7/28","Tue 7/29","Wed 7/30","Thu 7/31","Mon 8/3","Tue 8/4 AM","Tue 8/4 Midday","Tue 8/4 Close","Wed 8/5 AM","Wed 8/5 Close"],
-  "values": [31290.31, 31335.99, 31302.53, 31308.84, 31365.38, 31089.80, 31149.38, 31088.24, 31020.84, 31009.83, 30963.22, 31109.97, 31103.70, 31037.71, 31047.41, 30995.52, 31098.56, 31100.33, 30923.86, 30844.81, 30844.81, 30878.95, 30969.86, 31054.13, 31035.02, 30952.87, 30870.83]
+  "labels": ["Thu 7/2","Fri 7/3","Mon 7/7","Tue 7/8","Wed 7/9","Thu 7/10","Fri 7/11","Mon 7/14","Tue 7/15","Wed 7/16","Thu 7/17","Fri 7/18","Mon 7/21","Tue 7/22","Wed 7/23","Thu 7/24","Fri 7/25","Mon 7/28","Tue 7/29","Wed 7/30","Thu 7/31","Mon 8/3","Tue 8/4 AM","Tue 8/4 Midday","Tue 8/4 Close","Wed 8/5 AM","Wed 8/5 Close","Thu 8/6 AM"],
+  "values": [31290.31, 31335.99, 31302.53, 31308.84, 31365.38, 31089.80, 31149.38, 31088.24, 31020.84, 31009.83, 30963.22, 31109.97, 31103.70, 31037.71, 31047.41, 30995.52, 31098.56, 31100.33, 30923.86, 30844.81, 30844.81, 30878.95, 30969.86, 31054.13, 31035.02, 30952.87, 30870.83, 30988.31]
 }
 ```
 
-**Wed 8/5 Close:** $30,870.83 (**-0.65% RED**, -$202 vs Mon EOD; +0.08% vs Fri) — LLY 1 sh deployed midday, CVS +$484 realized, NVDA +3.42% on 3rd bull compound, 5 ratchets total.
+**Thu 8/6 AM:** $30,988.31 (**+0.38% GREEN**, +$117 vs Wed EOD) — NVDA-add 1 sh @ $222.44 filled on 5-catalyst compound + $1.17T MACRO.
 
-## Thu 8/6 Watch Priorities
+## Thu Midday+ Watch Priorities
 
-1. **NVDA-add pipeline candidate #1** — 3rd bull compound today + Tier 1 exception cap headroom +$407 (~1-2 sh)
-2. **China-AI-ban regulatory overlay** — BNP Paribas warning hits 15.6% of book; MONITOR cross-outlet Tier-1 confirm
-3. **MRVL cushion 6.0% NARROWEST** — AMD-halo stop-fire risk watch Thu AM
-4. **ASML cushion 6.8%** 2nd narrowest — EUV monopoly intact
-5. **LLY first 24h** cushion 7.6% — Q2 MEGA beat bed-in
-6. **META Muse Code** WSJ-confirm coding-agent launch — Tier 2 candidate
-7. **MCK MEGA Q1 +30%** — healthcare sleeve read-through for LLY
-8. **AMD stabilization** — $481 vs MS PT $465 anchor; if drops to $465 = value entry candidate
-9. **OXY / ALL MEGA earnings** — energy/insurance strength cross-signal on Iran deal narrative
-10. **UNH earnings Aug 12-15** — pre-earnings drift watch
+1. **NVDA post-add** — cushion 7.7%; watch $225 breakout for ratchet consideration
+2. **AVGO VMware AI-security launch reaction** — flat AM despite catalyst; midday tell
+3. **LLY $1,200 breakout watch** — BAC $250M/yr + Amazon Pharmacy distribution
+4. **MRVL 7.1% NARROWEST cushion** — DDOG-halo continuation risk
+5. **DDOG -16% ripple risk** — 6 beat-but-drop patterns today
+6. **Iran de-escalation** — Bessent chatter vs OXY/COP MEGA + gold breakout
+7. **META AI-safety follow-up** — cybersec sector scare digest
+8. **UNH earnings Aug 12-15** — ~4 trading days out
+9. **D + TJX stop expiry** — Aug 14 + 18 need re-issue
+10. **$1.17T MACRO thesis** — validates AI-infra hold discipline through year-end
 
 ## Themes Open
 
-1. **LLY 1 sh deployed** — healthcare sleeve rebuilt 0.7%→4.47% via Q2 MEGA beat
-2. **CVS +$484 realized** — tight-stops directive validated on AM open
-3. **NVDA 3rd bull compound + 2nd ratchet** — SpaceX EXCLUSIVE + 92% sovereign AI + prior stack
-4. **AI sleeve 20.86%** — Tier 1+2+3 all live with 5 total ratchets today
-5. **China-AI-ban NEW overlay** — 15.6% of book affected; BNP Paribas warning; "proposed" not enacted
-6. **MRVL 6.0% NARROWEST cushion** — AMD-halo sympathy pain
-7. **3/4 discretionary slots + $3.8K spend intact** for Thu 8/6
-8. **Portfolio -0.65% RED / +0.08% vs Fri** — held ground on down tape
-9. **Total day P&L +$1,094** (realized +$484 / unrealized +$610)
-10. **Cash 65.9%** — overweight; incremental deploy discipline continues
+1. **NVDA-add filled** — 5-catalyst compound + MEGA MACRO validation; Tier 1 near 12% cap
+2. **AI sleeve 21.76%** — trending up +0.9pp on Wed→Thu compound
+3. **Healthcare LLY-bed-in** — +$32 unrealized 24h post-fill; +2% intraday reaction to BAC
+4. **China-AI-ban NEW overlay** — 15.6% of book affected; BNP Paribas "proposed" not enacted
+5. **MRVL 7.1% NARROWEST cushion** — AMD/DDOG-halo pressure watch
+6. **Beat-but-drop day** — 6 names (AMD/SNDK/MU/MRVL/MELI/DDOG-16%) = valuation-over-fundamentals vote
+7. **3/4 discretionary slots + $4.8K spend intact** for Thu midday/close
+8. **Portfolio +0.38% GREEN** — reversal from Wed -0.65% red
+9. **Cash 65.0%** — overweight; incremental deploy discipline continues
+10. **$1.17T hyperscaler capex thesis** — generational structural tailwind (3X telecom boom)
 
-Full close debrief: [debriefs/2026-08-05-1623-close.md](debriefs/2026-08-05-1623-close.md)
+Full morning debrief: [debriefs/2026-08-06-1003-morning.md](debriefs/2026-08-06-1003-morning.md)
