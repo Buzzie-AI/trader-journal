@@ -1,122 +1,104 @@
-# Portfolio Snapshot — 2026-08-10 10:03 ET (Mon MORNING — GD-ADD $395.55 EXECUTED, PENTAGON-DEFENSE-STACK VALIDATED, OPTION C FIRST CYCLE)
+# Portfolio Snapshot — 2026-08-10 12:53 ET (Mon MIDDAY — GD-ADD HOLDING, NVDA REVERSAL ON MSFT-MAIA-300, GE CUSHION 3.5%)
 
-**Equity:** $31,056.89 (+$4 / **FLAT** vs Fri EOD $31,053)
-**Cash:** ~$19,731 (63.5%) post-GD-add
-**Position value:** $11,325 (36.5%)
-**Position count:** 13 equity + BTC + CVR (GD now 2 sh)
-**Day trades:** 1 discretionary (GD-add) + 1 mechanical ratchet (GD stop) | 3/4 discretionary slots preserved | $396 of $5K spend cap
+**Equity:** $30,943.59 (-$109 / **-0.35% RED** vs Fri EOD $31,053.31)
+**Cash:** $19,732.04 (63.8%)
+**Position value:** $11,211.55 (36.2%)
+**Position count:** 13 equity + BTC + CVR (no new trades midday)
+**Day trades:** 1 discretionary (GD-add AM) + 1 mechanical ratchet (GD stop $358→$370) | 3/4 discretionary slots preserved | $396 of $5K spend cap
 **Realized today:** $0
-**Unrealized today:** **+$795** (pre-GD-add)
+**Unrealized today:** **+$672** (down from AM +$795; -$123 on semi reversal)
 
-## Morning Recap — GD-Add Executed on 9-Catalyst Pentagon-Defense-Ramp Compound
+## Midday Recap — Semi Reversal on MSFT-Maia-300, HOLD Verdict
 
-autopilot_morning cron fired 09:57 ET (30 min late from 09:27). First trading day after operator's Option C sector-agnostic authorization (Fri 8/7) + operator's Sun 8/9 flag on "Pentagon asks defense companies to ramp up production as stockpiles run low during Iran war" cross-confirmed via 6 Tier-1 outlets.
+autopilot_midday cron fired 12:47 ET. Post AM GD-add ($395.55 fill 10:01 ET). Semi sector reversed intraday on MSFT-Maia-300 chip news (12:41 alert) targeting reduced NVDA reliance via TSMC 300K+ units. Counter-catalyst: $500B Wall Street AI-financing consortium with NVDA (Apollo/BAM/BLK/BX/GS/KKR) landed 8 min BEFORE Maia-300 news — but MSFT-Maia-300 dominated tape reaction.
 
-**Executed at 10:01:32 ET:**
-- **GD-ADD BUY 1 sh** @ $395.545 (limit $396.40; better than limit; order 3b1d89fc). Position 1sh → 2sh, weighted basis ~$377.66.
-- **GD stop RATCHET** qty 1 @ $358 → qty 2 @ $370 (order 2c0575c5); cushion 6.5% at $395.61.
+**Diana midday verdict:** HOLD all positions — semi reversal makes chase risk high; GE cushion 3.5% narrowest watch. 3/4 slots preserved for close.
 
-**Full 5-agent fast-track PASS.** Diana DURABLE BUY. Marcus ALL PASS.
+## Semi Sector Reversal (AM → Midday)
 
-## 9-Catalyst Pentagon-Defense-Ramp Compound Stack
+| Ticker | AM (10:00) | Midday (12:53) | Change | Cushion AM→Midday |
+|--------|-----------|----------------|--------|-------------------|
+| NVDA | $222.03 | $216.99 | **-2.2%** | 8.3% → **5.9%** |
+| AVGO | $428.61 | $421.39 | -1.7% | 8.5% → **6.6%** |
+| MRVL | $217.31 | $213.37 | -1.9% | 9.7% → **7.6%** |
+| ASML | $1,759.50 | $1,747.83 | -0.7% | 11.4% → 12.0% (widened) |
 
-1. Fri 8/7: GD wins $1.3B Army Nat Guard IT + Cybersecurity contract
-2. Fri 8/7: Pentagon space-based missile defense first tests
-3. Sat 8/8: Iran War Exposes US Munition Gaps + Raytheon awarded missile contract
-4. Sat 8/8: Trump admin pledges $2B+ battery/critical-minerals decoupling
-5. **Sun 8/9: OPERATOR FLAGGED** "Pentagon asks defense firms ramp production" — 6 Tier-1 outlet confirm
-6. Mon 8/10 04:00: "US-Iran Standoff Continues" — Iran situation ACTIVE
-7. Mon 8/10 06:20: RKLB $397M Space Force contract
-8. Mon 8/10 09:10: RTX $745M SM-3 Block IIA missile contract
-9. Mon 8/10 09:34: Trump adviser Hassett OFFICIAL Iran-war-persists + US "liftoff stage"
+## Held Positions Midday (13 equity + BTC + CVR)
 
-## Held Positions Morning (13 equity + BTC + CVR)
-
-| Ticker | Qty | Basis | Morning | Day % | LC % | Stop | Cushion |
-|--------|-----|-------|---------|-------|------|------|---------|
-| **NVDA** ✅ Tier 1 | 16 | $207.41 | $222.03 | -0.85% | +7.05% | $205 | 8.3% |
-| **ASML** 🆕 Tier 2 | 1 | $1,647.13 | $1,759.50 | +1.06% | +6.82% | $1,560 | 11.4% ↑ |
-| **AVGO** ⭐ Tier 2 | 2 | $372.44 | $428.61 | +0.20% | +15.09% | $395 | 8.5% |
-| **LLY** 🆕 Tier 2 (HC) | 1 | $1,158.37 | $1,207.00 | **+1.92%** | +4.20% | $1,080 | 10.5% ↑ |
-| **MRVL** 🆕 Tier 3 | 3 | $220.84 | $217.31 | -0.65% | -1.60% | $198 | 9.7% |
-| **UNH** 🏆 | 0.52 | $290.00 | $412.55 | +1.34% | +42.3% | frac | n/a |
-| **GE** 🏆 | 2 | $286.00 | $370.04 | flat | +29.4% | $355 | **4.1% ⚠️** |
-| **SYY** | 5 | $73.21 | $83.90 | -0.41% | +14.6% | $75 | 11.9% |
-| **GD** 🎯 | **2** ↑ | **$377.66** | $395.61 | **+1.02%** | +4.75% (blend) | **$370 (RATCHET qty2)** | 6.5% |
-| **D** 🎯 | 4 | $68.82 | $66.90 | -0.73% | -2.79% | $62.33 | 6.8% |
-| **TJX** | 4 | $159.00 | $159.98 | -0.85% | +0.62% | $146 | 8.7% |
-| **BTCUSD** (frozen) | 0.003 | $70,867 | $64,500 | -1.08% | -9.0% | frozen | n/a |
+| Ticker | Qty | Basis | Midday | Day % | LC % | Stop | Cushion |
+|--------|-----|-------|--------|-------|------|------|---------|
+| **NVDA** Tier 1 | 16 | $207.41 | $216.99 | **-3.11%** | +4.62% | $205.00 | **5.9%** ⚠️ |
+| **ASML** Tier 2 | 1 | $1,647.13 | $1,747.83 | +0.39% | +6.11% | $1,560.00 | 12.0% |
+| **AVGO** Tier 2 | 2 | $372.44 | $421.39 | -1.49% | +13.14% | $395.00 | **6.6%** |
+| **LLY** Tier 2 (HC) | 1 | $1,158.37 | $1,216.04 | **+2.56%** | +4.98% | $1,080.00 | 12.5% |
+| **MRVL** Tier 3 | 3 | $220.84 | $213.37 | **-2.45%** | -3.38% | $198.00 | **7.6%** |
+| **UNH** 🏆 | 0.52 | $290.00 | $411.26 | +1.03% | +41.81% | frac | n/a |
+| **GE** 🏆 | 2 | $286.00 | $366.88 | -0.87% | +28.28% | $355.00 | **3.5%** ⚠️ NARROWEST |
+| **SYY** | 5 | $73.21 | $84.49 | +0.23% | +15.40% | $75.00 | 12.7% |
+| **GD** 🎯 | 2 | $377.63 | $396.60 | +1.16% | +5.02% (blend) | $370.00 | 6.7% |
+| **D** 🎯 | 4 | $68.82 | $67.18 | -0.32% | -2.39% | $62.33 | 7.8% |
+| **TJX** | 4 | $159.00 | $160.24 | -0.69% | +0.78% | $146.00 | 9.7% |
+| **BTCUSD** (frozen) | 0.003 | $70,867 | $63,825 | -2.12% | -9.94% | frozen | n/a |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | n/a | 0% |
 
-**Unrealized: +$795** (pre-GD-add) | **Realized today: $0**
+**⚠️ GE cushion 3.5%** — NARROWEST + NARROWING (Fri 4.1% → Mon 3.5%); locks +$163 gain if stops. No ratchet (whipsaw risk).
+**⚠️ NVDA cushion 5.9%** — narrowed sharply from 8.3% AM on Maia-300; $500B financing counter-thesis intact.
+**⚠️ AVGO cushion 6.6%** — narrowed from AM 8.5%.
+**⚠️ MRVL cushion 7.6%** — narrowed on semi weakness cascade.
 
-**⚠️ GE cushion 4.1%** — NARROWEST; flat today, no fresh catalyst; not tightening (whipsaw risk); watchlist priority.
-**⚠️ D cushion 6.8%** — narrowed from Fri 7.5%; utility weakness continues.
-
-## Open Stops (GTC) — Morning
+## Open Stops (GTC) — Midday
 
 | Ticker | Qty | Stop | Cushion | Notes |
 |--------|-----|------|---------|-------|
-| **NVDA** | 16 | $205.00 | 8.3% | Thu AM re-issue qty 16 |
-| **ASML** | 1 | $1,560.00 | 11.4% | Wed AM ratchet (widened intraday) |
-| **AVGO** | 2 | $395.00 | 8.5% | Fri midday RATCHET (VMware AI-security) |
-| **LLY** | 1 | $1,080.00 | 10.5% | Wed midday NEW (widened intraday) |
-| **MRVL** | 3 | $198.00 | 9.7% | Wide cushion held |
-| **GE** | 2 | $355.00 | **4.1% ⚠️** | TIGHTEST; watchlist |
-| **SYY** | 5 | $75.00 | 11.9% | Tue PM ratchet |
-| **GD** | **2** | **$370.00** ↑ | 6.5% | **Mon AM RATCHET qty 2** (order 2c0575c5) — 9-catalyst compound |
-| **TJX** | 4 | $146.00 | 8.7% | exp 8/18 (re-issue needed) |
-| **D** | 4 | $62.33 | 6.8% | exp 8/14 (re-issue needed) |
+| **NVDA** | 16 | $205.00 | **5.9%** ⚠️ | Thu AM re-issue qty 16 |
+| **ASML** | 1 | $1,560.00 | 12.0% | Wed AM ratchet (widened intraday) |
+| **AVGO** | 2 | $395.00 | 6.6% | Fri midday RATCHET (VMware AI-security) |
+| **LLY** | 1 | $1,080.00 | 12.5% | Wed midday NEW (widened intraday) |
+| **MRVL** | 3 | $198.00 | 7.6% | Cascading on semi weakness |
+| **GE** | 2 | $355.00 | **3.5%** ⚠️ | TIGHTEST + NARROWING; watchlist |
+| **SYY** | 5 | $75.00 | 12.7% | Tue PM ratchet |
+| **GD** | 2 | $370.00 | 6.7% | Mon AM RATCHET qty 2 (order 2c0575c5) |
+| **TJX** | 4 | $146.00 | 9.7% | exp 8/18 (re-issue needed) |
+| **D** | 4 | $62.33 | 7.8% | exp 8/14 (re-issue needed) |
 
-## Sector Sleeves Morning (post-GD-add)
+## Sector Sleeves Midday
 
-| Sleeve | Fill $ | Fill % | Target | Room |
-|--------|--------|--------|--------|------|
-| **Semi_AI Tier 1 (NVDA)** | $3,552 | 11.44% | 30% | at 10% cap; NVDA exception 12% = +$168 (fractional) |
-| **Semi_AI Tier 2 (AVGO+ASML)** | $2,617 | 8.43% | 15% | $2,041 |
-| **Semi_AI Tier 3 (MRVL)** | $652 | 2.10% | 3% | $279 |
-| **Semi_AI TOTAL** | **$6,821** | **21.97%** | 30-50% | unchanged from Fri EOD; headroom $2,481 to 30% |
-| **Healthcare (UNH+LLY)** | $1,423 | 4.58% | 15% | $3,235 |
-| **Defense (GD+GE)** | **$1,532** | **4.93%** ↑ | **12%** | **$2,193 (widened from 3.66% Fri EOD, +1.27pp on GD-add)** |
-| Retail (TJX+SYY) | $1,060 | 3.41% | 8% | $1,419 |
-| Utility (D) | $268 | 0.86% | 5% | $1,285 |
-| Crypto (BTC frozen) | $194 | 0.62% | — | — |
-| **Cash** | **~$19,731** | **63.5%** | 30-40% | still overweight |
+| Sleeve | Fill $ | Fill % | Target | Headroom |
+|--------|--------|--------|--------|----------|
+| **Semi_AI Tier 1 (NVDA)** | $3,471.84 | 11.22% | 30% | NVDA exception 12% = +$243 |
+| **Semi_AI Tier 2 (AVGO+ASML)** | $2,590.61 | 8.37% | 15% | $2,051 |
+| **Semi_AI Tier 3 (MRVL)** | $640.11 | 2.07% | 3% | $289 |
+| **Semi_AI TOTAL** | **$6,702.56** | **21.66%** | 30-50% | Fri 21.99% → Mon Midday 21.66% (-0.33pp on semi reversal) |
+| **Healthcare (UNH+LLY)** | $1,429.75 | 4.62% | 15% | $3,213 |
+| **Defense (GD+GE)** | $1,526.95 | 4.93% | 12% | $2,187 |
+| Retail (TJX+SYY) | $1,063.39 | 3.44% | 8% | $1,411 |
+| Utility (D) | $268.71 | 0.87% | 5% | $1,278 |
+| Crypto (BTC frozen) | $220.19 | 0.71% | — | — |
+| **Cash** | **$19,732.04** | **63.8%** | 30-40% | still overweight |
 
-**Defense sleeve trend:** Fri EOD 3.66% → **Mon AM 4.93%** = **+1.27pp** on GD-add (Option C first-cycle deploy).
-**Semi_AI unchanged:** 21.97% vs Fri EOD 21.99% (rounding on price drift).
+**Semi_AI trend:** Fri 21.99% → Mon AM 21.97% → **Mon Midday 21.66%** (-0.33pp on Maia-300 reversal).
+**Defense sleeve:** 4.93% (unchanged from AM post-GD-add).
 
-## Held-Position Catalysts (Weekend + Mon overnight)
+## Held-Position Catalysts (Midday overlay)
 
-**DEFENSE stack (executed GD-add):**
-9-signal compound above.
+**MEGA MATERIAL (semi):**
+- **$500B Wall Street AI-financing consortium with NVDA** (Apollo/BAM/BLK/BX/GS/KKR) — landed 12:33 ET
+- **MSFT Maia 300 chip** TSMC 300K+ units targeting reduced NVDA reliance (12:41 ET) — dominated tape
 
-**AI-SEMI stack (bullish held NVDA/AVGO/ASML):**
-- Sat 8/8: TSM July revenue +45% YoY (real-time AI-chip demand signal)
-- Sat 8/8: SPCX 5th institutional bull (Musk +$96B; Ark $17.6M + BlackRock 51M + MS lockup + AI-payback + $60B Cursor)
-- Sun 8/9: US-China AI War feature framing (NVDA/AVGO structural)
-- Sun 8/9: Mag 7 rotation continues
-- Sun 8/9: S&P 500 Q2 earnings growth hits 50% — MEGA MACRO
-- Mon 06:05: Sony-TSMC $6.3B image sensor plant Physical AI
-- Mon 08:40: INTC $15B AI-funding move
-- Mon 08:40: SMCI Monday surge
+**Defense stack (GD-add validated):**
+- RTX $745M SM-3 missile contract
+- Trump adviser Hassett Iran-war-persists
+- Oil/gas lower on Iran-negotiations-stalled = defense-thesis validated
+- GE/RTX BA/Airbus engine demand
 
-**LLY compound:** Mon +1.92% intraday continues Fri bounce from Wed retrace.
+**Bright spot:** LLY +2.56% intraday continues Fri bounce + weekend Amazon Pharmacy GLP-1.
 
-**Cross-signal / macro (mixed):**
-- Iran-standoff persists (bullish defense, mixed consumer)
-- OpenAI Astra clarification (softens AI-safety scare)
-- AAPL-CXMT China memory tests (memory-cycle-peak validation)
-- MSFT AI-chip vertical progress (5th hyperscaler)
-- Warren-bipartisan UNH/CVS breakup bill (bearish held UNH before earnings Aug 12-15)
+## Mon Close+ Watch Priorities
 
-## Mon Midday+ Watch Priorities
-
-1. **GD post-add momentum** — cushion 6.5% at $370; watch for continuation above $400
-2. **GE cushion 4.1%** — NARROWEST; primary intraday watch
-3. **LLY momentum** — +1.92% AM; watch for continuation
-4. **UNH earnings Aug 12-15** — ~2-3 trading days out; Warren-bipartisan bill overlay
-5. **Non-universe Option C** — TWLO/ABNB/TEAM/NET/U for pullback opportunities
-6. **NVDA regulatory** — Bloomberg China-chip-review cross-outlet confirm watch
-7. **D + TJX stop expiry** — Aug 14 + 18, re-issue soon
-8. **AI-semi ecosystem** — TSM +45% + Sony-TSMC + INTC $15B compound continues
+1. **GE cushion 3.5%** — NARROWEST + NARROWING; primary intraday stop-fire risk watch
+2. **NVDA post-Maia-300 reaction** — cushion 5.9%; if $500B financing narrative wins tape, potential add candidacy
+3. **MRVL cushion 7.6%** — memory rotation + semi weakness cascade
+4. **LLY momentum** — +2.56% intraday continues; watch for continuation
+5. **UNH earnings Aug 12-15** — 2-3 days out
+6. **D + TJX stop expiry** — Aug 14 + 18, re-issue Mon close
+7. **AI-semi vs chip-vertical narrative** — MSFT Maia 300 + Amazon Trainium + Tesla/SpaceX Terafab + OpenAI + AMD Taalas = 5+ hyperscalers vertical
