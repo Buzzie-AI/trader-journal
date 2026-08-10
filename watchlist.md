@@ -1,104 +1,98 @@
-# Portfolio Watchlist — Tue 2026-08-04 17:42 ET (EOD — MEGA AI DAY, MRVL DEPLOYED, AMD DC DOUBLES POST-CLOSE)
+# Portfolio Watchlist — Mon 2026-08-10 16:23 ET (EOD — LLY +3.72% BREAKOUT SAVES DAY, SEMI CASCADE PERSISTS, -0.29% RED)
 
-**Equity:** $31,035.02 (**+0.45% day** vs Mon $30,895.83; **+0.62% vs Fri close**)
-**Cash:** $18,975.62 (61.1%)
-**Position count:** 12 equity + BTC + CVR (MRVL new midday)
-**Day trades:** 1 discretionary (MRVL) + 3 mechanical ratchets — 3/4 disc slots remain
-**Realized today:** $0 | **Unrealized:** +$1,257
-
----
-
-## 🎯 Tue EOD — 1 discretionary trade (MRVL), 3 ratchets, MEGA AI DAY, +0.45% GREEN
-
-**AM (09:58): 3 mechanical ratchets**
-- CVS RE-ISSUE stop $89.33 fresh 90d expiry (fixed 8/11 imminent) — order 2011dc7f
-- NVDA RATCHET $189 → $192 (cushion 8.6% → 8.3%) — order ce173f33
-- AVGO RATCHET $340 → $365 (cushion 16.8% → 10.7%) — order 2e2acd59
-
-**Midday (12:58): MRVL BUY 3 sh @ $220.84** (limit $221; better than limit; order f91a31f4)
-- Tier 3 semi widen-universe (AI storage catalyst, +11.5% intraday)
-- Stop $198 GTC (10.4% cushion at entry; now 8.4% after $216 pullback)
-- Pipeline PASS: Diana BUY, Marcus PASS (all 14 gates)
-- Deploy $663 = 2.13% of book
-
-**Post-close AMD MEGA CATALYST STACK:**
-- AMD Q2 EPS $1.66 beat $1.61 + sales $11.54B beat $11.28B
-- **AMD Data Center Revenue DOUBLES to $6.7B** (Stock Titan)
-- AMD Q3 sales guide $12.7-13.3B vs $12.52B est (+3.8% raise)
-- = TRIPLE bull: Q2 beat + DC doubles + Q3 raise = validates AI-chip cycle continuation
-
-**Portfolio +0.45% GREEN** despite MRVL pullback -$14 unrealized post-fill
+**Equity:** $30,964.23 (**-0.29% day** vs Fri EOD $31,053; **+0.09% vs Fri 8/1 close**)
+**Cash:** $19,732.04 (63.7%)
+**Position count:** 13 equity + BTC + CVR (GD 2sh post-AM add)
+**Day trades:** 1 discretionary (GD-add) + 1 mechanical (GD stop ratchet $358→$370) — 3/4 disc slots preserved
+**Realized today:** $0 | **Unrealized:** +$700 | **P&L vs Fri EOD:** -$89
 
 ---
 
-## Held Positions EOD (12 equity + BTC + CVR)
+## 🎯 Mon EOD — Defense sleeve rebuilt; semi cascade cross-confirmed; LLY breakout partial offset
+
+**Morning (10:01 ET):** GD-add 1sh @ $395.545 (5-agent pipeline PASS 9-catalyst compound: RTX $745M SM-3 + Sat munition-gaps + Sun operator flag + GD $1.3B Nat Guard + Pentagon space-defense + Iran war day100 + oil-up + defense-bull thesis + Trump Hassett-Iran-war-persists)
+
+**Semi reversal cross-confirm (15:13 ET):** Barron's + FXLeaders 2-outlet mainstream-press bearish validation:
+- NVDA $500B AI-financing consortium = "capital-need = execution risk" narrative dominance
+- MSFT Maia-300 chip (TSMC 300K+ units) = NVDA competitive pressure
+
+**LLY breakout (close):** +3.72% to $1229.79 = matches Wed 8/5 high; ratchet declined (whipsaw > $20 protection on 1sh)
+
+**No new BUYs post-AM. HOLD all stops (whipsaw risk elevated on 4/5 narrow cushions).**
+
+---
+
+## Held Positions EOD (13 equity + BTC + CVR)
 
 | Ticker | Qty | Basis | Close | Day % | LC % | Stop | Cushion |
 |--------|-----|-------|-------|-------|------|------|---------|
-| **NVDA** ✅ Tier 1 | 15 | $206.40 | $210.88 | **+2.05%** | +2.17% | $192 | **8.8%** |
-| **ASML** 🆕 Tier 2 | 1 | $1,647.13 | $1,699.00 | +3.44% | +3.15% | $1,518 | 10.7% |
-| **AVGO** ⭐ Tier 2 | 2 | $372.44 | **$416.48** | **+6.18%** | **+11.83%** | $365 (ratcheted) | 12.4% |
-| **MRVL** 🆕 Tier 3 NEW | 3 | $220.84 | $216.10 | +11.52% | -2.14% | $198 | 8.4% ↓ |
-| UNH 🏆 | 0.52 | $290 | $408.12 | -1.74% | +40.7% | frac | n/a |
-| CVS 🏆 | 27 | $75.83 | $104.50 | -0.83% | +37.8% | $89.33 (re-issued) | 15.0% |
-| GE 🏆 | 2 | $286 | $377.28 | **+2.26%** | +31.9% | $324.53 | 14.0% |
-| SYY ⚠️ FOOD-SAFETY | 5 | $73.21 | $82.79 | **-2.58%** | +13.1% | $71.45 | 13.7% |
-| GD 🎯 | 1 | $359.72 | $385.76 | +0.87% | +7.2% | $333.41 | 13.6% |
-| D 🎯 | 4 | $68.82 | $69.22 | +0.68% | +0.6% | $62.33 | 10.0% |
-| TJX | 4 | $159.00 | $157.55 | +0.03% | -0.9% | $146 | 7.3% ⚠️ narrowest |
-| BTCUSD (frozen) | 0.003 | $70,867 | $64,061 | +0.49% | -9.6% | frozen | n/a |
+| **NVDA** ✅ Tier 1 | 16 | $207.41 | $219.40 | -2.04% | +5.78% | $205 | 6.6% |
+| **ASML** 🆕 Tier 2 | 1 | $1,647.13 | $1,738.00 | -0.17% | +5.52% | $1,560 | 10.2% |
+| **AVGO** ⭐ Tier 2 | 2 | $372.44 | $422.34 | -1.27% | +13.40% | $395 | 6.5% |
+| **LLY** 🆕 Tier 2 | 1 | $1,158.37 | **$1,229.79** 🎉 | **+3.72%** | +6.17% | $1,080 | 12.2% ↑ |
+| **MRVL** 🆕 Tier 3 | 3 | $220.84 | $209.20 | **-4.35%** | -5.27% | $198 | **5.4%** ⚠️ |
+| UNH 🏆 | 0.52 | $290 | $408.70 | +0.40% | +40.93% | frac | n/a |
+| GE 🏆 | 2 | $286 | $366.70 | -0.91% | +28.22% | $355 | **3.2%** ⚠️ NARROWEST |
+| SYY | 5 | $73.21 | $83.87 | -0.50% | +14.56% | $75 | 10.6% |
+| **GD** 🎯 | 2 | $377.63 | $396.00 | **+1.01%** | +4.87% | **$370 (RATCHET AM)** | 6.6% |
+| D 🎯 | 4 | $68.82 | $67.15 | -0.36% | -2.43% | $62.33 | 7.2% |
+| TJX | 4 | $159.00 | $158.82 | -1.57% | -0.11% | $146 | 8.1% |
+| BTCUSD (frozen) | 0.003 | $70,867 | $63,976 | -1.88% | -9.72% | frozen | n/a |
 
 ## Sleeve Fill EOD
 
 | Sleeve | Fill $ | Fill % | Target | Headroom |
 |--------|--------|--------|--------|----------|
-| **Semi_AI Tier 1 (NVDA)** | $3,163 | 10.19% | 30% | at 10% cap; NVDA exception 12% = +$620 |
-| **Semi_AI Tier 2 (AVGO+ASML)** | $2,532 | 8.16% | 15% | $2,124 |
-| **Semi_AI Tier 3 (MRVL)** | $648 | 2.09% | 3% | $282 (add room if pullback) |
-| Healthcare (UNH+CVS) | $3,034 | 9.78% | 15% | $1,622 |
-| Defense (GD+GE) | $1,140 | 3.67% | 12% | $2,585 |
-| Retail (TJX+SYY) | $1,044 | 3.36% | 8% | $1,439 |
-| Utility (D) | $277 | 0.89% | 5% | $1,277 |
-| Cash | $18,976 | 61.14% | 30-40% | overweight; deploying gradually |
+| **Semi_AI Tier 1 (NVDA)** | $3,510 | 11.34% | 30% | NVDA exception 12% = +$203 (fractional) |
+| **Semi_AI Tier 2 (AVGO+ASML)** | $2,583 | 8.34% | 15% | $2,061 |
+| **Semi_AI Tier 3 (MRVL)** | $628 | 2.03% | 3% | $301 |
+| **Healthcare (UNH+LLY)** | $1,442 | 4.66% | 15% | $3,203 |
+| **Defense (GD+GE)** | $1,525 | 4.93% | 12% | $2,191 |
+| Retail (TJX+SYY) | $1,055 | 3.41% | 8% | $1,422 |
+| Utility (D) | $269 | 0.87% | 5% | $1,278 |
+| Cash | $19,732 | 63.7% | 30-40% | overweight |
 
-**Total Semi_AI: $6,343 = 20.4%** (Mon 18% → Tue 20.4% = AI-EXPOSURE UP 2.4pp)
+**Total Semi_AI: $6,721 = 21.71%** (Fri 21.98% → Mon 21.71% = -0.27pp on semi reversal)
 
 ## Open Stop-Loss Orders (all GTC)
 
 | Ticker | Qty | Stop | Order ID | Cushion | Expiry |
 |--------|-----|------|----------|---------|--------|
-| **NVDA** ✅ Tier 1 | 15 | $192 (RATCHET AM) | ce173f33 | 8.8% | 2026-11-02 |
-| **ASML** 🆕 Tier 2 | 1 | $1,518 | 6418bb7c | 10.7% | 2026-10-30 |
-| **AVGO** ⭐ Tier 2 | 2 | $365 (RATCHET AM) | 2e2acd59 | 12.4% | 2026-11-02 |
-| **MRVL** 🆕 Tier 3 NEW | 3 | $198 (NEW) | dc610694 | 8.4% | 2026-11-02 |
-| CVS 🏆 | 27 | $89.33 (RE-ISSUED AM) | 2011dc7f | 15.0% | 2026-11-02 |
-| GE 🏆 | 2 | $324.53 | fb87f376 | 14.0% | 2026-08-17 |
-| GD 🎯 | 1 | $333.41 | 593384f8 | 13.6% | 2026-09-09 |
-| SYY ⚠️ | 5 | $71.45 | 38cb77ef | 13.7% | 2026-08-12 |
-| TJX | 4 | $146 | 4b8f2940 | 7.3% ⚠️ | 2026-08-18 |
-| D | 4 | $62.33 | a52978c1 | 10.0% | 2026-08-14 |
+| **NVDA** ✅ Tier 1 | 16 | $205 (2nd ratchet Wed) | 1443dfcc | 6.6% | 2026-11-04 |
+| **ASML** 🆕 Tier 2 | 1 | $1,560 | 2d78e1c7 | 10.2% | 2026-11-03 |
+| **AVGO** ⭐ Tier 2 | 2 | $395 (Fri ratchet) | 79d0f844 | 6.5% | 2026-11-05 |
+| **LLY** 🆕 Tier 2 | 1 | $1,080 | c2d41af1 | 12.2% ↑ | 2026-11-03 |
+| **MRVL** 🆕 Tier 3 | 3 | $198 | dc610694 | **5.4%** ⚠️ | 2026-11-02 |
+| GE 🏆 | 2 | $355 | 92055ead | **3.2%** ⚠️ | 2026-11-03 |
+| **GD** 🎯 | 2 | **$370 (Mon AM RATCHET)** | 2c0575c5 | 6.6% | 2026-11-06 |
+| SYY | 5 | $75 | e5fd1e4d | 10.6% | 2026-11-03 |
+| TJX | 4 | $146 | 4b8f2940 | 8.1% | **2026-08-18 (8d)** ⚠️ |
+| D | 4 | $62.33 | a52978c1 | 7.2% | **2026-08-14 (4d)** ⚠️ |
 
-## Wed 8/5 Watch Priorities
+**⚠️ Stop expiry watch:** D 8/14 (4 days) and TJX 8/18 (8 days) — re-issue Tue AM.
 
-1. **AMD premarket** — Data Center DOUBLES = TRIPLE bull; possible pipeline candidate (Tier 3 semi widen-universe, ~$930 cap = 5 sh @ ~$180-200)
-2. **NVDA cushion 8.8%** — Volta/Anthropic/BX/DDN/Starmind + AMD-halo compound catalyst; watch $220 breakout
-3. **AVGO $416** — +11.8% total, cushion 12.4%; ratchet candidate if breaks $430
-4. **MRVL** — cushion 8.4% after -1.9% pullback; watch for AMD-halo rebound
-5. **SYY food-safety** — CDC cyclosporiasis 15 states + SYY intraday -2.58%; premarket watch for -3-5% attribution risk
-6. **CMG salmonella** — 110 cases 89% at Chipotle; multi-week narrative headwind
-7. **Big Pharma M&A** — ABBV/Apogee $10B bond LAUNCHED, MRK/Terns, PG/Thorne wave
-8. **PFE post Q2 beat + guide raise** — potential add candidate
-9. **Energy sector strength** — MPC/ET/EOG/DVN all beat; rotation add candidate
-10. **TJX cushion 7.3%** — narrowest; consumer weakness confluence (MCD/MAR/CMG)
+## Tue 8/11 Watch Priorities
+
+1. **GE cushion 3.2%** — NARROWEST + persistent narrowing (4.1→3.5→3.2); Tue AM primary stop-fire watch
+2. **MRVL cushion 5.4%** — 2nd narrowest; semi cascade + memory rotation
+3. **NVDA overnight — Maia-300 + $500B-scrutiny bearish narrative persistence**
+4. **CPI Wed 8/12 AM** — macro overlay
+5. **UNH earnings Aug 12-15** — 2-3 trading days out; fractional no stop
+6. **D + TJX stop expiry** — 4/8 days; re-issue Tue
+7. **LLY momentum** — +3.72% at Wed high; continuation vs profit-take
+8. **Option C pipeline candidates** — HPE/ABNB/PANW/SOUN post-earnings monitoring
+9. **LMT Strigo $250M defense-major-contract** read-through to GD/GE
 
 ## Recent Sessions
 
-- **Tue 8/4 CLOSE:** 1 discretionary (MRVL) + 3 ratchets; equity +0.45% GREEN; MEGA AI day (Anthropic $10B Volta + BX + NVDA/DDN/Starmind + AMD DC DOUBLES); AI sleeve 20.4%
-- Tue 8/4 MIDDAY: MRVL BUY 3sh @ $220.84 (Tier 3 semi AI storage)
-- Tue 8/4 MORNING: 3 ratchets (CVS/NVDA/AVGO)
-- Mon 8/3 CLOSE: 3 trades (MU stop + NVDA add + ASML new); AI 7% → 18%; framework GREEN +0.11%
-- Mon 8/3 MIDDAY: HOLD, NVDA recovered +3.35%
-- Mon 8/3 MORNING: MU stopped $780.51
+- **Mon 8/10 CLOSE:** 1 disc + 1 mech; equity -0.29% RED; LLY +3.72% breakout; semi cascade cross-confirmed; ⚠️ GE 3.2% narrowest
+- Mon 8/10 AM: GD-add 1sh @ $395.545 (defense sleeve 3.66%→4.93% on 9-catalyst compound)
+- Fri 8/7 CLOSE: 0 disc + 2 ratchets (GD/AVGO); equity +0.44% GREEN; Option C directive; NVDA +2.26%
+- Fri 8/7 MIDDAY: Resume of ops after 44h downtime; 2 ratchets; no BUYs
+- Thu 8/6 (session down all day)
+- Wed 8/6 AM: NVDA-add 1sh @ $222.44 (fills 15→16sh, weighted basis $207.41)
+- Tue 8/5 CLOSE: LLY 1sh @ $1158.37 + CVS +$484 realized + 5 ratchets
+- Mon 8/3 CLOSE: MU stop + NVDA add + ASML new
 
-Full close debrief: `journal/autopilot-runs/2026-08-04-1653-close.md`
+Full close debrief: `journal/autopilot-runs/2026-08-10-1623-close.md`
 Public site: https://buzzie-ai.github.io/trader-journal/
