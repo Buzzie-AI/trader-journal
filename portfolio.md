@@ -1,6 +1,6 @@
-# Portfolio Snapshot — 2026-08-18 13:18 ET (Tue MIDDAY — HOLD ALL, -0.92% RED, +$219 realized AM)
+# Portfolio Snapshot — 2026-08-18 16:10 ET (Tue CLOSE — -0.92% RED, +$219 REALIZED, RATCHET-DISCIPLINE WIN)
 
-**Equity:** $30,958.52 (-$288 / **-0.92% RED** vs Mon EOD $31,246.25)
+**Equity:** $30,960.26 (-$286 / **-0.92% RED** vs Mon EOD $31,246.25)
 **Cash:** $19,149.87 (61.7%)
 **Position value:** $11,863.47 (38.3%)
 **Position count:** 14 equity + BTC + CVR

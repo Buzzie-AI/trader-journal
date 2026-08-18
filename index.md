@@ -1,7 +1,7 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-08-18 Tue 13:18 ET (MIDDAY — HOLD ALL, -0.92% RED, +$219 realized AM)
-**Equity:** $30,958.52 (-$288 / **-0.92% RED** vs Mon EOD $31,246.25)
+**Last update:** 2026-08-18 Tue 16:10 ET (CLOSE — -0.92% RED, +$219 realized, ratchet-discipline WIN, 3 pipeline BUYs)
+**Equity:** $30,960.26 (-$286 / **-0.92% RED** vs Mon EOD $31,246.25)
 **Cash:** $19,149.87 (61.7%)
 **Position count:** 13 equity + BTC + CVR
 **Day trades:** 0 disc + 3 mechanical (ASML ratchet + D/TJX re-issue) | **Spend $0 / $5K cap** | 4/4 slots preserved
