@@ -1,8 +1,8 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-08-11 Tue 09:57 ET (AM — ASML +3.96% BREAKOUT, ASML RATCHET, D+TJX STOP RE-ISSUE, **+0.20% GREEN**)
-**Equity:** $31,026.94 (+$63 / **+0.20% GREEN** vs Mon EOD $30,964.23)
-**Cash:** $19,732.04 (63.6%)
+**Last update:** 2026-08-18 Tue 09:57 ET (AM — 3 STOP-FIRES +$219 REALIZED + 3 PIPELINE BUYS SYM/ISRG/TER, **-0.75% RED**)
+**Equity:** $31,013.34 (-$233 / **-0.75% RED** vs Mon EOD $31,246.25)
+**Cash:** $19,149.87 (61.7%)
 **Position count:** 13 equity + BTC + CVR
 **Day trades:** 0 disc + 3 mechanical (ASML ratchet + D/TJX re-issue) | **Spend $0 / $5K cap** | 4/4 slots preserved
 **Realized today:** $0
@@ -46,7 +46,7 @@ autopilot_morning cron fired 09:57 ET (~34 min late from 09:23 schedule).
 - **Semi_AI TOTAL:** $6,778 = **21.85%** (Mon Close 21.71% → Tue AM 21.85%, +0.14pp on ASML breakout)
 - **Defense GD+GE:** $1,533 (4.94%)
 - **Healthcare LLY+UNH:** $1,439 (4.64%)
-- **Cash:** $19,732 (63.6%) — still overweight
+- **Cash:** $19,149.87 (61.7%)
 
 ## Recent Debriefs
 
