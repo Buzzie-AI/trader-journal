@@ -1,6 +1,6 @@
-# Portfolio Snapshot — 2026-08-18 09:57 ET (Tue AM — RATCHET STOP-FIRES + 3 PIPELINE BUYS + +$219 REALIZED)
+# Portfolio Snapshot — 2026-08-18 13:18 ET (Tue MIDDAY — HOLD ALL, -0.92% RED, +$219 realized AM)
 
-**Equity:** $31,013.34 (-$233 / **-0.75% RED** vs Mon EOD $31,246.25)
+**Equity:** $30,958.52 (-$288 / **-0.92% RED** vs Mon EOD $31,246.25)
 **Cash:** $19,149.87 (61.7%)
 **Position value:** $11,863.47 (38.3%)
 **Position count:** 14 equity + BTC + CVR
