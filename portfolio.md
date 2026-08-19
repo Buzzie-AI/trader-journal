@@ -1,6 +1,6 @@
-# Portfolio Snapshot — 2026-08-18 16:10 ET (Tue CLOSE — -0.92% RED, +$219 REALIZED, RATCHET-DISCIPLINE WIN)
+# Portfolio Snapshot — 2026-08-19 09:57 ET (Wed AM — LLY RATCHET + PANW PIPELINE, -0.23% RED)
 
-**Equity:** $30,960.26 (-$286 / **-0.92% RED** vs Mon EOD $31,246.25)
+**Equity:** $30,887.10 (-$70 / **-0.23% RED** vs Tue EOD $30,957.24)
 **Cash:** $19,149.87 (61.7%)
 **Position value:** $11,863.47 (38.3%)
 **Position count:** 14 equity + BTC + CVR
