@@ -1,6 +1,6 @@
-# Portfolio Snapshot — 2026-08-19 13:19 ET (Wed MIDDAY — 3 STOP-FIRES -$214 realized, GE narrow, PANW underwater)
+# Portfolio Snapshot — 2026-08-19 16:10 ET (Wed CLOSE — -0.41% RED, -$214 realized 3 stops, cumulative Tue+Wed +$5 breakeven, LLY +5% best)
 
-**Equity:** $30,837.34 (-$120 / **-0.39% RED** vs Tue EOD $30,957.24)
+**Equity:** $30,830.17 (-$127 / **-0.41% RED** vs Tue EOD $30,957.24)
 **Cash:** $19,149.87 (61.7%)
 **Position value:** $11,863.47 (38.3%)
 **Position count:** 14 equity + BTC + CVR

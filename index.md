@@ -1,7 +1,7 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-08-19 Wed 13:19 ET (MIDDAY — 3 stop-fires TJX/TER/HPE -$214 realized, GE cushion 1.05% new narrow)
-**Equity:** $30,837.34 (-$120 / **-0.39% RED**)
+**Last update:** 2026-08-19 Wed 16:10 ET (CLOSE — Wed -$214 realized 3 stops missed real-time, LLY +5% best, cumulative Tue+Wed breakeven)
+**Equity:** $30,830.17 (-$127 / **-0.41% RED**)
 **Cash:** $19,149.87 (61.7%)
 **Position count:** 13 equity + BTC + CVR
 **Day trades:** 0 disc + 3 mechanical (ASML ratchet + D/TJX re-issue) | **Spend $0 / $5K cap** | 4/4 slots preserved
