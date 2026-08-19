@@ -1,6 +1,6 @@
-# Portfolio Snapshot — 2026-08-19 09:57 ET (Wed AM — LLY RATCHET + PANW PIPELINE, -0.23% RED)
+# Portfolio Snapshot — 2026-08-19 13:19 ET (Wed MIDDAY — 3 STOP-FIRES -$214 realized, GE narrow, PANW underwater)
 
-**Equity:** $30,887.10 (-$70 / **-0.23% RED** vs Tue EOD $30,957.24)
+**Equity:** $30,837.34 (-$120 / **-0.39% RED** vs Tue EOD $30,957.24)
 **Cash:** $19,149.87 (61.7%)
 **Position value:** $11,863.47 (38.3%)
 **Position count:** 14 equity + BTC + CVR

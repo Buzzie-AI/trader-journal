@@ -1,7 +1,7 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-08-19 Wed 09:57 ET (MORNING — LLY ratchet + PANW pipeline BUY, -0.23% RED)
-**Equity:** $30,887.10 (-$70 / **-0.23% RED** vs Tue EOD $30,957.24)
+**Last update:** 2026-08-19 Wed 13:19 ET (MIDDAY — 3 stop-fires TJX/TER/HPE -$214 realized, GE cushion 1.05% new narrow)
+**Equity:** $30,837.34 (-$120 / **-0.39% RED**)
 **Cash:** $19,149.87 (61.7%)
 **Position count:** 13 equity + BTC + CVR
 **Day trades:** 0 disc + 3 mechanical (ASML ratchet + D/TJX re-issue) | **Spend $0 / $5K cap** | 4/4 slots preserved
