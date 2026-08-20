@@ -1,100 +1,89 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-08-20 Thu 09:57 ET (MORNING — GE stop +$134 realized +23.4pct, RARE + RKLB pipelines, cumulative week +$139)
-**Equity:** $30,808.59 (-$18 / **-0.06% flat**)
-**Cash:** $19,149.87 (61.7%)
+**Last update:** 2026-08-20 Thu 16:23 ET (CLOSE — ISRG cushion 1.30% CRIT, wk realized +$139)
+**Equity:** $30,674.39 (-$152 / **-0.49% RED Thu**)
+**Cash:** $19,752.28 (64.4%)
 **Position count:** 13 equity + BTC + CVR
-**Day trades:** 0 disc + 3 mechanical (ASML ratchet + D/TJX re-issue) | **Spend $0 / $5K cap** | 4/4 slots preserved
-**Realized today:** $0
-**Unrealized today:** **+$762** (up from Mon EOD +$700 on ASML breakout)
+**Day trades:** 2 disc BUYS (RARE + RKLB) + 1 mech STOP-FIRE (GE +$134) | **Spend $1,119 / $5K cap** | 2/4 slots preserved
+**Realized today:** +$134.02 (GE stop-fire +23.44%)
+**Unrealized today:** +$227.29
 
-## AM Recap — ASML Breakout, GE Relief, Stop Housekeeping
+## CLOSE Recap — Defensive HOLD, ISRG Binary Into Fri
 
-autopilot_morning cron fired 09:57 ET (~34 min late from 09:23 schedule).
+autopilot_close cron scheduled 15:53 ET, executed manual 16:23 ET (~30 min belated — 4th consecutive Mon-Thu ~30min lag). Market closed 16:00 ET.
 
-**3 mechanical actions (09:58 ET):**
-1. ASML stop RATCHET $1,560 → $1,600 (order 7e575848) on +3.96% breakout
-2. D stop RE-ISSUE $62.33 qty 4 (order 9e932cbb, expires 11/09) — 90d extension
-3. TJX stop RE-ISSUE $146 qty 4 (order c1f55f94, expires 11/09) — 90d extension
+**Thu takeaways:**
+1. **GE stop +$134** = last defense holdout exited clean at $353 (basis $286, +23.44%)
+2. **RARE (20sh @ $26.54) + RKLB (8sh @ $73.56) AM pipelines** = 2/4 disc slots, both post-catalyst
+3. **PANW compound bull continues** = 7 signals today (Cantor+Truist+Stifel+Mizuho+NTT+BMO analyst raises + AI Cyber Defense product launch) despite -2.96% tape
+4. **NVDA China chip comeback** (The Information) extends compound bull; pre-earnings Wed 8/27
+5. **ISRG cushion 1.30%** = tightest ever, HOLD binary into Fri (position 2.44% caps loss impact)
+6. **Defense-sleeve compound bear**: Pentagon software cost-cut → Deputy Sec Feinberg SIGNED (16:00 concrete action); GD cushion 4.16%
+7. **Iran negs FADING narrative-flip** late-day = mild reversal-tailwind for oil-defense
 
-**Semi differentiation:** ASML +3.96% leads on EUV monopoly flight-to-quality vs Maia-300 chip-vertical risk that affects design not lithography. NVDA Nemotron 4 open-source AI model announcement (09:21 ET) counters Maia narrative; NVDA +0.9% recovery.
+## Semi/AI Sector Thu Recap
 
-**GE relief:** cushion 3.2% → 4.4% on +1.23% bounce; Mon EOD narrowing watch cleared.
+| Ticker | Wed Close | Thu Close | Day % | Cushion |
+|--------|-----------|-----------|-------|---------|
+| **NVDA** ✅ | $217.56 | $217.04 | -0.24% | flat all day (compound bull absorbed tape drag) |
+| **PANW** ⚠️ | $359.76 | $349.10 | **-2.96%** | 4.04% (7-signal bull vs tape divergence) |
+| **DLR** ✅ | $192.35 | $194.30 | +1.01% | 12.94% (post-HSBC upgrade digestion) |
+| **SYM** | $42.02 | $41.95 | -0.17% | 16.5% (day 3 of 5-day pipeline) |
 
-## Semi Sector Differentiation Mon Close → Tue AM
+## Cushion Watch Close
 
-| Ticker | Mon Close | Tue AM | Day % | Cushion |
-|--------|-----------|--------|-------|---------|
-| **ASML** 🚀 | $1,738.00 | **$1,802.15** | **+3.96%** | 13.4% → 11.2% (post-ratchet) |
-| NVDA | $219.40 | $219.50 | +0.90% | 6.6% |
-| AVGO | $422.34 | $418.72 | -0.87% | 5.7% ⚠️ |
-| MRVL | $209.20 | $208.77 | +0.10% | **5.2%** ⚠️ |
-
-## Cushion Narrowing Watch (AM)
-
-- **MRVL 5.2%** ⚠️ NARROWEST; semi cascade continues
-- **AVGO 5.7%** 2nd narrowest (post Fri ratchet)
-- **NVDA 6.6%** stable
-- **GE 4.4%** ⬆ RELIEF from Mon EOD 3.2%
-- **GD 6.4%** post Mon AM ratchet
-
-## Sector Sleeves AM
-
-- **AI Tier 1 NVDA:** $3,512 (11.32%) — stop $205 cushion 6.6%
-- **AI Tier 2 ASML+AVGO:** $2,640 (8.51%) — ASML $1,600 (RATCHET) 11.2% / AVGO $395 5.7%
-- **AI Tier 3 MRVL:** $626 (2.02%) — stop $198 cushion **5.2%** ⚠️
-- **Semi_AI TOTAL:** $6,778 = **21.85%** (Mon Close 21.71% → Tue AM 21.85%, +0.14pp on ASML breakout)
-- **Defense GD+GE:** $1,533 (4.94%)
-- **Healthcare LLY+UNH:** $1,439 (4.64%)
-- **Cash:** $19,149.87 (61.7%)
+- **ISRG 1.30%** ⚠️⚠️⚠️ TIGHTEST; Fri binary
+- **PANW 4.04%** ⚠️ despite 7-signal bull compound
+- **GD 4.16%** ⚠️ Pentagon-Feinberg-signed defense bear
+- **NVDA verify** — post-ratchet; pre-earnings Wed 8/27
+- **LLY 7.6%** ample; profit-take continuing
+- **DLR 12.94%** relief
+- **SYM 16.5%** wide
 
 ## Recent Debriefs
 
-- [2026-08-11 Tue MORNING — ASML +3.96% Breakout, ASML Ratchet, D+TJX Stop Re-Issue](debriefs/2026-08-11-0957-morning.md)
-- [2026-08-10 Mon CLOSE — LLY +3.72% BREAKOUT SAVES DAY, SEMI CASCADE PERSISTS](debriefs/2026-08-10-1623-close.md)
-- [2026-08-10 Mon MIDDAY — GD-ADD HOLDING, NVDA REVERSAL ON MSFT-MAIA-300, GE CUSHION 3.5%](debriefs/2026-08-10-1253-midday.md)
-- [2026-08-10 Mon MORNING — GD-ADD $395.55 EXECUTED, PENTAGON-DEFENSE-STACK VALIDATED, OPTION C FIRST CYCLE](debriefs/2026-08-10-1003-morning.md)
-- [2026-08-10 GD-Add 5-Agent Fast-Track Pipeline (09:57 ET)](debriefs/2026-08-10-0957-gd-add-pipeline.md)
-- [2026-08-07 Fri CLOSE — RESUME OF OPS DAY, GD/AVGO RATCHETS, OPTION C AUTHORIZED, +0.44% GREEN](debriefs/2026-08-07-1623-close.md)
-- [2026-08-07 Fri MIDDAY — RESUME OF OPS AFTER 44h SESSION DOWNTIME, GD/AVGO RATCHETS, OPERATOR OPTION C AUTHORIZED](debriefs/2026-08-07-1306-midday.md)
-- [2026-08-06 Thu MORNING — NVDA-ADD FILLED $222.44, MEGA MACRO $1.17T CAPEX THESIS](debriefs/2026-08-06-1003-morning.md)
-- [2026-08-06 NVDA-Add 5-Agent Fast-Track Pipeline (09:58 ET)](debriefs/2026-08-06-0958-nvda-add-pipeline.md)
-- [2026-08-05 Wed CLOSE — LLY DEPLOYED MIDDAY, NVDA 3rd BULL COMPOUND, NVDA STOP RATCHET $202→$205](debriefs/2026-08-05-1623-close.md)
+- [2026-08-20 Thu CLOSE — -0.49%, wk +$139, ISRG cushion 1.30% CRIT into Fri, HOLD binary](debriefs/2026-08-20-1623-close.md)
+- [2026-08-20 Thu MIDDAY — HOLD, ISRG 2.2% + GD 4.83% watch, PANW+NVDA HELD-confirm](debriefs/2026-08-20-1317-midday.md)
+- [2026-08-20 Thu MORNING — GE stop +$134, RARE + RKLB pipelines, cumulative week +$139](debriefs/2026-08-20-0957-morning-manual.md)
+- [2026-08-19 Wed CLOSE — cumulative Tue+Wed +$5.17 breakeven, GE cushion 0.59% survived](debriefs/2026-08-19-1610-close-manual.md)
+- [2026-08-19 Wed MIDDAY — 3 missed stops corrected (TJX -$63 + TER -$64 + HPE -$88 = -$214)](debriefs/2026-08-19-1319-midday.md)
+- [2026-08-19 Wed MORNING — PANW BUY 3sh @ $369, LLY ratchet $1,078→$1,150](debriefs/2026-08-19-0957-morning-manual.md)
+- [2026-08-18 Tue MORNING — 3 pipeline BUYs (SYM/ISRG/TER) + 3 mech STOP-FIRES (MRVL/CBRS/ASML) = +$219](debriefs/2026-08-18-0933-morning-manual.md)
+- [2026-08-14 Fri CLOSE — AVGO STOP-FIRED +$45, SEMI CASCADE, HOLD REMAINDER](debriefs/2026-08-14-1610-close-manual.md)
 
-## Equity Trajectory (Last 34 Sessions)
+## Equity Trajectory (Last 26 Sessions)
 
 ```
 {
-  "labels": ["Thu 7/2","Fri 7/3","Mon 7/7","Tue 7/8","Wed 7/9","Thu 7/10","Fri 7/11","Mon 7/14","Tue 7/15","Wed 7/16","Thu 7/17","Fri 7/18","Mon 7/21","Tue 7/22","Wed 7/23","Thu 7/24","Fri 7/25","Mon 7/28","Tue 7/29","Wed 7/30","Thu 7/31","Mon 8/3","Tue 8/4 AM","Tue 8/4 Midday","Tue 8/4 Close","Wed 8/5 AM","Wed 8/5 Close","Thu 8/6 AM","Fri 8/7 Midday","Fri 8/7 Close","Mon 8/10 AM","Mon 8/10 Midday","Mon 8/10 Close","Tue 8/11 AM"],
-  "values": [31290.31, 31335.99, 31302.53, 31308.84, 31365.38, 31089.80, 31149.38, 31088.24, 31020.84, 31009.83, 30963.22, 31109.97, 31103.70, 31037.71, 31047.41, 30995.52, 31098.56, 31100.33, 30923.86, 30844.81, 30844.81, 30878.95, 30969.86, 31054.13, 31035.02, 30952.87, 30870.83, 30988.31, 30988.91, 31053.31, 31056.89, 30943.59, 30964.23, 31026.94]
+  "labels": ["Fri 7/17","Fri 7/18","Mon 7/21","Tue 7/22","Wed 7/23","Thu 7/24","Fri 7/25","Mon 7/28","Tue 7/29","Wed 7/30","Thu 7/31","Mon 8/3","Tue 8/4","Wed 8/5","Thu 8/6","Fri 8/7","Mon 8/10","Tue 8/11","Wed 8/12","Thu 8/13","Fri 8/14","Mon 8/17","Tue 8/18","Wed 8/19","Thu 8/20 AM","Thu 8/20 Close"],
+  "values": [30963.22, 31109.97, 31103.70, 31037.71, 31047.41, 30995.52, 31098.56, 31100.33, 30923.86, 30844.81, 30895.83, 31072.89, 30871.75, 30903.93, 31053.31, 30930.67, 30961.18, 31085.82, 31159.20, 31029.84, 31246.25, 30957.24, 30826.17, 30826.17, 30808.59, 30674.39]
 }
 ```
 
-**Tue 8/11 AM:** $31,026.94 (**+0.20% GREEN**, +$63 vs Mon EOD $30,964.23) — ASML +3.96% breakout to $1802.15 leads on EUV differentiation; NVDA +0.9% recovery on Nemotron 4 open-source AI model announcement counters Maia-300; GE relief +1.23% bounce clears Mon narrowing watch (cushion 3.2% → 4.4%); 3 mechanical actions (ASML ratchet, D+TJX stop re-issue).
+**Thu 8/20 Close:** $30,674.39 (**-0.49% RED**, -$152 vs Wed EOD $30,826.17) — GE stop AM +$134 realized; RARE+RKLB pipeline BUYs seasoning; PANW 7-signal compound bull vs -2.96% tape divergence; ISRG cushion 1.30% CRIT into Fri; wk realized +$139.19 net over 3 days.
 
-## Tue Midday+ Watch Priorities
+## Fri 8/21 Watch Priorities
 
-1. **ASML $1,802 breakout follow-through** — chase-risk day; ratchet locks +$40
-2. **MRVL cushion 5.2%** — narrowest; semi cascade continues
-3. **AVGO cushion 5.7%** — 2nd narrowest
-4. **GE cushion 4.4%** — relief but still narrow
-5. **NVDA Nemotron 4 durability** — counter to Maia-300 narrative
-6. **CPI Wed 8/12 AM** — macro overlay
-7. **UNH earnings Aug 12-15** — 1-4 trading days
-8. **LLY continuation vs profit-take** — retrace -0.36% from Mon breakout
-9. **Option C pipeline candidates** — HPE/ABNB/PANW/SOUN monitor
+1. **ISRG binary** — Fri open; if gaps thru $370 accept 15-25% slippage per post-earnings memory (max -$72 = -0.23% portfolio)
+2. **PANW post-BMO/NTT follow-through** — 7-signal compound must translate to tape or thesis breaks
+3. **GD Pentagon-Feinberg-signed vs Iran-negs-fading** — mixed bear/bull
+4. **NVDA pre-earnings Wed 8/27** — compound bull stack (China chip + CPU $20B + robotics + RBC + retail contrarian)
+5. **RARE/RKLB day 2 shakeout** — first-day pullbacks normal, seasoning window
+6. **Options C candidates** — TEAM $185 + ESTC $100 + MDB $475 + OKTA $180 Truist/Morgan Stanley rerate cluster
+7. **MRNA -25% biotech reversal contagion** — RARE spillover risk? Different catalyst but sentiment lens
+8. **Cash 64.4%** = dry powder for Fri opportunities if ISRG/PANW resolve favorably
 
 ## Themes Open
 
-1. **ASML breakout on EUV differentiation** — flight-to-quality within AI-semi; Maia-300 doesn't affect litho
-2. **NVDA Nemotron 4 open-source AI model** — counters Maia-300 chip-vertical narrative
-3. **GE relief** — Mon EOD 3.2% narrowest cleared to 4.4% cushion on +1.23% AM
-4. **Defense sleeve 4.94%** stable; LMT 2nd major-contract in 24h (MDA modernization + Strigo Modular RF)
-5. **AI sleeve 21.85%** — +0.14pp on ASML breakout
-6. **MRVL/AVGO tight cushions** — 5.2%/5.7% require watch as semi cascade continues
-7. **UNH earnings Aug 12-15** — Warren-bipartisan bill overlay
-8. **Cash 63.6%** overweight; Option C candidates flagged for Tue evaluation
-9. **4/4 discretionary slots + $5K spend headroom** into midday
-10. **CPI Wed 8/12 AM** — macro overlay for rate-cut expectations
+1. **Compound analyst rerate cyber sleeve** — CRWD $235 + PANW $415 = coordinated 2-name JPM/BMO validation
+2. **Truist software rerate cluster** — TEAM/ESTC/MDB same-hour raises (potential Option-C candidates)
+3. **NVDA China comeback** — The Information + FT/ByteDance/Tencent H200 = 2-source cross-confirm
+4. **Defense-sleeve compound bear** — Pentagon cost-cut signed (Feinberg) vs Iran negs fading counterweight
+5. **PANW 7-signal bull vs tape divergence** — thesis test in real-time
+6. **Iran-Strait-of-Hormuz narrative flips** — cruise-sleeve morning "hope" → chemicals-close "fading" reversal
+7. **AI hyperscaler tailwinds** — BABA 1/3 cloud rev + AMAT "years of growth"
+8. **MRNA -25% biotech reversal** — validates Wed PASS ex-post; nuance re: feedback_biotech_phase3_pipeline
+9. **Cash 64.4%** overweight; 2/4 disc slots + $3,881 spend headroom into Fri
+10. **NVDA earnings Wed 8/27** — countdown t-4 days into the biggest event of quarter
 
-Full AM debrief: [debriefs/2026-08-11-0957-morning.md](debriefs/2026-08-11-0957-morning.md)
+Full CLOSE debrief: [debriefs/2026-08-20-1623-close.md](debriefs/2026-08-20-1623-close.md)
