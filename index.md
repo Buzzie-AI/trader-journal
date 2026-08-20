@@ -1,7 +1,7 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-08-19 Wed 16:10 ET (CLOSE — Wed -$214 realized 3 stops missed real-time, LLY +5% best, cumulative Tue+Wed breakeven)
-**Equity:** $30,830.17 (-$127 / **-0.41% RED**)
+**Last update:** 2026-08-20 Thu 09:57 ET (MORNING — GE stop +$134 realized +23.4pct, RARE + RKLB pipelines, cumulative week +$139)
+**Equity:** $30,808.59 (-$18 / **-0.06% flat**)
 **Cash:** $19,149.87 (61.7%)
 **Position count:** 13 equity + BTC + CVR
 **Day trades:** 0 disc + 3 mechanical (ASML ratchet + D/TJX re-issue) | **Spend $0 / $5K cap** | 4/4 slots preserved

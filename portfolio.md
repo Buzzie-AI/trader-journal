@@ -1,6 +1,6 @@
-# Portfolio Snapshot — 2026-08-19 16:10 ET (Wed CLOSE — -0.41% RED, -$214 realized 3 stops, cumulative Tue+Wed +$5 breakeven, LLY +5% best)
+# Portfolio Snapshot — 2026-08-20 09:57 ET (Thu AM — GE stop +$134, RARE+RKLB pipelines, -0.06% flat, cumulative week +$139)
 
-**Equity:** $30,830.17 (-$127 / **-0.41% RED** vs Tue EOD $30,957.24)
+**Equity:** $30,808.59 (-$18 / **-0.06% flat** vs Wed EOD $30,826.17)
 **Cash:** $19,149.87 (61.7%)
 **Position value:** $11,863.47 (38.3%)
 **Position count:** 14 equity + BTC + CVR
