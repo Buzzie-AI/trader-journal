@@ -1,4 +1,58 @@
-# Portfolio Watchlist — Thu 2026-08-13 16:23 ET (EOD — CBRS BUY EXECUTED, +0.26% GREEN, GE CUSHION 1.7% CRITICAL)
+# Watchlist — Last update 2026-09-30 16:47 ET (Wed EOD)
+
+## Today's Position Book (Wed 9/30 CLOSE)
+
+| Ticker | Qty | Basis | Close | Day% | LC% | Stop | Cushion | Note |
+|--------|-----|-------|-------|------|-----|------|---------|------|
+| NVDA | 15 | $229 | $229.01 | +0.79% | +0.00% | $205 GTC | 10.5% | Re-entry today; stop replaced post-close |
+| HPE 🆕 | 14 | $64 | $64.15 | +4.33% | +0.23% | $58.50 GTC | 8.8% | New position; stop replaced post-close |
+| SYM | 15 | $41 | $42.06 | +1.33% | +2.59% | $35 GTC | 16.8% | |
+| SYY ⚠️ | 5 | $73.21 | $77.99 | -0.68% | +6.53% | $75 GTC | 3.8% | TIGHTEST post-CI-read-across |
+| UNH ⚠️ | 0.52 | $290 | $367.50 | -1.98% | +26.7% | no stop | n/a | CI-read-across confirmed bear |
+| DLR ⚠️ | 4 | $198.87 | $175.53 | -0.58% | -11.7% | $167.78 GTC | 4.5% | AI-DC-debt bear thesis |
+| BTCUSD | 0.003 | $70,867 | $83,656 | +0.33% | +18.0% | frozen | n/a | Untouched per operator |
+
+## Thu 10/1 Watch Priorities
+
+1. **MU AH blowout** ($1,081.87 +1.4%) → semi-AI sleeve open sympathy (NVDA/AMD/SYM benefit)
+2. **SNPS structural 4-signal day** → pipeline candidate for Thu open (AH gap likely)
+3. **GOOGL Gemini 4 Argon** — AH +1.25% frontier AI extension
+4. **PSKY/WBD merger closing next week** — Tier-4 merger-arb
+5. **HPE catch-up** if MU-lifted tape extends to server/AI-infra ($67 AM retest)
+6. **UNH CI-read-across durability** — sector re-rate watch
+7. **DLR AI-DC-debt bear** — cushion 4.5% + The Information thesis
+8. **SYY 3.8% TIGHTEST** — post-earnings tape watch
+
+## Recent BEAR narratives (into Thu)
+
+- FTC probe hyperscalers (Anthropic/OpenAI + AMZN/GOOG/MSFT/NVDA/ORCL)
+- NVDA CUDA moat threat by DeepSeek-Huawei Ascend tools
+- AI-DC debt concessions could stall build-outs (The Information)
+- AMZN AI-agents threaten ad-flywheel (thesis-level)
+- LLY vs NVO GLP-1 franchise war (LLY -2.17% today despite 4 obesity signals)
+- CI FY26 rev-miss $5.6B → UNH read-across confirmed
+
+## Recent BULL narratives (into Thu)
+
+- **MU EARNINGS BLOWOUT** — Q4 beat + Q1 guide above street + supply-tightness 2027-28 + DC revenue 11x (CNBC)
+- **SNPS structural day** — AMZN $1B + OpenAI GPT-Synopsys + Investor Day 50% margin 2030 + FY27 guide-raise
+- **GOOGL Gemini 4 Argon** frontier AI
+- **BA $20B Navy F/A-XX** + **BA Ethiopian $3.2B est freighter order** (same day)
+- **HPE-Vultr $1.2B AMD Helios first cloud order** (executed)
+- **PSKY/WBD merger clearance** (closing next week)
+- **Software relief bid** (NOW/CRM/MDB/PANW/SNOW +1-3% held)
+- **PCE 3.4% dovish macro**
+- **Oil refiners rally** (EIA 4x drawdown + Trump-avoid-diesel-ban)
+- **AMZN/CEG Calvert Cliffs nuclear** (AI-DC power)
+- Biotech: **DERM-triple-positive** (ABBV Ph2 + LLY Ph3B + MRK Ph2b HS) but MUTED price
+- LLY 4-signal obesity (EloraTZP + Retatrutide 80wk) but NVO cross-cut
+- **HOOD Summit 8-signal** faded sell-the-news
+- **DASH Analyst Day 7-product** faded sell-the-news
+
+---
+
+## Historical entries (Aug 13 and earlier)
+
 
 **Equity:** $31,166.44 (**+0.26% GREEN day** vs Wed EOD $31,086; **+0.65% since Mon EOD**)
 **Cash:** $18,599.36 (59.7% — from Mon 63.7%)
