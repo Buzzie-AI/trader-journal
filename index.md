@@ -1,114 +1,121 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-09-30 Wed 16:21 ET (CLOSE — +0.24% GREEN, HPE +3.90%, MU AH blowout)
-**Equity:** $30,199.31 (+$73.70 / **+0.24% GREEN** vs Tue $30,125.61)
-**Cash:** $23,670.86 (78.4%)
-**Position count:** 6 equity + BTC + CVR
-**Day trades:** 1 disc BUY (HPE 14sh @ $64 AM) | **Spend $896 / $5K cap** | 3/4 slots preserved
+**Last update:** 2026-10-02 Fri 10:02 ET (MORNING — AVGO 3sh pipeline BUY $60B Anthropic financing + HPE stop ratchet $62)
+**Equity:** $30,419.33 (+$161.53 / **+0.53% GREEN** vs Thu $30,257.80)
+**Cash:** $21,136 (69.5%) post-trade
+**Position count:** 8 equity + BTC + CVR
+**Day trades:** 1 disc BUY (AVGO 3sh @ $353.38 AM) | **Spend $1,060 / $5K cap** | 3/4 slots preserved
 **Realized today:** $0
-**Unrealized today:** +$21.85 net
+**Unrealized today:** +$161 net day
 
-## CLOSE Recap — GREEN with HPE Pipeline BUY + MU AH Earnings Blowout
+## MORNING Recap — AVGO Pipeline + HPE Day 3 Ratchet
 
-Autopilot_close cron scheduled 15:53 ET, ran 16:21 (queued late). Market closed 16:00. Portfolio +0.24% net day with HPE pipeline BUY executed AM.
+Autopilot_morning scheduled 9:23 ET, ran 09:57 (34 min late). **AVGO 3sh pipeline BUY @ $353.38** on cross-confirmed $60B Anthropic chip financing (7+ outlets). **HPE stop ratcheted $58.50→$62** on Day 3 catalyst continuation (+5.68% intraday, 0.77R).
 
-**Wed 9/30 close takeaways:**
-1. **HPE 14sh @ $64 bracket BUY** — catalyst $1.2B Vultr AMD Helios first cloud order; closed $63.90 (+3.90% vs prev, basis-flat); intraday high $67.09 faded to close
-2. **NVDA re-entry 15sh @ $229 OTO** — closed $228.29 stable; FTC/CUDA overhang absorbed
-3. **MU EARNINGS BLOWOUT AH**: Q4 EPS $33.42 vs $31.45 est (+6.3%), Sales $54.23B vs $50.75B (+6.9%), **Q1 guide EPS $37-39 vs $35 est**, Sales $60-63B vs $56.55B, supply-tightness thru 2027-28; **AH $1,081.87 (+1.4%)** → sets up semi-AI sleeve sympathy for Thu open
-4. **SNPS 4-signal structural day** — AMZN $1B chip IP + OpenAI multi-year GPT-Synopsys + Investor Day 50% margin 2030 (year-early) + FY27 guide-raise; closed +4.79%; AH +0.4% more
-5. **GOOGL Gemini 4 Argon** — frontier AI for software engineering (AH +1.25%)
-6. **PSKY/WBD merger CROSS-CONFIRMED** — Variety says closing next week; Kreiz named Co-CEO
-7. **Software relief bid held** — NOW/CRM/MDB/PANW/SNOW +1-3% (faded from midday +2-5% peaks)
-8. **Biotech DERM-TRIPLE MUTED** — LLY -2.17% (NVO GLP-1 cross-cut dominated), ABBV -0.5%, MRK also down; sector-day fizzle
-9. **UNH -2.06%** — CI FY26 rev-miss $5.6B read-across confirmed bear
-10. **HOOD/DASH mega-product days FADED** sell-the-news (chase-risk pattern validated real-time)
-11. **All 5 stops holding**; SYY cushion tightened to 3.8% (new TIGHTEST)
-12. **3/4 disc slots preserved + $23.67K cash** dry powder into Thu
+**Fri 10/2 open takeaways:**
+1. **AVGO $60B Anthropic financing** — BB + Quartz + Stocktwits + 24/7WS + InvestorsHub + MT Newswires cross-confirmed. **EXPANDS Thu $42B lending to $60B total** ($18B upward revision in 48h). Validates AVGO = #1 Anthropic silicon partner (vs NVDA/OpenAI concentration).
+2. **Jobs 29K MASSIVE MISS** — vs 100-150K consensus = STRONG DOVISH Fed signal. Compounds PCE 3.4% Thu = double-weak macro overlay. SMH +2.79%, QQQ +1.39%, SPY +0.84% at open.
+3. **HPE Day 3 continuation** — basis $64, current $68.24 = +6.6% gain, +$59 unreal. Stop ratcheted from $58.50 → $62 locks in -$2/sh floor (saves $49 in worst-case fire). Day 3 of $1.2B Vultr AMD Helios cloud order catalyst.
+4. **MU NAND +526% YoY** — Benzinga Exclusive confirming AI-DC storage demand; 14th MU signal in 72h; compounds Samsung HBM 3x pricing (MK Exclusive).
+5. **NVDA +2.80%** — $205 stop GTC cushion 13.7% comfortable; semi rate-cut play; DGX Spark 64GB launch.
+6. **SYNA +13.84% / ON +5.72%** — amended $123/$5.7B merger confirmed in tape; Tier-4 merger-arb active.
+7. **SNPS -4.17% pullback** — Thu's +12.83% rip giving back; potential pipeline opportunity if hits $470.
+8. **CEG -3.53%** — giveback from Thu nuclear catalyst.
+9. **META $40B NM privacy verdict** — jury found META misled users 43M times; HIGH bear materiality.
+10. **AMZN $8B NVDA chip offload** — FT reports; demand uncertainty vs capital-efficiency narrative tension.
+11. **TWLO + VYLR S&P 500 inclusion** — passive-flow $100-500M forced buying forward.
+12. **RTX $24.4B SM-6 contract** — compounds defense sleeve historic week.
 
-## EOD Portfolio
+## Morning Portfolio (post-trade)
 
-| Ticker | Qty | Basis | Close | Day% | LC% | Stop | Cushion |
-|--------|-----|-------|-------|------|-----|------|---------|
-| **NVDA** ✅ | 15 | $229.00 | $228.29 | +0.64% | -0.31% | $205 | 11.3% |
-| **HPE** 🆕 | 14 | $64.00 | $63.90 | **+3.90%** | -0.16% | $58.50 | 8.5% |
-| **SYM** | 15 | $41.00 | $42.09 | +1.33% | +2.65% | $35 | 16.8% |
-| **SYY** ⚠️⚠️ | 5 | $73.21 | $77.99 | -0.68% | +6.53% | $75 | 3.8% |
-| **UNH** ⚠️ | 0.52 | $290 | $367.25 | **-2.06%** | +26.6% | frac | n/a |
-| **DLR** ⚠️ | 4 | $198.87 | $175.62 | -0.58% | -11.7% | $167.78 | 4.5% |
-| BTCUSD | 0.003 | $70,867 | $83,619 | +0.29% | +18.0% | frozen | n/a |
+| Ticker | Qty | Basis | Current | Day% | LC% | Stop | Cushion |
+|--------|-----|-------|---------|------|-----|------|---------|
+| **NVDA** ✅ | 15 | $229.00 | $237.52 | **+2.80%** | +3.72% | $205 GTC | 13.7% |
+| **AVGO** 🆕 | 3 | $353.38 | $353.38 | **+2.78%** | 0% | $333 GTC | 5.75% |
+| **HPE** 🔥 | 14 | $64.00 | $68.24 | **+5.68%** | +6.63% | **$62 ratchet** | 9.1% |
+| **REGN** | 2 | $737.32 | $732.63 | -0.20% | -0.64% | $700 GTC | 4.5% ⚠️ |
+| **SYM** | 15 | $41.00 | $43.31 | +0.34% | +5.63% | $35 GTC | 19.2% |
+| **SYY** ⚠️⚠️ | 5 | $73.21 | $77.64 | -0.17% | +6.05% | $75 GTC | 3.4% |
+| **UNH** | 0.52 | $290.00 | $366.04 | +0.23% | +26.2% | frac | n/a |
+| **DLR** ⚠️ | 4 | $198.87 | $178.59 | +1.19% | -10.2% | $167.78 GTC | 6.1% |
 
-## Semi/AI + Software Sector Wed 9/30 EOD
+BTCUSD 0.003 → $299 (+2.0% today)
 
-| Ticker | Prev Close | EOD Close | AH | Day % | Note |
-|--------|-----------|-----------|-----|-------|------|
-| **HPE** 🆕 | $61.49 | $63.90 | — | **+3.92%** | HELD 14sh; catalyst absorbed intraday |
-| **MU** | $1,064.98 | $1,066.85 | **$1,081.87** | +0.18% + AH BLOWOUT | Q4 beat + Q1 guide above; +1.4% AH |
-| **SNPS** | $415.03 | $434.91 | $436.72 | **+4.79%** | 4-signal structural day; not held |
-| **SNOW** | $330.72 | $339.87 | — | +2.77% | LSEG + PATH 2-signal; not held |
-| **PANW** | $388.38 | $397.56 | — | +2.37% | Cyber relief bid |
-| **INTC** | $115.97 | $119.22 | — | +2.80% | Semi rally |
-| **MDB** | $337.10 | $352.72 | — | +4.63% | $1B buyback |
-| **NOW** | $129.98 | $134.05 | — | +3.13% | ServiceNow relief |
-| **CRM** | $225.36 | $229.64 | — | +1.90% | Salesforce sympathy |
-| **MSFT** | $508.92 | $512.91 | — | +0.78% | Piper $610 target |
-| **GOOGL** | $340.95 | $344.10 | **$348.40** | +0.92% + AH | Gemini 4 Argon +1.25% AH |
-| **NVDA** ✅ | $227.24 | $228.29 | — | +0.46% | FTC/CUDA absorbed |
-| **AMZN** | $246.61 | $249.17 | — | +1.04% | AWS-nuclear + AI-Agent-ad-threat mixed |
-| **LLY** | $1,185.09 | $1,159.47 | — | **-2.16%** | Not held (NVO cross-cut dominated) |
-| **ABBV** | $263.22 | $261.84 | — | -0.53% | Not held (derm muted) |
-| **MRK** | $149.29 | $146.69 | — | -1.74% | Not held (Ph2b HS win muted) |
-| **UNH** ⚠️ | $374.98 | $367.25 | — | **-2.06%** | HELD; CI read-across confirmed |
-| **DLR** ⚠️ | $176.59 | $175.62 | — | -0.55% | HELD; AI-DC-debt bear vs Blackfuel |
-| **CEG** | $264.53 | $254.13 | — | **-3.93%** | AMZN nuclear deal negative reaction |
-| **BMY** | $62.88 | $62.43 | — | -0.72% | Camzyos FDA pediatric no reward |
+## Semi/AI + Market Snapshot 10:02 ET
+
+| Ticker | Prev Close | Current | Day % | Note |
+|--------|-----------|---------|-------|------|
+| **AVGO** 🆕 | $343.80 | $353.38 | **+2.78%** | NEW 3sh pipeline $60B Anthropic |
+| **HPE** 🔥 | $64.57 | $68.24 | **+5.68%** | Day 3 continuation; stop $62 |
+| **NVDA** ✅ | $231.04 | $237.52 | **+2.80%** | Semi rate-cut play |
+| **AMD** | $615.78 | $640.23 | **+3.97%** | SMH ripping |
+| **SMH ETF** | $617.85 | $635.09 | **+2.79%** | Semi broad surge |
+| **MU** | $1,098.15 | $1,085.79 | -1.12% | Faded from AH high; catalyst-tape divergence |
+| **SMCI** | $41.92 | $43.76 | **+4.39%** | SM-6 defense + semi |
+| **ORCL** | $138.06 | $142.49 | **+3.21%** | Recovery continuing |
+| **TSLA** | $354.19 | $368.83 | **+4.13%** | Rate-cut play |
+| **ON** | $80.07 | $84.65 | **+5.72%** | SYNA $123 merger confirmed |
+| **SYNA** | $106.11 | $120.78 | **+13.84%** | Tier-4 merger arb target |
+| **META** | $725.70 | $731.25 | +0.77% | $40B NM lawsuit absorbing |
+| **AMZN** | $248.27 | $251.51 | +1.31% | FT $8B chip offload muted |
+| **MSFT** | $512.71 | $516.13 | +0.67% | EU scrutiny mild |
+| **GOOGL** | $338.38 | $343.87 | +1.62% | Gemini Argon price pressure |
+| **SNPS** | $490.70 | $470.25 | -4.17% | Pullback after +12.83% Thu rip |
+| **CEG** | $258.99 | $249.86 | -3.53% | Giveback from Thu |
+| **LLY** | $1,150.63 | $1,148.63 | -0.17% | NVO war digest |
+| **HOOD** | $111.18 | $114.77 | +3.23% | WF init EqW |
+| **SPY** | $764.10 | $770.41 | +0.83% | Broad green |
+| **QQQ** | $742.02 | $752.33 | **+1.39%** | Tech leading |
 
 ## Recent Debriefs
 
-- [2026-09-30 Wed CLOSE — +0.24% GREEN, HPE +3.90% net, MU AH blowout sets up Thu semi-AI](debriefs/2026-09-30-1621-close.md) 🆕
+- [2026-10-02 Fri MORNING — AVGO 3sh BUY $60B Anthropic financing + HPE stop ratchet $62](debriefs/2026-10-02-0957-morning.md) 🆕
+- [2026-10-01 Thu CLOSE MANUAL — +0.22% GREEN, REGN pipeline executed midday, autopilot_close missed 23min](debriefs/2026-10-01-1616-close-manual.md)
+- [2026-10-01 Thu MIDDAY — REGN 2sh BUY $737.32 6-signal structural day](debriefs/2026-10-01-1317-midday.md)
+- [2026-10-01 Thu MORNING — HOLD, SNPS +12.19% ripped chase-risk](debriefs/2026-10-01-1000-morning.md)
+- [2026-09-30 Wed CLOSE — +0.24% GREEN, HPE +3.90% net, MU AH blowout sets up Thu semi-AI](debriefs/2026-09-30-1621-close.md)
 - [2026-09-30 Wed MIDDAY — HOLD, HPE +5.45% extending, software-relief bid confirmed](debriefs/2026-09-30-1247-midday.md)
 - [2026-09-30 Wed MORNING — HPE 14sh BUY $896 catalyst $1.2B Vultr AMD Helios first cloud order](debriefs/2026-09-30-0957-morning.md)
 - [2026-08-20 Thu CLOSE — -0.49%, wk +$139, ISRG cushion 1.30% CRIT into Fri, HOLD binary](debriefs/2026-08-20-1623-close.md)
-- [2026-08-20 Thu MIDDAY — HOLD, ISRG 2.2% + GD 4.83% watch, PANW+NVDA HELD-confirm](debriefs/2026-08-20-1317-midday.md)
-- [2026-08-20 Thu MORNING — GE stop +$134, RARE + RKLB pipelines, cumulative week +$139](debriefs/2026-08-20-0957-morning-manual.md)
-- [2026-08-19 Wed CLOSE — cumulative Tue+Wed +$5.17 breakeven, GE cushion 0.59% survived](debriefs/2026-08-19-1610-close-manual.md)
-- [2026-08-19 Wed MIDDAY — 3 missed stops corrected (TJX -$63 + TER -$64 + HPE -$88 = -$214)](debriefs/2026-08-19-1319-midday.md)
 
 ## Equity Trajectory (Last 22 Sessions, 1D bars from Alpaca)
 
 ```
 {
-  "labels": ["Fri 8/28","Mon 8/31","Tue 9/1","Wed 9/2","Thu 9/3","Mon 9/8","Tue 9/9","Wed 9/10","Thu 9/11","Mon 9/14","Tue 9/15","Wed 9/16","Thu 9/17","Fri 9/18","Mon 9/21","Tue 9/22","Wed 9/23","Thu 9/24","Fri 9/25","Mon 9/28","Tue 9/29","Wed 9/30 Close"],
-  "values": [30375.04, 30360.62, 30402.54, 30204.82, 30211.66, 30221.61, 30206.87, 30168.31, 30194.56, 30155.38, 30138.98, 30147.9, 30189.61, 30153.9, 30213.42, 30228.63, 30171.6, 30183.68, 30166.21, 30136.08, 30125.61, 30199.31]
+  "labels": ["Mon 8/31","Tue 9/1","Wed 9/2","Thu 9/3","Mon 9/8","Tue 9/9","Wed 9/10","Thu 9/11","Mon 9/14","Tue 9/15","Wed 9/16","Thu 9/17","Fri 9/18","Mon 9/21","Tue 9/22","Wed 9/23","Thu 9/24","Fri 9/25","Mon 9/28","Tue 9/29","Wed 9/30","Thu 10/1","Fri 10/2 Open"],
+  "values": [30360.62, 30402.54, 30204.82, 30211.66, 30221.61, 30206.87, 30168.31, 30194.56, 30155.38, 30138.98, 30147.9, 30189.61, 30153.9, 30213.42, 30228.63, 30171.6, 30183.68, 30166.21, 30136.08, 30125.61, 30199.31, 30257.81, 30419.33]
 }
 ```
 
-**Wed 9/30 Close:** $30,199.31 (**+0.24% GREEN**, +$73.70 vs Tue). First discretionary trade of new active cycle = HPE 14sh @ $64 bracket BUY on $1.2B Vultr AMD Helios catalyst.
+**Fri 10/2 Open:** $30,419.33 (**+0.53% GREEN** post-AVGO-BUY, +$161.53 vs Thu close). **3rd pipeline BUY of new active cycle = AVGO 3sh @ $353.38 on $60B Anthropic financing cross-confirmed 7+ outlets.**
 
-## Thu 10/1 Watch Priorities
+## Fri 10/2 Midday+Close Watch
 
-1. **MU AH blowout → semi-AI open sympathy** — expect NVDA/AMD/AVGO/AMAT/KLAC lift; NVDA held (cushion 11.3%) benefits; SYM sympathy
-2. **SNPS structural day → pipeline candidate** — 4-signal + FY27 guide-raise; watch entry post AH gap
-3. **GOOGL Gemini 4 Argon** — AH +1.25% frontier AI, could extend at open
-4. **HPE catch-up potential** — if MU-lifted semi tape extends server/AI-infra, HPE could retest $67
-5. **PSKY/WBD merger closing next week** — Tier-4 merger-arb special-situation candidate
-6. **UNH CI-read-across durability** — sector re-rate risk continues, still +26% cushion
-7. **DLR AI-DC-debt bear** — cushion 4.5% + The Information negative thesis
-8. **SYY 3.8% TIGHTEST** — post-earnings-season tape watch
-9. **AMZN AI-agents-ad-threat + FTC overhang** — thesis-level bear watch
-10. **Cash 78.4%** = dry powder for MU-sympathy semi + SNPS + PSKY-arb Thu opportunities
+1. **AVGO continuation** vs digestion fade (fresh entry, cushion 5.75%)
+2. **HPE Day 3→4** — if $69.50+ (1R) ratchet stop to $64 breakeven; if $70+ (1.1R) +Tier-2 Harvest trim
+3. **MU catalyst-tape divergence** — pipeline opportunity if continues fade below $1,070 (14-signal stack contrarian entry)
+4. **SYNA/ON merger-arb** — Tier-4 active (SYNA +13.84% toward $123 close)
+5. **SNPS pullback entry** — if $470 range opens, structural day pipeline opportunity (Thu +12.83%)
+6. **REGN fade watch** cushion 4.5%; if tightens below 3% consider ratchet or accept flush
+7. **SYY 3.4% tightest** — CI managed-care persistence watch
+8. **CEG/LLY** monitor for breakdown vs digest
+9. **AMD +3.97% chase vs durable** — HBM 3x = cost pressure for AMD; weigh
+10. **Session cap**: 1/4 Fri + $3,940 spend room = 3 pipelines possible if setups emerge
 
-## Themes Open (Into Thu)
+## Themes Open (Into Midday)
 
-1. **MU AH blowout thesis validation** — semi-AI cycle NOT peaked
-2. **SNPS structural day** — 4 signals + FY27 guide-raise = capital markets re-rate candidate
-3. **PSKY/WBD merger closing next week** — high-confidence M&A closure
-4. **NVDA CUDA moat challenge holding** — DeepSeek+Huawei not yet driving tape
-5. **AMD-side AI silicon** — HPE-Vultr $1.2B + AMD $8.2B World Labs = share-shift narrative
-6. **Biotech catalyst-vs-price disconnect** — full derm + LLY obesity failing to translate
-7. **LLY vs NVO GLP-1 franchise war** — competitive drip-feed clouds LLY thesis
-8. **AI-hyperscaler regulatory** — FTC probe + WSJ/Raskin + AMZN ad-flywheel-threat = compound bear watch
-9. **Software relief bid durability** — held gains but faded from midday; Thu open direction
-10. **Cash 78.4%** overweight = dry powder for high-confidence Thu pipelines
+1. **AVGO $60B Anthropic financing** — fresh pipeline position; validates Anthropic silicon war with NVDA
+2. **Jobs 29K double-dovish** — rate-cut path acceleration confirmed (PCE 3.4% + Jobs 29K)
+3. **Semi memory cycle** — Samsung HBM 3x + MU NAND 526% + Toshiba HDD 2x = multi-year bull cycle
+4. **HPE Day 3 catalyst** — Vultr AMD Helios first cloud order narrative sustaining
+5. **MU 14-signal stack** — Q4+Q1 blowout + CEO + $150B contract + NAND 526% + Samsung HBM 3x
+6. **SNPS structural day** — 6-signal Thu rip giving back; durability test
+7. **SYNA/ON merger** — closing/arb Tier-4
+8. **PSKY/WBD merger closes Mon Oct 6** — final 1 trading day
+9. **META $40B NM privacy** — appeals/settle expected
+10. **AI hyperscaler regulatory** — EU DMA + FTC + CA AG + Jeffries + congressional stack
+11. **Defense sleeve historic week** — RTX $24.4B + LHX THAAD + BA F/A-XX stack
+12. **Biotech derm 5-company** — ABBV+LLY+MRK+PFE+JNJ EADV conference momentum
+13. **Cash 69.5%** post-trade = dry powder for 3 more pipelines possible Fri
 
-Full CLOSE debrief: [debriefs/2026-09-30-1621-close.md](debriefs/2026-09-30-1621-close.md)
+Full MORNING debrief: [debriefs/2026-10-02-0957-morning.md](debriefs/2026-10-02-0957-morning.md)
