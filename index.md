@@ -1,122 +1,142 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-10-05 Mon 16:01 ET (CLOSE MANUAL — +0.21% GREEN, Weekly +0.97%, 4 pipeline BUYs holding, Nasdaq-100 RECORD + NVDA ATH)
-**Equity:** $30,451 (+$63 / **+0.21% GREEN** vs Fri $30,388)
-**Cash:** $20,075 (65.9%)
+**Last update:** 2026-10-06 Tue 09:57 ET (MORNING — HPE L3 + AVGO L2 ratchets, cycle P&L +$390 / +1.29%, HOLD on new BUYs)
+**Equity:** $30,617 (+$161 / **+0.53% GREEN** vs Mon $30,456)
+**Cash:** $20,075 (65.6%)
 **Position count:** 9 equity + BTC + CVR
-**Day trades:** 1 disc BUY (MU 1sh AM) | **Spend $1,061 / $5K cap** | 3/4 slots preserved
-**Weekly P&L Wed-Mon:** +$292 / +0.97%
+**Day trades:** 0 (fresh Tue 0/4 slots) | **Spend $0/$5K cap**
+**Cycle P&L Wed→Tue:** +$390 / +1.29%
 
-## CLOSE Recap (MANUAL) — Weekly +0.97% GREEN, All 4 Pipeline BUYs Holding, NVDA ATH + Nasdaq-100 RECORD
+## MORNING Recap — HPE L3 + AVGO L2 Ratchets, Cycle +1.29% Over 5 Days
 
-Autopilot_close scheduled 15:53 ET, not fired by 16:01 (market closed 16:00). Manual EOD recap triggered per feedback_autopilot_close_miss_recovery memory. **All 4 session-cycle pipeline BUYs (HPE/REGN/AVGO/MU) HELD net GREEN or breakeven at Mon close.**
+Autopilot_morning 9:23 → ran 09:57 (34 min late, 4th consecutive cycle). **HPE L3 ratchet $64→$65 + AVGO L2 ratchet $340→$348** on continued momentum. **HOLD on new BUYs** — chase risk after MRVL +10%, CEG +14% rip.
 
-**Mon 10/5 close takeaways:**
-1. **NVDA new ATH $238.82 (+2.08% day, +4.29% LC)** — $6T market cap target by month-end narrative; +$147 unreal
-2. **AVGO continuation Day 2** → $362.47 (+2.06%, +$27 unreal, +2.57% LC); L1 stop ratchet $333→$340 midday
-3. **MU 1sh AM pipeline BUY** → closed GREEN $1,062.83 (+$2 unreal, +0.16% LC); catalyst-tape divergence RESOLVING via weekend validators (buyback preview + GOOG Pixel memory + Musk compute + TSM ATH + Trump AI Czar)
-4. **Nasdaq-100 at RECORD HIGH** — QQQ +0.70%, SPY +0.65%, SMH +0.2%
-5. **TSM 52-wk HIGH extending** (+2.5%) — foundry proxy BULL compute-scarcity
-6. **MSFT 2 upgrades** — Melius Buy $665 + Scotiabank $615 (+1.6%)
-7. **TSLA +2.0%** on JPM 200% PT capitulation
-8. **CBRS +7.5%** on Cerebras OpenAI "close partner" validation
-9. **HPE Day 4 giving back -1.63%** — stop at $64 breakeven L2 protecting; +$59 unreal
-10. **UNH REBOUNDED +1.82%** to $378.67 despite TX AG Paxton + Warren/Hawley probes
-11. **BA/LMT $14.7B / 7-yr PAC-3 missile contract** — defense sleeve multi-tier historic month
-12. **VST $4.2B federal nuclear loan for META** — AI-DC-nuclear infra
-13. **ABBV/GMAB Phase 3 EPCORE DLBCL-2 epcoritamab 51% reduction** — oncology
-14. **SNPS $1B accelerated buyback** — tape didn't lift (-1.19%)
-15. **UNH Texas AG Paxton investigation** — insurer regulatory stack
-16. **SYY cushion 1.3% CRITICAL** — likely Tue stop-out
-17. **PSKY/WBD + ON/SYNA mergers CLOSED today**
+**Tue 10/6 open takeaways:**
+1. **HPE breaking $70.42** (+10.02% LC, +$90 unreal; 1.17R) — L3 ratchet $64→$65 locks +$1/sh floor. Reserved L4 ($66-67) for $72-73+.
+2. **AVGO $370.75** (+4.93% LC, +$52 unreal; 0.85R) — L2 ratchet $340→$348 locks -$5.38 vs basis. Reserved L3 breakeven ($353) for $373.76+. **FT $60B UPDATED Mon night** strengthens thesis.
+3. **NVDA $242.66** (+5.97% LC, +$205 unreal) — $6T target by month-end extending. Cushion 15.5%.
+4. **REGN/SNY 4-antibody license expansion** this AM — HELD direct beneficiary; cushion recovering 4.6%.
+5. **MU +$4 GREEN** stable near fill; MU/NLST $600M settlement overhang partially offset by Lisa Su + MRVL $400B TAM semi bull.
+6. **CEG +14% to $305** on $4.3B / 890 MW Google deal.
+7. **MRVL +10% to $298** on Investor Day $400B TAM + $20B FY28 + FY31 $70-90B rev.
+8. **META WF OW $1,000 PT** — first $1T target.
+9. **AMD +1.4%** on Lisa Su "demand exceeds supply" + 2 PT raises (Stifel $700 + Mizuho $705).
+10. **AMAT/INTC chipmaking partnership** — semi-cap narrative.
+11. **NASA Moon Base + SpaceX phaseout** — RKLB/LMT beneficiaries.
+12. **Nasdaq-100 at RECORD HIGH** sustained — QQQ +0.66%, SPY +0.60%, SMH +0.57%.
+13. **UNH TX AG + Warren/Hawley + RFK Jr HHS** = 3-signal insurer regulatory stack but UNH +31% LC.
 
-## Session Cumulative (Wed → Mon)
+## Morning Portfolio (post-ratchet)
 
-| Day | Trade | Status | Unreal | Day % |
-|-----|-------|--------|--------|-------|
-| Wed AM | HPE 14sh @ $64 | HELD | **+$59** | **+6.56%** |
-| Thu Mid | REGN 2sh @ $737.32 | HELD | -$22 | -1.47% |
-| Fri AM | AVGO 3sh @ $353.38 | HELD GREEN | **+$27** | **+2.57%** |
-| Mon AM | MU 1sh @ $1,061.09 | HELD GREEN | +$2 | **+0.16%** |
+| Ticker | Qty | Basis | Current | Day% | LC% | Stop | Cushion |
+|--------|-----|-------|---------|------|-----|------|---------|
+| **NVDA** 🔥 | 15 | $229.00 | $242.66 | +1.57% | **+5.97%** | $205 GTC | 15.5% |
+| **AVGO** 🔥 | 3 | $353.38 | $370.75 | +2.29% | **+4.93%** | **$348 L2** | 6.1% |
+| **HPE** 🔥 | 14 | $64.00 | $70.42 | +3.00% | **+10.02%** | **$65 L3** | 7.7% |
+| **MU** | 1 | $1,061.09 | $1,065.14 | +0.11% | +0.38% | $1,000 GTC | 6.1% |
+| **REGN** | 2 | $737.32 | $733.96 | +1.03% | -0.46% | $700 GTC | 4.6% ⚠️ |
+| **SYM** | 15 | $41.00 | $43.68 | +1.88% | +6.52% | $35 GTC | 19.9% |
+| **SYY** | 5 | $73.21 | $76.86 | +0.62% | +4.98% | $74.45 (div-adj) | 3.1% |
+| **UNH** | 0.52 | $290.00 | $379.69 | +0.29% | +30.9% | frac | n/a |
+| **DLR** | 4 | $198.87 | $184.07 | **+2.34%** | -7.4% | $167.78 | 8.9% |
 
-**4-trade session cycle: 3 GREEN + 1 FLAT; zero stop-fires; pipeline discipline maintained across 4 trading days.**
+BTCUSD 0.003 → $86,392 (+0.88% today)
 
-## EOD Positions
+## Session Cumulative (Wed → Tue, 5-day cycle)
 
-| Ticker | Qty | Basis | Close | Day% | LC% | Stop | Cushion |
-|--------|-----|-------|-------|------|-----|------|---------|
-| **NVDA** 🔥 | 15 | $229.00 | $238.82 | **+2.08%** | **+4.29%** | $205 GTC | 14.2% |
-| **AVGO** ✅ | 3 | $353.38 | $362.47 | +2.06% | **+2.57%** | **$340 L1** | 6.2% |
-| **HPE** | 14 | $64.00 | $68.20 | -1.63% | +6.56% | **$64 L2** | 6.2% |
-| **MU** 🆕 | 1 | $1,061.09 | $1,062.83 | -1.12% | **+0.16% GREEN** | $1,000 GTC | 5.9% |
-| **REGN** | 2 | $737.32 | $726.47 | -1.19% | -1.47% | $700 GTC | 3.6% ⚠️⚠️ |
-| **SYM** | 15 | $41.00 | $42.87 | -0.95% | +4.56% | $35 GTC | 18.4% |
-| **SYY** ⚠️⚠️⚠️ | 5 | $73.21 | $76.00 | -1.92% | +3.81% | $75 GTC | **1.3% CRITICAL** |
-| **UNH** | 0.52 | $290.00 | $378.67 | **+1.82%** | +30.6% | frac | n/a |
-| **DLR** | 4 | $198.87 | $179.87 | +0.74% | -9.6% | $167.78 | 6.7% |
+| Day | Trade | Status | Unreal | Day Trade % |
+|-----|-------|--------|--------|-------------|
+| Wed 9/30 | HPE 14sh @ $64 | HELD | **+$90** | **+10.02%** |
+| Thu 10/1 | REGN 2sh @ $737.32 | HELD | -$7 | -0.46% |
+| Fri 10/2 | AVGO 3sh @ $353.38 | HELD | **+$52** | **+4.93%** |
+| Mon 10/5 | MU 1sh @ $1,061.09 | HELD | +$4 | +0.38% |
 
-BTCUSD 0.003 → $85,741 (-0.97% today)
+**4-trade cycle: 3 GREEN + 1 FLAT; cumulative unrealized +$139; zero stop-fires 5 days; weekly cycle P&L +$390 / +1.29%**
 
-## Semi/AI Sleeve Mon Close
+## Semi/AI Sleeve
 
-- NVDA $3,582 (11.8%) Tier 1 anchor
-- AVGO $1,087 (3.6%) Tier 2 (+$27 unreal)
-- MU $1,063 (3.5%) Tier 3 (fresh +$2 GREEN)
-- HPE $955 (3.1%) Tier 2 (+$59 unreal)
-- SYM $643 (2.1%) Tier 3
-- DLR $719 (2.4%) Tier 3
-- **Total: $8,049 = 26.4%** vs 30% target
+- NVDA $3,640 (11.9%) Tier 1
+- AVGO $1,112 (3.6%) Tier 2 — breaking $370 after FT $60B update
+- MU $1,065 (3.5%) Tier 3
+- HPE $986 (3.2%) Tier 2 — Day 5 continuation +10.02% LC
+- SYM $655 (2.1%) Tier 3
+- DLR $736 (2.4%) Tier 3 — recovering AI-DC-nuclear thesis +2.34% today
+- **Total: $8,194 = 26.8%** vs 30% target
+
+## Market Snapshot
+
+| Index | Mon Close | Current | Change |
+|-------|-----------|---------|--------|
+| SPY | $774.97 | $779.58 | **+0.60%** |
+| QQQ | $756.09 | $761.03 | **+0.66%** |
+| SMH | $634.30 | $637.91 | **+0.57%** |
+
+Semi/AI individual (Tue AM):
+| Ticker | Mon | Current | Change |
+|--------|-----|---------|--------|
+| NVDA | $238.98 | $242.66 | +1.54% |
+| AVGO | $362.52 | $370.75 | **+2.27%** |
+| TSM | $486.01 | $484.21 | -0.37% |
+| MSFT | $525.01 | $532.33 | **+1.39%** |
+| AMD | $631.96 | $641.03 | **+1.44%** (Lisa Su + Mizuho $705) |
+| MU | $1,063.67 | $1,065.14 | +0.14% |
+| HPE | $68.38 | $70.42 | **+2.98%** (Day 5) |
+| MRVL | $271.22 | $298.11 | **+9.92%** ($400B TAM) |
+| CEG | $267.55 | $304.98 | **+13.99%** ($4.3B nuclear) |
+| META | $741.69 | $737.91 | -0.51% (WF $1K digest) |
+| PANW | $406.64 | $430.92 | **+5.97%** |
+| ANET | $206.97 | $211.06 | +1.98% |
+| TSLA | $378.67 | $379.78 | +0.29% |
 
 ## Recent Debriefs
 
-- [2026-10-05 Mon CLOSE MANUAL — +0.21% GREEN Weekly +0.97% NVDA ATH + Nasdaq-100 RECORD](debriefs/2026-10-05-1601-close-manual.md) 🆕
-- [2026-10-05 Mon MIDDAY — AVGO L1 ratchet $340, Nasdaq-100 RECORD, HOLD](debriefs/2026-10-05-1317-midday.md)
-- [2026-10-05 Mon MORNING — MU 1sh pipeline BUY $1,061 on 15-signal structural bull](debriefs/2026-10-05-0957-morning.md)
+- [2026-10-06 Tue MORNING — HPE L3 + AVGO L2 ratchets, cycle +1.29% 5 days](debriefs/2026-10-06-0957-morning.md) 🆕
+- [2026-10-05 Mon CLOSE MANUAL — +0.21% GREEN Weekly +0.97% NVDA ATH + Nasdaq-100 RECORD](debriefs/2026-10-05-1601-close-manual.md)
+- [2026-10-05 Mon MIDDAY — AVGO L1 ratchet $340 Nasdaq-100 RECORD HOLD](debriefs/2026-10-05-1317-midday.md)
+- [2026-10-05 Mon MORNING — MU 1sh pipeline BUY $1,061](debriefs/2026-10-05-0957-morning.md)
 - [2026-10-02 Fri CLOSE MANUAL — +0.43% GREEN all 3 pipeline BUYs holding](debriefs/2026-10-02-1601-close-manual.md)
 - [2026-10-02 Fri MIDDAY — HPE Harvest L2 ratchet $64 breakeven](debriefs/2026-10-02-1317-midday.md)
 - [2026-10-02 Fri MORNING — AVGO 3sh BUY $60B Anthropic financing](debriefs/2026-10-02-0957-morning.md)
 - [2026-10-01 Thu CLOSE MANUAL — +0.22% GREEN REGN pipeline](debriefs/2026-10-01-1616-close-manual.md)
-- [2026-10-01 Thu MIDDAY — REGN 2sh BUY 6-signal structural](debriefs/2026-10-01-1317-midday.md)
 
-## Equity Trajectory (Last 22 Sessions)
+## Equity Trajectory (Last 23 Sessions)
 
 ```
 {
-  "labels": ["Tue 9/1","Wed 9/2","Thu 9/3","Mon 9/8","Tue 9/9","Wed 9/10","Thu 9/11","Mon 9/14","Tue 9/15","Wed 9/16","Thu 9/17","Fri 9/18","Mon 9/21","Tue 9/22","Wed 9/23","Thu 9/24","Fri 9/25","Mon 9/28","Tue 9/29","Wed 9/30","Thu 10/1","Fri 10/2","Mon 10/5 Close"],
-  "values": [30402.54, 30204.82, 30211.66, 30221.61, 30206.87, 30168.31, 30194.56, 30155.38, 30138.98, 30147.9, 30189.61, 30153.9, 30213.42, 30228.63, 30171.6, 30183.68, 30166.21, 30136.08, 30125.61, 30199.31, 30257.81, 30389.09, 30451.24]
+  "labels": ["Wed 9/2","Thu 9/3","Mon 9/8","Tue 9/9","Wed 9/10","Thu 9/11","Mon 9/14","Tue 9/15","Wed 9/16","Thu 9/17","Fri 9/18","Mon 9/21","Tue 9/22","Wed 9/23","Thu 9/24","Fri 9/25","Mon 9/28","Tue 9/29","Wed 9/30","Thu 10/1","Fri 10/2","Mon 10/5","Tue 10/6 Open"],
+  "values": [30204.82, 30211.66, 30221.61, 30206.87, 30168.31, 30194.56, 30155.38, 30138.98, 30147.9, 30189.61, 30153.9, 30213.42, 30228.63, 30171.6, 30183.68, 30166.21, 30136.08, 30125.61, 30199.31, 30257.81, 30389.09, 30456.45, 30617.39]
 }
 ```
 
-**Mon 10/5 Close:** $30,451 (**+0.21% GREEN** +$63 day; Weekly +$292 / +0.97%)
+**Tue 10/6 Open:** $30,617 (**+0.53% GREEN**, cycle +$390 / +1.29% Wed-Tue).
 
-## Tue 10/6 Watch Priorities
+## Tue 10/6 Midday+Close Watch
 
-1. **MU Day 2 catalyst-tape resolution** — if $1,100+ ratchet $1,000 → $1,030
-2. **AVGO L2 ratchet** — if $368+ (0.75R), $340 → $348
-3. **AVGO L3 breakeven** — if $373+ (1R), $348 → $353
-4. **HPE Day 5** — if $70+ L3 $64 → $65
-5. **NVDA ATH continuation** — $6T target by month-end narrative; monitor flows
-6. **REGN cushion 3.6%** DETERIORATING
-7. **SYY 1.3% CRITICAL** — likely stop-out
-8. **AI tape bull vs Burry bear** — Mon bull winning; Tue continuation watch
-9. **Session cap**: 1/4 Mon → fresh Tue (4 slots)
-10. **Autopilot timing pattern** — 4 cycles 8-34min late; may need investigation Tue
+1. **HPE L4 ratchet** — if $72+ (1.5R), stop $65 → $66-67
+2. **AVGO L3 breakeven** — if $373.76+ (1R), stop $348 → $353
+3. **MU resolution** — if $1,100+ (0.75R), stop $1,000 → $1,030
+4. **NVDA $240+ sustained** — $6T target by month-end
+5. **REGN 4-antibody tape** — recovery continuation
+6. **AMD/MRVL pullback** — pipeline entry opportunity if settles
+7. **SYY cushion 3.1%** div-adjusted
+8. **Session cap:** 0/4 Tue fresh + $5K room
 
-## Themes Open (Into Tue)
+## Themes Open
 
-1. **NVDA new ATH + $6T target** — structural capital-return + Vera Rubin + Reflection
-2. **AVGO $60B Anthropic + L1 ratchet** — continuation thesis working
-3. **MU 15-signal compound bull** — contrarian entry resolving GREEN
-4. **HPE Day 4 giving back** — breakeven lock protecting
-5. **Trump AI Czar + Super Intelligence Force** — sovereign-AI policy framework
-6. **Musk compute scarcity "tip of iceberg" + TSM 52-wk high + MSFT Melius $665 + CBRS +7.5%** — compute-scarcity winning
-7. **Memory cycle** — Samsung HBM 3x + GOOG Pixel validation + MU 526% NAND + SNPS $1B buyback
-8. **Burry $664B + NVDA/Groq $20B + Cerebras partnership + Claude-defection** — compound AI bear overhang
-9. **VST $4.2B federal nuclear META + BA/LMT $14.7B PAC-3** — AI-DC-nuclear + defense multi-tier
-10. **UNH TX AG + Warren/Hawley** — insurer regulatory stack
-11. **Biotech derm 6-company + LLY Jaypirca + ABBV/GMAB Ph3 51%**
-12. **Mergers CLOSED** — PSKY/WBD + ON/SYNA
-13. **Iran Hormuz 7 conditions ongoing** geopolitical overlay
-14. **Cash 65.9%** dry powder for Tue pipeline opportunities
+1. **FT $60B AVGO/Anthropic UPDATED** — Tier-1 institutional validation
+2. **HPE Day 5 catalyst durability** — breakout above $70, 1.17R gain
+3. **NVDA new ATH + $6T target** structural capital-return
+4. **MU 15-signal structural + Lisa Su + MRVL $400B TAM** — compute scarcity complex
+5. **CEG $4.3B / 890 MW Google** — AI-DC-nuclear anchor
+6. **MRVL $400B TAM** — long-term semi narrative
+7. **META WF OW $1,000** — $1T target
+8. **Trump AI Czar + Super Intelligence Force** sovereign-AI
+9. **Burry $664B + MU/NLST $600M settlement + Groq lawsuit** — AI bear overhang
+10. **Insurer regulatory stack** — Warren + TX AG + RFK Jr HHS
+11. **NASA Moon Base + SpaceX phaseout** — defense/space multi-tier
+12. **AMAT/INTC chipmaking partnership** — semi-cap
+13. **OpenAI $30B UAE/BLK round** — Anthropic ecosystem rival
+14. **GOOG UK 20M class action** — regulatory pile-on
+15. **BA/Iran UNVERIFIED** — monitor cross-confirm
 
-Full MANUAL CLOSE debrief: [debriefs/2026-10-05-1601-close-manual.md](debriefs/2026-10-05-1601-close-manual.md)
+Full MORNING debrief: [debriefs/2026-10-06-0957-morning.md](debriefs/2026-10-06-0957-morning.md)

@@ -1,96 +1,94 @@
-# Portfolio Snapshot — 2026-10-05 16:01 ET (Mon CLOSE MANUAL — +0.21% GREEN, Weekly +0.97%)
+# Portfolio Snapshot — 2026-10-06 09:57 ET (Tue AM — HPE L3 + AVGO L2 ratchets, cycle P&L +$390 / +1.29%)
 
-**Equity:** $30,451.24 (+$63.36 / **+0.21% GREEN** vs Fri close)
-**Cash:** $20,074.96 (65.9%)
-**Long value:** $10,376.28 (34.1%)
-**Trades today:** 1 disc BUY (MU 1sh @ $1,061.09 AM) | spend $1,061/$5K cap
-**Weekly P&L Wed-Mon:** +$292 / +0.97%
+**Equity:** $30,617.39 (+$160.95 / **+0.53% GREEN** vs Mon close)
+**Cash:** $20,074.96 (65.6%)
+**Long value:** $10,542.43 (34.4%)
+**Trades today:** 0 (fresh Tue slot 0/4)
+**Cycle P&L Wed→Tue:** +$390 / +1.29%
 
-## Current Positions (Mon Close)
+## Current Positions
 
-| Ticker | Qty | Basis | Close | Day% | LC% | Stop | Cushion | Sleeve |
-|--------|-----|-------|-------|------|-----|------|---------|--------|
-| **NVDA** 🔥 | 15 | $229.00 | $238.82 | **+2.08%** | **+4.29%** | $205 GTC | 14.2% | Tier 1 |
-| **AVGO** ✅ | 3 | $353.38 | $362.47 | +2.06% | **+2.57%** | **$340 L1** | 6.2% | Tier 2 |
-| **HPE** | 14 | $64.00 | $68.20 | -1.63% | +6.56% | **$64 L2** | 6.2% | Tier 2 |
-| **MU** 🆕 | 1 | $1,061.09 | $1,062.83 | -1.12% | **+0.16% GREEN** | $1,000 | 5.9% | Tier 3 |
-| **REGN** | 2 | $737.32 | $726.47 | -1.19% | -1.47% | $700 GTC | 3.6% ⚠️⚠️ | Tier 1 bio |
-| **SYM** | 15 | $41.00 | $42.87 | -0.95% | +4.56% | $35 GTC | 18.4% | Tier 3 |
-| **SYY** ⚠️⚠️⚠️ | 5 | $73.21 | $76.00 | -1.92% | +3.81% | $75 GTC | **1.3% CRIT** | staple |
-| **UNH** | 0.52 | $290 | $378.67 | **+1.82%** | +30.6% | frac | n/a | hc |
-| **DLR** | 4 | $198.87 | $179.87 | +0.74% | -9.6% | $167.78 | 6.7% | Tier 3 |
-| BTCUSD | 0.003 | $70,867 | $85,741 | -0.97% | +21.0% | frozen | n/a | crypto |
+| Ticker | Qty | Basis | Current | Day% | LC% | Stop | Cushion | Sleeve |
+|--------|-----|-------|---------|------|-----|------|---------|--------|
+| **NVDA** 🔥 | 15 | $229 | $242.66 | +1.57% | **+5.97%** | $205 GTC | 15.5% | Tier 1 |
+| **AVGO** 🔥 | 3 | $353.38 | $370.75 | +2.29% | **+4.93%** | **$348 L2** | 6.1% | Tier 2 |
+| **HPE** 🔥 | 14 | $64 | $70.42 | +3.00% | **+10.02%** | **$65 L3** | 7.7% | Tier 2 |
+| **MU** | 1 | $1,061.09 | $1,065.14 | +0.11% | +0.38% | $1,000 | 6.1% | Tier 3 |
+| **REGN** | 2 | $737.32 | $733.96 | +1.03% | -0.46% | $700 GTC | 4.6% ⚠️ | Tier 1 bio |
+| **SYM** | 15 | $41 | $43.68 | +1.88% | +6.52% | $35 GTC | 19.9% | Tier 3 |
+| **SYY** | 5 | $73.21 | $76.86 | +0.62% | +4.98% | $74.45 (div-adj) | 3.1% | staple |
+| **UNH** | 0.52 | $290 | $379.69 | +0.29% | +30.9% | frac | n/a | hc |
+| **DLR** | 4 | $198.87 | $184.07 | +2.34% | -7.4% | $167.78 | 8.9% | Tier 3 |
+| BTCUSD | 0.003 | $70,867 | $86,392 | +0.88% | +21.9% | frozen | n/a | crypto |
 
 ## Semi/AI Sleeve
 
-- NVDA $3,582 (11.8%) Tier 1 anchor
-- AVGO $1,087 (3.6%) Tier 2 (+$27 unreal)
-- MU $1,063 (3.5%) Tier 3 (fresh +$2 GREEN)
-- HPE $955 (3.1%) Tier 2 (+$59 unreal)
-- SYM $643 (2.1%) Tier 3
-- DLR $719 (2.4%) Tier 3
-- **Total: $8,049 = 26.4%** vs 30% target
+- NVDA $3,640 (11.9%) Tier 1
+- AVGO $1,112 (3.6%) Tier 2 (+$52 unreal)
+- MU $1,065 (3.5%) Tier 3
+- HPE $986 (3.2%) Tier 2 (+$90 unreal)
+- SYM $655 (2.1%) Tier 3
+- DLR $736 (2.4%) Tier 3
+- **Total: $8,194 = 26.8%** vs 30% target
 
 ## Open Orders (all GTC)
 
 - NVDA stop $205 GTC
-- **AVGO stop $340 L1 GTC** (ratcheted $333→$340 midday Mon)
-- HPE **$64 L2 GTC** (Fri 1R breakeven ratchet)
+- **AVGO stop $348 L2 GTC** (ratcheted $340→$348 at 0.85R)
+- HPE **$65 L3 GTC** (ratcheted $64→$65 at 1.17R)
 - MU stop $1,000 GTC
 - REGN stop $700 GTC
 - SYM stop $35 GTC
 - DLR stop $167.78 GTC
-- SYY stop $75 GTC
+- SYY stop $74.45 GTC (div-adjusted from $75)
 
-## Session Trade Log (Mon 10/5)
+## Session Trade Log (Tue 10/6)
 
 | Time | Action | Ticker | Qty | Price | Order ID |
 |------|--------|--------|-----|-------|----------|
-| 09:58:25 | BUY LIMIT $1,065 → FILL | MU | 1 | $1,061.0929 | bf09b270 |
-| 09:58:45 | STOP $1,000 GTC post-fill | MU | 1 | $1,000 | 36b45819 |
-| 13:17:46 | REPLACE STOP $333→$340 L1 | AVGO | 3 | $340 | b63e1710 |
+| 09:57:53 | REPLACE STOP $64→$65 L3 | HPE | 14 | $65 | c05fff63 |
+| 09:57:55 | REPLACE STOP $340→$348 L2 | AVGO | 3 | $348 | 26c95dd5 |
 
-## Session Cumulative (Wed → Mon)
+## Session Cumulative (Wed → Tue)
 
 | Day | Trade | Status | Unreal |
 |-----|-------|--------|--------|
-| Wed AM | HPE 14sh @ $64 | HELD | **+$59** |
-| Thu Mid | REGN 2sh @ $737.32 | HELD | -$22 |
-| Fri AM | AVGO 3sh @ $353.38 | HELD | **+$27** |
-| Mon AM | MU 1sh @ $1,061.09 | HELD | +$2 |
+| Wed 9/30 | HPE 14sh @ $64 | HELD | **+$90** |
+| Thu 10/1 | REGN 2sh @ $737.32 | HELD | -$7 |
+| Fri 10/2 | AVGO 3sh @ $353.38 | HELD | **+$52** |
+| Mon 10/5 | MU 1sh @ $1,061.09 | HELD | +$4 |
 
-**4-trade session cycle: 3 GREEN + 1 FLAT; zero stop-fires**
+**4-trade cycle: 3 GREEN + 1 FLAT; cumulative unrealized +$139; zero stop-fires 5 days**
 
 ## Daily Spend Tracker
 
-- Mon trades: 1/4 · spend $1,061/$5K
-- Cash reserve: $20,075 (>$2K min)
-- Circuit breaker: +0.21% (safe)
-
-## Safety Gate Status (all PASS)
-
-- Max 4 trades/day: 1/4 ✅
-- Max $5K daily spend ✅
-- Min $2K cash reserve ✅
-- Max 10% per position (NVDA 11.8%) ✅
-- Circuit breaker ✅
-- All positions stopped ✅
-- Limit orders only ✅
+- Tue trades: 0/4 fresh
+- Spend $0/$5K cap
+- Circuit breaker: +0.53% (safe)
 
 ## Harvest Ratchet Status
 
-**AVGO:**
+**HPE (Day 5 continuation):**
 | Level | Trigger | Stop | Status | Floor |
 |-------|---------|------|--------|-------|
-| **L1** | **0.47R ($360+)** | **$340** | **ACTIVE** | -$3.38 vs basis |
-| L2 | 0.75R ($368+) | $348 reserved | — | -$1.5% basis |
-| L3 | 1R ($373+) | $353 reserved | — | breakeven |
+| L1 Wed | 0.77R | $62 → $58.50 | — | — |
+| L2 Fri | 1R | $64 breakeven | — | — |
+| **L3 Tue** | **1.17R** | **$65** | **ACTIVE** | **+$1/sh** |
+| L4 reserved | 1.5R ($72+) | $66-67 | — | +$2-3/sh |
 
-**HPE:**
+**AVGO (Day 2):**
 | Level | Trigger | Stop | Status | Floor |
 |-------|---------|------|--------|-------|
-| **L2** | **1R (Fri)** | **$64** | **ACTIVE** | **breakeven** |
-| L3 | 1.3R ($71+) | $65 reserved | — | +$1 |
-| L4 | 1.5-1.6R ($72-73) | $66-67 reserved | — | +$2-3 |
+| L1 Mon | 0.47R | $340 | — | -$3.38 basis |
+| **L2 Tue** | **0.85R** | **$348** | **ACTIVE** | -$5.38 vs basis (-1.5%) |
+| L3 reserved | 1R ($373.76+) | $353 | — | breakeven |
 
-**MU:** Fresh entry; L1 target ~$1,100+ (0.75R from $61 risk).
+## Safety Gate Status (all PASS)
+
+- Max 4 trades/day: 0/4 ✅
+- Max $5K daily spend: $0/$5K ✅
+- Min $2K cash reserve: $20,075 ✅
+- Max 10% per position: NVDA 11.9% (Tier 1 cap 12%) ✅
+- Circuit breaker ✅
+- All positions stopped ✅
+- Limit orders only ✅
