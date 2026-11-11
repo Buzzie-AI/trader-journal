@@ -1,10 +1,10 @@
-# Portfolio Snapshot — 2026-11-11 13:35 ET (Wed MIDDAY — 0 trades, DELL BUY blocked at volume gate)
+# Portfolio Snapshot — 2026-11-11 13:10 ET (Wed MIDDAY — 0 trades, DELL BUY blocked at volume gate)
 
 **Equity:** $30,055.16 (+$22 / +0.07% vs Tue close $30,032.80)
 **Cash:** $26,854.74 (89.4%)
 **Long value:** $3,200.42 (10.6%)
 **Trades today:** 0/4 | **Spend:** $0/$5K
-**Blocked today:** GOOGL 7sh @ $291.50 (09:59, volume 0.49x) · DELL 4sh @ $383.25 (13:30, volume 1.29x vs 20d avg, need 1.5x)
+**Blocked today:** GOOGL 7sh @ $291.50 (09:59, volume 0.49x) · DELL 4sh @ $383.25 (13:04, volume ~1.45x vs 20d avg, need 1.5x — borderline)
 
 ## Current Positions
 
@@ -58,4 +58,4 @@ Base value $30,352.81 as of 2026-10-09. Intraday Wed 11/11 12:48 ET: $30,055.16.
 - Circuit breaker: +0.07% ✅
 - Stops: 3/3 stop-eligible positions covered ✅ (UNH fractional exempt)
 - Limit orders only ✅
-- Volume gate (1.5x): blocked GOOGL (0.49x) and DELL (1.29x) today — both Diana BUYs held back
+- Volume gate (1.5x): blocked GOOGL (0.49x) and DELL (~1.45x) today — both Diana BUYs held back

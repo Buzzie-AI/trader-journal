@@ -1,6 +1,6 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-11-11 Wed 13:35 ET (MIDDAY — 0 trades; DELL pipeline BUY blocked at the volume gate; INTC watchlisted; ORCL passed)
+**Last update:** 2026-11-11 Wed 13:10 ET (MIDDAY — 0 trades; DELL pipeline BUY blocked at the volume gate; INTC watchlisted; ORCL passed)
 **Equity:** $30,055.16 (+0.07% / +$22 day)
 **Cash:** $26,854.74 (89.4%)
 **Position count:** 3 equity + BTC + CVR
@@ -10,7 +10,7 @@
 
 The CoreWeave relief rally broadened by midday (SMH +6.5%, XLK +4.3%, QQQ +2.9%, SPY +1.5%). Mercury's 31 alerts in the 4h window re-scored to seven names in the 60s (RTX, WELL, AAPL, ZTS, GEHC, YUM, LYV) — single-broker nudges and PRs, none with confirming price action. Sentinel instead sent the only volume-confirmed movers in the AI complex: ORCL (+10.6%, 2.4x), DELL (+14.4%, 2.0x) and INTC (+9.3%, 2.5x). Leo and Nate reclassified DELL and INTC as oversold bounces (-2.6σ, -2.4σ), not momentum.
 
-1. **DELL — Diana BUY 4sh @ $383.25, stop $340, target $440, hard review 11/21 before the 11/24 print** (13.6x fwd, +49% revenue, $95B backlog, -43% drawdown on Texas moratorium + memory cost + AI-capex scare; 10-day base rate +5.1%, 70% positive, n=74). Catherine medium, Victor ELEVATED. Marcus CONDITIONAL on ≥1.5x time-adjusted volume vs the 20-day average → 1.55x at 12:32, **1.29x at 13:12** → **BLOCKED**. Thesis on file; close run re-checks.
+1. **DELL — Diana BUY 4sh @ $383.25, stop $340, target $440, hard review 11/21 before the 11/24 print** (13.6x fwd, +49% revenue, $95B backlog, -43% drawdown on Texas moratorium + memory cost + AI-capex scare; 10-day base rate +5.1%, 70% positive, n=74). Catherine medium, Victor ELEVATED. Marcus CONDITIONAL on ≥1.5x time-adjusted volume vs the 20-day average → ~1.51x on the ~12:38 bar, **~1.45x on the ~12:48 bar** → **BLOCKED** (borderline). Thesis on file; close run re-checks.
 2. **INTC — WATCH** (scan gate, three neutrals): post-earnings crash chart (-29% on 10/30), CEO bought 150K shares at ~$64.73 on 11/04, RBC Hold $75, no foundry customer in the news. Wants a close above $66 or a named customer.
 3. **ORCL — PASS** (scan gate, three bears): Microsoft lease non-renewal, Tencent deal lost, $169B debt, FCF -$28.7B; ORCL's up-days get sold (10d after +4% days -0.5%, 42% positive). Bernstein $325 is a reiteration.
 4. **GOOGL** (morning BUY, blocked): $294 is in the entry zone, but volume is ~0.6x the 20-day average — not re-pipelined.
@@ -31,7 +31,7 @@ The CoreWeave relief rally broadened by midday (SMH +6.5%, XLK +4.3%, QQQ +2.9%,
 
 | Ticker | Status | Watch for |
 |--------|--------|-----------|
-| DELL | BUY blocked (volume 1.29x) | Close run: full-day volume ≥11.6M, price > $370 and > $340 → fresh fast-track |
+| DELL | BUY blocked (volume ~1.45x) | Close run: full-day volume ≥11.6M, price > $370 and > $340 → fresh fast-track |
 | GOOGL | BUY blocked (volume 0.49x, still ~0.6x) | ≥1.5x volume session above $279; close > $300; Anthropic IPO pricing |
 | INTC | WATCH | Close > $66 on volume; named foundry customer; guidance reset |
 | ORCL | PASS | Five closes above $127; financing or contract headline |
