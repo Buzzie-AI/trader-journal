@@ -1,4 +1,20 @@
-# Watchlist — Last update 2026-11-11 13:32 ET (autopilot_midday)
+# Watchlist — Last update 2026-11-11 13:35 ET (autopilot_midday, second fire)
+
+## Delta check — 2026-11-11 13:18 ET (autopilot_midday re-fire, no pipeline)
+
+Second invocation of the midday slot, 30 min after the 12:47 run. Positions, stops, Mercury set (7 flagged, none ≥70), Oracle and sleeve state unchanged. Re-measured the two open conditions and triaged one new dip; nothing entered the pipeline. Debrief: `journal/autopilot-runs/2026-11-11-1318-midday-refire.md`.
+
+| Ticker | Status | Price (13:19) | Re-check | Watch for |
+|--------|--------|---------------|----------|-----------|
+| **DELL** | still BUY BLOCKED | $382.81 | SIP 5.84M through ~13:05 vs 20d avg 7.71M → ~1.38x time-adjusted, falling (1.51x → 1.45x → 1.38x). Price in the $378–388 zone. Not re-pipelined. | Close run: full-day ≥11.6M and price > $370 / > $340 → fresh fast-track. Unlikely at the current pace (~9–10M projected). |
+| **GOOGL** | still BUY BLOCKED | $294.84 | 13.72M through ~13:05 vs 40.3M 20d avg → ~0.62x. Not re-pipelined. | ≥1.5x volume session with price > $279 |
+| **SE** | filtered (dip score ~45), new | $74.05 (-3.6%) | Q3 11/10: revenue +43% beat, EPS miss, $1B buyback; day-1 full reversal (high $85.16 → close $76.80), day-2 drift. Volume 6.38M vs 8.87M 20d avg = ~1.29x time-adj / 0.33x raw vs the 19.5M earnings bar. 10/20 -9% gap never recovered; -24% from 10/15 high. ~$45B cap. | Hold of the 10/26 low $71.53 on ≥1.5x volume with a reversal bar, or a close back above $77 → dip-scan triage with fresh event study |
+| PEPE | deferred | -8.2% | Memecoin tier 35 — crypto_dip_scan (13:29) owns it | — |
+
+- **Equity:** $30,066 · **Cash:** $26,855 (89.3%) · **Trades today:** 0/4 · **Spend:** $0/$5K
+- **ABBV** $292.46, day high $292.58 — still below the $293.21 1R breakeven trigger (close-based)
+
+---
 
 ## Wed 11/11 Position Book (12:48 ET, live Alpaca)
 

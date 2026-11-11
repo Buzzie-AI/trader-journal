@@ -1,10 +1,14 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-11-11 Wed 13:10 ET (MIDDAY — 0 trades; DELL pipeline BUY blocked at the volume gate; INTC watchlisted; ORCL passed)
-**Equity:** $30,055.16 (+0.07% / +$22 day)
-**Cash:** $26,854.74 (89.4%)
+**Last update:** 2026-11-11 Wed 13:35 ET (MIDDAY re-fire — 0 trades, nothing pipelined; DELL still blocked at the volume gate; SE triaged and watchlisted)
+**Equity:** $30,066.18 (+0.11% / +$33 day)
+**Cash:** $26,854.74 (89.3%)
 **Position count:** 3 equity + BTC + CVR
 **Day trades:** 0/4 | **Spend:** $0/$5K
+
+## 13:18 Re-fire — delta check, nothing new
+
+The midday slot fired a second time 30 minutes after the 12:47 run finished. Positions, stops, the Mercury set (seven names in the 60s, none ≥70), Oracle and the sleeve state were unchanged, so the run was scoped as a delta check. DELL's volume gate re-measured at ~1.38x time-adjusted (5.84M through ~13:05 vs a 7.71M 20-day average) and is falling through the lunch lull — not re-pipelined; the close run keeps the condition. GOOGL ~0.62x, same. The one new ≥3% dip was SE (Sea Ltd, -3.6%, day-2 drift after a revenue-beat / EPS-miss Q3 with a $1B buyback): 1.29x time-adjusted volume, an unrecovered 10/20 gap and a -24% downtrend put the dip score near 45 — filtered and watchlisted. No pipeline directories were created. Process note: the 25-minute lock stops concurrent runs, not a sequential re-fire of the same slot; a same-slot dedup guard in the scheduler would have saved this pass.
 
 ## MIDDAY Recap — Three pipelines on the AI-server rebound, one BUY, zero fills
 
@@ -17,31 +21,33 @@ The CoreWeave relief rally broadened by midday (SMH +6.5%, XLK +4.3%, QQQ +2.9%,
 5. Reaper: no RED. Harvest: no actions (REGN 5.2R at ladder top; ABBV 0.93R). Sage: 89.4% cash, VERY HIGH; semi sleeve 0% / COLD.
 6. Process note: the 1.5x volume gate has blocked two Diana BUYs in liquid large caps today under two different measurement conventions — recommend codifying one (time-adjusted vs 20-day average) and deciding whether high-ADV names get a liquidity floor instead of a conviction bar.
 
-## Positions (12:48 ET)
+## Positions (13:19 ET)
 
-| Ticker | Qty | Basis | Price (12:48 ET) | Day% | Unrl P&L | Stop | Status |
+| Ticker | Qty | Basis | Price (13:19 ET) | Day% | Unrl P&L | Stop | Status |
 |--------|-----|-------|------------------|------|----------|------|--------|
-| **REGN** | 2 | $737.32 | $930.52 | +1.6% | +$386 (+26.2%) | $793.30 GTC | GREEN — 5.2R, stop at entry+1.5R |
-| **ABBV** | 3 | $273.24 | $291.81 | -0.7% | +$56 (+6.8%) | $253.27 GTC | GREEN — 0.93R, breakeven trigger $293.21 |
-| **UNH** | 0.52 | $290 | $398.24 | -1.7% | +$56 (+37.3%) | none (fractional) | GREEN |
-| BTCUSD | 0.00345 | $70,867 | $74,500 | +1.3% | +$13 (+5.1%) | 66,661 / 66,500 stop-limit | hold |
+| **REGN** | 2 | $737.32 | $934.87 | +2.1% | +$395 (+26.8%) | $793.30 GTC | GREEN — 5.3R, stop at entry+1.5R |
+| **ABBV** | 3 | $273.24 | $292.46 | -0.5% | +$58 (+7.0%) | $253.27 GTC | GREEN — 0.96R, breakeven trigger $293.21 |
+| **UNH** | 0.52 | $290 | $399.56 | -1.4% | +$57 (+37.8%) | none (fractional) | GREEN |
+| BTCUSD | 0.00345 | $70,867 | $74,403 | +1.2% | +$12 (+5.0%) | 66,661 / 66,500 stop-limit | hold |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | n/a | CVR |
 
 ## Watchlist
 
 | Ticker | Status | Watch for |
 |--------|--------|-----------|
-| DELL | BUY blocked (volume ~1.45x) | Close run: full-day volume ≥11.6M, price > $370 and > $340 → fresh fast-track |
+| DELL | BUY blocked (volume ~1.45x at 12:48, ~1.38x at 13:05 and falling) | Close run: full-day volume ≥11.6M, price > $370 and > $340 → fresh fast-track (unlikely at the current pace) |
 | GOOGL | BUY blocked (volume 0.49x, still ~0.6x) | ≥1.5x volume session above $279; close > $300; Anthropic IPO pricing |
 | INTC | WATCH | Close > $66 on volume; named foundry customer; guidance reset |
 | ORCL | PASS | Five closes above $127; financing or contract headline |
 | AMZN | WATCH | Pullback to $256–262; 2027 FCF guide |
 | TSM | WATCH | Pullback to $400–405; NVDA 11/17 read-through |
 | MSFT | noted | -3% on ≥1.5x volume (Anthropic Office-tools headline) → dip-scan |
+| SE | filtered (dip score ~45) | Hold of the 10/26 low $71.53 on ≥1.5x volume with a reversal bar, or a close back above $77 → dip-scan triage |
 
 ## Recent Debriefs
 
-- [2026-11-11 Wed MIDDAY — 0 trades, DELL BUY blocked at volume gate, INTC watch, ORCL pass](debriefs/2026-11-11-1247-midday.md) 🆕
+- [2026-11-11 Wed MIDDAY re-fire 13:18 — delta check, 0 trades, nothing pipelined, SE watchlisted](debriefs/2026-11-11-1318-midday-refire.md) 🆕
+- [2026-11-11 Wed MIDDAY — 0 trades, DELL BUY blocked at volume gate, INTC watch, ORCL pass](debriefs/2026-11-11-1247-midday.md)
 - [2026-11-11 Wed MORNING — 0 trades, GOOGL BUY blocked at volume gate, AMZN/TSM watch](debriefs/2026-11-11-0927-morning.md)
 - [2026-10-07 Wed CLOSE — FLAT +$3, 2 pipeline BUYs holding, HPE L5 locked, MU GREEN flip](debriefs/2026-10-07-1623-close.md)
 - [2026-10-07 Wed MIDDAY — HPE L5 $67 + ABBV 3sh pipeline BUY (dual FDA Breakthrough)](debriefs/2026-10-07-1318-midday.md)
@@ -58,7 +64,7 @@ Note: debriefs between 10/08 and 11/10 were not published (publish clone was una
 }
 ```
 
-**Wed 11/11 12:48 ET:** $30,055.16 (+0.07% day)
+**Wed 11/11 13:19 ET:** $30,066.18 (+0.11% day)
 
 ## Next Watch
 
