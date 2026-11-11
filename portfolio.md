@@ -1,27 +1,27 @@
-# Portfolio Snapshot — 2026-11-11 10:08 ET (Wed MORNING — 0 trades, GOOGL BUY blocked at volume gate)
+# Portfolio Snapshot — 2026-11-11 13:35 ET (Wed MIDDAY — 0 trades, DELL BUY blocked at volume gate)
 
-**Equity:** $30,005.04 (-$28 / -0.09% vs Tue close $30,032.80)
-**Cash:** $26,854.74 (89.5%)
-**Long value:** $3,150.30 (10.5%)
+**Equity:** $30,055.16 (+$22 / +0.07% vs Tue close $30,032.80)
+**Cash:** $26,854.74 (89.4%)
+**Long value:** $3,200.42 (10.6%)
 **Trades today:** 0/4 | **Spend:** $0/$5K
-**Blocked today:** GOOGL 7sh @ $291.50 — Mercury volume gate 0.49x (need 1.5x)
+**Blocked today:** GOOGL 7sh @ $291.50 (09:59, volume 0.49x) · DELL 4sh @ $383.25 (13:30, volume 1.29x vs 20d avg, need 1.5x)
 
 ## Current Positions
 
-| Ticker | Qty | Basis | Price (10:00 ET) | Day% | Unrl P&L | Stop | Status |
+| Ticker | Qty | Basis | Price (12:48 ET) | Day% | Unrl P&L | Stop | Status |
 |--------|-----|-------|------------------|------|----------|------|--------|
-| **REGN** | 2 | $737.32 | $902.50 | -1.5% | +$330 (+22.4%) | $793.30 GTC | GREEN — 4.4R, stop at entry+1.5R |
-| **ABBV** | 3 | $273.24 | $291.20 | -0.9% | +$54 (+6.6%) | $253.27 GTC | GREEN — 0.90R, breakeven trigger $293.21 |
-| **UNH** | 0.52 | $290 | $402.45 | -0.7% | +$58 (+38.8%) | none (fractional) | GREEN |
-| BTCUSD | 0.00345 | $70,867 | $73,533 | 0.0% | +$9 (+3.8%) | 66,661 / 66,500 stop-limit | hold |
+| **REGN** | 2 | $737.32 | $930.52 | +1.6% | +$386 (+26.2%) | $793.30 GTC | GREEN — 5.2R, stop at entry+1.5R; CIDEB siRNA liver data 11/10 positive |
+| **ABBV** | 3 | $273.24 | $291.81 | -0.7% | +$56 (+6.8%) | $253.27 GTC | GREEN — 0.93R, breakeven trigger $293.21 not yet met |
+| **UNH** | 0.52 | $290 | $398.24 | -1.7% | +$56 (+37.3%) | none (fractional) | GREEN — third guidance raise this year |
+| BTCUSD | 0.00345 | $70,867 | $74,500 | +1.3% | +$13 (+5.1%) | 66,661 / 66,500 stop-limit | hold |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | n/a | CVR |
 
 ## Allocation
 
-- Healthcare: REGN $1,805 + ABBV $874 + UNH $209 = **$2,888 = 9.6%**
-- Crypto: BTCUSD $254 = 0.8%
-- Cash: 89.5%
-- **Semi/AI sleeve:** $0 / $9,002 target (0%) — UNDER-FILLED, regime COLD (auto)
+- Healthcare: REGN $1,861 + ABBV $875 + UNH $207 = **$2,943 = 9.8%**
+- Crypto: BTCUSD $257 = 0.9%
+- Cash: 89.4%
+- **Semi/AI sleeve:** $0 / $9,017 target (0%) — UNDER-FILLED, regime COLD (auto)
 
 ## Open Orders (all GTC)
 
@@ -46,15 +46,16 @@
 }
 ```
 
-Base value $30,352.81 as of 2026-10-09.
+Base value $30,352.81 as of 2026-10-09. Intraday Wed 11/11 12:48 ET: $30,055.16.
 
 ## Safety Gate Status
 
 - Max 4 trades/day: 0/4 ✅
 - Max $5K daily spend: $0 ✅
 - Min $2K cash reserve: $26.9K ✅
-- Max 10% per position: REGN 6.0% ✅
+- Max 10% per position: REGN 6.2% ✅
 - Semi sleeve 0% < 50% ceiling ✅
-- Circuit breaker: -0.09% ✅
+- Circuit breaker: +0.07% ✅
 - Stops: 3/3 stop-eligible positions covered ✅ (UNH fractional exempt)
 - Limit orders only ✅
+- Volume gate (1.5x): blocked GOOGL (0.49x) and DELL (1.29x) today — both Diana BUYs held back

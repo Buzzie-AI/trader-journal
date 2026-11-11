@@ -1,4 +1,60 @@
-# Watchlist — Last update 2026-11-11 10:05 ET (autopilot_morning)
+# Watchlist — Last update 2026-11-11 13:32 ET (autopilot_midday)
+
+## Wed 11/11 Position Book (12:48 ET, live Alpaca)
+
+| Ticker | Qty | Basis | Price | Unrl P&L | Stop | Status |
+|--------|-----|-------|-------|----------|------|--------|
+| **REGN** | 2 | $737.32 | $931.48 | +26.2% | $793.30 GTC (entry+1.5R) | GREEN — hold; 5.2R; CIDEB siRNA liver-fat data 11/10 positive; no thesis file (legacy flag) |
+| **ABBV** | 3 | $273.24 | $291.85 | +6.8% | $253.27 GTC | GREEN — 0.93R, still below the 1R breakeven trigger ($293.21); raised guidance per coverage |
+| **UNH** | 0.52 | $290 | $398.21 | +37.3% | none (fractional) | GREEN — unprotected by design; third guidance raise this year; Medicare exits in 140 counties noted |
+| BTCUSD | 0.00345 | $70,867 | $74,500 | +5.1% | 66,661/66,500 stop-limit | hold |
+| 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | CVR, no market |
+
+- **Equity:** $30,055 · **Cash:** $26,855 (89.4%) · **Trades today:** 0/4 · **Spend:** $0/$5K (GOOGL and DELL both Diana BUYs blocked by the volume gate — not counted)
+- **Sleeve semi_ai:** $0 / $9,017 target (0%) — UNDER-FILLED, regime COLD (auto, 0 qualifying alerts ≥70 in 7d)
+
+## Watch — pipeline outcomes 2026-11-11 midday (autopilot_midday 12:47)
+
+| Ticker | Status | Price | Why | Watch for |
+|--------|--------|-------|-----|-----------|
+| **DELL** | BUY BLOCKED (volume gate 1.29x) | $382.45 | Full pipeline passed: Iris/Leo/Atlas bull (50–52), Grace bull 60, Nate bull 55, Ray neutral, Catherine medium, Victor ELEVATED, Diana BUY 4sh @ $383.25, stop $340, target $440, hard review 11/21 before the 11/24 print. Marcus CONDITIONAL on ≥1.5x time-adjusted volume vs 20d avg; measured 1.55x at 12:32, 1.29x at 13:12 → blocked. | Close run (15:53): full-day volume ≥11.6M and price > $370 and > 200-day ($340) → re-run fast-track for a fresh Diana call. Thesis: `journal/theses/2026-11-11-DELL-buy.md`. Pipeline: `journal/pipeline/2026-11-11-1255-DELL/` |
+| **INTC** | WATCH (scan gate, 3 neutrals) | $63.46 | +9.3% on CoreWeave relief, 2.5x adj volume; post-earnings crash chart (-29% on 10/30, -59% from high); CEO bought 150K sh ~$64.73 (11/04), RBC Hold PT $75; no foundry customer, no dated catalyst; base rates are pre-crash artefacts. Sleeve member, regime COLD. | Close above $66 (crash-day gap area) on volume, a named foundry customer, or a guidance reset. Pipeline: `journal/pipeline/2026-11-11-1255-INTC/` |
+| **ORCL** | PASS (scan gate, 3 bears) | $130.54 | +10.6% on 2.4x adj volume, but structural narrative: Microsoft lease non-renewal, Tencent $7B deal lost/walked, $169B debt, FCF -$28.7B TTM, record CDS; up-days get sold (10d after +4% days: -0.5%, 42% positive, n=43). Bernstein $325 Buy maintained. Earnings 12/09. | Five closes above $127 (20-day SMA) on declining volume, or a financing/contract headline. Pipeline: `journal/pipeline/2026-11-11-1255-ORCL/` |
+| **GOOGL** | still BUY BLOCKED (morning) | $293.99 | Price above $279 and inside the $288–294 entry zone, but SIP volume 12.4M by 12:47 ≈ 0.6x the 20-day average (40.3M). Not re-pipelined. | ≥1.5x volume session with price > $279; close > $300 on volume; Anthropic IPO pricing |
+| MSFT | noted, not pipelined | $521.42 | -2.2% on Anthropic Office/Excel tools competition headline while XLK +4.3% — idiosyncratic quality dip but below the 3% threshold; CFO plan sale 11/10; RBC bullish into Ignite. | -3% or more on ≥1.5x volume → dip-scan candidate; Ignite headlines |
+| FIS | filtered | $30.12 | +6.4% on 2.6x adj volume is a dead-cat bounce: guidance cut, six red days, -30%, new 1-year low today; guidance_cut overreaction 0.2. | No action |
+
+---
+
+## (previous) Dip scan — 2026-11-11 12:11 ET (no fast-track)
+
+Movers feed again micro-cap/warrant only. Full 298-name universe snapshot (282 live, 16 stale — same hygiene list as 10:14 plus ABC): only two live ≥3% dips, both fail the volume gate 2.7h into the session.
+
+| Ticker | Move | Vol (raw / time-adj) | News | Note |
+|--------|------|----------------------|------|------|
+| ABNB | -3.09% @ $181.16 | 0.66x / ~1.58x | Unchanged from 10:14 — post-earnings digestion + CSO $21.9M insider sale; no new catalyst | Dedup: move within 2pp of 10:14 alert, raw vol still < 1.5x. Price holds > $178. Fresh 3-yr event study (45 prior ≥3% drops): T+5 win 47% avg -0.46%, T+20 win 58% avg -0.09% — mixed-to-unfavorable, weaker than the 70-event read this morning. Not a dip-buy at this volume. |
+| LULU | -3.69% @ $106.29 | 0.37x / ~0.90x | Names Ben Hallam / Emily Sunderland to top roles (management change, ~0.5); "securities notice" items are law-firm ads | ~$12.5B cap, barely inside $10B floor. Volume gate fails outright. Filtered. |
+
+CI recovered to < 2.5% down — no longer a candidate.
+
+**Context for autopilot_midday (12:47):** broad semi/AI rally on CoreWeave results easing AI-demand worries — MU +13.2%, ARM +12.8%, MRVL +12.0%, SMCI +10.9%, ORCL +9.4%, INTC +9.1%, AMAT/LRCX/AMD +7.4-7.7%, AVGO +6.7%, KLAC +6.5%, QCOM +3.7%. Only INTC (1.15x raw), ORCL (1.06x), FIS (1.01x) and ROK (1.06x) show raw vol ≥ 1x at midday. This is sector_tailwind (0.7 overreaction) — chasing risk; Phoenix should weigh under-reaction ratios, not magnitude. None held (position book: REGN, ABBV, UNH, BTC) — no take-profit signals.
+
+---
+
+## (previous) Dip scan — 2026-11-11 10:11 ET (no fast-track)
+
+Movers feed was micro-cap/warrant only (nothing ≥ $10B). Full 298-name universe snapshot: two real ≥3% dips, both failed the raw 1.5x volume gate 41 min into the session (same convention that blocked GOOGL at 10:06).
+
+| Ticker | Move | Vol (raw / time-adj) | News | Score (if vol passed) | Note |
+|--------|------|----------------------|------|-----------------------|------|
+| ABNB | -3.19% @ $180.96 | 0.23x / ~2.2x | Day-2 post-earnings slide; CSO Blecharczyk sold $21.9M (insider_sale, ~0.5); $12B buyback + guidance already out | ~62 (+10 news) | Not held. 70 prior ≥3% drops: T+20 win 56%, avg +0.75% — mixed. Re-check at 11:11 if raw vol ≥ 1.5x and price holds > $178 |
+| CI | -3.12% @ $293.71 | 0.34x / ~3.2x | Investor-day: $45 EPS by 2030 target, Bernstein PT → $390; ACA exit in 11 states. Drop reads as guidance digestion, not a miss | ~60 | Not held (UNH is; insurer overlap). 33 prior ≥3% drops: T+20 win 64%, avg +1.95%. Re-check at 11:11 |
+
+**Stale-ticker hygiene (universe.yaml):** EQR flagged as -3.5% on 1.66x but its snapshot is from 2026-08-17 (prev bar 08-14) — not a live move. AVB (08-14) same; headlines show AvalonBay now trades as VMRK (Vivmark Residential). 15 universe names returned non-today snapshots: AVB, CFLT, DFS, EQR, EXAS, HBI, HES, LBRDK, MMC, PXD, SQ, WBA, WBD, X, ZI. PARA prints $0.07. Recommend pruning / remapping before these generate another false dip.
+
+---
+
+# (previous) Watchlist — 2026-11-11 10:05 ET (autopilot_morning)
 
 ## Wed 11/11 Position Book (10:00 ET, live Alpaca)
 
