@@ -1,19 +1,19 @@
-# Portfolio Snapshot — 2026-11-11 13:35 ET (Wed MIDDAY re-fire — 0 trades, nothing pipelined; DELL still blocked at the volume gate)
+# Portfolio Snapshot — 2026-11-11 16:20 ET (Wed EOD — 0 trades, DELL/GOOGL blocked at volume gate)
 
-**Equity:** $30,066.18 (+$33 / +0.11% vs Tue close $30,032.80)
-**Cash:** $26,854.74 (89.3%)
-**Long value:** $3,211.44 (10.7%)
+**Equity:** $30,122.34 (+$90 / +0.30% vs Tue close $30,032.80)
+**Cash:** $26,854.74 (89.2%)
+**Long value:** $3,267.60 (10.8%)
 **Trades today:** 0/4 | **Spend:** $0/$5K
 **Blocked today:** GOOGL 7sh @ $291.50 (09:59, volume 0.49x) · DELL 4sh @ $383.25 (13:04, volume ~1.45x vs 20d avg, need 1.5x — borderline)
 
 ## Current Positions
 
-| Ticker | Qty | Basis | Price (13:19 ET) | Day% | Unrl P&L | Stop | Status |
+| Ticker | Qty | Basis | Price (16:20 ET) | Day% | Unrl P&L | Stop | Status |
 |--------|-----|-------|------------------|------|----------|------|--------|
-| **REGN** | 2 | $737.32 | $934.87 | +2.1% | +$395 (+26.8%) | $793.30 GTC | GREEN — 5.3R, stop at entry+1.5R; CIDEB siRNA liver data 11/10 positive |
-| **ABBV** | 3 | $273.24 | $292.46 | -0.5% | +$58 (+7.0%) | $253.27 GTC | GREEN — 0.96R, breakeven trigger $293.21 not yet met (day high $292.58) |
-| **UNH** | 0.52 | $290 | $399.56 | -1.4% | +$57 (+37.8%) | none (fractional) | GREEN — third guidance raise this year |
-| BTCUSD | 0.00345 | $70,867 | $74,403 | +1.2% | +$12 (+5.0%) | 66,661 / 66,500 stop-limit | hold |
+| **REGN** | 2 | $737.32 | $959.41 | +4.7% | +$444 (+30.1%) | $793.30 GTC | GREEN — 5.3R |
+| **ABBV** | 3 | $273.24 | $294.03 | +0.0% | +$62 (+7.6%) | $253.27 GTC | GREEN — closed above $293.21 1R trigger; breakeven check next run |
+| **UNH** | 0.52 | $290 | $402.80 | -0.6% | +$59 (+38.9%) | none (fractional) | GREEN |
+| BTCUSD | 0.00345 | $70,867 | $74,603 | +1.4% | +$13 (+5.3%) | 66,661 / 66,500 stop-limit | hold |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | n/a | CVR |
 
 ## Allocation
@@ -55,7 +55,7 @@ Base value $30,352.81 as of 2026-10-09. Intraday Wed 11/11 13:19 ET: $30,066.18.
 - Min $2K cash reserve: $26.9K ✅
 - Max 10% per position: REGN 6.2% ✅
 - Semi sleeve 0% < 50% ceiling ✅
-- Circuit breaker: +0.11% ✅
+- Circuit breaker: +0.30% ✅
 - Stops: 3/3 stop-eligible positions covered ✅ (UNH fractional exempt)
 - Limit orders only ✅
 - Volume gate (1.5x): blocked GOOGL (0.49x) and DELL (~1.45x) today — both Diana BUYs held back

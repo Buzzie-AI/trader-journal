@@ -1,4 +1,13 @@
-# Watchlist — Last update 2026-11-11 13:35 ET (autopilot_midday, second fire)
+# Watchlist — Last update 2026-11-11 16:20 ET (eod_summary)
+
+## EOD snapshot — 2026-11-11
+
+- **Equity:** $30,122 (+0.30% day) · **Cash:** $26,855 (89.2%) · **Trades:** 0/4 · **Blocked:** 2 (DELL, GOOGL volume gate) · **Stops fired:** 0
+- Movers: top gainers/losers all sub-$10 microcaps/warrants (NXXT, WHLR, ENGS, BMGL…) — outside universe, ignored.
+- Positions: REGN 2 @ $959.41 (+30.1%, stop $793.30) · ABBV 3 @ $294.03 (+7.6%, stop $253.27; closed just above the $293.21 1R trigger — close-based breakeven check due tomorrow) · UNH 0.52 @ $402.80 (+38.9%, no stop, fractional) · BTCUSD @ $74,603 (+5.3%, stop-limit 66,661/66,500) · 737CVR019 CVR.
+- Open orders: REGN, ABBV, BTC stops intact. No stop within 5% of price.
+
+---
 
 ## Delta check — 2026-11-11 13:18 ET (autopilot_midday re-fire, no pipeline)
 
