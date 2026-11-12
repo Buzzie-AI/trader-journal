@@ -1,4 +1,17 @@
-# Watchlist — Last update 2026-11-11 16:20 ET (eod_summary)
+# Watchlist — Last update 2026-11-12 16:20 ET (eod_summary)
+
+## EOD snapshot — 2026-11-12
+
+- **Equity:** $30,113 (-0.03% day) · **Cash:** $24,199 (80.4%) · **Trades:** 3/4 (SMCI 34 @ $26.545, TTEK 23 @ $39.145, BABA 9 @ $94.773; all OTO/stop attached) · **Blocked/unfilled:** NVDA BUY limit unfilled and cancelled (10:12); NVDA 12:35 WATCH · **Stops fired:** 0
+- Movers: top gainers/losers all sub-$10 microcaps/warrants (POAS, GP, CDNL, SMX...) — outside universe, ignored.
+- Positions: REGN 2 @ $948 (+28.6%, stop $793.30) · ABBV 3 @ $294.45 (+7.8%, stop $253.27) · SMCI 34 @ $27.16 (+2.3%, stop $24.30) · TTEK 23 @ $39.24 (+0.2%, stop $36.90) · BABA 9 @ $94.67 (-0.1%, stop $89) · UNH 0.52 @ $404.75 (+39.6%, no stop, fractional) · BTCUSD @ $71,440 (+0.8%, stop-limit 66,661/66,500) · 737CVR019 CVR.
+- Open stops intact on all whole-share/BTC positions; none within 5% of price (BABA stop 6.0% below).
+
+---
+
+## Dip scan — 2026-11-12 11:12 ET (stock_dip_scan)
+| **BABA** | WATCH | $94.83 (-6.6%) | Score 71, legal_regulatory/geopolitical: Megaspeed/Nvidia spy-probe link ($4.1B Singapore prepayments). Pipeline `2026-11-12-1112-BABA`. Atlas: 18 similar drops, 30d win 28%, avg -6.8%. Unresolved event risk. Re-check on probe resolution or a flush toward $89. |
+| NVDA | pipelined 10:12 (BUY, limit not filled, cancelled) | | CEO ouster; see pipeline `2026-11-12-1012-NVDA` |
 
 ## EOD snapshot — 2026-11-11
 
@@ -174,3 +187,6 @@ Movers feed was micro-cap/warrant only (nothing ≥ $10B). Full 298-name univers
 
 - **Stop-loss hits:** none. All priced positions well above stops.
 - **Flag:** UNH has no active stop order.
+
+- 2026-11-12 BABA HELD: 9 @ 94.773, stop 89.00 (18e10420), target 104. dip-buy on US remote AI-chip curb report. Exit early on a final rule; time-box ~5 sessions. Pipeline journal/pipeline/2026-11-12-1311-BABA/
+- 2026-11-12 NVDA (-4.9%, CEO transition, score ~66), GPN (-10%, PE takeover interest dropped, ~58), FIS (earnings), MSTR (MSCI deletion): not fast-tracked this run (one pipeline per scan).

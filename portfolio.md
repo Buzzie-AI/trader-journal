@@ -1,33 +1,35 @@
-# Portfolio Snapshot — 2026-11-11 16:20 ET (Wed EOD — 0 trades, DELL/GOOGL blocked at volume gate)
+# Portfolio Snapshot — 2026-11-12 16:20 ET (Thu EOD — 3 trades: SMCI, TTEK, BABA)
 
-**Equity:** $30,122.34 (+$90 / +0.30% vs Tue close $30,032.80)
-**Cash:** $26,854.74 (89.2%)
-**Long value:** $3,267.60 (10.8%)
-**Trades today:** 0/4 | **Spend:** $0/$5K
-**Blocked today:** GOOGL 7sh @ $291.50 (09:59, volume 0.49x) · DELL 4sh @ $383.25 (13:04, volume ~1.45x vs 20d avg, need 1.5x — borderline)
+**Equity:** $30,113.03 (-$9 / -0.03% vs Wed close $30,122.12)
+**Cash:** $24,198.90 (80.4%)
+**Long value:** $5,914.13 (19.6%)
+**Trades today:** 3/4 | **Blocked/unfilled:** NVDA BUY limit unfilled, cancelled (10:12)
 
 ## Current Positions
 
-| Ticker | Qty | Basis | Price (16:20 ET) | Day% | Unrl P&L | Stop | Status |
-|--------|-----|-------|------------------|------|----------|------|--------|
-| **REGN** | 2 | $737.32 | $959.41 | +4.7% | +$444 (+30.1%) | $793.30 GTC | GREEN — 5.3R |
-| **ABBV** | 3 | $273.24 | $294.03 | +0.0% | +$62 (+7.6%) | $253.27 GTC | GREEN — closed above $293.21 1R trigger; breakeven check next run |
-| **UNH** | 0.52 | $290 | $402.80 | -0.6% | +$59 (+38.9%) | none (fractional) | GREEN |
-| BTCUSD | 0.00345 | $70,867 | $74,603 | +1.4% | +$13 (+5.3%) | 66,661 / 66,500 stop-limit | hold |
+| Ticker | Qty | Basis | Price | Day% | Unrl P&L | Stop | Status |
+|--------|-----|-------|-------|------|----------|------|--------|
+| **REGN** | 2 | $737.32 | $948.00 | -1.2% | +$421 (+28.6%) | $793.30 GTC | GREEN |
+| **ABBV** | 3 | $273.24 | $294.45 | -0.2% | +$64 (+7.8%) | $253.27 GTC | GREEN |
+| **SMCI** | 34 | $26.55 | $27.16 | -10.7% | +$21 (+2.3%) | $24.30 GTC | new today |
+| **TTEK** | 23 | $39.15 | $39.24 | +4.3% | +$2 (+0.2%) | $36.90 GTC | new today |
+| **BABA** | 9 | $94.77 | $94.67 | -6.7% | -$1 (-0.1%) | $89.00 GTC | new today |
+| **UNH** | 0.52 | $290 | $404.75 | +0.4% | +$60 (+39.6%) | none (fractional) | GREEN |
+| BTCUSD | 0.00345 | $70,867 | $71,440 | -3.1% | +$2 (+0.8%) | 66,661 / 66,500 stop-limit | hold |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | n/a | CVR |
 
 ## Allocation
 
-- Healthcare: REGN $1,870 + ABBV $877 + UNH $208 = **$2,955 = 9.8%**
-- Crypto: BTCUSD $257 = 0.9%
-- Cash: 89.3%
-- **Semi/AI sleeve:** $0 / $9,020 target (0%) — UNDER-FILLED, regime COLD (auto)
+- Healthcare: REGN $1,896 + ABBV $883 + UNH $210 = **$2,989 = 9.9%**
+- Tech/Semi: SMCI $923 = 3.1%
+- Industrials: TTEK $903 = 3.0%
+- China/Internet: BABA $852 = 2.8%
+- Crypto: BTCUSD $246 = 0.8%
+- Cash: 80.4%
 
 ## Open Orders (all GTC)
 
-- REGN stop $793.30 (order 43c3de82)
-- ABBV stop $253.27 (order 67710004)
-- BTC/USD stop-limit 66,661 / 66,500 (order a9807b29)
+- REGN stop $793.30 · ABBV stop $253.27 · SMCI stop $24.30 · TTEK stop $36.90 (OTO) · BABA stop $89.00 (OTO) · BTC/USD stop-limit 66,661 / 66,500
 - UNH — no stop (fractional, not stop-eligible)
 
 ## Recently Closed

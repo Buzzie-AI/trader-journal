@@ -1,8 +1,8 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-11-11 Wed 13:35 ET (MIDDAY re-fire — 0 trades, nothing pipelined; DELL still blocked at the volume gate; SE triaged and watchlisted)
-**Equity:** $30,066.18 (+0.11% / +$33 day)
-**Cash:** $26,854.74 (89.3%)
+**Last update:** 2026-11-12 Thu 16:20 ET (EOD — 3 trades: SMCI, TTEK, BABA; NVDA unfilled)
+**Equity:** $30,113.03 (-0.03% / -$9 day)
+**Cash:** $24,198.90 (80.4%)
 **Position count:** 3 equity + BTC + CVR
 **Day trades:** 0/4 | **Spend:** $0/$5K
 
