@@ -1,10 +1,10 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-11-12 Thu 16:20 ET (EOD — 3 trades: SMCI, TTEK, BABA; NVDA unfilled)
-**Equity:** $30,113.03 (-0.03% / -$9 day)
-**Cash:** $24,198.90 (80.4%)
-**Position count:** 3 equity + BTC + CVR
-**Day trades:** 0/4 | **Spend:** $0/$5K
+**Last update:** 2026-11-13 Fri 16:20 ET (EOD, 1 trade: CSCO)
+**Equity:** $30,088.07 (-0.08% / -$23 day)
+**Cash:** $23,051.15 (76.6%)
+**Position count:** 7 equity + BTC + CVR
+**Day trades:** 1/4 | **Spend:** ~$1,148/$5K
 
 ## 13:18 Re-fire — delta check, nothing new
 
@@ -21,14 +21,18 @@ The CoreWeave relief rally broadened by midday (SMH +6.5%, XLK +4.3%, QQQ +2.9%,
 5. Reaper: no RED. Harvest: no actions (REGN 5.2R at ladder top; ABBV 0.93R). Sage: 89.4% cash, VERY HIGH; semi sleeve 0% / COLD.
 6. Process note: the 1.5x volume gate has blocked two Diana BUYs in liquid large caps today under two different measurement conventions — recommend codifying one (time-adjusted vs 20-day average) and deciding whether high-ADV names get a liquidity floor instead of a conviction bar.
 
-## Positions (13:19 ET)
+## Positions (Fri 11/13 EOD)
 
-| Ticker | Qty | Basis | Price (13:19 ET) | Day% | Unrl P&L | Stop | Status |
-|--------|-----|-------|------------------|------|----------|------|--------|
-| **REGN** | 2 | $737.32 | $934.87 | +2.1% | +$395 (+26.8%) | $793.30 GTC | GREEN — 5.3R, stop at entry+1.5R |
-| **ABBV** | 3 | $273.24 | $292.46 | -0.5% | +$58 (+7.0%) | $253.27 GTC | GREEN — 0.96R, breakeven trigger $293.21 |
-| **UNH** | 0.52 | $290 | $399.56 | -1.4% | +$57 (+37.8%) | none (fractional) | GREEN |
-| BTCUSD | 0.00345 | $70,867 | $74,403 | +1.2% | +$12 (+5.0%) | 66,661 / 66,500 stop-limit | hold |
+| Ticker | Qty | Basis | Price (EOD) | Day% | Unrl P&L | Stop | Status |
+|--------|-----|-------|-------------|------|----------|------|--------|
+| **REGN** | 2 | $737.32 | $955.47 | +0.4% | +$436 (+29.6%) | $793.30 GTC | GREEN |
+| **ABBV** | 3 | $273.24 | $295.03 | +0.2% | +$65 (+8.0%) | $253.27 GTC | GREEN |
+| **CSCO** | 12 | $95.65 | $95.33 | -6.5% | -$4 (-0.3%) | $91.50 GTC (OTO) | new today |
+| **SMCI** | 34 | $26.55 | $26.74 | -0.9% | +$6 (+0.7%) | $24.30 GTC | GREEN |
+| **TTEK** | 23 | $39.15 | $38.83 | -1.5% | -$7 (-0.8%) | $36.90 GTC | GREEN |
+| **BABA** | 9 | $94.77 | $94.13 | -0.2% | -$6 (-0.7%) | $89.00 GTC | GREEN |
+| **UNH** | 0.52 | $290 | $407.46 | +0.6% | +$61 (+40.5%) | none (fractional) | GREEN |
+| BTCUSD | 0.00345 | $70,867 | $68,400 | -2.6% | -$9 (-3.5%) | 66,661 / 66,500 stop-limit | hold |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | n/a | CVR |
 
 ## Watchlist
@@ -59,8 +63,8 @@ Note: debriefs between 10/08 and 11/10 were not published (publish clone was una
 
 ```
 {
-  "labels": ["Mon 10/12", "Tue 10/13", "Wed 10/14", "Thu 10/15", "Fri 10/16", "Mon 10/19", "Tue 10/20", "Wed 10/21", "Thu 10/22", "Fri 10/23", "Mon 10/26", "Tue 10/27", "Wed 10/28", "Thu 10/29", "Fri 10/30", "Mon 11/2", "Tue 11/3", "Wed 11/4", "Thu 11/5", "Fri 11/6", "Mon 11/9", "Tue 11/10"],
-  "values": [30232.47, 30169, 30022.35, 30020.31, 29949.38, 29972, 30060.72, 30153.35, 30020.92, 29943.88, 30004.53, 30069.17, 30017.74, 29987.07, 30160.68, 30187.04, 30170.95, 30130.05, 29993.57, 30004.13, 30039.37, 30032.8]
+  "labels": ["Mon 10/12", "Tue 10/13", "Wed 10/14", "Thu 10/15", "Fri 10/16", "Mon 10/19", "Tue 10/20", "Wed 10/21", "Thu 10/22", "Fri 10/23", "Mon 10/26", "Tue 10/27", "Wed 10/28", "Thu 10/29", "Fri 10/30", "Mon 11/2", "Tue 11/3", "Wed 11/4", "Thu 11/5", "Fri 11/6", "Mon 11/9", "Tue 11/10", "Wed 11/11", "Thu 11/12", "Fri 11/13"],
+  "values": [30232.47, 30169, 30022.35, 30020.31, 29949.38, 29972, 30060.72, 30153.35, 30020.92, 29943.88, 30004.53, 30069.17, 30017.74, 29987.07, 30160.68, 30187.04, 30170.95, 30130.05, 29993.57, 30004.13, 30039.37, 30032.8, 30122.12, 30111.27, 30088.07]
 }
 ```
 

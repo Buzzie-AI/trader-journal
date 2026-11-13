@@ -190,3 +190,26 @@ Movers feed was micro-cap/warrant only (nothing ≥ $10B). Full 298-name univers
 
 - 2026-11-12 BABA HELD: 9 @ 94.773, stop 89.00 (18e10420), target 104. dip-buy on US remote AI-chip curb report. Exit early on a final rule; time-box ~5 sessions. Pipeline journal/pipeline/2026-11-12-1311-BABA/
 - 2026-11-12 NVDA (-4.9%, CEO transition, score ~66), GPN (-10%, PE takeover interest dropped, ~58), FIS (earnings), MSTR (MSCI deletion): not fast-tracked this run (one pipeline per scan).
+- 2026-11-13 NVDA WATCH (autopilot_morning): revisit on reclaim of $170 on volume; Huang subpoena/CEO-exit crisis. Pipeline: journal/pipeline/2026-11-13-0946-NVDA/
+- 2026-11-13 stock_dip_scan: AMD -9.3% (score 83) was the top dip. It is Nvidia-CEO-exit sector unwind plus reversal of a sympathy rally, so a soft catalyst. Entry gate BLOCK soft_catalyst (1.48x vs 1.5x, no second source). Pipeline journal/pipeline/2026-11-13-1012-AMD/ = PASS. Semis -5% to -9% (MRVL, AMAT, ARM, AVGO, KLAC, INTC) also on the sector move, not fast-tracked. Revisit if a named company-specific catalyst appears.
+- 2026-11-13 FISV WATCH (autopilot_close): Jana activist stake, +3.3% chase, vol 0.65x < 1.5x. Revisit next session if volume confirms. Pipeline: journal/pipeline/2026-11-13-1522-FISV/
+- 2026-11-13 NBIS WATCH (autopilot_close): gate PASS but stale beat; -17% Nov 12, -9% today. Revisit on higher low above 109. Pipeline: journal/pipeline/2026-11-13-1521-NBIS/
+
+## EOD 2026-11-13 (eod_summary, 16:18 ET)
+| Ticker | Qty | Price | Unrealized P&L | Stop |
+|---|---|---|---|---|
+| REGN | 2 | 955.47 | +$436.30 (+29.6%) | open stop |
+| ABBV | 3 | 295.03 | +$65.38 (+8.0%) | open stop |
+| CSCO | 12 | 95.33 | -$3.78 (-0.3%) | 91.50 (new today) |
+| SMCI | 34 | 26.74 | +$6.47 (+0.7%) | open stop |
+| TTEK | 23 | 38.83 | -$7.25 (-0.8%) | 36.90 |
+| BABA | 9 | 94.13 | -$5.83 (-0.7%) | 89.00 |
+| BTCUSD | 0.00345 | 68,400 | -$8.51 (-3.5%) | n/a |
+| UNH | 0.5197 | 407.46 | +$61.04 (+40.5%) | NONE (fractional) |
+| 737CVR019 | 4.06 | n/a | n/a | CVR, zero basis |
+
+- Positions market value about $7.04K; intraday P&L about -$23 (-0.3%).
+- Trades today: 1 (CSCO buy 12 @ 95.645, OTO filled 12:48 ET, stop 91.50 live). 0 blocked at order stage (AMD gate BLOCK soft_catalyst earlier; NVDA, FISV, NBIS watchlisted).
+- Stop-loss hits: none. CSCO closed -6.5% on the day, 4% above its stop.
+- Movers (EOD): top gainers/losers are all sub-$10 warrants and micro-caps, no universe names.
+- Flag: UNH has no stop order (fractional).
