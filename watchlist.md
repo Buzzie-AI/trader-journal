@@ -213,3 +213,17 @@ Movers feed was micro-cap/warrant only (nothing ≥ $10B). Full 298-name univers
 - Stop-loss hits: none. CSCO closed -6.5% on the day, 4% above its stop.
 - Movers (EOD): top gainers/losers are all sub-$10 warrants and micro-caps, no universe names.
 - Flag: UNH has no stop order (fractional).
+
+## 2026-11-16 midday pre-gate WATCH (volume below gate; re-check next slot)
+NOC ($1.6B PAC-3, 0.35x), TEVA (IGALMI FDA, 0.89x), TSLA (EUR3B Gruenheide, 0.74x), LNTH (Ph3, 0.32x), TRP (NGTL, 0.29x), AVAV (-5%, 0.61x), WFRD (0.31x), MMED (chase +4%, 0.79x<1.5x)
+- 2026-11-16 MU WATCH (stock_dip_scan 14:15): -6.5% to 727.59 on US chip export curb (remote-computing loophole closed; ~$14.6B China-linked revenue), sector-wide chip selloff ahead of Nvidia earnings. Dip score ~78. Entry gate BLOCK volume 0.88x < 1.0x (deterministic). Agents not run. Revisit after Nvidia earnings / on volume confirmation. Pipeline journal/pipeline/2026-11-16-1415-MU/
+
+## Autopilot close — 2026-11-16 15:22 ET
+Pre-gate WATCH (volume), no agents run: DG guidance raise+buyback (0.49x), GLW Nvidia order (-7%, 0.65x), GE 787-10 engines (0.39x), RVMD EC approval (0.89x), ONTO $400M buyback (~4% cap -> soft, 1.01x<1.5x). Revisit next session open. Bearish/sector moves (MRVL, MSTR, AMD unverified) not candidates.
+
+## EOD summary — 2026-11-16 16:20 ET
+- Positions (8 + UNH fractional + CVR): intraday P&L about -$104 (about -1.4% of ~$7.1K position value). SMCI -6.4% (25.15, -5.3% vs entry), BABA -3.7% (90.88, stop 89 = 2% below), CSCO -0.9% (94.74, stop 91.5).
+- Trades today: 1 — TU buy 46 @ 9.5998 (OTO filled 10:07 ET, stop 8.90 live, order 6adcb0c0 / stop b661452d).
+- Blocked: MU dip (-6.5%, score ~78) entry gate BLOCK volume 0.88x. Pre-gate WATCH (volume): NOC, TEVA, TSLA, LNTH, TRP, AVAV, WFRD, MMED, DG, GLW, GE, RVMD, ONTO. ARM pipeline run 15:15.
+- Stops fired: none. Movers: only sub-$10 warrants/micro-caps, no universe names.
+- Flags: UNH (fractional) has no stop; SMCI not in the last-10 orders, verify it has a stop.
