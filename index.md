@@ -1,10 +1,10 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-11-13 Fri 16:20 ET (EOD, 1 trade: CSCO)
-**Equity:** $30,088.07 (-0.08% / -$23 day)
-**Cash:** $23,051.15 (76.6%)
-**Position count:** 7 equity + BTC + CVR
-**Day trades:** 1/4 | **Spend:** ~$1,148/$5K
+**Last update:** 2026-11-17 Tue 16:20 ET (EOD, 1 trade: DIS)
+**Equity:** $29,882.85 (-0.34% / -$103 day)
+**Cash:** $23,733.51 (79.4%)
+**Position count:** 7 equity + CVR
+**Day trades:** 1/4 | **Stops fired:** BABA
 
 ## 13:18 Re-fire — delta check, nothing new
 
@@ -21,18 +21,17 @@ The CoreWeave relief rally broadened by midday (SMH +6.5%, XLK +4.3%, QQQ +2.9%,
 5. Reaper: no RED. Harvest: no actions (REGN 5.2R at ladder top; ABBV 0.93R). Sage: 89.4% cash, VERY HIGH; semi sleeve 0% / COLD.
 6. Process note: the 1.5x volume gate has blocked two Diana BUYs in liquid large caps today under two different measurement conventions — recommend codifying one (time-adjusted vs 20-day average) and deciding whether high-ADV names get a liquidity floor instead of a conviction bar.
 
-## Positions (Fri 11/13 EOD)
+## Positions (Tue 11/17 EOD)
 
 | Ticker | Qty | Basis | Price (EOD) | Day% | Unrl P&L | Stop | Status |
 |--------|-----|-------|-------------|------|----------|------|--------|
-| **REGN** | 2 | $737.32 | $955.47 | +0.4% | +$436 (+29.6%) | $793.30 GTC | GREEN |
-| **ABBV** | 3 | $273.24 | $295.03 | +0.2% | +$65 (+8.0%) | $253.27 GTC | GREEN |
-| **CSCO** | 12 | $95.65 | $95.33 | -6.5% | -$4 (-0.3%) | $91.50 GTC (OTO) | new today |
-| **SMCI** | 34 | $26.55 | $26.74 | -0.9% | +$6 (+0.7%) | $24.30 GTC | GREEN |
-| **TTEK** | 23 | $39.15 | $38.83 | -1.5% | -$7 (-0.8%) | $36.90 GTC | GREEN |
-| **BABA** | 9 | $94.77 | $94.13 | -0.2% | -$6 (-0.7%) | $89.00 GTC | GREEN |
-| **UNH** | 0.52 | $290 | $407.46 | +0.6% | +$61 (+40.5%) | none (fractional) | GREEN |
-| BTCUSD | 0.00345 | $70,867 | $68,400 | -2.6% | -$9 (-3.5%) | 66,661 / 66,500 stop-limit | hold |
+| **REGN** | 2 | $737.32 | $957.76 | +0.6% | +$441 (+29.9%) | $793.30 GTC | GREEN |
+| **ABBV** | 3 | $273.24 | $294.00 | -0.2% | +$62 (+7.6%) | $253.27 GTC | GREEN |
+| **CSCO** | 12 | $95.65 | $94.88 | +0.4% | -$9 (-0.8%) | $91.50 GTC (OTO) | GREEN |
+| **DIS** | 6 | $121.16 | $116.99 | -1.4% | -$25 (-3.4%) | $114.50 GTC (OTO) | new today; nearest stop (2.1%) |
+| **TTEK** | 23 | $39.15 | $38.40 | -1.7% | -$17 (-1.9%) | $36.90 GTC | GREEN |
+| **TU** | 46 | $9.60 | $9.26 | -3.2% | -$16 (-3.5%) | $8.90 GTC (OTO) | watch |
+| **UNH** | 0.52 | $290 | $389.02 | -5.6% | +$51 (+34.1%) | none (fractional) | GREEN |
 | 737CVR019 | 4.06 | $0 | n/a | n/a | n/a | n/a | CVR |
 
 ## Watchlist

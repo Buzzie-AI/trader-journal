@@ -1,4 +1,17 @@
-# Watchlist — Last update 2026-11-12 16:20 ET (eod_summary)
+---
+title: "Watchlist"
+---
+
+# Watchlist — Last update 2026-11-17 16:20 ET (eod_summary)
+
+## EOD snapshot — 2026-11-17
+
+- **Equity:** $29,883 (-0.34% day) · **Cash:** $23,734 (79.4%) · **Trades:** 1/4 (DIS 6 @ $121.155, OTO, stop $114.50) · **Blocked/WATCH:** CRM, NKE, AMD (PASS), NOW (pre-gate BLOCK), 8 close-run candidates all watchlisted (volume gate) · **Stops fired:** 1 (BABA 9 @ $87.79, stop $89, 09:31 ET gap-down; loss ~-$65 vs $94.773 entry)
+- Movers: top gainers/losers all sub-$20 microcaps/warrants (SLS, BKHAU, GP, GDHG, CUE...) — outside universe, ignored.
+- Positions: REGN 2 @ $957.76 (+29.9%) · ABBV 3 @ $294 (+7.6%) · CSCO 12 @ $94.88 (-0.8%, stop $91.50) · DIS 6 @ $116.99 (-3.4%, stop $114.50, 2.1% below) · TTEK 23 @ $38.40 (-1.9%, stop $36.90) · TU 46 @ $9.26 (-3.5%, stop $8.90) · UNH 0.52 @ $389.02 (+34.1%, no stop, fractional, -5.6% today) · 737CVR019 CVR.
+- Closed since last snapshot: SMCI, BTC/USD (stop-limit filled 11-14 @ $66,645), BABA (stop 11-17).
+- Nearest stop: DIS 2.1% below price. No naked whole-share positions.
+
 
 ## EOD snapshot — 2026-11-12
 
@@ -227,3 +240,20 @@ Pre-gate WATCH (volume), no agents run: DG guidance raise+buyback (0.49x), GLW N
 - Blocked: MU dip (-6.5%, score ~78) entry gate BLOCK volume 0.88x. Pre-gate WATCH (volume): NOC, TEVA, TSLA, LNTH, TRP, AVAV, WFRD, MMED, DG, GLW, GE, RVMD, ONTO. ARM pipeline run 15:15.
 - Stops fired: none. Movers: only sub-$10 warrants/micro-caps, no universe names.
 - Flags: UNH (fractional) has no stop; SMCI not in the last-10 orders, verify it has a stop.
+- DIS: BUY pipeline 2026-11-17 10:06 (see trades/2026-11-17-DIS-buy.md)
+- CRM (2026-11-17 12:25): WATCH, -9.8% on AI-disruption software selloff, gate PASS 2.09x; Atlas no edge (24 events, 10d avg -2.8%). Re-check on stabilization or hard catalyst. Pipeline journal/pipeline/2026-11-17-1215-CRM/
+
+## Autopilot midday — 2026-11-17 12:50 ET
+Pre-gate WATCH (volume, no agents): WMT guidance raise (0.73x, -0.5%), DUK NCUC rate path (0.72x), SLB Var Energi (0.59x), XOM Longtail (0.49x). AMD: pipeline PASS (deals already announced, Atlas no edge, 49.5% 5d win rate), pipeline 2026-11-17-1250-AMD.
+- 2026-11-17 NKE WATCH (stock_dip_scan 14:11): -5.9% on investor-day sell-the-news, 2.3x vol, score ~65. Atlas idio base rate negative (14% 5d win). Revisit on stabilization / Dec earnings. Pipeline journal/pipeline/2026-11-17-1411-NKE/
+- 2026-11-17 NOW WATCH (stock_dip_scan 15:12): -6.8% on software/AI selloff (soft sector_rotation), score ~77, pre-gate BLOCK vol 1.1x<1.5x, no agents run. WDAY/MDB also BLOCK (0.71x/1.25x). JD -6.9% post-Q3 in-line, gate PASS 2.29x but score ~56 <60.
+
+## 2026-11-17 close watch (volume gate WATCH)
+- GOOG: $26B Anthropic placement participation (strategic_investment), vol 0.49x
+- LLY: multibillion cancer-therapy pact (mega_partnership), vol 0.59x
+- LDOS: NASA NELSS award $1.4B ceiling (major_contract), vol 0.87x
+- GSK: accelerated approval Nelkarmi (fda_approval), vol 0.65x
+- LEN: Berkshire raises stake (strategic_investment), vol 0.63x
+- ICE: Ackman buying (unverified single source) (strategic_investment), vol 0.59x
+- AVGO: $1B Anthropic IPO commitment (strategic_investment), vol 0.59x
+- BX: $750M J&J R&D funding (major_contract), vol 0.41x
