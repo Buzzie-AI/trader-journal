@@ -1,7 +1,12 @@
----
-title: "Watchlist"
----
-# Watchlist — Last update 2026-11-17 16:20 ET (eod_summary)
+# Watchlist — Last update 2026-11-18 16:20 ET (eod_summary)
+
+## EOD snapshot — 2026-11-18
+
+- **Equity:** $29,861 (-0.07% day) · **Cash:** $18,970 (63.5%) · **Trades:** 4/4 (TXT 15 @ $82.955, PRVA 60 @ $25.71, LOW 8 @ $217.924, SPCX 3 @ $144.69; all OTO with stops attached) · **Blocked/WATCH:** UNH WATCH (pipelined 11:12); 19 post-midday alerts deferred to next morning (4/4 trade cap + $5K spend cap exhausted) · **Stops fired:** 0
+- Other: UNH 0.52 sh sold at $386.81 via dashboard market order (14:30 UTC fill), position closed.
+- Movers: top gainers/losers all sub-$20 microcaps/warrants (SDC, SVRE, SKYA, CUE, HY, JMIA...) — outside universe, ignored.
+- Positions: REGN 2 @ $945.53 (+28.2%) · ABBV 3 @ $286.01 (+4.7%) · CSCO 12 @ $97.00 (+1.4%) · DIS 6 @ $122.30 (+0.9%, stop $114.50) · LOW 8 @ $222.78 (+2.2%, stop $207.50) · PRVA 60 @ $24.60 (-4.3%, stop $23.40) · SPCX 3 @ $143.39 (-0.9%, stop $134.50) · TTEK 23 @ $38.11 (-2.6%) · TU 46 @ $9.51 (-0.9%) · TXT 15 @ $82.79 (-0.2%, stop $79.50) · 737CVR019 CVR.
+- Nearest stop: PRVA 4.9% below price. No naked new positions.
 
 ## EOD snapshot — 2026-11-17
 
