@@ -1,7 +1,6 @@
 ---
 title: "Watchlist"
 ---
-
 # Watchlist — Last update 2026-11-17 16:20 ET (eod_summary)
 
 ## EOD snapshot — 2026-11-17
@@ -257,3 +256,8 @@ Pre-gate WATCH (volume, no agents): WMT guidance raise (0.73x, -0.5%), DUK NCUC 
 - ICE: Ackman buying (unverified single source) (strategic_investment), vol 0.59x
 - AVGO: $1B Anthropic IPO commitment (strategic_investment), vol 0.59x
 - BX: $750M J&J R&D funding (major_contract), vol 0.41x
+
+- 2026-11-18 WATCH (volume pre-gate, autopilot_morning): CTSH ($1.9B Network Rail contract, vol 0.26x), GEO ($500M ASR, 0.57x), MOD ($500M buyback, 0.78x), J ($2B framework, 0.29x), OWL (JV $3.4B, 0.29x), CSW ($300M buyback, +3.3% chase needs 1.5x), BLK/TTE/ACM (vol <1.0x)
+- 2026-11-18 WATCH (dip_scan 10:15): UNH -4.2% (MA audit framework, vol 1.69x), FCX -7.6% (metals selloff, vol 2.3x), also TECK/NEM/BHP/RIO/AA, MOH/HUM/CNC; all soft/sector catalysts, daily spend cap nearly exhausted
+- 2026-11-18 UNH WATCH (stock_dip_scan 11:12): -6.0% (-11% over 2 days) on CMS MA anti-fraud audit proposal, gate PASS 2.16x, score ~84. Victor ELEVATED; Atlas no 5d edge (18 events, 50% win, -0.8% avg). Diana: daily spend headroom ~$470 (1 share) + 2nd consecutive -5% day, no base. Revisit at next open on stabilization; plan 3 sh @ ~355-370, stop ~345, target ~400. Pipeline journal/pipeline/2026-11-18-1112-UNH/
+ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-ACM)
