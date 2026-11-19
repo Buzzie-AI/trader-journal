@@ -1,4 +1,14 @@
-# Watchlist — Last update 2026-11-18 16:20 ET (eod_summary)
+---
+title: "Watchlist"
+---
+# Watchlist — Last update 2026-11-19 16:20 ET (eod_summary)
+
+## EOD snapshot — 2026-11-19
+
+- **Equity:** $29,726 (-0.46% day) · **Cash:** $14,893 (50.1%) · **Trades:** 4/4 (WMT 15 @ $125.305, AMD 3 @ $481.85, MRK 7 @ $133.62, UNH 2 @ $332.695; all OTO with stops attached: $119.50 / $455 / $127.80 / $316) · **Blocked/WATCH:** daily cap 4/4 reached by 13:15; close run evaluated 6 tickers, 4 watchlisted, 0 pipelined; ZM -9.0% (analyst downgrade) seen, not actionable · **Stops fired:** 1 (TTEK 23 @ $36.889, stop $36.90, 10:32 ET; entry $39.145, loss ~-$52)
+- Movers: top gainers/losers all sub-$5 microcaps/warrants (VIVS, LVWR, MPU, LICN, BOXL...) — outside universe, ignored.
+- Positions: REGN 2 @ $923.34 (+25.2%) · ABBV 3 @ $283.25 (+3.7%) · CSCO 12 @ $94.40 (-1.3%) · DIS 6 @ $120.19 (-0.8%) · LOW 8 @ $219.14 (+0.6%) · PRVA 60 @ $24.61 (-4.3%) · SPCX 3 @ $137.95 (-4.7%, stop $134.50) · TU 46 @ $10.76 (+12.1%) · TXT 15 @ $81.12 (-2.2%) · WMT/AMD/MRK/UNH new today · 737CVR019 CVR.
+- Nearest stop: SPCX 2.5% above stop $134.50. AMD -9.0% on the day (prior close $530.14) but entered post-drop at $481.85.
 
 ## EOD snapshot — 2026-11-18
 
@@ -270,3 +280,5 @@ ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-
 - 2026-11-19 WATCH (autopilot_morning): BBWI (Q3 beat + $500M buyback, but outlook contradicted: guide below expectations, Atlas no edge; re-check). NVDA PASS (CEO ousted 11/12, board/SEC probe open, chase 1.47x).
 
 - AMD (dip-buy 2026-11-19): 3 @ 481.85, stop 455, target 540 — pipeline journal/pipeline/2026-11-19-1215-AMD/
+- UNH 2 @ $332.695 dip-buy (stop $316, target $375) — pipelined 13:15, trades now 4/4 today
+- 2026-11-19 WATCH (autopilot_close, daily cap 4/4 reached, not pipelined): TJX (guidance raise, flat on day, ~70), PANW (+6% chase, $4.5B AI deal, aggregator source, ~66), AXON (deployments, no $ value, ~57), HALO (Keytruda SC injunction lifted, ~56). Run B0 pre-gate at next open.
