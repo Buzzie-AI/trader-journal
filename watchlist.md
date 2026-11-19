@@ -266,3 +266,7 @@ Pre-gate WATCH (volume, no agents): WMT guidance raise (0.73x, -0.5%), DUK NCUC 
 - 2026-11-18 WATCH (dip_scan 10:15): UNH -4.2% (MA audit framework, vol 1.69x), FCX -7.6% (metals selloff, vol 2.3x), also TECK/NEM/BHP/RIO/AA, MOH/HUM/CNC; all soft/sector catalysts, daily spend cap nearly exhausted
 - 2026-11-18 UNH WATCH (stock_dip_scan 11:12): -6.0% (-11% over 2 days) on CMS MA anti-fraud audit proposal, gate PASS 2.16x, score ~84. Victor ELEVATED; Atlas no 5d edge (18 events, 50% win, -0.8% avg). Diana: daily spend headroom ~$470 (1 share) + 2nd consecutive -5% day, no base. Revisit at next open on stabilization; plan 3 sh @ ~355-370, stop ~345, target ~400. Pipeline journal/pipeline/2026-11-18-1112-UNH/
 ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-ACM)
+- 2026-11-19 WATCH (volume pre-gate, autopilot_morning): INTC (first external 18A customer, +8%, vol 0.8x vs 1.5x chase), CDNS (FY26 guide raise, +4.1%, vol 0.49x), ALNY (FDA approval cemdisiran gMG, flat, vol 0.22x). Re-check on volume build. COHR $2B buyback DROPPED chase_priced_in (+12%, reaction 4.0x).
+- 2026-11-19 WATCH (autopilot_morning): BBWI (Q3 beat + $500M buyback, but outlook contradicted: guide below expectations, Atlas no edge; re-check). NVDA PASS (CEO ousted 11/12, board/SEC probe open, chase 1.47x).
+
+- AMD (dip-buy 2026-11-19): 3 @ 481.85, stop 455, target 540 — pipeline journal/pipeline/2026-11-19-1215-AMD/
