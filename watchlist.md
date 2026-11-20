@@ -1,4 +1,8 @@
-# Watchlist — Last update 2026-11-19 16:20 ET (eod_summary)
+# Watchlist — Last update 2026-11-20 16:20 ET (eod_summary)
+
+## EOD snapshot — 2026-11-20
+
+- **Trades:** 4/4 (IESC 10 @ $168.975 stop $145, AMD 3 @ $445.63 stop $415, JNJ 3 @ $270.38 stop $257, PANW 3 @ $344.05 stop $320; all OTO) · **Stops fired:** 0 · **Approx day P&L:** -$141 (~-0.5% of equity)
 
 ## EOD snapshot — 2026-11-19
 
