@@ -1,6 +1,3 @@
----
-title: "Watchlist"
----
 # Watchlist — Last update 2026-11-19 16:20 ET (eod_summary)
 
 ## EOD snapshot — 2026-11-19
@@ -282,3 +279,4 @@ ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-
 - AMD (dip-buy 2026-11-19): 3 @ 481.85, stop 455, target 540 — pipeline journal/pipeline/2026-11-19-1215-AMD/
 - UNH 2 @ $332.695 dip-buy (stop $316, target $375) — pipelined 13:15, trades now 4/4 today
 - 2026-11-19 WATCH (autopilot_close, daily cap 4/4 reached, not pipelined): TJX (guidance raise, flat on day, ~70), PANW (+6% chase, $4.5B AI deal, aggregator source, ~66), AXON (deployments, no $ value, ~57), HALO (Keytruda SC injunction lifted, ~56). Run B0 pre-gate at next open.
+- 2026-11-20 WATCH (autopilot_morning, pre-gate volume): HAS (guidance raise + buyback doubled, 0.33x vol), WMB ($5.5B Momentum Midstream buy, 0.71x), MPC (0.58x). Re-run B0 at next slot. GLOB PASS (gap faded, Atlas base rate negative). IESC bought 10 @ 168.975, stop 145, target 205.
