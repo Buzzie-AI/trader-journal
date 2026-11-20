@@ -280,3 +280,10 @@ ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-
 - UNH 2 @ $332.695 dip-buy (stop $316, target $375) — pipelined 13:15, trades now 4/4 today
 - 2026-11-19 WATCH (autopilot_close, daily cap 4/4 reached, not pipelined): TJX (guidance raise, flat on day, ~70), PANW (+6% chase, $4.5B AI deal, aggregator source, ~66), AXON (deployments, no $ value, ~57), HALO (Keytruda SC injunction lifted, ~56). Run B0 pre-gate at next open.
 - 2026-11-20 WATCH (autopilot_morning, pre-gate volume): HAS (guidance raise + buyback doubled, 0.33x vol), WMB ($5.5B Momentum Midstream buy, 0.71x), MPC (0.58x). Re-run B0 at next slot. GLOB PASS (gap faded, Atlas base rate negative). IESC bought 10 @ 168.975, stop 145, target 205.
+
+- 2026-11-20 MU WATCH: -6.4% on AI/semis sector selloff (Anthropic IPO rotation), 41% off 60d high, gate BLOCK vol 1.49x<3.0x. Re-qualify on 3x volume capitulation or stabilisation. Pipeline journal/pipeline/2026-11-20-1014-MU/
+- 2026-11-20 AVGO WATCH (stock_dip_scan 12:12): -10.4% on AI/semis sector rotation (soft), vol 1.72x, pre-gate BLOCK soft_catalyst; ARM -11% (1.53x) same. No agents run. Re-qualify on a hard catalyst (AVGO earnings) or stabilisation.
+
+## 2026-11-20 midday additions
+- TSM: WATCH. Anthropic stake not the driver; US 16nm export rule + semis rout. Revisit on a base or rule clarity (pipeline 2026-11-20-1248-TSM).
+- DHR: WATCH. Revisit on reclaim of 227.6 with volume >= 1.0x (pipeline 2026-11-20-1248-DHR).
