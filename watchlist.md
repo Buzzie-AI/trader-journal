@@ -287,3 +287,5 @@ ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-
 ## 2026-11-20 midday additions
 - TSM: WATCH. Anthropic stake not the driver; US 16nm export rule + semis rout. Revisit on a base or rule clarity (pipeline 2026-11-20-1248-TSM).
 - DHR: WATCH. Revisit on reclaim of 227.6 with volume >= 1.0x (pipeline 2026-11-20-1248-DHR).
+- 2026-11-20 XPEV WATCH (stock_dip_scan 13:12): -11.3% on single-analyst downgrade (soft), vol 2.47x, gate BLOCK soft_catalyst. NET -9.4% / SNAP -9.7% sector rotation, vol <1.5x BLOCK. Re-qualify on hard catalyst.
+- 2026-11-20 WATCH (autopilot_close): NVO (Sogroya FDA label expansion, vol 0.79x pre-gate WATCH). BILL PASS (signed $63.25 cash take-private, capped upside, R/R ~0.5).
