@@ -1,8 +1,4 @@
-# Watchlist — Last update 2026-11-20 16:20 ET (eod_summary)
-
-## EOD snapshot — 2026-11-20
-
-- **Trades:** 4/4 (IESC 10 @ $168.975 stop $145, AMD 3 @ $445.63 stop $415, JNJ 3 @ $270.38 stop $257, PANW 3 @ $344.05 stop $320; all OTO) · **Stops fired:** 0 · **Approx day P&L:** -$141 (~-0.5% of equity)
+# Watchlist — Last update 2026-11-19 16:20 ET (eod_summary)
 
 ## EOD snapshot — 2026-11-19
 
@@ -293,3 +289,25 @@ ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-
 - DHR: WATCH. Revisit on reclaim of 227.6 with volume >= 1.0x (pipeline 2026-11-20-1248-DHR).
 - 2026-11-20 XPEV WATCH (stock_dip_scan 13:12): -11.3% on single-analyst downgrade (soft), vol 2.47x, gate BLOCK soft_catalyst. NET -9.4% / SNAP -9.7% sector rotation, vol <1.5x BLOCK. Re-qualify on hard catalyst.
 - 2026-11-20 WATCH (autopilot_close): NVO (Sogroya FDA label expansion, vol 0.79x pre-gate WATCH). BILL PASS (signed $63.25 cash take-private, capped upside, R/R ~0.5).
+
+## 2026-11-20 EOD snapshot
+- Trades today 4/4: IESC 10 @168.975 (stop 145), AMD 3 @445.63 (stop 415), JNJ 3 @270.38 (stop 257), PANW 3 @344.05 (stop 320). All OTO, stops live. No stops fired.
+- Movers: only micro-cap/warrant noise (SONN, MACI, BKHA); nothing in quality universe.
+- Open P&L: IESC -7.6%, AMD -3.7%, PANW -4.4% (all above stops); REGN +24.5%, TU +14.6%. Approx intraday P&L -$141 on ~14 positions. 737CVR019 is a CVR line (no price).
+
+## 2026-11-23 morning additions
+- ACM WATCH: $15B Adani program-management appointment (project value, not ACM revenue), vol 0.26x pre-gate WATCH. Re-run B0 next slot.
+- IQV WATCH: acquirer of Quotient Sciences (price unstated), +2.7%, vol 0.39x. Re-run B0 next slot.
+- APLD / KYMR: hard catalysts but +23% / +26% chases, reaction ratio 2.7x / 2.6x vs expected, pre-gate DROP chase_priced_in.
+- 2026-11-23 CRWD BUY 5 @204.95, stop 188 OTO, target 232 (dip-buy, ZS acquirer dip) — pipeline 2026-11-23-1013-CRWD
+
+## Autopilot midday — 2026-11-23 12:50 ET
+| ACM | WATCH | $79.78 (+1.4%) | $15B Adani program mgmt; pre-gate vol 0.51x < 1.0x (was 0.26x at 10:07). Pipeline `2026-11-23-1250-ACM`. Next slot. |
+| IQV | WATCH | $251.90 (+2.5%) | Acquires Quotient Sciences (acquirer, size n/a); pre-gate vol 0.72x < 1.0x (was 0.39x). Pipeline `2026-11-23-1250-IQV`. Next slot. |
+- ADP WATCH 2026-11-23 close: FY27 guidance raise + dividend, flat (+0.1%) at $302, vol 0.44x pre-gate WATCH. Re-run B0 next slot (pipeline 2026-11-23-1520-ADP).
+
+## 2026-11-23 EOD snapshot
+- Trades today 1/4: CRWD 5 @204.95 (OTO, stop 188 live, target 232; ZS-acquirer dip, pipeline 2026-11-23-1013-CRWD). No stops fired.
+- Blocked/watch: NVDA (pipeline 1028), ACM, IQV, ADP WATCH on pre-gate volume; APLD/KYMR dropped chase_priced_in.
+- Movers: micro-cap/warrant noise only (ATHX, WETO, BNAI, OTLY; losers CGTL, ANSS, CAPR); nothing in quality universe.
+- Day P&L +$361 (+1.2% of equity $29,831 vs $29,470 prior close; positions +$347 intraday): IESC +$149, AMD +$77, REGN +$43, LOW +$42; TU -$26, PRVA -$20. All positions above stops. 737CVR019 is a CVR line (no price).
