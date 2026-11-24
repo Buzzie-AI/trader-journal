@@ -311,3 +311,23 @@ ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-
 - Blocked/watch: NVDA (pipeline 1028), ACM, IQV, ADP WATCH on pre-gate volume; APLD/KYMR dropped chase_priced_in.
 - Movers: micro-cap/warrant noise only (ATHX, WETO, BNAI, OTLY; losers CGTL, ANSS, CAPR); nothing in quality universe.
 - Day P&L +$361 (+1.2% of equity $29,831 vs $29,470 prior close; positions +$347 intraday): IESC +$149, AMD +$77, REGN +$43, LOW +$42; TU -$26, PRVA -$20. All positions above stops. 737CVR019 is a CVR line (no price).
+
+## Autopilot morning — 2026-11-24 10:10 ET
+- Trades today 4/4: ADI 2@319.11 (stop 297), SJM 6@130.505 (stop 124.5), MDT 7@99.19 (stop 94), DY 6@191.45 (stop 181). All OTO stops live.
+- NBIS WATCH/BLOCKED (daily trade cap 4/4): Diana BUY 10@87.90, stop 81, target 103; Nebius 80MW contract, -10% in AI selloff. Pipeline 2026-11-24-1010-NBIS. Re-evaluate next slot.
+- Pre-gate WATCH (vol < 1.0x): BA (0.36x), UBER (0.42x), RTX (0.29x), TMO (0.86x), PH (0.53x), COIN (0.60x), MMED (chase vol 1.21x < 1.5x). Re-run B0 next slot.
+- Pre-gate DROP chase_priced_in: DLTR +11.5%, DKS +13.7%, BURL +9.7%, ANF +24.6%, KSS +13.2%, COGT +16.4%.
+
+## Autopilot midday — 2026-11-24 12:50 ET
+- HPE BLOCKED (daily cap 4/4, Marcus FAIL): Diana BUY 15 @ ~40.15, stop 37.00, target 46.00 (2% size); record revenue + larger buyback sold -16% on AI-server margin fear, vol 2.96x. Pipeline 2026-11-24-1248-HPE. Re-evaluate 2026-11-25 open (needs fresh pipeline).
+- NBIS still BLOCKED by cap (10:10 pipeline BUY 10 @87.90, stop 81); now 87.26, vol 1.06x. Fresh pipeline needed next day.
+- TPL PASS (all-stock ~17% dilutive acquirer, 37.5% 5d win rate); MS PASS (incremental Saudi approval, no edge). Pipelines 2026-11-24-1250-TPL / -MS.
+- Pre-gate WATCH (vol < 1.0x at 12:32): BA 0.40x, UBER 0.58x, RTX 0.52x, TMO 0.67x, ESLT 0.61x.
+- NBIS: WATCH 2026-11-24 15:21 vol 0.85x < 1.0x (hard major_contract, -11%); re-check next session
+
+## 2026-11-24 EOD snapshot
+- Trades today 5 buys: ADI 2@319.11 (stop 297), SJM 6@130.505 (stop 124.5), MDT 7@99.19 (stop 94), DY 6@191.45, HPE 15@39.60 (15:21, OTO stop 37, target 46; 2 earlier slots blocked by the old 4-trade cap).
+- Stops fired: DY stop filled 6@180.90 at 12:14 ET (-$63 realized, -5.5%).
+- Blocked/watch: NBIS WATCH vol 0.85x < 1.0x (Diana BUY 10@87.90 stop 81 earlier; fresh pipeline needed); TPL/MS PASS; BA/UBER/RTX/TMO pre-gate WATCH volume.
+- Movers: micro-cap/warrant noise only; nothing in quality universe. ADI -17%, HPE -17% on the day (AI-semis/server selloff) but both above stops (ADI 313 vs 297; HPE 39.90 vs 37).
+- Day P&L +$83 (+0.28%): equity $29,926.58 vs $29,843.28 prior close; cash $11,520 (38.5%); long value $18,406. Open positions +$261 vs entry-day basis, DY realized -$63. REGN +$90, LOW +$39, MRK +$37, WMT +$38; IESC -$39, MDT -$21. All 17 live positions above stops. 737CVR019 is a CVR line (no price).
