@@ -331,3 +331,26 @@ ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-
 - Blocked/watch: NBIS WATCH vol 0.85x < 1.0x (Diana BUY 10@87.90 stop 81 earlier; fresh pipeline needed); TPL/MS PASS; BA/UBER/RTX/TMO pre-gate WATCH volume.
 - Movers: micro-cap/warrant noise only; nothing in quality universe. ADI -17%, HPE -17% on the day (AI-semis/server selloff) but both above stops (ADI 313 vs 297; HPE 39.90 vs 37).
 - Day P&L +$83 (+0.28%): equity $29,926.58 vs $29,843.28 prior close; cash $11,520 (38.5%); long value $18,406. Open positions +$261 vs entry-day basis, DY realized -$63. REGN +$90, LOW +$39, MRK +$37, WMT +$38; IESC -$39, MDT -$21. All 17 live positions above stops. 737CVR019 is a CVR line (no price).
+
+## Autopilot morning - 2026-11-25 10:10 ET
+- Bought NBIS 12@77.92 (stop 70.50), TEM 11@52.225 (stop 48.40). DE PASS (EPS miss).
+- Pre-gate WATCH (vol < 1.0x): GE 0.50x, UBS 0.64x, ZTS 0.47x. Re-run B0 next slot.
+
+## Dip scan 2026-11-25 10:20 ET
+- WATCH MU -9.5% @570.25, dip score ~86, soft catalyst (sector selloff + analyst supply-glut). Gate BLOCK vol 1.31x < 1.5x. Same sector driver for LRCX/AMAT/AMD/NVDA/ARM; correlated with held ADI/HPE/NBIS.
+
+## Dip scan 2026-11-25 11:15 ET
+- No fast-track. Broad AI/semis/tech rout (LRCX -12, MU -11.8, AMAT -10, INTC -9.6, AMD -9.2, MRVL -9, ARM -9, ORCL -8.8 on CDS spreads, NVDA -8.7, DDOG -8.3). Soft sector catalyst, no stock-specific hard news; MU already WATCH at 10:20. Revisit on a hard-catalyst name or volume confirmation.
+
+## Autopilot midday — 2026-11-25 13:00 ET
+| RTX | WATCH | $196.2 (+0.4%) | Score 97, $22.9B Tomahawk contract (single secondary source). Pre-gate volume 0.46x < 1.0x. Re-check when volume builds. Pipeline `2026-11-25-1250-RTX` |
+| HEI | WATCH | $333.1 (-0.4%) | Score 69, Cook Defence bolt-on + earnings, stale 20h. Pre-gate volume 0.42x. Pipeline `2026-11-25-1250-HEI` |
+| BE | PASS | $146 (-6.5%) | Score 80, stale Q3 beat, AI-power sector unwind, Atlas no edge. Pipeline `2026-11-25-1250-BE` |
+- 2026-11-25 PCG: WATCH, CPUC interim rate hike, volume 0.53x < 1.0x (pre-gate); recheck next session.
+
+## 2026-11-25 EOD snapshot
+- Trades today 5 buys (all OTO with stops): NBIS 12@77.92 (stop 70.50, since ratcheted to 77.92), TEM 11@52.225 (stop 48.40), ADSK 6@250.77 (stop 232.78), BBIO 10@87.39 (stop 81.28), SPCX 4@127.27 (stop 118.25). No blocks at gate level beyond pre-gate WATCHes; MU dip-scan BLOCK vol 1.31x (soft sector selloff).
+- Stops fired: none.
+- Pre-gate WATCH (volume): RTX 0.46x, HEI 0.42x, PCG 0.53x, GE/UBS/ZTS earlier. BE PASS. Re-check next session (2026-11-27, half day, close 13:00 ET).
+- Movers: micro-cap/warrant noise only; nothing in quality universe.
+- Day P&L +$281 (+0.94%): equity $30,217.09 vs $29,936.05 prior close; cash $7,123; long value $23,094. 25 live positions, all with stops except CVR 737CVR019. Best: REGN +$489 total (+33%), NBIS +$89, LOW +$135 total; worst: MDT -$22, ADSK -$17.

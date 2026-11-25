@@ -1,10 +1,10 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-11-17 Tue 16:20 ET (EOD, 1 trade: DIS)
-**Equity:** $29,882.85 (-0.34% / -$103 day)
-**Cash:** $23,733.51 (79.4%)
-**Position count:** 7 equity + CVR
-**Day trades:** 1/4 | **Stops fired:** BABA
+**Last update:** 2026-11-25 Wed 16:20 ET (EOD, 5 buys: NBIS, TEM, ADSK, BBIO, SPCX)
+**Equity:** $30,217.09 (+0.94% / +$281 day)
+**Cash:** $7,123.11 (23.6%)
+**Position count:** 22 equity + CVR
+**Day trades:** 5 | **Stops fired:** none
 
 ## 13:18 Re-fire — delta check, nothing new
 
