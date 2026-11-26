@@ -1,4 +1,4 @@
-# Watchlist — Last update 2026-11-19 16:20 ET (eod_summary)
+# Watchlist — Last update 2026-11-26 16:20 ET (eod_summary)
 
 ## EOD snapshot — 2026-11-19
 
@@ -354,3 +354,11 @@ ACM: WATCH 2026-11-18 midday, re-enter pullback 78-79 (pipeline 2026-11-18-1248-
 - Pre-gate WATCH (volume): RTX 0.46x, HEI 0.42x, PCG 0.53x, GE/UBS/ZTS earlier. BE PASS. Re-check next session (2026-11-27, half day, close 13:00 ET).
 - Movers: micro-cap/warrant noise only; nothing in quality universe.
 - Day P&L +$281 (+0.94%): equity $30,217.09 vs $29,936.05 prior close; cash $7,123; long value $23,094. 25 live positions, all with stops except CVR 737CVR019. Best: REGN +$489 total (+33%), NBIS +$89, LOW +$135 total; worst: MDT -$22, ADSK -$17.
+
+## 2026-11-26 EOD snapshot (Thanksgiving, market closed)
+- No session: get_clock is_open=false all day; autopilot morning/midday/close and hourly dip scans stood down. Trades 0, blocked 0, stops fired 0. No order activity since 2026-11-25 (last fill SPCX 4@127.27, 15:21 ET).
+- Mercury kept filtering news: 61 alerts logged today (e.g. TRP regulatory, BCO/MO/PPC acquisition, TSLA legal); all go to the 2026-11-27 morning autopilot re-score.
+- Movers: stale 11-25 micro-cap/warrant noise (NRSNW, WLDSW, BGLC; HCTI, EUDA); nothing in quality universe.
+- Day P&L $0 (0.00%): equity $30,208.02 = last equity; cash $7,123 (23.6%); long value $23,085 across 22 positions + CVR 737CVR019. All 22 have live GTC stops (qty_available 0 on every one).
+- Stops within 5% of the 11-25 close: **MDT 96.06 vs 94 (2.1%)**, SJM 130.06 vs 124.5 (4.3%), TU 10.80 vs 10.30 (4.6%), MRK 140.29 vs 133.62 (4.8%, breakeven), WMT 131.94 vs 125.31 (5.0%, breakeven). Biggest open gains: REGN +$489 (+33%), LOW +$142, WMT +$100, NBIS +$85 (stop at breakeven 77.92).
+- Carry to 2026-11-27 (half day, close 13:00 ET): pre-gate WATCH RTX, HEI, PCG, GE, UBS, ZTS; MU dip WATCH (soft sector catalyst). Daily budget resets to $5K, but cash is $7,123 against a $2K reserve, so about $5.1K is deployable.

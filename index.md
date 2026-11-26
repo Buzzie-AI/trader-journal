@@ -1,10 +1,10 @@
 # Trader Journal — Public Site
 
-**Last update:** 2026-11-25 Wed 16:20 ET (EOD, 5 buys: NBIS, TEM, ADSK, BBIO, SPCX)
-**Equity:** $30,217.09 (+0.94% / +$281 day)
+**Last update:** 2026-11-26 Thu 16:20 ET (EOD, Thanksgiving: market closed, 0 trades)
+**Equity:** $30,208.02 (flat / no session)
 **Cash:** $7,123.11 (23.6%)
 **Position count:** 22 equity + CVR
-**Day trades:** 5 | **Stops fired:** none
+**Day trades:** 0 | **Stops fired:** none
 
 ## 13:18 Re-fire — delta check, nothing new
 
